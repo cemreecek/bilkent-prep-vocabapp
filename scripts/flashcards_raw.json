@@ -1,0 +1,530 @@
+[
+  {
+    "id": "tube",
+    "day": "Monday",
+    "word": "Tube",
+    "definition": ""
+  },
+  {
+    "id": "boost",
+    "day": "Monday",
+    "word": "Boost",
+    "definition": ""
+  },
+  {
+    "id": "treat",
+    "day": "Monday",
+    "word": "Treat",
+    "definition": ""
+  },
+  {
+    "id": "bind",
+    "day": "Monday",
+    "word": "Bind",
+    "definition": ""
+  },
+  {
+    "id": "incentive",
+    "day": "Monday",
+    "word": "Incentive",
+    "definition": ""
+  },
+  {
+    "id": "frozen",
+    "day": "Monday",
+    "word": "Frozen",
+    "definition": ""
+  },
+  {
+    "id": "abortion",
+    "day": "Monday",
+    "word": "Abortion",
+    "definition": ""
+  },
+  {
+    "id": "prior",
+    "day": "Monday",
+    "word": "Prior",
+    "definition": ""
+  },
+  {
+    "id": "terror",
+    "day": "Monday",
+    "word": "Terror",
+    "definition": ""
+  },
+  {
+    "id": "longevity",
+    "day": "Monday",
+    "word": "Longevity",
+    "definition": ""
+  },
+  {
+    "id": "energetic",
+    "day": "Monday",
+    "word": "Energetic",
+    "definition": ""
+  },
+  {
+    "id": "enforce",
+    "day": "Monday",
+    "word": "Enforce",
+    "definition": ""
+  },
+  {
+    "id": "chief",
+    "day": "Monday",
+    "word": "Chief",
+    "definition": ""
+  },
+  {
+    "id": "minimum",
+    "day": "Monday",
+    "word": "Minimum",
+    "definition": ""
+  },
+  {
+    "id": "wreck",
+    "day": "Monday",
+    "word": "Wreck",
+    "definition": ""
+  },
+  {
+    "id": "reform",
+    "day": "Monday",
+    "word": "Reform",
+    "definition": ""
+  },
+  {
+    "id": "intense",
+    "day": "Monday",
+    "word": "Intense",
+    "definition": ""
+  },
+  {
+    "id": "furious",
+    "day": "Monday",
+    "word": "Furious",
+    "definition": ""
+  },
+  {
+    "id": "automate",
+    "day": "Monday",
+    "word": "Automate",
+    "definition": ""
+  },
+  {
+    "id": "hire",
+    "day": "Tuesday",
+    "word": "Hire",
+    "definition": ""
+  },
+  {
+    "id": "merchant",
+    "day": "Tuesday",
+    "word": "Merchant",
+    "definition": ""
+  },
+  {
+    "id": "rumor",
+    "day": "Tuesday",
+    "word": "Rumor",
+    "definition": ""
+  },
+  {
+    "id": "guarantee",
+    "day": "Tuesday",
+    "word": "Guarantee",
+    "definition": ""
+  },
+  {
+    "id": "chamber",
+    "day": "Tuesday",
+    "word": "Chamber",
+    "definition": ""
+  },
+  {
+    "id": "burden",
+    "day": "Tuesday",
+    "word": "Burden",
+    "definition": ""
+  },
+  {
+    "id": "shade",
+    "day": "Tuesday",
+    "word": "Shade",
+    "definition": ""
+  },
+  {
+    "id": "restrain",
+    "day": "Tuesday",
+    "word": "Restrain",
+    "definition": ""
+  },
+  {
+    "id": "rejoice",
+    "day": "Tuesday",
+    "word": "Rejoice",
+    "definition": ""
+  },
+  {
+    "id": "accumulate",
+    "day": "Tuesday",
+    "word": "Accumulate",
+    "definition": ""
+  },
+  {
+    "id": "correspond",
+    "day": "Tuesday",
+    "word": "Correspond",
+    "definition": ""
+  },
+  {
+    "id": "meanwhile",
+    "day": "Tuesday",
+    "word": "Meanwhile",
+    "definition": ""
+  },
+  {
+    "id": "noble",
+    "day": "Tuesday",
+    "word": "Noble",
+    "definition": ""
+  },
+  {
+    "id": "joint",
+    "day": "Tuesday",
+    "word": "Joint",
+    "definition": ""
+  },
+  {
+    "id": "reproduce",
+    "day": "Tuesday",
+    "word": "Reproduce",
+    "definition": ""
+  },
+  {
+    "id": "dictate",
+    "day": "Tuesday",
+    "word": "Dictate",
+    "definition": ""
+  },
+  {
+    "id": "outdated",
+    "day": "Wednesday",
+    "word": "Outdated",
+    "definition": ""
+  },
+  {
+    "id": "negotiate",
+    "day": "Wednesday",
+    "word": "Negotiate",
+    "definition": ""
+  },
+  {
+    "id": "route",
+    "day": "Wednesday",
+    "word": "Route",
+    "definition": ""
+  },
+  {
+    "id": "haste",
+    "day": "Wednesday",
+    "word": "Haste",
+    "definition": ""
+  },
+  {
+    "id": "fellow",
+    "day": "Wednesday",
+    "word": "Fellow",
+    "definition": ""
+  },
+  {
+    "id": "operate",
+    "day": "Wednesday",
+    "word": "Operate",
+    "definition": ""
+  },
+  {
+    "id": "careless",
+    "day": "Wednesday",
+    "word": "Careless",
+    "definition": ""
+  },
+  {
+    "id": "confront",
+    "day": "Wednesday",
+    "word": "Confront",
+    "definition": ""
+  },
+  {
+    "id": "flesh",
+    "day": "Wednesday",
+    "word": "Flesh",
+    "definition": ""
+  },
+  {
+    "id": "hostile",
+    "day": "Wednesday",
+    "word": "Hostile",
+    "definition": ""
+  },
+  {
+    "id": "procedure",
+    "day": "Wednesday",
+    "word": "Procedure",
+    "definition": ""
+  },
+  {
+    "id": "resist",
+    "day": "Wednesday",
+    "word": "Resist",
+    "definition": ""
+  },
+  {
+    "id": "mutual",
+    "day": "Wednesday",
+    "word": "Mutual",
+    "definition": ""
+  },
+  {
+    "id": "conclude",
+    "day": "Wednesday",
+    "word": "Conclude",
+    "definition": ""
+  },
+  {
+    "id": "swing",
+    "day": "Wednesday",
+    "word": "Swing",
+    "definition": ""
+  },
+  {
+    "id": "evaporate",
+    "day": "Wednesday",
+    "word": "Evaporate",
+    "definition": ""
+  },
+  {
+    "id": "flaw",
+    "day": "Wednesday",
+    "word": "Flaw",
+    "definition": ""
+  },
+  {
+    "id": "unify",
+    "day": "Wednesday",
+    "word": "Unify",
+    "definition": ""
+  },
+  {
+    "id": "finite/infinite",
+    "day": "Thursday",
+    "word": "Finite/Infinite",
+    "definition": ""
+  },
+  {
+    "id": "indefinite /definite",
+    "day": "Thursday",
+    "word": "Indefinite /definite",
+    "definition": ""
+  },
+  {
+    "id": "administer",
+    "day": "Thursday",
+    "word": "Administer",
+    "definition": ""
+  },
+  {
+    "id": "declare",
+    "day": "Thursday",
+    "word": "Declare",
+    "definition": ""
+  },
+  {
+    "id": "automatic",
+    "day": "Thursday",
+    "word": "Automatic",
+    "definition": ""
+  },
+  {
+    "id": "replicate",
+    "day": "Thursday",
+    "word": "Replicate",
+    "definition": ""
+  },
+  {
+    "id": "apologize",
+    "day": "Thursday",
+    "word": "Apologize",
+    "definition": ""
+  },
+  {
+    "id": "confirm",
+    "day": "Thursday",
+    "word": "Confirm",
+    "definition": ""
+  },
+  {
+    "id": "jewel",
+    "day": "Thursday",
+    "word": "Jewel",
+    "definition": ""
+  },
+  {
+    "id": "proceed",
+    "day": "Thursday",
+    "word": "Proceed",
+    "definition": ""
+  },
+  {
+    "id": "dispose",
+    "day": "Thursday",
+    "word": "Dispose",
+    "definition": ""
+  },
+  {
+    "id": "session",
+    "day": "Thursday",
+    "word": "Session",
+    "definition": ""
+  },
+  {
+    "id": "civil",
+    "day": "Thursday",
+    "word": "Civil",
+    "definition": ""
+  },
+  {
+    "id": "smart",
+    "day": "Thursday",
+    "word": "Smart",
+    "definition": ""
+  },
+  {
+    "id": "compose",
+    "day": "Thursday",
+    "word": "Compose",
+    "definition": ""
+  },
+  {
+    "id": "hack",
+    "day": "Thursday",
+    "word": "Hack",
+    "definition": ""
+  },
+  {
+    "id": "inferior",
+    "day": "Thursday",
+    "word": "Inferior",
+    "definition": ""
+  },
+  {
+    "id": "properly",
+    "day": "Friday",
+    "word": "Properly",
+    "definition": ""
+  },
+  {
+    "id": "stove",
+    "day": "Friday",
+    "word": "Stove",
+    "definition": ""
+  },
+  {
+    "id": "vehicle",
+    "day": "Friday",
+    "word": "Vehicle",
+    "definition": ""
+  },
+  {
+    "id": "prospective",
+    "day": "Friday",
+    "word": "Prospective",
+    "definition": ""
+  },
+  {
+    "id": "preliminary",
+    "day": "Friday",
+    "word": "Preliminary",
+    "definition": ""
+  },
+  {
+    "id": "upward",
+    "day": "Friday",
+    "word": "Upward",
+    "definition": ""
+  },
+  {
+    "id": "attorney",
+    "day": "Friday",
+    "word": "Attorney",
+    "definition": ""
+  },
+  {
+    "id": "domain",
+    "day": "Friday",
+    "word": "Domain",
+    "definition": ""
+  },
+  {
+    "id": "ahead",
+    "day": "Friday",
+    "word": "Ahead",
+    "definition": ""
+  },
+  {
+    "id": "undertake",
+    "day": "Friday",
+    "word": "Undertake",
+    "definition": ""
+  },
+  {
+    "id": "attain",
+    "day": "Friday",
+    "word": "Attain",
+    "definition": ""
+  },
+  {
+    "id": "cite",
+    "day": "Friday",
+    "word": "Cite",
+    "definition": ""
+  },
+  {
+    "id": "applaud",
+    "day": "Friday",
+    "word": "Applaud",
+    "definition": ""
+  },
+  {
+    "id": "blind",
+    "day": "Friday",
+    "word": "Blind",
+    "definition": ""
+  },
+  {
+    "id": "ignorant",
+    "day": "Friday",
+    "word": "Ignorant",
+    "definition": ""
+  },
+  {
+    "id": "tension",
+    "day": "Friday",
+    "word": "Tension",
+    "definition": ""
+  },
+  {
+    "id": "betray",
+    "day": "Friday",
+    "word": "Betray",
+    "definition": ""
+  },
+  {
+    "id": "considerate",
+    "day": "Friday",
+    "word": "Considerate",
+    "definition": ""
+  }
+]

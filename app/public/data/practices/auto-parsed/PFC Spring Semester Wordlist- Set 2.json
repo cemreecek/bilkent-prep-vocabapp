@@ -1,0 +1,151 @@
+[
+  {
+    "instruction": "Vocabulary list for Monday",
+    "type": "word-bank",
+    "items": [
+      {
+        "questionText": "Monday Vocabulary Words",
+        "options": [
+          { "text": "Heel" },
+          { "text": "Bend" },
+          { "text": "Lord" },
+          { "text": "Approach" },
+          { "text": "Curse" },
+          { "text": "Blink" },
+          { "text": "Exploit" },
+          { "text": "Ideological" },
+          { "text": "Agenda" },
+          { "text": "Potential" },
+          { "text": "Outbreak" },
+          { "text": "Harvest" },
+          { "text": "Prevalent" },
+          { "text": "Underestimate" },
+          { "text": "Liable" },
+          { "text": "assemble" },
+          { "text": "Coincide" },
+          { "text": "Inborn" },
+          { "text": "Equivalent" }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Vocabulary list for Tuesday",
+    "type": "word-bank",
+    "items": [
+      {
+        "questionText": "Tuesday Vocabulary Words",
+        "options": [
+          { "text": "Absolute" },
+          { "text": "Timely" },
+          { "text": "Shift" },
+          { "text": "Neglect" },
+          { "text": "Exception" },
+          { "text": "Drive" },
+          { "text": "Plot" },
+          { "text": "Compile" },
+          { "text": "Accustomed" },
+          { "text": "Sole" },
+          { "text": "Radical" },
+          { "text": "Contaminate" },
+          { "text": "Inevitable" },
+          { "text": "Accountable" },
+          { "text": "Rubber" },
+          { "text": "Deteriorate" },
+          { "text": "Demolish" },
+          { "text": "thread" }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Vocabulary list for Wednesday",
+    "type": "word-bank",
+    "items": [
+      {
+        "questionText": "Wednesday Vocabulary Words",
+        "options": [
+          { "text": "Nuclear" },
+          { "text": "Sharp" },
+          { "text": "Gifted" },
+          { "text": "Rebel" },
+          { "text": "Beneficiary" },
+          { "text": "Disrespect" },
+          { "text": "Subconscious" },
+          { "text": "Dig" },
+          { "text": "Conscience" },
+          { "text": "Coal" },
+          { "text": "Incorporate" },
+          { "text": "Cater" },
+          { "text": "Liberal" },
+          { "text": "Conservative" },
+          { "text": "Capable /Incapable (of)" },
+          { "text": "desert" },
+          { "text": "Instance" },
+          { "text": "Advocate" },
+          { "text": "Alert" }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Vocabulary list for Thursday",
+    "type": "word-bank",
+    "items": [
+      {
+        "questionText": "Thursday Vocabulary Words",
+        "options": [
+          { "text": "Backbone" },
+          { "text": "Cease" },
+          { "text": "Copyright" },
+          { "text": "Beneath" },
+          { "text": "Humid" },
+          { "text": "Sword" },
+          { "text": "Modify" },
+          { "text": "Additive" },
+          { "text": "Periodical" },
+          { "text": "Manipulate" },
+          { "text": "Numerous" },
+          { "text": "Dam" },
+          { "text": "Coordinate" },
+          { "text": "Diagnose" },
+          { "text": "Peculiar" },
+          { "text": "lawsuit" },
+          { "text": "Vulnerable" },
+          { "text": "Devastate" },
+          { "text": "Confidential" }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Vocabulary list for Friday",
+    "type": "word-bank",
+    "items": [
+      {
+        "questionText": "Friday Vocabulary Words",
+        "options": [
+          { "text": "Emit" },
+          { "text": "Preservation" },
+          { "text": "Rush" },
+          { "text": "Compensate" },
+          { "text": "Commentary" },
+          { "text": "Lid" },
+          { "text": "Deter" },
+          { "text": "Nuisance" },
+          { "text": "Humiliate" },
+          { "text": "Commodity" },
+          { "text": "Recruit" },
+          { "text": "Logic" },
+          { "text": "Border" },
+          { "text": "Labour" },
+          { "text": "Threat" },
+          { "text": "vanish" },
+          { "text": "Worthwhile" },
+          { "text": "Disrupt" },
+          { "text": "Compulsory" }
+        ]
+      }
+    ]
+  }
+]

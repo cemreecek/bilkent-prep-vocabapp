@@ -1,0 +1,446 @@
+[
+  {
+    "instruction": "Read the following text and choose the best option.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Climatologists predict that 50 per cent of sandy beaches along the world's coastlines could {1} vanish over the next eight decades if climate change continues on its current path. Areas at risk of disappearing {2} include well-known beaches like Copacabana in Brazil and Costa del Sol in Spain. The scientists from the European Commission's Joint Research Centre have warned that the shorelines of many highly populated areas and tourist hot spots are already under {3} from the surging sea levels. In their report, human activity is mainly held {4} for this and some {5} measures are suggested to be taken imminently. The most obvious one is reducing the carbon {6} so as to reverse the impacts of global warming. Another one is the {7} of the existing coastlines by creating a protective barrier between the land and the ocean in a {8} manner.",
+        "options": [
+          [
+            { "text": "A) inevitably", "isCorrect": true, "blankIndex": 1 },
+            { "text": "B) desperately", "isCorrect": false, "blankIndex": 1 },
+            { "text": "C) temporarily", "isCorrect": false, "blankIndex": 1 },
+            { "text": "D) extremely", "isCorrect": false, "blankIndex": 1 },
+            { "text": "E) intensively", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "A) forever", "isCorrect": true, "blankIndex": 2 },
+            { "text": "B) seldom", "isCorrect": false, "blankIndex": 2 },
+            { "text": "C) somewhat", "isCorrect": false, "blankIndex": 2 },
+            { "text": "D) throughout", "isCorrect": false, "blankIndex": 2 },
+            { "text": "E) meanwhile", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "A) threat", "isCorrect": true, "blankIndex": 3 },
+            { "text": "B) outbreak", "isCorrect": false, "blankIndex": 3 },
+            { "text": "C) nuisance", "isCorrect": false, "blankIndex": 3 },
+            { "text": "D) labour", "isCorrect": false, "blankIndex": 3 },
+            { "text": "E) urgency", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "A) inadequate", "isCorrect": false, "blankIndex": 4 },
+            { "text": "B) suspicious", "isCorrect": false, "blankIndex": 4 },
+            { "text": "C) insensitive", "isCorrect": false, "blankIndex": 4 },
+            { "text": "D) accountable", "isCorrect": true, "blankIndex": 4 },
+            { "text": "E) deceptive", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "A) intense", "isCorrect": false, "blankIndex": 5 },
+            { "text": "B) prevalent", "isCorrect": false, "blankIndex": 5 },
+            { "text": "C) liable", "isCorrect": false, "blankIndex": 5 },
+            { "text": "D) liberal", "isCorrect": false, "blankIndex": 5 },
+            { "text": "E) radical", "isCorrect": true, "blankIndex": 5 }
+          ],
+          [
+            { "text": "A) additives", "isCorrect": false, "blankIndex": 6 },
+            { "text": "B) emissions", "isCorrect": true, "blankIndex": 6 },
+            { "text": "C) components", "isCorrect": false, "blankIndex": 6 },
+            { "text": "D) deposits", "isCorrect": false, "blankIndex": 6 },
+            { "text": "E) commodities", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "A) examination", "isCorrect": false, "blankIndex": 7 },
+            { "text": "B) foundation", "isCorrect": false, "blankIndex": 7 },
+            { "text": "C) preservation", "isCorrect": true, "blankIndex": 7 },
+            { "text": "D) generation", "isCorrect": false, "blankIndex": 7 },
+            { "text": "E) completion", "isCorrect": false, "blankIndex": 7 }
+          ],
+          [
+            { "text": "A) lively", "isCorrect": false, "blankIndex": 8 },
+            { "text": "B) gifted", "isCorrect": false, "blankIndex": 8 },
+            { "text": "C) timely", "isCorrect": true, "blankIndex": 8 },
+            { "text": "D) progressive", "isCorrect": false, "blankIndex": 8 },
+            { "text": "E) unique", "isCorrect": false, "blankIndex": 8 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the text/sentences. Fill in each space in this way. Spelling mistakes will be penalized.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "To call ocean pollution a “big problem” is an _______________(1).",
+        "correctAnswer": "UNDERESTIMATION",
+        "options": []
+      },
+      {
+        "questionText": "To help raise awareness of this massive _______________(2), action is being taken all around the world.",
+        "correctAnswer": "CONTAMINATION",
+        "options": []
+      },
+      {
+        "questionText": "Working in _______________(3) with ‘Parley for the Oceans’, an organization which has dedicated itself _______________(4) to conserving the Earth's oceans...",
+        "correctAnswer": "COORDINATION",
+        "options": []
+      },
+      {
+        "questionText": "...an organization which has dedicated itself _______________(4) to conserving the Earth's oceans...",
+        "correctAnswer": "SOLELY",
+        "options": []
+      },
+      {
+        "questionText": "...governments need to enforce stricter rules and regulations which will act as a _______________(5) to especially those who unlawfully dump nets into sea waters.",
+        "correctAnswer": "DETERRENT",
+        "options": []
+      },
+      {
+        "questionText": "_______________(6) in enforcing these regulations could lead to continued environmental damage...",
+        "correctAnswer": "NEGLIGENCE",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "A) Match the words with their right collocation",
+    "type": "multiple-choice", 
+    "items": [
+      {
+        "questionText": "1. cater",
+        "options": [
+          { "text": "a. to", "isCorrect": true },
+          { "text": "b. of", "isCorrect": false },
+          { "text": "c. in", "isCorrect": false },
+          { "text": "d. into", "isCorrect": false },
+          { "text": "e. to", "isCorrect": true },
+          { "text": "f. against", "isCorrect": false },
+          { "text": "g. with", "isCorrect": false },
+          { "text": "h. from", "isCorrect": false },
+          { "text": "i. on", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "2. diagnosed",
+        "options": [
+          { "text": "a. to", "isCorrect": false },
+          { "text": "b. of", "isCorrect": false },
+          { "text": "c. in", "isCorrect": false },
+          { "text": "d. into", "isCorrect": false },
+          { "text": "e. to", "isCorrect": false },
+          { "text": "f. against", "isCorrect": false },
+          { "text": "g. with", "isCorrect": true },
+          { "text": "h. from", "isCorrect": false },
+          { "text": "i. on", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "3. incorporate",
+        "options": [
+          { "text": "a. to", "isCorrect": false },
+          { "text": "b. of", "isCorrect": false },
+          { "text": "c. in", "isCorrect": false },
+          { "text": "d. into", "isCorrect": true },
+          { "text": "e. to", "isCorrect": false },
+          { "text": "f. against", "isCorrect": false },
+          { "text": "g. with", "isCorrect": false },
+          { "text": "h. from", "isCorrect": false },
+          { "text": "i. on", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "4. rebel",
+        "options": [
+          { "text": "a. to", "isCorrect": false },
+          { "text": "b. of", "isCorrect": false },
+          { "text": "c. in", "isCorrect": false },
+          { "text": "d. into", "isCorrect": false },
+          { "text": "e. to", "isCorrect": false },
+          { "text": "f. against", "isCorrect": true },
+          { "text": "g. with", "isCorrect": false },
+          { "text": "h. from", "isCorrect": false },
+          { "text": "i. on", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "5. capable",
+        "options": [
+          { "text": "a. to", "isCorrect": false },
+          { "text": "b. of", "isCorrect": true },
+          { "text": "c. in", "isCorrect": false },
+          { "text": "d. into", "isCorrect": false },
+          { "text": "e. to", "isCorrect": false },
+          { "text": "f. against", "isCorrect": false },
+          { "text": "g. with", "isCorrect": false },
+          { "text": "h. from", "isCorrect": false },
+          { "text": "i. on", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "6. accustomed",
+        "options": [
+          { "text": "a. to", "isCorrect": true },
+          { "text": "b. of", "isCorrect": false },
+          { "text": "c. in", "isCorrect": false },
+          { "text": "d. into", "isCorrect": false },
+          { "text": "e. to", "isCorrect": true },
+          { "text": "f. against", "isCorrect": false },
+          { "text": "g. with", "isCorrect": false },
+          { "text": "h. from", "isCorrect": false },
+          { "text": "i. on", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "7. compile",
+        "options": [
+          { "text": "a. to", "isCorrect": false },
+          { "text": "b. of", "isCorrect": false },
+          { "text": "c. in", "isCorrect": false },
+          { "text": "d. into", "isCorrect": false },
+          { "text": "e. to", "isCorrect": false },
+          { "text": "f. against", "isCorrect": false },
+          { "text": "g. with", "isCorrect": false },
+          { "text": "h. from", "isCorrect": true },
+          { "text": "i. on", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "8. gifted",
+        "options": [
+          { "text": "a. to", "isCorrect": false },
+          { "text": "b. of", "isCorrect": false },
+          { "text": "c. in", "isCorrect": true },
+          { "text": "d. into", "isCorrect": false },
+          { "text": "e. to", "isCorrect": false },
+          { "text": "f. against", "isCorrect": false },
+          { "text": "g. with", "isCorrect": false },
+          { "text": "h. from", "isCorrect": false },
+          { "text": "i. on", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "9. copyright",
+        "options": [
+          { "text": "a. to", "isCorrect": false },
+          { "text": "b. of", "isCorrect": false },
+          { "text": "c. in", "isCorrect": false },
+          { "text": "d. into", "isCorrect": false },
+          { "text": "e. to", "isCorrect": false },
+          { "text": "f. against", "isCorrect": false },
+          { "text": "g. with", "isCorrect": false },
+          { "text": "h. from", "isCorrect": false },
+          { "text": "i. on", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "B) Fill in the blanks with the correct collocations above.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "When symptoms first appeared, only a limited number of people were _______________ _____ the disease.",
+        "correctAnswer": "diagnosed with",
+        "options": []
+      },
+      {
+        "questionText": "If you _______________ _____ the government, you could be considered a traitor to your country.",
+        "correctAnswer": "rebel against",
+        "options": []
+      },
+      {
+        "questionText": "After her husband died, the young woman gave her child up for adoption because she was not _______________ _____raising him by herself.",
+        "correctAnswer": "capable of",
+        "options": []
+      },
+      {
+        "questionText": "In order to provide a complete report, the manager asked his staff to work day and night to _______________ the graphs and charts _____ the written text.",
+        "correctAnswer": "incorporate into",
+        "options": []
+      },
+      {
+        "questionText": "Many public schools fail to _______________ _____ the needs of talented children so parents end up transferring them to private schools.",
+        "correctAnswer": "cater to",
+        "options": []
+      },
+      {
+        "questionText": "Children who are _______________ _____ music and have extraordinary abilities are given wonderful opportunities at Bilkent University Music and Performing Arts Faculty.",
+        "correctAnswer": "gifted in",
+        "options": []
+      },
+      {
+        "questionText": "He reassured his classmate who is worried about the upcoming final exam by saying that he is planning to_______________ a study guide _____ the notes he took this semester.",
+        "correctAnswer": "compile from",
+        "options": []
+      },
+      {
+        "questionText": "Not being _______________ _____ preparing her own food, the wealthy woman is having a hard time finding her way around the kitchen. She shouldn’t have given the cook a day off.",
+        "correctAnswer": "accustomed to",
+        "options": []
+      },
+      {
+        "questionText": "The author holds the _______________ _____ the book, meaning no one can reproduce or distribute it without permission.",
+        "correctAnswer": "Copyright on",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Crossword Puzzle: Provide the word that fits each clue.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "Down 1: Very large in quantity (Hint: an adjective starting with “n”)",
+        "correctAnswer": "numerous",
+        "options": []
+      },
+      {
+        "questionText": "Down 2: Different to what is normal or expected; strange (Hint: an adjective starting with “p”)",
+        "correctAnswer": "peculiar",
+        "options": []
+      },
+      {
+        "questionText": "Down 3: To pay no attention or too little attention (Hint: a verb starting with “n”)",
+        "correctAnswer": "neglect",
+        "options": []
+      },
+      {
+        "questionText": "Down 4: To make someone feel ashamed and foolish by injuring their dignity and pride (Hint: a verb starting with “h”)",
+        "correctAnswer": "humiliate",
+        "options": []
+      },
+      {
+        "questionText": "Down 5: A person's moral sense of right and wrong (Hint: a noun starting with “c”)",
+        "correctAnswer": "conscience",
+        "options": []
+      },
+      {
+        "questionText": "Across 6: Having or showing the capacity to develop into something in the future (Hint: an adjective or a noun starting with “p”)",
+        "correctAnswer": "potential",
+        "options": []
+      },
+      {
+        "questionText": "Across 7: To find new people to join a company, an organization etc. (Hint: a verb starting with “r”)",
+        "correctAnswer": "recruit",
+        "options": []
+      },
+      {
+        "questionText": "Across 8: The official line separating two countries or regions (Hint: a noun starting with “b”)",
+        "correctAnswer": "border",
+        "options": []
+      },
+      {
+        "questionText": "Across 9: A list or outline of things to be considered or done (Hint: a noun starting with “a”)",
+        "correctAnswer": "agenda",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Choose the synonyms of the word that is underlined from the provided word bank: hurry, wet, drive, change, advocate for, preservative, epidemic, under, inborn, widespread, disrupt, exactly, equivalent.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "What is a synonym for 'beneath' in the sentence: 'After weeks at sea, it was wonderful to feel firm ground beneath our feet once more.'?",
+        "correctAnswer": "under",
+        "options": []
+      },
+      {
+        "questionText": "What is a synonym for 'humid' in the sentence: 'If the rising air is humid enough, water vapor in it will condense into clouds and maybe precipitation.'?",
+        "correctAnswer": "wet",
+        "options": []
+      },
+      {
+        "questionText": "What is a synonym for 'shifted' in the sentence: 'Media attention has shifted recently to environmental issues.'?",
+        "correctAnswer": "change",
+        "options": []
+      },
+      {
+        "questionText": "What is a synonym for 'rush' in the sentence: 'No need to rush… we've got loads of time.'?",
+        "correctAnswer": "hurry",
+        "options": []
+      },
+      {
+        "questionText": "What is a synonym for 'sharp' in the sentence: 'The time appointed for the meeting was 8 sharp.'?",
+        "correctAnswer": "exactly",
+        "options": []
+      },
+      {
+        "questionText": "What is a synonym for 'prevalent' in the sentence: 'This condition is more prevalent in women than in men.'?",
+        "correctAnswer": "widespread",
+        "options": []
+      },
+      {
+        "questionText": "What is a synonym for 'outbreak' in the sentence: 'A new outbreak of smallpox occurred in 1928.'?",
+        "correctAnswer": "epidemic",
+        "options": []
+      },
+      {
+        "questionText": "What is a synonym for 'additive' in the sentence: 'Once an additive has been approved as safe across the European Union, it is assigned a number.'?",
+        "correctAnswer": "preservative",
+        "options": []
+      },
+      {
+        "questionText": "What is a synonym for 'support' in the sentence: 'We don't know anything about those who publicly support free trade.'?",
+        "correctAnswer": "advocate for",
+        "options": []
+      },
+      {
+        "questionText": "What is a synonym for 'damage' in the sentence: 'Climate change could damage the global economy by reducing economic growth.'?",
+        "correctAnswer": "disrupt",
+        "options": []
+      },
+      {
+        "questionText": "What is a synonym for 'innate' in the sentence: 'Is a tendency towards violence an innate characteristic?'?",
+        "correctAnswer": "inborn",
+        "options": []
+      },
+      {
+        "questionText": "What is a synonym for 'equal' in the sentence: 'An area of forest equal to the size of Wales has been destroyed.'?",
+        "correctAnswer": "equivalent",
+        "options": []
+      },
+      {
+        "questionText": "What is a synonym for 'determination' in the sentence: 'Her determination and motivation to succeed were evident in everything she did, from her meticulous work ethic to her ambitious goals.'?",
+        "correctAnswer": "drive",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the blanks with correct words from the box. There are more words than you need in the box: vulnerable, thread, alert, gifted, exception, driven, deterred, subconscious, dam.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "We usually require a 10% deposit, but I'll make a(n)_______ in this case.",
+        "correctAnswer": "exception",
+        "options": []
+      },
+      {
+        "questionText": "The detective wondered what had _________ Christine to phone her.",
+        "correctAnswer": "driven",
+        "options": []
+      },
+      {
+        "questionText": "Now all they have is thick, wet soil that is __________ to erosion from all-too-frequent storms.",
+        "correctAnswer": "vulnerable",
+        "options": []
+      },
+      {
+        "questionText": "Our ___________ plays tricks with us sometimes and we may imagine that we are seeing things such as ghosts.",
+        "correctAnswer": "subconscious",
+        "options": []
+      },
+      {
+        "questionText": "There have been some thefts recently, so please stay __________ and don't leave handbags and valuables around.",
+        "correctAnswer": "alert",
+        "options": []
+      },
+      {
+        "questionText": "The novel's story ­ __________ connects different characters' perspectives, making the narrative more interesting.",
+        "correctAnswer": "thread",
+        "options": []
+      }
+    ]
+  }
+]

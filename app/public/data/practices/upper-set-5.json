@@ -1,0 +1,696 @@
+[
+  {
+    "instruction": "Part 1: Match the words to their definition.",
+    "type": "matching",
+    "items": [
+      {
+        "questionText": "Match 'Forbid' to its definition:",
+        "correctAnswer": "To prohibit or order not to do something",
+        "options": []
+      },
+      {
+        "questionText": "Match 'Prospective' to its definition:",
+        "correctAnswer": "expected to be the specified thing in the future; likely to happen at a future date",
+        "options": []
+      },
+      {
+        "questionText": "Match 'Dynamic' to its definition:",
+        "correctAnswer": "A person or thing that causes admiration due to being full of energy and new ideas",
+        "options": []
+      },
+      {
+        "questionText": "Match 'Sustainable' to its definition:",
+        "correctAnswer": "An action or policy that will not deplete resources or cause long-term damage",
+        "options": []
+      },
+      {
+        "questionText": "Match 'Maintain' to its definition:",
+        "correctAnswer": "To keep something in a particular state or condition",
+        "options": []
+      },
+      {
+        "questionText": "Match 'Rule' to its definition:",
+        "correctAnswer": "An authoritative direction or instruction; to exercise authority or control",
+        "options": []
+      },
+      {
+        "questionText": "Match 'Property' to its definition:",
+        "correctAnswer": "Something that belongs to someone; something owned; a quality or characteristic of something",
+        "options": []
+      },
+      {
+        "questionText": "Match 'Rewarding' to its definition:",
+        "correctAnswer": "Providing satisfaction or benefit",
+        "options": []
+      },
+      {
+        "questionText": "Match 'Principle' to its definition:",
+        "correctAnswer": "An idea or standard that is used as a basis for a system of belief or behavior",
+        "options": []
+      },
+      {
+        "questionText": "Match 'Apparent' to its definition:",
+        "correctAnswer": "Obvious or clearly visible",
+        "options": []
+      },
+      {
+        "questionText": "Match 'Deliberate' to its definition:",
+        "correctAnswer": "Done consciously and intentionally",
+        "options": []
+      },
+      {
+        "questionText": "Match 'Abuse' to its definition:",
+        "correctAnswer": "To treat someone or something unkindly; to misuse something",
+        "options": []
+      },
+      {
+        "questionText": "Match 'Claim' to its definition:",
+        "correctAnswer": "To declare something as one's own; an assertion of the truth of something",
+        "options": []
+      },
+      {
+        "questionText": "Match 'Threat' to its definition:",
+        "correctAnswer": "A statement of intention to cause pain, injury, or damage",
+        "options": []
+      },
+      {
+        "questionText": "Match 'Rate' to its definition:",
+        "correctAnswer": "The speed at which something happens or changes",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Part 2: Fill in the blanks with the most appropriate words from the box. Don’t change the forms of the words.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "France deserves its _______ for good food. There are great chefs living in France.",
+        "correctAnswer": "reputation",
+        "options": []
+      },
+      {
+        "questionText": "Unfortunately, her injury _______ her chances of winning the race.",
+        "correctAnswer": "ruined",
+        "options": []
+      },
+      {
+        "questionText": "I'm not _______, it was the worst meal I've ever eaten in my life.",
+        "correctAnswer": "exaggerating",
+        "options": []
+      },
+      {
+        "questionText": "Nursing can be a very _______ career as nurses serve and help people.",
+        "correctAnswer": "rewarding",
+        "options": []
+      },
+      {
+        "questionText": "This summer the private school is sending information packets about their programs to _______ students.",
+        "correctAnswer": "prospective",
+        "options": []
+      },
+      {
+        "questionText": "I don't think his name was left off the list by accident. I think it was _______.",
+        "correctAnswer": "deliberate",
+        "options": []
+      },
+      {
+        "questionText": "There were violent clashes between supporters and _______ of the government.",
+        "correctAnswer": "opponents",
+        "options": []
+      },
+      {
+        "questionText": "An important _______ of Van Gogh’s paintings is their bright colors.",
+        "correctAnswer": "feature",
+        "options": []
+      },
+      {
+        "questionText": "I wasted a/an _______ day waiting at the airport due to the delays and layovers.",
+        "correctAnswer": "entire",
+        "options": []
+      },
+      {
+        "questionText": "The training program _______ to raise employees' awareness about human rights.",
+        "correctAnswer": "aims",
+        "options": []
+      },
+      {
+        "questionText": "Have you had a/an _______ medical check-up within the last year?",
+        "correctAnswer": "thorough",
+        "options": []
+      },
+      {
+        "questionText": "That was quite a/an _______ performance! Congratulations!",
+        "correctAnswer": "outstanding",
+        "options": []
+      },
+      {
+        "questionText": "The anti-smoking campaign had made quite a/an _______ on young people.",
+        "correctAnswer": "impact",
+        "options": []
+      },
+      {
+        "questionText": "What rate will I get if I _______ my Dollars to Euros?",
+        "correctAnswer": "convert",
+        "options": []
+      },
+      {
+        "questionText": "We are so used to _______ that we don’t even notice how much money we spend.",
+        "correctAnswer": "consumerism",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Part 3: Choose the word that best completes the blank.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Consumerism is a {1} that pervades modern society. Companies {2} products at an alarming rate, often sacrificing quality for quantity. In the pursuit of profit, some businesses resort to {3} advertising tactics, hoping to enhance their {4} and attract more customers. However, this approach can be {5} to consumers who may fall prey to such information. That is why it is crucial for the public to {6} between genuine value and false promises. Amidst this atmosphere, there are also inspirational stories of {7} practices, where companies prioritize sustainability and social responsibility over mere profit. It is certain that by fostering a culture of mindful consumption and responsible consumerism, we can strive to create a more {8} and equitable world.",
+        "options": [
+          [
+            { "text": "claim", "isCorrect": false, "blankIndex": 1 },
+            { "text": "concept", "isCorrect": true, "blankIndex": 1 },
+            { "text": "reputation", "isCorrect": false, "blankIndex": 1 },
+            { "text": "convert", "isCorrect": false, "blankIndex": 1 },
+            { "text": "stock", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "owe", "isCorrect": false, "blankIndex": 2 },
+            { "text": "maintain", "isCorrect": false, "blankIndex": 2 },
+            { "text": "distinguish", "isCorrect": false, "blankIndex": 2 },
+            { "text": "prospect", "isCorrect": false, "blankIndex": 2 },
+            { "text": "manufacture", "isCorrect": true, "blankIndex": 2 }
+          ],
+          [
+            { "text": "casual", "isCorrect": false, "blankIndex": 3 },
+            { "text": "envious", "isCorrect": false, "blankIndex": 3 },
+            { "text": "ruined", "isCorrect": false, "blankIndex": 3 },
+            { "text": "manual", "isCorrect": false, "blankIndex": 3 },
+            { "text": "deceptive", "isCorrect": true, "blankIndex": 3 }
+          ],
+          [
+            { "text": "reputation", "isCorrect": true, "blankIndex": 4 },
+            { "text": "collective", "isCorrect": false, "blankIndex": 4 },
+            { "text": "deceit", "isCorrect": false, "blankIndex": 4 },
+            { "text": "aims", "isCorrect": false, "blankIndex": 4 },
+            { "text": "principle", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "inspirational", "isCorrect": false, "blankIndex": 5 },
+            { "text": "misleading", "isCorrect": true, "blankIndex": 5 },
+            { "text": "reflective", "isCorrect": false, "blankIndex": 5 },
+            { "text": "dynamic", "isCorrect": false, "blankIndex": 5 },
+            { "text": "opposed", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "exaggerate", "isCorrect": false, "blankIndex": 6 },
+            { "text": "witness", "isCorrect": false, "blankIndex": 6 },
+            { "text": "inspire", "isCorrect": false, "blankIndex": 6 },
+            { "text": "distinguish", "isCorrect": true, "blankIndex": 6 },
+            { "text": "rule", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "ethical", "isCorrect": true, "blankIndex": 7 },
+            { "text": "forbidden", "isCorrect": false, "blankIndex": 7 },
+            { "text": "abusive", "isCorrect": false, "blankIndex": 7 },
+            { "text": "prospective", "isCorrect": false, "blankIndex": 7 },
+            { "text": "massive", "isCorrect": false, "blankIndex": 7 }
+          ],
+          [
+            { "text": "apparent", "isCorrect": false, "blankIndex": 8 },
+            { "text": "casual", "isCorrect": false, "blankIndex": 8 },
+            { "text": "sustainable", "isCorrect": true, "blankIndex": 8 },
+            { "text": "featured", "isCorrect": false, "blankIndex": 8 },
+            { "text": "impacted", "isCorrect": false, "blankIndex": 8 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Part 4: Fill in the blanks with words from the box to form the proper collocations.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "a key _______",
+        "correctAnswer": "witness",
+        "options": []
+      },
+      {
+        "questionText": "a key _______",
+        "correctAnswer": "feature",
+        "options": []
+      },
+      {
+        "questionText": "_______ media",
+        "correctAnswer": "mass",
+        "options": []
+      },
+      {
+        "questionText": "to leave _______",
+        "correctAnswer": "voluntarily",
+        "options": []
+      },
+      {
+        "questionText": "abstract _______",
+        "correctAnswer": "concepts",
+        "options": []
+      },
+      {
+        "questionText": "to _______ someone generously for something",
+        "correctAnswer": "reward",
+        "options": []
+      },
+      {
+        "questionText": "_______ information",
+        "correctAnswer": "misleading",
+        "options": []
+      },
+      {
+        "questionText": "to be widely _______",
+        "correctAnswer": "criticized",
+        "options": []
+      },
+      {
+        "questionText": "a widespread _______",
+        "correctAnswer": "phenomenon",
+        "options": []
+      },
+      {
+        "questionText": "to be highly _______",
+        "correctAnswer": "reputable",
+        "options": []
+      },
+      {
+        "questionText": "_______ dressed",
+        "correctAnswer": "casually",
+        "options": []
+      },
+      {
+        "questionText": "to _______ someone an apology",
+        "correctAnswer": "owe",
+        "options": []
+      },
+      {
+        "questionText": "_______ labor",
+        "correctAnswer": "manual",
+        "options": []
+      },
+      {
+        "questionText": "to pose a _______",
+        "correctAnswer": "threat",
+        "options": []
+      },
+      {
+        "questionText": "to be well _______",
+        "correctAnswer": "stocked",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Part 5: Fill in the blanks with the correct word from the list below. Each word will be used only once. There are more words than you need.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "1. The primary _______ of the new software is to increase productivity.",
+        "correctAnswer": "aim",
+        "options": []
+      },
+      {
+        "questionText": "2. She is very _______ about her work in environmental conservation.",
+        "correctAnswer": "passionate",
+        "options": []
+      },
+      {
+        "questionText": "3. From his _______, the project seems feasible and promising.",
+        "correctAnswer": "perspective",
+        "options": []
+      },
+      {
+        "questionText": "4. We need to _______ the data carefully before making any conclusions.",
+        "correctAnswer": "analyze",
+        "options": []
+      },
+      {
+        "questionText": "5. The scientist decided to _______ the behavior of the animals in their natural habitat.",
+        "correctAnswer": "observe",
+        "options": []
+      },
+      {
+        "questionText": "6. The coach had to _______ that the team played poorly in the last match.",
+        "correctAnswer": "admit",
+        "options": []
+      },
+      {
+        "questionText": "7. As a/an _______ of the new policy, he voiced his concerns during the meeting.",
+        "correctAnswer": "opponent",
+        "options": []
+      },
+      {
+        "questionText": "8. She believes that the _______ purpose of education is to foster critical thinking.",
+        "correctAnswer": "entire",
+        "options": []
+      },
+      {
+        "questionText": "9. He feels that he _______ his success to his supportive family and friends.",
+        "correctAnswer": "owes",
+        "options": []
+      },
+      {
+        "questionText": "10. The artist's work often _______ his inner thoughts and emotions.",
+        "correctAnswer": "reflects",
+        "options": []
+      },
+      {
+        "questionText": "11. They took many steps to _______ the safety of the children.",
+        "correctAnswer": "ensure",
+        "options": []
+      },
+      {
+        "questionText": "12. She hired a lawyer to get her _______ in order before she died.",
+        "correctAnswer": "affairs",
+        "options": []
+      },
+      {
+        "questionText": "13. Do you have a _______ brand of toothpaste that you like?",
+        "correctAnswer": "particular",
+        "options": []
+      },
+      {
+        "questionText": "14. My roommate _______ let me borrow her charger when mine was stolen.",
+        "correctAnswer": "kindly",
+        "options": []
+      },
+      {
+        "questionText": "15. I was greatly _______ by the seagull that was stealing people’s French fries.",
+        "correctAnswer": "amused",
+        "options": []
+      },
+      {
+        "questionText": "16. Please be careful when carrying that box. Some of the things are _______.",
+        "correctAnswer": "fragile",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "PART 6: Use the word in parentheses at the end of each sentence to form a word that fits in the blanks.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "1. Charities such as Oxfam are always trying to recruit _______ to help in their work. (VOLUNTARILY)",
+        "correctAnswer": "volunteers",
+        "options": []
+      },
+      {
+        "questionText": "2. I’m very _______ of your new coat. It’s beautiful! (ENVY)",
+        "correctAnswer": "envious",
+        "options": []
+      },
+      {
+        "questionText": "3. It was _______ that 40% of patients had high blood pressure. (OBSERVATION)",
+        "correctAnswer": "observed",
+        "options": []
+      },
+      {
+        "questionText": "4. It would be seriously _______ to suggest that television has no effect on children. (MISLEAD)",
+        "correctAnswer": "misleading",
+        "options": []
+      },
+      {
+        "questionText": "5. He gave a/an _______ talk on overcoming obstacles in life. (INSPIRE)",
+        "correctAnswer": "inspirational",
+        "options": []
+      },
+      {
+        "questionText": "6. The university’s _______ of the new scheduling system led to some confusion. (IMPLEMENT)",
+        "correctAnswer": "implementation",
+        "options": []
+      },
+      {
+        "questionText": "7. He has had a long and _______ career in medicine. (DISTINGUISH)",
+        "correctAnswer": "distinguished",
+        "options": []
+      },
+      {
+        "questionText": "8. Her husband had been _______ her for years. (DECEPTION)",
+        "correctAnswer": "deceiving",
+        "options": []
+      },
+      {
+        "questionText": "9. The use of animals in scientific tests raises difficult _______ questions. (ETHICS)",
+        "correctAnswer": "ethical",
+        "options": []
+      },
+      {
+        "questionText": "10. Alcohol is strictly _______ in Saudi Arabia. (FORBID)",
+        "correctAnswer": "forbidden",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Part 7: First match the prefixes and suffixes in the box to their definitions. Then write the vocab words in parentheses using those prefixes and suffixes. Some words may have additional spelling changes when the prefix or suffix is added.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "1. Prefix/Suffix: _______ Definition: a person or thing which does the base word",
+        "correctAnswer": "-er",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (ABUSE) _______",
+        "correctAnswer": "abuser",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (OBSERVE) _______",
+        "correctAnswer": "observer",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (CONSUME) _______",
+        "correctAnswer": "consumer",
+        "options": []
+      },
+      {
+        "questionText": "2. Prefix/Suffix: _______ Definition: to cause a person/thing to be in the place, state, or condition of the base word",
+        "correctAnswer": "en-",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (SURE) _______",
+        "correctAnswer": "ensure",
+        "options": []
+      },
+      {
+        "questionText": "3. Prefix/Suffix: _______ Definition: creates an adjective, tending to do or be like the base word",
+        "correctAnswer": "-ive",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (REFLECT) _______",
+        "correctAnswer": "reflective",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (DECEIVE) _______",
+        "correctAnswer": "deceptive",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (MASS) _______",
+        "correctAnswer": "massive",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (COLLECT) _______",
+        "correctAnswer": "collective",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (ABUSE) _______",
+        "correctAnswer": "abusive",
+        "options": []
+      },
+      {
+        "questionText": "4. Prefix/Suffix: _______ Definition: not the base word, the opposite of the base word",
+        "correctAnswer": "un-",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (ETHICAL) _______",
+        "correctAnswer": "unethical",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (AMUSED) _______",
+        "correctAnswer": "unamused",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (KIND) _______",
+        "correctAnswer": "unkind",
+        "options": []
+      },
+      {
+        "questionText": "5. Prefix/Suffix: _______ Definition: creates a noun; the act, practice, or process of doing something; an abnormal state or condition resulting from too much of the base word",
+        "correctAnswer": "-ism",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (CONSUMER) _______",
+        "correctAnswer": "consumerism",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (CRITIC) _______",
+        "correctAnswer": "criticism",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (DYNAMIC) _______",
+        "correctAnswer": "dynamism",
+        "options": []
+      },
+      {
+        "questionText": "6. Prefix/Suffix: _______ Definition: badly, wrongly",
+        "correctAnswer": "mis-",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (LEAD) _______",
+        "correctAnswer": "mislead",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (RULE) _______",
+        "correctAnswer": "misrule",
+        "options": []
+      },
+      {
+        "questionText": "7. Prefix/Suffix: _______ Definition: creates a noun; the state, condition, or quality of the base word",
+        "correctAnswer": "-ness",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (KIND) _______",
+        "correctAnswer": "kindness",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (APPARENT) _______",
+        "correctAnswer": "apparentness",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (CASUAL) _______",
+        "correctAnswer": "casualness",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (DELIBERATE) _______",
+        "correctAnswer": "deliberateness",
+        "options": []
+      },
+      {
+        "questionText": "8. Prefix/Suffix: _______ Definition: without, lacking",
+        "correctAnswer": "-less",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (AIM) _______",
+        "correctAnswer": "aimless",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (PASSION) _______",
+        "correctAnswer": "passionless",
+        "options": []
+      },
+      {
+        "questionText": "9. Prefix/Suffix: _______ Definition: creates a noun form; the action, process, or result of doing something",
+        "correctAnswer": "-ment",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (AUMSE) _______",
+        "correctAnswer": "amusement",
+        "options": []
+      },
+      {
+        "questionText": "10. Prefix/Suffix: _______ Definition: creates an adjective; capable of, fit for, or worthy of the base word",
+        "correctAnswer": "-able",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (SUSTAIN) _______",
+        "correctAnswer": "sustainable",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (CONSUME) _______",
+        "correctAnswer": "consumable",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (REPUTATION) _______",
+        "correctAnswer": "reputable",
+        "options": []
+      },
+      {
+        "questionText": "Examples: (DISTINGUISH) _______",
+        "correctAnswer": "distinguishable",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Part 8: Ask and answer the following questions in pairs taking turns or write an answer using a complete sentence.",
+    "type": "open-ended",
+    "items": [
+      {
+        "questionText": "Have you ever used a manual to assemble something? What was it? Can you describe your experience?",
+        "options": []
+      },
+      {
+        "questionText": "Can you explain a natural phenomenon that fascinates you?",
+        "options": []
+      },
+      {
+        "questionText": "What properties do you think are most important in a good friend?",
+        "options": []
+      },
+      {
+        "questionText": "Can you describe an outstanding achievement in your life?",
+        "options": []
+      },
+      {
+        "questionText": "Who is a person who has made an impact on your life?",
+        "options": []
+      },
+      {
+        "questionText": "Do you pay attention to the stock market? Why or why not?",
+        "options": []
+      },
+      {
+        "questionText": "What activities or hobbies do you find most amusing?",
+        "options": []
+      },
+      {
+        "questionText": "Why do you think people sometimes deceive others? Is it ever justified?",
+        "options": []
+      },
+      {
+        "questionText": "What are some of the challenges people face when they convert to a new lifestyle or belief system?",
+        "options": []
+      },
+      {
+        "questionText": "How would you define being kind? Can you share an example of kindness you have experienced or shown?",
+        "options": []
+      }
+    ]
+  }
+]

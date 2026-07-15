@@ -1,0 +1,221 @@
+[
+  {
+    "instruction": "Match the underlined words in sentences with the meanings given.",
+    "type": "matching",
+    "items": [
+      {
+        "questionText": "Representatives from over 100 countries attended the International Peace Conference in Geneva.",
+        "correctAnswer": "a large formal meeting where a lot of people discuss important matters"
+      },
+      {
+        "questionText": "There may be particular circumstances in which this rule will not apply.",
+        "correctAnswer": "the conditions that affect a situation or action"
+      },
+      {
+        "questionText": "As a very small girl, I was impressed by the intelligence of my teacher.",
+        "correctAnswer": "a state of feeling admiration and respect"
+      },
+      {
+        "questionText": "The 18-year-old male died of an overdose of sleeping pills.",
+        "correctAnswer": "too much of something, especially something harmful"
+      },
+      {
+        "questionText": "You must obtain permission from the owners before viewing the property.",
+        "correctAnswer": "being officially allowed to do something"
+      },
+      {
+        "questionText": "Children often grasp new concepts more quickly than adults.",
+        "correctAnswer": "an idea of how something is, or how something should be done"
+      },
+      {
+        "questionText": "We are grateful for his years of faithful service to the company.",
+        "correctAnswer": "remaining loyal to a particular person, belief, etc."
+      },
+      {
+        "questionText": "Women may still be faced with the dilemma of choosing between jobs and families.",
+        "correctAnswer": "a situation in which it is very difficult to decide what to do"
+      }
+    ]
+  },
+  {
+    "instruction": "Complete the following sentences using the correct prepositions.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "______ these difficult circumstances, their disciplined behaviour impressed all of us.",
+        "correctAnswer": "UNDER",
+        "options": []
+      },
+      {
+        "questionText": "An international conference ______ the control of illegal drugs will be held in İstanbul, in February.",
+        "correctAnswer": "ON",
+        "options": []
+      },
+      {
+        "questionText": "I am ______ a dilemma over whether to tell him the truth or not.",
+        "correctAnswer": "IN",
+        "options": []
+      },
+      {
+        "questionText": "Although she faced lots of challenges, she remained faithful ______ her beliefs.",
+        "correctAnswer": "TO",
+        "options": []
+      },
+      {
+        "questionText": "We were all impressed ______ the efficiency of the staff.",
+        "correctAnswer": "BY/WITH",
+        "options": []
+      },
+      {
+        "questionText": "The Council must get permission ______ the organization of the conference.",
+        "correctAnswer": "FOR",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the blanks in the following sentences with an appropriate word from the box below. There are MORE words than you need.\n\nWords: Critical, Voluntarily, Forbid, Observe, Prospective, Dynamic, Maintain, Rewarding, Implement, Analyze, Fragile, Phenomenon, Property, Thorough, Amuse, Admit",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "He was forced to ______ his mistake in front of everyone.",
+        "correctAnswer": "admit",
+        "options": []
+      },
+      {
+        "questionText": "The scientist will ______ the data to find a pattern.",
+        "correctAnswer": "analyse",
+        "options": []
+      },
+      {
+        "questionText": "She loves to ______ birds in their natural habitat.",
+        "correctAnswer": "observe",
+        "options": []
+      },
+      {
+        "questionText": "The company plans to ______ new strategies to increase productivity.",
+        "correctAnswer": "implement",
+        "options": []
+      },
+      {
+        "questionText": "It is ______ to assess both sides of the argument in order to have a balanced understanding of the issue.",
+        "correctAnswer": "critical",
+        "options": []
+      },
+      {
+        "questionText": "The teacher decided to ______ the use of cell phones in class for students to learn more effectively.",
+        "correctAnswer": "forbid",
+        "options": []
+      },
+      {
+        "questionText": "The ______ nature of the technology industry keeps everyone on their toes.",
+        "correctAnswer": "dynamic",
+        "options": []
+      },
+      {
+        "questionText": "It's important to ______ a healthy work-life balance.",
+        "correctAnswer": "maintain",
+        "options": []
+      },
+      {
+        "questionText": "Volunteering at the shelter has been a ______ experience.",
+        "correctAnswer": "rewarding",
+        "options": []
+      },
+      {
+        "questionText": "The old vase is very ______ and must be handled with care.",
+        "correctAnswer": "fragile",
+        "options": []
+      },
+      {
+        "questionText": "The Northern Lights are a natural ______ that fascinates many people.",
+        "correctAnswer": "phenomenon",
+        "options": []
+      },
+      {
+        "questionText": "They conducted a ______ investigation into the matter to understand it in a detailed way.",
+        "correctAnswer": "thorough",
+        "options": []
+      },
+      {
+        "questionText": "The clown managed to ______ the children with his tricks.",
+        "correctAnswer": "amuse",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Complete the following text using the words in the box.\n\nWords: justice, deal with, ignore, loyal, versus, principles, confessed",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "A moral dilemma involves making a choice between two or more moral values whereby in making a decision, or in taking action, you will compromise or violate some other moral {1}. A moral dilemma is a situation that involves a choice, decision or action to solve an unpleasant problem that we need to {2}.\n\nA response to a moral dilemma is not always a matter of \"right {3} wrong\", as both courses of action could seem moral (or the \"right thing to do\"). This involves having to decide the best way to respond when faced with two or more \"right\" courses of action. When faced with a moral dilemma, you will probably be asking yourself \"What should I do?\". You may have a \"little voice\" inside your head telling you to do one thing, while your immediate desire is to do another. Some may refer to this \"little voice\" as your conscience, and it is impossible to {4} it. Consequently, these dilemmas are often very difficult to resolve.\n\nAs an example, imagine that your eighteen-year-old son/daughter {5} to you that they had been involved in the recent theft of your neighbor’s car. Should you call the police? Maybe you should turn your son/daughter in because you want to be honest with you neighbor and you feel that your child must not be allowed to escape {6}. Or should you simply \"keep quiet\" because you want to remain {7} to your son/daughter, especially since your child told everything to you in confidence?\n\nMoral dilemmas are part of our every day life and we should always keep in mind that our moral compass is our conscience.",
+        "options": [
+          [
+            { "text": "principles", "isCorrect": true, "blankIndex": 1 },
+            { "text": "deal with", "isCorrect": false, "blankIndex": 1 },
+            { "text": "versus", "isCorrect": false, "blankIndex": 1 },
+            { "text": "ignore", "isCorrect": false, "blankIndex": 1 },
+            { "text": "confessed", "isCorrect": false, "blankIndex": 1 },
+            { "text": "justice", "isCorrect": false, "blankIndex": 1 },
+            { "text": "loyal", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "principles", "isCorrect": false, "blankIndex": 2 },
+            { "text": "deal with", "isCorrect": true, "blankIndex": 2 },
+            { "text": "versus", "isCorrect": false, "blankIndex": 2 },
+            { "text": "ignore", "isCorrect": false, "blankIndex": 2 },
+            { "text": "confessed", "isCorrect": false, "blankIndex": 2 },
+            { "text": "justice", "isCorrect": false, "blankIndex": 2 },
+            { "text": "loyal", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "principles", "isCorrect": false, "blankIndex": 3 },
+            { "text": "deal with", "isCorrect": false, "blankIndex": 3 },
+            { "text": "versus", "isCorrect": true, "blankIndex": 3 },
+            { "text": "ignore", "isCorrect": false, "blankIndex": 3 },
+            { "text": "confessed", "isCorrect": false, "blankIndex": 3 },
+            { "text": "justice", "isCorrect": false, "blankIndex": 3 },
+            { "text": "loyal", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "principles", "isCorrect": false, "blankIndex": 4 },
+            { "text": "deal with", "isCorrect": false, "blankIndex": 4 },
+            { "text": "versus", "isCorrect": false, "blankIndex": 4 },
+            { "text": "ignore", "isCorrect": true, "blankIndex": 4 },
+            { "text": "confessed", "isCorrect": false, "blankIndex": 4 },
+            { "text": "justice", "isCorrect": false, "blankIndex": 4 },
+            { "text": "loyal", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "principles", "isCorrect": false, "blankIndex": 5 },
+            { "text": "deal with", "isCorrect": false, "blankIndex": 5 },
+            { "text": "versus", "isCorrect": false, "blankIndex": 5 },
+            { "text": "ignore", "isCorrect": false, "blankIndex": 5 },
+            { "text": "confessed", "isCorrect": true, "blankIndex": 5 },
+            { "text": "justice", "isCorrect": false, "blankIndex": 5 },
+            { "text": "loyal", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "principles", "isCorrect": false, "blankIndex": 6 },
+            { "text": "deal with", "isCorrect": false, "blankIndex": 6 },
+            { "text": "versus", "isCorrect": false, "blankIndex": 6 },
+            { "text": "ignore", "isCorrect": false, "blankIndex": 6 },
+            { "text": "confessed", "isCorrect": false, "blankIndex": 6 },
+            { "text": "justice", "isCorrect": true, "blankIndex": 6 },
+            { "text": "loyal", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "principles", "isCorrect": false, "blankIndex": 7 },
+            { "text": "deal with", "isCorrect": false, "blankIndex": 7 },
+            { "text": "versus", "isCorrect": false, "blankIndex": 7 },
+            { "text": "ignore", "isCorrect": false, "blankIndex": 7 },
+            { "text": "confessed", "isCorrect": false, "blankIndex": 7 },
+            { "text": "justice", "isCorrect": false, "blankIndex": 7 },
+            { "text": "loyal", "isCorrect": true, "blankIndex": 7 }
+          ]
+        ]
+      }
+    ]
+  }
+]

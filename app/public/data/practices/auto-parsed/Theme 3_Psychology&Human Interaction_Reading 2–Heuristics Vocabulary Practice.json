@@ -1,0 +1,164 @@
+[
+  {
+    "instruction": "Fill in the blanks in the following text by choosing the correct word for each blank.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Every day our brains must process and respond to thousands of problems, both large and small, in a moment’s notice. It might even be overwhelming to consider the sheer volume of {1} problems in need of a quick solution. While we might wish there was time to methodically, thoughtfully {2} the fine details of our everyday tasks, the cognitive demands of daily life often makes such processing logistically impossible. Therefore, the brain must develop reliable {3} to keep up with the incredible amount of information that it needs to process every day. Psychologists refer to these efficient problem-solving techniques as heuristics.\n\nHeuristics can be thought of as general cognitive frameworks which humans rely on to quickly reach a solution in the face of the {4} amount of information we are presented with and all the decisions that we need to make. They act as a/an {5} for the lengthy process which takes place when larger problems are dealt with. For example, if a student needs to decide what subject she will study at university, her intuition will likely be drawn toward the path that she envisions as most satisfying, practical, and interesting. She may also think back on her strengths and weaknesses in secondary school, or perhaps even write out a pros and cons list to facilitate her {6} choice.",
+        "options": [
+          [
+            { "text": "gradual", "isCorrect": false, "blankIndex": 1 },
+            { "text": "sustainable", "isCorrect": false, "blankIndex": 1 },
+            { "text": "complex", "isCorrect": true, "blankIndex": 1 },
+            { "text": "reliable", "isCorrect": false, "blankIndex": 1 },
+            { "text": "resistant", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "analyze", "isCorrect": true, "blankIndex": 2 },
+            { "text": "celebrate", "isCorrect": false, "blankIndex": 2 },
+            { "text": "evolve", "isCorrect": false, "blankIndex": 2 },
+            { "text": "select", "isCorrect": false, "blankIndex": 2 },
+            { "text": "demonstrate", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "drawbacks", "isCorrect": false, "blankIndex": 3 },
+            { "text": "campaigns", "isCorrect": false, "blankIndex": 3 },
+            { "text": "results", "isCorrect": false, "blankIndex": 3 },
+            { "text": "shortcuts", "isCorrect": true, "blankIndex": 3 },
+            { "text": "dimensions", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "inadequate", "isCorrect": false, "blankIndex": 4 },
+            { "text": "sceptical", "isCorrect": false, "blankIndex": 4 },
+            { "text": "grateful", "isCorrect": false, "blankIndex": 4 },
+            { "text": "tremendous", "isCorrect": true, "blankIndex": 4 },
+            { "text": "wealthy", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "hesitation", "isCorrect": false, "blankIndex": 5 },
+            { "text": "substitute", "isCorrect": true, "blankIndex": 5 },
+            { "text": "perception", "isCorrect": false, "blankIndex": 5 },
+            { "text": "artifact", "isCorrect": false, "blankIndex": 5 },
+            { "text": "fatigue", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "primary", "isCorrect": false, "blankIndex": 6 },
+            { "text": "pure", "isCorrect": false, "blankIndex": 6 },
+            { "text": "occasional", "isCorrect": false, "blankIndex": 6 },
+            { "text": "former", "isCorrect": false, "blankIndex": 6 },
+            { "text": "rational", "isCorrect": true, "blankIndex": 6 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Match the following words with their definitions.\n\nDefinitions:\nA. to begin or come into existence\nB. a period of dry weather, especially a long one that is injurious to crops.\nC. not sufficient for the purpose; not enough\nD. a supply of money or resources for some purpose\nE. something that cures or relieves a disease or bodily disorder; a healing medicine, application, or treatment.\nF. any process of formation or growth; development: the evolution of a language; the evolution of the airplane\nG. the way you think about something and your idea of what it is like\nH. to help advance or encourage the growth of\nI. to lower in rank or status, to become inferior\nJ. able to withstand the force or effect of sth, or in opposition to sth\nK. a pause or delay in action",
+    "type": "matching",
+    "items": [
+      { "questionText": "1. EVOLUTION", "correctAnswer": "F" },
+      { "questionText": "2. ORIGINATE", "correctAnswer": "A" },
+      { "questionText": "3. PROMOTE", "correctAnswer": "H" },
+      { "questionText": "4. PERCEPTION", "correctAnswer": "G" },
+      { "questionText": "5. HESITATION", "correctAnswer": "K" },
+      { "questionText": "6. DROUGHT", "correctAnswer": "B" },
+      { "questionText": "7. INADEQUATE", "correctAnswer": "C" },
+      { "questionText": "8. DEGRADE", "correctAnswer": "I" },
+      { "questionText": "9. REMEDY", "correctAnswer": "E" },
+      { "questionText": "10. FUND", "correctAnswer": "D" },
+      { "questionText": "11. RESISTANT", "correctAnswer": "J" }
+    ]
+  },
+  {
+    "instruction": "Please choose the best word from the vocabulary list above to complete the following sentences. You do not have to change the forms.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "I don't have any ______ to recommend him for the position. He has been a great colleague.",
+        "correctAnswer": "hesitation",
+        "options": []
+      },
+      {
+        "questionText": "This essay has ______ justification to support the writer’s opinion.",
+        "correctAnswer": "inadequate",
+        "options": []
+      },
+      {
+        "questionText": "They are ______ to any changes and therefore do not want to attend the seminar about the new technology that will be used.",
+        "correctAnswer": "resistant",
+        "options": []
+      },
+      {
+        "questionText": "Exposure to sunlight could ______ the quality of the oils if not properly stored.",
+        "correctAnswer": "degrade",
+        "options": []
+      },
+      {
+        "questionText": "It is a commonly held ______ that dogs of certain breeds tend to be more aggressive than others.",
+        "correctAnswer": "perception",
+        "options": []
+      },
+      {
+        "questionText": "They have started a marketing campaign to ______ their new product.",
+        "correctAnswer": "promote",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the blanks by using an appropriate form of the words given in parentheses below.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "The policy ______ you against damage and theft. (INSURANCE)",
+        "correctAnswer": "insures",
+        "options": []
+      },
+      {
+        "questionText": "That style of painting ______ in China. (ORIGINAL)",
+        "correctAnswer": "originated",
+        "options": []
+      },
+      {
+        "questionText": "The museum does not ______ photography in certain exhibition halls. (PERMISSION)",
+        "correctAnswer": "permit",
+        "options": []
+      },
+      {
+        "questionText": "The ______ of the new library is progressing ahead of schedule. (CONSTRUCT)",
+        "correctAnswer": "construction",
+        "options": []
+      },
+      {
+        "questionText": "The ______ focus of the workshop was enhancing communication skills. (PRIMARILY)",
+        "correctAnswer": "primary",
+        "options": []
+      },
+      {
+        "questionText": "He didn't ______ to accept the challenging assignment despite its difficulty. (HESITATION)",
+        "correctAnswer": "hesitate",
+        "options": []
+      },
+      {
+        "questionText": "Many charities work tirelessly to combat ______ in impoverished regions. (STARVE)",
+        "correctAnswer": "starvation",
+        "options": []
+      },
+      {
+        "questionText": "Environmentalists warn about the ______ of natural habitats due to deforestation. (DEGRADE)",
+        "correctAnswer": "degradation",
+        "options": []
+      },
+      {
+        "questionText": "Art critics often provide ______ opinions on the quality of paintings. (SUBJECT)",
+        "correctAnswer": "subjective",
+        "options": []
+      },
+      {
+        "questionText": "It's not our role to ______ others based on their personal beliefs. (JUDGEMENT)",
+        "correctAnswer": "judge",
+        "options": []
+      }
+    ]
+  }
+]

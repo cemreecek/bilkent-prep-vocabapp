@@ -1,0 +1,94 @@
+[
+  {
+    "instruction": "MONDAY - Vocabulary Set 1",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Implement" },
+      { "questionText": "Consequence" },
+      { "questionText": "Demonstration" },
+      { "questionText": "Examine" },
+      { "questionText": "Previously" },
+      { "questionText": "Intend" },
+      { "questionText": "Unforgettable" },
+      { "questionText": "Rely" },
+      { "questionText": "Embarrassing/Embarrassed" },
+      { "questionText": "Input" },
+      { "questionText": "Adverse" }
+    ]
+  },
+  {
+    "instruction": "TUESDAY - Vocabulary Set 1",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Nonetheless" },
+      { "questionText": "Commit" },
+      { "questionText": "Simplification" },
+      { "questionText": "Composition" },
+      { "questionText": "State" },
+      { "questionText": "Comment" },
+      { "questionText": "Insult" },
+      { "questionText": "Abandon" },
+      { "questionText": "Wander" },
+      { "questionText": "Immigrant" },
+      { "questionText": "Artefact/ Artifact" },
+      { "questionText": "Descend" }
+    ]
+  },
+  {
+    "instruction": "WEDNESDAY - Vocabulary Set 1",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Contemporary" },
+      { "questionText": "Domestic" },
+      { "questionText": "Overcome" },
+      { "questionText": "Target (n, v)" },
+      { "questionText": "Refugee" },
+      { "questionText": "Differ" },
+      { "questionText": "Range (v, n)" },
+      { "questionText": "Offensive" },
+      { "questionText": "Phase" },
+      { "questionText": "Odd" },
+      { "questionText": "Straightforward" },
+      { "questionText": "Obtain" },
+      { "questionText": "Adjust" }
+    ]
+  },
+  {
+    "instruction": "THURSDAY - Vocabulary Set 1",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Nevertheless" },
+      { "questionText": "Strategically" },
+      { "questionText": "Vary" },
+      { "questionText": "Vote (v, n)" },
+      { "questionText": "Desperate" },
+      { "questionText": "Clarify" },
+      { "questionText": "Resemble" },
+      { "questionText": "Component" },
+      { "questionText": "Pure" },
+      { "questionText": "Gesture" },
+      { "questionText": "Appeal" },
+      { "questionText": "Perceive" },
+      { "questionText": "Apply" }
+    ]
+  },
+  {
+    "instruction": "FRIDAY - Vocabulary Set 1",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Temper" },
+      { "questionText": "Sacred" },
+      { "questionText": "Relevance" },
+      { "questionText": "Spoil" },
+      { "questionText": "Enhance" },
+      { "questionText": "Sacrifice" },
+      { "questionText": "Pace" },
+      { "questionText": "Scale" },
+      { "questionText": "Unfortunately" },
+      { "questionText": "Gender" },
+      { "questionText": "Sake" },
+      { "questionText": "Generosity" },
+      { "questionText": "Tender" }
+    ]
+  }
+]

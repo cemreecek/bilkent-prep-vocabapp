@@ -1,0 +1,89 @@
+[
+  {
+    "instruction": "Monday Vocabulary List",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Concept", "options": [] },
+      { "questionText": "Rate", "options": [] },
+      { "questionText": "Reputation", "options": [] },
+      { "questionText": "Exaggerate", "options": [] },
+      { "questionText": "Distinguish", "options": [] },
+      { "questionText": "Inspirational", "options": [] },
+      { "questionText": "Witness", "options": [] },
+      { "questionText": "Consumerism", "options": [] },
+      { "questionText": "Misleading", "options": [] },
+      { "questionText": "Ruin", "options": [] },
+      { "questionText": "Manufacture", "options": [] }
+    ]
+  },
+  {
+    "instruction": "Tuesday Vocabulary List",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Aim (v, n)", "options": [] },
+      { "questionText": "Feature", "options": [] },
+      { "questionText": "Perspective", "options": [] },
+      { "questionText": "Owe", "options": [] },
+      { "questionText": "Passionate", "options": [] },
+      { "questionText": "Reflect", "options": [] },
+      { "questionText": "Opponent", "options": [] },
+      { "questionText": "Admit", "options": [] },
+      { "questionText": "Analyse", "options": [] },
+      { "questionText": "Observe", "options": [] },
+      { "questionText": "Entire", "options": [] },
+      { "questionText": "Implement", "options": [] }
+    ]
+  },
+  {
+    "instruction": "Wednesday Vocabulary List",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Critical", "options": [] },
+      { "questionText": "Voluntarily", "options": [] },
+      { "questionText": "Envy", "options": [] },
+      { "questionText": "Forbid", "options": [] },
+      { "questionText": "Prospective", "options": [] },
+      { "questionText": "Dynamic", "options": [] },
+      { "questionText": "Sustainable", "options": [] },
+      { "questionText": "Maintain", "options": [] },
+      { "questionText": "Rule (v, n)", "options": [] },
+      { "questionText": "Ethics", "options": [] },
+      { "questionText": "Rewarding", "options": [] },
+      { "questionText": "Fragile", "options": [] },
+      { "questionText": "Manual", "options": [] },
+      { "questionText": "Phenomenon", "options": [] },
+      { "questionText": "Property", "options": [] },
+      { "questionText": "Outstanding", "options": [] },
+      { "questionText": "Mass", "options": [] },
+      { "questionText": "Stock (v, n)", "options": [] },
+      { "questionText": "Thorough", "options": [] },
+      { "questionText": "Amuse", "options": [] },
+      { "questionText": "Deceive", "options": [] },
+      { "questionText": "Convert", "options": [] },
+      { "questionText": "Kind", "options": [] }
+    ]
+  },
+  {
+    "instruction": "Thursday Vocabulary List",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Principle", "options": [] },
+      { "questionText": "Apparent", "options": [] },
+      { "questionText": "Deliberate", "options": [] },
+      { "questionText": "Abuse (v, n)", "options": [] },
+      { "questionText": "Claim (v, n)", "options": [] },
+      { "questionText": "Threat", "options": [] },
+      { "questionText": "Ensure", "options": [] },
+      { "questionText": "Affair", "options": [] },
+      { "questionText": "Casual", "options": [] },
+      { "questionText": "Collective", "options": [] },
+      { "questionText": "Impact (v, n)", "options": [] },
+      { "questionText": "Particular", "options": [] }
+    ]
+  },
+  {
+    "instruction": "Friday Vocabulary List",
+    "type": "word-bank",
+    "items": []
+  }
+]

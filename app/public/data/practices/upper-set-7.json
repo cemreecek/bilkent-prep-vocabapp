@@ -1,0 +1,336 @@
+[
+  {
+    "instruction": "Fill in the blanks with the most appropriate words from the box. Don’t change the word forms. Word Bank: pros and cons, generate, primitive, accelerate, substitute, biodiversity, network, sort.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "The use of wood in construction can be a controversial issue. On the one hand, it's a renewable resource, and its use can help _______________(1) less greenhouse gas emissions when it is compared to more energy-intensive materials like steel or concrete.",
+        "correctAnswer": "generate",
+        "options": []
+      },
+      {
+        "questionText": "On the other hand, deforestation can lead to the loss of _______________(2), which is very important for the survival of a species and it can also cause the destruction of primitive cultures which make use of wood for their tools and construction of their houses.",
+        "correctAnswer": "biodiversity",
+        "options": []
+      },
+      {
+        "questionText": "On the other hand, deforestation can lead to the loss of biodiversity, which is very important for the survival of a species and it can also cause the destruction of _______________(3) cultures which make use of wood for their tools and construction of their houses.",
+        "correctAnswer": "primitive",
+        "options": []
+      },
+      {
+        "questionText": "If it is used responsibly and sustainably, wood can be an environmentally friendly choice. However, it's important to weigh the _______________(4) and if there are lots of drawbacks, other materials should be considered as a substitute for wood.",
+        "correctAnswer": "pros and cons",
+        "options": []
+      },
+      {
+        "questionText": "However, it's important to weigh the pros and cons and if there are lots of drawbacks, other materials should be considered as a _______________(5) for wood.",
+        "correctAnswer": "substitute",
+        "options": []
+      },
+      {
+        "questionText": "Regardless, deciding what _______________(6) of material to build out of is an important choice.",
+        "correctAnswer": "sort",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Choose the best option.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "In our town, every year, we have a big parade to celebrate the local festival. The ____________(1) mayor used to lead the parade, but now it has changed.",
+        "options": [
+          { "text": "former", "isCorrect": true },
+          { "text": "latter", "isCorrect": false },
+          { "text": "potential", "isCorrect": false },
+          { "text": "current", "isCorrect": false },
+          { "text": "unique", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The new practice is that we ____________(2) a different person each year to do it.",
+        "options": [
+          { "text": "conserve", "isCorrect": false },
+          { "text": "elect", "isCorrect": true },
+          { "text": "eliminate", "isCorrect": false },
+          { "text": "transfer", "isCorrect": false },
+          { "text": "substitute", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "This year, the parade's main ____________(3) is to raise awareness about environmental issues.",
+        "options": [
+          { "text": "drawback", "isCorrect": false },
+          { "text": "presence", "isCorrect": false },
+          { "text": "reputation", "isCorrect": false },
+          { "text": "justification", "isCorrect": false },
+          { "text": "mission", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "One disadvantage of the parade is that it causes a lot of ____________(4). The traffic is so bad and the streets are so crowded that it's hard to move around.",
+        "options": [
+          { "text": "dilemma", "isCorrect": false },
+          { "text": "debate", "isCorrect": false },
+          { "text": "resistance", "isCorrect": false },
+          { "text": "disorder", "isCorrect": true },
+          { "text": "boost", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "To help with this, the city plans to ____________(5) certain streets from the parade route and to rotate the locations every year.",
+        "options": [
+          { "text": "exclude", "isCorrect": true },
+          { "text": "abandon", "isCorrect": false },
+          { "text": "enclose", "isCorrect": false },
+          { "text": "differ", "isCorrect": false },
+          { "text": "release", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "To help with this, the city plans to exclude certain streets from the parade route and to ____________(6) the locations every year.",
+        "options": [
+          { "text": "enhance", "isCorrect": false },
+          { "text": "rotate", "isCorrect": true },
+          { "text": "simplify", "isCorrect": false },
+          { "text": "extend", "isCorrect": false },
+          { "text": "adopt", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Overall, the parade and the festival are a highlight of the year. Despite the ____________(7), most people look forward to this event because it brings the community together, helps to conserve traditions and provides an opportunity for everyone to have fun and celebrate.",
+        "options": [
+          { "text": "obstacles", "isCorrect": true },
+          { "text": "opportunities", "isCorrect": false },
+          { "text": "resistance", "isCorrect": false },
+          { "text": "objections", "isCorrect": false },
+          { "text": "inspections", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Despite the obstacles, most people look forward to this event because it brings the community together, helps to ____________(8) traditions and provides an opportunity for everyone to have fun and celebrate.",
+        "options": [
+          { "text": "conserve", "isCorrect": true },
+          { "text": "secure", "isCorrect": false },
+          { "text": "spare", "isCorrect": false },
+          { "text": "admit", "isCorrect": false },
+          { "text": "track", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the text. Fill in each space in this way. Spelling mistakes will be penalized.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "Every year, the students at Greenfield High School vote for a new student council president. This year, many students are excited about the ___________(1) (ELECT).",
+        "correctAnswer": "ELECTION",
+        "options": []
+      },
+      {
+        "questionText": "However, critics say that the constant campaigning can cause ___________(2) among some students, especially if they are busy with project work, studying or preparing for exams (IRRITATE).",
+        "correctAnswer": "IRRITATION",
+        "options": []
+      },
+      {
+        "questionText": "Maria, one candidate, promises to improve the school's recycling program and promote ___________(3) (CONSERVE).",
+        "correctAnswer": "CONSERVATION",
+        "options": []
+      },
+      {
+        "questionText": "Another candidate, Tom wants to help students manage their money by providing free classes on ___________(4) literacy (FINANCE).",
+        "correctAnswer": "FINANCIAL",
+        "options": []
+      },
+      {
+        "questionText": "Maria had to miss a few days of school due to illness, so her friend Alex acted as her ___________(5) (SUBSTITUTION).",
+        "correctAnswer": "SUBSTITUTE",
+        "options": []
+      },
+      {
+        "questionText": "The principal emphasizes ___________(6), believing being on time shows respect and helps everything run smoothly (PUNCTUAL).",
+        "correctAnswer": "PUNCTUALITY",
+        "options": []
+      },
+      {
+        "questionText": "At the end of the week, there is a big celebration. However, some students seem more interested in winning prizes, which others view as ___________(7) behavior (GREED).",
+        "correctAnswer": "GREEDY",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Below you will find different meanings of the bolded word. Circle the one that matches the sentence.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "I need to draw some money out of my account. (Word: account)",
+        "options": [
+          { "text": "a written or spoken description of something that has happened", "isCorrect": false },
+          { "text": "an arrangement in which a bank keeps your money safe so that you can pay more in or take money out", "isCorrect": true },
+          { "text": "an arrangement that you have with a shop or company, which allows you to buy goods or use a service now and pay for them later", "isCorrect": false },
+          { "text": "because of something", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "At present she's working abroad. (Word: present)",
+        "options": [
+          { "text": "something that you are given, without asking for it, on a special occasion, especially to show friendship, or to say thank you", "isCorrect": false },
+          { "text": "the form of the verb that is used to show what happens or exists now", "isCorrect": false },
+          { "text": "now", "isCorrect": true },
+          { "text": "a person being in a particular place", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "She wrote dull but respectable articles for the local newspaper. (Word: dull)",
+        "options": [
+          { "text": "not interesting or exciting", "isCorrect": true },
+          { "text": "not bright or shiny", "isCorrect": false },
+          { "text": "weather that is not bright and with lots of clouds", "isCorrect": false },
+          { "text": "(for pain) not severe but does not stop", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The organization has launched a campaign to raise $150,000. (Word: launched)",
+        "options": [
+          { "text": "to make a computer program start", "isCorrect": false },
+          { "text": "to send a weapon or spacecraft into the sky or into space", "isCorrect": false },
+          { "text": "to make a new product, book etc. available for sale for the first time", "isCorrect": false },
+          { "text": "to start something, usually something big or important", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Lay the material flat on the table. (Word: Lay)",
+        "options": [
+          { "text": "the past tense of “lie”", "isCorrect": false },
+          { "text": "to put someone or something down carefully into a flat position", "isCorrect": true },
+          { "text": "if a bird, insect etc. lays eggs, it produces them from its body", "isCorrect": false },
+          { "text": "to put the cloth, plates, knives, forks etc. on a table, ready for a meal", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "All the people in the study had low self-esteem and had issues with their bodies. (Word: issues)",
+        "options": [
+          { "text": "to have difficulty with something or a disagreement with someone", "isCorrect": true },
+          { "text": "a set of newspapers or magazines published at the same time or a single copy of a newspaper or magazine", "isCorrect": false },
+          { "text": "to make something seem more important than it should be, or to argue about it:", "isCorrect": false },
+          { "text": "a new set of something such as shares or stamps, made available for people to buy", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The body's regulation of temperature is essential for maintaining health. (Word: regulation)",
+        "options": [
+          { "text": "A rule or directive made and maintained by an authority.", "isCorrect": false },
+          { "text": "The act of managing or controlling something according to rules or principles.", "isCorrect": true },
+          { "text": "A standard or regular measure or practice.", "isCorrect": false },
+          { "text": "Rules or directives governing behavior or actions.", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the blanks in the dialogue with words from the box. You do not need to change the form of the words. Word Bank: justice, unique, illustrate, ensure, launch, victims, reveal, sarcasm.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "Samantha: It's basically a PSA on social __________(1) for our generation.",
+        "correctAnswer": "justice",
+        "options": []
+      },
+      {
+        "questionText": "They're calling out past generations and warning us to take action and __________(2) a more just future for all.",
+        "correctAnswer": "ensure",
+        "options": []
+      },
+      {
+        "questionText": "Jake: That sounds powerful. What hidden facts do they __________(3) in the video?",
+        "correctAnswer": "reveal",
+        "options": []
+      },
+      {
+        "questionText": "Samantha: A lot of things. They show how our __________(4) position as digital natives allows us to raise awareness for important issues.",
+        "correctAnswer": "unique",
+        "options": []
+      },
+      {
+        "questionText": "They also say that we can __________(5) effective campaigns to attract attention of the public.",
+        "correctAnswer": "launch",
+        "options": []
+      },
+      {
+        "questionText": "When dealing with serious topics, we should communicate clearly, respectfully and avoid any hint of __________(6).",
+        "correctAnswer": "sarcasm",
+        "options": []
+      },
+      {
+        "questionText": "They also showcase statistics and stories from __________(7) of injustice, the people who suffer from unfair acts of others.",
+        "correctAnswer": "victims",
+        "options": []
+      },
+      {
+        "questionText": "The video is a good tool to really __________(8) the severity of these problems to people who have never experienced such issues.",
+        "correctAnswer": "illustrate",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Read the definitions and complete the crossword puzzle by using a word from Week 7 vocabulary set.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "Across 4. Fair treatment under the law",
+        "correctAnswer": "JUSTICE",
+        "options": []
+      },
+      {
+        "questionText": "Across 5. To begin or introduce something new",
+        "correctAnswer": "LAUNCH",
+        "options": []
+      },
+      {
+        "questionText": "Across 7. an illness of the mind or body",
+        "correctAnswer": "DISORDER",
+        "options": []
+      },
+      {
+        "questionText": "Across 9. One of a kind",
+        "correctAnswer": "UNIQUE",
+        "options": []
+      },
+      {
+        "questionText": "Across 10. to happen or make something happen sooner or faster",
+        "correctAnswer": "ACCELERATE",
+        "options": []
+      },
+      {
+        "questionText": "Down 1. A part or share of something",
+        "correctAnswer": "PORTION",
+        "options": []
+      },
+      {
+        "questionText": "Down 2. To make certain that something happens",
+        "correctAnswer": "ENSURE",
+        "options": []
+      },
+      {
+        "questionText": "Down 3. To explain or make something clear using examples",
+        "correctAnswer": "ILLUSTRATE",
+        "options": []
+      },
+      {
+        "questionText": "Down 6. A person harmed by a crime",
+        "correctAnswer": "VICTIM",
+        "options": []
+      },
+      {
+        "questionText": "Down 8. To show or make known something hidden",
+        "correctAnswer": "REVEAL",
+        "options": []
+      }
+    ]
+  }
+]

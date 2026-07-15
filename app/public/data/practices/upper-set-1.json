@@ -1,0 +1,267 @@
+[
+  {
+    "instruction": "Choose the word that matches the given dictionary definition by choosing A, B, C, D or E:",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "earlier in time or order",
+        "options": [
+          { "text": "A recently", "isCorrect": false },
+          { "text": "B previously", "isCorrect": true },
+          { "text": "C unfortunately", "isCorrect": false },
+          { "text": "D properly", "isCorrect": false },
+          { "text": "E artificially", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "the speed at which someone or something moves",
+        "options": [
+          { "text": "A phase", "isCorrect": false },
+          { "text": "B duration", "isCorrect": false },
+          { "text": "C pace", "isCorrect": true },
+          { "text": "D artefact", "isCorrect": false },
+          { "text": "E scale", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "ideas, advice, money, or effort that you put into a job or activity to help it succeed",
+        "options": [
+          { "text": "A target", "isCorrect": false },
+          { "text": "B composition", "isCorrect": false },
+          { "text": "C range", "isCorrect": false },
+          { "text": "D input", "isCorrect": true },
+          { "text": "E relevance", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "someone who has been forced to leave their country, especially during a war, or for political or religious reasons",
+        "options": [
+          { "text": "A immigrant", "isCorrect": false },
+          { "text": "B sufferer", "isCorrect": false },
+          { "text": "C protester", "isCorrect": false },
+          { "text": "D refugee", "isCorrect": true },
+          { "text": "E pedestrian", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "different from what is normal or expected, especially in a way that you disapprove of or cannot understand",
+        "options": [
+          { "text": "A odd", "isCorrect": true },
+          { "text": "B embarrassed", "isCorrect": false },
+          { "text": "C sacred", "isCorrect": false },
+          { "text": "D tender", "isCorrect": false },
+          { "text": "E mysterious", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the blanks in the text(s) by choosing A, B, C, D or E.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "A new study has found that the {1} of stricter gun control laws in a number of countries reduced firearm deaths. According to the research, which analyzed data from 194 countries over a period of 15 years, one {2} of strict regulations, was fewer fatalities in countries where such regulations were applied. The findings highlight the {3} effects of having weak gun laws and suggest that countries should {4} on evidence-based policies when dealing with this gun issue.",
+        "options": [
+          [
+            { "text": "A demonstration", "isCorrect": false, "blankIndex": 1 },
+            { "text": "B composition", "isCorrect": false, "blankIndex": 1 },
+            { "text": "C persuasion", "isCorrect": false, "blankIndex": 1 },
+            { "text": "D interruption", "isCorrect": false, "blankIndex": 1 },
+            { "text": "E implementation", "isCorrect": true, "blankIndex": 1 }
+          ],
+          [
+            { "text": "A component", "isCorrect": false, "blankIndex": 2 },
+            { "text": "B requirement", "isCorrect": false, "blankIndex": 2 },
+            { "text": "C consequence", "isCorrect": true, "blankIndex": 2 },
+            { "text": "D suggestion", "isCorrect": false, "blankIndex": 2 },
+            { "text": "E input", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "A unforgettable", "isCorrect": false, "blankIndex": 3 },
+            { "text": "B adverse", "isCorrect": true, "blankIndex": 3 },
+            { "text": "C pure", "isCorrect": false, "blankIndex": 3 },
+            { "text": "D domestic", "isCorrect": false, "blankIndex": 3 },
+            { "text": "E relevance", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "A rely", "isCorrect": true, "blankIndex": 4 },
+            { "text": "B implement", "isCorrect": false, "blankIndex": 4 },
+            { "text": "C comment", "isCorrect": false, "blankIndex": 4 },
+            { "text": "D enhance", "isCorrect": false, "blankIndex": 4 },
+            { "text": "E apply", "isCorrect": false, "blankIndex": 4 }
+          ]
+        ]
+      },
+      {
+        "questionText": "The Simpson family was in a very bad situation and they were ready to change things for the better. In a(n) {5} attempt to save their home, the family sold their car and took on extra jobs. {6} issues, such as disagreements about money among family members, began to arise, and added stress to their already challenging situation. Sometimes, heated arguments would result in {7}, with words that are meant to hurt rather than heal. They knew they had to {8} these difficulties together, and find ways to support each other. Despite the hardships, their strong bonds helped them face each challenge. In the end, their {9} paid off, and they managed to keep their home, learning valuable lessons about what it means to be a family.",
+        "options": [
+          [
+            { "text": "A painful", "isCorrect": false, "blankIndex": 5 },
+            { "text": "B desperate", "isCorrect": true, "blankIndex": 5 },
+            { "text": "C miraculous", "isCorrect": false, "blankIndex": 5 },
+            { "text": "D fair", "isCorrect": false, "blankIndex": 5 },
+            { "text": "E global", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "A domestic", "isCorrect": true, "blankIndex": 6 },
+            { "text": "B appealing", "isCorrect": false, "blankIndex": 6 },
+            { "text": "C inefficient", "isCorrect": false, "blankIndex": 6 },
+            { "text": "D poisonous", "isCorrect": false, "blankIndex": 6 },
+            { "text": "E immoral", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "A phases", "isCorrect": false, "blankIndex": 7 },
+            { "text": "B demonstrations", "isCorrect": false, "blankIndex": 7 },
+            { "text": "C clarifications", "isCorrect": false, "blankIndex": 7 },
+            { "text": "D insults", "isCorrect": true, "blankIndex": 7 },
+            { "text": "E perceptions", "isCorrect": false, "blankIndex": 7 }
+          ],
+          [
+            { "text": "A overcome", "isCorrect": true, "blankIndex": 8 },
+            { "text": "B implement", "isCorrect": false, "blankIndex": 8 },
+            { "text": "C commit", "isCorrect": false, "blankIndex": 8 },
+            { "text": "D adjust", "isCorrect": false, "blankIndex": 8 },
+            { "text": "E abandon", "isCorrect": false, "blankIndex": 8 }
+          ],
+          [
+            { "text": "A comments", "isCorrect": false, "blankIndex": 9 },
+            { "text": "B states", "isCorrect": false, "blankIndex": 9 },
+            { "text": "C targets", "isCorrect": false, "blankIndex": 9 },
+            { "text": "D favors", "isCorrect": false, "blankIndex": 9 },
+            { "text": "E sacrifices", "isCorrect": true, "blankIndex": 9 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Maintaining a healthy lifestyle involves a(n) {10} to regular exercise and nutritious eating habits. Many people find it challenging to {11} unhealthy practices such as consuming excessive sugary snacks or skipping meals. However, it's essential to {12} your diet with a range of fruits, vegetables, and proteins to ensure proper nutrition. Engaging in physical activity is a (n) {13} solution as it not only benefits your body but also your sense of mental well-being, helping to reduce stress and boost mood. Additionally, it's crucial to {14} these changes as positive steps towards a healthier, happier life, rather than boring tasks. By making small adjustments over time, you can gradually improve your overall health and well-being.",
+        "options": [
+          [
+            { "text": "A intention", "isCorrect": false, "blankIndex": 10 },
+            { "text": "B failure", "isCorrect": false, "blankIndex": 10 },
+            { "text": "C demand", "isCorrect": false, "blankIndex": 10 },
+            { "text": "D purpose", "isCorrect": false, "blankIndex": 10 },
+            { "text": "E commitment", "isCorrect": true, "blankIndex": 10 }
+          ],
+          [
+            { "text": "A obtain", "isCorrect": false, "blankIndex": 11 },
+            { "text": "B abandon", "isCorrect": true, "blankIndex": 11 },
+            { "text": "C range", "isCorrect": false, "blankIndex": 11 },
+            { "text": "D enhance", "isCorrect": false, "blankIndex": 11 },
+            { "text": "E examine", "isCorrect": false, "blankIndex": 11 }
+          ],
+          [
+            { "text": "A descend", "isCorrect": false, "blankIndex": 12 },
+            { "text": "B simplify", "isCorrect": false, "blankIndex": 12 },
+            { "text": "C vary", "isCorrect": true, "blankIndex": 12 },
+            { "text": "D approve", "isCorrect": false, "blankIndex": 12 },
+            { "text": "E spoil", "isCorrect": false, "blankIndex": 12 }
+          ],
+          [
+            { "text": "A appealing", "isCorrect": true, "blankIndex": 13 },
+            { "text": "B targeting", "isCorrect": false, "blankIndex": 13 },
+            { "text": "C voting", "isCorrect": false, "blankIndex": 13 },
+            { "text": "D resembling", "isCorrect": false, "blankIndex": 13 },
+            { "text": "E descending", "isCorrect": false, "blankIndex": 13 }
+          ],
+          [
+            { "text": "A differ", "isCorrect": false, "blankIndex": 14 },
+            { "text": "B attempt", "isCorrect": false, "blankIndex": 14 },
+            { "text": "C encourage", "isCorrect": false, "blankIndex": 14 },
+            { "text": "D obey", "isCorrect": false, "blankIndex": 14 },
+            { "text": "E perceive", "isCorrect": true, "blankIndex": 14 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the sentences. Fill in each space in this way.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "She placed the chairs_______________ around the room to make sure everyone could see the screen clearly. (STRATEGIC)",
+        "correctAnswer": "STRATEGICALLY",
+        "options": []
+      },
+      {
+        "questionText": "The teacher's _______________ of the math problem made it much easier for the students to understand. (SIMPLIFY)",
+        "correctAnswer": "SIMPLIFICATION",
+        "options": []
+      },
+      {
+        "questionText": "The country has strict _______________ policies to control the number of people moving there. (IMMIGRANT)",
+        "correctAnswer": "IMMIGRATION",
+        "options": []
+      },
+      {
+        "questionText": "Please include only the most _______________ information in your report to keep it concise. (RELEVANCE)",
+        "correctAnswer": "RELEVANT",
+        "options": []
+      },
+      {
+        "questionText": "_______________, we had to cancel the picnic because it started to rain heavily. (FORTUNATE)",
+        "correctAnswer": "UNFORTUNATELY",
+        "options": []
+      },
+      {
+        "questionText": "If you don't understand the instructions, please ask for _______________. (CLARIFY).",
+        "correctAnswer": "CLARIFICATION",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Take turns with your pair and ask the following questions to each other. Please make sure that you use the words in bold in your answer.",
+    "type": "open-ended",
+    "items": [
+      {
+        "questionText": "What kinds of situations embarrass you?",
+        "options": []
+      },
+      {
+        "questionText": "What factors might push people to commit a crime?",
+        "options": []
+      },
+      {
+        "questionText": "What do you intend to do after graduation?",
+        "options": []
+      },
+      {
+        "questionText": "Who has shown you the most generosity in your life, and how did it impact you?",
+        "options": []
+      },
+      {
+        "questionText": "What contemporary authors do you enjoy reading the most, and why?",
+        "options": []
+      },
+      {
+        "questionText": "Which resources should people use to obtain information about the world events?",
+        "options": []
+      },
+      {
+        "questionText": "Do you make gestures while speaking? How does it affect the conversation?",
+        "options": []
+      },
+      {
+        "questionText": "Do you like wandering around the city? How does it make you feel?",
+        "options": []
+      },
+      {
+        "questionText": "Can you talk about your unforgettable holiday?",
+        "options": []
+      },
+      {
+        "questionText": "What do you do when you lose your temper?",
+        "options": []
+      },
+      {
+        "questionText": "What kinds of gender differences do you observe in your social life?",
+        "options": []
+      },
+      {
+        "questionText": "What do you find most offensive in social media interactions, and how do you typically respond?",
+        "options": []
+      }
+    ]
+  }
+]

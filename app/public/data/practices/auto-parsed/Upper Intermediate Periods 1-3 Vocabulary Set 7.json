@@ -1,0 +1,90 @@
+[
+  {
+    "instruction": "Study the vocabulary words for Monday",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Biodiversity" },
+      { "questionText": "Drawback" },
+      { "questionText": "Elect" },
+      { "questionText": "Parade" },
+      { "questionText": "Insure/Ensure" },
+      { "questionText": "Latter/ Former" },
+      { "questionText": "Primitive" },
+      { "questionText": "Conserve" },
+      { "questionText": "Rotate" },
+      { "questionText": "Substitution" },
+      { "questionText": "Portion" },
+      { "questionText": "Sort" }
+    ]
+  },
+  {
+    "instruction": "Study the vocabulary words for Tuesday",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Mission" },
+      { "questionText": "Appliance" },
+      { "questionText": "Suspect" },
+      { "questionText": "Combination" },
+      { "questionText": "Medicine" },
+      { "questionText": "Victim" },
+      { "questionText": "Disorder" },
+      { "questionText": "Pros and cons" },
+      { "questionText": "Network (n, v)" },
+      { "questionText": "Gene" },
+      { "questionText": "Accelerate" },
+      { "questionText": "Lay" }
+    ]
+  },
+  {
+    "instruction": "Study the vocabulary words for Wednesday",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Exclude" },
+      { "questionText": "Concentrate" },
+      { "questionText": "Account (n, v)" },
+      { "questionText": "Unique" },
+      { "questionText": "Illustrate" },
+      { "questionText": "Neutral" },
+      { "questionText": "Issue" },
+      { "questionText": "Financially" },
+      { "questionText": "Dull" },
+      { "questionText": "Income" },
+      { "questionText": "Punctual" }
+    ]
+  },
+  {
+    "instruction": "Study the vocabulary words for Thursday",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Presence" },
+      { "questionText": "Greed" },
+      { "questionText": "Citizen" },
+      { "questionText": "Justice" },
+      { "questionText": "Deposit (v, n)" },
+      { "questionText": "Generate" },
+      { "questionText": "Nonsense (adj, n)" },
+      { "questionText": "Crash (v, n)" },
+      { "questionText": "Reveal" },
+      { "questionText": "Instant" },
+      { "questionText": "Launch" },
+      { "questionText": "Sarcasm" }
+    ]
+  },
+  {
+    "instruction": "Study the vocabulary words for Friday",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Regulation" },
+      { "questionText": "Shame" },
+      { "questionText": "Irritate" },
+      { "questionText": "Effort" },
+      { "questionText": "Switch (v, n)" },
+      { "questionText": "Fear (n, v)" },
+      { "questionText": "Transfer (v, n)" },
+      { "questionText": "Crisis" },
+      { "questionText": "Trust (v, n)" },
+      { "questionText": "Dozen" },
+      { "questionText": "Chemical" }
+    ]
+  }
+]

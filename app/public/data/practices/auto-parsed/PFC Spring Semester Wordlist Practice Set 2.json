@@ -1,0 +1,461 @@
+[
+  {
+    "instruction": "PART 1: Find the word that matches the given dictionary definition by choosing A, B, C, D, or E",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "a time when something suddenly begins, especially a disease or something else dangerous or unpleasant",
+        "options": [
+          { "text": "session", "isCorrect": false },
+          { "text": "beak", "isCorrect": false },
+          { "text": "periodical", "isCorrect": false },
+          { "text": "inevitable", "isCorrect": false },
+          { "text": "outbreak", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "to think that something is smaller, easier, less important, or less extreme than it actually is",
+        "options": [
+          { "text": "humiliate", "isCorrect": false },
+          { "text": "rebel", "isCorrect": false },
+          { "text": "underestimate", "isCorrect": true },
+          { "text": "disrespect", "isCorrect": false },
+          { "text": "resist", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "a person or group that receives money, advantages, help, etc. from something",
+        "options": [
+          { "text": "attorney", "isCorrect": false },
+          { "text": "beneficiary", "isCorrect": true },
+          { "text": "lord", "isCorrect": false },
+          { "text": "fellow", "isCorrect": false },
+          { "text": "commodity", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "the part of you that judges how moral your own actions are and makes you feel guilty about bad things that you have done or things you feel responsible for",
+        "options": [
+          { "text": "incapability", "isCorrect": false },
+          { "text": "gifted", "isCorrect": false },
+          { "text": "curse", "isCorrect": false },
+          { "text": "conscience", "isCorrect": true },
+          { "text": "logic", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "to change something such as a plan, opinion, law, or way of behavior slightly, usually to improve it or make it more acceptable",
+        "options": [
+          { "text": "modify", "isCorrect": true },
+          { "text": "imitate", "isCorrect": false },
+          { "text": "coordinate", "isCorrect": false },
+          { "text": "manipulate", "isCorrect": false },
+          { "text": "reproduce", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "to make someone feel ashamed or lose respect for himself or herself",
+        "options": [
+          { "text": "exploit", "isCorrect": false },
+          { "text": "bend", "isCorrect": false },
+          { "text": "humiliate", "isCorrect": true },
+          { "text": "dispose", "isCorrect": false },
+          { "text": "threaten", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "unusual and strange, sometimes in an unpleasant way",
+        "options": [
+          { "text": "ignorant", "isCorrect": false },
+          { "text": "radical", "isCorrect": false },
+          { "text": "intense", "isCorrect": false },
+          { "text": "conservative", "isCorrect": false },
+          { "text": "peculiar", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "familiar with something and accepting it as normal or usual",
+        "options": [
+          { "text": "incorporated", "isCorrect": false },
+          { "text": "negotiated", "isCorrect": false },
+          { "text": "definite", "isCorrect": false },
+          { "text": "accustomed", "isCorrect": true },
+          { "text": "prospective", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 2: Find the best definition for the underlined words in the following sentences by choosing A, B, C, D, or E",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "The minister was sacked for *exploiting* his position for his own personal gain.",
+        "options": [
+          { "text": "to speak or behave rudely to someone, or to show someone no respect", "isCorrect": false },
+          { "text": "to provide what is wanted or needed by someone or something", "isCorrect": false },
+          { "text": "to use someone or something unfairly for your own advantage", "isCorrect": true },
+          { "text": "to include something as part of something larger", "isCorrect": false },
+          { "text": "to be helped by something or to help someone", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "We're all *liable* to make mistakes when we're tired.",
+        "options": [
+          { "text": "respecting and allowing many different types of beliefs or behavior", "isCorrect": false },
+          { "text": "certain to happen and unable to be avoided or prevented", "isCorrect": false },
+          { "text": "able to do things effectively and skillfully, and to achieve results", "isCorrect": false },
+          { "text": "having special ability in a particular subject or activity", "isCorrect": false },
+          { "text": "very likely to do something", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "The company is planting trees to *compensate* for the greenhouse gas generated by the airplane flights.",
+        "options": [
+          { "text": "to cause something or someone to change from one position or direction to another", "isCorrect": false },
+          { "text": "to provide something to reduce the effects of something that has been lost or damaged", "isCorrect": true },
+          { "text": "to make various, separate things work together", "isCorrect": false },
+          { "text": "to copy someone’s speech or behavior, or to copy something as a model", "isCorrect": false },
+          { "text": "to give someone something that they need", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "He *neglects* that poor dog - he never takes him for walks.",
+        "options": [
+          { "text": "to stop yourself from doing something that you want to do", "isCorrect": false },
+          { "text": "to prevent something from happening or to not allow yourself to do something", "isCorrect": false },
+          { "text": "to control something or someone to your advantage, often unfairly or dishonestly", "isCorrect": false },
+          { "text": "to not give enough care or attention to people or things that are your responsibility", "isCorrect": true },
+          { "text": "to stop an action or condition", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Emma has the *drive* to make a difference in her community, so she regularly volunteers at local charities and helps organize fundraising events.",
+        "options": [
+          { "text": "a long, thin line of something such as light or smoke", "isCorrect": false },
+          { "text": "the system which is used to power a vehicle", "isCorrect": false },
+          { "text": "someone or something that is not included in a group", "isCorrect": false },
+          { "text": "a planned effort to achieve or encourage something", "isCorrect": true },
+          { "text": "a problem taken to a law court to obtain a legal decision", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 3: Find the synonyms of the words that are underlined by choosing A, B, C, D, or E",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "Pneumonia affects children and families everywhere, but is most *prevalent* in South Asia and sub-Saharan Africa.",
+        "options": [
+          { "text": "preventable", "isCorrect": false },
+          { "text": "contagious", "isCorrect": false },
+          { "text": "inevitable", "isCorrect": false },
+          { "text": "widespread", "isCorrect": true },
+          { "text": "radical", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The nuclear disaster at Fukushima sent an unprecedented amount of radiation into the Pacific. But, before then, atomic bomb tests and radioactive waste were *contaminating* the sea. The effects are still being felt today.",
+        "options": [
+          { "text": "shifting", "isCorrect": false },
+          { "text": "polluting", "isCorrect": true },
+          { "text": "threatening", "isCorrect": false },
+          { "text": "disposing", "isCorrect": false },
+          { "text": "wrecking", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "He knew he would be held *accountable* for any flaws in the programming.",
+        "options": [
+          { "text": "responsible", "isCorrect": true },
+          { "text": "approachable", "isCorrect": false },
+          { "text": "capable", "isCorrect": false },
+          { "text": "careless", "isCorrect": false },
+          { "text": "illogical", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Someone has leaked *confidential* government information to the press.",
+        "options": [
+          { "text": "backbone", "isCorrect": false },
+          { "text": "numerous", "isCorrect": false },
+          { "text": "liberal", "isCorrect": false },
+          { "text": "preliminary", "isCorrect": false },
+          { "text": "private", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "The *preservation* of historic buildings is beneficial not only for a community’s culture, but also for its local economy.",
+        "options": [
+          { "text": "restoration", "isCorrect": false },
+          { "text": "imitation", "isCorrect": false },
+          { "text": "conservation", "isCorrect": true },
+          { "text": "compensation", "isCorrect": false },
+          { "text": "accumulation", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "High prices are *deterring* a lot of young couples from buying houses. It is getting more and more difficult to buy one every passing day.",
+        "options": [
+          { "text": "rushing", "isCorrect": false },
+          { "text": "confronting", "isCorrect": false },
+          { "text": "ceasing", "isCorrect": false },
+          { "text": "banning", "isCorrect": false },
+          { "text": "discouraging", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "The supermarket will be *recruiting* extra staff for the Christmas period to meet the demands of the customers.",
+        "options": [
+          { "text": "firing", "isCorrect": false },
+          { "text": "emitting", "isCorrect": false },
+          { "text": "compiling", "isCorrect": false },
+          { "text": "employing", "isCorrect": true },
+          { "text": "catering", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Peaceful demonstrations that do not cause a public *nuisance* are a fundamental right in any truly democratic country.",
+        "options": [
+          { "text": "haste", "isCorrect": false },
+          { "text": "disturbance", "isCorrect": true },
+          { "text": "shame", "isCorrect": false },
+          { "text": "hostility", "isCorrect": false },
+          { "text": "negotiation", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "It is *compulsory* to be on time for the exam. If you are late, you cannot take the exam.",
+        "options": [
+          { "text": "helpful", "isCorrect": false },
+          { "text": "expensive", "isCorrect": false },
+          { "text": "excited", "isCorrect": false },
+          { "text": "required", "isCorrect": true },
+          { "text": "dangerous", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "A substance that is added to food to improve its flavour or colour is called a(n) __________.",
+        "options": [
+          { "text": "addition", "isCorrect": false },
+          { "text": "additive", "isCorrect": true },
+          { "text": "ingredient", "isCorrect": false },
+          { "text": "mixture", "isCorrect": false },
+          { "text": "product", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 4: The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the sentences. Fill in each space in this way. Spelling mistakes will be penalized.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "Jason is always very ______; why don’t you talk the problem over with him? (APPROACH)",
+        "correctAnswer": "approachable",
+        "options": []
+      },
+      {
+        "questionText": "The accident was caused by ______ on the part of the driver. (NEGLECT)",
+        "correctAnswer": "negligence",
+        "options": []
+      },
+      {
+        "questionText": "Her latest album is a ______ of all her best singles. (COMPILE)",
+        "correctAnswer": "compilation",
+        "options": []
+      },
+      {
+        "questionText": "Most ______ individuals have some common characteristics like knowing how to detect your weaknesses and using your weaknesses against you. (MANIPULATE)",
+        "correctAnswer": "manipulative",
+        "options": []
+      },
+      {
+        "questionText": "She received £40,000 in ______ for her lost eye. (COMPENSATE)",
+        "correctAnswer": "compensation",
+        "options": []
+      },
+      {
+        "questionText": "Defenders of the death penalty regard it as the ultimate ______. (DETER)",
+        "correctAnswer": "deterrent",
+        "options": []
+      },
+      {
+        "questionText": "Greenpeace works to promote awareness of the dangers that ______ our planet today. (THREAT)",
+        "correctAnswer": "threaten",
+        "options": []
+      },
+      {
+        "questionText": "Environmental groups want a substantial reduction in the ______ of greenhouse gases. (EMIT)",
+        "correctAnswer": "emission",
+        "options": []
+      },
+      {
+        "questionText": "Being criticized heavily in public, I felt a deep ______ and wanted the ground to swallow me up. (HUMILIATE)",
+        "correctAnswer": "humiliation",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "PART 5A: Fill in the blanks with the most appropriate words from the box. Do NOT change the forms. [radical, conservative, timely, threads, accustomed, backbone, potential, rebel]",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "Student success should be a teacher's number one priority. For some students, success will be getting a good grade. For others, it might mean increased involvement in class. You can help all of your students reach their full ______ , regardless of the way they measure success.",
+        "correctAnswer": "potential",
+        "options": []
+      },
+      {
+        "questionText": "All teens go through similar phases -- the need for independence, a separate identity, testing authority, so most teenagers find something to ______ against. It's part of growing up; it's also linked to developmental changes in the brain that will eventually help them become analytical adults.",
+        "correctAnswer": "rebel",
+        "options": []
+      },
+      {
+        "questionText": "Older people tend to be more ______ and a bit suspicious of anything new. This is because change requires proactive adaptation and effort, but it is especially stressful when we are old.",
+        "correctAnswer": "conservative",
+        "options": []
+      },
+      {
+        "questionText": "She answered all my questions in a professional and ______ manner. Thus, I could finish and submit my project without any delay.",
+        "correctAnswer": "timely",
+        "options": []
+      },
+      {
+        "questionText": "Josh felt uncomfortably full as he was not ______ to eating so much.",
+        "correctAnswer": "accustomed",
+        "options": []
+      },
+      {
+        "questionText": "The education system as we know it dates back more than 200 years. It cannot keep up, and ______ change is close. Is a school system without grades the solution? Is a fixed curriculum still relevant? There are lots of questions as such to be answered.",
+        "correctAnswer": "radical",
+        "options": []
+      },
+      {
+        "questionText": "This is no hidden fact that the rural women do most of the manual work in farms and are the ______ of our agriculture. They sometimes spend around 12 to 15 hours a day on agricultural activities and after that they take care of their families and households.",
+        "correctAnswer": "backbone",
+        "options": []
+      },
+      {
+        "questionText": "One of the main ______ of the film is the development of the relationship between the boy and his uncle.",
+        "correctAnswer": "threads",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "PART 5B: Fill in the blanks with the most appropriate words from the box. Do NOT change the forms. [modification, copyright, diagnosed, underestimate, agenda, solely, outbreak]",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "Social media has become an integral part of our lives, both in personal and professional level, offering endless opportunities for communication, growth, networking, exposure and profit. However, many business owners out there still question the role of social media managers, or ______ them, ignoring the benefits they may bring for their company.",
+        "correctAnswer": "underestimate",
+        "options": []
+      },
+      {
+        "questionText": "Measures to prevent the spread of the coronavirus in the country and reduce its impact on the economy are high on the government’s ______.",
+        "correctAnswer": "agenda",
+        "options": []
+      },
+      {
+        "questionText": "The magazine’s success cannot be attributed ______ to research and the editorial product; attracting readers and advertisers depends as much on using the right marketing techniques as it does on having a quality publication.",
+        "correctAnswer": "solely",
+        "options": []
+      },
+      {
+        "questionText": "The treatment’s chances of success are stronger if it is started as soon as the disease is ______.",
+        "correctAnswer": "diagnosed",
+        "options": []
+      },
+      {
+        "questionText": "Several environmental groups object strongly to genetic ______ , saying that it could have disastrous consequences that no-one can predict.",
+        "correctAnswer": "modification",
+        "options": []
+      },
+      {
+        "questionText": "Coronaviruses are common in animals of all kinds, and they sometimes can evolve into forms that can infect humans. Since the start of the century, two other coronaviruses have jumped to humans, causing the SARS ______ in 2002 and the MERS in 2012.",
+        "correctAnswer": "outbreak",
+        "options": []
+      },
+      {
+        "questionText": "The photographer holds the ______ on all of the wedding photos so you need to pay for him if you want to use the photos on your social media accounts.",
+        "correctAnswer": "copyright",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "PART 6: Fill in the blanks with the correct word. Choose between ‘conscience’ and ‘conscious’.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "{1} means being aware of yourself or the world around you. It also means being sensitive to something or being awake, not asleep or insensible.",
+        "options": [
+          [
+            { "text": "Conscious", "isCorrect": true, "blankIndex": 1 },
+            { "text": "Conscience", "isCorrect": false, "blankIndex": 1 }
+          ]
+        ]
+      },
+      {
+        "questionText": "{1} is a moral understanding, an inner feeling of right and wrong.",
+        "options": [
+          [
+            { "text": "Conscience", "isCorrect": true, "blankIndex": 1 },
+            { "text": "Conscious", "isCorrect": false, "blankIndex": 1 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Remain {1} while listening to your friend's moral dilemma so you can use your {2} to give good advice.",
+        "options": [
+          [
+            { "text": "conscious", "isCorrect": true, "blankIndex": 1 },
+            { "text": "conscience", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "conscience", "isCorrect": true, "blankIndex": 2 },
+            { "text": "conscious", "isCorrect": false, "blankIndex": 2 }
+          ]
+        ]
+      },
+      {
+        "questionText": "If you were a cartoon character, your {1} would be that little angel on your shoulder, telling you the right thing to do.",
+        "options": [
+          [
+            { "text": "conscience", "isCorrect": true, "blankIndex": 1 },
+            { "text": "conscious", "isCorrect": false, "blankIndex": 1 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Witnesses say he was bleeding heavily but {1} and talking.",
+        "options": [
+          [
+            { "text": "conscious", "isCorrect": true, "blankIndex": 1 },
+            { "text": "conscience", "isCorrect": false, "blankIndex": 1 }
+          ]
+        ]
+      },
+      {
+        "questionText": "You didn't do anything wrong – you should have a clear {1}.",
+        "options": [
+          [
+            { "text": "conscience", "isCorrect": true, "blankIndex": 1 },
+            { "text": "conscious", "isCorrect": false, "blankIndex": 1 }
+          ]
+        ]
+      },
+      {
+        "questionText": "People have become much more {1} of the need to exercise regularly.",
+        "options": [
+          [
+            { "text": "conscious", "isCorrect": true, "blankIndex": 1 },
+            { "text": "conscience", "isCorrect": false, "blankIndex": 1 }
+          ]
+        ]
+      }
+    ]
+  }
+]

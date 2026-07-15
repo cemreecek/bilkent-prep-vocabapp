@@ -1,0 +1,257 @@
+[
+  {
+    "instruction": "PART 1: Fill in the blanks in the texts by choosing A, B, C, D or E.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Are you thinking about going to a university? There are many reasons why getting a university education is important. First, your courses will {1} of many different subjects, which will give you a well-rounded education. University programs are designed to keep you on {2} with your goals, whether it is to become a doctor, engineer, or teacher. University education can also open doors {3}. With a degree, you can find job opportunities not just in your own country, but around the world. Studying at a university will make you ready and better {4} to deal with different challenges in your career. However, it is important to know what you want. Some people go to university without having a clear {5} in mind. It’s always good to have a goal.",
+        "options": [
+          [
+            { "text": "consist", "isCorrect": true, "blankIndex": 1 },
+            { "text": "evaluate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "encounter", "isCorrect": false, "blankIndex": 1 },
+            { "text": "cover", "isCorrect": false, "blankIndex": 1 },
+            { "text": "appeal", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "range", "isCorrect": false, "blankIndex": 2 },
+            { "text": "trial", "isCorrect": false, "blankIndex": 2 },
+            { "text": "stain", "isCorrect": false, "blankIndex": 2 },
+            { "text": "input", "isCorrect": false, "blankIndex": 2 },
+            { "text": "track", "isCorrect": true, "blankIndex": 2 }
+          ],
+          [
+            { "text": "partially", "isCorrect": false, "blankIndex": 3 },
+            { "text": "previously", "isCorrect": false, "blankIndex": 3 },
+            { "text": "globally", "isCorrect": true, "blankIndex": 3 },
+            { "text": "acceptably", "isCorrect": false, "blankIndex": 3 },
+            { "text": "obviously", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "equipped", "isCorrect": true, "blankIndex": 4 },
+            { "text": "generous", "isCorrect": false, "blankIndex": 4 },
+            { "text": "embarrassed", "isCorrect": false, "blankIndex": 4 },
+            { "text": "wise", "isCorrect": false, "blankIndex": 4 },
+            { "text": "intensive", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "delight", "isCorrect": false, "blankIndex": 5 },
+            { "text": "concern", "isCorrect": false, "blankIndex": 5 },
+            { "text": "union", "isCorrect": false, "blankIndex": 5 },
+            { "text": "loan", "isCorrect": false, "blankIndex": 5 },
+            { "text": "objective", "isCorrect": true, "blankIndex": 5 }
+          ]
+        ]
+      },
+      {
+        "questionText": "When someone is diagnosed with a {1} illness which has no cure, it's natural to experience heightened concern and worry about the future. This {2} can result from uncertainties about treatment options and how to manage daily life. Therefore, It's important to approach these challenges in a(n) {3} manner, and get support from healthcare professionals and loved ones. One {4} of dealing with such illness is understanding how you feel about your illness. Some days may bring hope and optimism, while others may be more difficult. In other words, your emotions {5} to change everyday. Finding ways to cope and maintain a positive outlook can make a significant difference in the quality of life.",
+        "options": [
+          [
+            { "text": "complete", "isCorrect": false, "blankIndex": 1 },
+            { "text": "typical", "isCorrect": false, "blankIndex": 1 },
+            { "text": "rational", "isCorrect": false, "blankIndex": 1 },
+            { "text": "terminal", "isCorrect": true, "blankIndex": 1 },
+            { "text": "authentic", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "delight", "isCorrect": false, "blankIndex": 2 },
+            { "text": "quarrel", "isCorrect": false, "blankIndex": 2 },
+            { "text": "anxiety", "isCorrect": true, "blankIndex": 2 },
+            { "text": "gesture", "isCorrect": false, "blankIndex": 2 },
+            { "text": "temper", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "literary", "isCorrect": false, "blankIndex": 3 },
+            { "text": "intensive", "isCorrect": false, "blankIndex": 3 },
+            { "text": "domestic", "isCorrect": false, "blankIndex": 3 },
+            { "text": "rational", "isCorrect": true, "blankIndex": 3 },
+            { "text": "odd", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "union", "isCorrect": false, "blankIndex": 4 },
+            { "text": "extent", "isCorrect": false, "blankIndex": 4 },
+            { "text": "range", "isCorrect": false, "blankIndex": 4 },
+            { "text": "suggestion", "isCorrect": false, "blankIndex": 4 },
+            { "text": "aspect", "isCorrect": true, "blankIndex": 4 }
+          ],
+          [
+            { "text": "tend", "isCorrect": true, "blankIndex": 5 },
+            { "text": "anticipate", "isCorrect": false, "blankIndex": 5 },
+            { "text": "object", "isCorrect": false, "blankIndex": 5 },
+            { "text": "intend", "isCorrect": false, "blankIndex": 5 },
+            { "text": "obtain", "isCorrect": false, "blankIndex": 5 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 2: Read the text below and choose a word from the box that best completes each blank. Use each word once only. Do not change the form of the word. There are FOUR extra words. [Words: anticipate, extent, globally, hints, stain, nationwide, submit, throughout, unsuitable, delight]",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "The world population has become more environmentally conscious. As a result, efforts to protect the environment are now widespread {1} the world. Many countries have implemented {2} policies to deal with pollution and promote sustainability. For example, in Japan, the government has introduced recycling programs and strict emission standards to reduce carbon footprint. Similarly, Costa Rica has invested in extensive network of national parks and renewable energy projects.\n\nThe {3} of these policies varies across regions and countries. In some places, such as Norway and Germany, there are many promotions for investment programs focusing on electric vehicles and renewable energy production. This {4} at a likely responsibility for all the nations to preserve natural resources and fight against climate change.\n\nIndividuals and organizations play a crucial role in these efforts. They {5} proposals for eco-friendly projects, such as community gardens in urban areas and plans to restore wildlife habitats. For instance, local NGOs in India have given their plans to the government to install solar panels in rural villages, providing sustainable energy sources and reducing the use of fossil fuels.\n\nIt's a {6} to see communities coming together for such plans, developing a sense of responsibility towards our planet. In Australia, communal and social plans to clean up beaches and reduce plastic waste show the power of collective action in environmental protection.",
+        "options": [
+          [
+            { "text": "throughout", "isCorrect": true, "blankIndex": 1 },
+            { "text": "anticipate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "extent", "isCorrect": false, "blankIndex": 1 },
+            { "text": "globally", "isCorrect": false, "blankIndex": 1 },
+            { "text": "hints", "isCorrect": false, "blankIndex": 1 },
+            { "text": "stain", "isCorrect": false, "blankIndex": 1 },
+            { "text": "nationwide", "isCorrect": false, "blankIndex": 1 },
+            { "text": "submit", "isCorrect": false, "blankIndex": 1 },
+            { "text": "unsuitable", "isCorrect": false, "blankIndex": 1 },
+            { "text": "delight", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "throughout", "isCorrect": false, "blankIndex": 2 },
+            { "text": "anticipate", "isCorrect": false, "blankIndex": 2 },
+            { "text": "extent", "isCorrect": false, "blankIndex": 2 },
+            { "text": "globally", "isCorrect": false, "blankIndex": 2 },
+            { "text": "hints", "isCorrect": false, "blankIndex": 2 },
+            { "text": "stain", "isCorrect": false, "blankIndex": 2 },
+            { "text": "nationwide", "isCorrect": true, "blankIndex": 2 },
+            { "text": "submit", "isCorrect": false, "blankIndex": 2 },
+            { "text": "unsuitable", "isCorrect": false, "blankIndex": 2 },
+            { "text": "delight", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "throughout", "isCorrect": false, "blankIndex": 3 },
+            { "text": "anticipate", "isCorrect": false, "blankIndex": 3 },
+            { "text": "extent", "isCorrect": true, "blankIndex": 3 },
+            { "text": "globally", "isCorrect": false, "blankIndex": 3 },
+            { "text": "hints", "isCorrect": false, "blankIndex": 3 },
+            { "text": "stain", "isCorrect": false, "blankIndex": 3 },
+            { "text": "nationwide", "isCorrect": false, "blankIndex": 3 },
+            { "text": "submit", "isCorrect": false, "blankIndex": 3 },
+            { "text": "unsuitable", "isCorrect": false, "blankIndex": 3 },
+            { "text": "delight", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "throughout", "isCorrect": false, "blankIndex": 4 },
+            { "text": "anticipate", "isCorrect": false, "blankIndex": 4 },
+            { "text": "extent", "isCorrect": false, "blankIndex": 4 },
+            { "text": "globally", "isCorrect": false, "blankIndex": 4 },
+            { "text": "hints", "isCorrect": true, "blankIndex": 4 },
+            { "text": "stain", "isCorrect": false, "blankIndex": 4 },
+            { "text": "nationwide", "isCorrect": false, "blankIndex": 4 },
+            { "text": "submit", "isCorrect": false, "blankIndex": 4 },
+            { "text": "unsuitable", "isCorrect": false, "blankIndex": 4 },
+            { "text": "delight", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "throughout", "isCorrect": false, "blankIndex": 5 },
+            { "text": "anticipate", "isCorrect": false, "blankIndex": 5 },
+            { "text": "extent", "isCorrect": false, "blankIndex": 5 },
+            { "text": "globally", "isCorrect": false, "blankIndex": 5 },
+            { "text": "hints", "isCorrect": false, "blankIndex": 5 },
+            { "text": "stain", "isCorrect": false, "blankIndex": 5 },
+            { "text": "nationwide", "isCorrect": false, "blankIndex": 5 },
+            { "text": "submit", "isCorrect": true, "blankIndex": 5 },
+            { "text": "unsuitable", "isCorrect": false, "blankIndex": 5 },
+            { "text": "delight", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "throughout", "isCorrect": false, "blankIndex": 6 },
+            { "text": "anticipate", "isCorrect": false, "blankIndex": 6 },
+            { "text": "extent", "isCorrect": false, "blankIndex": 6 },
+            { "text": "globally", "isCorrect": false, "blankIndex": 6 },
+            { "text": "hints", "isCorrect": false, "blankIndex": 6 },
+            { "text": "stain", "isCorrect": false, "blankIndex": 6 },
+            { "text": "nationwide", "isCorrect": false, "blankIndex": 6 },
+            { "text": "submit", "isCorrect": false, "blankIndex": 6 },
+            { "text": "unsuitable", "isCorrect": false, "blankIndex": 6 },
+            { "text": "delight", "isCorrect": true, "blankIndex": 6 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 3: The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the sentences. Fill in each space in this way.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "Sometimes it seems that press ______ of an event is not directly relevant to its true importance. (COVER)",
+        "correctAnswer": "COVERAGE",
+        "options": []
+      },
+      {
+        "questionText": "The curriculum will take account of the ethnic ______ of the population. (DIVERSE)",
+        "correctAnswer": "DIVERSITY",
+        "options": []
+      },
+      {
+        "questionText": "This new technology should lead to greater ______ in the workplace. (FLEXIBLE)",
+        "correctAnswer": "FLEXIBILITY",
+        "options": []
+      },
+      {
+        "questionText": "We need to carry out a proper ______ of the new system. (EVALUATE)",
+        "correctAnswer": "EVALUATION",
+        "options": []
+      },
+      {
+        "questionText": "The training program included an ______ schedule of workshops and practical exercises. (INTENSE)",
+        "correctAnswer": "INTENSIVE",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "PART 4: Fill in the blanks with a word from the box below to form a meaningful collocation. There are TWO extra words. [Words: awareness, overseas, encounter, impression, select, obstacles, harm, interfere, quarrels, grant]",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "How can university students give a positive ______ during job interviews?",
+        "correctAnswer": "Impression",
+        "options": []
+      },
+      {
+        "questionText": "Why do organizations typically ______ permission for employees to work remotely?",
+        "correctAnswer": "Grant",
+        "options": []
+      },
+      {
+        "questionText": "What do you do when you ______ problems during your studies?",
+        "correctAnswer": "Encounter",
+        "options": []
+      },
+      {
+        "questionText": "Why do some students want to work ______ after graduation?",
+        "correctAnswer": "Overseas",
+        "options": []
+      },
+      {
+        "questionText": "How can university students raise ______ about important social issues on campus?",
+        "correctAnswer": "Awareness",
+        "options": []
+      },
+      {
+        "questionText": "How can people avoid doing ______ to the environment in their everyday lives?",
+        "correctAnswer": "Harms",
+        "options": []
+      },
+      {
+        "questionText": "When there are difficulties which prevent you from achieving your goals, do you try to remove those ______ or do you give up?",
+        "correctAnswer": "Obstacles",
+        "options": []
+      },
+      {
+        "questionText": "What are some common reasons people have ______ with their friends?",
+        "correctAnswer": "Quarrels",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "PART 5: SPEAKING TASK",
+    "type": "open-ended",
+    "items": [
+      {
+        "questionText": "Now, ask and answer the questions you have just completed above with your partner."
+      }
+    ]
+  }
+]

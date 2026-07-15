@@ -1,0 +1,518 @@
+[
+  {
+    "word": "Tube",
+    "day": 1,
+    "definition": "An underground electric railway system, especially in London.",
+    "example": "I always take the tube to get across the city quickly."
+  },
+  {
+    "word": "Boost",
+    "day": 1,
+    "definition": "To help improve something or increase someone's confidence.",
+    "example": "Winning the competition will give her a boost of confidence."
+  },
+  {
+    "word": "Treat",
+    "day": 1,
+    "definition": "To behave towards someone in a particular way.",
+    "example": "It's important to treat all students like equals."
+  },
+  {
+    "word": "Bind",
+    "day": 1,
+    "definition": "To tie or fasten something tightly, or to be certain to do something.",
+    "example": "If you study hard, you are bound to pass the exam."
+  },
+  {
+    "word": "Incentive",
+    "day": 1,
+    "definition": "Something that encourages you to do something.",
+    "example": "The company offered a big incentive for employees to work overtime."
+  },
+  {
+    "word": "Frozen",
+    "day": 1,
+    "definition": "Turned into ice; very cold.",
+    "example": "Without warm clothes in the snow, we might freeze to death."
+  },
+  {
+    "word": "Abortion",
+    "day": 1,
+    "definition": "The medical procedure to end a pregnancy.",
+    "example": "The patient had to have an abortion for medical reasons."
+  },
+  {
+    "word": "Prior",
+    "day": 1,
+    "definition": "Existing or happening before something else.",
+    "example": "Finishing this report is a top priority before I can go home."
+  },
+  {
+    "word": "Terror",
+    "day": 1,
+    "definition": "A feeling of extreme fear.",
+    "example": "The small child hid under the bed in terror of the storm."
+  },
+  {
+    "word": "Longevity",
+    "day": 1,
+    "definition": "Long life or the long duration of something.",
+    "example": "The company is concerned about the longevity of its new product."
+  },
+  {
+    "word": "Energetic",
+    "day": 1,
+    "definition": "Full of energy and very active.",
+    "example": "Her energetic approach to environmental issues highlighted the importance of renewable energy."
+  },
+  {
+    "word": "Enforce",
+    "day": 1,
+    "definition": "To make sure that a law or rule is obeyed.",
+    "example": "New parking rules will be strictly enforced starting next month."
+  },
+  {
+    "word": "Chief",
+    "day": 1,
+    "definition": "The most important or highest-ranking person in an organization or group.",
+    "example": "The chief of police held a press conference about the recent crime."
+  },
+  {
+    "word": "Minimal",
+    "day": 1,
+    "definition": "Very small in amount or degree; the least possible.",
+    "example": "Luckily, the car accident resulted in only minimal damage to the vehicle."
+  },
+  {
+    "word": "Wreck",
+    "day": 1,
+    "definition": "A serious accident, especially one in which a vehicle is destroyed, or the remains of a ship that has sunk.",
+    "example": "Divers discovered an ancient ship wreck at the bottom of the sea."
+  },
+  {
+    "word": "Reform",
+    "day": 1,
+    "definition": "To make changes to something in order to improve it.",
+    "example": "The education system needs to go through reform to meet modern demands."
+  },
+  {
+    "word": "Intense",
+    "day": 1,
+    "definition": "Very strong; having a very great degree of strength or concentration.",
+    "example": "The desert sun had a high intensity, making it difficult to stay outside for long."
+  },
+  {
+    "word": "Furious",
+    "day": 1,
+    "definition": "Extremely angry.",
+    "example": "She was furious at her brother for breaking her favorite mug."
+  },
+  {
+    "word": "Automate",
+    "day": 1,
+    "definition": "To make a process or system operate automatically.",
+    "example": "The factory uses machines that are fully automated to produce goods quickly."
+  },
+  {
+    "word": "Hire",
+    "day": 2,
+    "definition": "To pay money to use something for a period of time.",
+    "example": "We paid a daily hire charge for the bicycle during our vacation."
+  },
+  {
+    "word": "Merchant",
+    "day": 2,
+    "definition": "A person who buys and sells goods, especially in large amounts.",
+    "example": "In the past, a powerful merchant could control trade in an entire region."
+  },
+  {
+    "word": "Rumor",
+    "day": 2,
+    "definition": "A piece of information or a story that has not been proven true, but is told from person to person.",
+    "example": "Please don't spread a rumor; it might not be true and could harm someone."
+  },
+  {
+    "word": "Guarantee",
+    "day": 2,
+    "definition": "A formal promise that something will be done or will happen.",
+    "example": "The new washing machine comes with a full guarantee for two years."
+  },
+  {
+    "word": "Chamber",
+    "day": 2,
+    "definition": "A room, especially one of a special type, or a space in a machine or body.",
+    "example": "The ancient tomb contained a hidden chamber filled with treasures."
+  },
+  {
+    "word": "Burden",
+    "day": 2,
+    "definition": "A heavy load, either physical or mental.",
+    "example": "I don't want to burden my friends with my problems."
+  },
+  {
+    "word": "Shade",
+    "day": 2,
+    "definition": "An area that is dark and cool because the light of the sun does not reach it.",
+    "example": "It was so hot that we decided to rest in the shade of a large tree."
+  },
+  {
+    "word": "Restrain",
+    "day": 2,
+    "definition": "To stop someone from doing something, or to control a feeling or action.",
+    "example": "She had to restrain herself from laughing during the serious meeting."
+  },
+  {
+    "word": "Rejoice",
+    "day": 2,
+    "definition": "To feel or show great joy or delight.",
+    "example": "The whole village rejoiced when the war finally ended."
+  },
+  {
+    "word": "Accumulate",
+    "day": 2,
+    "definition": "To gradually get more and more of something over a period of time.",
+    "example": "Dust can rapidly accumulate in a room if it's not cleaned regularly."
+  },
+  {
+    "word": "Correspond",
+    "day": 2,
+    "definition": "To be similar or to match something, or to communicate by writing letters.",
+    "example": "The results of the experiment should correspond to the initial hypothesis."
+  },
+  {
+    "word": "Meanwhile",
+    "day": 2,
+    "definition": "At the same time.",
+    "example": "I went to the shop; meanwhile, my brother started cooking dinner."
+  },
+  {
+    "word": "Noble",
+    "day": 2,
+    "definition": "Belonging to a high social class, or having high moral principles.",
+    "example": "The story was about a knight from a noble family who fought for justice."
+  },
+  {
+    "word": "Joint",
+    "day": 2,
+    "definition": "A place in your body where two bones are connected.",
+    "example": "My grandmother often complains about pain in her knee joint."
+  },
+  {
+    "word": "Reproduce",
+    "day": 2,
+    "definition": "To produce young, or to make a copy of something.",
+    "example": "Humans have a complex reproductive system that allows them to have children."
+  },
+  {
+    "word": "Dictate",
+    "day": 2,
+    "definition": "To give orders or tell someone exactly what to do, or to control something.",
+    "example": "The larger company tried to dictate the terms of an agreement to the smaller one."
+  },
+  {
+    "word": "Negotiate",
+    "day": 3,
+    "definition": "To discuss something formally in order to reach an agreement.",
+    "example": "The union will negotiate with the company for better working conditions."
+  },
+  {
+    "word": "Route",
+    "day": 3,
+    "definition": "A way or course taken in getting from one place to another.",
+    "example": "We decided to take the scenic route home to enjoy the beautiful views."
+  },
+  {
+    "word": "Haste",
+    "day": 3,
+    "definition": "Great speed, especially when done with urgency or rush.",
+    "example": "In her great haste, she forgot to lock the door when she left."
+  },
+  {
+    "word": "Fellow",
+    "day": 3,
+    "definition": "A person who is in the same situation, or who has the same interests.",
+    "example": "I shared a taxi with a fellow traveller going to the same airport."
+  },
+  {
+    "word": "Operate",
+    "day": 3,
+    "definition": "To control the way a machine works, or to perform a surgical procedure.",
+    "example": "It takes training to properly operate machinery safely."
+  },
+  {
+    "word": "Careless",
+    "day": 3,
+    "definition": "Not paying enough attention to what you are doing, so that you make mistakes or damage things.",
+    "example": "Being careless can lead to accidents, so always take care."
+  },
+  {
+    "word": "Confront",
+    "day": 3,
+    "definition": "To meet someone face to face, especially in an aggressive or challenging way.",
+    "example": "She decided to confront her boss about the unfair treatment."
+  },
+  {
+    "word": "Flesh",
+    "day": 3,
+    "definition": "The soft part of the body between the skin and the bones, or the edible part of a fruit or vegetable.",
+    "example": "The doctor examined the patient's flesh for any signs of infection."
+  },
+  {
+    "word": "Hostile",
+    "day": 3,
+    "definition": "Unfriendly and aggressive, or unwilling to accept something.",
+    "example": "The local residents were hostile towards the new development plan."
+  },
+  {
+    "word": "Procedure",
+    "day": 3,
+    "definition": "A set of actions that is the official or accepted way of doing something.",
+    "example": "The hospital explained the complex procedure for obtaining medical records."
+  },
+  {
+    "word": "Resist",
+    "day": 3,
+    "definition": "To oppose something or to try to prevent something from happening.",
+    "example": "It's hard to resist unhealthy snacks, but people can show organized resistance to harmful policies."
+  },
+  {
+    "word": "Mutual",
+    "day": 3,
+    "definition": "(Of a feeling or action) experienced or done by each of two or more parties towards the other or others.",
+    "example": "Their business partnership was built on a foundation of mutual trust and shared goals."
+  },
+  {
+    "word": "Conclude",
+    "day": 3,
+    "definition": "To bring something to an end, or to decide something after careful thought.",
+    "example": "After a long discussion, the committee decided to conclude the meeting."
+  },
+  {
+    "word": "Swing",
+    "day": 3,
+    "definition": "To move or make something move backwards and forwards or from side to side.",
+    "example": "The pendulum continued to swing back and forth rhythmically."
+  },
+  {
+    "word": "Evaporate",
+    "day": 3,
+    "definition": "To change from a liquid to a gas, often by heating, or to disappear.",
+    "example": "The sun's heat will evaporate the water left on the pavement."
+  },
+  {
+    "word": "Flaw",
+    "day": 3,
+    "definition": "A mistake or imperfection in something.",
+    "example": "There was a serious flaw in the design of the bridge, causing safety concerns."
+  },
+  {
+    "word": "Unify",
+    "day": 3,
+    "definition": "To bring people or things together to form a single unit or group.",
+    "example": "The new leader promised to unify a country divided by conflict."
+  },
+  {
+    "word": "FiniteInfinite",
+    "day": 4,
+    "definition": "Finite: Having limits or bounds. Infinite: Without limits; endless.",
+    "example": "Humans have a finite lifespan, but the universe seems infinite."
+  },
+  {
+    "word": "Indefinite definite",
+    "day": 4,
+    "definition": "Indefinite: Not exact, without fixed limits. Definite: Clearly stated or decided; certain.",
+    "example": "We have an indefinite period of time, but a definite plan for the project."
+  },
+  {
+    "word": "Administer",
+    "day": 4,
+    "definition": "To manage or supervise the operation of something, or to give a drug or treatment.",
+    "example": "The teachers had to administer an exam to all students at the end of the term."
+  },
+  {
+    "word": "Declare",
+    "day": 4,
+    "definition": "To announce something publicly or officially.",
+    "example": "The government decided to declare a state of emergency after the earthquake."
+  },
+  {
+    "word": "Automatic",
+    "day": 4,
+    "definition": "(Of a machine or device) working by itself with little or no direct human control.",
+    "example": "The car has an automatic gearbox, making it easier to drive."
+  },
+  {
+    "word": "Replicate",
+    "day": 4,
+    "definition": "To make an exact copy of something.",
+    "example": "Scientists tried to replicate the original experiment to confirm the results."
+  },
+  {
+    "word": "Apologize",
+    "day": 4,
+    "definition": "To say that you are sorry for doing something wrong or for causing a problem.",
+    "example": "I need to apologize to my friend for being late."
+  },
+  {
+    "word": "Confirm",
+    "day": 4,
+    "definition": "To state or show that something is true or correct.",
+    "example": "We need to wait for the hotel to confirm our reservation."
+  },
+  {
+    "word": "Jewel",
+    "day": 4,
+    "definition": "A valuable stone, such as a diamond or ruby, used in jewelry.",
+    "example": "She wore a beautiful jewel necklace for the special occasion."
+  },
+  {
+    "word": "Proceed",
+    "day": 4,
+    "definition": "To continue with an action or to move forward.",
+    "example": "The lawyer explained the legal proceedings involved in the case."
+  },
+  {
+    "word": "Dispose",
+    "day": 4,
+    "definition": "To get rid of something, especially by throwing it away.",
+    "example": "Please dispose of all waste properly in the designated bins."
+  },
+  {
+    "word": "Session",
+    "day": 4,
+    "definition": "A period of time during which a particular activity takes place.",
+    "example": "The training session lasted for three hours."
+  },
+  {
+    "word": "Civil",
+    "day": 4,
+    "definition": "Relating to ordinary citizens and their concerns, or polite and well-mannered.",
+    "example": "Even if you disagree, you should always try to be civil to other people."
+  },
+  {
+    "word": "Smart",
+    "day": 4,
+    "definition": "Clean, neat, and stylish in appearance, or intelligent.",
+    "example": "She looked very smart in her new suit for the interview."
+  },
+  {
+    "word": "Compose",
+    "day": 4,
+    "definition": "To create music or writing, or to form something by putting different parts together.",
+    "example": "He spent hours trying to compose a beautiful song for his girlfriend."
+  },
+  {
+    "word": "Hack",
+    "day": 4,
+    "definition": "To secretly get access to a computer system or network, or a clever solution to a problem.",
+    "example": "A criminal managed to hack into the company's secure database."
+  },
+  {
+    "word": "Inferior",
+    "day": 4,
+    "definition": "Not as good as something or someone else.",
+    "example": "This product is inferior to the one we bought last year."
+  },
+  {
+    "word": "Properly",
+    "day": 5,
+    "definition": "In a correct or suitable way.",
+    "example": "He didn't behave properly in the meeting, unlike the usual proper behavior expected."
+  },
+  {
+    "word": "Stove",
+    "day": 5,
+    "definition": "A piece of cooking equipment that burns fuel or uses electricity to heat food.",
+    "example": "We cooked dinner on the gas stove in the kitchen."
+  },
+  {
+    "word": "Vehicle",
+    "day": 5,
+    "definition": "A machine, usually with wheels, that is used for transporting people or goods.",
+    "example": "Cars, buses, and trucks are all types of motor vehicle."
+  },
+  {
+    "word": "Prospective",
+    "day": 5,
+    "definition": "Expected to be or happen in the future.",
+    "example": "The real estate agent met with several prospective buyers for the house."
+  },
+  {
+    "word": "Preliminary",
+    "day": 5,
+    "definition": "Happening before a more important action or event.",
+    "example": "The research is still in its preliminary stages, so no results are available yet."
+  },
+  {
+    "word": "Upward",
+    "day": 5,
+    "definition": "Moving towards a higher place or level.",
+    "example": "There has been an upward trend in house prices over the last year."
+  },
+  {
+    "word": "Attorney",
+    "day": 5,
+    "definition": "A lawyer, especially one who can act for clients in court.",
+    "example": "My attorney advised me not to sign the contract without reading it carefully."
+  },
+  {
+    "word": "Domain",
+    "day": 5,
+    "definition": "An area of knowledge or activity, or a specific area of control.",
+    "example": "After 70 years, the old novel entered the public domain, meaning anyone can use it freely."
+  },
+  {
+    "word": "Ahead",
+    "day": 5,
+    "definition": "In front; in advance.",
+    "example": "If you start studying now, you will be ahead of the class by next week."
+  },
+  {
+    "word": "Undertake",
+    "day": 5,
+    "definition": "To take responsibility for a task or project.",
+    "example": "The team decided to undertake responsibility for the entire project."
+  },
+  {
+    "word": "Attain",
+    "day": 5,
+    "definition": "To succeed in achieving something after a lot of effort.",
+    "example": "She worked hard and was able to fully attain her career goals."
+  },
+  {
+    "word": "Cite",
+    "day": 5,
+    "definition": "To mention something as an example, proof, or support, or to refer to a source of information.",
+    "example": "In academic writing, you must always cite your sources correctly."
+  },
+  {
+    "word": "Applaud",
+    "day": 5,
+    "definition": "To show approval or praise by clapping hands.",
+    "example": "The audience began to applaud loudly at the end of the play."
+  },
+  {
+    "word": "Blind",
+    "day": 5,
+    "definition": "Unable to see, or to make someone unable to see.",
+    "example": "The bright headlights of the oncoming car temporarily blinds the driver."
+  },
+  {
+    "word": "Ignorant",
+    "day": 5,
+    "definition": "Lacking knowledge or information about a particular subject.",
+    "example": "His comments showed ignorance about the local culture."
+  },
+  {
+    "word": "Tension",
+    "day": 5,
+    "definition": "A feeling of nervousness or worry, or a feeling of anger between people or groups.",
+    "example": "There was a lot of tension in the room before the exam results were announced."
+  },
+  {
+    "word": "Betray",
+    "day": 5,
+    "definition": "To be disloyal to someone who trusts you, or to reveal secret information.",
+    "example": "He felt betrayed when his best friend shared his secret."
+  }
+]

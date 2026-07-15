@@ -1,0 +1,374 @@
+[
+  {
+    "word": "Evaluate",
+    "day": 1,
+    "definition": "To carefully judge the quality, importance, or value of something.",
+    "example": "Students need to evaluate sources critically for their research papers."
+  },
+  {
+    "word": "Undo",
+    "day": 1,
+    "definition": "To reverse the effect of an action, making it as if it never happened.",
+    "example": "I accidentally deleted the file, but I could undo the action."
+  },
+  {
+    "word": "Quarrel",
+    "day": 1,
+    "definition": "An angry argument or disagreement between people.",
+    "example": "The neighbours had a quarrel over the loud music."
+  },
+  {
+    "word": "Stain",
+    "day": 1,
+    "definition": "A dirty mark on something that is difficult to remove.",
+    "example": "He accidentally spilled coffee and left a stain on his shirt."
+  },
+  {
+    "word": "Nationwide",
+    "day": 1,
+    "definition": "Happening or existing in all parts of a particular country.",
+    "example": "There was a nationwide strike by transport workers last week."
+  },
+  {
+    "word": "Humour",
+    "day": 1,
+    "definition": "The quality that makes something funny, or the ability to laugh and be amused.",
+    "example": "He has a good sense of humour and always makes people laugh."
+  },
+  {
+    "word": "Spare",
+    "day": 1,
+    "definition": "To have something available to give or use because it is extra.",
+    "example": "Do you have a spare pen I could borrow?"
+  },
+  {
+    "word": "Grant",
+    "day": 1,
+    "definition": "To officially give or allow something, often money for a specific purpose.",
+    "example": "The university granted him a scholarship to study abroad."
+  },
+  {
+    "word": "Rational",
+    "day": 1,
+    "definition": "Based on clear thought and reason, rather than emotions.",
+    "example": "It's important to make rational decisions in a crisis."
+  },
+  {
+    "word": "Awareness",
+    "day": 1,
+    "definition": "Knowledge or understanding of a situation or fact.",
+    "example": "Public awareness of environmental issues has increased recently."
+  },
+  {
+    "word": "Tend",
+    "day": 1,
+    "definition": "To often do something or be in a certain way.",
+    "example": "People tend to eat more in winter than in summer."
+  },
+  {
+    "word": "Hint",
+    "day": 1,
+    "definition": "A slight suggestion or piece of information that helps you understand something.",
+    "example": "She dropped a hint that she wanted a new car for her birthday."
+  },
+  {
+    "word": "Seldom",
+    "day": 2,
+    "definition": "Not often; rarely.",
+    "example": "He seldom visits his relatives who live far away."
+  },
+  {
+    "word": "Literary",
+    "day": 2,
+    "definition": "Connected with literature or the writing of books, poems, and plays.",
+    "example": "She has a strong interest in literary criticism."
+  },
+  {
+    "word": "Typical",
+    "day": 2,
+    "definition": "Showing the usual characteristics or qualities of a particular type of person or thing.",
+    "example": "A typical day for me starts with a cup of coffee."
+  },
+  {
+    "word": "Throughout",
+    "day": 2,
+    "definition": "In every part of a place; during the whole period of time.",
+    "example": "The exhibition was popular throughout the summer."
+  },
+  {
+    "word": "Harm",
+    "day": 2,
+    "definition": "Physical injury or other damage.",
+    "example": "Smoking can cause serious harm to your health."
+  },
+  {
+    "word": "Anticipate",
+    "day": 2,
+    "definition": "To expect something to happen and prepare for it.",
+    "example": "We anticipate a lot of visitors to the festival this year."
+  },
+  {
+    "word": "Impression",
+    "day": 2,
+    "definition": "An idea, feeling, or opinion about something or someone, especially one formed without conscious thought or on the basis of little evidence.",
+    "example": "Her clear presentation made a very good impression on the audience."
+  },
+  {
+    "word": "Equipped",
+    "day": 2,
+    "definition": "Having the necessary tools, clothes, or other things for a particular purpose.",
+    "example": "The kitchen was equipped with all modern appliances."
+  },
+  {
+    "word": "Diversity",
+    "day": 2,
+    "definition": "The state of being made up of different types of people or things.",
+    "example": "The city is known for its cultural diversity."
+  },
+  {
+    "word": "Flexibility",
+    "day": 2,
+    "definition": "The ability to change or be changed easily according to the situation.",
+    "example": "Working from home offers greater flexibility for employees."
+  },
+  {
+    "word": "Extent",
+    "day": 2,
+    "definition": "The degree to which something has spread or is true.",
+    "example": "It's hard to measure the full extent of the damage."
+  },
+  {
+    "word": "Concern",
+    "day": 2,
+    "definition": "A feeling of worry about something, or something that worries you.",
+    "example": "There is growing public concern about climate change."
+  },
+  {
+    "word": "Imply",
+    "day": 3,
+    "definition": "To suggest something without saying it directly.",
+    "example": "Her silence seemed to imply agreement."
+  },
+  {
+    "word": "Complete",
+    "day": 3,
+    "definition": "Having all its parts; finished.",
+    "example": "Please ensure your application form is complete before submitting it."
+  },
+  {
+    "word": "Incomplete",
+    "day": 3,
+    "definition": "Not finished or not having all the necessary parts.",
+    "example": "The report was incomplete, lacking important data."
+  },
+  {
+    "word": "Delight",
+    "day": 3,
+    "definition": "A feeling of great pleasure and satisfaction.",
+    "example": "To her delight, she passed all her exams."
+  },
+  {
+    "word": "Figure",
+    "day": 3,
+    "definition": "A number, especially one that is part of an official report or statistic.",
+    "example": "The latest sales figures show a significant increase."
+  },
+  {
+    "word": "Union",
+    "day": 3,
+    "definition": "An organization formed by workers to protect their rights and interests.",
+    "example": "The workers decided to form a union to negotiate for better conditions."
+  },
+  {
+    "word": "Rarely",
+    "day": 3,
+    "definition": "Not often; seldom.",
+    "example": "It rarely snows in this part of the country."
+  },
+  {
+    "word": "Uncover",
+    "day": 3,
+    "definition": "To discover something hidden or unknown.",
+    "example": "The investigation uncovered new evidence in the case."
+  },
+  {
+    "word": "Cover",
+    "day": 3,
+    "definition": "To place something over or in front of something else to hide or protect it.",
+    "example": "Please cover the food to keep it fresh."
+  },
+  {
+    "word": "Track",
+    "day": 3,
+    "definition": "To follow the movement or progress of someone or something.",
+    "example": "Scientists are tracking the migration patterns of birds."
+  },
+  {
+    "word": "Obstacle",
+    "day": 3,
+    "definition": "A thing that blocks one's way or prevents progress.",
+    "example": "Lack of funding was a major obstacle to completing the project."
+  },
+  {
+    "word": "Unsuitable",
+    "day": 3,
+    "definition": "Not right or appropriate for a particular purpose or occasion.",
+    "example": "His casual clothes were unsuitable for the formal meeting."
+  },
+  {
+    "word": "Select",
+    "day": 3,
+    "definition": "To choose a small number of things or people from a larger group.",
+    "example": "Please select the correct answer from the options provided."
+  },
+  {
+    "word": "Authentic",
+    "day": 3,
+    "definition": "Real, true, or what it is claimed to be; not fake.",
+    "example": "The museum displays authentic Roman artefacts."
+  },
+  {
+    "word": "Activate",
+    "day": 4,
+    "definition": "To make something start working or operating.",
+    "example": "You need to press this button to activate the alarm system."
+  },
+  {
+    "word": "Input",
+    "day": 4,
+    "definition": "What is put in, taken in, or operated on by any system or process.",
+    "example": "We welcome student input on how to improve the course."
+  },
+  {
+    "word": "Exist",
+    "day": 4,
+    "definition": "To have actual being; to be real.",
+    "example": "Do you believe life exists on other planets?"
+  },
+  {
+    "word": "Loan",
+    "day": 4,
+    "definition": "An amount of money borrowed from a bank or person that has to be paid back.",
+    "example": "She took out a loan to buy a new car."
+  },
+  {
+    "word": "Overseas",
+    "day": 4,
+    "definition": "In or to a foreign country, especially across the sea.",
+    "example": "Many students choose to study overseas for a year."
+  },
+  {
+    "word": "Interfere",
+    "day": 4,
+    "definition": "To get involved in a situation without being asked, especially when your involvement is not wanted or helpful.",
+    "example": "It's not right to interfere in other people's personal lives."
+  },
+  {
+    "word": "Anxiety",
+    "day": 4,
+    "definition": "A feeling of worry, nervousness, or unease about something with an uncertain outcome.",
+    "example": "Many students experience anxiety before exams."
+  },
+  {
+    "word": "Aspect",
+    "day": 4,
+    "definition": "A particular part or feature of something.",
+    "example": "We need to consider every aspect of the problem."
+  },
+  {
+    "word": "Progress",
+    "day": 4,
+    "definition": "Movement or development towards an improved or more advanced state.",
+    "example": "The project is making good progress towards its completion."
+  },
+  {
+    "word": "Valid",
+    "day": 4,
+    "definition": "Based on truth or sound reason; acceptable.",
+    "example": "You need a valid passport to travel internationally."
+  },
+  {
+    "word": "Partially",
+    "day": 4,
+    "definition": "Only in part; to a limited extent.",
+    "example": "The road was partially blocked by a fallen tree."
+  },
+  {
+    "word": "Submit",
+    "day": 4,
+    "definition": "To formally present a document or proposal for consideration or judgment.",
+    "example": "All students must submit their essays by Friday."
+  },
+  {
+    "word": "Consist",
+    "day": 5,
+    "definition": "To be made or formed of particular parts or elements.",
+    "example": "The team consists of five members."
+  },
+  {
+    "word": "Intensive",
+    "day": 5,
+    "definition": "Involving a lot of effort or activity in a short period of time.",
+    "example": "She took an intensive English course to prepare for her exam."
+  },
+  {
+    "word": "Globally",
+    "day": 5,
+    "definition": "Worldwide; affecting or involving the whole world.",
+    "example": "Climate change is a problem that needs to be addressed globally."
+  },
+  {
+    "word": "Wisdom",
+    "day": 5,
+    "definition": "The quality of having experience, knowledge, and good judgment.",
+    "example": "People often seek the wisdom of elders for guidance."
+  },
+  {
+    "word": "Speciality",
+    "day": 5,
+    "definition": "A particular area of knowledge or skill that a person or company is expert in.",
+    "example": "His speciality is ancient history."
+  },
+  {
+    "word": "Applicant",
+    "day": 5,
+    "definition": "A person who formally requests something, especially a job or a place at a college.",
+    "example": "There were many qualified applicants for the position."
+  },
+  {
+    "word": "Object",
+    "day": 5,
+    "definition": "To express disapproval of or disagreement with something.",
+    "example": "Many people object to the new building plans."
+  },
+  {
+    "word": "Enclose",
+    "day": 5,
+    "definition": "To surround something completely or include something within something else.",
+    "example": "Please enclose a copy of your resume with your application."
+  },
+  {
+    "word": "Deny",
+    "day": 5,
+    "definition": "To state that something is not true, or to refuse to admit or accept something.",
+    "example": "He denied all the accusations against him."
+  },
+  {
+    "word": "Terminal",
+    "day": 5,
+    "definition": "A building or set of buildings at an airport or station where passengers arrive and depart.",
+    "example": "Our flight departs from Terminal 2."
+  },
+  {
+    "word": "Encounter",
+    "day": 5,
+    "definition": "To meet someone or experience something, especially unexpectedly.",
+    "example": "On their trip, they encountered many interesting people."
+  },
+  {
+    "word": "Trial",
+    "day": 5,
+    "definition": "A formal meeting in a law court where evidence is presented to decide if someone is guilty of a crime.",
+    "example": "The suspect is currently awaiting trial."
+  }
+]

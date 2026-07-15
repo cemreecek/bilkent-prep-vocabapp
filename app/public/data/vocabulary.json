@@ -1,0 +1,87 @@
+{
+  "sets": [
+    {
+      "id": "prefac-set-1",
+      "level": "prefac",
+      "title": "PFC Spring Semester Set 1",
+      "flashcards": [
+        {"id": "tube", "day": "Monday", "word": "Tube", "definition": "A long, hollow cylinder of metal, plastic, glass, etc., for holding or transporting something, chiefly liquids or gases."},
+        {"id": "boost", "day": "Monday", "word": "Boost", "definition": "Help or encourage (something) to increase or improve."},
+        {"id": "treat", "day": "Monday", "word": "Treat", "definition": "Behave towards or deal with in a certain way."},
+        {"id": "bind", "day": "Monday", "word": "Bind", "definition": "Tie or fasten (something) tightly."},
+        {"id": "incentive", "day": "Monday", "word": "Incentive", "definition": "A thing that motivates or encourages one to do something."},
+        {"id": "hire", "day": "Tuesday", "word": "Hire", "definition": "Employ (someone) for wages."},
+        {"id": "merchant", "day": "Tuesday", "word": "Merchant", "definition": "A person or company involved in wholesale trade, especially one dealing with foreign countries or supplying a particular trade."},
+        {"id": "rumor", "day": "Tuesday", "word": "Rumor", "definition": "A currently circulating story or report of uncertain or doubtful truth."},
+        {"id": "guarantee", "day": "Tuesday", "word": "Guarantee", "definition": "A formal promise or assurance (typically in writing) that certain conditions will be fulfilled."},
+        {"id": "outdated", "day": "Wednesday", "word": "Outdated", "definition": "Old-fashioned and therefore not as good or as fashionable as something modern."},
+        {"id": "negotiate", "day": "Wednesday", "word": "Negotiate", "definition": "Try to reach an agreement or compromise by discussion with others."},
+        {"id": "route", "day": "Wednesday", "word": "Route", "definition": "A way or course taken in getting from a starting point to a destination."},
+        {"id": "finite", "day": "Thursday", "word": "Finite/Infinite", "definition": "Having limits or bounds / limitless or endless in space, extent, or size."},
+        {"id": "indefinite", "day": "Thursday", "word": "Indefinite /definite", "definition": "Lasting for an unknown or unstated length of time / clearly stated or decided."},
+        {"id": "administer", "day": "Thursday", "word": "Administer", "definition": "Manage and be responsible for the running of (a business, organization, etc.)."},
+        {"id": "properly", "day": "Friday", "word": "Properly", "definition": "Correctly or satisfactorily."},
+        {"id": "stove", "day": "Friday", "word": "Stove", "definition": "An apparatus for cooking or heating that operates by burning fuel or using electricity."},
+        {"id": "vehicle", "day": "Friday", "word": "Vehicle", "definition": "A thing used for transporting people or goods, especially on land, such as a car, truck, or cart."}
+      ],
+      "practices": [
+        {
+          "id": "practice-1-mc",
+          "type": "multiple-choice",
+          "title": "PART 2 - Choose the word that matches the definition",
+          "questions": [
+            {
+              "id": "q1",
+              "prompt": "A feeling of nervousness before an important or difficult event",
+              "options": ["Haste", "Energetic", "Careless", "Tension", "Intense"],
+              "correctAnswer": "Tension"
+            },
+            {
+              "id": "q2",
+              "prompt": "To make or do something again in exactly the same way",
+              "options": ["Accumulate", "Replicate", "Reform", "Administer", "Operate"],
+              "correctAnswer": "Replicate"
+            },
+            {
+              "id": "q3",
+              "prompt": "To get rid of something, especially by throwing it away",
+              "options": ["Abortion", "Conclude", "Undertake", "Fire", "Dispose"],
+              "correctAnswer": "Dispose"
+            },
+            {
+              "id": "q4",
+              "prompt": "Expected to do something or to become something; potential; possible",
+              "options": ["Prospective", "Civil", "Indefinite", "Infinite", "Chief"],
+              "correctAnswer": "Prospective"
+            },
+            {
+              "id": "q5",
+              "prompt": "An area of interest or an area over which a person has control",
+              "options": ["Lab", "Route", "Domain", "Session", "Chamber"],
+              "correctAnswer": "Domain"
+            },
+            {
+              "id": "q6",
+              "prompt": "old-fashioned and therefore not as good or as fashionable as something modern",
+              "options": ["Preliminary", "Careless", "Flawless", "Outdated", "Prospective"],
+              "correctAnswer": "Outdated"
+            }
+          ]
+        },
+        {
+          "id": "practice-1-gapfill",
+          "type": "gap-fill",
+          "title": "PART 3 - Form a word that fits in the blank space",
+          "questions": [
+            {
+              "id": "q7",
+              "prompt": "The company I am working for is about to start delicate ___________ with the union about next year's pay agreement.",
+              "baseWord": "NEGOTIATE",
+              "correctAnswer": "negotiations"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

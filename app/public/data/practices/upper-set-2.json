@@ -1,0 +1,334 @@
+[
+  {
+    "instruction": "Fill in the blanks in the texts by choosing A, B, C, D or E.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "TEXT 1: Are you thinking about going to a university? There are many reasons why getting a university education is important. First, your courses will (1)______________ of many different subjects, which will give you a well-rounded education.",
+        "options": [
+          { "text": "A consist", "isCorrect": true },
+          { "text": "B evaluate", "isCorrect": false },
+          { "text": "C encounter", "isCorrect": false },
+          { "text": "D cover", "isCorrect": false },
+          { "text": "E appeal", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "University programs are designed to keep you on (2)______________ with your goals, whether it is to become a doctor, engineer, or teacher.",
+        "options": [
+          { "text": "A range", "isCorrect": false },
+          { "text": "B trial", "isCorrect": false },
+          { "text": "C stain", "isCorrect": false },
+          { "text": "D input", "isCorrect": false },
+          { "text": "E track", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "University education can also open doors (3)______________. With a degree, you can find job opportunities not just in your own country, but around the world.",
+        "options": [
+          { "text": "A partially", "isCorrect": false },
+          { "text": "B previously", "isCorrect": false },
+          { "text": "C globally", "isCorrect": true },
+          { "text": "D acceptably", "isCorrect": false },
+          { "text": "E obviously", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Studying at a university will make you ready and better (4)______________ to deal with different challenges in your career.",
+        "options": [
+          { "text": "A equipped", "isCorrect": true },
+          { "text": "B generous", "isCorrect": false },
+          { "text": "C embarrassed", "isCorrect": false },
+          { "text": "D wise", "isCorrect": false },
+          { "text": "E intensive", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "However, it is important to know what you want. Some people go to university without having a clear (5)______________ in mind. It’s always good to have a goal.",
+        "options": [
+          { "text": "A delight", "isCorrect": false },
+          { "text": "B concern", "isCorrect": false },
+          { "text": "C union", "isCorrect": false },
+          { "text": "D loan", "isCorrect": false },
+          { "text": "E objective", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "TEXT 2: When someone is diagnosed with a (6)______________ illness which has no cure, it's natural to experience heightened concern and worry about the future.",
+        "options": [
+          { "text": "A complete", "isCorrect": false },
+          { "text": "B typical", "isCorrect": false },
+          { "text": "C rational", "isCorrect": false },
+          { "text": "D terminal", "isCorrect": true },
+          { "text": "E authentic", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "This (7)______________ can result from uncertainties about treatment options and how to manage daily life.",
+        "options": [
+          { "text": "A delight", "isCorrect": false },
+          { "text": "B quarrel", "isCorrect": false },
+          { "text": "C anxiety", "isCorrect": true },
+          { "text": "D gesture", "isCorrect": false },
+          { "text": "E temper", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Therefore, It's important to approach these challenges in a(n) (8)______________ manner, and get support from healthcare professionals and loved ones.",
+        "options": [
+          { "text": "A literary", "isCorrect": false },
+          { "text": "B intensive", "isCorrect": false },
+          { "text": "C domestic", "isCorrect": false },
+          { "text": "D rational", "isCorrect": true },
+          { "text": "E odd", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "One (9)______________ of dealing with such illness is understanding how you feel about your illness.",
+        "options": [
+          { "text": "A union", "isCorrect": false },
+          { "text": "B extent", "isCorrect": false },
+          { "text": "C range", "isCorrect": false },
+          { "text": "D suggestion", "isCorrect": false },
+          { "text": "E aspect", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Some days may bring hope and optimism, while others may be more difficult. In other words, your emotions (10)______________ to change everyday. Finding ways to cope and maintain a positive outlook can make a significant difference in the quality of life.",
+        "options": [
+          { "text": "A tend", "isCorrect": true },
+          { "text": "B anticipate", "isCorrect": false },
+          { "text": "C object", "isCorrect": false },
+          { "text": "D intend", "isCorrect": false },
+          { "text": "E obtain", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Read the text below and choose a word from the box that best completes each blank. Use each word once only. Do not change the form of the word. There are FOUR extra words.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "The world population has become more environmentally conscious. As a result, efforts to protect the environment are now widespread {1} the world. Many countries have implemented {2} policies to deal with pollution and promote sustainability. For example, in Japan, the government has introduced recycling programs and strict emission standards to reduce carbon footprint. Similarly, Costa Rica has invested in extensive network of national parks and renewable energy projects. The {3} of these policies varies across regions and countries. In some places, such as Norway and Germany, there are many promotions for investment programs focusing on electric vehicles and renewable energy production. This {4} at a likely responsibility for all the nations to preserve natural resources and fight against climate change. Individuals and organizations play a crucial role in these efforts. They {5} proposals for eco-friendly projects, such as community gardens in urban areas and plans to restore wildlife habitats. For instance, local NGOs in India have given their plans to the government to install solar panels in rural villages, providing sustainable energy sources and reducing the use of fossil fuels. It's a {6} to see communities coming together for such plans, developing a sense of responsibility towards our planet. In Australia, communal and social plans to clean up beaches and reduce plastic waste show the power of collective action in environmental protection.",
+        "options": [
+          [
+            { "text": "anticipate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "extent", "isCorrect": false, "blankIndex": 1 },
+            { "text": "globally", "isCorrect": false, "blankIndex": 1 },
+            { "text": "hints", "isCorrect": false, "blankIndex": 1 },
+            { "text": "stain", "isCorrect": false, "blankIndex": 1 },
+            { "text": "nationwide", "isCorrect": false, "blankIndex": 1 },
+            { "text": "submit", "isCorrect": false, "blankIndex": 1 },
+            { "text": "throughout", "isCorrect": true, "blankIndex": 1 },
+            { "text": "unsuitable", "isCorrect": false, "blankIndex": 1 },
+            { "text": "delight", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "anticipate", "isCorrect": false, "blankIndex": 2 },
+            { "text": "extent", "isCorrect": false, "blankIndex": 2 },
+            { "text": "globally", "isCorrect": false, "blankIndex": 2 },
+            { "text": "hints", "isCorrect": false, "blankIndex": 2 },
+            { "text": "stain", "isCorrect": false, "blankIndex": 2 },
+            { "text": "nationwide", "isCorrect": true, "blankIndex": 2 },
+            { "text": "submit", "isCorrect": false, "blankIndex": 2 },
+            { "text": "throughout", "isCorrect": false, "blankIndex": 2 },
+            { "text": "unsuitable", "isCorrect": false, "blankIndex": 2 },
+            { "text": "delight", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "anticipate", "isCorrect": false, "blankIndex": 3 },
+            { "text": "extent", "isCorrect": true, "blankIndex": 3 },
+            { "text": "globally", "isCorrect": false, "blankIndex": 3 },
+            { "text": "hints", "isCorrect": false, "blankIndex": 3 },
+            { "text": "stain", "isCorrect": false, "blankIndex": 3 },
+            { "text": "nationwide", "isCorrect": false, "blankIndex": 3 },
+            { "text": "submit", "isCorrect": false, "blankIndex": 3 },
+            { "text": "throughout", "isCorrect": false, "blankIndex": 3 },
+            { "text": "unsuitable", "isCorrect": false, "blankIndex": 3 },
+            { "text": "delight", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "anticipate", "isCorrect": false, "blankIndex": 4 },
+            { "text": "extent", "isCorrect": false, "blankIndex": 4 },
+            { "text": "globally", "isCorrect": false, "blankIndex": 4 },
+            { "text": "hints", "isCorrect": true, "blankIndex": 4 },
+            { "text": "stain", "isCorrect": false, "blankIndex": 4 },
+            { "text": "nationwide", "isCorrect": false, "blankIndex": 4 },
+            { "text": "submit", "isCorrect": false, "blankIndex": 4 },
+            { "text": "throughout", "isCorrect": false, "blankIndex": 4 },
+            { "text": "unsuitable", "isCorrect": false, "blankIndex": 4 },
+            { "text": "delight", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "anticipate", "isCorrect": false, "blankIndex": 5 },
+            { "text": "extent", "isCorrect": false, "blankIndex": 5 },
+            { "text": "globally", "isCorrect": false, "blankIndex": 5 },
+            { "text": "hints", "isCorrect": false, "blankIndex": 5 },
+            { "text": "stain", "isCorrect": false, "blankIndex": 5 },
+            { "text": "nationwide", "isCorrect": false, "blankIndex": 5 },
+            { "text": "submit", "isCorrect": true, "blankIndex": 5 },
+            { "text": "throughout", "isCorrect": false, "blankIndex": 5 },
+            { "text": "unsuitable", "isCorrect": false, "blankIndex": 5 },
+            { "text": "delight", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "anticipate", "isCorrect": false, "blankIndex": 6 },
+            { "text": "extent", "isCorrect": false, "blankIndex": 6 },
+            { "text": "globally", "isCorrect": false, "blankIndex": 6 },
+            { "text": "hints", "isCorrect": false, "blankIndex": 6 },
+            { "text": "stain", "isCorrect": false, "blankIndex": 6 },
+            { "text": "nationwide", "isCorrect": false, "blankIndex": 6 },
+            { "text": "submit", "isCorrect": false, "blankIndex": 6 },
+            { "text": "throughout", "isCorrect": false, "blankIndex": 6 },
+            { "text": "unsuitable", "isCorrect": false, "blankIndex": 6 },
+            { "text": "delight", "isCorrect": true, "blankIndex": 6 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the sentences. Fill in each space in this way.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "Sometimes it seems that press _______________ of an event is not directly relevant to its true importance. COVER",
+        "correctAnswer": "COVERAGE",
+        "options": []
+      },
+      {
+        "questionText": "The curriculum will take account of the ethnic _______________ of the population. DIVERSE",
+        "correctAnswer": "DIVERSITY",
+        "options": []
+      },
+      {
+        "questionText": "This new technology should lead to greater _______________ in the workplace. FLEXIBLE",
+        "correctAnswer": "FLEXIBILITY",
+        "options": []
+      },
+      {
+        "questionText": "We need to carry out a proper _______________ of the new system. EVALUATE",
+        "correctAnswer": "EVALUATION",
+        "options": []
+      },
+      {
+        "questionText": "The training program included an _______________ schedule of workshops and practical exercises. INTENSE",
+        "correctAnswer": "INTENSIVE",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the blanks with a word from the box below to form a meaningful collocation. There are TWO extra words.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "How can university students give a positive {1} during job interviews? Why do organizations typically {2} permission for employees to work remotely? What do you do when you {3} problems during your studies? Why do some students want to work {4} after graduation? How can university students raise {5} about important social issues on campus? How can people avoid doing {6} to the environment in their everyday lives? When there are difficulties which prevent you from achieving your goals, do you try to remove those{7} or do you give up? What are some common reasons people have {8} with their friends?",
+        "options": [
+          [
+            { "text": "awareness", "isCorrect": false, "blankIndex": 1 },
+            { "text": "overseas", "isCorrect": false, "blankIndex": 1 },
+            { "text": "encounter", "isCorrect": false, "blankIndex": 1 },
+            { "text": "impression", "isCorrect": true, "blankIndex": 1 },
+            { "text": "select", "isCorrect": false, "blankIndex": 1 },
+            { "text": "obstacles", "isCorrect": false, "blankIndex": 1 },
+            { "text": "harm", "isCorrect": false, "blankIndex": 1 },
+            { "text": "interfere", "isCorrect": false, "blankIndex": 1 },
+            { "text": "quarrels", "isCorrect": false, "blankIndex": 1 },
+            { "text": "grant", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "awareness", "isCorrect": false, "blankIndex": 2 },
+            { "text": "overseas", "isCorrect": false, "blankIndex": 2 },
+            { "text": "encounter", "isCorrect": false, "blankIndex": 2 },
+            { "text": "impression", "isCorrect": false, "blankIndex": 2 },
+            { "text": "select", "isCorrect": false, "blankIndex": 2 },
+            { "text": "obstacles", "isCorrect": false, "blankIndex": 2 },
+            { "text": "harm", "isCorrect": false, "blankIndex": 2 },
+            { "text": "interfere", "isCorrect": false, "blankIndex": 2 },
+            { "text": "quarrels", "isCorrect": false, "blankIndex": 2 },
+            { "text": "grant", "isCorrect": true, "blankIndex": 2 }
+          ],
+          [
+            { "text": "awareness", "isCorrect": false, "blankIndex": 3 },
+            { "text": "overseas", "isCorrect": false, "blankIndex": 3 },
+            { "text": "encounter", "isCorrect": true, "blankIndex": 3 },
+            { "text": "impression", "isCorrect": false, "blankIndex": 3 },
+            { "text": "select", "isCorrect": false, "blankIndex": 3 },
+            { "text": "obstacles", "isCorrect": false, "blankIndex": 3 },
+            { "text": "harm", "isCorrect": false, "blankIndex": 3 },
+            { "text": "interfere", "isCorrect": false, "blankIndex": 3 },
+            { "text": "quarrels", "isCorrect": false, "blankIndex": 3 },
+            { "text": "grant", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "awareness", "isCorrect": false, "blankIndex": 4 },
+            { "text": "overseas", "isCorrect": true, "blankIndex": 4 },
+            { "text": "encounter", "isCorrect": false, "blankIndex": 4 },
+            { "text": "impression", "isCorrect": false, "blankIndex": 4 },
+            { "text": "select", "isCorrect": false, "blankIndex": 4 },
+            { "text": "obstacles", "isCorrect": false, "blankIndex": 4 },
+            { "text": "harm", "isCorrect": false, "blankIndex": 4 },
+            { "text": "interfere", "isCorrect": false, "blankIndex": 4 },
+            { "text": "quarrels", "isCorrect": false, "blankIndex": 4 },
+            { "text": "grant", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "awareness", "isCorrect": true, "blankIndex": 5 },
+            { "text": "overseas", "isCorrect": false, "blankIndex": 5 },
+            { "text": "encounter", "isCorrect": false, "blankIndex": 5 },
+            { "text": "impression", "isCorrect": false, "blankIndex": 5 },
+            { "text": "select", "isCorrect": false, "blankIndex": 5 },
+            { "text": "obstacles", "isCorrect": false, "blankIndex": 5 },
+            { "text": "harm", "isCorrect": false, "blankIndex": 5 },
+            { "text": "interfere", "isCorrect": false, "blankIndex": 5 },
+            { "text": "quarrels", "isCorrect": false, "blankIndex": 5 },
+            { "text": "grant", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "awareness", "isCorrect": false, "blankIndex": 6 },
+            { "text": "overseas", "isCorrect": false, "blankIndex": 6 },
+            { "text": "encounter", "isCorrect": false, "blankIndex": 6 },
+            { "text": "impression", "isCorrect": false, "blankIndex": 6 },
+            { "text": "select", "isCorrect": false, "blankIndex": 6 },
+            { "text": "obstacles", "isCorrect": false, "blankIndex": 6 },
+            { "text": "harm", "isCorrect": true, "blankIndex": 6 },
+            { "text": "interfere", "isCorrect": false, "blankIndex": 6 },
+            { "text": "quarrels", "isCorrect": false, "blankIndex": 6 },
+            { "text": "grant", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "awareness", "isCorrect": false, "blankIndex": 7 },
+            { "text": "overseas", "isCorrect": false, "blankIndex": 7 },
+            { "text": "encounter", "isCorrect": false, "blankIndex": 7 },
+            { "text": "impression", "isCorrect": false, "blankIndex": 7 },
+            { "text": "select", "isCorrect": false, "blankIndex": 7 },
+            { "text": "obstacles", "isCorrect": true, "blankIndex": 7 },
+            { "text": "harm", "isCorrect": false, "blankIndex": 7 },
+            { "text": "interfere", "isCorrect": false, "blankIndex": 7 },
+            { "text": "quarrels", "isCorrect": false, "blankIndex": 7 },
+            { "text": "grant", "isCorrect": false, "blankIndex": 7 }
+          ],
+          [
+            { "text": "awareness", "isCorrect": false, "blankIndex": 8 },
+            { "text": "overseas", "isCorrect": false, "blankIndex": 8 },
+            { "text": "encounter", "isCorrect": false, "blankIndex": 8 },
+            { "text": "impression", "isCorrect": false, "blankIndex": 8 },
+            { "text": "select", "isCorrect": false, "blankIndex": 8 },
+            { "text": "obstacles", "isCorrect": false, "blankIndex": 8 },
+            { "text": "harm", "isCorrect": false, "blankIndex": 8 },
+            { "text": "interfere", "isCorrect": false, "blankIndex": 8 },
+            { "text": "quarrels", "isCorrect": true, "blankIndex": 8 },
+            { "text": "grant", "isCorrect": false, "blankIndex": 8 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Now, ask and answer the questions you have just completed above with your partner.",
+    "type": "open-ended",
+    "items": []
+  }
+]

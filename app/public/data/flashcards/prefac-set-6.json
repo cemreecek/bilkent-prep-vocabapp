@@ -1,0 +1,512 @@
+[
+  {
+    "word": "Hollow",
+    "day": 1,
+    "definition": "Having an empty space inside.",
+    "example": "The bird made its nest in a deep hollow in the tree trunk."
+  },
+  {
+    "word": "Stare at",
+    "day": 1,
+    "definition": "To look at someone or something for a long time with your eyes wide open.",
+    "example": "It's rude to stare at people you don't know."
+  },
+  {
+    "word": "Persist",
+    "day": 1,
+    "definition": "To continue doing something even if it is difficult or others oppose it.",
+    "example": "She will persist in her efforts to learn French, despite the challenges."
+  },
+  {
+    "word": "Gentle",
+    "day": 1,
+    "definition": "Kind, mild, and not strong or violent.",
+    "example": "Despite his large size, the dog seemed gentle and friendly."
+  },
+  {
+    "word": "Hardship",
+    "day": 1,
+    "definition": "A difficult or unpleasant situation that causes suffering.",
+    "example": "Many people around the world face hardships due to poverty."
+  },
+  {
+    "word": "Dominate",
+    "day": 1,
+    "definition": "To have power and control over others.",
+    "example": "The company tried to assert dominance over its competitors in the market."
+  },
+  {
+    "word": "Bribe",
+    "day": 1,
+    "definition": "To offer someone money or a gift to persuade them to do something, especially something dishonest.",
+    "example": "The politician tried to bribe the witness to change their testimony."
+  },
+  {
+    "word": "Illuminate",
+    "day": 1,
+    "definition": "To light something up or make it brighter.",
+    "example": "The streetlights illuminate the path at night."
+  },
+  {
+    "word": "Basis",
+    "day": 1,
+    "definition": "The fundamental reason or principle for something.",
+    "example": "The lawyer will base his argument on the new evidence."
+  },
+  {
+    "word": "HorizontalVertical",
+    "day": 1,
+    "definition": "Horizontal means parallel to the ground; Vertical means at right angles to the ground.",
+    "example": "The lines on the graph were both horizontal and vertical."
+  },
+  {
+    "word": "Relief",
+    "day": 1,
+    "definition": "A feeling of happiness or reassurance after stress or pain.",
+    "example": "She felt a deep relief when she found her lost keys."
+  },
+  {
+    "word": "Stiff",
+    "day": 1,
+    "definition": "Not easily bent or moved; feeling pain and difficulty in movement.",
+    "example": "After sitting for hours, he had stiff joints and found it hard to stand up."
+  },
+  {
+    "word": "Party a third party",
+    "day": 1,
+    "definition": "A person or group of people involved in a situation but not directly related to the main two people or groups.",
+    "example": "It's often helpful to involve a third party to mediate disputes."
+  },
+  {
+    "word": "Downward",
+    "day": 1,
+    "definition": "Moving or pointing towards a lower place.",
+    "example": "The company saw a downward trend in sales last quarter."
+  },
+  {
+    "word": "Cultivate",
+    "day": 1,
+    "definition": "To prepare and use land for growing crops or gardening.",
+    "example": "Farmers work hard to cultivate land to grow food for everyone."
+  },
+  {
+    "word": "Dialect",
+    "day": 1,
+    "definition": "A form of a language spoken in a particular region or by a particular social group.",
+    "example": "My grandmother speaks with a strong Yorkshire dialect, which can be hard for others to understand."
+  },
+  {
+    "word": "Flourish",
+    "day": 1,
+    "definition": "To grow or develop in a healthy or vigorous way, especially as the result of a favorable environment.",
+    "example": "The government hopes to create a flourishing economy for its citizens."
+  },
+  {
+    "word": "Loyal",
+    "day": 1,
+    "definition": "Showing constant support or allegiance to a person, organization, or idea.",
+    "example": "Her friends have always been extremely loyal to her."
+  },
+  {
+    "word": "Foundation",
+    "day": 2,
+    "definition": "An organization that has been created to provide money for a particular purpose, especially for charity or research.",
+    "example": "The British Heart Foundation raises money for cardiovascular research."
+  },
+  {
+    "word": "Expense",
+    "day": 2,
+    "definition": "The cost of something; money spent.",
+    "example": "His insurance covered most of his medical expense after the accident."
+  },
+  {
+    "word": "Abstract",
+    "day": 2,
+    "definition": "Existing in thought or as an idea but not having a physical or concrete existence.",
+    "example": "Philosophy often deals with abstract ideas that are hard to visualize."
+  },
+  {
+    "word": "Fur",
+    "day": 2,
+    "definition": "The short, soft hair that covers the bodies of certain animals.",
+    "example": "She bought a coat made of soft fur to keep warm in winter."
+  },
+  {
+    "word": "Mixed",
+    "day": 2,
+    "definition": "Consisting of different types of people or things.",
+    "example": "The city is known for its ethnically mixed population."
+  },
+  {
+    "word": "Stir",
+    "day": 2,
+    "definition": "To move a spoon or other implement around in a liquid or substance to mix it or to make it dissolve.",
+    "example": "Please stir the soup with a wooden spoon until it's smooth."
+  },
+  {
+    "word": "Utilize",
+    "day": 2,
+    "definition": "To make practical and effective use of something.",
+    "example": "Many homes have a utility room for laundry and storage."
+  },
+  {
+    "word": "Terminate",
+    "day": 2,
+    "definition": "To bring something to an end or to conclude.",
+    "example": "The company announced the early termination of the project due to budget cuts."
+  },
+  {
+    "word": "Plough",
+    "day": 2,
+    "definition": "To turn over the earth with a plow, or to move through something with difficulty.",
+    "example": "We had to plough through thick mud to reach the campsite."
+  },
+  {
+    "word": "Rough",
+    "day": 2,
+    "definition": "Not smooth or level; having an uneven surface.",
+    "example": "The carpenter sanded the rough wood until it was smooth."
+  },
+  {
+    "word": "Pinch",
+    "day": 2,
+    "definition": "To squeeze something between your thumb and forefinger; a small amount of something.",
+    "example": "Add a pinch of salt to the soup for more flavor."
+  },
+  {
+    "word": "Furnish",
+    "day": 2,
+    "definition": "To provide a house or room with furniture and fittings.",
+    "example": "They decided to rent a fully furnished apartment."
+  },
+  {
+    "word": "Bear",
+    "day": 2,
+    "definition": "To carry the weight of something; to endure or tolerate.",
+    "example": "The pain was so intense it was barely bearable."
+  },
+  {
+    "word": "Slight",
+    "day": 2,
+    "definition": "Small in degree or amount; not significant.",
+    "example": "There was only a slight difference in their opinions."
+  },
+  {
+    "word": "Exhibit",
+    "day": 2,
+    "definition": "To display or show something, especially in public.",
+    "example": "The museum will host a major exhibit on ancient Egyptian artifacts."
+  },
+  {
+    "word": "Institution",
+    "day": 2,
+    "definition": "A large organization that has an important purpose in society, such as a university or bank.",
+    "example": "She works at a well-known educational institution."
+  },
+  {
+    "word": "Fitness",
+    "day": 3,
+    "definition": "The condition of being physically fit and healthy.",
+    "example": "Regular exercise is important for maintaining good fitness."
+  },
+  {
+    "word": "ImproperProper",
+    "day": 3,
+    "definition": "Improper means not suitable or correct; Proper means appropriate or correct.",
+    "example": "It is considered improper to interrupt someone while they are speaking."
+  },
+  {
+    "word": "Splendid",
+    "day": 3,
+    "definition": "Magnificent or very impressive.",
+    "example": "The view from the mountain top was absolutely splendid."
+  },
+  {
+    "word": "Projection",
+    "day": 3,
+    "definition": "An estimate or forecast of future trends or results.",
+    "example": "The company's projections showed a significant increase in sales next year."
+  },
+  {
+    "word": "Random",
+    "day": 3,
+    "definition": "Made, done, or happening without method or conscious decision.",
+    "example": "For the survey, they chose a random sample of people from the city."
+  },
+  {
+    "word": "Scope",
+    "day": 3,
+    "definition": "The extent of the area or subject matter that something deals with or to which it is relevant.",
+    "example": "This problem is outside the scope of our current research project."
+  },
+  {
+    "word": "Fundamental",
+    "day": 3,
+    "definition": "Forming a necessary base or core; of central importance.",
+    "example": "Respect for human rights is a fundamental truth in many societies."
+  },
+  {
+    "word": "Precious",
+    "day": 3,
+    "definition": "Of great value because of rarity, cost, or importance.",
+    "example": "The queen wore a necklace adorned with many precious stones."
+  },
+  {
+    "word": "Facility",
+    "day": 3,
+    "definition": "A place, amenity, or piece of equipment provided for a particular purpose.",
+    "example": "The new community center has excellent leisure facilities, including a swimming pool."
+  },
+  {
+    "word": "Neat",
+    "day": 3,
+    "definition": "Tidy and orderly; clean.",
+    "example": "He always keeps his desk neat and organized."
+  },
+  {
+    "word": "Label",
+    "day": 3,
+    "definition": "A small piece of paper or material attached to an object, giving information about it.",
+    "example": "Remember to put a label on your luggage before you travel."
+  },
+  {
+    "word": "Instruct",
+    "day": 3,
+    "definition": "To teach someone a skill or subject; to give orders or directions.",
+    "example": "The teacher will carefully instruct the students on how to conduct the experiment."
+  },
+  {
+    "word": "Spill",
+    "day": 3,
+    "definition": "To flow or cause to flow over the edge of a container, typically unintentionally.",
+    "example": "There's no use to cry over spilt milk; what's done is done."
+  },
+  {
+    "word": "Sincere",
+    "day": 3,
+    "definition": "Free from pretense or deceit; genuine.",
+    "example": "His insincere smile made her doubt his true intentions."
+  },
+  {
+    "word": "Edge",
+    "day": 3,
+    "definition": "The outside limit of an object, area, or surface.",
+    "example": "He likes to live life on the edge, always seeking new adventures."
+  },
+  {
+    "word": "Sue",
+    "day": 3,
+    "definition": "To take legal action against a person or organization in a court of law.",
+    "example": "They decided to sue the company for negligence after the accident."
+  },
+  {
+    "word": "Primarily",
+    "day": 4,
+    "definition": "For the most part; mainly.",
+    "example": "Access to good primary care is essential for public health."
+  },
+  {
+    "word": "Pearl",
+    "day": 4,
+    "definition": "A hard, shimmering, whitish spherical mass formed within the soft tissue of a shelled mollusk.",
+    "example": "She wore a beautiful necklace with a single white pearl."
+  },
+  {
+    "word": "Rescue",
+    "day": 4,
+    "definition": "To save someone or something from a dangerous or difficult situation.",
+    "example": "The firefighters arrived quickly to rescue the cat from the tree."
+  },
+  {
+    "word": "Ratio",
+    "day": 4,
+    "definition": "The relationship between two numbers or amounts, expressed as a proportion.",
+    "example": "The ratio between the number of students and teachers is 20 to 1."
+  },
+  {
+    "word": "Sheet of paper",
+    "day": 4,
+    "definition": "A thin, flat piece of paper.",
+    "example": "Please hand me a clean sheet of paper to write on."
+  },
+  {
+    "word": "Superior",
+    "day": 4,
+    "definition": "Of higher status, quality, or greater importance.",
+    "example": "Many people believe that their own culture is superior to others."
+  },
+  {
+    "word": "Executive",
+    "day": 4,
+    "definition": "A person with senior managerial responsibility in a business or organization.",
+    "example": "The Chief Executive Officer announced the company's new strategy."
+  },
+  {
+    "word": "Deceive",
+    "day": 4,
+    "definition": "To make someone believe something that is not true, typically in order to gain some personal advantage.",
+    "example": "Despite its deceptive appearance, the old building was structurally sound."
+  },
+  {
+    "word": "Limitation",
+    "day": 4,
+    "definition": "A restriction or a boundary; a disadvantage or weakness.",
+    "example": "We must work within the limitations of our budget."
+  },
+  {
+    "word": "Bid",
+    "day": 4,
+    "definition": "To offer a particular amount of money for something, especially at an auction; an attempt to achieve something.",
+    "example": "Two companies decided to bid against each other for the construction contract."
+  },
+  {
+    "word": "Recall",
+    "day": 4,
+    "definition": "To remember something or someone from the past.",
+    "example": "I can recall vividly the day I first learned to ride a bike."
+  },
+  {
+    "word": "Enemy",
+    "day": 4,
+    "definition": "A person or group that is hostile to or threatens someone or something.",
+    "example": "The army fought bravely to defeat the enemy forces."
+  },
+  {
+    "word": "Motionless",
+    "day": 4,
+    "definition": "Not moving at all; still.",
+    "example": "The bird stayed absolutely motionless, hoping not to be seen."
+  },
+  {
+    "word": "Monitor",
+    "day": 4,
+    "definition": "To observe and check the progress or quality of something over a period of time; a screen used for display.",
+    "example": "Parents often use a baby monitor to hear their child from another room."
+  },
+  {
+    "word": "Ditch",
+    "day": 4,
+    "definition": "A long, narrow channel dug in the ground, typically for drainage.",
+    "example": "The car swerved and ended up in a shallow ditch beside the road."
+  },
+  {
+    "word": "Vague",
+    "day": 4,
+    "definition": "Not clearly expressed, understood, or defined.",
+    "example": "I have a vague idea of what he's talking about, but I need more details."
+  },
+  {
+    "word": "Prosperous",
+    "day": 4,
+    "definition": "Successful in material terms; flourishing financially.",
+    "example": "He became a very prosperous businessman after years of hard work."
+  },
+  {
+    "word": "Derive",
+    "day": 4,
+    "definition": "To obtain something from a specific source.",
+    "example": "Many English words derive from Latin."
+  },
+  {
+    "word": "Comprise",
+    "day": 5,
+    "definition": "To consist of or to be made up of.",
+    "example": "The committee will be comprised of members from various departments."
+  },
+  {
+    "word": "Thereby",
+    "day": 5,
+    "definition": "By that means or as a result of that.",
+    "example": "He studied hard every day, thereby ensuring his success in the exams."
+  },
+  {
+    "word": "Reactor",
+    "day": 5,
+    "definition": "A device used to control a nuclear chain reaction.",
+    "example": "The country decided to build another nuclear reactor to increase its energy supply."
+  },
+  {
+    "word": "ImpurePure",
+    "day": 5,
+    "definition": "Impure means not clean or mixed with unwanted substances; Pure means not mixed with any other substance or material.",
+    "example": "We need to filter the water to remove any impure elements."
+  },
+  {
+    "word": "Gain",
+    "day": 5,
+    "definition": "To obtain or acquire something, especially something desirable.",
+    "example": "After a long struggle, the rebels managed to gain control of the city."
+  },
+  {
+    "word": "Enable",
+    "day": 5,
+    "definition": "To make it possible for someone or something to do something.",
+    "example": "Technology can enable people to work from anywhere in the world."
+  },
+  {
+    "word": "Stretch",
+    "day": 5,
+    "definition": "To extend or lengthen something by pulling it.",
+    "example": "She likes to stretch her muscles before exercising."
+  },
+  {
+    "word": "Maximize",
+    "day": 5,
+    "definition": "To make as large or great as possible.",
+    "example": "They aimed to achieve the maximum amount of profit from the sale."
+  },
+  {
+    "word": "Nerve",
+    "day": 5,
+    "definition": "Any of the bundles of fibers that transmit impulses of sensation and motion between the brain or spinal cord and all other parts of the body; courage.",
+    "example": "Before the presentation, he tried to calm his nerves by taking deep breaths."
+  },
+  {
+    "word": "Norm",
+    "day": 5,
+    "definition": "Something that is usual, typical, or standard.",
+    "example": "Working from home has become the norm for many businesses."
+  },
+  {
+    "word": "Feast",
+    "day": 5,
+    "definition": "A large meal, typically a celebratory one.",
+    "example": "After the harvest, the villagers would have a feast to celebrate."
+  },
+  {
+    "word": "Pretend",
+    "day": 5,
+    "definition": "To behave as if something is true when you know it is not.",
+    "example": "Children often pretend to be superheroes when they play."
+  },
+  {
+    "word": "Differentiate",
+    "day": 5,
+    "definition": "To recognize or express the difference between things.",
+    "example": "It's important to differentiate between facts and opinions."
+  },
+  {
+    "word": "Midst",
+    "day": 5,
+    "definition": "In the middle of.",
+    "example": "The city continued to function even in the midst of the crisis."
+  },
+  {
+    "word": "Spit",
+    "day": 5,
+    "definition": "To eject saliva forcibly from one's mouth.",
+    "example": "It is considered very rude to spit on the street."
+  },
+  {
+    "word": "Underlie",
+    "day": 5,
+    "definition": "To be the basic reason or cause for something.",
+    "example": "The report identified an underlying problem with the company's communication structure."
+  },
+  {
+    "word": "Illusion",
+    "day": 5,
+    "definition": "A thing that is or is likely to be wrongly perceived or interpreted by the senses.",
+    "example": "The painting created a fascinating optical illusion that made it seem to move."
+  }
+]

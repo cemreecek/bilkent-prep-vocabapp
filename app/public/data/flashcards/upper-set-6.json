@@ -1,0 +1,350 @@
+[
+  {
+    "word": "Fund",
+    "day": 1,
+    "definition": "To provide money for something, or a sum of money collected for a specific purpose.",
+    "example": "The government decided to fund the new research project."
+  },
+  {
+    "word": "Occasional",
+    "day": 1,
+    "definition": "Happening or done sometimes, but not often or regularly.",
+    "example": "We enjoy an occasional visit to the beach during summer."
+  },
+  {
+    "word": "Extremely",
+    "day": 1,
+    "definition": "To a very great degree; very much.",
+    "example": "The weather was extremely cold yesterday."
+  },
+  {
+    "word": "Fatigue",
+    "day": 1,
+    "definition": "A feeling of being extremely tired, either physically or mentally.",
+    "example": "The long journey caused him extreme fatigue."
+  },
+  {
+    "word": "Inadequate",
+    "day": 1,
+    "definition": "Not enough or not good enough for a particular purpose.",
+    "example": "The small salary was inadequate to cover her living expenses."
+  },
+  {
+    "word": "Balanced",
+    "day": 1,
+    "definition": "Arranged in good proportions; having all elements in the right amount.",
+    "example": "A balanced diet includes all necessary nutrients."
+  },
+  {
+    "word": "Occur",
+    "day": 1,
+    "definition": "To happen or take place.",
+    "example": "The accident occurred late at night."
+  },
+  {
+    "word": "Revolution",
+    "day": 1,
+    "definition": "A sudden, complete, or marked change in something, or a forceful overthrow of a government.",
+    "example": "The industrial revolution changed society greatly."
+  },
+  {
+    "word": "Evidence",
+    "day": 1,
+    "definition": "Facts or information indicating whether a belief or proposition is true or valid.",
+    "example": "Scientists need strong evidence to support their theories."
+  },
+  {
+    "word": "Duty",
+    "day": 1,
+    "definition": "A moral or legal obligation; a responsibility.",
+    "example": "It is your duty to help those in need."
+  },
+  {
+    "word": "Wound",
+    "day": 1,
+    "definition": "An injury to the body, especially one in which the skin or other tissue is cut or broken; or to injure someone with a weapon.",
+    "example": "The soldier suffered a serious wound in the battle."
+  },
+  {
+    "word": "Source",
+    "day": 2,
+    "definition": "A place, person, or thing from which something originates or can be obtained.",
+    "example": "The river is the main source of water for the city."
+  },
+  {
+    "word": "Construction",
+    "day": 2,
+    "definition": "The process of building or making something, typically a large structure.",
+    "example": "The new bridge is still under construction."
+  },
+  {
+    "word": "Chase",
+    "day": 2,
+    "definition": "To pursue someone or something in order to catch them.",
+    "example": "The dog likes to chase the ball in the park."
+  },
+  {
+    "word": "Guilt",
+    "day": 2,
+    "definition": "The fact of having committed a specified or implied offense or crime; a feeling of responsibility for wrongdoing.",
+    "example": "He felt a strong sense of guilt after making the mistake."
+  },
+  {
+    "word": "Drought",
+    "day": 2,
+    "definition": "A prolonged period of abnormally low rainfall, leading to a shortage of water.",
+    "example": "The drought caused many crops to fail."
+  },
+  {
+    "word": "Remedy",
+    "day": 2,
+    "definition": "A medicine or treatment for an illness or injury; or a solution for a problem.",
+    "example": "There is no simple remedy for this complex problem."
+  },
+  {
+    "word": "Furthermore",
+    "day": 2,
+    "definition": "In addition; besides. Used to introduce a fresh consideration in an argument.",
+    "example": "The house is too small; furthermore, it needs a lot of repairs."
+  },
+  {
+    "word": "Dilemma",
+    "day": 2,
+    "definition": "A situation in which a difficult choice has to be made between two or more alternatives, especially equally undesirable ones.",
+    "example": "She faced a dilemma: either miss her flight or cancel her meeting."
+  },
+  {
+    "word": "Congratulations",
+    "day": 2,
+    "definition": "An expression of praise and good wishes for an achievement or event.",
+    "example": "Congratulations on your new job!"
+  },
+  {
+    "word": "Diet",
+    "day": 2,
+    "definition": "The usual food and drink of a person or animal; or a special course of food to improve health or lose weight.",
+    "example": "Eating a healthy diet is important for well-being."
+  },
+  {
+    "word": "Approximately",
+    "day": 2,
+    "definition": "Used to show that something is almost, but not completely, accurate or exact.",
+    "example": "The journey will take approximately three hours."
+  },
+  {
+    "word": "Promote",
+    "day": 2,
+    "definition": "To support or actively encourage something; to help something to happen, develop, or increase.",
+    "example": "We need to promote healthy eating habits among children."
+  },
+  {
+    "word": "Originate",
+    "day": 3,
+    "definition": "To have a specified origin; to begin or arise from.",
+    "example": "The custom is said to originate from ancient traditions."
+  },
+  {
+    "word": "Primary",
+    "day": 3,
+    "definition": "Of chief importance; principal.",
+    "example": "The primary goal of the project is to reduce waste."
+  },
+  {
+    "word": "Remarkable",
+    "day": 3,
+    "definition": "Worthy of attention; striking.",
+    "example": "She showed remarkable courage during the difficult time."
+  },
+  {
+    "word": "Subjective",
+    "day": 3,
+    "definition": "Based on or influenced by personal feelings, tastes, or opinions.",
+    "example": "Beauty is subjective; what one person finds beautiful, another might not."
+  },
+  {
+    "word": "Permit",
+    "day": 3,
+    "definition": "To give authorization or consent to (someone to do something).",
+    "example": "The law does not permit smoking in public buildings."
+  },
+  {
+    "word": "Justification",
+    "day": 3,
+    "definition": "The action of showing something to be right or reasonable.",
+    "example": "There was no justification for his rude behavior."
+  },
+  {
+    "word": "Resistance",
+    "day": 3,
+    "definition": "The refusal to accept or comply with something; or the ability not to be affected by something.",
+    "example": "The body's resistance to disease can be improved with a healthy lifestyle."
+  },
+  {
+    "word": "Hesitation",
+    "day": 3,
+    "definition": "The action of pausing or delaying before saying or doing something.",
+    "example": "After a moment of hesitation, she opened the door."
+  },
+  {
+    "word": "Evolution",
+    "day": 3,
+    "definition": "The gradual development of something, especially from a simple to a more complex form.",
+    "example": "The evolution of technology has changed our lives significantly."
+  },
+  {
+    "word": "Discomfort",
+    "day": 3,
+    "definition": "A slight pain or an uncomfortable feeling.",
+    "example": "He felt some discomfort in his knee after the long walk."
+  },
+  {
+    "word": "Starve",
+    "day": 3,
+    "definition": "To suffer severely or die from lack of food.",
+    "example": "Many people starve due to famine in some parts of the world."
+  },
+  {
+    "word": "Withdraw",
+    "day": 3,
+    "definition": "To remove or take away (something) from a particular place or position; to pull back.",
+    "example": "She decided to withdraw her complaint."
+  },
+  {
+    "word": "Resistant",
+    "day": 4,
+    "definition": "Having the ability to withstand something; not easily affected by.",
+    "example": "Some plants are resistant to certain diseases."
+  },
+  {
+    "word": "Ultimate",
+    "day": 4,
+    "definition": "The best or most extreme example of its kind; or happening at the end of a process.",
+    "example": "Achieving peace is the ultimate goal."
+  },
+  {
+    "word": "Gear",
+    "day": 4,
+    "definition": "Equipment or clothing used for a particular purpose.",
+    "example": "We packed our camping gear for the trip."
+  },
+  {
+    "word": "Decay",
+    "day": 4,
+    "definition": "The state or process of rotting or decomposing; to fall into disrepair.",
+    "example": "The old wooden house showed signs of decay."
+  },
+  {
+    "word": "Grateful",
+    "day": 4,
+    "definition": "Feeling or showing an appreciation of kindness; thankful.",
+    "example": "I am very grateful for your help."
+  },
+  {
+    "word": "Campaign",
+    "day": 4,
+    "definition": "A series of organized activities working towards a particular goal.",
+    "example": "The politician ran a strong campaign before the election."
+  },
+  {
+    "word": "Debate",
+    "day": 4,
+    "definition": "A formal discussion on a particular topic in a public meeting or legislative assembly, with opposing arguments presented.",
+    "example": "There was a lively debate about the new law."
+  },
+  {
+    "word": "Wealthy",
+    "day": 4,
+    "definition": "Having a great deal of money, resources, or assets; rich.",
+    "example": "He became wealthy after starting a successful business."
+  },
+  {
+    "word": "Economically",
+    "day": 4,
+    "definition": "In a way that relates to economics or finance; or in a way that uses money, time, or resources carefully.",
+    "example": "The country is developing economically."
+  },
+  {
+    "word": "Technique",
+    "day": 4,
+    "definition": "A skilled way of doing something, especially a way of doing a task requiring special knowledge or skill.",
+    "example": "She used a special technique to paint the intricate details."
+  },
+  {
+    "word": "Cruel",
+    "day": 4,
+    "definition": "Willfully causing pain or suffering to others, or feeling no concern about it.",
+    "example": "It was cruel to leave the animal alone in the cold."
+  },
+  {
+    "word": "Client",
+    "day": 5,
+    "definition": "A person or organization using the services of a lawyer, accountant, or other professional or business.",
+    "example": "The lawyer met with her client to discuss the case."
+  },
+  {
+    "word": "Unsteady",
+    "day": 5,
+    "definition": "Not firm or secure; liable to fall or shake.",
+    "example": "The old table was very unsteady."
+  },
+  {
+    "word": "Celebrate",
+    "day": 5,
+    "definition": "To observe a special occasion or day with festivities.",
+    "example": "We will celebrate her birthday next Saturday."
+  },
+  {
+    "word": "Degrade",
+    "day": 5,
+    "definition": "To treat or regard (someone) with contempt or disrespect; or to cause something to become worse in quality.",
+    "example": "Pollution can degrade the quality of the environment."
+  },
+  {
+    "word": "Confess",
+    "day": 5,
+    "definition": "To admit that one has committed a crime or a wrongful or embarrassing act.",
+    "example": "He confessed to eating the last piece of cake."
+  },
+  {
+    "word": "Faith",
+    "day": 5,
+    "definition": "Complete trust or confidence in someone or something.",
+    "example": "She has great faith in her team's ability."
+  },
+  {
+    "word": "Democracy",
+    "day": 5,
+    "definition": "A system of government by the whole population or all the eligible members of a state, typically through elected representatives.",
+    "example": "Many countries strive to achieve full democracy."
+  },
+  {
+    "word": "Rough",
+    "day": 5,
+    "definition": "Having an uneven or irregular surface; not smooth or level.",
+    "example": "The road was rough and full of potholes."
+  },
+  {
+    "word": "Insure",
+    "day": 5,
+    "definition": "To arrange for compensation in the event of damage to or loss of (property, life, or personal liability) in exchange for regular payments.",
+    "example": "It's important to insure your car against accidents."
+  },
+  {
+    "word": "Conference",
+    "day": 5,
+    "definition": "A formal meeting of people with a shared interest, typically one that takes place over several days.",
+    "example": "She attended a medical conference in London."
+  },
+  {
+    "word": "Judge",
+    "day": 5,
+    "definition": "A public officer appointed to decide cases in a law court; or to form an opinion or conclusion about.",
+    "example": "It's not fair to judge people based on their appearance."
+  },
+  {
+    "word": "Result",
+    "day": 5,
+    "definition": "A consequence, effect, or outcome of something.",
+    "example": "The test results will be available next week."
+  }
+]

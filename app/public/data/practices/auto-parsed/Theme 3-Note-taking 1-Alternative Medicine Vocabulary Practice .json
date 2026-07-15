@@ -1,0 +1,69 @@
+[
+  {
+    "instruction": "Read the text and choose the correct option to complete each gap.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Why is the placebo effect exploding in the U.S. but nowhere else?\n\nThe placebo effect is getting stronger – but only in the United States. That was the finding of the 2015 research by a team from McGill University in Montreal. The team analyzed the findings of 84 drug {1}, which were conducted from 1990 to 2013, for chronic pain medications. The 2015 research {2} that during the 23-year timeframe, subjects of these clinical drug studies increasingly reported that their pain levels decreased when taking placebos. Those results are strange enough on their own, but even more so because they only held true for clinical studies conducted entirely in the U.S. Experts find it very {3} that similar trials conducted in Europe and Asia showed no changes in the placebo effect over the same time period.\n\nWe’ve known that the placebo effect is especially effective for pain drugs ever since Henry Beecher ran out of morphine to treat injured soldiers during World War II. Instead of telling his patients he couldn’t help them, he continued telling them he was administering morphine but was really injecting them with saline solution. To his amazement, in response to his unconventional {4}, 40% of the soldiers reported feeling less pain. Since then, the placebo effect has been the focus of a(n) {5} of controversial studies on antidepressants and other psychiatric meds, reinforcing Beecher’s finding that the mere expectation of relief can trigger a physiological response. Many have {6} about the possible reasons why the placebo effect, at least for chronic neuropathic pain meds, appears to be increasing only in the U.S.\n\nThe study’s authors suggest that the growing placebo effect might be because U.S. clinical trials are now larger and last longer. Another possible reason is direct-to-consumer drug ads, which are only allowed in the U.S. and New Zealand. We’re the only country, aside from New Zealand, that allows drug companies to advertise directly to consumers; these companies {7} about the effectiveness of their drugs (interestingly, these ads only became legal in the U.S. in 1997). While a difficult hypothesis to test, it’s possible that all that {8} to carefully created advertising messages about a drug’s effects may cause a placebo response in some patients. Whatever the causes (and there are almost certainly more than one), the U.S. appears to hold the title of reigning placebo nation.",
+        "options": [
+          [
+            { "text": "brands", "isCorrect": false, "blankIndex": 1 },
+            { "text": "trials", "isCorrect": true, "blankIndex": 1 },
+            { "text": "purchases", "isCorrect": false, "blankIndex": 1 },
+            { "text": "dosages", "isCorrect": false, "blankIndex": 1 },
+            { "text": "remedies", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "commanded", "isCorrect": false, "blankIndex": 2 },
+            { "text": "distinguished", "isCorrect": false, "blankIndex": 2 },
+            { "text": "activated", "isCorrect": false, "blankIndex": 2 },
+            { "text": "evaluated", "isCorrect": false, "blankIndex": 2 },
+            { "text": "revealed", "isCorrect": true, "blankIndex": 2 }
+          ],
+          [
+            { "text": "approximate", "isCorrect": false, "blankIndex": 3 },
+            { "text": "adverse", "isCorrect": false, "blankIndex": 3 },
+            { "text": "odd", "isCorrect": true, "blankIndex": 3 },
+            { "text": "unpredictable", "isCorrect": false, "blankIndex": 3 },
+            { "text": "typical", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "input", "isCorrect": false, "blankIndex": 4 },
+            { "text": "approach", "isCorrect": true, "blankIndex": 4 },
+            { "text": "profession", "isCorrect": false, "blankIndex": 4 },
+            { "text": "analysis", "isCorrect": false, "blankIndex": 4 },
+            { "text": "inspection", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "effort", "isCorrect": false, "blankIndex": 5 },
+            { "text": "source", "isCorrect": false, "blankIndex": 5 },
+            { "text": "variety", "isCorrect": true, "blankIndex": 5 },
+            { "text": "argument", "isCorrect": false, "blankIndex": 5 },
+            { "text": "inspiration", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "appealed", "isCorrect": false, "blankIndex": 6 },
+            { "text": "demonstrated", "isCorrect": false, "blankIndex": 6 },
+            { "text": "admitted", "isCorrect": false, "blankIndex": 6 },
+            { "text": "enquired", "isCorrect": true, "blankIndex": 6 },
+            { "text": "clarified", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "urge", "isCorrect": false, "blankIndex": 7 },
+            { "text": "reveal", "isCorrect": false, "blankIndex": 7 },
+            { "text": "claim", "isCorrect": false, "blankIndex": 7 },
+            { "text": "boast", "isCorrect": true, "blankIndex": 7 },
+            { "text": "target", "isCorrect": false, "blankIndex": 7 }
+          ],
+          [
+            { "text": "desire", "isCorrect": false, "blankIndex": 8 },
+            { "text": "campaign", "isCorrect": false, "blankIndex": 8 },
+            { "text": "strategy", "isCorrect": false, "blankIndex": 8 },
+            { "text": "exposure", "isCorrect": true, "blankIndex": 8 },
+            { "text": "effort", "isCorrect": false, "blankIndex": 8 }
+          ]
+        ]
+      }
+    ]
+  }
+]

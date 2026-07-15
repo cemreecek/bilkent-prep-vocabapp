@@ -1,0 +1,1021 @@
+[
+  {
+    "instruction": "Match the following words with their definitions.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "Cautious",
+        "options": [
+          { "text": "the parts of something that are left over when the other parts are gone or used up", "isCorrect": false },
+          { "text": "not confident about yourself or your ability to do things well, nervous and uncomfortable", "isCorrect": false },
+          { "text": "to ask for information", "isCorrect": false },
+          { "text": "to try to find out the facts about something (such as a crime or an accident) in order to learn how it happened, who did it, etc.", "isCorrect": false },
+          { "text": "careful about avoiding danger or risk", "isCorrect": true },
+          { "text": "to make your thoughts and feelings known", "isCorrect": false },
+          { "text": "the act or process of returning to a normal state after a period of difficulty", "isCorrect": false },
+          { "text": "to stop holding someone or something, to let go of", "isCorrect": false },
+          { "text": "to move closer to or become nearer to something or someone", "isCorrect": false },
+          { "text": "to receive something from someone who had it previously, especially an older family member", "isCorrect": false },
+          { "text": "a feeling of unhappiness or disapproval", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Release",
+        "options": [
+          { "text": "the parts of something that are left over when the other parts are gone or used up", "isCorrect": false },
+          { "text": "not confident about yourself or your ability to do things well, nervous and uncomfortable", "isCorrect": false },
+          { "text": "to ask for information", "isCorrect": false },
+          { "text": "to try to find out the facts about something (such as a crime or an accident) in order to learn how it happened, who did it, etc.", "isCorrect": false },
+          { "text": "careful about avoiding danger or risk", "isCorrect": false },
+          { "text": "to make your thoughts and feelings known", "isCorrect": false },
+          { "text": "the act or process of returning to a normal state after a period of difficulty", "isCorrect": false },
+          { "text": "to stop holding someone or something, to let go of", "isCorrect": true },
+          { "text": "to move closer to or become nearer to something or someone", "isCorrect": false },
+          { "text": "to receive something from someone who had it previously, especially an older family member", "isCorrect": false },
+          { "text": "a feeling of unhappiness or disapproval", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Approach",
+        "options": [
+          { "text": "the parts of something that are left over when the other parts are gone or used up", "isCorrect": false },
+          { "text": "not confident about yourself or your ability to do things well, nervous and uncomfortable", "isCorrect": false },
+          { "text": "to ask for information", "isCorrect": false },
+          { "text": "to try to find out the facts about something (such as a crime or an accident) in order to learn how it happened, who did it, etc.", "isCorrect": false },
+          { "text": "careful about avoiding danger or risk", "isCorrect": false },
+          { "text": "to make your thoughts and feelings known", "isCorrect": false },
+          { "text": "the act or process of returning to a normal state after a period of difficulty", "isCorrect": false },
+          { "text": "to stop holding someone or something, to let go of", "isCorrect": false },
+          { "text": "to move closer to or become nearer to something or someone", "isCorrect": true },
+          { "text": "to receive something from someone who had it previously, especially an older family member", "isCorrect": false },
+          { "text": "a feeling of unhappiness or disapproval", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Investigate",
+        "options": [
+          { "text": "the parts of something that are left over when the other parts are gone or used up", "isCorrect": false },
+          { "text": "not confident about yourself or your ability to do things well, nervous and uncomfortable", "isCorrect": false },
+          { "text": "to ask for information", "isCorrect": false },
+          { "text": "to try to find out the facts about something (such as a crime or an accident) in order to learn how it happened, who did it, etc.", "isCorrect": true },
+          { "text": "careful about avoiding danger or risk", "isCorrect": false },
+          { "text": "to make your thoughts and feelings known", "isCorrect": false },
+          { "text": "the act or process of returning to a normal state after a period of difficulty", "isCorrect": false },
+          { "text": "to stop holding someone or something, to let go of", "isCorrect": false },
+          { "text": "to move closer to or become nearer to something or someone", "isCorrect": false },
+          { "text": "to receive something from someone who had it previously, especially an older family member", "isCorrect": false },
+          { "text": "a feeling of unhappiness or disapproval", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Insecure",
+        "options": [
+          { "text": "the parts of something that are left over when the other parts are gone or used up", "isCorrect": false },
+          { "text": "not confident about yourself or your ability to do things well, nervous and uncomfortable", "isCorrect": true },
+          { "text": "to ask for information", "isCorrect": false },
+          { "text": "to try to find out the facts about something (such as a crime or an accident) in order to learn how it happened, who did it, etc.", "isCorrect": false },
+          { "text": "careful about avoiding danger or risk", "isCorrect": false },
+          { "text": "to make your thoughts and feelings known", "isCorrect": false },
+          { "text": "the act or process of returning to a normal state after a period of difficulty", "isCorrect": false },
+          { "text": "to stop holding someone or something, to let go of", "isCorrect": false },
+          { "text": "to move closer to or become nearer to something or someone", "isCorrect": false },
+          { "text": "to receive something from someone who had it previously, especially an older family member", "isCorrect": false },
+          { "text": "a feeling of unhappiness or disapproval", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Remains",
+        "options": [
+          { "text": "the parts of something that are left over when the other parts are gone or used up", "isCorrect": true },
+          { "text": "not confident about yourself or your ability to do things well, nervous and uncomfortable", "isCorrect": false },
+          { "text": "to ask for information", "isCorrect": false },
+          { "text": "to try to find out the facts about something (such as a crime or an accident) in order to learn how it happened, who did it, etc.", "isCorrect": false },
+          { "text": "careful about avoiding danger or risk", "isCorrect": false },
+          { "text": "to make your thoughts and feelings known", "isCorrect": false },
+          { "text": "the act or process of returning to a normal state after a period of difficulty", "isCorrect": false },
+          { "text": "to stop holding someone or something, to let go of", "isCorrect": false },
+          { "text": "to move closer to or become nearer to something or someone", "isCorrect": false },
+          { "text": "to receive something from someone who had it previously, especially an older family member", "isCorrect": false },
+          { "text": "a feeling of unhappiness or disapproval", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Recovery",
+        "options": [
+          { "text": "the parts of something that are left over when the other parts are gone or used up", "isCorrect": false },
+          { "text": "not confident about yourself or your ability to do things well, nervous and uncomfortable", "isCorrect": false },
+          { "text": "to ask for information", "isCorrect": false },
+          { "text": "to try to find out the facts about something (such as a crime or an accident) in order to learn how it happened, who did it, etc.", "isCorrect": false },
+          { "text": "careful about avoiding danger or risk", "isCorrect": false },
+          { "text": "to make your thoughts and feelings known", "isCorrect": false },
+          { "text": "the act or process of returning to a normal state after a period of difficulty", "isCorrect": true },
+          { "text": "to stop holding someone or something, to let go of", "isCorrect": false },
+          { "text": "to move closer to or become nearer to something or someone", "isCorrect": false },
+          { "text": "to receive something from someone who had it previously, especially an older family member", "isCorrect": false },
+          { "text": "a feeling of unhappiness or disapproval", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Dissatisfaction",
+        "options": [
+          { "text": "the parts of something that are left over when the other parts are gone or used up", "isCorrect": false },
+          { "text": "not confident about yourself or your ability to do things well, nervous and uncomfortable", "isCorrect": false },
+          { "text": "to ask for information", "isCorrect": false },
+          { "text": "to try to find out the facts about something (such as a crime or an accident) in order to learn how it happened, who did it, etc.", "isCorrect": false },
+          { "text": "careful about avoiding danger or risk", "isCorrect": false },
+          { "text": "to make your thoughts and feelings known", "isCorrect": false },
+          { "text": "the act or process of returning to a normal state after a period of difficulty", "isCorrect": false },
+          { "text": "to stop holding someone or something, to let go of", "isCorrect": false },
+          { "text": "to move closer to or become nearer to something or someone", "isCorrect": false },
+          { "text": "to receive something from someone who had it previously, especially an older family member", "isCorrect": false },
+          { "text": "a feeling of unhappiness or disapproval", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Inherit",
+        "options": [
+          { "text": "the parts of something that are left over when the other parts are gone or used up", "isCorrect": false },
+          { "text": "not confident about yourself or your ability to do things well, nervous and uncomfortable", "isCorrect": false },
+          { "text": "to ask for information", "isCorrect": false },
+          { "text": "to try to find out the facts about something (such as a crime or an accident) in order to learn how it happened, who did it, etc.", "isCorrect": false },
+          { "text": "careful about avoiding danger or risk", "isCorrect": false },
+          { "text": "to make your thoughts and feelings known", "isCorrect": false },
+          { "text": "the act or process of returning to a normal state after a period of difficulty", "isCorrect": false },
+          { "text": "to stop holding someone or something, to let go of", "isCorrect": false },
+          { "text": "to move closer to or become nearer to something or someone", "isCorrect": false },
+          { "text": "to receive something from someone who had it previously, especially an older family member", "isCorrect": true },
+          { "text": "a feeling of unhappiness or disapproval", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Enquire",
+        "options": [
+          { "text": "the parts of something that are left over when the other parts are gone or used up", "isCorrect": false },
+          { "text": "not confident about yourself or your ability to do things well, nervous and uncomfortable", "isCorrect": false },
+          { "text": "to ask for information", "isCorrect": true },
+          { "text": "to try to find out the facts about something (such as a crime or an accident) in order to learn how it happened, who did it, etc.", "isCorrect": false },
+          { "text": "careful about avoiding danger or risk", "isCorrect": false },
+          { "text": "to make your thoughts and feelings known", "isCorrect": false },
+          { "text": "the act or process of returning to a normal state after a period of difficulty", "isCorrect": false },
+          { "text": "to stop holding someone or something, to let go of", "isCorrect": false },
+          { "text": "to move closer to or become nearer to something or someone", "isCorrect": false },
+          { "text": "to receive something from someone who had it previously, especially an older family member", "isCorrect": false },
+          { "text": "a feeling of unhappiness or disapproval", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Express",
+        "options": [
+          { "text": "the parts of something that are left over when the other parts are gone or used up", "isCorrect": false },
+          { "text": "not confident about yourself or your ability to do things well, nervous and uncomfortable", "isCorrect": false },
+          { "text": "to ask for information", "isCorrect": false },
+          { "text": "to try to find out the facts about something (such as a crime or an accident) in order to learn how it happened, who did it, etc.", "isCorrect": false },
+          { "text": "careful about avoiding danger or risk", "isCorrect": false },
+          { "text": "to make your thoughts and feelings known", "isCorrect": true },
+          { "text": "the act or process of returning to a normal state after a period of difficulty", "isCorrect": false },
+          { "text": "to stop holding someone or something, to let go of", "isCorrect": false },
+          { "text": "to move closer to or become nearer to something or someone", "isCorrect": false },
+          { "text": "to receive something from someone who had it previously, especially an older family member", "isCorrect": false },
+          { "text": "a feeling of unhappiness or disapproval", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the blanks by choosing A, B, C, D, or E.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Choosing a pet isn't easy. Dogs are popular because they're loyal and good for security. When compared to dogs, cats are more independent and clean, but they can be {1}, that is, their mood is likely to change suddenly. Fish are relaxing to watch, but don't expect much interaction! Some people prefer birds because they can learn to talk, while others choose to {2} unusual pets like snakes or spiders as they are inexpensive to feed compared to other animals. In the end, it's important to adopt a pet that suits your lifestyle and gives you the {3} you want.",
+        "options": [
+          [
+            { "text": "A cautious", "isCorrect": false, "blankIndex": 1 },
+            { "text": "B unwilling", "isCorrect": false, "blankIndex": 1 },
+            { "text": "C insecure", "isCorrect": false, "blankIndex": 1 },
+            { "text": "D unpredictable", "isCorrect": true, "blankIndex": 1 },
+            { "text": "E consistent", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "A recover", "isCorrect": false, "blankIndex": 2 },
+            { "text": "B acquire", "isCorrect": true, "blankIndex": 2 },
+            { "text": "C allocate", "isCorrect": false, "blankIndex": 2 },
+            { "text": "D release", "isCorrect": false, "blankIndex": 2 },
+            { "text": "E examine", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "A dissatisfaction", "isCorrect": false, "blankIndex": 3 },
+            { "text": "B investment", "isCorrect": false, "blankIndex": 3 },
+            { "text": "C companionship", "isCorrect": true, "blankIndex": 3 },
+            { "text": "D exposure", "isCorrect": false, "blankIndex": 3 },
+            { "text": "E impression", "isCorrect": false, "blankIndex": 3 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Dogs are often used in crime investigation. They can be adopted and trained to {4} drugs, weapons and even dead bodies. The police also use dogs to help them catch criminals, however, some people think that using dogs in this way is cruel because it can put the dogs in danger. Not all types of dogs can be used in crime investigation as the law {5} some types of dogs from being used by the police, for example, pit bull terriers. Moreover, some people have concerns about the usage of dogs to solve crime. For example, if a criminal is nervous, will a dog always react in the same way? And what happens when the dog does not cooperate? Will it {6} the investigation? Despite these concerns, many experts agree that dogs can {7} help to fight crime. As long as they are used as part of a wider range of techniques, they will be really useful.",
+        "options": [
+          [
+            { "text": "A enclose", "isCorrect": false, "blankIndex": 4 },
+            { "text": "B detect", "isCorrect": true, "blankIndex": 4 },
+            { "text": "C fulfill", "isCorrect": false, "blankIndex": 4 },
+            { "text": "D assist", "isCorrect": false, "blankIndex": 4 },
+            { "text": "E predict", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "A qualifies", "isCorrect": false, "blankIndex": 5 },
+            { "text": "B objects", "isCorrect": false, "blankIndex": 5 },
+            { "text": "C prohibits", "isCorrect": true, "blankIndex": 5 },
+            { "text": "D selects", "isCorrect": false, "blankIndex": 5 },
+            { "text": "E differs", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "A delay", "isCorrect": true, "blankIndex": 6 },
+            { "text": "B enhance", "isCorrect": false, "blankIndex": 6 },
+            { "text": "C abandon", "isCorrect": false, "blankIndex": 6 },
+            { "text": "D recover", "isCorrect": false, "blankIndex": 6 },
+            { "text": "E cooperate", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "A unwillingly", "isCorrect": false, "blankIndex": 7 },
+            { "text": "B desperately", "isCorrect": false, "blankIndex": 7 },
+            { "text": "C insecurely", "isCorrect": false, "blankIndex": 7 },
+            { "text": "D gradually", "isCorrect": false, "blankIndex": 7 },
+            { "text": "E genuinely", "isCorrect": true, "blankIndex": 7 }
+          ]
+        ]
+      },
+      {
+        "questionText": "The world is full of wild animals. It's interesting to learn about the different types of animals and their behavior in the wild. Elephants are the largest land animals in the world. They are social creatures that live in groups called herds and are particularly known for their memory and intelligence. In addition, they're also very {8} and can have babies into their 50s. Snakes are reptiles without legs. There are more than 3,000 species of snakes in the world, some of which are venomous. When snakes feel threatened, they {9} themselves by hissing or striking. If you ever come across a snake in the wild, it's best not to touch it, as that could lead to an unfortunate {10}, which may put you in the hospital. Therefore, although learning about wild animals can help us {11} our behavior to their nature and how they behave in different circumstances, it's important to respect wildlife and remember that they are not pets, but rather creatures that act on their {12} and deserve our understanding.",
+        "options": [
+          [
+            { "text": "A generous", "isCorrect": false, "blankIndex": 8 },
+            { "text": "B approachable", "isCorrect": false, "blankIndex": 8 },
+            { "text": "C fertile", "isCorrect": true, "blankIndex": 8 },
+            { "text": "D astonishing", "isCorrect": false, "blankIndex": 8 },
+            { "text": "E rare", "isCorrect": false, "blankIndex": 8 }
+          ],
+          [
+            { "text": "A activate", "isCorrect": false, "blankIndex": 9 },
+            { "text": "B harm", "isCorrect": false, "blankIndex": 9 },
+            { "text": "C offend", "isCorrect": false, "blankIndex": 9 },
+            { "text": "D express", "isCorrect": true, "blankIndex": 9 },
+            { "text": "E demonstrate", "isCorrect": false, "blankIndex": 9 }
+          ],
+          [
+            { "text": "A incident", "isCorrect": true, "blankIndex": 10 },
+            { "text": "B obstacle", "isCorrect": false, "blankIndex": 10 },
+            { "text": "C revenge", "isCorrect": false, "blankIndex": 10 },
+            { "text": "D phase", "isCorrect": false, "blankIndex": 10 },
+            { "text": "E input", "isCorrect": false, "blankIndex": 10 }
+          ],
+          [
+            { "text": "A adopt", "isCorrect": false, "blankIndex": 11 },
+            { "text": "B approach", "isCorrect": false, "blankIndex": 11 },
+            { "text": "C adapt", "isCorrect": true, "blankIndex": 11 },
+            { "text": "D obtain", "isCorrect": false, "blankIndex": 11 },
+            { "text": "E appeal", "isCorrect": false, "blankIndex": 11 }
+          ],
+          [
+            { "text": "A pure", "isCorrect": false, "blankIndex": 12 },
+            { "text": "B reliable", "isCorrect": false, "blankIndex": 12 },
+            { "text": "C instincts", "isCorrect": true, "blankIndex": 12 },
+            { "text": "D crucial", "isCorrect": false, "blankIndex": 12 },
+            { "text": "E tender", "isCorrect": false, "blankIndex": 12 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Use the word in parentheses at the end of each sentence to form a word that fits in the blanks.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "The population _______________ increased.",
+        "correctAnswer": "gradually",
+        "options": []
+      },
+      {
+        "questionText": "Parents are worried about their children's _______________ to violence on television",
+        "correctAnswer": "exposure",
+        "options": []
+      },
+      {
+        "questionText": "Based on current _______________ rates, the world's population is expected to pass 9 billion by the year 2050.",
+        "correctAnswer": "fertility",
+        "options": []
+      },
+      {
+        "questionText": "The ______________________ against smoking indoors did not lead many people to quit.",
+        "correctAnswer": "prohibition",
+        "options": []
+      },
+      {
+        "questionText": "It is widely acknowledged that ____________________ tests are inaccurate and unreliable.",
+        "correctAnswer": "intelligence",
+        "options": []
+      },
+      {
+        "questionText": "He has the necessary ____________________ for the job.",
+        "correctAnswer": "qualifications",
+        "options": []
+      },
+      {
+        "questionText": "The CEO’s ___________________ answered the phone and took a message while he was at lunch.",
+        "correctAnswer": "assistant",
+        "options": []
+      },
+      {
+        "questionText": "Turkish towels have a reputation for being highly __________________.",
+        "correctAnswer": "absorbent",
+        "options": []
+      },
+      {
+        "questionText": "When she got to class she was __________________ upset and said she’d been in a car accident.",
+        "correctAnswer": "visibly",
+        "options": []
+      },
+      {
+        "questionText": "For a five-year-old he’s an ______________________ good piano player.",
+        "correctAnswer": "astonishingly",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Match the words with their right collocation.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "Adopt",
+        "options": [
+          { "text": "views/opinions /fear/ anger", "isCorrect": false },
+          { "text": "a policy / a method / an attitude", "isCorrect": true },
+          { "text": "duties / responsibilities / dreams / hopes", "isCorrect": false },
+          { "text": "peace / confidence / order", "isCorrect": false },
+          { "text": "resources / money / time", "isCorrect": false },
+          { "text": "difficulties / changes / problems", "isCorrect": false },
+          { "text": "a prisoner / a book/ an article / gases", "isCorrect": false },
+          { "text": "revenge", "isCorrect": false },
+          { "text": "a new skill / knowledge", "isCorrect": false },
+          { "text": "a difference / a change / a problem", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Anticipate",
+        "options": [
+          { "text": "views/opinions /fear/ anger", "isCorrect": false },
+          { "text": "a policy / a method / an attitude", "isCorrect": false },
+          { "text": "duties / responsibilities / dreams / hopes", "isCorrect": false },
+          { "text": "peace / confidence / order", "isCorrect": false },
+          { "text": "resources / money / time", "isCorrect": false },
+          { "text": "difficulties / changes / problems", "isCorrect": true },
+          { "text": "a prisoner / a book/ an article / gases", "isCorrect": false },
+          { "text": "revenge", "isCorrect": false },
+          { "text": "a new skill / knowledge", "isCorrect": false },
+          { "text": "a difference / a change / a problem", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Fulfill",
+        "options": [
+          { "text": "views/opinions /fear/ anger", "isCorrect": false },
+          { "text": "a policy / a method / an attitude", "isCorrect": false },
+          { "text": "duties / responsibilities / dreams / hopes", "isCorrect": true },
+          { "text": "peace / confidence / order", "isCorrect": false },
+          { "text": "resources / money / time", "isCorrect": false },
+          { "text": "difficulties / changes / problems", "isCorrect": false },
+          { "text": "a prisoner / a book/ an article / gases", "isCorrect": false },
+          { "text": "revenge", "isCorrect": false },
+          { "text": "a new skill / knowledge", "isCorrect": false },
+          { "text": "a difference / a change / a problem", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Detect",
+        "options": [
+          { "text": "views/opinions /fear/ anger", "isCorrect": false },
+          { "text": "a policy / a method / an attitude", "isCorrect": false },
+          { "text": "duties / responsibilities / dreams / hopes", "isCorrect": false },
+          { "text": "peace / confidence / order", "isCorrect": false },
+          { "text": "resources / money / time", "isCorrect": false },
+          { "text": "difficulties / changes / problems", "isCorrect": false },
+          { "text": "a prisoner / a book/ an article / gases", "isCorrect": false },
+          { "text": "revenge", "isCorrect": false },
+          { "text": "a new skill / knowledge", "isCorrect": false },
+          { "text": "a difference / a change / a problem", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Express",
+        "options": [
+          { "text": "views/opinions /fear/ anger", "isCorrect": true },
+          { "text": "a policy / a method / an attitude", "isCorrect": false },
+          { "text": "duties / responsibilities / dreams / hopes", "isCorrect": false },
+          { "text": "peace / confidence / order", "isCorrect": false },
+          { "text": "resources / money / time", "isCorrect": false },
+          { "text": "difficulties / changes / problems", "isCorrect": false },
+          { "text": "a prisoner / a book/ an article / gases", "isCorrect": false },
+          { "text": "revenge", "isCorrect": false },
+          { "text": "a new skill / knowledge", "isCorrect": false },
+          { "text": "a difference / a change / a problem", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Take",
+        "options": [
+          { "text": "views/opinions /fear/ anger", "isCorrect": false },
+          { "text": "a policy / a method / an attitude", "isCorrect": false },
+          { "text": "duties / responsibilities / dreams / hopes", "isCorrect": false },
+          { "text": "peace / confidence / order", "isCorrect": false },
+          { "text": "resources / money / time", "isCorrect": false },
+          { "text": "difficulties / changes / problems", "isCorrect": false },
+          { "text": "a prisoner / a book/ an article / gases", "isCorrect": false },
+          { "text": "revenge", "isCorrect": true },
+          { "text": "a new skill / knowledge", "isCorrect": false },
+          { "text": "a difference / a change / a problem", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Acquire",
+        "options": [
+          { "text": "views/opinions /fear/ anger", "isCorrect": false },
+          { "text": "a policy / a method / an attitude", "isCorrect": false },
+          { "text": "duties / responsibilities / dreams / hopes", "isCorrect": false },
+          { "text": "peace / confidence / order", "isCorrect": false },
+          { "text": "resources / money / time", "isCorrect": false },
+          { "text": "difficulties / changes / problems", "isCorrect": false },
+          { "text": "a prisoner / a book/ an article / gases", "isCorrect": false },
+          { "text": "revenge", "isCorrect": false },
+          { "text": "a new skill / knowledge", "isCorrect": true },
+          { "text": "a difference / a change / a problem", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Release",
+        "options": [
+          { "text": "views/opinions /fear/ anger", "isCorrect": false },
+          { "text": "a policy / a method / an attitude", "isCorrect": false },
+          { "text": "duties / responsibilities / dreams / hopes", "isCorrect": false },
+          { "text": "peace / confidence / order", "isCorrect": false },
+          { "text": "resources / money / time", "isCorrect": false },
+          { "text": "difficulties / changes / problems", "isCorrect": false },
+          { "text": "a prisoner / a book/ an article / gases", "isCorrect": true },
+          { "text": "revenge", "isCorrect": false },
+          { "text": "a new skill / knowledge", "isCorrect": false },
+          { "text": "a difference / a change / a problem", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Allocate",
+        "options": [
+          { "text": "views/opinions /fear/ anger", "isCorrect": false },
+          { "text": "a policy / a method / an attitude", "isCorrect": false },
+          { "text": "duties / responsibilities / dreams / hopes", "isCorrect": false },
+          { "text": "peace / confidence / order", "isCorrect": false },
+          { "text": "resources / money / time", "isCorrect": true },
+          { "text": "difficulties / changes / problems", "isCorrect": false },
+          { "text": "a prisoner / a book/ an article / gases", "isCorrect": false },
+          { "text": "revenge", "isCorrect": false },
+          { "text": "a new skill / knowledge", "isCorrect": false },
+          { "text": "a difference / a change / a problem", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Restore",
+        "options": [
+          { "text": "views/opinions /fear/ anger", "isCorrect": false },
+          { "text": "a policy / a method / an attitude", "isCorrect": false },
+          { "text": "duties / responsibilities / dreams / hopes", "isCorrect": false },
+          { "text": "peace / confidence / order", "isCorrect": true },
+          { "text": "resources / money / time", "isCorrect": false },
+          { "text": "difficulties / changes / problems", "isCorrect": false },
+          { "text": "a prisoner / a book/ an article / gases", "isCorrect": false },
+          { "text": "revenge", "isCorrect": false },
+          { "text": "a new skill / knowledge", "isCorrect": false },
+          { "text": "a difference / a change / a problem", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Use the appropriate collocations above to fill in the gaps. You might need to make some changes.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "She decided to ___________________ of gratitude towards life's challenges. She believes that this will help her deal with hardships more easily.",
+        "correctAnswer": "adopt an attitude",
+        "options": []
+      },
+      {
+        "questionText": "After years of planning, he finally found the perfect opportunity to ______________ on his former business partner. He wants to punish him for the harm he caused for his career.",
+        "correctAnswer": "take revenge",
+        "options": []
+      },
+      {
+        "questionText": "The leaders worked tirelessly to ______________ in the war-torn region. They want to end the conflicts and bring harmony to the region.",
+        "correctAnswer": "restore peace",
+        "options": []
+      },
+      {
+        "questionText": "She wanted to ___________________, so she dedicated hours each day to practicing painting, learning color theory, and trying new materials.",
+        "correctAnswer": "acquire a new skill",
+        "options": []
+      },
+      {
+        "questionText": "With her keen eye for detail, she was able to _________________ in the company's financial statements.",
+        "correctAnswer": "detect a problem",
+        "options": []
+      },
+      {
+        "questionText": "The governor decided to __________________ early due to good behavior.",
+        "correctAnswer": "release a prisoner",
+        "options": []
+      },
+      {
+        "questionText": "Make sure to _________________ for each task on your to-do list. Otherwise, you might not be able to meet the deadline.",
+        "correctAnswer": "allocate time",
+        "options": []
+      },
+      {
+        "questionText": "It's important to _______________ clearly during the debate to communicate your thoughts effectively.",
+        "correctAnswer": "express views/opinions",
+        "options": []
+      },
+      {
+        "questionText": "We need to ____________________ before starting the project to be prepared, so let’s talk to a group that has already done something similar.",
+        "correctAnswer": "anticipate problems / difficulties",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in each blank with the best word. Read the sentences carefully because the words in each set have very similar meanings.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "When the police ____________ asked them a lot of questions after the robbery.",
+        "options": [
+          { "text": "inspector", "isCorrect": false },
+          { "text": "investigator", "isCorrect": false },
+          { "text": "detective", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "The airplane ______________ checked all the mechanical parts before certifying that it was safe to fly.",
+        "options": [
+          { "text": "inspector", "isCorrect": true },
+          { "text": "investigator", "isCorrect": false },
+          { "text": "detective", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The corporation hired a/an ___________________ to find out who was leaking their information.",
+        "options": [
+          { "text": "inspector", "isCorrect": false },
+          { "text": "investigator", "isCorrect": true },
+          { "text": "detective", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The castle’s _______________ was dark, dusty, and full of stray cats.",
+        "options": [
+          { "text": "interior", "isCorrect": true },
+          { "text": "internal", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The company did an _______________ investigation before alerting the police.",
+        "options": [
+          { "text": "interior", "isCorrect": false },
+          { "text": "internal", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "She _____________ opened the unmarked bottle, knowing it might contain poison.",
+        "options": [
+          { "text": "regretfully", "isCorrect": false },
+          { "text": "unwillingly", "isCorrect": false },
+          { "text": "cautiously", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "They _____________ replied that they could not attend the wedding due to a prior commitment.",
+        "options": [
+          { "text": "regretfully", "isCorrect": true },
+          { "text": "unwillingly", "isCorrect": false },
+          { "text": "cautiously", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "He answered the questions ________________, because he knew that his answers would be used against him later.",
+        "options": [
+          { "text": "regretfully", "isCorrect": false },
+          { "text": "unwillingly", "isCorrect": true },
+          { "text": "cautiously", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The ______________ in which the student found himself was not beneficial for his studies.",
+        "options": [
+          { "text": "circumstance", "isCorrect": true },
+          { "text": "incident", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "That _________________ made me wonder if he was really the right man for the job.",
+        "options": [
+          { "text": "circumstance", "isCorrect": false },
+          { "text": "incident", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "After an extensive, worldwide search, they were able to ________________ the stolen painting and return it to the museum.",
+        "options": [
+          { "text": "restore", "isCorrect": false },
+          { "text": "recover", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "The art historian was able to ______________ the painting to its original beauty by using special chemicals and techniques.",
+        "options": [
+          { "text": "restore", "isCorrect": true },
+          { "text": "recover", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the blanks with the appropriate word. There are two extra words.",
+    "type": "word-bank",
+    "items": [
+      {
+        "questionText": "The {1} were so profitable that they became a {2} aspect of the economy.\nThe right to {3} is {4} on the trust between the those in power and the citizens.\nHer {5} on the situation were very {6}. She said exactly what she thought.\nAfter hearing about their new policy, I was not {7} to {8} in the company.\nWe need to {9} a strategy for managing all the different {10} that we buy and trade.\nHello, I’m calling to {11} as to whether there are any {12} appointments this week.\nDespite being {13}, their opinions on the matter still {14}.\nI drove faster as I {15} the {16} to make sure that I had enough speed to make it up the hill.",
+        "options": [
+          [
+            { "text": "founded", "isCorrect": false, "blankIndex": 1 },
+            { "text": "fulfill", "isCorrect": false, "blankIndex": 1 },
+            { "text": "inquire", "isCorrect": false, "blankIndex": 1 },
+            { "text": "currencies", "isCorrect": false, "blankIndex": 1 },
+            { "text": "govern", "isCorrect": false, "blankIndex": 1 },
+            { "text": "crucial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "unbiased", "isCorrect": false, "blankIndex": 1 },
+            { "text": "incline", "isCorrect": false, "blankIndex": 1 },
+            { "text": "inclined", "isCorrect": false, "blankIndex": 1 },
+            { "text": "comments", "isCorrect": false, "blankIndex": 1 },
+            { "text": "exposed", "isCorrect": false, "blankIndex": 1 },
+            { "text": "approached", "isCorrect": false, "blankIndex": 1 },
+            { "text": "available", "isCorrect": false, "blankIndex": 1 },
+            { "text": "exports", "isCorrect": true, "blankIndex": 1 },
+            { "text": "forthcoming", "isCorrect": false, "blankIndex": 1 },
+            { "text": "differed", "isCorrect": false, "blankIndex": 1 },
+            { "text": "formulate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "invest", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "founded", "isCorrect": false, "blankIndex": 2 },
+            { "text": "fulfill", "isCorrect": false, "blankIndex": 2 },
+            { "text": "inquire", "isCorrect": false, "blankIndex": 2 },
+            { "text": "currencies", "isCorrect": false, "blankIndex": 2 },
+            { "text": "govern", "isCorrect": false, "blankIndex": 2 },
+            { "text": "crucial", "isCorrect": true, "blankIndex": 2 },
+            { "text": "unbiased", "isCorrect": false, "blankIndex": 2 },
+            { "text": "incline", "isCorrect": false, "blankIndex": 2 },
+            { "text": "inclined", "isCorrect": false, "blankIndex": 2 },
+            { "text": "comments", "isCorrect": false, "blankIndex": 2 },
+            { "text": "exposed", "isCorrect": false, "blankIndex": 2 },
+            { "text": "approached", "isCorrect": false, "blankIndex": 2 },
+            { "text": "available", "isCorrect": false, "blankIndex": 2 },
+            { "text": "exports", "isCorrect": false, "blankIndex": 2 },
+            { "text": "forthcoming", "isCorrect": false, "blankIndex": 2 },
+            { "text": "differed", "isCorrect": false, "blankIndex": 2 },
+            { "text": "formulate", "isCorrect": false, "blankIndex": 2 },
+            { "text": "invest", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "founded", "isCorrect": false, "blankIndex": 3 },
+            { "text": "fulfill", "isCorrect": false, "blankIndex": 3 },
+            { "text": "inquire", "isCorrect": false, "blankIndex": 3 },
+            { "text": "currencies", "isCorrect": false, "blankIndex": 3 },
+            { "text": "govern", "isCorrect": true, "blankIndex": 3 },
+            { "text": "crucial", "isCorrect": false, "blankIndex": 3 },
+            { "text": "unbiased", "isCorrect": false, "blankIndex": 3 },
+            { "text": "incline", "isCorrect": false, "blankIndex": 3 },
+            { "text": "inclined", "isCorrect": false, "blankIndex": 3 },
+            { "text": "comments", "isCorrect": false, "blankIndex": 3 },
+            { "text": "exposed", "isCorrect": false, "blankIndex": 3 },
+            { "text": "approached", "isCorrect": false, "blankIndex": 3 },
+            { "text": "available", "isCorrect": false, "blankIndex": 3 },
+            { "text": "exports", "isCorrect": false, "blankIndex": 3 },
+            { "text": "forthcoming", "isCorrect": false, "blankIndex": 3 },
+            { "text": "differed", "isCorrect": false, "blankIndex": 3 },
+            { "text": "formulate", "isCorrect": false, "blankIndex": 3 },
+            { "text": "invest", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "founded", "isCorrect": true, "blankIndex": 4 },
+            { "text": "fulfill", "isCorrect": false, "blankIndex": 4 },
+            { "text": "inquire", "isCorrect": false, "blankIndex": 4 },
+            { "text": "currencies", "isCorrect": false, "blankIndex": 4 },
+            { "text": "govern", "isCorrect": false, "blankIndex": 4 },
+            { "text": "crucial", "isCorrect": false, "blankIndex": 4 },
+            { "text": "unbiased", "isCorrect": false, "blankIndex": 4 },
+            { "text": "incline", "isCorrect": false, "blankIndex": 4 },
+            { "text": "inclined", "isCorrect": false, "blankIndex": 4 },
+            { "text": "comments", "isCorrect": false, "blankIndex": 4 },
+            { "text": "exposed", "isCorrect": false, "blankIndex": 4 },
+            { "text": "approached", "isCorrect": false, "blankIndex": 4 },
+            { "text": "available", "isCorrect": false, "blankIndex": 4 },
+            { "text": "exports", "isCorrect": false, "blankIndex": 4 },
+            { "text": "forthcoming", "isCorrect": false, "blankIndex": 4 },
+            { "text": "differed", "isCorrect": false, "blankIndex": 4 },
+            { "text": "formulate", "isCorrect": false, "blankIndex": 4 },
+            { "text": "invest", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "founded", "isCorrect": false, "blankIndex": 5 },
+            { "text": "fulfill", "isCorrect": false, "blankIndex": 5 },
+            { "text": "inquire", "isCorrect": false, "blankIndex": 5 },
+            { "text": "currencies", "isCorrect": false, "blankIndex": 5 },
+            { "text": "govern", "isCorrect": false, "blankIndex": 5 },
+            { "text": "crucial", "isCorrect": false, "blankIndex": 5 },
+            { "text": "unbiased", "isCorrect": false, "blankIndex": 5 },
+            { "text": "incline", "isCorrect": false, "blankIndex": 5 },
+            { "text": "inclined", "isCorrect": false, "blankIndex": 5 },
+            { "text": "comments", "isCorrect": true, "blankIndex": 5 },
+            { "text": "exposed", "isCorrect": false, "blankIndex": 5 },
+            { "text": "approached", "isCorrect": false, "blankIndex": 5 },
+            { "text": "available", "isCorrect": false, "blankIndex": 5 },
+            { "text": "exports", "isCorrect": false, "blankIndex": 5 },
+            { "text": "forthcoming", "isCorrect": false, "blankIndex": 5 },
+            { "text": "differed", "isCorrect": false, "blankIndex": 5 },
+            { "text": "formulate", "isCorrect": false, "blankIndex": 5 },
+            { "text": "invest", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "founded", "isCorrect": false, "blankIndex": 6 },
+            { "text": "fulfill", "isCorrect": false, "blankIndex": 6 },
+            { "text": "inquire", "isCorrect": false, "blankIndex": 6 },
+            { "text": "currencies", "isCorrect": false, "blankIndex": 6 },
+            { "text": "govern", "isCorrect": false, "blankIndex": 6 },
+            { "text": "crucial", "isCorrect": false, "blankIndex": 6 },
+            { "text": "unbiased", "isCorrect": false, "blankIndex": 6 },
+            { "text": "incline", "isCorrect": false, "blankIndex": 6 },
+            { "text": "inclined", "isCorrect": false, "blankIndex": 6 },
+            { "text": "comments", "isCorrect": false, "blankIndex": 6 },
+            { "text": "exposed", "isCorrect": false, "blankIndex": 6 },
+            { "text": "approached", "isCorrect": false, "blankIndex": 6 },
+            { "text": "available", "isCorrect": false, "blankIndex": 6 },
+            { "text": "exports", "isCorrect": false, "blankIndex": 6 },
+            { "text": "forthcoming", "isCorrect": true, "blankIndex": 6 },
+            { "text": "differed", "isCorrect": false, "blankIndex": 6 },
+            { "text": "formulate", "isCorrect": false, "blankIndex": 6 },
+            { "text": "invest", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "founded", "isCorrect": false, "blankIndex": 7 },
+            { "text": "fulfill", "isCorrect": false, "blankIndex": 7 },
+            { "text": "inquire", "isCorrect": false, "blankIndex": 7 },
+            { "text": "currencies", "isCorrect": false, "blankIndex": 7 },
+            { "text": "govern", "isCorrect": false, "blankIndex": 7 },
+            { "text": "crucial", "isCorrect": false, "blankIndex": 7 },
+            { "text": "unbiased", "isCorrect": false, "blankIndex": 7 },
+            { "text": "incline", "isCorrect": false, "blankIndex": 7 },
+            { "text": "inclined", "isCorrect": true, "blankIndex": 7 },
+            { "text": "comments", "isCorrect": false, "blankIndex": 7 },
+            { "text": "exposed", "isCorrect": false, "blankIndex": 7 },
+            { "text": "approached", "isCorrect": false, "blankIndex": 7 },
+            { "text": "available", "isCorrect": false, "blankIndex": 7 },
+            { "text": "exports", "isCorrect": false, "blankIndex": 7 },
+            { "text": "forthcoming", "isCorrect": false, "blankIndex": 7 },
+            { "text": "differed", "isCorrect": false, "blankIndex": 7 },
+            { "text": "formulate", "isCorrect": false, "blankIndex": 7 },
+            { "text": "invest", "isCorrect": false, "blankIndex": 7 }
+          ],
+          [
+            { "text": "founded", "isCorrect": false, "blankIndex": 8 },
+            { "text": "fulfill", "isCorrect": false, "blankIndex": 8 },
+            { "text": "inquire", "isCorrect": false, "blankIndex": 8 },
+            { "text": "currencies", "isCorrect": false, "blankIndex": 8 },
+            { "text": "govern", "isCorrect": false, "blankIndex": 8 },
+            { "text": "crucial", "isCorrect": false, "blankIndex": 8 },
+            { "text": "unbiased", "isCorrect": false, "blankIndex": 8 },
+            { "text": "incline", "isCorrect": false, "blankIndex": 8 },
+            { "text": "inclined", "isCorrect": false, "blankIndex": 8 },
+            { "text": "comments", "isCorrect": false, "blankIndex": 8 },
+            { "text": "exposed", "isCorrect": false, "blankIndex": 8 },
+            { "text": "approached", "isCorrect": false, "blankIndex": 8 },
+            { "text": "available", "isCorrect": false, "blankIndex": 8 },
+            { "text": "exports", "isCorrect": false, "blankIndex": 8 },
+            { "text": "forthcoming", "isCorrect": false, "blankIndex": 8 },
+            { "text": "differed", "isCorrect": false, "blankIndex": 8 },
+            { "text": "formulate", "isCorrect": false, "blankIndex": 8 },
+            { "text": "invest", "isCorrect": true, "blankIndex": 8 }
+          ],
+          [
+            { "text": "founded", "isCorrect": false, "blankIndex": 9 },
+            { "text": "fulfill", "isCorrect": false, "blankIndex": 9 },
+            { "text": "inquire", "isCorrect": false, "blankIndex": 9 },
+            { "text": "currencies", "isCorrect": false, "blankIndex": 9 },
+            { "text": "govern", "isCorrect": false, "blankIndex": 9 },
+            { "text": "crucial", "isCorrect": false, "blankIndex": 9 },
+            { "text": "unbiased", "isCorrect": false, "blankIndex": 9 },
+            { "text": "incline", "isCorrect": false, "blankIndex": 9 },
+            { "text": "inclined", "isCorrect": false, "blankIndex": 9 },
+            { "text": "comments", "isCorrect": false, "blankIndex": 9 },
+            { "text": "exposed", "isCorrect": false, "blankIndex": 9 },
+            { "text": "approached", "isCorrect": false, "blankIndex": 9 },
+            { "text": "available", "isCorrect": false, "blankIndex": 9 },
+            { "text": "exports", "isCorrect": false, "blankIndex": 9 },
+            { "text": "forthcoming", "isCorrect": false, "blankIndex": 9 },
+            { "text": "differed", "isCorrect": false, "blankIndex": 9 },
+            { "text": "formulate", "isCorrect": true, "blankIndex": 9 },
+            { "text": "invest", "isCorrect": false, "blankIndex": 9 }
+          ],
+          [
+            { "text": "founded", "isCorrect": false, "blankIndex": 10 },
+            { "text": "fulfill", "isCorrect": false, "blankIndex": 10 },
+            { "text": "inquire", "isCorrect": false, "blankIndex": 10 },
+            { "text": "currencies", "isCorrect": true, "blankIndex": 10 },
+            { "text": "govern", "isCorrect": false, "blankIndex": 10 },
+            { "text": "crucial", "isCorrect": false, "blankIndex": 10 },
+            { "text": "unbiased", "isCorrect": false, "blankIndex": 10 },
+            { "text": "incline", "isCorrect": false, "blankIndex": 10 },
+            { "text": "inclined", "isCorrect": false, "blankIndex": 10 },
+            { "text": "comments", "isCorrect": false, "blankIndex": 10 },
+            { "text": "exposed", "isCorrect": false, "blankIndex": 10 },
+            { "text": "approached", "isCorrect": false, "blankIndex": 10 },
+            { "text": "available", "isCorrect": false, "blankIndex": 10 },
+            { "text": "exports", "isCorrect": false, "blankIndex": 10 },
+            { "text": "forthcoming", "isCorrect": false, "blankIndex": 10 },
+            { "text": "differed", "isCorrect": false, "blankIndex": 10 },
+            { "text": "formulate", "isCorrect": false, "blankIndex": 10 },
+            { "text": "invest", "isCorrect": false, "blankIndex": 10 }
+          ],
+          [
+            { "text": "founded", "isCorrect": false, "blankIndex": 11 },
+            { "text": "fulfill", "isCorrect": false, "blankIndex": 11 },
+            { "text": "inquire", "isCorrect": true, "blankIndex": 11 },
+            { "text": "currencies", "isCorrect": false, "blankIndex": 11 },
+            { "text": "govern", "isCorrect": false, "blankIndex": 11 },
+            { "text": "crucial", "isCorrect": false, "blankIndex": 11 },
+            { "text": "unbiased", "isCorrect": false, "blankIndex": 11 },
+            { "text": "incline", "isCorrect": false, "blankIndex": 11 },
+            { "text": "inclined", "isCorrect": false, "blankIndex": 11 },
+            { "text": "comments", "isCorrect": false, "blankIndex": 11 },
+            { "text": "exposed", "isCorrect": false, "blankIndex": 11 },
+            { "text": "approached", "isCorrect": false, "blankIndex": 11 },
+            { "text": "available", "isCorrect": false, "blankIndex": 11 },
+            { "text": "exports", "isCorrect": false, "blankIndex": 11 },
+            { "text": "forthcoming", "isCorrect": false, "blankIndex": 11 },
+            { "text": "differed", "isCorrect": false, "blankIndex": 11 },
+            { "text": "formulate", "isCorrect": false, "blankIndex": 11 },
+            { "text": "invest", "isCorrect": false, "blankIndex": 11 }
+          ],
+          [
+            { "text": "founded", "isCorrect": false, "blankIndex": 12 },
+            { "text": "fulfill", "isCorrect": false, "blankIndex": 12 },
+            { "text": "inquire", "isCorrect": false, "blankIndex": 12 },
+            { "text": "currencies", "isCorrect": false, "blankIndex": 12 },
+            { "text": "govern", "isCorrect": false, "blankIndex": 12 },
+            { "text": "crucial", "isCorrect": false, "blankIndex": 12 },
+            { "text": "unbiased", "isCorrect": false, "blankIndex": 12 },
+            { "text": "incline", "isCorrect": false, "blankIndex": 12 },
+            { "text": "inclined", "isCorrect": false, "blankIndex": 12 },
+            { "text": "comments", "isCorrect": false, "blankIndex": 12 },
+            { "text": "exposed", "isCorrect": false, "blankIndex": 12 },
+            { "text": "approached", "isCorrect": false, "blankIndex": 12 },
+            { "text": "available", "isCorrect": true, "blankIndex": 12 },
+            { "text": "exports", "isCorrect": false, "blankIndex": 12 },
+            { "text": "forthcoming", "isCorrect": false, "blankIndex": 12 },
+            { "text": "differed", "isCorrect": false, "blankIndex": 12 },
+            { "text": "formulate", "isCorrect": false, "blankIndex": 12 },
+            { "text": "invest", "isCorrect": false, "blankIndex": 12 }
+          ],
+          [
+            { "text": "founded", "isCorrect": false, "blankIndex": 13 },
+            { "text": "fulfill", "isCorrect": false, "blankIndex": 13 },
+            { "text": "inquire", "isCorrect": false, "blankIndex": 13 },
+            { "text": "currencies", "isCorrect": false, "blankIndex": 13 },
+            { "text": "govern", "isCorrect": false, "blankIndex": 13 },
+            { "text": "crucial", "isCorrect": false, "blankIndex": 13 },
+            { "text": "unbiased", "isCorrect": true, "blankIndex": 13 },
+            { "text": "incline", "isCorrect": false, "blankIndex": 13 },
+            { "text": "inclined", "isCorrect": false, "blankIndex": 13 },
+            { "text": "comments", "isCorrect": false, "blankIndex": 13 },
+            { "text": "exposed", "isCorrect": false, "blankIndex": 13 },
+            { "text": "approached", "isCorrect": false, "blankIndex": 13 },
+            { "text": "available", "isCorrect": false, "blankIndex": 13 },
+            { "text": "exports", "isCorrect": false, "blankIndex": 13 },
+            { "text": "forthcoming", "isCorrect": false, "blankIndex": 13 },
+            { "text": "differed", "isCorrect": false, "blankIndex": 13 },
+            { "text": "formulate", "isCorrect": false, "blankIndex": 13 },
+            { "text": "invest", "isCorrect": false, "blankIndex": 13 }
+          ],
+          [
+            { "text": "founded", "isCorrect": false, "blankIndex": 14 },
+            { "text": "fulfill", "isCorrect": false, "blankIndex": 14 },
+            { "text": "inquire", "isCorrect": false, "blankIndex": 14 },
+            { "text": "currencies", "isCorrect": false, "blankIndex": 14 },
+            { "text": "govern", "isCorrect": false, "blankIndex": 14 },
+            { "text": "crucial", "isCorrect": false, "blankIndex": 14 },
+            { "text": "unbiased", "isCorrect": false, "blankIndex": 14 },
+            { "text": "incline", "isCorrect": false, "blankIndex": 14 },
+            { "text": "inclined", "isCorrect": false, "blankIndex": 14 },
+            { "text": "comments", "isCorrect": false, "blankIndex": 14 },
+            { "text": "exposed", "isCorrect": false, "blankIndex": 14 },
+            { "text": "approached", "isCorrect": false, "blankIndex": 14 },
+            { "text": "available", "isCorrect": false, "blankIndex": 14 },
+            { "text": "exports", "isCorrect": false, "blankIndex": 14 },
+            { "text": "forthcoming", "isCorrect": false, "blankIndex": 14 },
+            { "text": "differed", "isCorrect": true, "blankIndex": 14 },
+            { "text": "formulate", "isCorrect": false, "blankIndex": 14 },
+            { "text": "invest", "isCorrect": false, "blankIndex": 14 }
+          ],
+          [
+            { "text": "founded", "isCorrect": false, "blankIndex": 15 },
+            { "text": "fulfill", "isCorrect": false, "blankIndex": 15 },
+            { "text": "inquire", "isCorrect": false, "blankIndex": 15 },
+            { "text": "currencies", "isCorrect": false, "blankIndex": 15 },
+            { "text": "govern", "isCorrect": false, "blankIndex": 15 },
+            { "text": "crucial", "isCorrect": false, "blankIndex": 15 },
+            { "text": "unbiased", "isCorrect": false, "blankIndex": 15 },
+            { "text": "incline", "isCorrect": false, "blankIndex": 15 },
+            { "text": "inclined", "isCorrect": false, "blankIndex": 15 },
+            { "text": "comments", "isCorrect": false, "blankIndex": 15 },
+            { "text": "exposed", "isCorrect": false, "blankIndex": 15 },
+            { "text": "approached", "isCorrect": true, "blankIndex": 15 },
+            { "text": "available", "isCorrect": false, "blankIndex": 15 },
+            { "text": "exports", "isCorrect": false, "blankIndex": 15 },
+            { "text": "forthcoming", "isCorrect": false, "blankIndex": 15 },
+            { "text": "differed", "isCorrect": false, "blankIndex": 15 },
+            { "text": "formulate", "isCorrect": false, "blankIndex": 15 },
+            { "text": "invest", "isCorrect": false, "blankIndex": 15 }
+          ],
+          [
+            { "text": "founded", "isCorrect": false, "blankIndex": 16 },
+            { "text": "fulfill", "isCorrect": false, "blankIndex": 16 },
+            { "text": "inquire", "isCorrect": false, "blankIndex": 16 },
+            { "text": "currencies", "isCorrect": false, "blankIndex": 16 },
+            { "text": "govern", "isCorrect": false, "blankIndex": 16 },
+            { "text": "crucial", "isCorrect": false, "blankIndex": 16 },
+            { "text": "unbiased", "isCorrect": false, "blankIndex": 16 },
+            { "text": "incline", "isCorrect": true, "blankIndex": 16 },
+            { "text": "inclined", "isCorrect": false, "blankIndex": 16 },
+            { "text": "comments", "isCorrect": false, "blankIndex": 16 },
+            { "text": "exposed", "isCorrect": false, "blankIndex": 16 },
+            { "text": "approached", "isCorrect": false, "blankIndex": 16 },
+            { "text": "available", "isCorrect": false, "blankIndex": 16 },
+            { "text": "exports", "isCorrect": false, "blankIndex": 16 },
+            { "text": "forthcoming", "isCorrect": false, "blankIndex": 16 },
+            { "text": "differed", "isCorrect": false, "blankIndex": 16 },
+            { "text": "formulate", "isCorrect": false, "blankIndex": 16 },
+            { "text": "invest", "isCorrect": false, "blankIndex": 16 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Discuss these questions in pairs or in groups or answer the question in writing using at least a complete sentence.",
+    "type": "open-ended",
+    "items": [
+      {
+        "questionText": "How does your academic life at Bilkent differ from your academic life in high school in terms of challenges and rewards?",
+        "options": []
+      },
+      {
+        "questionText": "Have you ever felt insecure about your abilities or appearance? How did you overcome it?",
+        "options": []
+      },
+      {
+        "questionText": "Why is it crucial to expose children to different cultures and perspectives at a young age?",
+        "options": []
+      },
+      {
+        "questionText": "Can you comment on the struggle for human rights in today's society?",
+        "options": []
+      },
+      {
+        "questionText": "What circumstances can lead to dissatisfaction in one's personal or professional life?",
+        "options": []
+      },
+      {
+        "questionText": "How important is it for individuals to inherit values and traditions from their family?",
+        "options": []
+      },
+      {
+        "questionText": "Have you ever experienced a delay in achieving a goal, and how did you handle the situation?",
+        "options": []
+      },
+      {
+        "questionText": "What strategies do you use for recovery after experiencing a health problem or injury?",
+        "options": []
+      },
+      {
+        "questionText": "Can you discuss a recent controversy in the media and explain your perspective on it?",
+        "options": []
+      }
+    ]
+  }
+]

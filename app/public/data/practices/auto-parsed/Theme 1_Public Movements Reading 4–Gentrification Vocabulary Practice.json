@@ -1,0 +1,237 @@
+[
+  {
+    "instruction": "PART 1: Choose the word that matches the given dictionary definition by choosing A, B, C, D or E.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "to enter an area forcefully or without permission.",
+        "options": [
+          { "text": "Construct", "isCorrect": false },
+          { "text": "Reside", "isCorrect": false },
+          { "text": "Invade", "isCorrect": true },
+          { "text": "Apply", "isCorrect": false },
+          { "text": "Interfere", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "something that happens or exists in society, science, or nature",
+        "options": [
+          { "text": "Component", "isCorrect": false },
+          { "text": "Composition", "isCorrect": false },
+          { "text": "Impression", "isCorrect": false },
+          { "text": "Phenomenon", "isCorrect": true },
+          { "text": "Scale", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "done or made in the traditional or original way",
+        "options": [
+          { "text": "Authentic", "isCorrect": true },
+          { "text": "Typical", "isCorrect": false },
+          { "text": "Occupied", "isCorrect": false },
+          { "text": "Terminal", "isCorrect": false },
+          { "text": "Intensive", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "previously having a particular status, position, or role.",
+        "options": [
+          { "text": "Consequently", "isCorrect": false },
+          { "text": "Globally", "isCorrect": false },
+          { "text": "Formerly", "isCorrect": true },
+          { "text": "Oddly", "isCorrect": false },
+          { "text": "Strategically", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "relating to the countryside or areas outside of cities",
+        "options": [
+          { "text": "State", "isCorrect": false },
+          { "text": "Union", "isCorrect": false },
+          { "text": "Domestic", "isCorrect": false },
+          { "text": "Rural", "isCorrect": true },
+          { "text": "Overseas", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "a situation that is unusual or amusing because something strange happens, or the opposite of what is expected happens or is true",
+        "options": [
+          { "text": "Adverse", "isCorrect": false },
+          { "text": "Ironic", "isCorrect": true },
+          { "text": "Relevant", "isCorrect": false },
+          { "text": "Humorous", "isCorrect": false },
+          { "text": "Selective", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "very large, solid, heavy",
+        "options": [
+          { "text": "Tender", "isCorrect": false },
+          { "text": "Massive", "isCorrect": true },
+          { "text": "Valid", "isCorrect": false },
+          { "text": "Diverse", "isCorrect": false },
+          { "text": "Typical", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "a process of testing to find out whether something works effectively and is safe",
+        "options": [
+          { "text": "Suburban", "isCorrect": false },
+          { "text": "Pace", "isCorrect": false },
+          { "text": "Hint", "isCorrect": false },
+          { "text": "Trial", "isCorrect": true },
+          { "text": "Sake", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Part 2: Fill in the blanks choosing a word from the box. DO NOT change the word form. Use each word ONCE only. There are more words than you need.\nWord Bank: debated, unsuitable, wise, phenomenon, middle class, component, frustrating, real estate, nationwide, figure",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "The concept of gentrification is associated with so many other words these days — “graffiti,” “rock music,” “font,” “thrifting” — that it bears little similarity to its original definition. In 1964, sociologist Ruth Glass coined the term “gentrification”. As Steven Thomson explained for Curbed, the American {1} and urban design website, Glass was describing a “class {2} … by adapting the British-ism ‘gentry’” to describe the process of “{3} liberal arts intellectuals” moving into her primarily working-class London neighborhood.\n\nThe term flew across the Atlantic and made its home in the United States, where similar trends would begin to be {4} over the last few decades of the 20th century. Google Books data shows the term “gentrification” didn’t really take off in the US until the late ’90s and has been steadily growing in use, ever since.\n\nThere isn’t an agreed-upon empirical definition of gentrification among scholars, which makes it difficult, even {5} to talk about it with any certainty. But talk we do: From Indianapolis to Austin, on a presidential debate stage and on a panel on bike lanes, and of course, on Twitter. Any time we talk about housing, the g-word inevitably pops up.",
+        "options": [
+          [
+            { "text": "debated", "isCorrect": false, "blankIndex": 1 },
+            { "text": "unsuitable", "isCorrect": false, "blankIndex": 1 },
+            { "text": "wise", "isCorrect": false, "blankIndex": 1 },
+            { "text": "phenomenon", "isCorrect": false, "blankIndex": 1 },
+            { "text": "middle class", "isCorrect": false, "blankIndex": 1 },
+            { "text": "component", "isCorrect": false, "blankIndex": 1 },
+            { "text": "frustrating", "isCorrect": false, "blankIndex": 1 },
+            { "text": "real estate", "isCorrect": true, "blankIndex": 1 },
+            { "text": "nationwide", "isCorrect": false, "blankIndex": 1 },
+            { "text": "figure", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "debated", "isCorrect": false, "blankIndex": 2 },
+            { "text": "unsuitable", "isCorrect": false, "blankIndex": 2 },
+            { "text": "wise", "isCorrect": false, "blankIndex": 2 },
+            { "text": "phenomenon", "isCorrect": true, "blankIndex": 2 },
+            { "text": "middle class", "isCorrect": false, "blankIndex": 2 },
+            { "text": "component", "isCorrect": false, "blankIndex": 2 },
+            { "text": "frustrating", "isCorrect": false, "blankIndex": 2 },
+            { "text": "real estate", "isCorrect": false, "blankIndex": 2 },
+            { "text": "nationwide", "isCorrect": false, "blankIndex": 2 },
+            { "text": "figure", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "debated", "isCorrect": false, "blankIndex": 3 },
+            { "text": "unsuitable", "isCorrect": false, "blankIndex": 3 },
+            { "text": "wise", "isCorrect": false, "blankIndex": 3 },
+            { "text": "phenomenon", "isCorrect": false, "blankIndex": 3 },
+            { "text": "middle class", "isCorrect": true, "blankIndex": 3 },
+            { "text": "component", "isCorrect": false, "blankIndex": 3 },
+            { "text": "frustrating", "isCorrect": false, "blankIndex": 3 },
+            { "text": "real estate", "isCorrect": false, "blankIndex": 3 },
+            { "text": "nationwide", "isCorrect": false, "blankIndex": 3 },
+            { "text": "figure", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "debated", "isCorrect": true, "blankIndex": 4 },
+            { "text": "unsuitable", "isCorrect": false, "blankIndex": 4 },
+            { "text": "wise", "isCorrect": false, "blankIndex": 4 },
+            { "text": "phenomenon", "isCorrect": false, "blankIndex": 4 },
+            { "text": "middle class", "isCorrect": false, "blankIndex": 4 },
+            { "text": "component", "isCorrect": false, "blankIndex": 4 },
+            { "text": "frustrating", "isCorrect": false, "blankIndex": 4 },
+            { "text": "real estate", "isCorrect": false, "blankIndex": 4 },
+            { "text": "nationwide", "isCorrect": false, "blankIndex": 4 },
+            { "text": "figure", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "debated", "isCorrect": false, "blankIndex": 5 },
+            { "text": "unsuitable", "isCorrect": false, "blankIndex": 5 },
+            { "text": "wise", "isCorrect": false, "blankIndex": 5 },
+            { "text": "phenomenon", "isCorrect": false, "blankIndex": 5 },
+            { "text": "middle class", "isCorrect": false, "blankIndex": 5 },
+            { "text": "component", "isCorrect": false, "blankIndex": 5 },
+            { "text": "frustrating", "isCorrect": true, "blankIndex": 5 },
+            { "text": "real estate", "isCorrect": false, "blankIndex": 5 },
+            { "text": "nationwide", "isCorrect": false, "blankIndex": 5 },
+            { "text": "figure", "isCorrect": false, "blankIndex": 5 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 3: Fill in the blanks in the text below by choosing A, B, C, D or E.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Gentrification is a phenomenon that happens when people with more money move into a neighborhood. They buy real-estate and make it nicer. This can be good for the area, but it can also be {1} for some people. The reason why it can create disappointment is long-time occupiers might have to move because they can no longer afford to live there. In addition to its effects on the residents, some say that it can {2} the community spirit. Friendliness and understanding among local people might be lost forever. Despite its negative effects, not everyone regards it as something negative. People’s views on gentrification {3} greatly. Some think it makes neighborhoods safer and more attractive while others feel it pushes out people who have lived there for years. They are left feeling like they need to {4} their homes and find another place to live. When newcomers reside in a new neighborhood, they {5} their own styles and customs to their new homes. While this can bring fresh appeal, it does not always align with the existing community. To understand how to handle gentrification fairly, city planners need to listen to everyone that are involved.",
+        "options": [
+          [
+            { "text": "desperate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "unforgettable", "isCorrect": false, "blankIndex": 1 },
+            { "text": "insulting", "isCorrect": false, "blankIndex": 1 },
+            { "text": "spoiled", "isCorrect": false, "blankIndex": 1 },
+            { "text": "frustrating", "isCorrect": true, "blankIndex": 1 }
+          ],
+          [
+            { "text": "descend", "isCorrect": false, "blankIndex": 2 },
+            { "text": "ruin", "isCorrect": true, "blankIndex": 2 },
+            { "text": "enhance", "isCorrect": false, "blankIndex": 2 },
+            { "text": "activate", "isCorrect": false, "blankIndex": 2 },
+            { "text": "interfere", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "evaluate", "isCorrect": false, "blankIndex": 3 },
+            { "text": "adjust", "isCorrect": false, "blankIndex": 3 },
+            { "text": "progress", "isCorrect": false, "blankIndex": 3 },
+            { "text": "construct", "isCorrect": false, "blankIndex": 3 },
+            { "text": "differ", "isCorrect": true, "blankIndex": 3 }
+          ],
+          [
+            { "text": "obtain", "isCorrect": false, "blankIndex": 4 },
+            { "text": "spare", "isCorrect": false, "blankIndex": 4 },
+            { "text": "abandon", "isCorrect": true, "blankIndex": 4 },
+            { "text": "demonstrate", "isCorrect": false, "blankIndex": 4 },
+            { "text": "grant", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "sacrifice", "isCorrect": false, "blankIndex": 5 },
+            { "text": "anticipate", "isCorrect": false, "blankIndex": 5 },
+            { "text": "examine", "isCorrect": false, "blankIndex": 5 },
+            { "text": "apply", "isCorrect": true, "blankIndex": 5 },
+            { "text": "object", "isCorrect": false, "blankIndex": 5 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 4: Fill in the gaps with the appropriate word form.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "Gentrification is a phenomenon that can be observed especially in big cities like New York. It tries to improve neighborhoods but often makes it harder for the original {1} [RESIDE] to stay. When new people move in, they simply change the area in ways that {2} [MASS] groups of long-time residents didn't expect. In New York, the {3} [RELY] on the neighborhood culture is very strong. People rarely want to move out and they tend to stay for many years. But when new {4} [OCCUPY] come, the rent often goes up. Higher rent means that the old residents can no longer afford to live there. It's a kind of {5} [DENY] of the past community and its values. Some people think this change is good because it makes neighborhoods safer and cleaner. However, others miss the way it used to be. This tension between improvement and loss is a big part of what {6} [SOCIOLOGY] examine when they look at gentrification. {7} [IRONIC], even though it aims to make things better, it often pushes out the very people who made the neighborhood special in the first place.",
+        "options": [
+          [
+            { "text": "residents", "isCorrect": true, "blankIndex": 1 }
+          ],
+          [
+            { "text": "massive", "isCorrect": true, "blankIndex": 2 }
+          ],
+          [
+            { "text": "reliance", "isCorrect": true, "blankIndex": 3 }
+          ],
+          [
+            { "text": "occupants", "isCorrect": true, "blankIndex": 4 }
+          ],
+          [
+            { "text": "denial", "isCorrect": true, "blankIndex": 5 }
+          ],
+          [
+            { "text": "sociologists", "isCorrect": true, "blankIndex": 6 }
+          ],
+          [
+            { "text": "ironically", "isCorrect": true, "blankIndex": 7 }
+          ]
+        ]
+      }
+    ]
+  }
+]

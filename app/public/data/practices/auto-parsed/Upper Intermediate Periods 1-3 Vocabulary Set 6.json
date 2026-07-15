@@ -1,0 +1,206 @@
+[
+  {
+    "instruction": "Monday Vocabulary",
+    "type": "word-bank",
+    "items": [
+      {
+        "questionText": "Fund (v, n)"
+      },
+      {
+        "questionText": "Occasional"
+      },
+      {
+        "questionText": "Extremely"
+      },
+      {
+        "questionText": "Fatigue"
+      },
+      {
+        "questionText": "Inadequate"
+      },
+      {
+        "questionText": "Balanced"
+      },
+      {
+        "questionText": "Occur"
+      },
+      {
+        "questionText": "Revolution"
+      },
+      {
+        "questionText": "Evidence"
+      },
+      {
+        "questionText": "Duty"
+      },
+      {
+        "questionText": "Wound (n, v)"
+      }
+    ]
+  },
+  {
+    "instruction": "Tuesday Vocabulary",
+    "type": "word-bank",
+    "items": [
+      {
+        "questionText": "Source"
+      },
+      {
+        "questionText": "Construction"
+      },
+      {
+        "questionText": "Chase"
+      },
+      {
+        "questionText": "Guilt"
+      },
+      {
+        "questionText": "Drought"
+      },
+      {
+        "questionText": "Remedy"
+      },
+      {
+        "questionText": "Furthermore"
+      },
+      {
+        "questionText": "Dilemma"
+      },
+      {
+        "questionText": "Congratulations"
+      },
+      {
+        "questionText": "Diet"
+      },
+      {
+        "questionText": "Approximately"
+      },
+      {
+        "questionText": "Promote"
+      }
+    ]
+  },
+  {
+    "instruction": "Wednesday Vocabulary",
+    "type": "word-bank",
+    "items": [
+      {
+        "questionText": "Originate"
+      },
+      {
+        "questionText": "Primary"
+      },
+      {
+        "questionText": "Remarkable"
+      },
+      {
+        "questionText": "Subjective"
+      },
+      {
+        "questionText": "Permit"
+      },
+      {
+        "questionText": "Justification"
+      },
+      {
+        "questionText": "Resistance"
+      },
+      {
+        "questionText": "Hesitation"
+      },
+      {
+        "questionText": "Evolution"
+      },
+      {
+        "questionText": "Discomfort"
+      },
+      {
+        "questionText": "Starve"
+      },
+      {
+        "questionText": "Withdraw"
+      }
+    ]
+  },
+  {
+    "instruction": "Thursday Vocabulary",
+    "type": "word-bank",
+    "items": [
+      {
+        "questionText": "Resistant"
+      },
+      {
+        "questionText": "Ultimate"
+      },
+      {
+        "questionText": "Gear"
+      },
+      {
+        "questionText": "Decay"
+      },
+      {
+        "questionText": "Grateful"
+      },
+      {
+        "questionText": "Campaign"
+      },
+      {
+        "questionText": "Debate"
+      },
+      {
+        "questionText": "Wealthy"
+      },
+      {
+        "questionText": "Economically"
+      },
+      {
+        "questionText": "Technique"
+      },
+      {
+        "questionText": "Cruel"
+      }
+    ]
+  },
+  {
+    "instruction": "Friday Vocabulary",
+    "type": "word-bank",
+    "items": [
+      {
+        "questionText": "Client"
+      },
+      {
+        "questionText": "Unsteady"
+      },
+      {
+        "questionText": "Celebrate"
+      },
+      {
+        "questionText": "Degrade"
+      },
+      {
+        "questionText": "Confess"
+      },
+      {
+        "questionText": "Faith"
+      },
+      {
+        "questionText": "Democracy"
+      },
+      {
+        "questionText": "Rough"
+      },
+      {
+        "questionText": "Insure"
+      },
+      {
+        "questionText": "Conference"
+      },
+      {
+        "questionText": "Judge (v, n)"
+      },
+      {
+        "questionText": "Result"
+      }
+    ]
+  }
+]

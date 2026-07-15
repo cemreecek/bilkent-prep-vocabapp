@@ -1,0 +1,179 @@
+[
+  {
+    "instruction": "Fill in the blanks with an appropriate word from the box below. There are more words than you need.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "The goal of propaganda is to (1)______ to people's emotions and biases rather than providing objective information.",
+        "correctAnswer": "Appeal"
+      },
+      {
+        "questionText": "Messages about love for one’s country or wanting to be seen as a (2)______ can influence public opinion.",
+        "correctAnswer": "Patriot"
+      },
+      {
+        "questionText": "However, it is important to tell the difference between genuine love for one’s country and propaganda that promotes a (3)______ approach, which can cause discrimination based on ethnicity or skin color.",
+        "correctAnswer": "Racist"
+      },
+      {
+        "questionText": "Messages that target specific ethnic or racial groups in an insulting way are (4)______.",
+        "correctAnswer": "Offensive"
+      },
+      {
+        "questionText": "For example, a propaganda campaign may try to portray an opponent as intellectually (5)______ by spreading false information and use manipulated quotes in order to destroy his positive image in public.",
+        "correctAnswer": "Inferior"
+      },
+      {
+        "questionText": "Some propaganda (6)______ are also designed to gain support for a cause.",
+        "correctAnswer": "Campaigns"
+      },
+      {
+        "questionText": "By encouraging individuals to (7)______ their resources—time, money, or effort—propaganda tries to create a sense of involvement and commitment among its audience.",
+        "correctAnswer": "Donate"
+      },
+      {
+        "questionText": "For instance, a propaganda campaign which promotes environmental conservation may encourage people to support organizations protecting natural habitats, (8)______ more sustainable practices, or advocate for eco-friendly policies.",
+        "correctAnswer": "Pursue"
+      },
+      {
+        "questionText": "Propaganda can sometimes (9)______ the need for revenge or justice, appealing to those who feel wronged.",
+        "correctAnswer": "Fulfill"
+      },
+      {
+        "questionText": "Additionally, (10)______ propaganda efforts in the future might focus on new issues, in order to encourage people to (11)______ more about specific topics so that public opinion may be formed.",
+        "correctAnswer": "forthcoming"
+      },
+      {
+        "questionText": "Additionally, (10)______ propaganda efforts in the future might focus on new issues, in order to encourage people to (11)______ more about specific topics so that public opinion may be formed.",
+        "correctAnswer": "inquire"
+      }
+    ]
+  },
+  {
+    "instruction": "Read the text and choose the correct option to complete each gap. The words are from Theme 1 and Theme 2.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "In today's digital age there is an overwhelming amount of information about every topic readily available online. Due to the vast amount of information, students {1} to distinguish between legitimate and suspicious sources. Students need to {2} the information they encounter online, even regarding comics superheroes, by asking a basic question: Where did this document or this picture that I'm looking at come from? For the development of critical thinking skills, it is {3} that students learn to analyze the reliable supporting evidence and the information when evaluating online sources.\n\nA group of researchers has been showing groups of students pictures and have given them a task to find out if students will ask the question “Where did this document or this picture that I'm looking at come from?” when they see claims about their favorite superheroes or a vivid photograph.\n\nStudents are shown a picture of daisies along with the claim that the flowers have “nuclear birth defects” from Japan’s Fukushima Daiichi nuclear disaster. The claim is that there are significant changes in the flowers’ physical appearance, such as altered growth patterns, distorted petals, or other visible deformities caused by the effects of {4} to nuclear radiation. Although the image is convincing, successful students {5} the image as true and argue that the photograph does not provide strong evidence about conditions near the nuclear power plant. Students may question the source of the post, arguing that we know nothing about the person who posted this photo (especially since it appears on a site where anyone can upload a photo).\n\nAlternatively, students may point out that the post provides no proof that the picture was taken near the power plant or that the {6} of nuclear radiation caused the daisies’ unusual look. Students may also claim that it cannot be said that the cause of the daisies' unusual {7} is caused by the nuclear radiation. Various drafts of this task were piloted with 454 high school students. The final version was given to 170 high school students. In general, students across grade levels were captivated by the photograph and relied on it to evaluate the trustworthiness of the post. They ignored key details, such as the source of the photo. Less than 20% of students constructed \"Mastery\" responses, or responses that questioned the origin of the post or the source of the photo. On the other hand, nearly 40% of students argued that the post provided proof because it presented a(n) {8} as evidence about conditions near the power plant. However, a quarter of the students {9} this opinion and argued that the post did not provide strong evidence, but only because it showed flowers and not other {10} plants or animals that may have been affected by the nuclear radiation.",
+        "options": [
+          [
+            { "text": "A clarify", "isCorrect": false, "blankIndex": 1 },
+            { "text": "B struggle", "isCorrect": true, "blankIndex": 1 },
+            { "text": "C differ", "isCorrect": false, "blankIndex": 1 },
+            { "text": "D expect", "isCorrect": false, "blankIndex": 1 },
+            { "text": "E classify", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "A approach", "isCorrect": true, "blankIndex": 2 },
+            { "text": "B anticipate", "isCorrect": false, "blankIndex": 2 },
+            { "text": "C track", "isCorrect": false, "blankIndex": 2 },
+            { "text": "D complete", "isCorrect": false, "blankIndex": 2 },
+            { "text": "E release", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "A strange", "isCorrect": false, "blankIndex": 3 },
+            { "text": "B casual", "isCorrect": false, "blankIndex": 3 },
+            { "text": "C suitable", "isCorrect": false, "blankIndex": 3 },
+            { "text": "D crucial", "isCorrect": true, "blankIndex": 3 },
+            { "text": "E rational", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "A exposure", "isCorrect": true, "blankIndex": 4 },
+            { "text": "B dissatisfaction", "isCorrect": false, "blankIndex": 4 },
+            { "text": "C capacity", "isCorrect": false, "blankIndex": 4 },
+            { "text": "D skepticism", "isCorrect": false, "blankIndex": 4 },
+            { "text": "E approach", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "A appreciate", "isCorrect": false, "blankIndex": 5 },
+            { "text": "B appeal", "isCorrect": false, "blankIndex": 5 },
+            { "text": "C reject", "isCorrect": true, "blankIndex": 5 },
+            { "text": "D encounter", "isCorrect": false, "blankIndex": 5 },
+            { "text": "E evaluate", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "A presence", "isCorrect": true, "blankIndex": 6 },
+            { "text": "B origin", "isCorrect": false, "blankIndex": 6 },
+            { "text": "C fault", "isCorrect": false, "blankIndex": 6 },
+            { "text": "D position", "isCorrect": false, "blankIndex": 6 },
+            { "text": "E incident", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "A variety", "isCorrect": false, "blankIndex": 7 },
+            { "text": "B switch", "isCorrect": false, "blankIndex": 7 },
+            { "text": "C harm", "isCorrect": false, "blankIndex": 7 },
+            { "text": "D transformation", "isCorrect": true, "blankIndex": 7 },
+            { "text": "E incident", "isCorrect": false, "blankIndex": 7 }
+          ],
+          [
+            { "text": "A figure", "isCorrect": false, "blankIndex": 8 },
+            { "text": "B artefact", "isCorrect": false, "blankIndex": 8 },
+            { "text": "C incident", "isCorrect": false, "blankIndex": 8 },
+            { "text": "D clarification", "isCorrect": false, "blankIndex": 8 },
+            { "text": "E image", "isCorrect": true, "blankIndex": 8 }
+          ],
+          [
+            { "text": "A honoured", "isCorrect": false, "blankIndex": 9 },
+            { "text": "B pursued", "isCorrect": false, "blankIndex": 9 },
+            { "text": "C countered", "isCorrect": true, "blankIndex": 9 },
+            { "text": "D prohibited", "isCorrect": false, "blankIndex": 9 },
+            { "text": "E anticipated", "isCorrect": false, "blankIndex": 9 }
+          ],
+          [
+            { "text": "A extreme", "isCorrect": false, "blankIndex": 10 },
+            { "text": "B suitable", "isCorrect": false, "blankIndex": 10 },
+            { "text": "C relevant", "isCorrect": true, "blankIndex": 10 },
+            { "text": "D contemporary", "isCorrect": false, "blankIndex": 10 },
+            { "text": "E native", "isCorrect": false, "blankIndex": 10 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the blanks with an appropriate word from the box below. There are more words than you need.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "For every argument a politician makes, there is usually a (1)__________.",
+        "correctAnswer": "counter-argument"
+      },
+      {
+        "questionText": "Politicians need to listen carefully to both sides and try to (2)__________ any misunderstandings.",
+        "correctAnswer": "eliminate"
+      },
+      {
+        "questionText": "For example, some countries (3)__________ about their excellent healthcare systems.",
+        "correctAnswer": "boast"
+      },
+      {
+        "questionText": "However, when a government decides to (4)__________ higher taxes, it can be very controversial.",
+        "correctAnswer": "impose"
+      },
+      {
+        "questionText": "It is important to remember that everyone has (5)__________ beliefs they are born with and values that influence their opinions.",
+        "correctAnswer": "innate"
+      },
+      {
+        "questionText": "Because of these differences, it is (6)__________ that everyone will agree on any single policy or decision.",
+        "correctAnswer": "unlikely"
+      },
+      {
+        "questionText": "For a country to grow and develop, governments need to (7)__________ in important areas like education, healthcare, and infrastructure.",
+        "correctAnswer": "invest"
+      },
+      {
+        "questionText": "A (8)__________ government can lead to inequality and social unrest.",
+        "correctAnswer": "biased"
+      },
+      {
+        "questionText": "They know they must (9)__________ policies that benefit the most people.",
+        "correctAnswer": "adopt"
+      },
+      {
+        "questionText": "By following the vision of the (10)__________ of their nation, they can help to create a more equal and happy society.",
+        "correctAnswer": "founder"
+      }
+    ]
+  }
+]

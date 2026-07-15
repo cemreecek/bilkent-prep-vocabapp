@@ -1,0 +1,6 @@
+const fs = require('fs')
+const path = require('path')
+const filePath = path.join(__dirname, '..', 'public', 'data', 'practices', 'upper-set-1.json')
+const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
+const cloze = data.find(d => d.type === 'paragraph-cloze')
+console.log(JSON.stringify(cloze, null, 2))

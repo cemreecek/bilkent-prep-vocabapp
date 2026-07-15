@@ -1,0 +1,118 @@
+[
+  {
+    "instruction": "Define or translate the following vocabulary words for SET 3 MONDAY.",
+    "type": "open-ended",
+    "items": [
+      { "questionText": "Tight /Loose" },
+      { "questionText": "Pipe" },
+      { "questionText": "Inner" },
+      { "questionText": "Hinder" },
+      { "questionText": "feasible" },
+      { "questionText": "Vain" },
+      { "questionText": "Famine" },
+      { "questionText": "Inhabit" },
+      { "questionText": "Trouble" },
+      { "questionText": "Hang" },
+      { "questionText": "Mentality" },
+      { "questionText": "Multiple" },
+      { "questionText": "Proportion" },
+      { "questionText": "Tremble" },
+      { "questionText": "Assure" },
+      { "questionText": "Incurable/curable" },
+      { "questionText": "Distinct" },
+      { "questionText": "So-called" },
+      { "questionText": "Competence" }
+    ]
+  },
+  {
+    "instruction": "Define or translate the following vocabulary words for TUESDAY.",
+    "type": "open-ended",
+    "items": [
+      { "questionText": "Illegal /Legal" },
+      { "questionText": "Strict" },
+      { "questionText": "Uneasy" },
+      { "questionText": "Lodging" },
+      { "questionText": "Possess" },
+      { "questionText": "Consensus" },
+      { "questionText": "Lean" },
+      { "questionText": "Improbable/probable" },
+      { "questionText": "Constitute" },
+      { "questionText": "Sequence" },
+      { "questionText": "Defend" },
+      { "questionText": "Attribute" },
+      { "questionText": "Proposal" },
+      { "questionText": "Insist" },
+      { "questionText": "Mate" },
+      { "questionText": "End up" }
+    ]
+  },
+  {
+    "instruction": "Define or translate the following vocabulary words for WEDNESDAY.",
+    "type": "open-ended",
+    "items": [
+      { "questionText": "Massive" },
+      { "questionText": "Dimension" },
+      { "questionText": "Indirect" },
+      { "questionText": "Virtual" },
+      { "questionText": "Genius" },
+      { "questionText": "Company" },
+      { "questionText": "Suburb" },
+      { "questionText": "Shore" },
+      { "questionText": "Dismiss" },
+      { "questionText": "Sting" },
+      { "questionText": "Trait" },
+      { "questionText": "Resign" },
+      { "questionText": "Coverage" },
+      { "questionText": "Fluctuate" },
+      { "questionText": "Deficiency" },
+      { "questionText": "Rest" }
+    ]
+  },
+  {
+    "instruction": "Define or translate the following vocabulary words for THURSDAY.",
+    "type": "open-ended",
+    "items": [
+      { "questionText": "Conform" },
+      { "questionText": "Stable" },
+      { "questionText": "Motivate" },
+      { "questionText": "Spite" },
+      { "questionText": "Regard" },
+      { "questionText": "Specialist" },
+      { "questionText": "Namely" },
+      { "questionText": "Wing" },
+      { "questionText": "League" },
+      { "questionText": "Spontaneous" },
+      { "questionText": "Trivial" },
+      { "questionText": "Dine" },
+      { "questionText": "Lifelong" },
+      { "questionText": "Deprive" },
+      { "questionText": "Harmony" },
+      { "questionText": "Point out" }
+    ]
+  },
+  {
+    "instruction": "Define or translate the following vocabulary words for FRIDAY.",
+    "type": "open-ended",
+    "items": [
+      { "questionText": "Urge" },
+      { "questionText": "Direct" },
+      { "questionText": "Otherwise" },
+      { "questionText": "Sector" },
+      { "questionText": "Essence" },
+      { "questionText": "Reckon" },
+      { "questionText": "Maximum" },
+      { "questionText": "Proof" },
+      { "questionText": "Grand" },
+      { "questionText": "Adjust" },
+      { "questionText": "Clap" },
+      { "questionText": "Transmit disease" },
+      { "questionText": "Prize" },
+      { "questionText": "Angle" },
+      { "questionText": "Vision" },
+      { "questionText": "Meantime" },
+      { "questionText": "Convene" },
+      { "questionText": "Empathy" },
+      { "questionText": "Drop" }
+    ]
+  }
+]

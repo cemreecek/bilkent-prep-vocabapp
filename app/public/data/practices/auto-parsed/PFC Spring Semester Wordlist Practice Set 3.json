@@ -1,0 +1,583 @@
+[
+  {
+    "instruction": "PART 1: Fill in the blanks in the texts below by choosing A, B, C, D, or E.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "We drove home with Betsy trying {1} to calm Jake down by telling him we were not in any danger, but he would not listen to us. He kept {2} with fear when he saw huge numbers of protestors marching in the streets. On top of that, he saw the detailed live {3} of the protests on TV channels, which made it even more difficult for us to calm him down.",
+        "options": [
+          [
+            { "text": "A attempt", "isCorrect": false, "blankIndex": 1 },
+            { "text": "B lifelong", "isCorrect": false, "blankIndex": 1 },
+            { "text": "C inevitable", "isCorrect": false, "blankIndex": 1 },
+            { "text": "D in vain", "isCorrect": true, "blankIndex": 1 },
+            { "text": "E effortlessly", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "A trembling", "isCorrect": true, "blankIndex": 2 },
+            { "text": "B assuring", "isCorrect": false, "blankIndex": 2 },
+            { "text": "C uneasy", "isCorrect": false, "blankIndex": 2 },
+            { "text": "D manipulating", "isCorrect": false, "blankIndex": 2 },
+            { "text": "E urging", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "A proof", "isCorrect": false, "blankIndex": 3 },
+            { "text": "B coverage", "isCorrect": true, "blankIndex": 3 },
+            { "text": "C threatening", "isCorrect": false, "blankIndex": 3 },
+            { "text": "D rebels", "isCorrect": false, "blankIndex": 3 },
+            { "text": "E consensus", "isCorrect": false, "blankIndex": 3 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Influenced by the prevailing economic conditions in the country, the arrivals of immigrants {4} greatly in number from year-to-year. Due to these year-to-year changes in the number of immigrants coming to the country, it is not easy to {5} fully to the demands of the increasing population.",
+        "options": [
+          [
+            { "text": "A stabilize", "isCorrect": false, "blankIndex": 4 },
+            { "text": "B eliminate", "isCorrect": false, "blankIndex": 4 },
+            { "text": "C fluctuate", "isCorrect": true, "blankIndex": 4 },
+            { "text": "D incorporate", "isCorrect": false, "blankIndex": 4 },
+            { "text": "E cease", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "A disrespect", "isCorrect": false, "blankIndex": 5 },
+            { "text": "B accustomed", "isCorrect": false, "blankIndex": 5 },
+            { "text": "C constitute", "isCorrect": false, "blankIndex": 5 },
+            { "text": "D regard", "isCorrect": false, "blankIndex": 5 },
+            { "text": "E adjust", "isCorrect": true, "blankIndex": 5 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Due to pandemics, many of our daily routines and habits are suddenly no longer {6} because they require us to go outside and be with people, yet we are stuck at home. Being confined to your home becomes a challenge because the longer you stay home, the more difficult it is to resist the {7} to go out. If the pandemic situation does not improve, governmental lockdowns start and you feel even more restrained. Unless restrictions are {8} you do not feel relieved and your psychological well-being is affected negatively.",
+        "options": [
+          [
+            { "text": "A vain", "isCorrect": false, "blankIndex": 6 },
+            { "text": "B dismissed", "isCorrect": false, "blankIndex": 6 },
+            { "text": "C feasible", "isCorrect": true, "blankIndex": 6 },
+            { "text": "D strict", "isCorrect": false, "blankIndex": 6 },
+            { "text": "E inevitable", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "A curse", "isCorrect": false, "blankIndex": 7 },
+            { "text": "B trouble", "isCorrect": false, "blankIndex": 7 },
+            { "text": "C spite", "isCorrect": false, "blankIndex": 7 },
+            { "text": "D proof", "isCorrect": false, "blankIndex": 7 },
+            { "text": "E urge", "isCorrect": true, "blankIndex": 7 }
+          ],
+          [
+            { "text": "A loosened", "isCorrect": true, "blankIndex": 8 },
+            { "text": "B imposed", "isCorrect": false, "blankIndex": 8 },
+            { "text": "C possessed", "isCorrect": false, "blankIndex": 8 },
+            { "text": "D tightened", "isCorrect": false, "blankIndex": 8 },
+            { "text": "E assured", "isCorrect": false, "blankIndex": 8 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Over the past centuries cultural norms, laws and philosophies have usually discriminated against women, {9} of their race or age. No matter what their race or age is, it seems that a large {10} of women have been subject to more human rights violations than men have.",
+        "options": [
+          [
+            { "text": "A regardless", "isCorrect": true, "blankIndex": 9 },
+            { "text": "B despite", "isCorrect": false, "blankIndex": 9 },
+            { "text": "C regarding", "isCorrect": false, "blankIndex": 9 },
+            { "text": "D vision", "isCorrect": false, "blankIndex": 9 },
+            { "text": "E domain", "isCorrect": false, "blankIndex": 9 }
+          ],
+          [
+            { "text": "A rate", "isCorrect": false, "blankIndex": 10 },
+            { "text": "B angle", "isCorrect": false, "blankIndex": 10 },
+            { "text": "C proportion", "isCorrect": true, "blankIndex": 10 },
+            { "text": "D shift", "isCorrect": false, "blankIndex": 10 },
+            { "text": "E preservation", "isCorrect": false, "blankIndex": 10 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 2: Find the synonyms of the words that are underlined (bolded below) by choosing A, B, C, D, or E.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "To find your **inner** motivation, you can do a few things. First, ignite your passion through visualization and focus. You motivate yourself better when you are focusing on yourself, not outside factors.",
+        "options": [
+          { "text": "A internal", "isCorrect": true },
+          { "text": "B ideological", "isCorrect": false },
+          { "text": "C liberal", "isCorrect": false },
+          { "text": "D timely", "isCorrect": false },
+          { "text": "E radical", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "In Shift This! educator and speaker Joy Kirr identifies how to make gradual shifts in your thinking, teaching, and approach to classroom design that will have a **massive** impact in your classroom.",
+        "options": [
+          { "text": "A minor", "isCorrect": false },
+          { "text": "B virtual", "isCorrect": false },
+          { "text": "C huge", "isCorrect": true },
+          { "text": "D controversial", "isCorrect": false },
+          { "text": "E trivial", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "As night fell, the outline of the mountain became less **distinct**.",
+        "options": [
+          { "text": "A visible", "isCorrect": true },
+          { "text": "B direct", "isCorrect": false },
+          { "text": "C blurry", "isCorrect": false },
+          { "text": "D intense", "isCorrect": false },
+          { "text": "E strict", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "My **spontaneous** reaction to the criticisms was to run away. I suddenly felt the need to flee this situation which made me feel so insecure.",
+        "options": [
+          { "text": "A instinctive", "isCorrect": true },
+          { "text": "B planned", "isCorrect": false },
+          { "text": "C deliberate", "isCorrect": false },
+          { "text": "D probable", "isCorrect": false },
+          { "text": "E intended", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The true pace of recovery in alcoholism is **reckoned** to be one month for every year of use. That means if you are an alcoholic for two years, the pace of recovery will be two months.",
+        "options": [
+          { "text": "A restrained", "isCorrect": false },
+          { "text": "B eliminated", "isCorrect": false },
+          { "text": "C urged", "isCorrect": false },
+          { "text": "D calculated", "isCorrect": true },
+          { "text": "E diagnosed", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The majority of us are familiar with **conventional** medicine — local doctors, clinics, hospitals, pharmacies. It is the kind of medicine the average physician practices. Alternative medicine, on the other hand, includes a philosophy and practice that is inclusive of a variety of world cultures.",
+        "options": [
+          { "text": "A virtual", "isCorrect": false },
+          { "text": "B civil", "isCorrect": false },
+          { "text": "C traditional", "isCorrect": true },
+          { "text": "D liberal", "isCorrect": false },
+          { "text": "E indirect", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The present administration has shown little **regard** for environmental issues. For example, they do not seem to care about recycling at all.",
+        "options": [
+          { "text": "A ignorance", "isCorrect": false },
+          { "text": "B hostility", "isCorrect": false },
+          { "text": "C disrespect", "isCorrect": false },
+          { "text": "D consideration", "isCorrect": true },
+          { "text": "E consensus", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 3: Read the following sentences and choose A, B, C, D, or E.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "In which option below is \"attribute\" used incorrectly?",
+        "options": [
+          { "text": "A This quote is falsely attributed to George Patton", "isCorrect": false },
+          { "text": "B She attributes her success to hard work and a little luck", "isCorrect": false },
+          { "text": "C The recent power cuts were attributed by the recent storms and high winds.", "isCorrect": true },
+          { "text": "D Many individuals attribute memory loss to aging.", "isCorrect": false },
+          { "text": "E The fall in the number of deaths from heart attack is generally attributed to improvements in diet.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "In which option below is \"conform\" used incorrectly?",
+        "options": [
+          { "text": "A People who do not conform to traditional standards of behavior are excluded from society.", "isCorrect": false },
+          { "text": "B Students can be expelled for refusing to conform to school rules.", "isCorrect": false },
+          { "text": "C All products should conform to international safety standards.", "isCorrect": false },
+          { "text": "D Since Shelia has such high self-esteem, she does not conform to the crowd.", "isCorrect": false },
+          { "text": "E There has still been no official conform of the report, so we do not know if the report is true.", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "In which option below is \"consensus\" used incorrectly?",
+        "options": [
+          { "text": "A The committee found that it was unable to reach a consensus.", "isCorrect": false },
+          { "text": "B The EU Council of Finance Ministers failed to arrive at a consensus on the pace of integration.", "isCorrect": false },
+          { "text": "C Nothing was done because of a lack of consensus on the matter.", "isCorrect": false },
+          { "text": "D The consensus told the parliament that it is time for a change of leadership.", "isCorrect": true },
+          { "text": "E No consensus emerged from these discussions.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "In which option below is \"distinct\" used incorrectly?",
+        "options": [
+          { "text": "A There is a clear distinct between formal and informal language.", "isCorrect": true },
+          { "text": "B Turkish and English are two entirely distinct languages.", "isCorrect": false },
+          { "text": "C The learning needs of the two groups are quite distinct from each other.", "isCorrect": false },
+          { "text": "D The two dogs are completely distinct from one another. They are of different breeds.", "isCorrect": false },
+          { "text": "E The results of the survey fell into two distinct groups.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "In which option below is \"inhabit\" used incorrectly?",
+        "options": [
+          { "text": "A The woods are inhabited by many wild animals.", "isCorrect": false },
+          { "text": "B Some tribes still inhabit the more remote mountains and jungles of the country", "isCorrect": false },
+          { "text": "C Some of the rare species that inhabit the area are under threat.", "isCorrect": false },
+          { "text": "D They began to wonder if there were no people inhabiting the magnificent yet seemingly empty city.", "isCorrect": false },
+          { "text": "E This is a poor rural area, with only one doctor per 10,000 inhabits.", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "In which option below is \"genius\" used incorrectly?",
+        "options": [
+          { "text": "A Einstein is regarded as a genius because of his groundbreaking theories in physics.", "isCorrect": false },
+          { "text": "B The new app's design was a genius idea because it is incredibly user-friendly and popular among customers.", "isCorrect": false },
+          { "text": "C The way he rearranged the furniture to maximize space was a genius move, transforming the small room into a much more functional area.", "isCorrect": false },
+          { "text": "D His ability to come up with catchy and memorable slogans shows his genius in marketing and advertising.", "isCorrect": false },
+          { "text": "E The training program aims to improve the genius of employees in using the latest software tools.", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "In which option below is \"harmony\" used incorrectly?",
+        "options": [
+          { "text": "A To have harmony in your marriage, you should always talk with your spouse", "isCorrect": false },
+          { "text": "B The symphony’s performance included beautiful harmonies.", "isCorrect": false },
+          { "text": "C The new president wants harmony in the Middle East.", "isCorrect": false },
+          { "text": "D He believes that there can be harmony between the ideas of science and religion.", "isCorrect": false },
+          { "text": "E The two businessmen signed a harmony to work together on a new product.", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 4: The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the sentences. Fill in each space in this way. Spelling mistakes will be penalized.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "Police officers claimed that their actions during the riots were purely _______. (DEFEND)",
+        "correctAnswer": "DEFENSIVE"
+      },
+      {
+        "questionText": "Carter claims he paid $4000 for the papers, which seems highly _______ because he does not have that kind of money. (PROBABLE)",
+        "correctAnswer": "IMPROBABLE"
+      },
+      {
+        "questionText": "The _______ of this painting to Rembrandt has never been questioned. (ATTRIBUTE)",
+        "correctAnswer": "ATTRIBUTION"
+      },
+      {
+        "questionText": "Rick had a complete _______ breakdown after his family died in a car crash. (MENTALITY)",
+        "correctAnswer": "MENTAL"
+      },
+      {
+        "questionText": "The dog was killed early in 1986 at the age of ten when an/a _______ heart condition was diagnosed. (CURABLE)",
+        "correctAnswer": "INCURABLE"
+      },
+      {
+        "questionText": "Analyzing this huge _______ of data will require supercomputers. (MASSIVE)",
+        "correctAnswer": "MASS"
+      },
+      {
+        "questionText": "References at the end of the research paper are numbered _______ as they appear in the text. (SEQUENTIAL)",
+        "correctAnswer": "SEQUENTIALLY"
+      },
+      {
+        "questionText": "She ended her letter with the _______ sign-off \"Yours Sincerely.\" (CONVENTION)",
+        "correctAnswer": "CONVENTIONAL"
+      },
+      {
+        "questionText": "Though the book is 20 years old, it is still _______ as the authority on the subject. (REGARDING)",
+        "correctAnswer": "REGARDED"
+      },
+      {
+        "questionText": "The finance minister offered his _______ following a series of scandals involving brokerage firms. (RESIGN)",
+        "correctAnswer": "RESIGNATION"
+      },
+      {
+        "questionText": "In math class, we learned about _______ as a fundamental operation for calculating the product of two numbers. (MULTIPLE)",
+        "correctAnswer": "MULTIPLICATION"
+      }
+    ]
+  },
+  {
+    "instruction": "PART 5: Fill in the blanks with the most appropriate words from the box. There is one extra word. Do NOT change the forms.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Labor mobility refers to either how easily laborers are able to move around within an economy by changing geographical {1} or changing job types. Labor mobility affects workers on two levels: the aggregate level and the personal level. The aggregate level refers to the economy as a whole. The more mobile labor forces are, the more quickly the economy can {2} to technological changes, which occur rapidly in today’s world. In countries with mobile labor force, competitive advantages of the business world can be {3} more quickly too. If there are limitations placed on how workers move around, the economy is affected negatively because limitations can {4} growth by making it more difficult for businesses to hire productive workers. Limitations can also make it difficult for new business opportunities to {5}. That is, new businesses cannot be started. Experts {6} the fact that labor mobility is generally not observed in rural economies because the rural economy largely depends on the agricultural {7}, which employs a large number of low-skilled workers. In such economies, a worker cannot change job types with easy due to lack of qualifications.",
+        "options": [
+          [
+            { "text": "locations", "isCorrect": true, "blankIndex": 1 },
+            { "text": "sector", "isCorrect": false, "blankIndex": 1 },
+            { "text": "emerge", "isCorrect": false, "blankIndex": 1 },
+            { "text": "adjust", "isCorrect": false, "blankIndex": 1 },
+            { "text": "hinder", "isCorrect": false, "blankIndex": 1 },
+            { "text": "point out", "isCorrect": false, "blankIndex": 1 },
+            { "text": "exploited", "isCorrect": false, "blankIndex": 1 },
+            { "text": "boost", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "locations", "isCorrect": false, "blankIndex": 2 },
+            { "text": "sector", "isCorrect": false, "blankIndex": 2 },
+            { "text": "emerge", "isCorrect": false, "blankIndex": 2 },
+            { "text": "adjust", "isCorrect": true, "blankIndex": 2 },
+            { "text": "hinder", "isCorrect": false, "blankIndex": 2 },
+            { "text": "point out", "isCorrect": false, "blankIndex": 2 },
+            { "text": "exploited", "isCorrect": false, "blankIndex": 2 },
+            { "text": "boost", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "locations", "isCorrect": false, "blankIndex": 3 },
+            { "text": "sector", "isCorrect": false, "blankIndex": 3 },
+            { "text": "emerge", "isCorrect": false, "blankIndex": 3 },
+            { "text": "adjust", "isCorrect": false, "blankIndex": 3 },
+            { "text": "hinder", "isCorrect": false, "blankIndex": 3 },
+            { "text": "point out", "isCorrect": false, "blankIndex": 3 },
+            { "text": "exploited", "isCorrect": true, "blankIndex": 3 },
+            { "text": "boost", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "locations", "isCorrect": false, "blankIndex": 4 },
+            { "text": "sector", "isCorrect": false, "blankIndex": 4 },
+            { "text": "emerge", "isCorrect": false, "blankIndex": 4 },
+            { "text": "adjust", "isCorrect": false, "blankIndex": 4 },
+            { "text": "hinder", "isCorrect": true, "blankIndex": 4 },
+            { "text": "point out", "isCorrect": false, "blankIndex": 4 },
+            { "text": "exploited", "isCorrect": false, "blankIndex": 4 },
+            { "text": "boost", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "locations", "isCorrect": false, "blankIndex": 5 },
+            { "text": "sector", "isCorrect": false, "blankIndex": 5 },
+            { "text": "emerge", "isCorrect": true, "blankIndex": 5 },
+            { "text": "adjust", "isCorrect": false, "blankIndex": 5 },
+            { "text": "hinder", "isCorrect": false, "blankIndex": 5 },
+            { "text": "point out", "isCorrect": false, "blankIndex": 5 },
+            { "text": "exploited", "isCorrect": false, "blankIndex": 5 },
+            { "text": "boost", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "locations", "isCorrect": false, "blankIndex": 6 },
+            { "text": "sector", "isCorrect": false, "blankIndex": 6 },
+            { "text": "emerge", "isCorrect": false, "blankIndex": 6 },
+            { "text": "adjust", "isCorrect": false, "blankIndex": 6 },
+            { "text": "hinder", "isCorrect": false, "blankIndex": 6 },
+            { "text": "point out", "isCorrect": true, "blankIndex": 6 },
+            { "text": "exploited", "isCorrect": false, "blankIndex": 6 },
+            { "text": "boost", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "locations", "isCorrect": false, "blankIndex": 7 },
+            { "text": "sector", "isCorrect": true, "blankIndex": 7 },
+            { "text": "emerge", "isCorrect": false, "blankIndex": 7 },
+            { "text": "adjust", "isCorrect": false, "blankIndex": 7 },
+            { "text": "hinder", "isCorrect": false, "blankIndex": 7 },
+            { "text": "point out", "isCorrect": false, "blankIndex": 7 },
+            { "text": "exploited", "isCorrect": false, "blankIndex": 7 },
+            { "text": "boost", "isCorrect": false, "blankIndex": 7 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 6: Find the best definition for the underlined (bolded below) words in the following sentences by choosing A, B, C, D, or E.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "The prime minister **convened** his cabinet to discuss the matter.",
+        "options": [
+          { "text": "to bring a group of people together for a meeting, or to meet for a meeting", "isCorrect": true },
+          { "text": "to remove someone from his or her job", "isCorrect": false },
+          { "text": "to officially announce that you have decided to leave your job or an organization", "isCorrect": false },
+          { "text": "to move or bend your body in a particular direction", "isCorrect": false },
+          { "text": "to say firmly and often that sth is true, especially when other people think it may not be true", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "How have these **so-called** improvements helped the local community with unemployment? I do not see any new employment opportunities.",
+        "options": [
+          { "text": "possible and likely to be achieved", "isCorrect": false },
+          { "text": "made, done, seen etc. on the internet or on a computer", "isCorrect": false },
+          { "text": "not made of natural things", "isCorrect": false },
+          { "text": "used to describe someone or something that has been given a name that you think is wrong", "isCorrect": true },
+          { "text": "causing a lot of angry public discussion and disagreement", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The recent rise in cyberattacks **constitutes** a threat to the security of personal information across the internet.",
+        "options": [
+          { "text": "to be considered as something", "isCorrect": true },
+          { "text": "to limit the ability of someone to do something", "isCorrect": false },
+          { "text": "to live in a place", "isCorrect": false },
+          { "text": "to give up a job or position by telling your employer that you are leaving", "isCorrect": false },
+          { "text": "to prevent someone from having something, especially something that they need", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The **essence** of her argument in the book is that education should continue throughout life. That is the main message given and that is what we should focus on our future analyses of her book.",
+        "options": [
+          { "text": "the basic or most important idea or quality of something", "isCorrect": true },
+          { "text": "a natural ability to be good at something, especially without being taught", "isCorrect": false },
+          { "text": "a group of teams playing a sport who take part in competitions between each other", "isCorrect": false },
+          { "text": "a structure that consists of a curved top on two supports", "isCorrect": false },
+          { "text": "the cover on a container that can be lifted up or removed", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 7: Find the word that matches the given dictionary definition. Choose A, B, C, D, or E.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "worried or slightly afraid because you think that something bad might happen",
+        "options": [
+          { "text": "A tremble", "isCorrect": false },
+          { "text": "B uneasy", "isCorrect": true },
+          { "text": "C strict", "isCorrect": false },
+          { "text": "D nuisance", "isCorrect": false },
+          { "text": "E hostile", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "someone you work with, do an activity with, or share something with",
+        "options": [
+          { "text": "A mate", "isCorrect": true },
+          { "text": "B specialist", "isCorrect": false },
+          { "text": "C chief", "isCorrect": false },
+          { "text": "D attorney", "isCorrect": false },
+          { "text": "E labor", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "a place to stay, temporary accommodation",
+        "options": [
+          { "text": "A pipe", "isCorrect": false },
+          { "text": "B shore", "isCorrect": false },
+          { "text": "C inhabit", "isCorrect": false },
+          { "text": "D mall", "isCorrect": false },
+          { "text": "E lodging", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "a lack of food in a region during a long period of time",
+        "options": [
+          { "text": "A draught", "isCorrect": false },
+          { "text": "B dine", "isCorrect": false },
+          { "text": "C famine", "isCorrect": true },
+          { "text": "D harvest", "isCorrect": false },
+          { "text": "E outbreak", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 8: Match the word from the box with its corresponding set of collocating words/clues. (Box: suburb, trait(s), angle, grand, transmit, vision, stable, specialist(s))",
+    "type": "matching",
+    "items": [
+      {
+        "questionText": "signal / disease / information / knowledge / light / sound",
+        "correctAnswer": "transmit"
+      },
+      {
+        "questionText": "slam / tour / finale / prix / scale / effort / style",
+        "correctAnswer": "grand"
+      },
+      {
+        "questionText": "narrow (adj) / sharp (adj) / slight (adj) / wide (adj) / adjust (v) / change (v) / view (v) sth from / increase (v) / measure (v)",
+        "correctAnswer": "angle"
+      },
+      {
+        "questionText": "excellent (adj) / perfect (adj) / blurred (adj) / normal (adj) / clear (adj) / poor (adj) / have (v) / regrand (v) / improve (v) / blur (v)",
+        "correctAnswer": "vision"
+      },
+      {
+        "questionText": "distinctive (adj) / hereditary (adj) / inherited (adj) / genetic (adj) / human (n) / character (n) / personality (n) / physical (adj) / possess (v) / lack (v) / display (v) / exhibit (v)",
+        "correctAnswer": "trait(s)"
+      },
+      {
+        "questionText": "leading (adj) / qualified (adj) / academic (adj) / financial (adj) / medical (adj) / a group of / a team of",
+        "correctAnswer": "specialist(s)"
+      },
+      {
+        "questionText": "person / economy / country / government",
+        "correctAnswer": "stable"
+      }
+    ]
+  },
+  {
+    "instruction": "PART 9: Fill in the gaps with the correct word.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "1a. Jane _______ his coat on a hook behind the door. (hanged / hung)",
+        "correctAnswer": "hung"
+      },
+      {
+        "questionText": "1b. Corey _______ himself in his prison cell. (hanged / hung)",
+        "correctAnswer": "hanged"
+      },
+      {
+        "questionText": "2a. A drought _______ the growth of plants. When there is lack of water, it will be really slow for the plants to grow. It delays their development. (prevent / hinder)",
+        "correctAnswer": "hinders"
+      },
+      {
+        "questionText": "2b. The provision of seat belts _______ serious injuries. Seat belts stops drivers and passengers from being ejected during a crash. (prevent / hinder)",
+        "correctAnswer": "prevents"
+      },
+      {
+        "questionText": "3a. Do not believe anything that this newspaper says. It makes _______ news. (artificial / fake)",
+        "correctAnswer": "fake"
+      },
+      {
+        "questionText": "3b. _______ sweeteners, or sugar substitutes, are chemicals added to some foods and beverages to make them taste sweet. (artificial / fake)",
+        "correctAnswer": "Artificial"
+      },
+      {
+        "questionText": "4a. She is a persuasive speaker with a natural _______ for leadership. (talent / skill)",
+        "correctAnswer": "talent"
+      },
+      {
+        "questionText": "4b. He did not have the right _______ for the job. He had to work hard to develop them. (talent / skill)",
+        "correctAnswer": "skills"
+      },
+      {
+        "questionText": "5a. The _______ for best photography has been won by a young Dutch photographer. (price / prize)",
+        "correctAnswer": "prize"
+      },
+      {
+        "questionText": "5b. People seem willing to pay inflated _______ for houses in central Istanbul. (price / prize)",
+        "correctAnswer": "prices"
+      }
+    ]
+  },
+  {
+    "instruction": "PART 10: Fill in the following gaps with the correct word from the box. Use each word TWICE. (otherwise, namely, meantime)",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "1. I did not see her for another five years, and in the _______, she had got married and had a couple of kids.",
+        "correctAnswer": "meantime"
+      },
+      {
+        "questionText": "2. We were delayed at the airport. _______, we would have been here by lunchtime.",
+        "correctAnswer": "Otherwise"
+      },
+      {
+        "questionText": "3. We need to get more teachers into classrooms where they're most needed, _______, in high poverty areas.",
+        "correctAnswer": "namely"
+      },
+      {
+        "questionText": "4. The police believe he is the thief, but all the evidence suggests _______.",
+        "correctAnswer": "otherwise"
+      },
+      {
+        "questionText": "5. We need to concentrate on our target audience, _______ women aged between 20 and 30.",
+        "correctAnswer": "namely"
+      },
+      {
+        "questionText": "6. The power supply should be back soon – for the _______ we will have to use candles.",
+        "correctAnswer": "meantime"
+      }
+    ]
+  }
+]

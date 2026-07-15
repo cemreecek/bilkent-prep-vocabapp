@@ -1,0 +1,118 @@
+[
+  {
+    "instruction": "SET 4 MONDAY",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Pile", "options": [] },
+      { "questionText": "Hypothetical", "options": [] },
+      { "questionText": "Prohibit", "options": [] },
+      { "questionText": "Shortage", "options": [] },
+      { "questionText": "Obedience", "options": [] },
+      { "questionText": "Outwards", "options": [] },
+      { "questionText": "Holy", "options": [] },
+      { "questionText": "Expertise", "options": [] },
+      { "questionText": "Minimal", "options": [] },
+      { "questionText": "Bundle", "options": [] },
+      { "questionText": "Residence", "options": [] },
+      { "questionText": "Premises", "options": [] },
+      { "questionText": "Correlation", "options": [] },
+      { "questionText": "Funeral", "options": [] },
+      { "questionText": "Remark", "options": [] },
+      { "questionText": "Comprehensive", "options": [] },
+      { "questionText": "Exhaust", "options": [] }
+    ]
+  },
+  {
+    "instruction": "TUESDAY",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Restless", "options": [] },
+      { "questionText": "Invade", "options": [] },
+      { "questionText": "Memorial", "options": [] },
+      { "questionText": "Foresee", "options": [] },
+      { "questionText": "Initiate", "options": [] },
+      { "questionText": "Idle", "options": [] },
+      { "questionText": "Regime", "options": [] },
+      { "questionText": "Pitch", "options": [] },
+      { "questionText": "Deed", "options": [] },
+      { "questionText": "Scarce", "options": [] },
+      { "questionText": "Breed", "options": [] },
+      { "questionText": "Motive", "options": [] },
+      { "questionText": "Boundary", "options": [] },
+      { "questionText": "Ease", "options": [] },
+      { "questionText": "Substance", "options": [] },
+      { "questionText": "Whisper", "options": [] },
+      { "questionText": "Parameter", "options": [] },
+      { "questionText": "Refrain", "options": [] }
+    ]
+  },
+  {
+    "instruction": "WEDNESDAY",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Presumably", "options": [] },
+      { "questionText": "Mode", "options": [] },
+      { "questionText": "Vast", "options": [] },
+      { "questionText": "Candidate", "options": [] },
+      { "questionText": "Facilitate", "options": [] },
+      { "questionText": "Surround", "options": [] },
+      { "questionText": "Compromise", "options": [] },
+      { "questionText": "Melt", "options": [] },
+      { "questionText": "Pride", "options": [] },
+      { "questionText": "Schedule /Scheme", "options": [] },
+      { "questionText": "Hierarchy", "options": [] },
+      { "questionText": "Deficit", "options": [] },
+      { "questionText": "Simultaneous", "options": [] },
+      { "questionText": "Log", "options": [] },
+      { "questionText": "Solid", "options": [] },
+      { "questionText": "Literal", "options": [] },
+      { "questionText": "Notify", "options": [] }
+    ]
+  },
+  {
+    "instruction": "THURSDAY",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Devote", "options": [] },
+      { "questionText": "Beast", "options": [] },
+      { "questionText": "Compatible", "options": [] },
+      { "questionText": "Nonetheless", "options": [] },
+      { "questionText": "Appendix", "options": [] },
+      { "questionText": "Seize", "options": [] },
+      { "questionText": "Strike", "options": [] },
+      { "questionText": "Inclusive", "options": [] },
+      { "questionText": "Master", "options": [] },
+      { "questionText": "Shoot", "options": [] },
+      { "questionText": "Suspend", "options": [] },
+      { "questionText": "Drugstore", "options": [] },
+      { "questionText": "Gravity", "options": [] },
+      { "questionText": "Fierce", "options": [] },
+      { "questionText": "Notable", "options": [] },
+      { "questionText": "Generalize", "options": [] },
+      { "questionText": "Texture", "options": [] }
+    ]
+  },
+  {
+    "instruction": "FRIDAY",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Grease", "options": [] },
+      { "questionText": "Raw", "options": [] },
+      { "questionText": "Implication", "options": [] },
+      { "questionText": "Blade", "options": [] },
+      { "questionText": "Bound", "options": [] },
+      { "questionText": "Pattern", "options": [] },
+      { "questionText": "Element", "options": [] },
+      { "questionText": "Tackle", "options": [] },
+      { "questionText": "Indifferent", "options": [] },
+      { "questionText": "Code", "options": [] },
+      { "questionText": "Detect", "options": [] },
+      { "questionText": "Constrain", "options": [] },
+      { "questionText": "Atmosphere", "options": [] },
+      { "questionText": "Supplement", "options": [] },
+      { "questionText": "Flood", "options": [] },
+      { "questionText": "Hunger", "options": [] },
+      { "questionText": "Profound", "options": [] }
+    ]
+  }
+]

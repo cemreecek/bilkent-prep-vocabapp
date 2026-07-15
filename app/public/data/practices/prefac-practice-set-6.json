@@ -1,0 +1,438 @@
+[
+  {
+    "instruction": "Choose the word that matches the given dictionary definition.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "One of the sides in a legal agreement or disagreement.",
+        "options": [
+          { "text": "Enemy", "isCorrect": false },
+          { "text": "Messenger", "isCorrect": false },
+          { "text": "Party", "isCorrect": true },
+          { "text": "Facility", "isCorrect": false },
+          { "text": "Rival", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "To make someone believe something that is not true.",
+        "options": [
+          { "text": "Bribe", "isCorrect": false },
+          { "text": "Dominate", "isCorrect": false },
+          { "text": "Instruct", "isCorrect": false },
+          { "text": "Deceive", "isCorrect": true },
+          { "text": "Bother", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Done or chosen without any plan or system.",
+        "options": [
+          { "text": "Random", "isCorrect": true },
+          { "text": "Rigid", "isCorrect": false },
+          { "text": "Inconsistent", "isCorrect": false },
+          { "text": "Improper", "isCorrect": false },
+          { "text": "Splendid", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Always liking and supporting someone or something, sometimes when other people do not.",
+        "options": [
+          { "text": "Sincere", "isCorrect": false },
+          { "text": "Dominant", "isCorrect": false },
+          { "text": "Modest", "isCorrect": false },
+          { "text": "Tolerant", "isCorrect": false },
+          { "text": "Loyal", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "An offer to do work or provide services for a specific price.",
+        "options": [
+          { "text": "Projection", "isCorrect": false },
+          { "text": "Bid", "isCorrect": true },
+          { "text": "Expense", "isCorrect": false },
+          { "text": "Campaign", "isCorrect": false },
+          { "text": "Scale", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "To behave as if something is true when in fact you know it is not.",
+        "options": [
+          { "text": "Recall", "isCorrect": false },
+          { "text": "Pretend", "isCorrect": true },
+          { "text": "React", "isCorrect": false },
+          { "text": "Hook", "isCorrect": false },
+          { "text": "Stare", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "A long, narrow hole in the ground next to a road or field, which water can flow through.",
+        "options": [
+          { "text": "Pinch", "isCorrect": false },
+          { "text": "Plough", "isCorrect": false },
+          { "text": "Spot", "isCorrect": false },
+          { "text": "Ditch", "isCorrect": true },
+          { "text": "Edge", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The underlying basis or principle for something, especially a structure or idea.",
+        "options": [
+          { "text": "Conclusion", "isCorrect": false },
+          { "text": "Foundation", "isCorrect": true },
+          { "text": "Layer", "isCorrect": false },
+          { "text": "Surface", "isCorrect": false },
+          { "text": "Fragment", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Find the best definition for the underlined words in the following sentences by choosing A, B, C, D or E.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "He has suffered from a persistent cough because of smoking.",
+        "options": [
+          { "text": "Producing the expected result", "isCorrect": false },
+          { "text": "Capable of being tolerated", "isCorrect": false },
+          { "text": "Continuing for a long time", "isCorrect": true },
+          { "text": "Making others irritated", "isCorrect": false },
+          { "text": "Happening at certain times", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Prices shown on the list are only a rough guideline. The list will be finalized soon.",
+        "options": [
+          { "text": "Unpleasant or annoying", "isCorrect": false },
+          { "text": "Approximate, not exact", "isCorrect": true },
+          { "text": "Comprehensive and valid", "isCorrect": false },
+          { "text": "Well-prepared and presented", "isCorrect": false },
+          { "text": "Not flexible, difficult to change", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "She is determined to sue the doctors for negligence over the loss of her child.",
+        "options": [
+          { "text": "To be likely to cause harm to someone", "isCorrect": false },
+          { "text": "To say that you are not satisfied with something", "isCorrect": false },
+          { "text": "To punish someone for breaking a law", "isCorrect": false },
+          { "text": "To use an unfair phrase to describe someone", "isCorrect": false },
+          { "text": "To take legal action against someone", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "I can remember nothing about my parents, but I have a vague feeling of having been well cared for.",
+        "options": [
+          { "text": "Assuring", "isCorrect": false },
+          { "text": "Lasting", "isCorrect": false },
+          { "text": "Uncertain", "isCorrect": true },
+          { "text": "Intense", "isCorrect": false },
+          { "text": "Irrational", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "We've seen a consistent improvement in the team's performance.",
+        "options": [
+          { "text": "Continuing to happen or develop in the same way", "isCorrect": true },
+          { "text": "Limited to a period of time, not long lasting", "isCorrect": false },
+          { "text": "Admirable because it is a great achievement", "isCorrect": false },
+          { "text": "Not serious or valuable, unimportant", "isCorrect": false },
+          { "text": "Deserved because of very good behavior", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the blanks with the words in the box to make a collocation.",
+    "type": "gap-fill",
+    "items": [
+      { "questionText": "_________ your opportunities", "correctAnswer": "Maximize", "options": [] },
+      { "questionText": "To form the ___________ of something (i.e. theory, discussion, book etc.)", "correctAnswer": "Basis", "options": [] },
+      { "questionText": "____________ knowledge", "correctAnswer": "Gain", "options": [] },
+      { "questionText": "Endure ____________", "correctAnswer": "Hardship", "options": [] },
+      { "questionText": "A ____________ view", "correctAnswer": "Splendid", "options": [] },
+      { "questionText": "In ____________ order", "correctAnswer": "Random", "options": [] },
+      { "questionText": "__________ at sb in disbelief", "correctAnswer": "Stare", "options": [] },
+      { "questionText": "To be on the ________ of something (i.e. crisis, despair, etc.)", "correctAnswer": "Edge", "options": [] },
+      { "questionText": "_________ the contract", "correctAnswer": "Terminate", "options": [] }
+    ]
+  },
+  {
+    "instruction": "Fill in the blanks in the sentences below with the collocations above.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "Working-class women who had to __________ and self-sacrifice survived in the end.",
+        "correctAnswer": "Endure hardship",
+        "options": []
+      },
+      {
+        "questionText": "The economy of the country is ____________ collapse. Many companies are trying to survive, but there is little hope.",
+        "correctAnswer": "on the edge of",
+        "options": []
+      },
+      {
+        "questionText": "The doctors hope to ____________ from the research to help the patients waiting for a cure.",
+        "correctAnswer": "gain knowledge",
+        "options": []
+      },
+      {
+        "questionText": "I was so impressed by the _____________ of the pyramids that I want to go there once more.",
+        "correctAnswer": "splendid view",
+        "options": []
+      },
+      {
+        "questionText": "The names on the list are _____________. They do not indicate anything about the success rate of the candidate.",
+        "correctAnswer": "in random order",
+        "options": []
+      },
+      {
+        "questionText": "She _______me ______ when I told her that I got engaged to my best friend.",
+        "correctAnswer": "stared at",
+        "options": []
+      },
+      {
+        "questionText": "The career center will help you to _____________ so that you can find a job soon.",
+        "correctAnswer": "maximize your opportunities",
+        "options": []
+      },
+      {
+        "questionText": "The company will _____________ because of the damage the other company gives to the environment. They want to work with companies that care about the environment.",
+        "correctAnswer": "terminate the contract",
+        "options": []
+      },
+      {
+        "questionText": "Processed food should not ___________ of your diet. You should choose to eat healthy food instead.",
+        "correctAnswer": "form the basis",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Choose the appropriate word in each of the sentences below.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "Many students acquire / derive a great deal of enjoyment and satisfaction from their time at university.",
+        "options": [
+          { "text": "acquire", "isCorrect": false },
+          { "text": "derive", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "The committee is comprised / consisted of well-known businesspeople.",
+        "options": [
+          { "text": "comprised", "isCorrect": true },
+          { "text": "consisted", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "In some parts of the world children have to work long hours, at the price / expense of their education and even their health.",
+        "options": [
+          { "text": "price", "isCorrect": false },
+          { "text": "expense", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Recent innovations with computer aided design enable / provide us to produce magazines which are more creative and cost effective.",
+        "options": [
+          { "text": "enable", "isCorrect": true },
+          { "text": "provide", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "He became a citizen in 1978, thereby / hence gaining the right to vote",
+        "options": [
+          { "text": "thereby", "isCorrect": true },
+          { "text": "hence", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Read the following text and sentences and choose the best option. The physical and mental benefits of positive thinking have been demonstrated by multiple scientific studies. A positive 1) __________ towards life can give you more confidence and improve your mood. You can define positive thinking as positive self-talk or general optimism, but these are all still 2) __________ concepts, which may not be clear to everyone. If you want to be effective in being more positive, you’ll need some examples to help you through the process to turn these 3) ___________ concepts into concrete ones. How you start the morning sets the tone for the rest of the day. Have you ever woken up late, panicked, and then felt like nothing good will happen the rest of the day? Instead of letting this feeling 4) _________ you, start your day with positive affirmations. However, there is no perfect day. You’re likely to face 5) __________ throughout the day. When you encounter such a challenge, focus on the benefits, no matter how 6) _________ or unimportant they seem. Adapted from https://www.success.com/7-practical-tips-to-achieve-a-positive-mindset/",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "A positive __________ towards life can give you more confidence and improve your mood.",
+        "options": [
+          { "text": "scope", "isCorrect": false },
+          { "text": "outlook", "isCorrect": true },
+          { "text": "bias", "isCorrect": false },
+          { "text": "norm", "isCorrect": false },
+          { "text": "remark", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "You can define positive thinking as positive self-talk or general optimism, but these are all still __________ concepts, which may not be clear to everyone.",
+        "options": [
+          { "text": "precious", "isCorrect": false },
+          { "text": "hollow", "isCorrect": false },
+          { "text": "vague", "isCorrect": true },
+          { "text": "mixed", "isCorrect": false },
+          { "text": "notable", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "If you want to be effective in being more positive, you’ll need some examples to help you through the process to turn these ___________ concepts into concrete ones.",
+        "options": [
+          { "text": "superior", "isCorrect": false },
+          { "text": "rigid", "isCorrect": false },
+          { "text": "internal", "isCorrect": false },
+          { "text": "abstract", "isCorrect": true },
+          { "text": "fundamental", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Instead of letting this feeling _________ you, start your day with positive affirmations.",
+        "options": [
+          { "text": "shelter", "isCorrect": false },
+          { "text": "evolve", "isCorrect": false },
+          { "text": "instruct", "isCorrect": false },
+          { "text": "seize", "isCorrect": false },
+          { "text": "dominate", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "However, there is no perfect day. You’re likely to face __________ throughout the day.",
+        "options": [
+          { "text": "enemies", "isCorrect": false },
+          { "text": "inconsistencies", "isCorrect": false },
+          { "text": "hardships", "isCorrect": true },
+          { "text": "implications", "isCorrect": false },
+          { "text": "limitations", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "When you encounter such a challenge, focus on the benefits, no matter how _________ or unimportant they seem.",
+        "options": [
+          { "text": "rough", "isCorrect": false },
+          { "text": "slight", "isCorrect": true },
+          { "text": "stiff", "isCorrect": false },
+          { "text": "brief", "isCorrect": false },
+          { "text": "humble", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The flowers that bloom in the __________ of a snowstorm remind me of hope.",
+        "options": [
+          { "text": "midst", "isCorrect": true },
+          { "text": "edge", "isCorrect": false },
+          { "text": "ditch", "isCorrect": false },
+          { "text": "trace", "isCorrect": false },
+          { "text": "shield", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "__________ better work relationships is an essential factor in career growth and promotion.",
+        "options": [
+          { "text": "Gaining", "isCorrect": false },
+          { "text": "Recalling", "isCorrect": false },
+          { "text": "Cultivating", "isCorrect": true },
+          { "text": "Engaging", "isCorrect": false },
+          { "text": "Tackling", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Solar energy has started to be ________ more for heating.",
+        "options": [
+          { "text": "facilitated", "isCorrect": false },
+          { "text": "furnished", "isCorrect": false },
+          { "text": "exhibited", "isCorrect": false },
+          { "text": "utilized", "isCorrect": true },
+          { "text": "initiated", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Dolphin sounds are unintelligible to humans and cover a larger range of frequencies than we can hear or __________.",
+        "options": [
+          { "text": "bear", "isCorrect": false },
+          { "text": "differentiate", "isCorrect": true },
+          { "text": "label", "isCorrect": false },
+          { "text": "monitor", "isCorrect": false },
+          { "text": "inspect", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The economy is booming, and small businesses are __________.",
+        "options": [
+          { "text": "cultivating", "isCorrect": false },
+          { "text": "flourishing", "isCorrect": true },
+          { "text": "acquiring", "isCorrect": false },
+          { "text": "persisting", "isCorrect": false },
+          { "text": "engaging", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Being the center of the salt trade in the country, Vichiquen, which is on a tide-water lake on the coast, is a(n) __________ town.",
+        "options": [
+          { "text": "superior", "isCorrect": false },
+          { "text": "consistent", "isCorrect": false },
+          { "text": "proper", "isCorrect": false },
+          { "text": "prosperous", "isCorrect": true },
+          { "text": "modest", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the sentences. Fill in each space in this way. Spelling mistakes will be penalized.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "The decision, announced on Thursday, came as a huge _______ to the factory's 300 workers. [RELIEVE]",
+        "correctAnswer": "RELIEF",
+        "options": []
+      },
+      {
+        "questionText": "The fresh morning air blew ___________in my face, as if to welcome me, and be my merry playmate. [GENTLE]",
+        "correctAnswer": "GENTLY",
+        "options": []
+      },
+      {
+        "questionText": "Interviews are generally conducted in a structured form, so as to ensure _________ between interviewers. [CONSISTENT]",
+        "correctAnswer": "CONSISTENCY",
+        "options": []
+      },
+      {
+        "questionText": "If you are __________ dressed, you will not be admitted. [PROPER]",
+        "correctAnswer": "IMPROPERLY",
+        "options": []
+      },
+      {
+        "questionText": "Many businesspeople use some form of __________ at times to achieve their objectives. [DECEIVE]",
+        "correctAnswer": "DECEPTION",
+        "options": []
+      },
+      {
+        "questionText": "The restaurant is stuffy, __________, and ridiculously expensive. [PRETEND]",
+        "correctAnswer": "PRETENTIOUS",
+        "options": []
+      },
+      {
+        "questionText": "In literature, the swan has been a symbol of ________ and virtue. [PURE]",
+        "correctAnswer": "PURITY",
+        "options": []
+      },
+      {
+        "questionText": "My opinion is that she was __________ to her family and a traitor to her race. [LOYAL]",
+        "correctAnswer": "DISLOYAL",
+        "options": []
+      },
+      {
+        "questionText": "She sits __________, watching the darkening distant trees. [MOTION]",
+        "correctAnswer": "MOTIONLESS",
+        "options": []
+      },
+      {
+        "questionText": "The advertisement is ______________ aimed at children. [PRIMARY]",
+        "correctAnswer": "PRIMARILY",
+        "options": []
+      },
+      {
+        "questionText": "They were treating only the symptoms of the disease rather than its __________ cause. [UNDERLIE]",
+        "correctAnswer": "UNDERLYING",
+        "options": []
+      }
+    ]
+  }
+]

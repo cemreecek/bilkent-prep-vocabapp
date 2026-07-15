@@ -1,0 +1,368 @@
+[
+  {
+    "word": "Implement",
+    "day": 1,
+    "definition": "To put a decision, plan, or agreement into effect.",
+    "example": "The government decided to implement new policies to improve public health."
+  },
+  {
+    "word": "Consequence",
+    "day": 1,
+    "definition": "A result or effect of an action or condition.",
+    "example": "Failing to study for the exam had serious consequences for his grades."
+  },
+  {
+    "word": "Demonstration",
+    "day": 1,
+    "definition": "An act of showing how something works or how to do something.",
+    "example": "The teacher gave a clear demonstration of the science experiment."
+  },
+  {
+    "word": "Examine",
+    "day": 1,
+    "definition": "To inspect someone or something in detail to determine their nature or condition.",
+    "example": "The doctor will examine the patient's symptoms carefully."
+  },
+  {
+    "word": "Previously",
+    "day": 1,
+    "definition": "At a previous or earlier time; before now.",
+    "example": "She had previously visited that museum, so she knew her way around."
+  },
+  {
+    "word": "Intend",
+    "day": 1,
+    "definition": "To have as a plan or purpose; to mean to do something.",
+    "example": "I intend to finish my homework before dinner tonight."
+  },
+  {
+    "word": "Unforgettable",
+    "day": 1,
+    "definition": "Impossible to forget; very memorable.",
+    "example": "Our trip to the mountains was an unforgettable experience."
+  },
+  {
+    "word": "Rely",
+    "day": 1,
+    "definition": "To depend on someone or something with full trust or confidence.",
+    "example": "You can always rely on your friends for support."
+  },
+  {
+    "word": "Embarrassing",
+    "day": 1,
+    "definition": "Causing a feeling of self-consciousness, shame, or awkwardness.",
+    "example": "It was embarrassing when I tripped in front of everyone."
+  },
+  {
+    "word": "Input",
+    "day": 1,
+    "definition": "What is put in, taken in, or operated on by any process or system.",
+    "example": "We need more input from the team members to make the project a success."
+  },
+  {
+    "word": "Adverse",
+    "day": 1,
+    "definition": "Preventing success or development; harmful or unfavorable.",
+    "example": "The company faced adverse conditions due to the economic downturn."
+  },
+  {
+    "word": "Nonetheless",
+    "day": 2,
+    "definition": "In spite of that; nevertheless.",
+    "example": "It was raining heavily; nonetheless, we decided to go for a walk."
+  },
+  {
+    "word": "Commit",
+    "day": 2,
+    "definition": "To promise to do something, especially to remain loyal to a person, cause, or policy.",
+    "example": "The company is committed to providing excellent customer service."
+  },
+  {
+    "word": "Simplification",
+    "day": 2,
+    "definition": "The action or process of making something simpler or easier to understand.",
+    "example": "The simplification of the instructions made the task much clearer."
+  },
+  {
+    "word": "Composition",
+    "day": 2,
+    "definition": "The nature of something's ingredients or constituents; the way in which a whole or mixture is made up.",
+    "example": "The chemical composition of the new material is still being studied."
+  },
+  {
+    "word": "State",
+    "day": 2,
+    "definition": "The particular condition that someone or something is in at a specific time.",
+    "example": "The building was in a poor state after years of neglect."
+  },
+  {
+    "word": "Comment",
+    "day": 2,
+    "definition": "A verbal or written remark expressing an opinion or reaction.",
+    "example": "She made a useful comment during the team meeting."
+  },
+  {
+    "word": "Insult",
+    "day": 2,
+    "definition": "A disrespectful or offensive remark or action.",
+    "example": "His rude comment was a direct insult to her intelligence."
+  },
+  {
+    "word": "Abandon",
+    "day": 2,
+    "definition": "To cease to support or look after someone; to desert. Or to give up completely (a practice or course of action).",
+    "example": "The scientists had to abandon the experiment due to technical difficulties."
+  },
+  {
+    "word": "Wander",
+    "day": 2,
+    "definition": "To walk or move in a leisurely, casual, or aimless way.",
+    "example": "We decided to wander through the park without a specific destination."
+  },
+  {
+    "word": "Immigrant",
+    "day": 2,
+    "definition": "A person who comes to live permanently in a foreign country.",
+    "example": "Many immigrants contribute greatly to the culture and economy of their new home."
+  },
+  {
+    "word": "Artefact",
+    "day": 2,
+    "definition": "An object made by a human being, typically an item of cultural or historical interest.",
+    "example": "Ancient artefacts were discovered during the archaeological dig."
+  },
+  {
+    "word": "Contemporary",
+    "day": 3,
+    "definition": "Belonging to or occurring in the present; modern.",
+    "example": "Contemporary art often challenges traditional ideas and forms."
+  },
+  {
+    "word": "Domestic",
+    "day": 3,
+    "definition": "Relating to the running of a home or to family relations, or of one's own country.",
+    "example": "The president focused on domestic issues before addressing international affairs."
+  },
+  {
+    "word": "Overcome",
+    "day": 3,
+    "definition": "To succeed in dealing with a problem or difficulty.",
+    "example": "She worked hard to overcome her fear of public speaking."
+  },
+  {
+    "word": "Target",
+    "day": 3,
+    "definition": "A person, object, or place selected as the aim of an attack, or an objective to be achieved.",
+    "example": "The company set a target of increasing sales by 10% this quarter."
+  },
+  {
+    "word": "Refugee",
+    "day": 3,
+    "definition": "A person who has been forced to leave their country in order to escape war, persecution, or natural disaster.",
+    "example": "Many refugees seek safety and a new home in neighboring countries."
+  },
+  {
+    "word": "Differ",
+    "day": 3,
+    "definition": "To be unlike or distinct from something else; to disagree.",
+    "example": "Their opinions on the matter differ significantly."
+  },
+  {
+    "word": "Range",
+    "day": 3,
+    "definition": "The area of variation between upper and lower limits on a particular scale.",
+    "example": "The hotel offers a wide range of services, from basic rooms to luxury suites."
+  },
+  {
+    "word": "Offensive",
+    "day": 3,
+    "definition": "Causing someone to feel hurt, angry, or upset; rude or insulting.",
+    "example": "His comments were highly offensive to many people in the audience."
+  },
+  {
+    "word": "Phase",
+    "day": 3,
+    "definition": "A distinct period or stage in a process of change or development.",
+    "example": "The construction project is now in its final phase."
+  },
+  {
+    "word": "Odd",
+    "day": 3,
+    "definition": "Different from what is usual or expected; strange.",
+    "example": "She found it odd that he didn't say goodbye before leaving."
+  },
+  {
+    "word": "Straightforward",
+    "day": 3,
+    "definition": "Easy to understand or do; not complicated.",
+    "example": "The instructions for assembling the furniture were surprisingly straightforward."
+  },
+  {
+    "word": "Obtain",
+    "day": 3,
+    "definition": "To get, acquire, or secure something.",
+    "example": "You need a special permit to obtain access to the restricted area."
+  },
+  {
+    "word": "Adjust",
+    "day": 3,
+    "definition": "To alter or move something slightly in order to achieve the desired fit, appearance, or result.",
+    "example": "You may need to adjust your approach if the current method isn't working."
+  },
+  {
+    "word": "Nevertheless",
+    "day": 4,
+    "definition": "In spite of that; however.",
+    "example": "The weather was bad; nevertheless, we had a wonderful time."
+  },
+  {
+    "word": "Strategically",
+    "day": 4,
+    "definition": "In a way that relates to a strategy or is important for achieving a goal.",
+    "example": "The general positioned his troops strategically to gain an advantage."
+  },
+  {
+    "word": "Vary",
+    "day": 4,
+    "definition": "To differ in size, amount, degree, or nature from something else of the same general class.",
+    "example": "The prices of flights can vary greatly depending on the season."
+  },
+  {
+    "word": "Vote",
+    "day": 4,
+    "definition": "To make a formal choice in an election or at a meeting.",
+    "example": "Citizens have the right to vote for their chosen representatives."
+  },
+  {
+    "word": "Desperate",
+    "day": 4,
+    "definition": "Feeling or showing a hopeless sense that a situation is so bad as to be impossible to deal with. Or needing or wanting something very much.",
+    "example": "They were desperate for help after being stranded in the storm."
+  },
+  {
+    "word": "Clarify",
+    "day": 4,
+    "definition": "To make something less confusing and more comprehensible.",
+    "example": "Could you please clarify your instructions? I don't quite understand."
+  },
+  {
+    "word": "Resemble",
+    "day": 4,
+    "definition": "To have a similar appearance to or qualities in common with someone or something.",
+    "example": "The new building greatly resembles the historical architecture of the city."
+  },
+  {
+    "word": "Component",
+    "day": 4,
+    "definition": "A part or element of a larger whole.",
+    "example": "Hard work and dedication are essential components of success."
+  },
+  {
+    "word": "Pure",
+    "day": 4,
+    "definition": "Not mixed or adulterated with any other substance or material.",
+    "example": "The water in the mountain stream was crystal pure."
+  },
+  {
+    "word": "Gesture",
+    "day": 4,
+    "definition": "A movement of part of the body, especially a hand or the head, to express an idea or meaning.",
+    "example": "He made a kind gesture by offering to help his neighbor."
+  },
+  {
+    "word": "Appeal",
+    "day": 4,
+    "definition": "To make a serious, urgent, or heartfelt request.",
+    "example": "The charity made an appeal for donations to help flood victims."
+  },
+  {
+    "word": "Perceive",
+    "day": 4,
+    "definition": "To become aware or conscious of something; to come to realize or understand.",
+    "example": "He began to perceive a change in her attitude over time."
+  },
+  {
+    "word": "Apply",
+    "day": 4,
+    "definition": "To put something into operation or effect; to use a rule, principle, or method.",
+    "example": "We need to apply the lessons learned from this project to future endeavors."
+  },
+  {
+    "word": "Temper",
+    "day": 5,
+    "definition": "A person's state of mind regarding whether they are angry or calm.",
+    "example": "He has a short temper, so it's easy for him to get angry."
+  },
+  {
+    "word": "Sacred",
+    "day": 5,
+    "definition": "Connected with God or a god or dedicated to a religious purpose and so deserving veneration.",
+    "example": "Many ancient cultures considered certain animals to be sacred."
+  },
+  {
+    "word": "Relevance",
+    "day": 5,
+    "definition": "The quality or state of being closely connected or appropriate to what is being done or considered.",
+    "example": "The relevance of his argument to the topic was clear to everyone."
+  },
+  {
+    "word": "Spoil",
+    "day": 5,
+    "definition": "To diminish or destroy the value, quality, or enjoyment of something.",
+    "example": "The bad weather threatened to spoil our outdoor picnic plans."
+  },
+  {
+    "word": "Enhance",
+    "day": 5,
+    "definition": "To intensify, increase, or further improve the quality, value, or extent of something.",
+    "example": "Good lighting can greatly enhance the atmosphere of a room."
+  },
+  {
+    "word": "Sacrifice",
+    "day": 5,
+    "definition": "To give up something important or valued for the sake of other considerations.",
+    "example": "Parents often make many sacrifices for their children's well-being."
+  },
+  {
+    "word": "Pace",
+    "day": 5,
+    "definition": "The speed at which someone or something moves, or with which something happens or is done.",
+    "example": "The runner maintained a steady pace throughout the marathon."
+  },
+  {
+    "word": "Scale",
+    "day": 5,
+    "definition": "The relative size or extent of something.",
+    "example": "The project was undertaken on a massive scale, involving thousands of workers."
+  },
+  {
+    "word": "Unfortunately",
+    "day": 5,
+    "definition": "It is a pity or regrettable that something is the case.",
+    "example": "Unfortunately, due to the rain, the outdoor concert was cancelled."
+  },
+  {
+    "word": "Gender",
+    "day": 5,
+    "definition": "The state of being male or female, typically used with reference to social and cultural differences rather than biological ones.",
+    "example": "The company aims to achieve equality in terms of gender representation at all levels."
+  },
+  {
+    "word": "Sake",
+    "day": 5,
+    "definition": "For the purpose or benefit of someone or something.",
+    "example": "For the sake of peace, they decided to compromise."
+  },
+  {
+    "word": "Generosity",
+    "day": 5,
+    "definition": "The quality of being kind, understanding, and willing to give or share freely.",
+    "example": "Her generosity allowed many students to receive scholarships."
+  },
+  {
+    "word": "Tender",
+    "day": 5,
+    "definition": "Showing gentleness, kindness, or affection.",
+    "example": "He gave her a tender hug to show his support."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "instruction": "Vocabulary List for Monday",
+    "type": "open-ended",
+    "items": [
+      { "questionText": "Evaluate" },
+      { "questionText": "Undo" },
+      { "questionText": "Quarrel" },
+      { "questionText": "Stain" },
+      { "questionText": "Nationwide" },
+      { "questionText": "Humour" },
+      { "questionText": "Spare" },
+      { "questionText": "Grant" },
+      { "questionText": "Rational" },
+      { "questionText": "Awareness" },
+      { "questionText": "Tend" },
+      { "questionText": "Hint" }
+    ]
+  },
+  {
+    "instruction": "Vocabulary List for Tuesday",
+    "type": "open-ended",
+    "items": [
+      { "questionText": "Seldom" },
+      { "questionText": "Literary" },
+      { "questionText": "Typical" },
+      { "questionText": "Throughout" },
+      { "questionText": "Harm" },
+      { "questionText": "Anticipate" },
+      { "questionText": "Impression" },
+      { "questionText": "Equipped" },
+      { "questionText": "Diversity" },
+      { "questionText": "Flexibility" },
+      { "questionText": "Extent" },
+      { "questionText": "Concern" }
+    ]
+  },
+  {
+    "instruction": "Vocabulary List for Wednesday",
+    "type": "open-ended",
+    "items": [
+      { "questionText": "Imply" },
+      { "questionText": "Complete/Incomplete" },
+      { "questionText": "Delight" },
+      { "questionText": "Figure" },
+      { "questionText": "Union" },
+      { "questionText": "Rarely" },
+      { "questionText": "Uncover/ Cover" },
+      { "questionText": "Track" },
+      { "questionText": "Obstacle" },
+      { "questionText": "Unsuitable" },
+      { "questionText": "Select" },
+      { "questionText": "Authentic" }
+    ]
+  },
+  {
+    "instruction": "Vocabulary List for Thursday",
+    "type": "open-ended",
+    "items": [
+      { "questionText": "Activate" },
+      { "questionText": "Input" },
+      { "questionText": "Exist" },
+      { "questionText": "Loan" },
+      { "questionText": "Overseas" },
+      { "questionText": "Interfere" },
+      { "questionText": "Anxiety" },
+      { "questionText": "Aspect" },
+      { "questionText": "Progress (v, n)" },
+      { "questionText": "Valid" },
+      { "questionText": "Partially" },
+      { "questionText": "Submit" }
+    ]
+  },
+  {
+    "instruction": "Vocabulary List for Friday",
+    "type": "open-ended",
+    "items": [
+      { "questionText": "Consist" },
+      { "questionText": "Intensive" },
+      { "questionText": "Globally" },
+      { "questionText": "Wisdom" },
+      { "questionText": "Speciality" },
+      { "questionText": "Applicant" },
+      { "questionText": "Object" },
+      { "questionText": "Enclose" },
+      { "questionText": "Deny" },
+      { "questionText": "Terminal" },
+      { "questionText": "Encounter" },
+      { "questionText": "Trial" }
+    ]
+  }
+]

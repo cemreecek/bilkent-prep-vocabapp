@@ -1,0 +1,500 @@
+[
+  {
+    "word": "Alter",
+    "day": 1,
+    "definition": "To change something, usually slightly, or to make changes to a piece of clothing.",
+    "example": "We had to make alterations to the plan after the new information came out."
+  },
+  {
+    "word": "Corporate",
+    "day": 1,
+    "definition": "Relating to a large company or group.",
+    "example": "The newspaper reported on a case of corporate crime involving a major bank."
+  },
+  {
+    "word": "Category",
+    "day": 1,
+    "definition": "A group of people or things with similar characteristics.",
+    "example": "You can categorize these books into fiction and non-fiction."
+  },
+  {
+    "word": "Ally",
+    "day": 1,
+    "definition": "Someone who helps and supports you, especially in a difficult situation.",
+    "example": "In the debate, she hoped to find an ally who shared her views."
+  },
+  {
+    "word": "Violate",
+    "day": 1,
+    "definition": "To break or fail to comply with a rule, law, or agreement.",
+    "example": "Recording someone without their permission can violate their privacy."
+  },
+  {
+    "word": "Rank",
+    "day": 1,
+    "definition": "A position in a list or hierarchy based on quality or importance.",
+    "example": "The university continues to rank high among institutions in the country."
+  },
+  {
+    "word": "Resolve",
+    "day": 1,
+    "definition": "To find a solution to a problem or difficulty.",
+    "example": "The leaders made an attempt to resolve the conflict peacefully."
+  },
+  {
+    "word": "Omit",
+    "day": 1,
+    "definition": "To leave out or exclude someone or something.",
+    "example": "Please remember to omit your name from the final report."
+  },
+  {
+    "word": "Disregard",
+    "day": 1,
+    "definition": "To pay no attention to something; ignore.",
+    "example": "His actions show a complete disregard for safety rules."
+  },
+  {
+    "word": "Fine",
+    "day": 1,
+    "definition": "A sum of money paid as a penalty for an offense.",
+    "example": "If you park illegally, you might have to pay a high fine."
+  },
+  {
+    "word": "United",
+    "day": 1,
+    "definition": "Joined together as one, especially in agreement.",
+    "example": "The team was united in their goal to win the championship."
+  },
+  {
+    "word": "Zone",
+    "day": 1,
+    "definition": "An area or region with a particular characteristic or use.",
+    "example": "California is often referred to as an earthquake zone."
+  },
+  {
+    "word": "Authority",
+    "day": 1,
+    "definition": "The power or right to give orders, make decisions, and enforce obedience.",
+    "example": "The student tried to deny the authority of the principal."
+  },
+  {
+    "word": "Sophisticated",
+    "day": 1,
+    "definition": "Complex or advanced in design or development.",
+    "example": "Scientists are developing sophisticated software to analyze the data."
+  },
+  {
+    "word": "Ancestor",
+    "day": 1,
+    "definition": "A person, typically one more remote than a grandparent, from whom one is descended.",
+    "example": "Many people are interested in tracing their ancestors to learn about their family history."
+  },
+  {
+    "word": "Moderate",
+    "day": 1,
+    "definition": "Not extreme or excessive; within reasonable limits.",
+    "example": "You can enjoy sweets, but only in moderation."
+  },
+  {
+    "word": "Legislation",
+    "day": 1,
+    "definition": "Laws made by a government.",
+    "example": "The government plans to introduce new legislation to protect the environment."
+  },
+  {
+    "word": "Irrigate",
+    "day": 1,
+    "definition": "To supply water to land or crops to help growth.",
+    "example": "Farmers use advanced systems to irrigate their crops during dry periods."
+  },
+  {
+    "word": "Bet",
+    "day": 2,
+    "definition": "To risk money on the outcome of an event or competition.",
+    "example": "I would bet on the home team winning the match."
+  },
+  {
+    "word": "Visual",
+    "day": 2,
+    "definition": "Relating to seeing or sight.",
+    "example": "The artist used many interesting visual effects in his painting."
+  },
+  {
+    "word": "Identical",
+    "day": 2,
+    "definition": "Exactly alike; exactly the same.",
+    "example": "The two sisters look identical, so it's hard to tell them apart."
+  },
+  {
+    "word": "Creature",
+    "day": 2,
+    "definition": "An animal, as distinct from a human being.",
+    "example": "Many strange creatures live deep in the ocean."
+  },
+  {
+    "word": "Advance",
+    "day": 2,
+    "definition": "To move forward; to make progress.",
+    "example": "Please book your tickets in advance to avoid disappointment."
+  },
+  {
+    "word": "Craft",
+    "day": 2,
+    "definition": "An activity involving skill in making things by hand.",
+    "example": "The children enjoyed the arts and crafts workshop at school."
+  },
+  {
+    "word": "Prompt",
+    "day": 2,
+    "definition": "Done without delay; immediate.",
+    "example": "The police took prompt action to catch the thief."
+  },
+  {
+    "word": "Ethnic",
+    "day": 2,
+    "definition": "Relating to a population subgroup with a common national or cultural tradition.",
+    "example": "We celebrate the diversity of people from various ethnic origins."
+  },
+  {
+    "word": "Straw",
+    "day": 2,
+    "definition": "Dried stalks of grain, used as animal food or bedding.",
+    "example": "After many problems, his rude comment was the last straw."
+  },
+  {
+    "word": "Sow",
+    "day": 2,
+    "definition": "To plant seeds in the ground.",
+    "example": "His controversial speech risked sowing the seeds of discontent among the public."
+  },
+  {
+    "word": "Major",
+    "day": 2,
+    "definition": "Very large or important.",
+    "example": "The vast majority of students passed the exam."
+  },
+  {
+    "word": "Capture",
+    "day": 2,
+    "definition": "To take into one's possession or control by force.",
+    "example": "The photographer will try to capture the perfect moment."
+  },
+  {
+    "word": "Infrastructure",
+    "day": 2,
+    "definition": "The basic physical and organizational structures and facilities needed for the operation of a society or enterprise.",
+    "example": "The government plans to invest in improving the country's infrastructure."
+  },
+  {
+    "word": "Data",
+    "day": 2,
+    "definition": "Facts and statistics collected together for reference or analysis.",
+    "example": "Researchers collect data from experiments to support their theories."
+  },
+  {
+    "word": "Sin",
+    "day": 2,
+    "definition": "An immoral act considered to be a transgression against divine law.",
+    "example": "In some religions, lying is considered to commit a sin."
+  },
+  {
+    "word": "Poverty",
+    "day": 3,
+    "definition": "The state of being extremely poor.",
+    "example": "Many organizations are working to reduce poverty worldwide."
+  },
+  {
+    "word": "Concerning as a preposition",
+    "day": 3,
+    "definition": "About; regarding.",
+    "example": "I received an email concerning your recent application."
+  },
+  {
+    "word": "Senior",
+    "day": 3,
+    "definition": "Of a higher rank or status.",
+    "example": "The decision was made by the senior management team."
+  },
+  {
+    "word": "Multiple",
+    "day": 3,
+    "definition": "Consisting of many elements or parts.",
+    "example": "The exam included a multiple-choice section."
+  },
+  {
+    "word": "Reverse",
+    "day": 3,
+    "definition": "To change to the opposite direction or order.",
+    "example": "They hope to see a reversal of the recent decline in sales."
+  },
+  {
+    "word": "Precede",
+    "day": 3,
+    "definition": "To come before something in time or order.",
+    "example": "Dark clouds often precede rain."
+  },
+  {
+    "word": "Desire",
+    "day": 3,
+    "definition": "A strong feeling of wanting to have something or wishing for something to happen.",
+    "example": "She expressed a strong desire for adventure and travel."
+  },
+  {
+    "word": "Endurance",
+    "day": 3,
+    "definition": "The ability to continue doing something difficult or painful for a long period.",
+    "example": "Running a marathon is a true endurance test."
+  },
+  {
+    "word": "Acknowledge",
+    "day": 3,
+    "definition": "To accept or admit the existence or truth of something.",
+    "example": "The company had to publicly acknowledge its mistake."
+  },
+  {
+    "word": "Inordinate",
+    "day": 3,
+    "definition": "Unusually or disproportionately large; excessive.",
+    "example": "He spent an inordinate amount of time preparing for the presentation."
+  },
+  {
+    "word": "Paste",
+    "day": 3,
+    "definition": "To stick something to another surface; in computing, to insert something copied.",
+    "example": "You can copy and paste text from one document to another."
+  },
+  {
+    "word": "Load",
+    "day": 3,
+    "definition": "A heavy or bulky thing that is being carried or is to be carried.",
+    "example": "Students often have a heavy workload during exam season."
+  },
+  {
+    "word": "Innovate",
+    "day": 3,
+    "definition": "To introduce new methods, ideas, or products.",
+    "example": "The company is known for its successful innovation in technology."
+  },
+  {
+    "word": "Mild",
+    "day": 3,
+    "definition": "Not severe or extreme.",
+    "example": "We are enjoying surprisingly mild weather this winter."
+  },
+  {
+    "word": "Request",
+    "day": 3,
+    "definition": "An act of asking for something politely or formally.",
+    "example": "The manager approved her request for a day off."
+  },
+  {
+    "word": "Drag",
+    "day": 3,
+    "definition": "To pull someone or something along forcefully, with effort, or difficulty.",
+    "example": "He had to drag the heavy box across the room."
+  },
+  {
+    "word": "Lately",
+    "day": 4,
+    "definition": "Recently; in the recent past.",
+    "example": "I haven't seen much of her lately."
+  },
+  {
+    "word": "Dissimilar",
+    "day": 4,
+    "definition": "Not alike; different.",
+    "example": "Despite being twins, their personalities are dissimilar."
+  },
+  {
+    "word": "Isolate",
+    "day": 4,
+    "definition": "To cause (a person or place) to be or remain alone or apart from others.",
+    "example": "The new rules could isolate people from their families."
+  },
+  {
+    "word": "Privilege",
+    "day": 4,
+    "definition": "A special right, advantage, or immunity granted or available only to a particular person or group.",
+    "example": "As a new employee, you will have no special privileges."
+  },
+  {
+    "word": "Temple",
+    "day": 4,
+    "definition": "A building devoted to the worship of a god or gods.",
+    "example": "Many ancient civilizations built grand temples for their deities."
+  },
+  {
+    "word": "Obliged",
+    "day": 4,
+    "definition": "Required by a legal or moral duty.",
+    "example": "He felt obliged to help his friend move house."
+  },
+  {
+    "word": "Dissolve",
+    "day": 4,
+    "definition": "(Of a solid) become incorporated into a liquid so as to form a solution.",
+    "example": "The sugar will quickly dissolve in hot water."
+  },
+  {
+    "word": "Arise",
+    "day": 4,
+    "definition": "(Of a problem, opportunity, or situation) emerge; become apparent.",
+    "example": "Difficulties often arise from a lack of communication."
+  },
+  {
+    "word": "Broad",
+    "day": 4,
+    "definition": "Of great extent; wide.",
+    "example": "The store offers a broad range of products."
+  },
+  {
+    "word": "Veil",
+    "day": 4,
+    "definition": "A piece of fine material worn by women to protect or conceal the face.",
+    "example": "The bride wore a beautiful white veil over her face."
+  },
+  {
+    "word": "Stocking",
+    "day": 4,
+    "definition": "A long, usually knitted, close-fitting covering for the foot and leg.",
+    "example": "She hung her Christmas stocking by the fireplace with care."
+  },
+  {
+    "word": "Restrict",
+    "day": 4,
+    "definition": "To limit the extent, size, or scope of something.",
+    "example": "Members can use the facilities without restriction during opening hours."
+  },
+  {
+    "word": "Allowance",
+    "day": 4,
+    "definition": "A sum of money paid regularly to a person, typically to cover expenses or for pocket money.",
+    "example": "My parents gave me a weekly allowance for chores."
+  },
+  {
+    "word": "Refresh",
+    "day": 4,
+    "definition": "To give new strength or energy to; reinvigorate.",
+    "example": "A cold drink will refresh you after your long walk."
+  },
+  {
+    "word": "Subtle",
+    "day": 4,
+    "definition": "So delicate or precise as to be difficult to analyze or describe.",
+    "example": "The dish had a subtle taste of ginger."
+  },
+  {
+    "word": "Seal",
+    "day": 4,
+    "definition": "To close an opening or container tightly or completely.",
+    "example": "Please remember to seal the envelope before mailing it."
+  },
+  {
+    "word": "Inhibit",
+    "day": 5,
+    "definition": "To hinder, restrain, or prevent (an action or process).",
+    "example": "Fear can severely inhibit a person's ability to perform."
+  },
+  {
+    "word": "Immense",
+    "day": 5,
+    "definition": "Extremely large or great, especially in scale or degree.",
+    "example": "The project required an immense amount of effort."
+  },
+  {
+    "word": "Consult",
+    "day": 5,
+    "definition": "To seek information or advice from (someone with expertise in a particular area).",
+    "example": "You should consult a doctor about your symptoms."
+  },
+  {
+    "word": "Soil",
+    "day": 5,
+    "definition": "The upper layer of earth in which plants grow.",
+    "example": "The garden soil is rich and fertile, perfect for growing vegetables."
+  },
+  {
+    "word": "Publicity",
+    "day": 5,
+    "definition": "Attention given to someone or something by the media.",
+    "example": "The new movie is starting to receive a lot of publicity."
+  },
+  {
+    "word": "Dispute",
+    "day": 5,
+    "definition": "A disagreement or argument.",
+    "example": "There was a long-running dispute between the neighbors about the fence."
+  },
+  {
+    "word": "Sew",
+    "day": 5,
+    "definition": "To join or repair (something) by making stitches with a needle and thread.",
+    "example": "She had to sew up the torn hole in her jacket before going out."
+  },
+  {
+    "word": "Diversity",
+    "day": 5,
+    "definition": "The state of being varied or different.",
+    "example": "Our team values diversity of thought and background, which brings new ideas."
+  },
+  {
+    "word": "Undergo operation",
+    "day": 5,
+    "definition": "To experience something, especially a change or something unpleasant.",
+    "example": "The patient will undergo an operation next week to fix his knee."
+  },
+  {
+    "word": "Revenue",
+    "day": 5,
+    "definition": "Income, especially when of a company or organization and of a substantial nature.",
+    "example": "The company's annual revenue increased significantly after the successful product launch."
+  },
+  {
+    "word": "Ambiguity",
+    "day": 5,
+    "definition": "The quality of being open to more than one interpretation.",
+    "example": "Her ambiguous smile made it difficult to tell what she was thinking."
+  },
+  {
+    "word": "Historian",
+    "day": 5,
+    "definition": "An expert in or student of history, especially that of a particular period, geographical place, or social phenomenon.",
+    "example": "A contemporary historian offered a new perspective on the event."
+  },
+  {
+    "word": "Creation",
+    "day": 5,
+    "definition": "The action or process of bringing something into existence.",
+    "example": "The creation of a new national park was announced by the government."
+  },
+  {
+    "word": "Appoint",
+    "day": 5,
+    "definition": "To assign a job or role to (someone).",
+    "example": "The committee decided to appoint her to lead the new project."
+  },
+  {
+    "word": "Suck",
+    "day": 5,
+    "definition": "To draw (liquid or air) into the mouth by contracting the tongue and muscles of the mouth.",
+    "example": "The baby tried to suck his thumb for comfort."
+  },
+  {
+    "word": "Subsequent",
+    "day": 5,
+    "definition": "Occurring or coming after something else.",
+    "example": "Subsequent to the accident, traffic was rerouted for several hours."
+  },
+  {
+    "word": "Landfill",
+    "day": 5,
+    "definition": "A place where waste is buried under layers of earth.",
+    "example": "Local councils are trying to reduce the amount of landfill waste."
+  },
+  {
+    "word": "Undermine",
+    "day": 5,
+    "definition": "To lessen the effectiveness, power, or ability of, especially gradually or insidiously.",
+    "example": "Constant criticism can undermine a child's confidence in their abilities."
+  }
+]

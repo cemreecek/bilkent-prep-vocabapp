@@ -1,0 +1,6 @@
+Level,Unit,Week,Question_Type,Instruction,Question_Text,Option_A,Option_B,Option_C,Option_D,Option_E,Word_Bank_Choices,Correct_Answer
+PreFac,Set 1,1,multiple-choice,Choose the correct word,The ______ is very bright today.,sun,moon,star,cloud,,,A
+PreFac,Set 1,1,paragraph-cloze,Fill in the blanks,The ___ was running to the ___.,"dog, cat, mouse, rat","park, store, house, school",,,,,"dog | store"
+PreFac,Set 1,1,word-bank,Drag words to blanks,The weather was ___ so we went to the ___.,,,,,,"beach, sunny, rainy, mountain","sunny | beach"
+PreFac,Set 1,1,matching,Match the word to definition,Apple,,,,,,,A red fruit
+PreFac,Set 1,1,open-ended,Answer the question,Explain what a heuristic is.,,,,,,,A mental shortcut

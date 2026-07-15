@@ -1,0 +1,506 @@
+[
+  {
+    "word": "Tight Loose",
+    "day": 1,
+    "definition": "Describing something that is either very firm and close, or not firm and allows movement.",
+    "example": "The new screws were tight, but the old ones were loose."
+  },
+  {
+    "word": "Pipe",
+    "day": 1,
+    "definition": "A long, hollow tube through which water, gas, or oil can flow.",
+    "example": "There was a leak in the old water pipe in the basement."
+  },
+  {
+    "word": "Inner",
+    "day": 1,
+    "definition": "Related to your feelings and thoughts, rather than to your external appearance or surroundings.",
+    "example": "To achieve your goals, you need to find your inner motivation."
+  },
+  {
+    "word": "Hinder",
+    "day": 1,
+    "definition": "To make it difficult for someone to do something or for something to happen.",
+    "example": "Lack of funding can tend to hinder progress in research."
+  },
+  {
+    "word": "Feasible",
+    "day": 1,
+    "definition": "Possible to do easily or conveniently.",
+    "example": "The engineers are checking if the new bridge design is technically feasible."
+  },
+  {
+    "word": "Vain",
+    "day": 1,
+    "definition": "Without success; useless.",
+    "example": "We tried to repair the old car for hours, but it was all in vain."
+  },
+  {
+    "word": "Famine",
+    "day": 1,
+    "definition": "A situation in which there is not enough food for a great number of people, causing illness and death.",
+    "example": "Conflict and drought led to a widespread famine in the region."
+  },
+  {
+    "word": "Inhabit",
+    "day": 1,
+    "definition": "To live in a place.",
+    "example": "The remote island is inhabited by many rare species of birds."
+  },
+  {
+    "word": "Trouble",
+    "day": 1,
+    "definition": "Problems or difficulties.",
+    "example": "I always have trouble with understanding complex math problems."
+  },
+  {
+    "word": "Hang",
+    "day": 1,
+    "definition": "To be suspended or attached from above, often freely.",
+    "example": "Bats often hang upside down in caves while they sleep."
+  },
+  {
+    "word": "Mentality",
+    "day": 1,
+    "definition": "A person's way of thinking and their opinions.",
+    "example": "Understanding the mentality of teenagers is important for educators."
+  },
+  {
+    "word": "Multiple",
+    "day": 1,
+    "definition": "Many; involving more than one.",
+    "example": "The exam included a difficult multiple choice section."
+  },
+  {
+    "word": "Proportion",
+    "day": 1,
+    "definition": "A part or share of a whole.",
+    "example": "A large proportion of the students passed the test."
+  },
+  {
+    "word": "Tremble",
+    "day": 1,
+    "definition": "To shake slightly, especially because of nervousness, fear, or cold.",
+    "example": "The child began to tremble with fear after hearing the loud thunder."
+  },
+  {
+    "word": "Assure",
+    "day": 1,
+    "definition": "To tell someone something confidently to remove doubt.",
+    "example": "The doctor tried to assure the patient that the surgery would be successful."
+  },
+  {
+    "word": "Incurablecurable",
+    "day": 1,
+    "definition": "Describing something that is either not able to be cured or able to be cured.",
+    "example": "Some diseases are incurable, while others are easily curable with medicine."
+  },
+  {
+    "word": "Distinct",
+    "day": 1,
+    "definition": "Clearly separate and different from others.",
+    "example": "Despite their similarities, the two cultures remain distinct."
+  },
+  {
+    "word": "So-called",
+    "day": 1,
+    "definition": "Used to show that you think a word or phrase is not accurate or true.",
+    "example": "His so-called 'friends' left him alone when he needed help."
+  },
+  {
+    "word": "Competence",
+    "day": 1,
+    "definition": "The ability to do something successfully or efficiently.",
+    "example": "She showed great competence in her new role."
+  },
+  {
+    "word": "Illegal Legal",
+    "day": 2,
+    "definition": "Describing something that is either against the law or allowed by the law.",
+    "example": "It is illegal to drive without a license, but it is legal to walk on the sidewalk."
+  },
+  {
+    "word": "Strict",
+    "day": 2,
+    "definition": "Demanding that rules be obeyed exactly.",
+    "example": "The teacher was very strict about deadlines."
+  },
+  {
+    "word": "Uneasy",
+    "day": 2,
+    "definition": "Feeling worried or anxious.",
+    "example": "I felt uneasy about leaving my dog alone all day."
+  },
+  {
+    "word": "Lodging",
+    "day": 2,
+    "definition": "A place where you stay, especially temporarily.",
+    "example": "Many students live in a lodging house while attending university."
+  },
+  {
+    "word": "Possess",
+    "day": 2,
+    "definition": "To own or have something.",
+    "example": "Always keep an eye on your personal possessions when traveling."
+  },
+  {
+    "word": "Consensus",
+    "day": 2,
+    "definition": "A general agreement among a group of people.",
+    "example": "After a long discussion, the committee was able to reach a consensus."
+  },
+  {
+    "word": "Lean",
+    "day": 2,
+    "definition": "To support yourself against something or someone.",
+    "example": "When times are tough, it's good to have a friend to lean on."
+  },
+  {
+    "word": "Improbableprobable",
+    "day": 2,
+    "definition": "Describing something that is either not likely to happen or likely to happen.",
+    "example": "It's improbable that it will snow in summer, but it's probable that it will rain tomorrow."
+  },
+  {
+    "word": "Constitute",
+    "day": 2,
+    "definition": "To form or be a part of something.",
+    "example": "Women constitute a large percentage of the workforce."
+  },
+  {
+    "word": "Sequence",
+    "day": 2,
+    "definition": "A set of related things that follow each other in a particular order.",
+    "example": "The instructions must be followed in a specific sequence."
+  },
+  {
+    "word": "Defend",
+    "day": 2,
+    "definition": "To protect someone or something from harm or attack.",
+    "example": "Soldiers bravely defend their country against enemies."
+  },
+  {
+    "word": "Attribute",
+    "day": 2,
+    "definition": "To consider something as being caused by someone or something else.",
+    "example": "She attributes her success to hard work and dedication."
+  },
+  {
+    "word": "Proposal",
+    "day": 2,
+    "definition": "A formal suggestion or plan, or an offer of marriage.",
+    "example": "He surprised her with a romantic marriage proposal on their anniversary."
+  },
+  {
+    "word": "Insist",
+    "day": 2,
+    "definition": "To demand something forcefully, not accepting any refusal.",
+    "example": "She insisted on paying for the whole meal herself."
+  },
+  {
+    "word": "Mate",
+    "day": 2,
+    "definition": "A friend, or someone you work or study with.",
+    "example": "My work mate helped me finish the project on time."
+  },
+  {
+    "word": "End up",
+    "day": 2,
+    "definition": "To find yourself in a place or situation that you did not intend or expect to be in.",
+    "example": "If you keep driving without a map, you might end up getting lost."
+  },
+  {
+    "word": "Massive",
+    "day": 3,
+    "definition": "Very large, heavy, or solid.",
+    "example": "The company made a massive profit last year."
+  },
+  {
+    "word": "Dimension",
+    "day": 3,
+    "definition": "A measurement in one direction, such as length, width, or height.",
+    "example": "Architects often work with models in three dimensions."
+  },
+  {
+    "word": "Indirect",
+    "day": 3,
+    "definition": "Not direct or immediate.",
+    "example": "The grammar lesson covered how to report statements using indirect speech."
+  },
+  {
+    "word": "Virtual",
+    "day": 3,
+    "definition": "Almost real; created by computer technology and appearing to exist but not physically real.",
+    "example": "Virtual reality games are becoming very popular."
+  },
+  {
+    "word": "Genius",
+    "day": 3,
+    "definition": "Exceptional intellectual or creative power or natural ability.",
+    "example": "Albert Einstein was a scientific genius."
+  },
+  {
+    "word": "Company",
+    "day": 3,
+    "definition": "The state of being with other people; a guest or guests.",
+    "example": "I enjoy reading a book when I don't have company."
+  },
+  {
+    "word": "Suburb",
+    "day": 3,
+    "definition": "A residential area or district situated on the outskirts of a city.",
+    "example": "Many families prefer to live in a suburb outside the busy city center."
+  },
+  {
+    "word": "Shore",
+    "day": 3,
+    "definition": "The land along the edge of a sea, lake, or wide river.",
+    "example": "We walked along the sea shore collecting shells."
+  },
+  {
+    "word": "Dismiss",
+    "day": 3,
+    "definition": "To send someone away; to officially remove someone from their job.",
+    "example": "The manager had to dismiss the employee for repeated lateness."
+  },
+  {
+    "word": "Sting",
+    "day": 3,
+    "definition": "To wound or pierce with a sharp-pointed part, often injecting poison.",
+    "example": "I accidentally stepped on a bee and got a bee sting on my foot."
+  },
+  {
+    "word": "Trait",
+    "day": 3,
+    "definition": "A particular quality in your personality.",
+    "example": "Honesty is a valuable personality trait."
+  },
+  {
+    "word": "Resign",
+    "day": 3,
+    "definition": "To formally announce that you are leaving a job or position.",
+    "example": "He decided to resign from his position after many years of service."
+  },
+  {
+    "word": "Coverage",
+    "day": 3,
+    "definition": "The reporting of a particular important event or subject.",
+    "example": "Many news channels provided live coverage of the election results."
+  },
+  {
+    "word": "Fluctuate",
+    "day": 3,
+    "definition": "To change continually; to vary in an irregular way.",
+    "example": "The price of oil can sharply fluctuate due to global events."
+  },
+  {
+    "word": "Deficiency",
+    "day": 3,
+    "definition": "A lack or shortage of something.",
+    "example": "Many people suffer from iron deficiency, which can cause tiredness."
+  },
+  {
+    "word": "Rest",
+    "day": 3,
+    "definition": "A period of relaxing, sleeping, or doing nothing after effort or strain.",
+    "example": "After a long day of work, I need some rest."
+  },
+  {
+    "word": "Conform",
+    "day": 4,
+    "definition": "To behave in the way that is expected or required.",
+    "example": "Students are expected to conform to the school's rules."
+  },
+  {
+    "word": "Stable",
+    "day": 4,
+    "definition": "Not likely to change or fail; firmly established.",
+    "example": "After the accident, the patient was reported to be in a stable condition."
+  },
+  {
+    "word": "Motivate",
+    "day": 4,
+    "definition": "To make someone want to do something, especially something that involves hard work and effort.",
+    "example": "Good teachers know how to motivate their students to learn."
+  },
+  {
+    "word": "Spite",
+    "day": 4,
+    "definition": "A desire to harm, annoy, or offend someone.",
+    "example": "In spite of the heavy rain, we still went for a walk."
+  },
+  {
+    "word": "Regard",
+    "day": 4,
+    "definition": "To consider or think of someone or something in a particular way.",
+    "example": "Many people regard her as a talented artist."
+  },
+  {
+    "word": "Specialist",
+    "day": 4,
+    "definition": "A person who is an expert in a particular area of work or study.",
+    "example": "He went to see a heart specialist for his condition."
+  },
+  {
+    "word": "Namely",
+    "day": 4,
+    "definition": "Used to introduce more exact and detailed information.",
+    "example": "There are two main problems, namely, lack of funding and lack of staff."
+  },
+  {
+    "word": "Wing",
+    "day": 4,
+    "definition": "A part of an animal or machine that allows it to fly.",
+    "example": "The bird spread its wings and flew away."
+  },
+  {
+    "word": "League",
+    "day": 4,
+    "definition": "A group of sports teams that play against each other, or a group of people, countries, etc. that have similar interests or goals.",
+    "example": "Our football team is currently at the top of the league."
+  },
+  {
+    "word": "Spontaneous",
+    "day": 4,
+    "definition": "Happening or done in a natural, often sudden way, without any planning or thought.",
+    "example": "Her spontaneous reaction to the good news was a loud cheer."
+  },
+  {
+    "word": "Trivial",
+    "day": 4,
+    "definition": "Of little value or importance.",
+    "example": "Don't worry about such a trivial problem; it's not worth your stress."
+  },
+  {
+    "word": "Dine",
+    "day": 4,
+    "definition": "To eat dinner, especially in a restaurant.",
+    "example": "We often dine out at our favorite Italian restaurant on weekends."
+  },
+  {
+    "word": "Lifelong",
+    "day": 4,
+    "definition": "Lasting for the whole of a person's life.",
+    "example": "Many universities promote the idea of lifelong learning."
+  },
+  {
+    "word": "Deprive",
+    "day": 4,
+    "definition": "To take something important or necessary away from someone.",
+    "example": "War can deprive children of education and a normal childhood."
+  },
+  {
+    "word": "Urge",
+    "day": 5,
+    "definition": "A strong desire or impulse.",
+    "example": "I had a strong urge to open the present before my birthday."
+  },
+  {
+    "word": "Direct",
+    "day": 5,
+    "definition": "To control or manage; to give instructions to someone or something.",
+    "example": "He dreams of becoming famous and directing a film one day."
+  },
+  {
+    "word": "Otherwise",
+    "day": 5,
+    "definition": "In a different way or in all other respects; or else.",
+    "example": "You must study hard; otherwise, you might fail the exam."
+  },
+  {
+    "word": "Sector",
+    "day": 5,
+    "definition": "A part of an area of activity, especially of a country's economy.",
+    "example": "Many nurses and doctors work in the public sector."
+  },
+  {
+    "word": "Essence",
+    "day": 5,
+    "definition": "The basic nature or most important quality of something.",
+    "example": "The painting captured the true essence of the city."
+  },
+  {
+    "word": "Reckon",
+    "day": 5,
+    "definition": "To consider or think something to be true.",
+    "example": "I reckon him to be one of the best players on the team."
+  },
+  {
+    "word": "Maximum",
+    "day": 5,
+    "definition": "The greatest possible amount or level.",
+    "example": "The maximum speed allowed on this road is 100 km/h."
+  },
+  {
+    "word": "Proof",
+    "day": 5,
+    "definition": "Evidence or argument establishing a fact or the truth of a statement.",
+    "example": "There is no clear proof that he committed the crime."
+  },
+  {
+    "word": "Grand",
+    "day": 5,
+    "definition": "Impressive and large in size, scope, or extent.",
+    "example": "They held a grand party to celebrate their anniversary."
+  },
+  {
+    "word": "Adjust",
+    "day": 5,
+    "definition": "To change something slightly, especially to make it more effective or suitable.",
+    "example": "It took some time to adjust to the new working environment."
+  },
+  {
+    "word": "Clap",
+    "day": 5,
+    "definition": "To hit your open hands together, usually repeatedly, in order to show approval or to attract attention.",
+    "example": "The audience stood up to give the performers a big clap."
+  },
+  {
+    "word": "Transmit disease",
+    "day": 5,
+    "definition": "To pass an illness from one person or organism to another.",
+    "example": "Mosquitoes can transmit diseases like malaria."
+  },
+  {
+    "word": "Prize",
+    "day": 5,
+    "definition": "Something valuable won in a competition or lottery.",
+    "example": "She was very excited to receive a prize for her excellent essay."
+  },
+  {
+    "word": "Angle",
+    "day": 5,
+    "definition": "The space between two lines or surfaces that meet.",
+    "example": "The photographer shot the building from an unusual angle."
+  },
+  {
+    "word": "Vision",
+    "day": 5,
+    "definition": "The ability to see.",
+    "example": "Regular eye exams are important for maintaining good vision."
+  },
+  {
+    "word": "Meantime",
+    "day": 5,
+    "definition": "The intervening time.",
+    "example": "The report will be ready next week; in the meantime, please review these notes."
+  },
+  {
+    "word": "Convene",
+    "day": 5,
+    "definition": "To arrange for people to come together for a formal meeting.",
+    "example": "The committee will convene next Tuesday to discuss the new policy."
+  },
+  {
+    "word": "Empathy",
+    "day": 5,
+    "definition": "The ability to understand and share the feelings of another.",
+    "example": "Having empathy for others is a crucial part of being a good leader."
+  },
+  {
+    "word": "Drop",
+    "day": 5,
+    "definition": "To let something fall; to make something become lower in amount or level.",
+    "example": "The company had to drop the prices sharply to attract more customers."
+  }
+]

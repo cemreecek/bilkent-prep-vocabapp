@@ -1,0 +1,350 @@
+[
+  {
+    "word": "Rapidly",
+    "day": 1,
+    "definition": "Done quickly or at a fast speed.",
+    "example": "Technology is advancing rapidly, changing how we live and work."
+  },
+  {
+    "word": "Employ",
+    "day": 1,
+    "definition": "To use something for a particular purpose, or to hire someone for work.",
+    "example": "The company plans to employ new strategies to increase sales."
+  },
+  {
+    "word": "Purchase",
+    "day": 1,
+    "definition": "To buy something.",
+    "example": "She decided to purchase a new laptop for her studies."
+  },
+  {
+    "word": "Counter-argument",
+    "day": 1,
+    "definition": "An argument made to oppose or disagree with another argument.",
+    "example": "The students presented a strong counter-argument to the teacher's point."
+  },
+  {
+    "word": "Interpretation",
+    "day": 1,
+    "definition": "The way someone understands or explains something.",
+    "example": "Different cultures often have different interpretations of art."
+  },
+  {
+    "word": "Logic",
+    "day": 1,
+    "definition": "A way of thinking or reasoning about something using facts and clear steps.",
+    "example": "His argument followed a clear and sound logic."
+  },
+  {
+    "word": "Capable",
+    "day": 1,
+    "definition": "Having the ability or qualities necessary to do something.",
+    "example": "She is capable of handling complex tasks and responsibilities."
+  },
+  {
+    "word": "Desire",
+    "day": 1,
+    "definition": "A strong wish for something.",
+    "example": "Many people have a strong desire to succeed in their careers."
+  },
+  {
+    "word": "Conclude",
+    "day": 1,
+    "definition": "To bring something to an end, or to decide something after careful thought.",
+    "example": "The report concludes that more research is needed on the topic."
+  },
+  {
+    "word": "Eventually",
+    "day": 1,
+    "definition": "In the end, especially after a lot of delays, problems, or changes.",
+    "example": "After many struggles, he eventually achieved his goal of becoming a doctor."
+  },
+  {
+    "word": "Sceptical",
+    "day": 1,
+    "definition": "Having doubts about whether something is true or useful.",
+    "example": "Scientists are often sceptical of claims that lack sufficient evidence."
+  },
+  {
+    "word": "Donate",
+    "day": 2,
+    "definition": "To give money or goods to a charity or organization, especially to help people.",
+    "example": "Many people choose to donate blood to help those in need."
+  },
+  {
+    "word": "Initially",
+    "day": 2,
+    "definition": "At the beginning; at first.",
+    "example": "Initially, the project seemed difficult, but we managed to complete it successfully."
+  },
+  {
+    "word": "Ancient",
+    "day": 2,
+    "definition": "Belonging to a very distant past and no longer in existence.",
+    "example": "They studied ancient civilizations like the Egyptians and Romans."
+  },
+  {
+    "word": "Exclusive",
+    "day": 2,
+    "definition": "Limited to only one person or group and not shared with others, or high-class and expensive.",
+    "example": "This club has an exclusive membership, only allowing certain people to join."
+  },
+  {
+    "word": "Intellectual",
+    "day": 2,
+    "definition": "Relating to the ability to think and understand ideas and information.",
+    "example": "Reading books helps to develop strong intellectual skills."
+  },
+  {
+    "word": "Command",
+    "day": 2,
+    "definition": "To order someone to do something, or to have control or authority over something.",
+    "example": "The general commanded his troops to advance towards the enemy."
+  },
+  {
+    "word": "Capacity",
+    "day": 2,
+    "definition": "The maximum amount that something can contain or produce, or someone's ability to do something.",
+    "example": "The stadium has a seating capacity of 50,000 people."
+  },
+  {
+    "word": "Lively",
+    "day": 2,
+    "definition": "Full of life and energy; active and outgoing.",
+    "example": "The discussion became very lively as everyone shared their opinions."
+  },
+  {
+    "word": "Unconscious",
+    "day": 2,
+    "definition": "Not aware of what is happening around you, often because you are asleep or have been hit.",
+    "example": "He fell and was unconscious for a few minutes after hitting his head."
+  },
+  {
+    "word": "Extraordinary",
+    "day": 2,
+    "definition": "Very unusual or remarkable; much greater or more impressive than usual.",
+    "example": "She showed extraordinary talent at a young age, surprising everyone."
+  },
+  {
+    "word": "Specifically",
+    "day": 2,
+    "definition": "In a precise or exact way.",
+    "example": "The instructions specifically stated not to use a certain type of tool."
+  },
+  {
+    "word": "Censor",
+    "day": 3,
+    "definition": "To remove parts of a book, film, letter, etc., that are considered offensive or politically unacceptable.",
+    "example": "The government decided to censor parts of the news report before it was broadcast."
+  },
+  {
+    "word": "Impose",
+    "day": 3,
+    "definition": "To force a law, idea, tax, or punishment to be accepted or put in place.",
+    "example": "The school will impose new rules on students regarding mobile phone usage."
+  },
+  {
+    "word": "Incoherent",
+    "day": 3,
+    "definition": "Expressed in a confused and unclear way, or unable to be understood.",
+    "example": "After the accident, his speech was incoherent, making it hard to understand what happened."
+  },
+  {
+    "word": "Struggle",
+    "day": 3,
+    "definition": "To try very hard to do something that is difficult, or a difficult fight or effort.",
+    "example": "She had to struggle to finish the marathon, but she persevered."
+  },
+  {
+    "word": "Reject",
+    "day": 3,
+    "definition": "To refuse to accept or believe something.",
+    "example": "The committee decided to reject the proposal due to lack of funding."
+  },
+  {
+    "word": "Accomplish",
+    "day": 3,
+    "definition": "To succeed in doing something difficult.",
+    "example": "With hard work and dedication, you can accomplish your goals."
+  },
+  {
+    "word": "Decline",
+    "day": 3,
+    "definition": "To become smaller, fewer, or less in quality, or to politely refuse an offer or invitation.",
+    "example": "The number of students choosing that subject has declined over the past few years."
+  },
+  {
+    "word": "Formerly",
+    "day": 3,
+    "definition": "In the past; previously.",
+    "example": "This building was formerly a bank before it was converted into apartments."
+  },
+  {
+    "word": "Conquer",
+    "day": 3,
+    "definition": "To take control of a country or city by force, or to successfully deal with a problem or fear.",
+    "example": "The army attempted to conquer the enemy territory after a long battle."
+  },
+  {
+    "word": "Innocent",
+    "day": 3,
+    "definition": "Not guilty of a crime or bad action, or not intending to harm anyone.",
+    "example": "The jury found the accused innocent after reviewing all the evidence."
+  },
+  {
+    "word": "Hint",
+    "day": 3,
+    "definition": "To suggest something indirectly (verb), or a slight sign or suggestion (noun).",
+    "example": "She dropped a hint about what she wanted for her birthday, but he didn't understand."
+  },
+  {
+    "word": "Eliminate",
+    "day": 3,
+    "definition": "To completely remove or get rid of something.",
+    "example": "The company aims to eliminate waste from its production process to be more efficient."
+  },
+  {
+    "word": "Mental",
+    "day": 4,
+    "definition": "Relating to the mind, or involving the process of thinking.",
+    "example": "Regular exercise is good for both physical and mental health."
+  },
+  {
+    "word": "Sensitive",
+    "day": 4,
+    "definition": "Easily affected, upset, or damaged by something.",
+    "example": "Some people are very sensitive to caffeine and cannot drink it in the evening."
+  },
+  {
+    "word": "Apply",
+    "day": 4,
+    "definition": "To use an idea, method, or law in a particular situation, or to formally request something.",
+    "example": "You need to apply this theory to real-world problems to see its effectiveness."
+  },
+  {
+    "word": "Roughly",
+    "day": 4,
+    "definition": "Approximately, but not exactly.",
+    "example": "The project will cost roughly ten thousand dollars to complete."
+  },
+  {
+    "word": "Honour",
+    "day": 4,
+    "definition": "Great respect and admiration for someone, or to show respect for someone.",
+    "example": "Soldiers fought with honour for their country and its people."
+  },
+  {
+    "word": "Occupy",
+    "day": 4,
+    "definition": "To live or stay in a place, or to take up space or time.",
+    "example": "The new factory will occupy a large area of land outside the city."
+  },
+  {
+    "word": "Classify",
+    "day": 4,
+    "definition": "To arrange something into groups according to shared qualities.",
+    "example": "Biologists classify animals into different species based on their characteristics."
+  },
+  {
+    "word": "Attend",
+    "day": 4,
+    "definition": "To go to an event, place, or meeting.",
+    "example": "She will attend the conference next week to learn about new research."
+  },
+  {
+    "word": "Contrary",
+    "day": 4,
+    "definition": "Opposite in nature, direction, or meaning.",
+    "example": "Contrary to popular belief, cats do not always land on their feet."
+  },
+  {
+    "word": "Loyal",
+    "day": 4,
+    "definition": "Always supporting someone or something.",
+    "example": "The dog was very loyal to its owner and always stayed by his side."
+  },
+  {
+    "word": "Cope",
+    "day": 4,
+    "definition": "To deal successfully with a difficult situation.",
+    "example": "It's important to learn how to cope with stress effectively in daily life."
+  },
+  {
+    "word": "Estimate",
+    "day": 4,
+    "definition": "To guess or calculate approximately the cost, size, value, etc., of something.",
+    "example": "They estimated the damage at over a thousand dollars after the storm."
+  },
+  {
+    "word": "Urgent",
+    "day": 5,
+    "definition": "Very important and needing to be dealt with quickly.",
+    "example": "The patient needed urgent medical attention after the accident."
+  },
+  {
+    "word": "Tremendous",
+    "day": 5,
+    "definition": "Very great in amount, scale, or intensity.",
+    "example": "The team made a tremendous effort to win the game in the final minutes."
+  },
+  {
+    "word": "Permanent",
+    "day": 5,
+    "definition": "Lasting for a long time or forever; not temporary.",
+    "example": "She was looking for a permanent job, not just a temporary position."
+  },
+  {
+    "word": "Innate",
+    "day": 5,
+    "definition": "A quality or ability you are born with.",
+    "example": "Some animals have an innate ability to find their way home over long distances."
+  },
+  {
+    "word": "Verbal",
+    "day": 5,
+    "definition": "Relating to words or spoken language.",
+    "example": "The instructions were given verbally, so I wrote them down to remember."
+  },
+  {
+    "word": "Appreciate",
+    "day": 5,
+    "definition": "To recognize how good or useful someone or something is, or to be grateful for something.",
+    "example": "I really appreciate your help with this project; I couldn't have done it alone."
+  },
+  {
+    "word": "Pursue",
+    "day": 5,
+    "definition": "To follow something or someone, usually in order to catch them, or to try to achieve a goal.",
+    "example": "She decided to pursue a career in medicine after graduating from university."
+  },
+  {
+    "word": "Deal",
+    "day": 5,
+    "definition": "To distribute cards, or to handle, manage, or address a situation or problem.",
+    "example": "We need to deal with this problem immediately before it gets worse."
+  },
+  {
+    "word": "Immoral/moral",
+    "day": 5,
+    "definition": "Immoral: not following accepted standards of right and wrong. Moral: following accepted standards of right and wrong.",
+    "example": "Many people consider cheating on an exam to be immoral."
+  },
+  {
+    "word": "Boast",
+    "day": 5,
+    "definition": "To speak too proudly or in a way that shows too much pride about what you have done or what you own.",
+    "example": "He often boasts about his achievements, which can sometimes annoy his friends."
+  },
+  {
+    "word": "Extract",
+    "day": 5,
+    "definition": "To remove or pull out something (verb), or a short passage taken from a book, film, or piece of music (noun).",
+    "example": "Scientists extracted DNA from the ancient bone for further study."
+  },
+  {
+    "word": "Unlikely",
+    "day": 5,
+    "definition": "Not probable or not expected to happen.",
+    "example": "It's unlikely that it will rain tomorrow, as the forecast predicts clear skies."
+  }
+]

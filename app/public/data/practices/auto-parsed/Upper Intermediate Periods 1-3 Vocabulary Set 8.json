@@ -1,0 +1,75 @@
+[
+  {
+    "instruction": "MONDAY Vocabulary",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Handle" },
+      { "questionText": "Ignore" },
+      { "questionText": "Pause" },
+      { "questionText": "Temporary" },
+      { "questionText": "Profession" },
+      { "questionText": "Distribute" },
+      { "questionText": "Warn" },
+      { "questionText": "Grave (n, adj)" },
+      { "questionText": "Homeless" },
+      { "questionText": "Sufficient" },
+      { "questionText": "Disturb" },
+      { "questionText": "Novice" },
+      { "questionText": "Fate" },
+      { "questionText": "Federal" },
+      { "questionText": "Sympathy" },
+      { "questionText": "Feed" },
+      { "questionText": "Oppose" },
+      { "questionText": "Taste (v, n)" },
+      { "questionText": "Rotten" },
+      { "questionText": "Swap" },
+      { "questionText": "Ripe" }
+    ]
+  },
+  {
+    "instruction": "TUESDAY Vocabulary",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Reproduce" },
+      { "questionText": "Strike (v, n)" },
+      { "questionText": "Dense" },
+      { "questionText": "Fatal" },
+      { "questionText": "Minority" },
+      { "questionText": "Passage" },
+      { "questionText": "Role" }
+    ]
+  },
+  {
+    "instruction": "FRIDAY Vocabulary",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Span" },
+      { "questionText": "Structure" },
+      { "questionText": "Saving" },
+      { "questionText": "Welfare" },
+      { "questionText": "Outcome" },
+      { "questionText": "Ministry" }
+    ]
+  },
+  {
+    "instruction": "WEDNESDAY Vocabulary",
+    "type": "word-bank",
+    "items": []
+  },
+  {
+    "instruction": "THURSDAY Vocabulary",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Evil (adj, n)" },
+      { "questionText": "Chain" },
+      { "questionText": "Factor" },
+      { "questionText": "Battle (v, n)" },
+      { "questionText": "Criteria" },
+      { "questionText": "Beg" },
+      { "questionText": "Debt" },
+      { "questionText": "Coincidence" },
+      { "questionText": "Region" },
+      { "questionText": "Sack" }
+    ]
+  }
+]

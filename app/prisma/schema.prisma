@@ -1,0 +1,220 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                String              @id @default(cuid())
+  email             String              @unique
+  password          String?
+  name              String?
+  role              Role                @default(STUDENT)
+  level             Level?
+  classroomId       String?
+  errorScore        Int                 @default(0)
+  createdAt         DateTime            @default(now())
+  updatedAt         DateTime            @updatedAt
+  taughtClasses     Classroom[]         @relation("classroomTeacher")
+  errorLogs         ErrorLog[]
+  flashcardProgress FlashcardProgress[]
+  journalEntries    JournalEntry[]
+  practiceAttempts  PracticeAttempt[]
+  sessions          Session[]
+  streaks           Streak?
+  classroom         Classroom?          @relation("classroomStudents", fields: [classroomId], references: [id])
+
+  @@index([classroomId])
+}
+
+model Classroom {
+  id        String   @id @default(cuid())
+  name      String
+  teacherId String
+  joinCode  String?  @unique @default(cuid())
+  level     Level    @default(Elementary)
+  createdAt DateTime @default(now())
+  teacher   User     @relation("classroomTeacher", fields: [teacherId], references: [id])
+  students  User[]   @relation("classroomStudents")
+}
+
+model VocabList {
+  id                String             @id @default(cuid())
+  level             Level
+  unit              String
+  practiceAttempts  PracticeAttempt[]
+  practiceQuestions PracticeQuestion[]
+  words             VocabWord[]
+}
+
+model VocabWord {
+  id                String              @id @default(cuid())
+  listId            String
+  week              Int                 @default(1)
+  word              String
+  definition        String
+  day               Int                 @default(1)
+  example           String?
+  errorLogs         ErrorLog[]
+  flashcardProgress FlashcardProgress[]
+  practiceResponses PracticeResponse[]
+  list              VocabList           @relation(fields: [listId], references: [id], onDelete: Cascade)
+
+  @@index([listId])
+}
+
+model PracticeQuestion {
+  id            String           @id @default(cuid())
+  listId        String
+  week          Int              @default(1)
+  questionText  String
+  instruction   String
+  type          String
+  correctAnswer String?
+  options       PracticeOption[]
+  list          VocabList        @relation(fields: [listId], references: [id], onDelete: Cascade)
+
+  @@index([listId])
+}
+
+model PracticeOption {
+  id         String           @id @default(cuid())
+  questionId String
+  text       String
+  isCorrect  Boolean
+  blankIndex Int?             @default(1)
+  question   PracticeQuestion @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@index([questionId])
+}
+
+model Session {
+  id        String     @id @default(cuid())
+  userId    String
+  startTime DateTime
+  endTime   DateTime?
+  duration  Int?
+  type      String     @default("practice")
+  createdAt DateTime   @default(now())
+  errorLogs ErrorLog[]
+  user      User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model ErrorLog {
+  id        String    @id @default(cuid())
+  sessionId String
+  wordId    String
+  userId    String
+  timestamp DateTime  @default(now())
+  session   Session   @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  word      VocabWord @relation(fields: [wordId], references: [id])
+
+  @@index([userId])
+  @@index([wordId])
+  @@index([timestamp])
+}
+
+model Streak {
+  id            String    @id @default(cuid())
+  userId        String    @unique
+  currentStreak Int       @default(0)
+  lastLogin     DateTime?
+  totalPoints   Int       @default(0)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  user          User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model JournalEntry {
+  id           String   @id @default(cuid())
+  userId       String
+  word         String
+  definition   String
+  collocations String
+  sentence     String
+  difficulty   Int      @default(1)
+  source       String?
+  tags         String[] @default([])
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([createdAt])
+}
+
+model FlashcardProgress {
+  id           String    @id @default(cuid())
+  userId       String
+  wordId       String
+  totalReviews Int       @default(0)
+  correctCount Int       @default(0)
+  easeFactor   Float     @default(2.5)
+  interval     Int       @default(1)
+  nextReviewAt DateTime?
+  difficulty   Int       @default(0)
+  lastReviewAt DateTime?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+  user         User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  word         VocabWord @relation(fields: [wordId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, wordId])
+  @@index([userId])
+  @@index([nextReviewAt])
+}
+
+model PracticeAttempt {
+  id           String             @id @default(cuid())
+  userId       String
+  listId       String
+  practiceMode String
+  totalItems   Int
+  correctCount Int
+  duration     Int
+  createdAt    DateTime           @default(now())
+  list         VocabList          @relation(fields: [listId], references: [id], onDelete: Cascade)
+  user         User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  responses    PracticeResponse[]
+}
+
+model PracticeResponse {
+  id           String          @id @default(cuid())
+  attemptId    String
+  wordId       String
+  userResponse String
+  isCorrect    Boolean
+  timeSpent    Int
+  createdAt    DateTime        @default(now())
+  attempt      PracticeAttempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  word         VocabWord       @relation(fields: [wordId], references: [id])
+
+  @@index([attemptId])
+  @@index([wordId])
+}
+
+model SystemEvent {
+  id          String   @id @default(cuid())
+  title       String
+  description String?
+  type        String   @default("INFO")
+  createdAt   DateTime @default(now())
+}
+
+enum Role {
+  ADMIN
+  TEACHER
+  STUDENT
+}
+
+enum Level {
+  Elementary
+  PreIntermediate
+  Intermediate
+  UpperIntermediate
+  PreFac
+}

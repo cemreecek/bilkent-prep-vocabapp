@@ -1,0 +1,293 @@
+[
+  {
+    "instruction": "Match the words in column A with their definitions in column B.",
+    "type": "matching",
+    "items": [
+      {
+        "questionText": "Conduct",
+        "correctAnswer": "a) to carry out a particular activity or process, especially in order to get information or prove facts  b) to stand in front of a group of musicians or singers and direct their playing or singing"
+      },
+      {
+        "questionText": "Aim (v)",
+        "correctAnswer": "to try or intend to achieve something"
+      },
+      {
+        "questionText": "Artefact",
+        "correctAnswer": "an object that was made in the distant past and is historically important"
+      },
+      {
+        "questionText": "Primitive",
+        "correctAnswer": "a) belonging to a simple way of life that existed in the past and does not have modern industries and machines  b) (not modern) something that is very simple and does not have the extra modern parts that would make it faster, better, more comfortable, etc."
+      },
+      {
+        "questionText": "Pause",
+        "correctAnswer": "to stop doing something for a short time before starting again"
+      },
+      {
+        "questionText": "Impose",
+        "correctAnswer": "a) to force someone to accept something like a rule, belief, or system  b) to take advantage of someone by demanding their support or attention"
+      },
+      {
+        "questionText": "Justify",
+        "correctAnswer": "to give an acceptable explanation for something that other people think is unreasonable"
+      },
+      {
+        "questionText": "Deny",
+        "correctAnswer": "to say that something is not true, or that you do not believe something"
+      },
+      {
+        "questionText": "Generate",
+        "correctAnswer": "to produce or cause something"
+      },
+      {
+        "questionText": "Opponent",
+        "correctAnswer": "a) someone who you try to defeat in a competition, game, fight, or argument  b) someone who disagrees with a plan, idea, or system and wants to try to stop or change it"
+      }
+    ]
+  },
+  {
+    "instruction": "Complete the collocation categories using the correct verbs from the box: justify, pause, conduct, aim, impose, generate, deny.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "_______ doing something / a decision / your actions / an expense",
+        "correctAnswer": "justify",
+        "options": []
+      },
+      {
+        "questionText": "_______ for a moment / for breath / to do something",
+        "correctAnswer": "pause",
+        "options": []
+      },
+      {
+        "questionText": "_______ a survey or investigation / a research / study / an experiment / a test / a campaign / an interview / an orchestra",
+        "correctAnswer": "conduct",
+        "options": []
+      },
+      {
+        "questionText": "_______ to do something / for something / at something",
+        "correctAnswer": "aim",
+        "options": []
+      },
+      {
+        "questionText": "_______ something on something /somebody / a ban / a tax / your own moral values on somebody / a burden / hardship on sb",
+        "correctAnswer": "impose",
+        "options": []
+      },
+      {
+        "questionText": "_______ excitement / interest / support / profit / income / new ideas",
+        "correctAnswer": "generate",
+        "options": []
+      },
+      {
+        "questionText": "_______ that + Clause (Subject + Verb) / doing something / any involvement in something / a rumor / a claim / strongly _______ something",
+        "correctAnswer": "deny",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the blanks with the correct word. There are 2 extra words.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Conspiracy theories have become increasingly common among the public, with their supporters who argue that they {1} hidden truths. While some may believe that these theories can increase the awareness of certain issues, there are significant {2} of such beliefs since these lead to negative outcomes.\n\nOne of the {3} concerns surrounding conspiracy theories is the misinformation and mistrust they can create as they lead to more serious issues. In these circles, even a random {4} is often seen as further evidence but regarding these instances as proof is illogical.\n\nThose who {5} conspiracy theories emphasize the potential harm they can cause, particularly when they gain popularity among a minority of the population. The spread of false information can have serious consequences, from undermining trust in sources to causing societal divisions and unrest.\n\nIt's essential to stay curious and question what we're told, but it's just as important to be careful with conspiracy theories. We should look at them with a critical eye and think about the evidence before regarding these theories as {6}. Finding a balance between wanting to uncover the truth and respecting facts is key when dealing with conspiracy theories.",
+        "options": [
+          [
+            { "text": "irritate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "reveal", "isCorrect": true, "blankIndex": 1 },
+            { "text": "oppose", "isCorrect": false, "blankIndex": 1 },
+            { "text": "nonsense", "isCorrect": false, "blankIndex": 1 },
+            { "text": "handle", "isCorrect": false, "blankIndex": 1 },
+            { "text": "drawbacks", "isCorrect": false, "blankIndex": 1 },
+            { "text": "grave", "isCorrect": false, "blankIndex": 1 },
+            { "text": "coincidence", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "irritate", "isCorrect": false, "blankIndex": 2 },
+            { "text": "reveal", "isCorrect": false, "blankIndex": 2 },
+            { "text": "oppose", "isCorrect": false, "blankIndex": 2 },
+            { "text": "nonsense", "isCorrect": false, "blankIndex": 2 },
+            { "text": "handle", "isCorrect": false, "blankIndex": 2 },
+            { "text": "drawbacks", "isCorrect": true, "blankIndex": 2 },
+            { "text": "grave", "isCorrect": false, "blankIndex": 2 },
+            { "text": "coincidence", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "irritate", "isCorrect": false, "blankIndex": 3 },
+            { "text": "reveal", "isCorrect": false, "blankIndex": 3 },
+            { "text": "oppose", "isCorrect": false, "blankIndex": 3 },
+            { "text": "nonsense", "isCorrect": false, "blankIndex": 3 },
+            { "text": "handle", "isCorrect": false, "blankIndex": 3 },
+            { "text": "drawbacks", "isCorrect": false, "blankIndex": 3 },
+            { "text": "grave", "isCorrect": true, "blankIndex": 3 },
+            { "text": "coincidence", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "irritate", "isCorrect": false, "blankIndex": 4 },
+            { "text": "reveal", "isCorrect": false, "blankIndex": 4 },
+            { "text": "oppose", "isCorrect": false, "blankIndex": 4 },
+            { "text": "nonsense", "isCorrect": false, "blankIndex": 4 },
+            { "text": "handle", "isCorrect": false, "blankIndex": 4 },
+            { "text": "drawbacks", "isCorrect": false, "blankIndex": 4 },
+            { "text": "grave", "isCorrect": false, "blankIndex": 4 },
+            { "text": "coincidence", "isCorrect": true, "blankIndex": 4 }
+          ],
+          [
+            { "text": "irritate", "isCorrect": false, "blankIndex": 5 },
+            { "text": "reveal", "isCorrect": false, "blankIndex": 5 },
+            { "text": "oppose", "isCorrect": true, "blankIndex": 5 },
+            { "text": "nonsense", "isCorrect": false, "blankIndex": 5 },
+            { "text": "handle", "isCorrect": false, "blankIndex": 5 },
+            { "text": "drawbacks", "isCorrect": false, "blankIndex": 5 },
+            { "text": "grave", "isCorrect": false, "blankIndex": 5 },
+            { "text": "coincidence", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "irritate", "isCorrect": false, "blankIndex": 6 },
+            { "text": "reveal", "isCorrect": false, "blankIndex": 6 },
+            { "text": "oppose", "isCorrect": false, "blankIndex": 6 },
+            { "text": "nonsense", "isCorrect": true, "blankIndex": 6 },
+            { "text": "handle", "isCorrect": false, "blankIndex": 6 },
+            { "text": "drawbacks", "isCorrect": false, "blankIndex": 6 },
+            { "text": "grave", "isCorrect": false, "blankIndex": 6 },
+            { "text": "coincidence", "isCorrect": false, "blankIndex": 6 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Choose the correct option to complete the blanks in the text about Conspiracy Theories.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Conspiracy theories have always been a topic of fascination and they have always captured people’s attention and sparked debates. While some may dismiss them as baseless claims, others find themselves drawn to alternative stories that challenge mainstream explanations.\n\nOne of the reasons why conspiracy theories emerge is our {1} to question and seek alternative explanations. When faced with complex or uncertain events, people may have a/an {2} to look beyond official accounts in search of a deeper truth. Social factors also contribute to the appeal of conspiracy theories. In some cases, conspiracy theories provide a sense of community and belonging as individuals with shared beliefs come together to support and validate their views. The Internet and social media platforms have amplified this effect by creating echo chambers, where individuals are {3} to like-minded people and information that reinforces their beliefs.\n\nAlthough some conspiracy theories may occasionally be based on truth, critical thinking, open-mindedness and a reliance on reputable sources of information can help people navigate the complex landscape of information and make more informed judgements. It is important to {4} these theories with a critical lens. In other words, we have to be very careful before reaching a/an {5}.",
+        "options": [
+          [
+            { "text": "crisis", "isCorrect": false, "blankIndex": 1 },
+            { "text": "instinct", "isCorrect": true, "blankIndex": 1 },
+            { "text": "aspect", "isCorrect": false, "blankIndex": 1 },
+            { "text": "circumstance", "isCorrect": false, "blankIndex": 1 },
+            { "text": "resistance", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "association", "isCorrect": false, "blankIndex": 2 },
+            { "text": "dimension", "isCorrect": false, "blankIndex": 2 },
+            { "text": "tendency", "isCorrect": true, "blankIndex": 2 },
+            { "text": "reputation", "isCorrect": false, "blankIndex": 2 },
+            { "text": "urgency", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "claimed", "isCorrect": false, "blankIndex": 3 },
+            { "text": "abandoned", "isCorrect": false, "blankIndex": 3 },
+            { "text": "inspired", "isCorrect": false, "blankIndex": 3 },
+            { "text": "appreciated", "isCorrect": false, "blankIndex": 3 },
+            { "text": "exposed", "isCorrect": true, "blankIndex": 3 }
+          ],
+          [
+            { "text": "evaluate", "isCorrect": true, "blankIndex": 4 },
+            { "text": "demonstrate", "isCorrect": false, "blankIndex": 4 },
+            { "text": "reveal", "isCorrect": false, "blankIndex": 4 },
+            { "text": "encounter", "isCorrect": false, "blankIndex": 4 },
+            { "text": "fulfill", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "morality", "isCorrect": false, "blankIndex": 5 },
+            { "text": "implementation", "isCorrect": false, "blankIndex": 5 },
+            { "text": "perspective", "isCorrect": false, "blankIndex": 5 },
+            { "text": "conclusion", "isCorrect": true, "blankIndex": 5 },
+            { "text": "accountability", "isCorrect": false, "blankIndex": 5 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Write the correct form of the words in parentheses to complete the sentences below.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "There are many who ______ conspiracy theories based on a lack of evidence. (OPPOSITION)",
+        "correctAnswer": "oppose",
+        "options": []
+      },
+      {
+        "questionText": "Her response to them was clearly ______ as she does not believe them. (SARCASM)",
+        "correctAnswer": "sarcastic",
+        "options": []
+      },
+      {
+        "questionText": "A ______ was sent about the newest conspiracy theory being spread by email. (WARN)",
+        "correctAnswer": "warning",
+        "options": []
+      },
+      {
+        "questionText": "Amidst all of the misinformation and rumors, it is not easy to ______ what the media is saying. (TRUSTWORTHY)",
+        "correctAnswer": "trust",
+        "options": []
+      },
+      {
+        "questionText": "COVID-19 caused quite a ______ by affecting our everyday lives. (DISTURB)",
+        "correctAnswer": "disturbance",
+        "options": []
+      },
+      {
+        "questionText": "Another conspiracy theory has started based on some people’s ______ about the origins of COVID-19. (SUSPECT)",
+        "correctAnswer": "suspicions",
+        "options": []
+      },
+      {
+        "questionText": "In order to support their theory, they chose to ______ some important information. (EXCLUSION)",
+        "correctAnswer": "exclude",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Choose the best word from the box to complete the sentences below. There are 2 extra words: ignore, ensure, crisis, elect, sufficient, efforts, sympathetic, minority, accelerate, shameful.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "There is not ______ evidence to believe what you are saying.",
+        "correctAnswer": "sufficient",
+        "options": []
+      },
+      {
+        "questionText": "We need to take responsibility for our role in the climate ______.",
+        "correctAnswer": "crisis",
+        "options": []
+      },
+      {
+        "questionText": "Although the Internet and social media can certainly ______ the exposure and circulation of conspiracy theories, it is not a recent phenomenon.",
+        "correctAnswer": "accelerate",
+        "options": []
+      },
+      {
+        "questionText": "We must ______ that we are not being misinformed by thinking critically and checking our sources.",
+        "correctAnswer": "ensure",
+        "options": []
+      },
+      {
+        "questionText": "Those who believe in these conspiracy theories are in the ______.",
+        "correctAnswer": "minority",
+        "options": []
+      },
+      {
+        "questionText": "We should not ______ any facts when forming an opinion.",
+        "correctAnswer": "ignore",
+        "options": []
+      },
+      {
+        "questionText": "It is ______ to intentionally spread misinformation.",
+        "correctAnswer": "shameful",
+        "options": []
+      },
+      {
+        "questionText": "There are ______ being made to combat and counteract conspiracy theories.",
+        "correctAnswer": "efforts",
+        "options": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "instruction": "Study the vocabulary words for Monday.",
+    "type": "open-ended",
+    "items": [
+      {
+        "questionText": "Rapidly"
+      },
+      {
+        "questionText": "Employ"
+      },
+      {
+        "questionText": "Purchase"
+      },
+      {
+        "questionText": "Counter-argument"
+      },
+      {
+        "questionText": "Interpretation"
+      },
+      {
+        "questionText": "Logic"
+      },
+      {
+        "questionText": "Capable"
+      },
+      {
+        "questionText": "Desire"
+      },
+      {
+        "questionText": "Conclude"
+      },
+      {
+        "questionText": "Eventually"
+      },
+      {
+        "questionText": "Sceptical"
+      }
+    ]
+  },
+  {
+    "instruction": "Study the vocabulary words for Tuesday.",
+    "type": "open-ended",
+    "items": [
+      {
+        "questionText": "Donate"
+      },
+      {
+        "questionText": "Initially"
+      },
+      {
+        "questionText": "Ancient"
+      },
+      {
+        "questionText": "Exclusive"
+      },
+      {
+        "questionText": "Intellectual"
+      },
+      {
+        "questionText": "Command"
+      },
+      {
+        "questionText": "Capacity"
+      },
+      {
+        "questionText": "Lively"
+      },
+      {
+        "questionText": "Unconscious"
+      },
+      {
+        "questionText": "Extraordinary"
+      },
+      {
+        "questionText": "Specifically"
+      }
+    ]
+  },
+  {
+    "instruction": "Study the vocabulary words for Wednesday.",
+    "type": "open-ended",
+    "items": [
+      {
+        "questionText": "Censor"
+      },
+      {
+        "questionText": "Impose"
+      },
+      {
+        "questionText": "Incoherent"
+      },
+      {
+        "questionText": "Struggle"
+      },
+      {
+        "questionText": "Reject"
+      },
+      {
+        "questionText": "Accomplish"
+      },
+      {
+        "questionText": "Decline"
+      },
+      {
+        "questionText": "Formerly"
+      },
+      {
+        "questionText": "Conquer"
+      },
+      {
+        "questionText": "Innocent"
+      },
+      {
+        "questionText": "Hint (v, n)"
+      },
+      {
+        "questionText": "Eliminate"
+      }
+    ]
+  },
+  {
+    "instruction": "Study the vocabulary words for Thursday.",
+    "type": "open-ended",
+    "items": [
+      {
+        "questionText": "Mental"
+      },
+      {
+        "questionText": "Sensitive"
+      },
+      {
+        "questionText": "Apply"
+      },
+      {
+        "questionText": "Roughly"
+      },
+      {
+        "questionText": "Honour"
+      },
+      {
+        "questionText": "Occupy"
+      },
+      {
+        "questionText": "Classify"
+      },
+      {
+        "questionText": "Attend"
+      },
+      {
+        "questionText": "Contrary"
+      },
+      {
+        "questionText": "Loyal"
+      },
+      {
+        "questionText": "Cope"
+      },
+      {
+        "questionText": "Estimate"
+      }
+    ]
+  },
+  {
+    "instruction": "Study the vocabulary words for Friday.",
+    "type": "open-ended",
+    "items": [
+      {
+        "questionText": "Urgent"
+      },
+      {
+        "questionText": "Tremendous"
+      },
+      {
+        "questionText": "Permanent"
+      },
+      {
+        "questionText": "Innate"
+      },
+      {
+        "questionText": "Verbal"
+      },
+      {
+        "questionText": "Appreciate"
+      },
+      {
+        "questionText": "Pursue"
+      },
+      {
+        "questionText": "Deal"
+      },
+      {
+        "questionText": "Immoral/moral"
+      },
+      {
+        "questionText": "Boast"
+      },
+      {
+        "questionText": "Extract (v, n)"
+      },
+      {
+        "questionText": "Unlikely"
+      }
+    ]
+  }
+]

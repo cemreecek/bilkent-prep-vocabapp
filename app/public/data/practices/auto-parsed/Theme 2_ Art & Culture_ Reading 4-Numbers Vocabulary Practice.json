@@ -1,0 +1,335 @@
+[
+  {
+    "instruction": "Fill in the blanks with an appropriate word from the box below. There are more words than you need.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Linguistics, the study of language, reveals the fascinating role that numbers play in our everyday communication. We can discover the exact place or position of objects or events using numbers. For instance, we can {1} the coordinates of a point on a map or determine the specific page number in a book. Numbers not only provide us with a means to quantify and find objects, but they also {2} in various linguistic structures and hold cultural significance.\n\nIn some cases, cultural institutions may {3} linguists into their research programs, giving them the opportunity to study the intricate relationship between numbers and language. In some cases, cultural institutions may {4} research funding to linguists studying the complicated relationship between numbers and language. This financial support allows researchers to understand how numbers shape our linguistic expressions and cultural interpretations.\n\nWhen it comes to communication, numbers are essential for expressing quantities. We use them to describe the size of things, such as \"a {5} eggs\" or \"a hundred dollars. They help in understanding measurements, distances, and even time. Without numbers, our descriptions would be {6}, and it would be challenging to convey detailed information.\n\nInterestingly, numbers have cultural and symbolic significance. For instance, the number \"7\" is often associated with good fortune, while \"13\" is believed to bring bad luck. These cultural associations {7} that numbers are not merely symbols but carry deeper meanings within various cultural contexts.\n\nIn conclusion, numbers are an essential part of language and linguistics. They allow us to quantify and classify objects, events, and ideas. They play a {8} in our everyday communication, ensuring accuracy and clarity.",
+        "options": [
+          [
+            { "text": "Locate", "isCorrect": true, "blankIndex": 1 },
+            { "text": "Occur", "isCorrect": false, "blankIndex": 1 },
+            { "text": "Admit", "isCorrect": false, "blankIndex": 1 },
+            { "text": "Grant", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "Occur", "isCorrect": true, "blankIndex": 2 },
+            { "text": "Locate", "isCorrect": false, "blankIndex": 2 },
+            { "text": "Factor", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "Admit", "isCorrect": true, "blankIndex": 3 },
+            { "text": "Grant", "isCorrect": false, "blankIndex": 3 },
+            { "text": "Claim", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "Grant", "isCorrect": true, "blankIndex": 4 },
+            { "text": "Admit", "isCorrect": false, "blankIndex": 4 },
+            { "text": "Scale", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "Dozen", "isCorrect": true, "blankIndex": 5 },
+            { "text": "Incomplete", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "Incomplete", "isCorrect": true, "blankIndex": 6 },
+            { "text": "Relevant", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "Demonstrate", "isCorrect": true, "blankIndex": 7 },
+            { "text": "Relevant", "isCorrect": false, "blankIndex": 7 }
+          ],
+          [
+            { "text": "Factor", "isCorrect": true, "blankIndex": 8 },
+            { "text": "Factors", "isCorrect": false, "blankIndex": 8 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Complete the table and write the other forms of the words.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "1. Verb: admit -> Noun: ______",
+        "correctAnswer": "admission",
+        "options": []
+      },
+      {
+        "questionText": "2. Verb: punch -> Noun: ______",
+        "correctAnswer": "punch",
+        "options": []
+      },
+      {
+        "questionText": "3. Verb: locate / ______",
+        "correctAnswer": "dislocate",
+        "options": []
+      },
+      {
+        "questionText": "3. Noun: location / ______",
+        "correctAnswer": "dislocation",
+        "options": []
+      },
+      {
+        "questionText": "4. Noun: motion -> Adjective: ______",
+        "correctAnswer": "motionless",
+        "options": []
+      },
+      {
+        "questionText": "5. Adjective: shameful / shameless -> Noun: ______",
+        "correctAnswer": "shame",
+        "options": []
+      },
+      {
+        "questionText": "5. Adjective: shameful / shameless -> Adverbs: ______ / ______",
+        "correctAnswer": "shamelessly / shamefully",
+        "options": []
+      },
+      {
+        "questionText": "6. Verb: complete -> Noun: ______",
+        "correctAnswer": "completion",
+        "options": []
+      },
+      {
+        "questionText": "6. Verb: complete -> Adjectives: ______ / ______",
+        "correctAnswer": "incomplete / complete",
+        "options": []
+      },
+      {
+        "questionText": "6. Verb: complete -> Adverb: ______",
+        "correctAnswer": "completely",
+        "options": []
+      },
+      {
+        "questionText": "7. Verb: satisfy -> Nouns: ______ / ______",
+        "correctAnswer": "satisfaction / (dis)satisfaction",
+        "options": []
+      },
+      {
+        "questionText": "7. Verb: satisfy -> Adjectives: ______ / ______ / ______",
+        "correctAnswer": "(un)satisfactory / (dis)satisfied / satisfying",
+        "options": []
+      },
+      {
+        "questionText": "7. Verb: satisfy -> Adverbs: ______ / ______",
+        "correctAnswer": "(un)satisfactorily / satisfyingly",
+        "options": []
+      },
+      {
+        "questionText": "8. Noun: consistency -> Adjectives: consistent / ______",
+        "correctAnswer": "inconsistent",
+        "options": []
+      },
+      {
+        "questionText": "8. Noun: consistency -> Adverbs: ______",
+        "correctAnswer": "(in)consistently",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the blanks with a word from the chart.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "1. to throw a powerful/knockout ______",
+        "correctAnswer": "punch",
+        "options": []
+      },
+      {
+        "questionText": "2. to be filled with ______",
+        "correctAnswer": "shame",
+        "options": []
+      },
+      {
+        "questionText": "3. the precise/exact/specific ______",
+        "correctAnswer": "location",
+        "options": []
+      },
+      {
+        "questionText": "4. ______ between your work and your beliefs",
+        "correctAnswer": "consistency",
+        "options": []
+      },
+      {
+        "questionText": "5. to ______ a shoulder",
+        "correctAnswer": "dislocate",
+        "options": []
+      },
+      {
+        "questionText": "6. to ______ (doing sthg) to ______ that + sentence",
+        "correctAnswer": "admit",
+        "options": []
+      },
+      {
+        "questionText": "7. to ______ someone's needs, demands",
+        "correctAnswer": "satisfy",
+        "options": []
+      },
+      {
+        "questionText": "8. ______ control of the situation",
+        "correctAnswer": "complete",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Read the text and fill in the blanks with the words in Exercise 2A. There are two extra words.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Numbers play a crucial role in our daily lives, offering precision and clarity in various tasks. They {1} us into a world where calculations and measurements are essential for understanding. Whether it's counting money, checking the time, or following a recipe, numbers {2} our need for accuracy.\n\nTheir {3} ensures reliability in fields like science and finance, where predictable outcomes are valued. However, when data is incomplete or difficult to {4}, it can be frustrating. It's a {5} when we can't find exact numbers, as this can affect decision-making and planning.\n\nDespite these challenges, numbers drive progress and innovation. They provide a common language across cultures and disciplines, enabling collaboration and advancement. In essence, numbers are more than symbols; they are the {6} behind our everyday actions and the foundation of knowledge that shapes our world.",
+        "options": [
+          [
+            { "text": "admit", "isCorrect": true, "blankIndex": 1 },
+            { "text": "satisfy", "isCorrect": false, "blankIndex": 1 },
+            { "text": "locate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "punch", "isCorrect": false, "blankIndex": 1 },
+            { "text": "motion", "isCorrect": false, "blankIndex": 1 },
+            { "text": "consistency", "isCorrect": false, "blankIndex": 1 },
+            { "text": "complete", "isCorrect": false, "blankIndex": 1 },
+            { "text": "shame", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "satisfy", "isCorrect": true, "blankIndex": 2 },
+            { "text": "admit", "isCorrect": false, "blankIndex": 2 },
+            { "text": "motion", "isCorrect": false, "blankIndex": 2 },
+            { "text": "shame", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "consistency", "isCorrect": true, "blankIndex": 3 },
+            { "text": "complete", "isCorrect": false, "blankIndex": 3 },
+            { "text": "shame", "isCorrect": false, "blankIndex": 3 },
+            { "text": "motion", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "locate", "isCorrect": true, "blankIndex": 4 },
+            { "text": "punch", "isCorrect": false, "blankIndex": 4 },
+            { "text": "motion", "isCorrect": false, "blankIndex": 4 },
+            { "text": "admit", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "shame", "isCorrect": true, "blankIndex": 5 },
+            { "text": "complete", "isCorrect": false, "blankIndex": 5 },
+            { "text": "consistency", "isCorrect": false, "blankIndex": 5 },
+            { "text": "motion", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "motion", "isCorrect": true, "blankIndex": 6 },
+            { "text": "admit", "isCorrect": false, "blankIndex": 6 },
+            { "text": "complete", "isCorrect": false, "blankIndex": 6 },
+            { "text": "satisfy", "isCorrect": false, "blankIndex": 6 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Match the words with their definitions on the right.",
+    "type": "matching",
+    "items": [
+      {
+        "questionText": "1. recovery",
+        "correctAnswer": "f. the process of returning to a normal state of health, mind, or strength after an illness, injury, or setback."
+      },
+      {
+        "questionText": "2. unpredictable",
+        "correctAnswer": "b. not able to be predicted or foreseen; uncertain."
+      },
+      {
+        "questionText": "3. crucial",
+        "correctAnswer": "g. extremely important or necessary; vital for success."
+      },
+      {
+        "questionText": "4. invisible",
+        "correctAnswer": "h. unable to be seen; hidden from sight."
+      },
+      {
+        "questionText": "5. biased",
+        "correctAnswer": "e. unfairly prejudiced in favor of one thing over another; showing partiality."
+      },
+      {
+        "questionText": "6. gradually",
+        "correctAnswer": "c. happening slowly over time; progressing little by little."
+      },
+      {
+        "questionText": "7. differ",
+        "correctAnswer": "j. to be unlike or distinct from something else; to disagree or have a different opinion."
+      },
+      {
+        "questionText": "8. intelligence",
+        "correctAnswer": "a. the ability to learn, understand, and make judgments or have opinions that are based on reason"
+      },
+      {
+        "questionText": "9. approach",
+        "correctAnswer": "d. a way of dealing with a situation or problem; a method or strategy."
+      },
+      {
+        "questionText": "10. available",
+        "correctAnswer": "i. able to be used or obtained; accessible."
+      }
+    ]
+  },
+  {
+    "instruction": "Use the words in Exercise 3A to fill in the gaps in the text.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Statistics play a/an {1} role in understanding the world around us, even though they are often {2} in our daily lives. Data is {3} on almost any topic, and using it properly can lead to informative insights. However, statistics can be {4} if the method of data collection is flawed.\n\nIt's important to have a careful {5} when interpreting statistical data. Results are often {6} but that is the nature of science. The way numbers are presented can {7} greatly and influence our perception. For example, the {8} rates from a disease can be presented in a way that seems more positive or negative depending on the agenda of the presenter.\n\nAs you gain more {9} about how to use statistics, you will become better at recognizing when data is reliable or when it might be misleading. By developing these skills {10}, you can make better decisions based on the information that is presented to you.",
+        "options": [
+          [
+            { "text": "crucial", "isCorrect": true, "blankIndex": 1 },
+            { "text": "invisible", "isCorrect": false, "blankIndex": 1 },
+            { "text": "available", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "invisible", "isCorrect": true, "blankIndex": 2 },
+            { "text": "crucial", "isCorrect": false, "blankIndex": 2 },
+            { "text": "biased", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "available", "isCorrect": true, "blankIndex": 3 },
+            { "text": "biased", "isCorrect": false, "blankIndex": 3 },
+            { "text": "differ", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "biased", "isCorrect": true, "blankIndex": 4 },
+            { "text": "available", "isCorrect": false, "blankIndex": 4 },
+            { "text": "unpredictable", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "approach", "isCorrect": true, "blankIndex": 5 },
+            { "text": "differ", "isCorrect": false, "blankIndex": 5 },
+            { "text": "intelligence", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "unpredictable", "isCorrect": true, "blankIndex": 6 },
+            { "text": "crucial", "isCorrect": false, "blankIndex": 6 },
+            { "text": "gradually", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "differ", "isCorrect": true, "blankIndex": 7 },
+            { "text": "approach", "isCorrect": false, "blankIndex": 7 },
+            { "text": "recovery", "isCorrect": false, "blankIndex": 7 }
+          ],
+          [
+            { "text": "recovery", "isCorrect": true, "blankIndex": 8 },
+            { "text": "differ", "isCorrect": false, "blankIndex": 8 },
+            { "text": "intelligence", "isCorrect": false, "blankIndex": 8 }
+          ],
+          [
+            { "text": "intelligence", "isCorrect": true, "blankIndex": 9 },
+            { "text": "recovery", "isCorrect": false, "blankIndex": 9 },
+            { "text": "gradually", "isCorrect": false, "blankIndex": 9 }
+          ],
+          [
+            { "text": "gradually", "isCorrect": true, "blankIndex": 10 },
+            { "text": "intelligence", "isCorrect": false, "blankIndex": 10 },
+            { "text": "approach", "isCorrect": false, "blankIndex": 10 }
+          ]
+        ]
+      }
+    ]
+  }
+]

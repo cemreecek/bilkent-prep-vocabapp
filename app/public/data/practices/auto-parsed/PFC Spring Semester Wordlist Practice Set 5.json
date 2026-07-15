@@ -1,0 +1,330 @@
+[
+  {
+    "instruction": "PART 1: Read the following text and choose the best option.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Armed police in London will soon be wearing body cameras when they respond to {1}. This is to ensure greater transparency and reduce speculation when police {2} in active shooting. The move came in response to the fatal shooting of a 29-year-old Londoner in North London 5 years ago. London police stated that its officers were attempting to arrest the man, Mark Duggan, on suspicion of planning an attack after having discovered a handgun at a routine vehicle {3}. The killing led to widespread clashes with the police and escalated into riots across London and other cities. Mr. Duggan's family and friends {4} against the police force for years claiming he was unlawfully killed. A public inquiry, however, decided that what the officers in {5} did that day was totally lawful. At a press briefing earlier today, Neil Basu, the head of firearms unit, pointed out that it was relatively rare for London police officers to open fire or use {6} force on suspects and these body-worn cameras would provide proof for future shootings and eliminate {7} against them. He emphasized the use of zero {8} policy against crime and added that all they wanted was to be believed and trusted. When asked whether it would be {9} to wear these cameras or not, he said, “We are used to carrying much heavier tools than that on duty so it won’t be an inconvenience for us.”",
+        "options": [
+          [
+            { "text": "incidents", "isCorrect": true, "blankIndex": 1 },
+            { "text": "premises", "isCorrect": false, "blankIndex": 1 },
+            { "text": "plots", "isCorrect": false, "blankIndex": 1 },
+            { "text": "procedures", "isCorrect": false, "blankIndex": 1 },
+            { "text": "sessions", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "incorporate", "isCorrect": false, "blankIndex": 2 },
+            { "text": "engage", "isCorrect": true, "blankIndex": 2 },
+            { "text": "urge", "isCorrect": false, "blankIndex": 2 },
+            { "text": "surround", "isCorrect": false, "blankIndex": 2 },
+            { "text": "strike", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "treatment", "isCorrect": false, "blankIndex": 3 },
+            { "text": "lodging", "isCorrect": false, "blankIndex": 3 },
+            { "text": "vision", "isCorrect": false, "blankIndex": 3 },
+            { "text": "coverage", "isCorrect": false, "blankIndex": 3 },
+            { "text": "inspection", "isCorrect": true, "blankIndex": 3 }
+          ],
+          [
+            { "text": "addressed", "isCorrect": false, "blankIndex": 4 },
+            { "text": "reassured", "isCorrect": false, "blankIndex": 4 },
+            { "text": "wondered", "isCorrect": false, "blankIndex": 4 },
+            { "text": "devoted", "isCorrect": false, "blankIndex": 4 },
+            { "text": "campaigned", "isCorrect": true, "blankIndex": 4 }
+          ],
+          [
+            { "text": "recruit", "isCorrect": false, "blankIndex": 5 },
+            { "text": "vain", "isCorrect": false, "blankIndex": 5 },
+            { "text": "charge", "isCorrect": true, "blankIndex": 5 },
+            { "text": "labour", "isCorrect": false, "blankIndex": 5 },
+            { "text": "rush", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "sharp", "isCorrect": false, "blankIndex": 6 },
+            { "text": "mutual", "isCorrect": false, "blankIndex": 6 },
+            { "text": "excessive", "isCorrect": true, "blankIndex": 6 },
+            { "text": "grand", "isCorrect": false, "blankIndex": 6 },
+            { "text": "distinct", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "bias", "isCorrect": true, "blankIndex": 7 },
+            { "text": "mentality", "isCorrect": false, "blankIndex": 7 },
+            { "text": "threat", "isCorrect": false, "blankIndex": 7 },
+            { "text": "rumour", "isCorrect": false, "blankIndex": 7 },
+            { "text": "burden", "isCorrect": false, "blankIndex": 7 }
+          ],
+          [
+            { "text": "incentive", "isCorrect": false, "blankIndex": 8 },
+            { "text": "conscience", "isCorrect": false, "blankIndex": 8 },
+            { "text": "boundary", "isCorrect": false, "blankIndex": 8 },
+            { "text": "shortage", "isCorrect": false, "blankIndex": 8 },
+            { "text": "tolerance", "isCorrect": true, "blankIndex": 8 }
+          ],
+          [
+            { "text": "liberal", "isCorrect": false, "blankIndex": 9 },
+            { "text": "notable", "isCorrect": false, "blankIndex": 9 },
+            { "text": "artificial", "isCorrect": false, "blankIndex": 9 },
+            { "text": "practical", "isCorrect": true, "blankIndex": 9 },
+            { "text": "prevalent", "isCorrect": false, "blankIndex": 9 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 2: Match the words with their right collocation.",
+    "type": "matching",
+    "items": [
+      { "questionText": "settle", "correctAnswer": "in" },
+      { "questionText": "sentenced", "correctAnswer": "to" },
+      { "questionText": "bother", "correctAnswer": "with" },
+      { "questionText": "wonder", "correctAnswer": "about" },
+      { "questionText": "multiplied", "correctAnswer": "by" },
+      { "questionText": "split", "correctAnswer": "into" },
+      { "questionText": "shield", "correctAnswer": "against" },
+      { "questionText": "fond", "correctAnswer": "of" },
+      { "questionText": "outlook", "correctAnswer": "on" }
+    ]
+  },
+  {
+    "instruction": "PART 2: Fill in the blanks with the correct collocations from the matching exercise.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "I'm too busy to ______ such details. Why don’t you ask someone who is available at the moment to sort out your problem?",
+        "correctAnswer": "bother with",
+        "options": []
+      },
+      {
+        "questionText": "He is ______ outdoor activities and enjoys swimming, hiking, and cycling. He is a perfect candidate for our camping team.",
+        "correctAnswer": "fond of",
+        "options": []
+      },
+      {
+        "questionText": "Do you ______ the future of the world, especially after the pandemic is over?",
+        "correctAnswer": "wonder about",
+        "options": []
+      },
+      {
+        "questionText": "The ozone layer forms a ______ harmful solar rays, which makes planet Earth a liveable place.",
+        "correctAnswer": "shield against",
+        "options": []
+      },
+      {
+        "questionText": "Even an eight-year-old child knows two ______ five is equal to ten.",
+        "correctAnswer": "multiplied by",
+        "options": []
+      },
+      {
+        "questionText": "In 1977, he was convicted of murder and ______ life imprisonment.",
+        "correctAnswer": "sentenced to",
+        "options": []
+      },
+      {
+        "questionText": "Unlike our country where we have spring, summer, autumn and winter, the climate here is ______ two seasons, long cold winters and long hot summers.",
+        "correctAnswer": "split into",
+        "options": []
+      },
+      {
+        "questionText": "Aboriginal culture is nomadic, meaning that the people travel from one place to another, whereas people who belong to the Maori tribe tend to ______ woodlands, providing them with a sustainable livelihood.",
+        "correctAnswer": "settle in",
+        "options": []
+      },
+      {
+        "questionText": "Her positive ______ life helps her stay adaptable and optimistic, even in challenging situations.",
+        "correctAnswer": "outlook on",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "PART 3: Combine the words in column A with a word in Column B to form some common phrases in English. Then, find the right definitions for them in column C.",
+    "type": "matching",
+    "items": [
+      {
+        "questionText": "death penalty",
+        "correctAnswer": "the punishment of being killed"
+      },
+      {
+        "questionText": "worst-case scenario",
+        "correctAnswer": "the worst of all the bad options that could happen"
+      },
+      {
+        "questionText": "foster family",
+        "correctAnswer": "taking responsibility for smb else’s child"
+      },
+      {
+        "questionText": "defence mechanism",
+        "correctAnswer": "protecting yourself from danger unconsciously"
+      },
+      {
+        "questionText": "grind coffee",
+        "correctAnswer": "make the seed form into powder by crushing it"
+      },
+      {
+        "questionText": "open-door policy",
+        "correctAnswer": "being transparent"
+      },
+      {
+        "questionText": "air-raid shelter",
+        "correctAnswer": "a place where you can hide"
+      },
+      {
+        "questionText": "military service",
+        "correctAnswer": "learning to fight for your country"
+      },
+      {
+        "questionText": "human evolution",
+        "correctAnswer": "from ape to man"
+      },
+      {
+        "questionText": "external affairs",
+        "correctAnswer": "matters related to international relations"
+      },
+      {
+        "questionText": "overlook the sea",
+        "correctAnswer": "to have a view from above or from a higher position, typically providing a wide or scenic perspective."
+      }
+    ]
+  },
+  {
+    "instruction": "PART 4: Choose the synonym of the word that is underlined in the following sentences and write it in the blank at the end of them. There are more words in the box than you need.\n\nBox: continuous, willing, foster, frighten, modest, therefore, otherwise, undying, prejudice, short, punctual",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "The cost of transport is a major expense for an industry; hence, factory location is an important consideration. ______",
+        "correctAnswer": "therefore",
+        "options": []
+      },
+      {
+        "questionText": "On Halloween, the teens dressed like spooky ghosts and goblins to scare the younger children in the neighbourhood. ______",
+        "correctAnswer": "frighten",
+        "options": []
+      },
+      {
+        "questionText": "A brief meeting was held right before the workday to talk about a few of the company goals. ______",
+        "correctAnswer": "short",
+        "options": []
+      },
+      {
+        "questionText": "At the gala, the DJ played timeless music that would appeal to all ages. ______",
+        "correctAnswer": "undying",
+        "options": []
+      },
+      {
+        "questionText": "The Earth is in constant motion as it spins on its axis. ______",
+        "correctAnswer": "continuous",
+        "options": []
+      },
+      {
+        "questionText": "After a long court battle, the firm was found guilty of showing bias against females in its promotion practices. ______",
+        "correctAnswer": "prejudice",
+        "options": []
+      },
+      {
+        "questionText": "Despite the fact that Mahatma Gandhi was a very great man who changed history, he always remained a very humble person. ______",
+        "correctAnswer": "modest",
+        "options": []
+      },
+      {
+        "questionText": "Everyone in the class seemed eager to learn whatever is taught by the teacher. ______",
+        "correctAnswer": "willing",
+        "options": []
+      },
+      {
+        "questionText": "The company implemented a new mentorship program to encourage innovation among its employees. ______",
+        "correctAnswer": "foster",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "PART 5: Circle the correct form of the word in the following sentences.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "Is there anything we can do to cheer her up? She looks so ______.",
+        "options": [
+          { "text": "depression", "isCorrect": false },
+          { "text": "depressing", "isCorrect": false },
+          { "text": "depressed", "isCorrect": true },
+          { "text": "depressive", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Children who are lactose ______ can only consume lactose-free fluid milk as well as fermented milk products like cheese and yogurt.",
+        "options": [
+          { "text": "tolerate", "isCorrect": false },
+          { "text": "tolerance", "isCorrect": false },
+          { "text": "tolerant", "isCorrect": false },
+          { "text": "intolerant", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Concepts and models used in ______ biology, such as natural selection, have many applications.",
+        "options": [
+          { "text": "evolutionary", "isCorrect": true },
+          { "text": "evolve", "isCorrect": false },
+          { "text": "evolved", "isCorrect": false },
+          { "text": "evolutionist", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The information was only ______ discovered.",
+        "options": [
+          { "text": "incident", "isCorrect": false },
+          { "text": "incidence", "isCorrect": false },
+          { "text": "incidental", "isCorrect": false },
+          { "text": "incidentally", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "The new car had to be withdrawn from the market because of a ______ defect.",
+        "options": [
+          { "text": "mechanism", "isCorrect": false },
+          { "text": "mechanical", "isCorrect": true },
+          { "text": "mechanic", "isCorrect": false },
+          { "text": "mechanically", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Many unemployed people suffer from depression, anxiety and a sense of ______.",
+        "options": [
+          { "text": "hopelessness", "isCorrect": true },
+          { "text": "hopeless", "isCorrect": false },
+          { "text": "hopeful", "isCorrect": false },
+          { "text": "hopefully", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Keep your valuables locked away so as not to put ______ in the way of thieves.",
+        "options": [
+          { "text": "tempt", "isCorrect": false },
+          { "text": "temptation", "isCorrect": true },
+          { "text": "tempting", "isCorrect": false },
+          { "text": "tempted", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The constant noise was ______ so I couldn’t concentrate on my task properly.",
+        "options": [
+          { "text": "bother", "isCorrect": false },
+          { "text": "bothersome", "isCorrect": true },
+          { "text": "bothered", "isCorrect": false },
+          { "text": "bothers", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "I chose to ______ the school’s honors program since I had always wanted to become an honors student and study with smart people.",
+        "options": [
+          { "text": "opting", "isCorrect": false },
+          { "text": "opt out of", "isCorrect": false },
+          { "text": "opt into", "isCorrect": true },
+          { "text": "opt", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+]

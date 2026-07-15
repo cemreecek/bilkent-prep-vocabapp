@@ -1,0 +1,674 @@
+[
+  {
+    "type": "cloze",
+    "instruction": "Choose the best option to complete the sentence.",
+    "questionText": "Scientists have developed a new kind of plastic wonder-wrap which will _____ or even totally eliminate the incidences of microbe or virus transfer in hospitals, restaurants, kitchens, bathrooms, and other places.",
+    "options": [
+      {
+        "text": "guarantee",
+        "isCorrect": false
+      },
+      {
+        "text": "reform",
+        "isCorrect": false
+      },
+      {
+        "text": "minimize",
+        "isCorrect": true
+      },
+      {
+        "text": "dispose",
+        "isCorrect": false
+      },
+      {
+        "text": "undertake",
+        "isCorrect": false
+      }
+    ],
+    "week": 1
+  },
+  {
+    "type": "cloze",
+    "instruction": "Choose the best option to complete the sentence.",
+    "questionText": "The new material is like the conventional transparent wraps used by homemakers in the kitchen to cover food and when applied _____ to operations, it has been proven to protect places like worktops, door handles, taps, hospital equipment or food containers.",
+    "options": [
+      {
+        "text": "prior",
+        "isCorrect": true
+      },
+      {
+        "text": "sensitive",
+        "isCorrect": false
+      },
+      {
+        "text": "relevant",
+        "isCorrect": false
+      },
+      {
+        "text": "previous",
+        "isCorrect": false
+      },
+      {
+        "text": "leading",
+        "isCorrect": false
+      }
+    ],
+    "week": 1
+  },
+  {
+    "type": "cloze",
+    "instruction": "Choose the best option to complete the sentence.",
+    "questionText": "The researchers said the inspiration for this _____ material came from the lotus plant in nature, and they attempted to replicate the similar method the plant uses in which the leaves repelled water.",
+    "options": [
+      {
+        "text": "smart",
+        "isCorrect": true
+      },
+      {
+        "text": "casual",
+        "isCorrect": false
+      },
+      {
+        "text": "instant",
+        "isCorrect": false
+      },
+      {
+        "text": "permanent",
+        "isCorrect": false
+      },
+      {
+        "text": "trustworthy",
+        "isCorrect": false
+      }
+    ],
+    "week": 1
+  },
+  {
+    "type": "cloze",
+    "instruction": "Choose the best option to complete the sentence.",
+    "questionText": "The researchers said the inspiration for this smart material came from the lotus plant in nature, and they attempted to _____ the similar method the plant uses in which the leaves repelled water.",
+    "options": [
+      {
+        "text": "negotiate",
+        "isCorrect": false
+      },
+      {
+        "text": "rejoice",
+        "isCorrect": false
+      },
+      {
+        "text": "pursue",
+        "isCorrect": false
+      },
+      {
+        "text": "replicate",
+        "isCorrect": true
+      },
+      {
+        "text": "administer",
+        "isCorrect": false
+      }
+    ],
+    "week": 1
+  },
+  {
+    "type": "cloze",
+    "instruction": "Choose the best option to complete the sentence.",
+    "questionText": "Having confirmed the _____ lab results with electron microscope images, they claim that in the near future this new form of self-cleaning plastic will definitely be a remedy for many health-related issues.",
+    "options": [
+      {
+        "text": "steady",
+        "isCorrect": false
+      },
+      {
+        "text": "preliminary",
+        "isCorrect": true
+      },
+      {
+        "text": "rapid",
+        "isCorrect": false
+      },
+      {
+        "text": "smooth",
+        "isCorrect": false
+      },
+      {
+        "text": "partial",
+        "isCorrect": false
+      }
+    ],
+    "week": 1
+  },
+  {
+    "type": "cloze",
+    "instruction": "Choose the best option to complete the sentence.",
+    "questionText": "Having confirmed the preliminary lab results with electron microscope images, they claim that in the near future this new form of self-cleaning plastic will _____ be a remedy for many health-related issues.",
+    "options": [
+      {
+        "text": "sensitively",
+        "isCorrect": false
+      },
+      {
+        "text": "definitely",
+        "isCorrect": true
+      },
+      {
+        "text": "wisely",
+        "isCorrect": false
+      },
+      {
+        "text": "reliably",
+        "isCorrect": false
+      },
+      {
+        "text": "permanently",
+        "isCorrect": false
+      }
+    ],
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Fill in the blank with the word that best collocates with the bolded word.",
+    "questionText": "The key to a happy marriage is understanding, mutual **_________**, loyalty and forgiveness.",
+    "correctAnswer": "respect",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Fill in the blank with the word that best collocates with the bolded word.",
+    "questionText": "The Antarctic survey team will be using vehicles specially designed to cope with the hostile **_________**.",
+    "correctAnswer": "environment",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Fill in the blank with the word that best collocates with the bolded word.",
+    "questionText": "Ethnic tensions among the republics could lead to civil **_________**.",
+    "correctAnswer": "war",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Fill in the blank with the word that best collocates with the bolded word.",
+    "questionText": "Cotton growing **_________** a burden on women and children, who remained at home unlike the men of the family.",
+    "correctAnswer": "put",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Fill in the blank with the word that best collocates with the bolded word.",
+    "questionText": "One way to prevent the Internet from becoming a child's **_________** domain is to have the family computer in either the kitchen or living room.",
+    "correctAnswer": "private",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Fill in the blank with the word that best collocates with the bolded word.",
+    "questionText": "The most important purpose of the Health Care system is to support individuals when making a claim for **_________** treatment.",
+    "correctAnswer": "medical",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Fill in the blank with the word that best collocates with the bolded word.",
+    "questionText": "With an upward **_________** in inflation, you can expect prices to rise.",
+    "correctAnswer": "trend",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Fill in the blank with the word that best collocates with the bolded word.",
+    "questionText": "Automatic **_________** shifting technology is becoming increasingly popular in the passenger vehicle application.",
+    "correctAnswer": "gear",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Fill in the blank with the word that best collocates with the bolded word.",
+    "questionText": "What you are saying makes sense, but there is a fundamental **_________** in your argument, which invalidates your entire position on the matter.",
+    "correctAnswer": "flaw",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Fill in the blank with the word that best collocates with the bolded word.",
+    "questionText": "They needed a servant to replace that girl Jane who had **_________** her trust.",
+    "correctAnswer": "betrayed",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Fill in the blank with the word that best collocates with the bolded word.",
+    "questionText": "Choosing to study for the exam early was a **_________** move, as it allowed her to feel confident and prepared on test day.",
+    "correctAnswer": "smart",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Choose the synonym of the bolded word.",
+    "questionText": "The important thing in life is to have a great aim, and the determination to **attain** it.",
+    "correctAnswer": "achieve",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Choose the synonym of the bolded word.",
+    "questionText": "Despite persistent denials, the **rumour** continued to spread.",
+    "correctAnswer": "gossip",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Choose the synonym of the bolded word.",
+    "questionText": "The variations of colour that a human eye can see are **infinite**.",
+    "correctAnswer": "unlimited",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Choose the synonym of the bolded word.",
+    "questionText": "Every person stood to **applaud** his unforgettable act of courage.",
+    "correctAnswer": "clap for",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Choose the synonym of the bolded word.",
+    "questionText": "She's an **attorney** who advises companies about mergers and takeovers.",
+    "correctAnswer": "lawyer",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Choose the synonym of the bolded word.",
+    "questionText": "The mission is a **joint** effort of NASA and the European Space Agency.",
+    "correctAnswer": "collective",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Choose the synonym of the bolded word.",
+    "questionText": "The two departments will **operate** independently of each other.",
+    "correctAnswer": "work",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Form a word from the given capitalised word that fits in the blank space.",
+    "questionText": "The manager was quite **_________** for not keeping her promise and not giving what she had promised as a pay rise earlier that year. APOLOGIZE",
+    "correctAnswer": "APOLOGETIC",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Form a word from the given capitalised word that fits in the blank space.",
+    "questionText": "The **_________** of Independence says that all men are created equal. DECLARE",
+    "correctAnswer": "DECLARATION",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Form a word from the given capitalised word that fits in the blank space.",
+    "questionText": "No sooner had the troop crossed a small bridge near the farm than the storm resumed with even greater **_________**. INTENSE",
+    "correctAnswer": "INTENSITY",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Form a word from the given capitalised word that fits in the blank space.",
+    "questionText": "The more we study, the more we discover our **_________**. IGNORANT",
+    "correctAnswer": "IGNORANCE",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Form a word from the given capitalised word that fits in the blank space.",
+    "questionText": "The audience was **_________** as they waited for the acrobat to jump. TENSION",
+    "correctAnswer": "TENSE",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Form a word from the given capitalised word that fits in the blank space.",
+    "questionText": "The plane had already started its descent when the pilot received orders to **_________** his landing. ABORTION",
+    "correctAnswer": "ABORT",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Form a word from the given capitalised word that fits in the blank space.",
+    "questionText": "There was a lot of waste and many wrong decisions were **_________** made. HASTE",
+    "correctAnswer": "HASTILY",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Form a word from the given capitalised word that fits in the blank space.",
+    "questionText": "The doctors want stricter **_________** of existing laws, such as those banning sales of cigarettes to children. ENFORCE",
+    "correctAnswer": "ENFORCEMENT",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Form a word from the given capitalised word that fits in the blank space.",
+    "questionText": "Emerging technologies led to the **_________** of jobs and the rise of entrepreneurship. AUTOMATE",
+    "correctAnswer": "AUTOMATION",
+    "week": 1
+  },
+  {
+    "type": "gap-fill",
+    "instruction": "Form a word from the given capitalised word that fits in the blank space.",
+    "questionText": "The fall of the Berlin Wall and the **_________** of East and West Germany in 1989/90 were events of global historical significance. UNIFY",
+    "correctAnswer": "UNIFICATION",
+    "week": 1
+  },
+  {
+    "type": "multiple-choice",
+    "instruction": "Choose the word that matches the given dictionary definition.",
+    "questionText": "a way of doing something, especially the correct or usual way",
+    "options": [
+      {
+        "text": "tendency",
+        "isCorrect": false
+      },
+      {
+        "text": "prediction",
+        "isCorrect": false
+      },
+      {
+        "text": "willingness",
+        "isCorrect": false
+      },
+      {
+        "text": "acquisition",
+        "isCorrect": false
+      },
+      {
+        "text": "procedure",
+        "isCorrect": true
+      }
+    ],
+    "week": 1
+  },
+  {
+    "type": "multiple-choice",
+    "instruction": "Choose the word that matches the given dictionary definition.",
+    "questionText": "behaving in an honest and brave way that other people admire",
+    "options": [
+      {
+        "text": "noble",
+        "isCorrect": true
+      },
+      {
+        "text": "appreciative",
+        "isCorrect": false
+      },
+      {
+        "text": "capable",
+        "isCorrect": false
+      },
+      {
+        "text": "faithful",
+        "isCorrect": false
+      },
+      {
+        "text": "innocent",
+        "isCorrect": false
+      }
+    ],
+    "week": 1
+  },
+  {
+    "type": "multiple-choice",
+    "instruction": "Choose the word that matches the given dictionary definition.",
+    "questionText": "to begin and carry on an action, process, or movement",
+    "options": [
+      {
+        "text": "intend",
+        "isCorrect": false
+      },
+      {
+        "text": "proceed",
+        "isCorrect": true
+      },
+      {
+        "text": "occur",
+        "isCorrect": false
+      },
+      {
+        "text": "originate",
+        "isCorrect": false
+      },
+      {
+        "text": "submit",
+        "isCorrect": false
+      }
+    ],
+    "week": 1
+  },
+  {
+    "type": "multiple-choice",
+    "instruction": "Choose the word that matches the given dictionary definition.",
+    "questionText": "likely or expected to happen or become",
+    "options": [
+      {
+        "text": "deliberate",
+        "isCorrect": false
+      },
+      {
+        "text": "capable",
+        "isCorrect": false
+      },
+      {
+        "text": "prospective",
+        "isCorrect": true
+      },
+      {
+        "text": "instant",
+        "isCorrect": false
+      },
+      {
+        "text": "permanent",
+        "isCorrect": false
+      }
+    ],
+    "week": 1
+  },
+  {
+    "type": "multiple-choice",
+    "instruction": "Choose the word that matches the given dictionary definition.",
+    "questionText": "to prevent (someone or something) from doing something; keep under control or within limits",
+    "options": [
+      {
+        "text": "resist",
+        "isCorrect": false
+      },
+      {
+        "text": "sacrifice",
+        "isCorrect": false
+      },
+      {
+        "text": "restrain",
+        "isCorrect": true
+      },
+      {
+        "text": "spoil",
+        "isCorrect": false
+      },
+      {
+        "text": "uncover",
+        "isCorrect": false
+      }
+    ],
+    "week": 1
+  },
+  {
+    "type": "multiple-choice",
+    "instruction": "Choose the word that matches the given dictionary definition.",
+    "questionText": "a thing that motivates or encourages someone to do something",
+    "options": [
+      {
+        "text": "longevity",
+        "isCorrect": false
+      },
+      {
+        "text": "remedy",
+        "isCorrect": false
+      },
+      {
+        "text": "incentive",
+        "isCorrect": true
+      },
+      {
+        "text": "passion",
+        "isCorrect": false
+      },
+      {
+        "text": "liveliness",
+        "isCorrect": false
+      }
+    ],
+    "week": 1
+  },
+  {
+    "type": "multiple-choice",
+    "instruction": "Choose the word that matches the given dictionary definition.",
+    "questionText": "to help or encourage (something) to increase or improve",
+    "options": [
+      {
+        "text": "boost",
+        "isCorrect": true
+      },
+      {
+        "text": "generate",
+        "isCorrect": false
+      },
+      {
+        "text": "fulfill",
+        "isCorrect": false
+      },
+      {
+        "text": "boast",
+        "isCorrect": false
+      },
+      {
+        "text": "appeal",
+        "isCorrect": false
+      }
+    ],
+    "week": 1
+  },
+  {
+    "type": "multiple-choice",
+    "instruction": "Choose the word that matches the given dictionary definition.",
+    "questionText": "an amount of something that has been collected",
+    "options": [
+      {
+        "text": "acceleration",
+        "isCorrect": false
+      },
+      {
+        "text": "award",
+        "isCorrect": false
+      },
+      {
+        "text": "combination",
+        "isCorrect": false
+      },
+      {
+        "text": "deposit",
+        "isCorrect": false
+      },
+      {
+        "text": "Accumulation",
+        "isCorrect": true
+      }
+    ],
+    "week": 1
+  },
+  {
+    "type": "multiple-choice",
+    "instruction": "Choose the word that matches the given dictionary definition.",
+    "questionText": "a feeling of extreme fear",
+    "options": [
+      {
+        "text": "terror",
+        "isCorrect": true
+      },
+      {
+        "text": "reform",
+        "isCorrect": false
+      },
+      {
+        "text": "stove",
+        "isCorrect": false
+      },
+      {
+        "text": "attorney",
+        "isCorrect": false
+      },
+      {
+        "text": "burden",
+        "isCorrect": false
+      }
+    ],
+    "week": 1
+  },
+  {
+    "type": "multiple-choice",
+    "instruction": "Choose the word that matches the given dictionary definition.",
+    "questionText": "not good, or not as good as someone or something else",
+    "options": [
+      {
+        "text": "noble",
+        "isCorrect": false
+      },
+      {
+        "text": "ignorant",
+        "isCorrect": false
+      },
+      {
+        "text": "inferior",
+        "isCorrect": true
+      },
+      {
+        "text": "prior",
+        "isCorrect": false
+      },
+      {
+        "text": "hostile",
+        "isCorrect": false
+      }
+    ],
+    "week": 1
+  },
+  {
+    "type": "multiple-choice",
+    "instruction": "Choose the word that matches the given dictionary definition.",
+    "questionText": "very angry",
+    "options": [
+      {
+        "text": "careless",
+        "isCorrect": false
+      },
+      {
+        "text": "energetic",
+        "isCorrect": false
+      },
+      {
+        "text": "infinite",
+        "isCorrect": false
+      },
+      {
+        "text": "furious",
+        "isCorrect": true
+      },
+      {
+        "text": "preliminary",
+        "isCorrect": false
+      }
+    ],
+    "week": 1
+  }
+]

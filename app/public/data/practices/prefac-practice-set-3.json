@@ -1,0 +1,762 @@
+[
+  {
+    "instruction": "Match the following verbs with their definitions.",
+    "type": "matching",
+    "items": [
+      {
+        "questionText": "eliminate",
+        "options": [
+          { "text": "to make it difficult for something to develop or succeed", "isCorrect": false },
+          { "text": "to completely get rid of something that is unnecessary or unwanted", "isCorrect": true },
+          { "text": "to shake slightly in a way that you cannot control, especially because you are upset or frightened", "isCorrect": false },
+          { "text": "to gradually become familiar with a new situation", "isCorrect": false },
+          { "text": "to behave in the way that most other people in your group or society behave", "isCorrect": false },
+          { "text": "to say firmly and often that something is true, especially when other people think it may not be true", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "adjust",
+        "options": [
+          { "text": "to make it difficult for something to develop or succeed", "isCorrect": false },
+          { "text": "to completely get rid of something that is unnecessary or unwanted", "isCorrect": false },
+          { "text": "to shake slightly in a way that you cannot control, especially because you are upset or frightened", "isCorrect": false },
+          { "text": "to gradually become familiar with a new situation", "isCorrect": true },
+          { "text": "to behave in the way that most other people in your group or society behave", "isCorrect": false },
+          { "text": "to say firmly and often that something is true, especially when other people think it may not be true", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "hinder",
+        "options": [
+          { "text": "to make it difficult for something to develop or succeed", "isCorrect": true },
+          { "text": "to completely get rid of something that is unnecessary or unwanted", "isCorrect": false },
+          { "text": "to shake slightly in a way that you cannot control, especially because you are upset or frightened", "isCorrect": false },
+          { "text": "to gradually become familiar with a new situation", "isCorrect": false },
+          { "text": "to behave in the way that most other people in your group or society behave", "isCorrect": false },
+          { "text": "to say firmly and often that something is true, especially when other people think it may not be true", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "insist",
+        "options": [
+          { "text": "to make it difficult for something to develop or succeed", "isCorrect": false },
+          { "text": "to completely get rid of something that is unnecessary or unwanted", "isCorrect": false },
+          { "text": "to shake slightly in a way that you cannot control, especially because you are upset or frightened", "isCorrect": false },
+          { "text": "to gradually become familiar with a new situation", "isCorrect": false },
+          { "text": "to behave in the way that most other people in your group or society behave", "isCorrect": false },
+          { "text": "to say firmly and often that something is true, especially when other people think it may not be true", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "tremble",
+        "options": [
+          { "text": "to make it difficult for something to develop or succeed", "isCorrect": false },
+          { "text": "to completely get rid of something that is unnecessary or unwanted", "isCorrect": false },
+          { "text": "to shake slightly in a way that you cannot control, especially because you are upset or frightened", "isCorrect": true },
+          { "text": "to gradually become familiar with a new situation", "isCorrect": false },
+          { "text": "to behave in the way that most other people in your group or society behave", "isCorrect": false },
+          { "text": "to say firmly and often that something is true, especially when other people think it may not be true", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "conform",
+        "options": [
+          { "text": "to make it difficult for something to develop or succeed", "isCorrect": false },
+          { "text": "to completely get rid of something that is unnecessary or unwanted", "isCorrect": false },
+          { "text": "to shake slightly in a way that you cannot control, especially because you are upset or frightened", "isCorrect": false },
+          { "text": "to gradually become familiar with a new situation", "isCorrect": false },
+          { "text": "to behave in the way that most other people in your group or society behave", "isCorrect": true },
+          { "text": "to say firmly and often that something is true, especially when other people think it may not be true", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Match the following nouns with their definitions.",
+    "type": "matching",
+    "items": [
+      {
+        "questionText": "famine",
+        "options": [
+          { "text": "a particular attitude or way of thinking, especially one that you think is wrong or stupid", "isCorrect": false },
+          { "text": "facts, information, documents etc that prove something is true", "isCorrect": false },
+          { "text": "a very high level of intelligence, mental skill, or ability, which only a few people have", "isCorrect": false },
+          { "text": "the ability to do something well", "isCorrect": false },
+          { "text": "a situation in which a large number of people have little or no food for a long time and many people die", "isCorrect": true },
+          { "text": "an opinion that everyone in a group agrees with or accepts", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "mentality",
+        "options": [
+          { "text": "a particular attitude or way of thinking, especially one that you think is wrong or stupid", "isCorrect": true },
+          { "text": "facts, information, documents etc that prove something is true", "isCorrect": false },
+          { "text": "a very high level of intelligence, mental skill, or ability, which only a few people have", "isCorrect": false },
+          { "text": "the ability to do something well", "isCorrect": false },
+          { "text": "a situation in which a large number of people have little or no food for a long time and many people die", "isCorrect": false },
+          { "text": "an opinion that everyone in a group agrees with or accepts", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "consensus",
+        "options": [
+          { "text": "a particular attitude or way of thinking, especially one that you think is wrong or stupid", "isCorrect": false },
+          { "text": "facts, information, documents etc that prove something is true", "isCorrect": false },
+          { "text": "a very high level of intelligence, mental skill, or ability, which only a few people have", "isCorrect": false },
+          { "text": "the ability to do something well", "isCorrect": false },
+          { "text": "a situation in which a large number of people have little or no food for a long time and many people die", "isCorrect": false },
+          { "text": "an opinion that everyone in a group agrees with or accepts", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "proof",
+        "options": [
+          { "text": "a particular attitude or way of thinking, especially one that you think is wrong or stupid", "isCorrect": false },
+          { "text": "facts, information, documents etc that prove something is true", "isCorrect": true },
+          { "text": "a very high level of intelligence, mental skill, or ability, which only a few people have", "isCorrect": false },
+          { "text": "the ability to do something well", "isCorrect": false },
+          { "text": "a situation in which a large number of people have little or no food for a long time and many people die", "isCorrect": false },
+          { "text": "an opinion that everyone in a group agrees with or accepts", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "genius",
+        "options": [
+          { "text": "a particular attitude or way of thinking, especially one that you think is wrong or stupid", "isCorrect": false },
+          { "text": "facts, information, documents etc that prove something is true", "isCorrect": false },
+          { "text": "a very high level of intelligence, mental skill, or ability, which only a few people have", "isCorrect": true },
+          { "text": "the ability to do something well", "isCorrect": false },
+          { "text": "a situation in which a large number of people have little or no food for a long time and many people die", "isCorrect": false },
+          { "text": "an opinion that everyone in a group agrees with or accepts", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "competence",
+        "options": [
+          { "text": "a particular attitude or way of thinking, especially one that you think is wrong or stupid", "isCorrect": false },
+          { "text": "facts, information, documents etc that prove something is true", "isCorrect": false },
+          { "text": "a very high level of intelligence, mental skill, or ability, which only a few people have", "isCorrect": false },
+          { "text": "the ability to do something well", "isCorrect": true },
+          { "text": "a situation in which a large number of people have little or no food for a long time and many people die", "isCorrect": false },
+          { "text": "an opinion that everyone in a group agrees with or accepts", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Match the following adjectives with their definitions.",
+    "type": "matching",
+    "items": [
+      {
+        "questionText": "loose",
+        "options": [
+          { "text": "very large, solid, and heavy", "isCorrect": false },
+          { "text": "used to describe someone or something that has been given a name that you think is wrong", "isCorrect": false },
+          { "text": "almost a particular thing or quality; made, done, seen etc on the internet or on a computer, rather than in the real world", "isCorrect": false },
+          { "text": "not attached or fastened to anything else", "isCorrect": true },
+          { "text": "stg that is possible, reasonable, or likely", "isCorrect": false },
+          { "text": "slightly worried or uncomfortable about a particular situation", "isCorrect": false },
+          { "text": "impressive in size, appearance, or style", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "feasible",
+        "options": [
+          { "text": "very large, solid, and heavy", "isCorrect": false },
+          { "text": "used to describe someone or something that has been given a name that you think is wrong", "isCorrect": false },
+          { "text": "almost a particular thing or quality; made, done, seen etc on the internet or on a computer, rather than in the real world", "isCorrect": false },
+          { "text": "not attached or fastened to anything else", "isCorrect": false },
+          { "text": "stg that is possible, reasonable, or likely", "isCorrect": true },
+          { "text": "slightly worried or uncomfortable about a particular situation", "isCorrect": false },
+          { "text": "impressive in size, appearance, or style", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "massive",
+        "options": [
+          { "text": "very large, solid, and heavy", "isCorrect": true },
+          { "text": "used to describe someone or something that has been given a name that you think is wrong", "isCorrect": false },
+          { "text": "almost a particular thing or quality; made, done, seen etc on the internet or on a computer, rather than in the real world", "isCorrect": false },
+          { "text": "not attached or fastened to anything else", "isCorrect": false },
+          { "text": "stg that is possible, reasonable, or likely", "isCorrect": false },
+          { "text": "slightly worried or uncomfortable about a particular situation", "isCorrect": false },
+          { "text": "impressive in size, appearance, or style", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "so-called",
+        "options": [
+          { "text": "very large, solid, and heavy", "isCorrect": false },
+          { "text": "used to describe someone or something that has been given a name that you think is wrong", "isCorrect": true },
+          { "text": "almost a particular thing or quality; made, done, seen etc on the internet or on a computer, rather than in the real world", "isCorrect": false },
+          { "text": "not attached or fastened to anything else", "isCorrect": false },
+          { "text": "stg that is possible, reasonable, or likely", "isCorrect": false },
+          { "text": "slightly worried or uncomfortable about a particular situation", "isCorrect": false },
+          { "text": "impressive in size, appearance, or style", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "uneasy",
+        "options": [
+          { "text": "very large, solid, and heavy", "isCorrect": false },
+          { "text": "used to describe someone or something that has been given a name that you think is wrong", "isCorrect": false },
+          { "text": "almost a particular thing or quality; made, done, seen etc on the internet or on a computer, rather than in the real world", "isCorrect": false },
+          { "text": "not attached or fastened to anything else", "isCorrect": false },
+          { "text": "stg that is possible, reasonable, or likely", "isCorrect": false },
+          { "text": "slightly worried or uncomfortable about a particular situation", "isCorrect": true },
+          { "text": "impressive in size, appearance, or style", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "virtual",
+        "options": [
+          { "text": "very large, solid, and heavy", "isCorrect": false },
+          { "text": "used to describe someone or something that has been given a name that you think is wrong", "isCorrect": false },
+          { "text": "almost a particular thing or quality; made, done, seen etc on the internet or on a computer, rather than in the real world", "isCorrect": true },
+          { "text": "not attached or fastened to anything else", "isCorrect": false },
+          { "text": "stg that is possible, reasonable, or likely", "isCorrect": false },
+          { "text": "slightly worried or uncomfortable about a particular situation", "isCorrect": false },
+          { "text": "impressive in size, appearance, or style", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "grand",
+        "options": [
+          { "text": "very large, solid, and heavy", "isCorrect": false },
+          { "text": "used to describe someone or something that has been given a name that you think is wrong", "isCorrect": false },
+          { "text": "almost a particular thing or quality; made, done, seen etc on the internet or on a computer, rather than in the real world", "isCorrect": false },
+          { "text": "not attached or fastened to anything else", "isCorrect": false },
+          { "text": "stg that is possible, reasonable, or likely", "isCorrect": false },
+          { "text": "slightly worried or uncomfortable about a particular situation", "isCorrect": false },
+          { "text": "impressive in size, appearance, or style", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the blanks with appropriate words from the box.",
+    "type": "word-bank",
+    "items": [
+      {
+        "questionText": "Although the members of the committee discussed the future direction of the company for hours, they were unable to reach a/ an {1}. Therefore, they decided to meet again the following week.",
+        "options": [
+          [
+            { "text": "proportion", "isCorrect": false, "blankIndex": 1 },
+            { "text": "famine", "isCorrect": false, "blankIndex": 1 },
+            { "text": "fluctuate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "artificial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "reckon", "isCorrect": false, "blankIndex": 1 },
+            { "text": "urge (n)", "isCorrect": false, "blankIndex": 1 },
+            { "text": "consensus", "isCorrect": true, "blankIndex": 1 },
+            { "text": "proposal", "isCorrect": false, "blankIndex": 1 },
+            { "text": "specialist", "isCorrect": false, "blankIndex": 1 },
+            { "text": "controversial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "empathize", "isCorrect": false, "blankIndex": 1 },
+            { "text": "deprivation", "isCorrect": false, "blankIndex": 1 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Beginning in 1845 and lasting for six years, the potato {1} killed over a million men, women and children in Ireland and caused another million to leave the country.",
+        "options": [
+          [
+            { "text": "proportion", "isCorrect": false, "blankIndex": 1 },
+            { "text": "famine", "isCorrect": true, "blankIndex": 1 },
+            { "text": "fluctuate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "artificial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "reckon", "isCorrect": false, "blankIndex": 1 },
+            { "text": "urge (n)", "isCorrect": false, "blankIndex": 1 },
+            { "text": "consensus", "isCorrect": false, "blankIndex": 1 },
+            { "text": "proposal", "isCorrect": false, "blankIndex": 1 },
+            { "text": "specialist", "isCorrect": false, "blankIndex": 1 },
+            { "text": "controversial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "empathize", "isCorrect": false, "blankIndex": 1 },
+            { "text": "deprivation", "isCorrect": false, "blankIndex": 1 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Some people try to avoid talking about {1} topics such as politics, abortion, and religion as they do not want to cause disagreement, particularly when people have strong opinions about the subject being discussed.",
+        "options": [
+          [
+            { "text": "proportion", "isCorrect": false, "blankIndex": 1 },
+            { "text": "famine", "isCorrect": false, "blankIndex": 1 },
+            { "text": "fluctuate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "artificial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "reckon", "isCorrect": false, "blankIndex": 1 },
+            { "text": "urge (n)", "isCorrect": false, "blankIndex": 1 },
+            { "text": "consensus", "isCorrect": false, "blankIndex": 1 },
+            { "text": "proposal", "isCorrect": false, "blankIndex": 1 },
+            { "text": "specialist", "isCorrect": false, "blankIndex": 1 },
+            { "text": "controversial", "isCorrect": true, "blankIndex": 1 },
+            { "text": "empathize", "isCorrect": false, "blankIndex": 1 },
+            { "text": "deprivation", "isCorrect": false, "blankIndex": 1 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Professor Williams teaches English Literature and is a/an {1} in the novels of George Orwell. He knows a lot about both Orwell’s personal life and literary career.",
+        "options": [
+          [
+            { "text": "proportion", "isCorrect": false, "blankIndex": 1 },
+            { "text": "famine", "isCorrect": false, "blankIndex": 1 },
+            { "text": "fluctuate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "artificial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "reckon", "isCorrect": false, "blankIndex": 1 },
+            { "text": "urge (n)", "isCorrect": false, "blankIndex": 1 },
+            { "text": "consensus", "isCorrect": false, "blankIndex": 1 },
+            { "text": "proposal", "isCorrect": false, "blankIndex": 1 },
+            { "text": "specialist", "isCorrect": true, "blankIndex": 1 },
+            { "text": "controversial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "empathize", "isCorrect": false, "blankIndex": 1 },
+            { "text": "deprivation", "isCorrect": false, "blankIndex": 1 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Children make up a large {1} of the world's population. Therefore, the period of early childhood development is the most important period of life. In order to reach their full potential, children need appropriate support from families and educators.",
+        "options": [
+          [
+            { "text": "proportion", "isCorrect": true, "blankIndex": 1 },
+            { "text": "famine", "isCorrect": false, "blankIndex": 1 },
+            { "text": "fluctuate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "artificial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "reckon", "isCorrect": false, "blankIndex": 1 },
+            { "text": "urge (n)", "isCorrect": false, "blankIndex": 1 },
+            { "text": "consensus", "isCorrect": false, "blankIndex": 1 },
+            { "text": "proposal", "isCorrect": false, "blankIndex": 1 },
+            { "text": "specialist", "isCorrect": false, "blankIndex": 1 },
+            { "text": "controversial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "empathize", "isCorrect": false, "blankIndex": 1 },
+            { "text": "deprivation", "isCorrect": false, "blankIndex": 1 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Scientists agree that {1} additives such as colorings, sweeteners and flavor enhancers should not be permitted in foods that children consume as they result in obesity.",
+        "options": [
+          [
+            { "text": "proportion", "isCorrect": false, "blankIndex": 1 },
+            { "text": "famine", "isCorrect": false, "blankIndex": 1 },
+            { "text": "fluctuate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "artificial", "isCorrect": true, "blankIndex": 1 },
+            { "text": "reckon", "isCorrect": false, "blankIndex": 1 },
+            { "text": "urge (n)", "isCorrect": false, "blankIndex": 1 },
+            { "text": "consensus", "isCorrect": false, "blankIndex": 1 },
+            { "text": "proposal", "isCorrect": false, "blankIndex": 1 },
+            { "text": "specialist", "isCorrect": false, "blankIndex": 1 },
+            { "text": "controversial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "empathize", "isCorrect": false, "blankIndex": 1 },
+            { "text": "deprivation", "isCorrect": false, "blankIndex": 1 }
+          ]
+        ]
+      },
+      {
+        "questionText": "There has been an angry reaction to the government's {1} to reduce unemployment benefits. Instead of reducing unemployment benefits to prevent economic recession, they need to come up with a better suggestion.",
+        "options": [
+          [
+            { "text": "proportion", "isCorrect": false, "blankIndex": 1 },
+            { "text": "famine", "isCorrect": false, "blankIndex": 1 },
+            { "text": "fluctuate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "artificial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "reckon", "isCorrect": false, "blankIndex": 1 },
+            { "text": "urge (n)", "isCorrect": false, "blankIndex": 1 },
+            { "text": "consensus", "isCorrect": false, "blankIndex": 1 },
+            { "text": "proposal", "isCorrect": true, "blankIndex": 1 },
+            { "text": "specialist", "isCorrect": false, "blankIndex": 1 },
+            { "text": "controversial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "empathize", "isCorrect": false, "blankIndex": 1 },
+            { "text": "deprivation", "isCorrect": false, "blankIndex": 1 }
+          ]
+        ]
+      },
+      {
+        "questionText": "How long do you {1} it will take you go from Ankara to Eskisehir by bike? Do you have any guesses?",
+        "options": [
+          [
+            { "text": "proportion", "isCorrect": false, "blankIndex": 1 },
+            { "text": "famine", "isCorrect": false, "blankIndex": 1 },
+            { "text": "fluctuate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "artificial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "reckon", "isCorrect": true, "blankIndex": 1 },
+            { "text": "urge (n)", "isCorrect": false, "blankIndex": 1 },
+            { "text": "consensus", "isCorrect": false, "blankIndex": 1 },
+            { "text": "proposal", "isCorrect": false, "blankIndex": 1 },
+            { "text": "specialist", "isCorrect": false, "blankIndex": 1 },
+            { "text": "controversial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "empathize", "isCorrect": false, "blankIndex": 1 },
+            { "text": "deprivation", "isCorrect": false, "blankIndex": 1 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Having been on a diet for almost three months, I could no longer resist the {1} to eat a bar of chocolate. No regrets at all!",
+        "options": [
+          [
+            { "text": "proportion", "isCorrect": false, "blankIndex": 1 },
+            { "text": "famine", "isCorrect": false, "blankIndex": 1 },
+            { "text": "fluctuate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "artificial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "reckon", "isCorrect": false, "blankIndex": 1 },
+            { "text": "urge (n)", "isCorrect": true, "blankIndex": 1 },
+            { "text": "consensus", "isCorrect": false, "blankIndex": 1 },
+            { "text": "proposal", "isCorrect": false, "blankIndex": 1 },
+            { "text": "specialist", "isCorrect": false, "blankIndex": 1 },
+            { "text": "controversial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "empathize", "isCorrect": false, "blankIndex": 1 },
+            { "text": "deprivation", "isCorrect": false, "blankIndex": 1 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Migrant arrivals {1} greatly in number from year to year, influenced by the prevailing economic conditions in the country.",
+        "options": [
+          [
+            { "text": "proportion", "isCorrect": false, "blankIndex": 1 },
+            { "text": "famine", "isCorrect": false, "blankIndex": 1 },
+            { "text": "fluctuate", "isCorrect": true, "blankIndex": 1 },
+            { "text": "artificial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "reckon", "isCorrect": false, "blankIndex": 1 },
+            { "text": "urge (n)", "isCorrect": false, "blankIndex": 1 },
+            { "text": "consensus", "isCorrect": false, "blankIndex": 1 },
+            { "text": "proposal", "isCorrect": false, "blankIndex": 1 },
+            { "text": "specialist", "isCorrect": false, "blankIndex": 1 },
+            { "text": "controversial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "empathize", "isCorrect": false, "blankIndex": 1 },
+            { "text": "deprivation", "isCorrect": false, "blankIndex": 1 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Inevitably, pain killers, drugs, and sleep {1} all add to one’s stress load.",
+        "options": [
+          [
+            { "text": "proportion", "isCorrect": false, "blankIndex": 1 },
+            { "text": "famine", "isCorrect": false, "blankIndex": 1 },
+            { "text": "fluctuate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "artificial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "reckon", "isCorrect": false, "blankIndex": 1 },
+            { "text": "urge (n)", "isCorrect": false, "blankIndex": 1 },
+            { "text": "consensus", "isCorrect": false, "blankIndex": 1 },
+            { "text": "proposal", "isCorrect": false, "blankIndex": 1 },
+            { "text": "specialist", "isCorrect": false, "blankIndex": 1 },
+            { "text": "controversial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "empathize", "isCorrect": false, "blankIndex": 1 },
+            { "text": "deprivation", "isCorrect": true, "blankIndex": 1 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Individuals who cannot {1} with others' feelings are less likely to manage their own aggression and more likely to become insensitive to brutality in general.",
+        "options": [
+          [
+            { "text": "proportion", "isCorrect": false, "blankIndex": 1 },
+            { "text": "famine", "isCorrect": false, "blankIndex": 1 },
+            { "text": "fluctuate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "artificial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "reckon", "isCorrect": false, "blankIndex": 1 },
+            { "text": "urge (n)", "isCorrect": false, "blankIndex": 1 },
+            { "text": "consensus", "isCorrect": false, "blankIndex": 1 },
+            { "text": "proposal", "isCorrect": false, "blankIndex": 1 },
+            { "text": "specialist", "isCorrect": false, "blankIndex": 1 },
+            { "text": "controversial", "isCorrect": false, "blankIndex": 1 },
+            { "text": "empathize", "isCorrect": true, "blankIndex": 1 },
+            { "text": "deprivation", "isCorrect": false, "blankIndex": 1 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Read the following sentences and choose the best option.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "Children like a/an stable environment. They are not pleased with changes.",
+        "options": [
+          { "text": "stable", "isCorrect": true },
+          { "text": "uneasy", "isCorrect": false },
+          { "text": "feasible", "isCorrect": false },
+          { "text": "massive", "isCorrect": false },
+          { "text": "spontaneous", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Although it was very crowded, the chairs in the conference hall were numbered in sequence so it was quite easy to find our place.",
+        "options": [
+          { "text": "coverage", "isCorrect": false },
+          { "text": "proportion", "isCorrect": false },
+          { "text": "sequence", "isCorrect": true },
+          { "text": "essence", "isCorrect": false },
+          { "text": "dimension", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The Prime Minister of the country was forced to resign after his cabinet came under fire for its slow response to the economic crisis.",
+        "options": [
+          { "text": "hinder", "isCorrect": false },
+          { "text": "defend", "isCorrect": false },
+          { "text": "possess", "isCorrect": false },
+          { "text": "resign", "isCorrect": true },
+          { "text": "conform", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Türkiye is one of the most geographically strategic countries in the world as it is regarded as a bridge between Asia and Europe.",
+        "options": [
+          { "text": "regarded", "isCorrect": true },
+          { "text": "convened", "isCorrect": false },
+          { "text": "proved", "isCorrect": false },
+          { "text": "urged", "isCorrect": false },
+          { "text": "adjusted", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The prime minister is going to convene a meeting of his cabinet to discuss the matter today. The members of the cabinet have just arrived at the conference hall.",
+        "options": [
+          { "text": "adjust", "isCorrect": false },
+          { "text": "attribute", "isCorrect": false },
+          { "text": "motivate", "isCorrect": false },
+          { "text": "assure", "isCorrect": false },
+          { "text": "convene", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "The European Union is made up of 15 nations with distinct cultural, linguistic, and economic roots. They are all clearly different from one another.",
+        "options": [
+          { "text": "virtual", "isCorrect": false },
+          { "text": "distinct", "isCorrect": true },
+          { "text": "trivial", "isCorrect": false },
+          { "text": "strict", "isCorrect": false },
+          { "text": "maximum", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Nitrogen is a critical limiting element for plant growth and production. It constitutes 78% of the earth's atmosphere.",
+        "options": [
+          { "text": "insists", "isCorrect": false },
+          { "text": "constitutes", "isCorrect": true },
+          { "text": "eliminates", "isCorrect": false },
+          { "text": "inhabits", "isCorrect": false },
+          { "text": "emerges", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "I was told that my grandparents emigrated to Holland from Germany after the 2nd World War and settled in a middle-class suburb just north of Amsterdam. Since then, they have never been to Germany.",
+        "options": [
+          { "text": "suburb", "isCorrect": true },
+          { "text": "habitat", "isCorrect": false },
+          { "text": "league", "isCorrect": false },
+          { "text": "sector", "isCorrect": false },
+          { "text": "angle", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Later this year, it is probable that there will be an increase in the travelling mileage rate from 38 cents to 60 cents.",
+        "options": [
+          { "text": "feasible", "isCorrect": false },
+          { "text": "indirect", "isCorrect": false },
+          { "text": "artificial", "isCorrect": false },
+          { "text": "attributive", "isCorrect": false },
+          { "text": "probable", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "There were no bells sounding, no fireworks screaming through the sky, and no audience to clap and cheer us on.",
+        "options": [
+          { "text": "transmit", "isCorrect": false },
+          { "text": "cover", "isCorrect": false },
+          { "text": "clap", "isCorrect": true },
+          { "text": "hang", "isCorrect": false },
+          { "text": "lean", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Excessive consumption of soft drinks in childhood has been shown to lead to calcium deficiency and more broken bones.",
+        "options": [
+          { "text": "maximization", "isCorrect": false },
+          { "text": "deficiency", "isCorrect": true },
+          { "text": "coverage", "isCorrect": false },
+          { "text": "proportion", "isCorrect": false },
+          { "text": "attribution", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The education ministry in California has issued tight precautions to schools over the school fires since the reopening of schools. As part of the conditions, schools are now required to obtain building occupation permits from the respective local governments.",
+        "options": [
+          { "text": "curable", "isCorrect": false },
+          { "text": "tight", "isCorrect": true },
+          { "text": "legal", "isCorrect": false },
+          { "text": "trivial", "isCorrect": false },
+          { "text": "direct", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "They got two free tickets to Canada; otherwise, they’d never have been able to afford to go.",
+        "options": [
+          { "text": "otherwise", "isCorrect": true },
+          { "text": "meantime", "isCorrect": false },
+          { "text": "namely", "isCorrect": false },
+          { "text": "meanwhile", "isCorrect": false },
+          { "text": "virtually", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Although the weather is hot during the day, temperatures drop quite dramatically at night in Ankara these days, so bring some warm clothing.",
+        "options": [
+          { "text": "drop", "isCorrect": true },
+          { "text": "assure", "isCorrect": false },
+          { "text": "dismiss", "isCorrect": false },
+          { "text": "rise", "isCorrect": false },
+          { "text": "fluctuate", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The protests were the biggest show of social unrest since the government came to power.",
+        "options": [
+          { "text": "dimension", "isCorrect": false },
+          { "text": "spite", "isCorrect": false },
+          { "text": "vision", "isCorrect": false },
+          { "text": "trouble", "isCorrect": false },
+          { "text": "unrest", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the sentences. Fill in each space in this way. Spelling mistakes will be penalized.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "Every {1} is a small landholder and cultivates sufficient rice and other necessaries for the support of their family. (INHABIT)",
+        "correctAnswer": "INHABITANT",
+        "options": []
+      },
+      {
+        "questionText": "Things like spending time together need to be planned and scheduled; as a result, there is little {1} in the relationship. (SPONTANEOUS)",
+        "correctAnswer": "SPONTANEITY",
+        "options": []
+      },
+      {
+        "questionText": "The Minister of Education stated that the poor state of schools had {1} both teachers and pupils in the area which had led to high illiteracy levels. (MOTIVATE)",
+        "correctAnswer": "DEMOTIVATED",
+        "options": []
+      },
+      {
+        "questionText": "Working with Clare every day, I began to realize how {1} she is. Her mood changes so suddenly that you can’t know how she will react. (STABLE)",
+        "correctAnswer": "UNSTABLE",
+        "options": []
+      },
+      {
+        "questionText": "The room was full of dancers, all making last-minute {1} to their costumes. (ADJUST)",
+        "correctAnswer": "ADJUSTMENTS",
+        "options": []
+      },
+      {
+        "questionText": "Euthanasia is defined as the painless killing of a patient suffering from a/an {1} and painful disease. (CURE)",
+        "correctAnswer": "INCURABLE",
+        "options": []
+      },
+      {
+        "questionText": "The special function of this organ has been a source of {1} during the past few years. (CONTROVERSIAL)",
+        "correctAnswer": "CONTROVERSY",
+        "options": []
+      },
+      {
+        "questionText": "It's highly {1} that someone would win the lottery twice. I have never heard of anything like that. (PROBABLE)",
+        "correctAnswer": "IMPROBABLE",
+        "options": []
+      },
+      {
+        "questionText": "The teacher explained that understanding {1} is essential for solving more complex math problems later on. (MULTIPLE)",
+        "correctAnswer": "MULTIPLICATION",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Choose the synonyms of the words underlined.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "Given that most asteroids appear merely as pinpricks of light in our telescopes, how can we comprehend their dimensions?",
+        "options": [
+          { "text": "fluctuate", "isCorrect": false },
+          { "text": "dismiss", "isCorrect": false },
+          { "text": "emerge", "isCorrect": true },
+          { "text": "convene", "isCorrect": false },
+          { "text": "loose", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "This discomfort can be relieved by taking painkillers that you would normally take for a headache.",
+        "options": [
+          { "text": "hindrance", "isCorrect": false },
+          { "text": "trouble", "isCorrect": true },
+          { "text": "coverage", "isCorrect": false },
+          { "text": "sequence", "isCorrect": false },
+          { "text": "urge", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Moisture barriers, sometimes called skin protectants, shield the skin from exposure to irritants or moisture.",
+        "options": [
+          { "text": "defend", "isCorrect": true },
+          { "text": "constitute", "isCorrect": false },
+          { "text": "fluctuate", "isCorrect": false },
+          { "text": "possess", "isCorrect": false },
+          { "text": "sting", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "There was a great shortage of food along with a lack of medicine and clothing.",
+        "options": [
+          { "text": "proportion", "isCorrect": false },
+          { "text": "conformity", "isCorrect": false },
+          { "text": "dismissal", "isCorrect": false },
+          { "text": "famine", "isCorrect": true },
+          { "text": "essence", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The singer earns a colossal amount of money.",
+        "options": [
+          { "text": "genius", "isCorrect": false },
+          { "text": "distinct", "isCorrect": false },
+          { "text": "massive", "isCorrect": true },
+          { "text": "special", "isCorrect": false },
+          { "text": "maximum", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "I attempted to reach out numerous times for verification and they just send more requests for money.",
+        "options": [
+          { "text": "proof", "isCorrect": true },
+          { "text": "angle", "isCorrect": false },
+          { "text": "mentality", "isCorrect": false },
+          { "text": "insistence", "isCorrect": false },
+          { "text": "transmission", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "David won an award in the school science fair. His family is proud of him.",
+        "options": [
+          { "text": "talent", "isCorrect": false },
+          { "text": "prize", "isCorrect": true },
+          { "text": "mall", "isCorrect": false },
+          { "text": "company", "isCorrect": false },
+          { "text": "trait", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The unstable structure of the building could constitute a danger to anyone nearby. It can collapse any minute.",
+        "options": [
+          { "text": "Present a risk", "isCorrect": true },
+          { "text": "Provide protection", "isCorrect": false },
+          { "text": "Eliminate risk", "isCorrect": false },
+          { "text": "Promote well-being", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "instruction": "Exercise 1: Read the text and choose the correct option to complete each gap.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Last week the authority of English {1} delivered its verdict at Southwark Crown Court where a group of south London graffiti artists were jailed for up to two years for damaging public {2}. The trial was closely followed by many in the community. These artists caused {3} damage costing the taxpayer at least £1m. Graffiti art has become a/an {4} issue. Arguments about whether it is right or wrong {5} since people have mixed opinions about it. Some {6} believe that graffiti is a crime. They argue that it should be {7} because it can encourage further vandalism. On the other hand, others feel {8} when looking at it. They say that these artists {9} great artistic skill with humor to create work that makes people think critically.",
+        "options": [
+          [
+            { "text": "principle", "isCorrect": false, "blankIndex": 1 },
+            { "text": "parliament", "isCorrect": true, "blankIndex": 1 },
+            { "text": "occasion", "isCorrect": false, "blankIndex": 1 },
+            { "text": "citizen", "isCorrect": false, "blankIndex": 1 },
+            { "text": "candidate", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "artifact", "isCorrect": false, "blankIndex": 2 },
+            { "text": "statue", "isCorrect": false, "blankIndex": 2 },
+            { "text": "property", "isCorrect": true, "blankIndex": 2 },
+            { "text": "presence", "isCorrect": false, "blankIndex": 2 },
+            { "text": "perspective", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "permanent", "isCorrect": true, "blankIndex": 3 },
+            { "text": "unfortunate", "isCorrect": false, "blankIndex": 3 },
+            { "text": "adverse", "isCorrect": false, "blankIndex": 3 },
+            { "text": "approximate", "isCorrect": false, "blankIndex": 3 },
+            { "text": "intense", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "thorough", "isCorrect": false, "blankIndex": 4 },
+            { "text": "moral", "isCorrect": true, "blankIndex": 4 },
+            { "text": "eventual", "isCorrect": false, "blankIndex": 4 },
+            { "text": "counter", "isCorrect": false, "blankIndex": 4 },
+            { "text": "exclusive", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "consist", "isCorrect": false, "blankIndex": 5 },
+            { "text": "justify", "isCorrect": false, "blankIndex": 5 },
+            { "text": "ensure", "isCorrect": false, "blankIndex": 5 },
+            { "text": "maintain", "isCorrect": false, "blankIndex": 5 },
+            { "text": "differ", "isCorrect": true, "blankIndex": 5 }
+          ],
+          [
+            { "text": "shareholders", "isCorrect": false, "blankIndex": 6 },
+            { "text": "applicants", "isCorrect": false, "blankIndex": 6 },
+            { "text": "victims", "isCorrect": false, "blankIndex": 6 },
+            { "text": "critics", "isCorrect": true, "blankIndex": 6 },
+            { "text": "clients", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "chased", "isCorrect": false, "blankIndex": 7 },
+            { "text": "disturbed", "isCorrect": false, "blankIndex": 7 },
+            { "text": "banned", "isCorrect": true, "blankIndex": 7 },
+            { "text": "conducted", "isCorrect": false, "blankIndex": 7 },
+            { "text": "smashed", "isCorrect": false, "blankIndex": 7 }
+          ],
+          [
+            { "text": "delight", "isCorrect": true, "blankIndex": 8 },
+            { "text": "sympathy", "isCorrect": false, "blankIndex": 8 },
+            { "text": "dilemma", "isCorrect": false, "blankIndex": 8 },
+            { "text": "honor", "isCorrect": false, "blankIndex": 8 },
+            { "text": "skeptical", "isCorrect": false, "blankIndex": 8 }
+          ],
+          [
+            { "text": "maintain", "isCorrect": false, "blankIndex": 9 },
+            { "text": "interpret", "isCorrect": false, "blankIndex": 9 },
+            { "text": "ensure", "isCorrect": false, "blankIndex": 9 },
+            { "text": "express", "isCorrect": false, "blankIndex": 9 },
+            { "text": "combine", "isCorrect": true, "blankIndex": 9 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Exercise 2: Read the text and choose the correct option to complete each gap.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "In recent years, spray paint sales have increased. This is the type of paint used by graffiti artists. Sometimes graffiti artists run away from the police and leave {1} artwork on public property, which may be missing details or not fully developed. There are a few people who believe that graffiti is ugly and that it isn’t a/an {2}, or appropriate, form of self-expression as they think it fails to meet the accepted standards of artistic presentation. Some graffiti is very thought provoking and deals with interesting and {3} ideas and themes that challenge viewers to think deeply and critically. In London, the government thinks that graffiti is a/an {4} to the public because it’s illegal to destroy public property. Even though many people have strong opinions about graffiti, some artists work hard to show its artistic value. For example, Banksy and other street artists {5} to change people’s attitude toward the art of graffiti. People often disagree and {6} about whether or not graffiti is a crime. Nick Walker, a popular street artist, believes that there should be a/an {7} to protect street artists against laws that prevent them from expressing themselves freely.",
+        "options": [
+          [
+            { "text": "temporary", "isCorrect": false, "blankIndex": 1 },
+            { "text": "incomplete", "isCorrect": true, "blankIndex": 1 },
+            { "text": "outstanding", "isCorrect": false, "blankIndex": 1 },
+            { "text": "unfortunate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "unpredictable", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "suitable", "isCorrect": true, "blankIndex": 2 },
+            { "text": "capable", "isCorrect": false, "blankIndex": 2 },
+            { "text": "genuine", "isCorrect": false, "blankIndex": 2 },
+            { "text": "valid", "isCorrect": false, "blankIndex": 2 },
+            { "text": "exclusive", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "thorough", "isCorrect": false, "blankIndex": 3 },
+            { "text": "genuine", "isCorrect": false, "blankIndex": 3 },
+            { "text": "dense", "isCorrect": false, "blankIndex": 3 },
+            { "text": "smooth", "isCorrect": false, "blankIndex": 3 },
+            { "text": "complex", "isCorrect": true, "blankIndex": 3 }
+          ],
+          [
+            { "text": "drawback", "isCorrect": false, "blankIndex": 4 },
+            { "text": "nonsense", "isCorrect": false, "blankIndex": 4 },
+            { "text": "threat", "isCorrect": true, "blankIndex": 4 },
+            { "text": "sacrifice", "isCorrect": false, "blankIndex": 4 },
+            { "text": "nonsense", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "switch", "isCorrect": false, "blankIndex": 5 },
+            { "text": "tend", "isCorrect": false, "blankIndex": 5 },
+            { "text": "reveal", "isCorrect": false, "blankIndex": 5 },
+            { "text": "intend", "isCorrect": true, "blankIndex": 5 },
+            { "text": "handle", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "criticize", "isCorrect": false, "blankIndex": 6 },
+            { "text": "quarrel", "isCorrect": true, "blankIndex": 6 },
+            { "text": "warn", "isCorrect": false, "blankIndex": 6 },
+            { "text": "enquire", "isCorrect": false, "blankIndex": 6 },
+            { "text": "judge", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "remedy", "isCorrect": false, "blankIndex": 7 },
+            { "text": "criteria", "isCorrect": false, "blankIndex": 7 },
+            { "text": "ethics", "isCorrect": false, "blankIndex": 7 },
+            { "text": "union", "isCorrect": false, "blankIndex": 7 },
+            { "text": "campaign", "isCorrect": true, "blankIndex": 7 }
+          ]
+        ]
+      }
+    ]
+  }
+]

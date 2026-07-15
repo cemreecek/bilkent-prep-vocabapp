@@ -1,0 +1,55 @@
+Summary of What Has Been Done So Far
+Conceptualization & Architecture Planning:
+
+Designed an educational platform for Bilkent University prep students focused on vocabulary practice.
+Established the core pedagogy: Error-driven learning (students accumulate "error debt" and clear it by successfully reviewing past mistakes).
+Designed strict anti-cheating mechanisms (no copy/paste, randomized delivery) and gamification (daily streaks).
+Planned a Role-Based Access Control (RBAC) system for Students, Teachers, and Admins to ensure secure class management and analytics.
+Documented everything in ARCHITECTURE.md and Building Secure Language Platform.md.
+Project Initialization & Scaffolding:
+
+Initialized a Next.js project in the app directory.
+Created the folder structure for key application routes in src/app: /admin, /auth, /dashboard, /flashcards, /journal, /practice, /review, and /teacher.
+Set up Prisma ORM in app/prisma for database management.
+Generated a ui_implementation directory with stitched UI templates ready to be integrated.
+🚀 Possible Next Steps
+Once you move the files to your new PC, here is the roadmap to continue building:
+
+Database Setup: Finalize the schema.prisma file using the models outlined in ARCHITECTURE.md and run npx prisma migrate dev to spin up your local database.
+Authentication: Set up NextAuth.js or Clerk in the /auth route to handle logins, specifically restricting access to @ug.bilkent.edu.tr emails.
+UI Integration: Start moving the React components from the ui_implementation folder into the app/src directory and connect them to the pages we've scaffolded.
+Core Logic Implementation: Build the API routes in /api to handle the core mechanics: logging errors, tracking session times, and updating flashcard progress using the spaced-repetition algorithm.
+📋 Master Prompt (Copy everything below this line on your new PC)
+text
+
+
+You are an expert Senior Full-Stack Developer assisting me in building "BilkentApp", an educational web application for Bilkent University prep school students. I have already scaffolded the project and documented the architecture.
+Here is the context of the project so far:
+**Tech Stack**: Next.js (App Router), PostgreSQL, Prisma ORM, and Tailwind CSS.
+**Pedagogy**: The app focuses on "error-driven learning." Students accumulate an "Error Score" for wrong answers and can only improve their final grade by correctly answering those missed words in a Review Phase. 
+**Anti-Cheating**: Strict measures are required. Copy/pasting is disabled on the frontend, and questions are randomized.
+**Gamification**: There is a streak system that rewards consecutive daily logins.
+**Roles (RBAC)**: 
+- Admin: Has a "God View" of all classes, teachers, and students.
+- Teacher: Can only monitor the analytics (time spent, most missed words, grades) for their assigned classes.
+- Student: Logs in (restricted to @ug.bilkent.edu.tr emails), sees their dashboard, error debt, and assigned vocabulary lists based on proficiency levels (Elementary, Intermediate, Upper, etc.).
+**Current State of the Codebase**:
+- The Next.js app is initialized in the `app` folder.
+- Routing is scaffolded in `src/app` for `/admin`, `/api`, `/auth`, `/dashboard`, `/flashcards`, `/journal`, `/practice`, `/review`, and `/teacher`.
+- Prisma is initialized in `app/prisma`.
+- UI templates are stored in a `ui_implementation` folder.
+- The detailed database models and component plans are written in `ARCHITECTURE.md`.
+**My Goal Today**: 
+I want to resume development from where I left off. Please review the `app` folder and `ARCHITECTURE.md` to familiarize yourself with the structure. Then, ask me which of the following next steps we should tackle first:
+1. Finalize the Prisma schema and run the initial database migration.
+2. Integrate NextAuth.js / Clerk for role-based authentication.
+3. Move UI components from `ui_implementation` into the Next.js frontend.
+4. Begin writing the API routes for the Error-Driven learning logic.
+Wait for my instruction on how to proceed.
+11:00 AM
+
+
+
+
+
+

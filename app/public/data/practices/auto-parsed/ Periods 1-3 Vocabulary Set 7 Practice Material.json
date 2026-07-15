@@ -1,0 +1,387 @@
+[
+  {
+    "instruction": "PART 1: Fill in the blanks with the most appropriate words from the box. Don’t change the word forms.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "The use of wood in construction can be a controversial issue. On the one hand, it's a renewable resource, and its use can help {1} less greenhouse gas emissions when it is compared to more energy-intensive materials like steel or concrete. On the other hand, deforestation can lead to the loss of {2}, which is very important for the survival of a species and it can also cause the destruction of {3} cultures which make use of wood for their tools and construction of their houses. If it is used responsibly and sustainably, wood can be an environmentally friendly choice. However, it's important to weigh the {4} and if there are lots of drawbacks, other materials should be considered as a {5} for wood. Conserving natural resources and maintaining a balance between development and environmental protection are crucial. Regardless, deciding what {6} of material to build out of is an important choice.",
+        "options": [
+          [
+            { "text": "pros and cons", "isCorrect": false, "blankIndex": 1 },
+            { "text": "generate", "isCorrect": true, "blankIndex": 1 },
+            { "text": "primitive", "isCorrect": false, "blankIndex": 1 },
+            { "text": "accelerate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "substitute", "isCorrect": false, "blankIndex": 1 },
+            { "text": "biodiversity", "isCorrect": false, "blankIndex": 1 },
+            { "text": "network", "isCorrect": false, "blankIndex": 1 },
+            { "text": "sort", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "pros and cons", "isCorrect": false, "blankIndex": 2 },
+            { "text": "generate", "isCorrect": false, "blankIndex": 2 },
+            { "text": "primitive", "isCorrect": false, "blankIndex": 2 },
+            { "text": "accelerate", "isCorrect": false, "blankIndex": 2 },
+            { "text": "substitute", "isCorrect": false, "blankIndex": 2 },
+            { "text": "biodiversity", "isCorrect": true, "blankIndex": 2 },
+            { "text": "network", "isCorrect": false, "blankIndex": 2 },
+            { "text": "sort", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "pros and cons", "isCorrect": false, "blankIndex": 3 },
+            { "text": "generate", "isCorrect": false, "blankIndex": 3 },
+            { "text": "primitive", "isCorrect": true, "blankIndex": 3 },
+            { "text": "accelerate", "isCorrect": false, "blankIndex": 3 },
+            { "text": "substitute", "isCorrect": false, "blankIndex": 3 },
+            { "text": "biodiversity", "isCorrect": false, "blankIndex": 3 },
+            { "text": "network", "isCorrect": false, "blankIndex": 3 },
+            { "text": "sort", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "pros and cons", "isCorrect": true, "blankIndex": 4 },
+            { "text": "generate", "isCorrect": false, "blankIndex": 4 },
+            { "text": "primitive", "isCorrect": false, "blankIndex": 4 },
+            { "text": "accelerate", "isCorrect": false, "blankIndex": 4 },
+            { "text": "substitute", "isCorrect": false, "blankIndex": 4 },
+            { "text": "biodiversity", "isCorrect": false, "blankIndex": 4 },
+            { "text": "network", "isCorrect": false, "blankIndex": 4 },
+            { "text": "sort", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "pros and cons", "isCorrect": false, "blankIndex": 5 },
+            { "text": "generate", "isCorrect": false, "blankIndex": 5 },
+            { "text": "primitive", "isCorrect": false, "blankIndex": 5 },
+            { "text": "accelerate", "isCorrect": false, "blankIndex": 5 },
+            { "text": "substitute", "isCorrect": true, "blankIndex": 5 },
+            { "text": "biodiversity", "isCorrect": false, "blankIndex": 5 },
+            { "text": "network", "isCorrect": false, "blankIndex": 5 },
+            { "text": "sort", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "pros and cons", "isCorrect": false, "blankIndex": 6 },
+            { "text": "generate", "isCorrect": false, "blankIndex": 6 },
+            { "text": "primitive", "isCorrect": false, "blankIndex": 6 },
+            { "text": "accelerate", "isCorrect": false, "blankIndex": 6 },
+            { "text": "substitute", "isCorrect": false, "blankIndex": 6 },
+            { "text": "biodiversity", "isCorrect": false, "blankIndex": 6 },
+            { "text": "network", "isCorrect": false, "blankIndex": 6 },
+            { "text": "sort", "isCorrect": true, "blankIndex": 6 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 2: Choose the best option.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "In our town, every year, we have a big parade to celebrate the local festival. The {1} mayor used to lead the parade, but now it has changed. The new practice is that we {2} a different person each year to do it. This year, the parade's main {3} is to raise awareness about environmental issues. The event includes colorful floats, marching bands, and community groups showing their support for various causes. One disadvantage of the parade is that it causes a lot of {4}. The traffic is so bad and the streets are so crowded that it's hard to move around. To help with this, the city plans to {5} certain streets from the parade route and to {6} the locations every year. This means that not everyone will see the parade pass by their house each year, but it should help reduce the traffic problems. Overall, the parade and the festival are a highlight of the year. Despite the {7}, most people look forward to this event because it brings the community together, helps to {8} traditions and provides an opportunity for everyone to have fun and celebrate.",
+        "options": [
+          [
+            { "text": "former", "isCorrect": true, "blankIndex": 1 },
+            { "text": "latter", "isCorrect": false, "blankIndex": 1 },
+            { "text": "potential", "isCorrect": false, "blankIndex": 1 },
+            { "text": "current", "isCorrect": false, "blankIndex": 1 },
+            { "text": "unique", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "conserve", "isCorrect": false, "blankIndex": 2 },
+            { "text": "elect", "isCorrect": true, "blankIndex": 2 },
+            { "text": "eliminate", "isCorrect": false, "blankIndex": 2 },
+            { "text": "transfer", "isCorrect": false, "blankIndex": 2 },
+            { "text": "substitute", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "drawback", "isCorrect": false, "blankIndex": 3 },
+            { "text": "presence", "isCorrect": false, "blankIndex": 3 },
+            { "text": "reputation", "isCorrect": false, "blankIndex": 3 },
+            { "text": "justification", "isCorrect": false, "blankIndex": 3 },
+            { "text": "mission", "isCorrect": true, "blankIndex": 3 }
+          ],
+          [
+            { "text": "dilemma", "isCorrect": false, "blankIndex": 4 },
+            { "text": "debate", "isCorrect": false, "blankIndex": 4 },
+            { "text": "resistance", "isCorrect": false, "blankIndex": 4 },
+            { "text": "disorder", "isCorrect": true, "blankIndex": 4 },
+            { "text": "boost", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "exclude", "isCorrect": true, "blankIndex": 5 },
+            { "text": "abandon", "isCorrect": false, "blankIndex": 5 },
+            { "text": "enclose", "isCorrect": false, "blankIndex": 5 },
+            { "text": "differ", "isCorrect": false, "blankIndex": 5 },
+            { "text": "release", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "enhance", "isCorrect": false, "blankIndex": 6 },
+            { "text": "rotate", "isCorrect": true, "blankIndex": 6 },
+            { "text": "simplify", "isCorrect": false, "blankIndex": 6 },
+            { "text": "extend", "isCorrect": false, "blankIndex": 6 },
+            { "text": "adopt", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "obstacles", "isCorrect": true, "blankIndex": 7 },
+            { "text": "opportunities", "isCorrect": false, "blankIndex": 7 },
+            { "text": "resistance", "isCorrect": false, "blankIndex": 7 },
+            { "text": "objections", "isCorrect": false, "blankIndex": 7 },
+            { "text": "inspections", "isCorrect": false, "blankIndex": 7 }
+          ],
+          [
+            { "text": "conserve", "isCorrect": true, "blankIndex": 8 },
+            { "text": "secure", "isCorrect": false, "blankIndex": 8 },
+            { "text": "spare", "isCorrect": false, "blankIndex": 8 },
+            { "text": "admit", "isCorrect": false, "blankIndex": 8 },
+            { "text": "track", "isCorrect": false, "blankIndex": 8 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 3: The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the text. Fill in each space in this way. Spelling mistakes will be penalized.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "Every year, the students at Greenfield High School vote for a new student council president. This year, many students are excited about the ______ (ELECT).",
+        "correctAnswer": "ELECTION",
+        "options": []
+      },
+      {
+        "questionText": "However, critics say that the constant campaigning can cause ______ (IRRITATE) among some students, especially if they are busy with project work, studying or preparing for exams.",
+        "correctAnswer": "IRRITATION",
+        "options": []
+      },
+      {
+        "questionText": "Maria, one candidate, promises to improve the school's recycling program and promote ______ (CONSERVE).",
+        "correctAnswer": "CONSERVATION",
+        "options": []
+      },
+      {
+        "questionText": "Another candidate, Tom wants to help students manage their money by providing free classes on ______ (FINANCE) literacy.",
+        "correctAnswer": "FINANCIAL",
+        "options": []
+      },
+      {
+        "questionText": "Maria had to miss a few days of school due to illness, so her friend Alex acted as her ______ (SUBSTITUTION). This helped her stay in the race.",
+        "correctAnswer": "SUBSTITUTE",
+        "options": []
+      },
+      {
+        "questionText": "The school is also celebrating Citizenship Week, teaching students about their rights and responsibilities. The principal emphasizes ______ (PUNCTUAL), believing being on time shows respect and helps everything run smoothly.",
+        "correctAnswer": "PUNCTUALITY",
+        "options": []
+      },
+      {
+        "questionText": "At the end of the week, there is a big celebration. However, some students seem more interested in winning prizes, which others view as ______ (GREED) behavior.",
+        "correctAnswer": "GREEDY",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "PART 4: Below you will find different meanings of the bolded word. Choose the option that matches the sentence.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "Choose the correct meaning of the bolded word in the sentence:\n\"I need to draw some money out of my **account**.\"",
+        "options": [
+          { "text": "a written or spoken description of something that has happened", "isCorrect": false },
+          { "text": "an arrangement in which a bank keeps your money safe so that you can pay more in or take money out", "isCorrect": true },
+          { "text": "an arrangement that you have with a shop or company, which allows you to buy goods or use a service now and pay for them later", "isCorrect": false },
+          { "text": "because of something", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Choose the correct meaning of the bolded word in the sentence:\n\"At **present** she's working abroad.\"",
+        "options": [
+          { "text": "something that you are given, without asking for it, on a special occasion, especially to show friendship, or to say thank you", "isCorrect": false },
+          { "text": "the form of the verb that is used to show what happens or exists now", "isCorrect": false },
+          { "text": "now", "isCorrect": true },
+          { "text": "a person being in a particular place", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Choose the correct meaning of the bolded word in the sentence:\n\"She wrote **dull** but respectable articles for the local newspaper.\"",
+        "options": [
+          { "text": "not interesting or exciting", "isCorrect": true },
+          { "text": "not bright or shiny", "isCorrect": false },
+          { "text": "weather that is not bright and with lots of clouds", "isCorrect": false },
+          { "text": "(for pain) not severe but does not stop", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Choose the correct meaning of the bolded word in the sentence:\n\"The organization has **launched** a campaign to raise $150,000.\"",
+        "options": [
+          { "text": "to make a computer program start", "isCorrect": false },
+          { "text": "to send a weapon or spacecraft into the sky or into space", "isCorrect": false },
+          { "text": "to make a new product, book etc. available for sale for the first time", "isCorrect": false },
+          { "text": "to start something, usually something big or important", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Choose the correct meaning of the bolded word in the sentence:\n\"Lay the material flat on the table.\"",
+        "options": [
+          { "text": "the past tense of “lie”", "isCorrect": false },
+          { "text": "to put someone or something down carefully into a flat position", "isCorrect": true },
+          { "text": "if a bird, insect etc. lays eggs, it produces them from its body", "isCorrect": false },
+          { "text": "to put the cloth, plates, knives, forks etc. on a table, ready for a meal", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Choose the correct meaning of the bolded word in the sentence:\n\"All the people in the study had low self-esteem and had **issues** with their bodies.\"",
+        "options": [
+          { "text": "to have difficulty with something or a disagreement with someone", "isCorrect": true },
+          { "text": "a set of newspapers or magazines published at the same time or a single copy of a newspaper or magazine", "isCorrect": false },
+          { "text": "to make something seem more important than it should be, or to argue about it", "isCorrect": false },
+          { "text": "a new set of something such as shares or stamps, made available for people to buy", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Choose the correct meaning of the bolded word in the sentence:\n\"The body's **regulation** of temperature is essential for maintaining health.\"",
+        "options": [
+          { "text": "A rule or directive made and maintained by an authority.", "isCorrect": false },
+          { "text": "The act of managing or controlling something according to rules or principles.", "isCorrect": true },
+          { "text": "A standard or regular measure or practice.", "isCorrect": false },
+          { "text": "Rules or directives governing behavior or actions.", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 5: Fill in the blanks in the dialogue with words from the box. You do not need to change the form of the words.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Samantha: Hey, have you seen the latest video that's gone viral from those Gen Z influencers?\n\nJake: No, what is it about?\n\nSamantha: It's basically a PSA on social {1} for our generation. They're calling out past generations and warning us to take action and {2} a more just future for all.\n\nJake: That sounds powerful. What hidden facts do they {3} in the video?\n\nSamantha: A lot of things. They show how our {4} position as digital natives allows us to raise awareness for important issues. They also say that we can {5} effective campaigns to attract attention of the public. They also state that we need to use our voices and platforms to speak up for marginalized communities. When dealing with serious topics, we should communicate clearly, respectfully and avoid any hint of {6}.\n\nJake: Wow, I didn't know about any of that.\n\nSamantha: Yeah, it's eye-opening. They also showcase statistics and stories from {7} of injustice, the people who suffer from unfair acts of others. The video is a good tool to really {8} the severity of these problems to people who have never experienced such issues.\n\nJake: I'm definitely going to check it out now. Thanks for bringing it to my attention.\n\nSamantha: Of course. We can each do our part by sharing and spreading this message. We are the future after all.",
+        "options": [
+          [
+            { "text": "justice", "isCorrect": true, "blankIndex": 1 },
+            { "text": "unique", "isCorrect": false, "blankIndex": 1 },
+            { "text": "illustrate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "ensure", "isCorrect": false, "blankIndex": 1 },
+            { "text": "launch", "isCorrect": false, "blankIndex": 1 },
+            { "text": "victims", "isCorrect": false, "blankIndex": 1 },
+            { "text": "reveal", "isCorrect": false, "blankIndex": 1 },
+            { "text": "sarcasm", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "justice", "isCorrect": false, "blankIndex": 2 },
+            { "text": "unique", "isCorrect": false, "blankIndex": 2 },
+            { "text": "illustrate", "isCorrect": false, "blankIndex": 2 },
+            { "text": "ensure", "isCorrect": true, "blankIndex": 2 },
+            { "text": "launch", "isCorrect": false, "blankIndex": 2 },
+            { "text": "victims", "isCorrect": false, "blankIndex": 2 },
+            { "text": "reveal", "isCorrect": false, "blankIndex": 2 },
+            { "text": "sarcasm", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "justice", "isCorrect": false, "blankIndex": 3 },
+            { "text": "unique", "isCorrect": false, "blankIndex": 3 },
+            { "text": "illustrate", "isCorrect": false, "blankIndex": 3 },
+            { "text": "ensure", "isCorrect": false, "blankIndex": 3 },
+            { "text": "launch", "isCorrect": false, "blankIndex": 3 },
+            { "text": "victims", "isCorrect": false, "blankIndex": 3 },
+            { "text": "reveal", "isCorrect": true, "blankIndex": 3 },
+            { "text": "sarcasm", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "justice", "isCorrect": false, "blankIndex": 4 },
+            { "text": "unique", "isCorrect": true, "blankIndex": 4 },
+            { "text": "illustrate", "isCorrect": false, "blankIndex": 4 },
+            { "text": "ensure", "isCorrect": false, "blankIndex": 4 },
+            { "text": "launch", "isCorrect": false, "blankIndex": 4 },
+            { "text": "victims", "isCorrect": false, "blankIndex": 4 },
+            { "text": "reveal", "isCorrect": false, "blankIndex": 4 },
+            { "text": "sarcasm", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "justice", "isCorrect": false, "blankIndex": 5 },
+            { "text": "unique", "isCorrect": false, "blankIndex": 5 },
+            { "text": "illustrate", "isCorrect": false, "blankIndex": 5 },
+            { "text": "ensure", "isCorrect": false, "blankIndex": 5 },
+            { "text": "launch", "isCorrect": true, "blankIndex": 5 },
+            { "text": "victims", "isCorrect": false, "blankIndex": 5 },
+            { "text": "reveal", "isCorrect": false, "blankIndex": 5 },
+            { "text": "sarcasm", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "justice", "isCorrect": false, "blankIndex": 6 },
+            { "text": "unique", "isCorrect": false, "blankIndex": 6 },
+            { "text": "illustrate", "isCorrect": false, "blankIndex": 6 },
+            { "text": "ensure", "isCorrect": false, "blankIndex": 6 },
+            { "text": "launch", "isCorrect": false, "blankIndex": 6 },
+            { "text": "victims", "isCorrect": false, "blankIndex": 6 },
+            { "text": "reveal", "isCorrect": false, "blankIndex": 6 },
+            { "text": "sarcasm", "isCorrect": true, "blankIndex": 6 }
+          ],
+          [
+            { "text": "justice", "isCorrect": false, "blankIndex": 7 },
+            { "text": "unique", "isCorrect": false, "blankIndex": 7 },
+            { "text": "illustrate", "isCorrect": false, "blankIndex": 7 },
+            { "text": "ensure", "isCorrect": false, "blankIndex": 7 },
+            { "text": "launch", "isCorrect": false, "blankIndex": 7 },
+            { "text": "victims", "isCorrect": true, "blankIndex": 7 },
+            { "text": "reveal", "isCorrect": false, "blankIndex": 7 },
+            { "text": "sarcasm", "isCorrect": false, "blankIndex": 7 }
+          ],
+          [
+            { "text": "justice", "isCorrect": false, "blankIndex": 8 },
+            { "text": "unique", "isCorrect": false, "blankIndex": 8 },
+            { "text": "illustrate", "isCorrect": true, "blankIndex": 8 },
+            { "text": "ensure", "isCorrect": false, "blankIndex": 8 },
+            { "text": "launch", "isCorrect": false, "blankIndex": 8 },
+            { "text": "victims", "isCorrect": false, "blankIndex": 8 },
+            { "text": "reveal", "isCorrect": false, "blankIndex": 8 },
+            { "text": "sarcasm", "isCorrect": false, "blankIndex": 8 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Read the definitions and complete the crossword puzzle by using a word from Week 7 vocabulary set.",
+    "type": "matching",
+    "items": [
+      {
+        "questionText": "Across 4: Fair treatment under the law",
+        "correctAnswer": "JUSTICE"
+      },
+      {
+        "questionText": "Across 5: To begin or introduce something new",
+        "correctAnswer": "LAUNCH"
+      },
+      {
+        "questionText": "Across 7: An illness of the mind or body",
+        "correctAnswer": "DISORDER"
+      },
+      {
+        "questionText": "Across 9: One of a kind",
+        "correctAnswer": "UNIQUE"
+      },
+      {
+        "questionText": "Across 10: To happen or make something happen sooner or faster",
+        "correctAnswer": "ACCELERATE"
+      },
+      {
+        "questionText": "Down 1: A part or share of something",
+        "correctAnswer": "PORTION"
+      },
+      {
+        "questionText": "Down 2: To make certain that something happens",
+        "correctAnswer": "ENSURE"
+      },
+      {
+        "questionText": "Down 3: To explain or make something clear using examples",
+        "correctAnswer": "ILLUSTRATE"
+      },
+      {
+        "questionText": "Down 6: A person harmed by a crime",
+        "correctAnswer": "VICTIM"
+      },
+      {
+        "questionText": "Down 8: To show or make known something hidden",
+        "correctAnswer": "REVEAL"
+      }
+    ]
+  }
+]

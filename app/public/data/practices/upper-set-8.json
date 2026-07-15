@@ -1,0 +1,417 @@
+[
+  {
+    "instruction": "Fill in the blanks with the most appropriate words from the box. Don’t change the word forms.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Cyber security is an important field in the modern world. It protects our data from online threats. One common {1} is that only big companies need cyber security, however nowadays we all have access to the internet and now our personal information can be at risk. For some, this can lead to a new {2} because in the very near future there will be a greater need for cyber security experts if the pace of technology is taken into consideration. The good news is that even a {3} user of the internet can learn the skills needed to protect information. There are many types of online attacks and it is tempting to believe hackers are just {4} people and want to steal or cause harm. To protect against these threats, it’s essential to learn how to {5} the often confusing security options currently available. Good cyber security includes using strong passwords, not sharing personal information, and being careful about what you click on. It's also important not to {6} updates for software and systems, as these often fix hidden security problems. In addition, companies and individuals must {7} to keep data safe. This means sharing good practices and staying informed about new threats. Many organizations will {8} information about current dangers and how to avoid them worldwide. Understanding these basics can help everyone stay safe online.",
+        "options": [
+          [
+            { "text": "evil", "isCorrect": false, "blankIndex": 1 },
+            { "text": "misleading", "isCorrect": false, "blankIndex": 1 },
+            { "text": "profession", "isCorrect": false, "blankIndex": 1 },
+            { "text": "misunderstanding", "isCorrect": true, "blankIndex": 1 },
+            { "text": "cooperate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "ignore", "isCorrect": false, "blankIndex": 1 },
+            { "text": "prospective", "isCorrect": false, "blankIndex": 1 },
+            { "text": "handle", "isCorrect": false, "blankIndex": 1 },
+            { "text": "distribute", "isCorrect": false, "blankIndex": 1 },
+            { "text": "novice", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "evil", "isCorrect": false, "blankIndex": 2 },
+            { "text": "misleading", "isCorrect": false, "blankIndex": 2 },
+            { "text": "profession", "isCorrect": true, "blankIndex": 2 },
+            { "text": "misunderstanding", "isCorrect": false, "blankIndex": 2 },
+            { "text": "cooperate", "isCorrect": false, "blankIndex": 2 },
+            { "text": "ignore", "isCorrect": false, "blankIndex": 2 },
+            { "text": "prospective", "isCorrect": false, "blankIndex": 2 },
+            { "text": "handle", "isCorrect": false, "blankIndex": 2 },
+            { "text": "distribute", "isCorrect": false, "blankIndex": 2 },
+            { "text": "novice", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "evil", "isCorrect": false, "blankIndex": 3 },
+            { "text": "misleading", "isCorrect": false, "blankIndex": 3 },
+            { "text": "profession", "isCorrect": false, "blankIndex": 3 },
+            { "text": "misunderstanding", "isCorrect": false, "blankIndex": 3 },
+            { "text": "cooperate", "isCorrect": false, "blankIndex": 3 },
+            { "text": "ignore", "isCorrect": false, "blankIndex": 3 },
+            { "text": "prospective", "isCorrect": false, "blankIndex": 3 },
+            { "text": "handle", "isCorrect": false, "blankIndex": 3 },
+            { "text": "distribute", "isCorrect": false, "blankIndex": 3 },
+            { "text": "novice", "isCorrect": true, "blankIndex": 3 }
+          ],
+          [
+            { "text": "evil", "isCorrect": true, "blankIndex": 4 },
+            { "text": "misleading", "isCorrect": false, "blankIndex": 4 },
+            { "text": "profession", "isCorrect": false, "blankIndex": 4 },
+            { "text": "misunderstanding", "isCorrect": false, "blankIndex": 4 },
+            { "text": "cooperate", "isCorrect": false, "blankIndex": 4 },
+            { "text": "ignore", "isCorrect": false, "blankIndex": 4 },
+            { "text": "prospective", "isCorrect": false, "blankIndex": 4 },
+            { "text": "handle", "isCorrect": false, "blankIndex": 4 },
+            { "text": "distribute", "isCorrect": false, "blankIndex": 4 },
+            { "text": "novice", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "evil", "isCorrect": false, "blankIndex": 5 },
+            { "text": "misleading", "isCorrect": false, "blankIndex": 5 },
+            { "text": "profession", "isCorrect": false, "blankIndex": 5 },
+            { "text": "misunderstanding", "isCorrect": false, "blankIndex": 5 },
+            { "text": "cooperate", "isCorrect": false, "blankIndex": 5 },
+            { "text": "ignore", "isCorrect": false, "blankIndex": 5 },
+            { "text": "prospective", "isCorrect": false, "blankIndex": 5 },
+            { "text": "handle", "isCorrect": true, "blankIndex": 5 },
+            { "text": "distribute", "isCorrect": false, "blankIndex": 5 },
+            { "text": "novice", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "evil", "isCorrect": false, "blankIndex": 6 },
+            { "text": "misleading", "isCorrect": false, "blankIndex": 6 },
+            { "text": "profession", "isCorrect": false, "blankIndex": 6 },
+            { "text": "misunderstanding", "isCorrect": false, "blankIndex": 6 },
+            { "text": "cooperate", "isCorrect": false, "blankIndex": 6 },
+            { "text": "ignore", "isCorrect": true, "blankIndex": 6 },
+            { "text": "prospective", "isCorrect": false, "blankIndex": 6 },
+            { "text": "handle", "isCorrect": false, "blankIndex": 6 },
+            { "text": "distribute", "isCorrect": false, "blankIndex": 6 },
+            { "text": "novice", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "evil", "isCorrect": false, "blankIndex": 7 },
+            { "text": "misleading", "isCorrect": false, "blankIndex": 7 },
+            { "text": "profession", "isCorrect": false, "blankIndex": 7 },
+            { "text": "misunderstanding", "isCorrect": false, "blankIndex": 7 },
+            { "text": "cooperate", "isCorrect": true, "blankIndex": 7 },
+            { "text": "ignore", "isCorrect": false, "blankIndex": 7 },
+            { "text": "prospective", "isCorrect": false, "blankIndex": 7 },
+            { "text": "handle", "isCorrect": false, "blankIndex": 7 },
+            { "text": "distribute", "isCorrect": false, "blankIndex": 7 },
+            { "text": "novice", "isCorrect": false, "blankIndex": 7 }
+          ],
+          [
+            { "text": "evil", "isCorrect": false, "blankIndex": 8 },
+            { "text": "misleading", "isCorrect": false, "blankIndex": 8 },
+            { "text": "profession", "isCorrect": false, "blankIndex": 8 },
+            { "text": "misunderstanding", "isCorrect": false, "blankIndex": 8 },
+            { "text": "cooperate", "isCorrect": false, "blankIndex": 8 },
+            { "text": "ignore", "isCorrect": false, "blankIndex": 8 },
+            { "text": "prospective", "isCorrect": false, "blankIndex": 8 },
+            { "text": "handle", "isCorrect": false, "blankIndex": 8 },
+            { "text": "distribute", "isCorrect": true, "blankIndex": 8 },
+            { "text": "novice", "isCorrect": false, "blankIndex": 8 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Below you will find different meanings of the bolded word. Circle the one that matches the sentence.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "The villain in the story was a rotten individual who enjoyed causing problems to others. (rotten)",
+        "options": [
+          { "text": "morally corrupt or extremely bad.", "isCorrect": true },
+          { "text": "no longer good to eat because of something", "isCorrect": false },
+          { "text": "very poor quality", "isCorrect": false },
+          { "text": "unpleasant or disagreeable", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Afterwards, the soldiers noticed the fatal error in their strategy that had led to their defeat. (fatal)",
+        "options": [
+          { "text": "resulting in death", "isCorrect": false },
+          { "text": "leading to failure or disaster; causing ruin.", "isCorrect": true },
+          { "text": "inevitable", "isCorrect": false },
+          { "text": "capable of causing death or destruction.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The doctor gave him a grave look before delivering the bad news. (grave)",
+        "options": [
+          { "text": "a place in the ground where a dead body is buried", "isCorrect": false },
+          { "text": "giving cause for concern", "isCorrect": true },
+          { "text": "significantly important", "isCorrect": false },
+          { "text": "an accent mark", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "She was sacked for consistently arriving late to work. (sacked)",
+        "options": [
+          { "text": "put in a large bag made of cloth, paper, or plastic", "isCorrect": false },
+          { "text": "to be removed from a job; to be fired", "isCorrect": true },
+          { "text": "valuable goods taken and property destroyed after a military conquest", "isCorrect": false },
+          { "text": "a bed or sleeping place.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The professor’s lecture was so dense with information that it was hard to follow. (dense)",
+        "options": [
+          { "text": "having parts that are very close together with little space in between.", "isCorrect": false },
+          { "text": "thick and difficult to see through", "isCorrect": false },
+          { "text": "complex or hard to comprehend due to a large amount of data", "isCorrect": true },
+          { "text": "having a high mass relative to volume; heavy", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The manager was sympathetic to our request for flexible working hours. (sympathetic)",
+        "options": [
+          { "text": "having a harmonious or compatible relationship with something else", "isCorrect": false },
+          { "text": "in agreement or consistent with something", "isCorrect": false },
+          { "text": "showing approval or favor", "isCorrect": true },
+          { "text": "showing understanding for others' emotions or difficulties", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the sentences. Fill in each space in this way. Spelling mistakes will be penalized.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "When traveling to new places, it's important to have ______ for the locals and their customs. (Root: SYMPATHETIC)",
+        "correctAnswer": "SYMPATHY",
+        "options": []
+      },
+      {
+        "questionText": "A lack of understanding can sometimes appear to be just plain ______ , which is never a good look for a tourist. (Root: IGNORANT)",
+        "correctAnswer": "IGNORANCE",
+        "options": []
+      },
+      {
+        "questionText": "The ______ of tourism in many countries often releases guides and warnings to help visitors navigate more respectfully and enjoyably. (Root: MINISTER)",
+        "correctAnswer": "MINISTRY",
+        "options": []
+      },
+      {
+        "questionText": "The ministry of tourism in many countries often releases guides and ______ to help visitors navigate more respectfully and enjoyably. (Root: WARN)",
+        "correctAnswer": "WARNINGS",
+        "options": []
+      },
+      {
+        "questionText": "For instance, while it may be tempting to give money to a ______ , local laws or advice might suggest not doing so. (Root: BEG)",
+        "correctAnswer": "BEGGAR",
+        "options": []
+      },
+      {
+        "questionText": "Instead, one can contribute in a more ______ and meaningful way, such as donating to local charities. (Root: TASTE)",
+        "correctAnswer": "TASTEFUL",
+        "options": []
+      },
+      {
+        "questionText": "By doing this, visitors do not cause any ______ to the locals. (Root: DISTURB)",
+        "correctAnswer": "DISTURBANCE",
+        "options": []
+      },
+      {
+        "questionText": "Remember, your behavior is a reflection of your home country and can ______ affect the impression of tourists as a whole. (Root: TEMPORARY)",
+        "correctAnswer": "TEMPORARILY",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the blanks with the most appropriate words from the box. Don’t change the word forms.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Community Event Preparation\n       In our small town, we often have community events that require everyone to cooperate with each other to make them successful. This year, the annual town fair will {1} with the music festival, which means we have to prepare for two big events happening at the same time.\n    The town council has hired a {2} event coordinator to help manage everything. She has a lot of experience, but she felt the need to {3} us about the fact that we had better start working right away to avoid any last-minute problems.\n     Some people were initially {4} to having both events on the same weekend, fearing it would be too chaotic. However, after discussing the benefits, most people agreed it could be a great way to bring the community together. Although a {5} still had concerns, they decided to support the decision in the end.\n     Luckily, we have {6} resources and volunteers, which means that we are able to {7} both events, but it will take careful planning and teamwork. By working together, we can {8} that both the town fair and the music festival are enjoyable for everyone. Another goal of the town fair is to {9} the traditional crafts and activities from our town's history. This helps to keep our culture alive and teaches the younger generation about our heritage.",
+        "options": [
+          [
+            { "text": "temporary", "isCorrect": false, "blankIndex": 1 },
+            { "text": "opposed", "isCorrect": false, "blankIndex": 1 },
+            { "text": "sufficient", "isCorrect": false, "blankIndex": 1 },
+            { "text": "reproduce", "isCorrect": false, "blankIndex": 1 },
+            { "text": "coincide", "isCorrect": true, "blankIndex": 1 },
+            { "text": "warn", "isCorrect": false, "blankIndex": 1 },
+            { "text": "handle", "isCorrect": false, "blankIndex": 1 },
+            { "text": "ensure", "isCorrect": false, "blankIndex": 1 },
+            { "text": "minority", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "temporary", "isCorrect": true, "blankIndex": 2 },
+            { "text": "opposed", "isCorrect": false, "blankIndex": 2 },
+            { "text": "sufficient", "isCorrect": false, "blankIndex": 2 },
+            { "text": "reproduce", "isCorrect": false, "blankIndex": 2 },
+            { "text": "coincide", "isCorrect": false, "blankIndex": 2 },
+            { "text": "warn", "isCorrect": false, "blankIndex": 2 },
+            { "text": "handle", "isCorrect": false, "blankIndex": 2 },
+            { "text": "ensure", "isCorrect": false, "blankIndex": 2 },
+            { "text": "minority", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "temporary", "isCorrect": false, "blankIndex": 3 },
+            { "text": "opposed", "isCorrect": false, "blankIndex": 3 },
+            { "text": "sufficient", "isCorrect": false, "blankIndex": 3 },
+            { "text": "reproduce", "isCorrect": false, "blankIndex": 3 },
+            { "text": "coincide", "isCorrect": false, "blankIndex": 3 },
+            { "text": "warn", "isCorrect": true, "blankIndex": 3 },
+            { "text": "handle", "isCorrect": false, "blankIndex": 3 },
+            { "text": "ensure", "isCorrect": false, "blankIndex": 3 },
+            { "text": "minority", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "temporary", "isCorrect": false, "blankIndex": 4 },
+            { "text": "opposed", "isCorrect": true, "blankIndex": 4 },
+            { "text": "sufficient", "isCorrect": false, "blankIndex": 4 },
+            { "text": "reproduce", "isCorrect": false, "blankIndex": 4 },
+            { "text": "coincide", "isCorrect": false, "blankIndex": 4 },
+            { "text": "warn", "isCorrect": false, "blankIndex": 4 },
+            { "text": "handle", "isCorrect": false, "blankIndex": 4 },
+            { "text": "ensure", "isCorrect": false, "blankIndex": 4 },
+            { "text": "minority", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "temporary", "isCorrect": false, "blankIndex": 5 },
+            { "text": "opposed", "isCorrect": false, "blankIndex": 5 },
+            { "text": "sufficient", "isCorrect": false, "blankIndex": 5 },
+            { "text": "reproduce", "isCorrect": false, "blankIndex": 5 },
+            { "text": "coincide", "isCorrect": false, "blankIndex": 5 },
+            { "text": "warn", "isCorrect": false, "blankIndex": 5 },
+            { "text": "handle", "isCorrect": false, "blankIndex": 5 },
+            { "text": "ensure", "isCorrect": false, "blankIndex": 5 },
+            { "text": "minority", "isCorrect": true, "blankIndex": 5 }
+          ],
+          [
+            { "text": "temporary", "isCorrect": false, "blankIndex": 6 },
+            { "text": "opposed", "isCorrect": false, "blankIndex": 6 },
+            { "text": "sufficient", "isCorrect": true, "blankIndex": 6 },
+            { "text": "reproduce", "isCorrect": false, "blankIndex": 6 },
+            { "text": "coincide", "isCorrect": false, "blankIndex": 6 },
+            { "text": "warn", "isCorrect": false, "blankIndex": 6 },
+            { "text": "handle", "isCorrect": false, "blankIndex": 6 },
+            { "text": "ensure", "isCorrect": false, "blankIndex": 6 },
+            { "text": "minority", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "temporary", "isCorrect": false, "blankIndex": 7 },
+            { "text": "opposed", "isCorrect": false, "blankIndex": 7 },
+            { "text": "sufficient", "isCorrect": false, "blankIndex": 7 },
+            { "text": "reproduce", "isCorrect": false, "blankIndex": 7 },
+            { "text": "coincide", "isCorrect": false, "blankIndex": 7 },
+            { "text": "warn", "isCorrect": false, "blankIndex": 7 },
+            { "text": "handle", "isCorrect": true, "blankIndex": 7 },
+            { "text": "ensure", "isCorrect": false, "blankIndex": 7 },
+            { "text": "minority", "isCorrect": false, "blankIndex": 7 }
+          ],
+          [
+            { "text": "temporary", "isCorrect": false, "blankIndex": 8 },
+            { "text": "opposed", "isCorrect": false, "blankIndex": 8 },
+            { "text": "sufficient", "isCorrect": false, "blankIndex": 8 },
+            { "text": "reproduce", "isCorrect": false, "blankIndex": 8 },
+            { "text": "coincide", "isCorrect": false, "blankIndex": 8 },
+            { "text": "warn", "isCorrect": false, "blankIndex": 8 },
+            { "text": "handle", "isCorrect": false, "blankIndex": 8 },
+            { "text": "ensure", "isCorrect": true, "blankIndex": 8 },
+            { "text": "minority", "isCorrect": false, "blankIndex": 8 }
+          ],
+          [
+            { "text": "temporary", "isCorrect": false, "blankIndex": 9 },
+            { "text": "opposed", "isCorrect": false, "blankIndex": 9 },
+            { "text": "sufficient", "isCorrect": false, "blankIndex": 9 },
+            { "text": "reproduce", "isCorrect": true, "blankIndex": 9 },
+            { "text": "coincide", "isCorrect": false, "blankIndex": 9 },
+            { "text": "warn", "isCorrect": false, "blankIndex": 9 },
+            { "text": "handle", "isCorrect": false, "blankIndex": 9 },
+            { "text": "ensure", "isCorrect": false, "blankIndex": 9 },
+            { "text": "minority", "isCorrect": false, "blankIndex": 9 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Choose the word that matches the given dictionary definition by choosing A, B, C, D or E:",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "an extent, stretch, reach, or spread between two limits in time or space",
+        "options": [
+          { "text": "structure", "isCorrect": false },
+          { "text": "span", "isCorrect": true },
+          { "text": "controversy", "isCorrect": false },
+          { "text": "saving", "isCorrect": false },
+          { "text": "strike", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "to change from doing or using one thing to doing or using another",
+        "options": [
+          { "text": "eliminate", "isCorrect": false },
+          { "text": "implement", "isCorrect": false },
+          { "text": "switch", "isCorrect": true },
+          { "text": "cooperate", "isCorrect": false },
+          { "text": "reproduce", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "the final result of a meeting, discussion, war etc.",
+        "options": [
+          { "text": "outcome", "isCorrect": true },
+          { "text": "sack", "isCorrect": false },
+          { "text": "pause", "isCorrect": false },
+          { "text": "novice", "isCorrect": false },
+          { "text": "grave", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Read the definitions and complete the crossword puzzle by using words from Vocabulary Set 8.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "ACROSS 3. A beginner",
+        "correctAnswer": "novice",
+        "options": []
+      },
+      {
+        "questionText": "ACROSS 4. To hit or attack forcefully",
+        "correctAnswer": "strike",
+        "options": []
+      },
+      {
+        "questionText": "ACROSS 7. Money that is owed or due",
+        "correctAnswer": "debt",
+        "options": []
+      },
+      {
+        "questionText": "ACROSS 9. Standards or principles by which something is judged or decided.",
+        "correctAnswer": "criteria",
+        "options": []
+      },
+      {
+        "questionText": "ACROSS 10. To give food to",
+        "correctAnswer": "feed",
+        "options": []
+      },
+      {
+        "questionText": "DOWN 1. The health, happiness, and fortunes of a person or group",
+        "correctAnswer": "welfare",
+        "options": []
+      },
+      {
+        "questionText": "DOWN 2. To give out or deliver something to a number of people.",
+        "correctAnswer": "distribute",
+        "options": []
+      },
+      {
+        "questionText": "DOWN 5. The result or consequence of an action or event",
+        "correctAnswer": "outcome",
+        "options": []
+      },
+      {
+        "questionText": "DOWN 6. To exchange one thing for another",
+        "correctAnswer": "swap",
+        "options": []
+      },
+      {
+        "questionText": "DOWN 8. Fully developed and ready to be harvested",
+        "correctAnswer": "ripe",
+        "options": []
+      }
+    ]
+  }
+]

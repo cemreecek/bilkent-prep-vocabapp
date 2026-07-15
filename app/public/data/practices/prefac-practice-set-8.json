@@ -1,0 +1,297 @@
+[
+  {
+    "instruction": "Match the following VERBS and NOUNS with their definitions.",
+    "type": "matching",
+    "items": [
+      { "questionText": "distort", "correctAnswer": "to change the appearance, sound, or shape of something so that it is strange or unclear" },
+      { "questionText": "fade", "correctAnswer": "to gradually disappear" },
+      { "questionText": "disguise", "correctAnswer": "to change someone’s appearance so that people cannot recognize them" },
+      { "questionText": "trap", "correctAnswer": "to trick someone so that you make them do or say something that they did not intend to" },
+      { "questionText": "worship", "correctAnswer": "to admire and love someone very much" },
+      { "questionText": "speculate", "correctAnswer": "to think or talk about the possible causes or effects of something without knowing all the facts or details" },
+      { "questionText": "deviate", "correctAnswer": "to do something that is different from the usual or common way of behaving; to go in a different direction" }
+    ]
+  },
+  {
+    "instruction": "Fill in the gaps with appropriate words from the box. You can change the form of the verbs according to the tense.",
+    "type": "gap-fill",
+    "items": [
+      { "questionText": "The poll showed that over 40 percent of Americans ____________ on a weekly basis in their neighborhood churches.", "correctAnswer": "worship" },
+      { "questionText": "The journalist ____________   himself as a waiter in order to get into the celebrity party and nobody found it out.", "correctAnswer": "disguised" },
+      { "questionText": "Critics said the speaker not only ____________   the facts but unfairly criticized one of the city's great success stories.", "correctAnswer": "distorted" },
+      { "questionText": "Officials refused to ____________ on the cause of the crash. They had to listen to the witnesses to get more details about the accident.", "correctAnswer": "speculate" },
+      { "questionText": "Our childhood memories ____________ as time goes by. Talking about the old times and looking at the photographs help us remember our childhood.", "correctAnswer": "fade" },
+      { "questionText": "The plane had to ____________ from its normal flight path due to severe weather conditions.", "correctAnswer": "deviate" }
+    ]
+  },
+  {
+    "instruction": "Match the following ADJECTIVES with their definitions.",
+    "type": "matching",
+    "items": [
+      { "questionText": "anonymous", "correctAnswer": "unknown by name" },
+      { "questionText": "concrete", "correctAnswer": "clear and certain, or real and existing in a form that can be seen or felt" },
+      { "questionText": "accessible", "correctAnswer": "able to be reached easily; easy to talk to" },
+      { "questionText": "patriotic", "correctAnswer": "having or expressing a great love of your country" },
+      { "questionText": "urban", "correctAnswer": "relating to towns and cities" },
+      { "questionText": "cynical", "correctAnswer": "not trusting or respecting the goodness of other people and their actions, but believing that people are interested only in themselves" }
+    ]
+  },
+  {
+    "instruction": "Collocate the adjectives above with the following words.",
+    "type": "matching",
+    "items": [
+      { "questionText": "benefactor / donor / caller / letter / gift", "correctAnswer": "anonymous" },
+      { "questionText": "islands / public areas / buildings / staff / teachers / managers / to users", "correctAnswer": "accessible" },
+      { "questionText": "evidence / proposal / argument", "correctAnswer": "concrete" },
+      { "questionText": "attempt / view of life / propaganda / writer / journalist / politician", "correctAnswer": "cynical" },
+      { "questionText": "songs / activities / duties / people", "correctAnswer": "patriotic" },
+      { "questionText": "areas / population / growth / planning / unemployment / development projects", "correctAnswer": "urban" }
+    ]
+  },
+  {
+    "instruction": "Match the following NOUNS with their definitions.",
+    "type": "matching",
+    "items": [
+      { "questionText": "breadth", "correctAnswer": "the distance from one side of something to the other" },
+      { "questionText": "layer", "correctAnswer": "a level of material that is different from the material above or below it, or a thin sheet of a substance" },
+      { "questionText": "commerce", "correctAnswer": "the buying and selling of goods and services; trade" },
+      { "questionText": "rigour", "correctAnswer": "great care and thoroughness in making sure that something is correct" },
+      { "questionText": "prejudice", "correctAnswer": "an unreasonable dislike and distrust of people who are different from you in some way, especially because of their race, sex, religion etc – used to show disapproval" },
+      { "questionText": "sacrifice", "correctAnswer": "the act of giving up something that is valuable to you in order to help someone else" },
+      { "questionText": "discrimination", "correctAnswer": "the unfair or prejudicial treatment of individuals or groups based on characteristics such as race, gender, age, religion, disability, sexual orientation, or other personal attributes." },
+      { "questionText": "Rural", "correctAnswer": "areas that are located outside of cities and towns, typically characterized by open countryside, lower population density, and less developed infrastructure." }
+    ]
+  },
+  {
+    "instruction": "Fill in the blanks with suitable words from the box above. You might use some of the words twice. Be careful with the collocations.",
+    "type": "gap-fill",
+    "items": [
+      { "questionText": "We had to make ___________s in order to pay for our children's education.", "correctAnswer": "sacrifices" },
+      { "questionText": "Women who want to work in engineering often encounter strong ________.", "correctAnswer": "prejudice" },
+      { "questionText": "Alcohol ________ now imposes about 10 times more cost on society than it generates through taxation at all government levels.", "correctAnswer": "commerce" },
+      { "questionText": "She brought three children up single-handedly, often at great personal _________.", "correctAnswer": "sacrifice" },
+      { "questionText": "A thick ________ of dust lay on the furniture.", "correctAnswer": "layer" },
+      { "questionText": "There is a cultural _________ against unmarried couples in Türkiye.", "correctAnswer": "prejudice" },
+      { "questionText": "He had a genuine talent for ________ and soon had a brilliant career working for the World Bank.", "correctAnswer": "commerce" },
+      { "questionText": "Their research seems to me to be lacking in ____________. They need to find concrete evidence to convince the society.", "correctAnswer": "rigour" },
+      { "questionText": "The moon was shining through a thin ________ of cloud.", "correctAnswer": "layer" },
+      { "questionText": "His research for the book took him across the full __________ of the country.", "correctAnswer": "breadth" },
+      { "questionText": "Despite laws against it, ____________ in the workplace still affects many individuals, preventing them from achieving equal opportunities.", "correctAnswer": "discrimination" }
+    ]
+  },
+  {
+    "instruction": "PART 2. Fill in the blanks with the most appropriate words from the box. There are more words than you need. Do not change their forms.",
+    "type": "gap-fill",
+    "items": [
+      { "questionText": "1. Mass media ____________ the idea that women should always be beautiful and pretty through advertisements and TV programs.", "correctAnswer": "reinforces" },
+      { "questionText": "2. Climate change mainly ___________ from deforestation and accumulation of excessive amount of CO2 in the atmosphere due to pollution.", "correctAnswer": "stems" },
+      { "questionText": "3. There has been a considerable ___________ in public opinion on accepting immigrants. People are now more tolerant.", "correctAnswer": "shift" },
+      { "questionText": "4. Making mistakes is a/n_____________ and essential part of the learning process. Therefore, you should not be so hard on yourself.", "correctAnswer": "integral" },
+      { "questionText": "5. Parents should always apply sun cream on their babies because the sun can easily damage their _____________ skin.", "correctAnswer": "delicate" },
+      { "questionText": "6. The police don’t usually like to _____________ in disputes between husbands and wives. They mostly encourage couples to solve their problems on their own.", "correctAnswer": "intervene" },
+      { "questionText": "7. I’m afraid the problems you mention are __________ in the system. You cannot separate them from the system.", "correctAnswer": "inherent" },
+      { "questionText": "8. My doctor appointment _____________ with my class time, so I had to reschedule it. I had a very important exam at that time.", "correctAnswer": "overlapped" },
+      { "questionText": "9. Several scientists have attempted to _____________ Moore's theories because they think his theories have false implications.", "correctAnswer": "refute" },
+      { "questionText": "10. The organization is committed to employ people from many cultures and backgrounds who share a common bond to care for those in need, _____________ of their beliefs", "correctAnswer": "irrespective" },
+      { "questionText": "11. The new restaurant in town is _____________expensive, but the quality of the food and service makes it worth the expense.", "correctAnswer": "relatively" },
+      { "questionText": "12. After enjoying a delicious meal at the restaurant, she decided to leave a _____________ to show her appreciation for the excellent service.", "correctAnswer": "tip" },
+      { "questionText": "13. Before finalizing the purchase, you should _______________ the details of the contract to ensure everything is correct.", "correctAnswer": "verify" }
+    ]
+  },
+  {
+    "instruction": "PART 3. Choose the words that make a collocation. There are more words than you need. Do not change their forms.",
+    "type": "gap-fill",
+    "items": [
+      { "questionText": "1. It is unethical to _____________ against people because of their culture or gender. We should be all equal.", "correctAnswer": "discriminate" },
+      { "questionText": "2. I believe that one of the effective ways to prevent _____________ violence, which is the situation in which someone you live with attacks you and tries to hurt you, is to make more deterrent rules and severely punish the guilty ones.", "correctAnswer": "domestic" },
+      { "questionText": "3. Whether coffee _____________ a risk to pregnant women is still controversial.", "correctAnswer": "poses" },
+      { "questionText": "4. Thousands of people crossed the border, _____________ refuge from the war.", "correctAnswer": "seeking" },
+      { "questionText": "5. A new study, conducted to better understand the origin of the universe, has provided a new _____________ into what dark matter is.", "correctAnswer": "insight" },
+      { "questionText": "6. There is _____________ research on why people may have negative views towards vaccines. It started 10 years ago.", "correctAnswer": "ongoing" },
+      { "questionText": "7. A German pharma company has decided to _____________ with an Italian firm on a series of research projects so that they can share knowledge and expertise.", "correctAnswer": "collaborate" },
+      { "questionText": "8. We had to make _____________  in order to pay for our children’s education. For instance, we took out a loan and I worked at two different jobs.", "correctAnswer": "sacrifices" }
+    ]
+  },
+  {
+    "instruction": "PART 4. Read the following texts and choose the best option.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "Massive growth is threatening the quality of city life. Mass urbanisation can lead to social instability. This may undermine the capacity of cities to be environmentally 1. ____ and economically successful.",
+        "options": [
+          { "text": "independent", "isCorrect": false },
+          { "text": "precious", "isCorrect": false },
+          { "text": "superior", "isCorrect": false },
+          { "text": "sustainable", "isCorrect": true },
+          { "text": "neat", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Therefore, greater 2. ____ to save energy, reduce consumption and protect the environment are needed while also increasing levels of citizen wellbeing.",
+        "options": [
+          { "text": "incentives", "isCorrect": true },
+          { "text": "hardships", "isCorrect": false },
+          { "text": "evidence", "isCorrect": false },
+          { "text": "protection", "isCorrect": false },
+          { "text": "contests", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Cities of the future should be a socially diverse environment where economic and social activities 3. ____ and where communities are focused around neighbourhoods.",
+        "options": [
+          { "text": "collapse", "isCorrect": false },
+          { "text": "dissolve", "isCorrect": false },
+          { "text": "regulate", "isCorrect": false },
+          { "text": "accompany", "isCorrect": false },
+          { "text": "overlap", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "They must be developed or adapted to 4. ____ their citizens to be socioeconomically creative and productive.",
+        "options": [
+          { "text": "relate", "isCorrect": false },
+          { "text": "terrify", "isCorrect": false },
+          { "text": "enable", "isCorrect": true },
+          { "text": "refuse", "isCorrect": false },
+          { "text": "contradict", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Stress is a feeling of being under abnormal pressure. It is 5. ____ that almost 30% of deaths worldwide might be stress-related.",
+        "options": [
+          { "text": "differentiated", "isCorrect": false },
+          { "text": "estimated", "isCorrect": true },
+          { "text": "retained", "isCorrect": false },
+          { "text": "addressed", "isCorrect": false },
+          { "text": "stimulated", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "This pressure can come from different aspects of our day-to-day life. However, it is 6. ____ to realize that we as individuals have to control our stress.",
+        "options": [
+          { "text": "rigid", "isCorrect": false },
+          { "text": "hopeful", "isCorrect": false },
+          { "text": "immense", "isCorrect": false },
+          { "text": "prompt", "isCorrect": false },
+          { "text": "vital", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "One of the strategies is to recognize the factors that 7. ____ your stress. In this way, it becomes easier to avoid or even eliminate these stress factors.",
+        "options": [
+          { "text": "trigger", "isCorrect": true },
+          { "text": "display", "isCorrect": false },
+          { "text": "acknowledge", "isCorrect": false },
+          { "text": "distract", "isCorrect": false },
+          { "text": "inhibit", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Music can also reduce stress. For instance, singing releases endorphins and oxytocin – hormones that help 8. ____ the level of stress and anxiety.",
+        "options": [
+          { "text": "maintain", "isCorrect": false },
+          { "text": "omit", "isCorrect": false },
+          { "text": "protect", "isCorrect": false },
+          { "text": "diminish", "isCorrect": true },
+          { "text": "comfort", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 5. Choose the synonyms of the word that is underlined.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "1. It became obvious during the interview that he was not suitable for the job.",
+        "options": [
+          { "text": "despair", "isCorrect": false },
+          { "text": "vague", "isCorrect": false },
+          { "text": "evident", "isCorrect": true },
+          { "text": "inclusive", "isCorrect": false },
+          { "text": "precious", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "2. The samples will give scientists crucial information about long-term changes in the Earth’s atmosphere so that they can have better insight into climatic changes.",
+        "options": [
+          { "text": "excess", "isCorrect": false },
+          { "text": "fond", "isCorrect": false },
+          { "text": "fierce", "isCorrect": false },
+          { "text": "scarce", "isCorrect": false },
+          { "text": "vital", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "3. I was brought up to be polite. Similarly, I have tried to teach my children good manners.",
+        "options": [
+          { "text": "likewise", "isCorrect": true },
+          { "text": "instead", "isCorrect": false },
+          { "text": "namely", "isCorrect": false },
+          { "text": "meanwhile", "isCorrect": false },
+          { "text": "alternatively", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "4. The committee does not blame any individual. We are only trying to find out how the accident happened.",
+        "options": [
+          { "text": "briefly", "isCorrect": false },
+          { "text": "splendidly", "isCorrect": false },
+          { "text": "humbly", "isCorrect": false },
+          { "text": "merely", "isCorrect": true },
+          { "text": "practically", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "5. The teacher had to separate the two friends because they tend to disturb each other in class.",
+        "options": [
+          { "text": "reassure", "isCorrect": false },
+          { "text": "distract", "isCorrect": true },
+          { "text": "suspend", "isCorrect": false },
+          { "text": "collapse", "isCorrect": false },
+          { "text": "invade", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "6. In the last election, they suffered a disastrous failure, causing the President to resign, as they had no majority.",
+        "options": [
+          { "text": "entitlement", "isCorrect": false },
+          { "text": "attribution", "isCorrect": false },
+          { "text": "outbreak", "isCorrect": false },
+          { "text": "defeat", "isCorrect": true },
+          { "text": "liability", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 6. The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the sentences. Fill in each space in this way. Spelling mistakes will be penalized.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "1. Half of the people questioned said they were opposed to military __________________ in the civil war. (INTERVENE)",
+        "correctAnswer": "intervention"
+      },
+      {
+        "questionText": "2. Teachers often use positive __________________ in the classroom to get the students to learn the rules and maintain motivation at school. (REINFORCE)",
+        "correctAnswer": "reinforcement"
+      },
+      {
+        "questionText": "3. Upon further questioning, the witnesses gave inconsistent and sometimes _______________ answers. (CONTRADICT)",
+        "correctAnswer": "contradictory"
+      },
+      {
+        "questionText": "4. Because the author’s writing is so complicated, it is __________________ to readers at beginner level. (ACCESS)",
+        "correctAnswer": "inaccessible"
+      },
+      {
+        "questionText": "5. Caffeine, which is found in coffee and tea, is one of the _________________ that increases the levels of nervous activity in the body. (STIMULATE)",
+        "correctAnswer": "stimulants"
+      },
+      {
+        "questionText": "6. The car is put through _________________ road performance tests. (RIGOUR)",
+        "correctAnswer": "rigorous"
+      }
+    ]
+  }
+]

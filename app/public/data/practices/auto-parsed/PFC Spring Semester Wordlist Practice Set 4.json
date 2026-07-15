@@ -1,0 +1,533 @@
+[
+  {
+    "instruction": "Fill in the blanks in the texts below by choosing A, B, C, D, or E.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Due to the damage done to cultural sites, the city council {1} access to those areas last year. This decision was met with great opposition from the public. Therefore, the city council decided to {2} a committee to discuss the matter and to develop some strategies to protect the cultural sites but at the same time allow access for visits. The committee has recently offered a/an {3} plan with all the details necessary for redevelopment and conservation of the cultural sites in the city.",
+        "options": [
+          [
+            { "text": "A. facilitated", "isCorrect": false, "blankIndex": 1 },
+            { "text": "B. prohibited", "isCorrect": true, "blankIndex": 1 },
+            { "text": "C. regarded", "isCorrect": false, "blankIndex": 1 },
+            { "text": "D. initiated", "isCorrect": false, "blankIndex": 1 },
+            { "text": "E. invaded", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "A. dismiss", "isCorrect": false, "blankIndex": 2 },
+            { "text": "B. suspend", "isCorrect": false, "blankIndex": 2 },
+            { "text": "C. convene", "isCorrect": true, "blankIndex": 2 },
+            { "text": "D. surround", "isCorrect": false, "blankIndex": 2 },
+            { "text": "E. constrain", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "A. comprehensive", "isCorrect": true, "blankIndex": 3 },
+            { "text": "B. pile", "isCorrect": false, "blankIndex": 3 },
+            { "text": "C. shallow", "isCorrect": false, "blankIndex": 3 },
+            { "text": "D. idle", "isCorrect": false, "blankIndex": 3 },
+            { "text": "E. restless", "isCorrect": false, "blankIndex": 3 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Opening a restaurant was always his dream and at the age of 40, he {4} the opportunity to open one. The first thing to do was to find a good place. He spent a {5} amount of time searching for the right place for his restaurant. After he finally found the perfect place, he {6} months to carefully planning the exterior and the interior design. Although he had enough money to build it in a luxurious manner, he wanted to keep the cost of construction {7}. He wanted wide windows to get more sunlight. He believed {8} lighting would not create the same effect as the sunlight. He decorated the interior with different kinds of plants, which he thought would improve the {9} inside and help the customers to breathe in more air. When he finally opened the restaurant, he soon realized that the biggest challenge to {10} when you own a restaurant is not the restaurant itself but the customers. Unfortunately, this was a problem he did not {11} beforehand, so he was caught unprepared. Most of the customers complained about the fact that they were not allowed to smoke on the {12}. It was not a negotiable issue. He hated smoking and he did not want to {13} on that issue. Therefore, it seemed certain that he would lose some customers.",
+        "options": [
+          [
+            { "text": "A. eased", "isCorrect": false, "blankIndex": 4 },
+            { "text": "B. whispered", "isCorrect": false, "blankIndex": 4 },
+            { "text": "C. remarked", "isCorrect": false, "blankIndex": 4 },
+            { "text": "D. released", "isCorrect": false, "blankIndex": 4 },
+            { "text": "E. seized", "isCorrect": true, "blankIndex": 4 }
+          ],
+          [
+            { "text": "A. compatible", "isCorrect": false, "blankIndex": 5 },
+            { "text": "B. vain", "isCorrect": false, "blankIndex": 5 },
+            { "text": "C. vast", "isCorrect": true, "blankIndex": 5 },
+            { "text": "D. liable", "isCorrect": false, "blankIndex": 5 },
+            { "text": "E. trivial", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "A. devoted", "isCorrect": true, "blankIndex": 6 },
+            { "text": "B. detected", "isCorrect": false, "blankIndex": 6 },
+            { "text": "C. mastered", "isCorrect": false, "blankIndex": 6 },
+            { "text": "D. struck", "isCorrect": false, "blankIndex": 6 },
+            { "text": "E. bundled", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "A. maximum", "isCorrect": false, "blankIndex": 7 },
+            { "text": "B. shortage", "isCorrect": false, "blankIndex": 7 },
+            { "text": "C. scarce", "isCorrect": false, "blankIndex": 7 },
+            { "text": "D. minimal", "isCorrect": true, "blankIndex": 7 },
+            { "text": "E. deficit", "isCorrect": false, "blankIndex": 7 }
+          ],
+          [
+            { "text": "A. loose", "isCorrect": false, "blankIndex": 8 },
+            { "text": "B. artificial", "isCorrect": true, "blankIndex": 8 },
+            { "text": "C. direct", "isCorrect": false, "blankIndex": 8 },
+            { "text": "D. genuine", "isCorrect": false, "blankIndex": 8 },
+            { "text": "E. fresh", "isCorrect": false, "blankIndex": 8 }
+          ],
+          [
+            { "text": "A. atmosphere", "isCorrect": true, "blankIndex": 9 },
+            { "text": "B. motive", "isCorrect": false, "blankIndex": 9 },
+            { "text": "C. gravity", "isCorrect": false, "blankIndex": 9 },
+            { "text": "D. hierarchy", "isCorrect": false, "blankIndex": 9 },
+            { "text": "E. mentality", "isCorrect": false, "blankIndex": 9 }
+          ],
+          [
+            { "text": "A. cheat", "isCorrect": false, "blankIndex": 10 },
+            { "text": "B. supplement", "isCorrect": false, "blankIndex": 10 },
+            { "text": "C. tackle", "isCorrect": true, "blankIndex": 10 },
+            { "text": "D. compose", "isCorrect": false, "blankIndex": 10 },
+            { "text": "E. enforce", "isCorrect": false, "blankIndex": 10 }
+          ],
+          [
+            { "text": "A. resist", "isCorrect": false, "blankIndex": 11 },
+            { "text": "B. declare", "isCorrect": false, "blankIndex": 11 },
+            { "text": "C. ignore", "isCorrect": false, "blankIndex": 11 },
+            { "text": "D. conform", "isCorrect": false, "blankIndex": 11 },
+            { "text": "E. foresee", "isCorrect": true, "blankIndex": 11 }
+          ],
+          [
+            { "text": "A. schedule", "isCorrect": false, "blankIndex": 12 },
+            { "text": "B. premises", "isCorrect": true, "blankIndex": 12 },
+            { "text": "C. suburb", "isCorrect": false, "blankIndex": 12 },
+            { "text": "D. lodging", "isCorrect": false, "blankIndex": 12 },
+            { "text": "E. agenda", "isCorrect": false, "blankIndex": 12 }
+          ],
+          [
+            { "text": "A. confront", "isCorrect": false, "blankIndex": 13 },
+            { "text": "B. compromise", "isCorrect": true, "blankIndex": 13 },
+            { "text": "C. underestimate", "isCorrect": false, "blankIndex": 13 },
+            { "text": "D. compose", "isCorrect": false, "blankIndex": 13 },
+            { "text": "E. supplement", "isCorrect": false, "blankIndex": 13 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Intelligence and creativity are different abilities that contribute to the other. Intelligence can be measured by the intelligence quotient or IQ. Creativity, on the other hand, is not so easy to measure. The general {14} is that people with high IQs are generally more creative, and highly creative people have high IQs. This is not necessarily true. Although scientists have found a {15} between those individuals with an IQ of 120 or more having a higher level of creativity, it cannot be said that if someone has a low IQ, s/he cannot be creative. Creativity has been studied for many years and a variety of models and insights have been developed in order to understand and {16} the creative process.",
+        "options": [
+          [
+            { "text": "A. mode", "isCorrect": false, "blankIndex": 14 },
+            { "text": "B. expertise", "isCorrect": false, "blankIndex": 14 },
+            { "text": "C. hierarchy", "isCorrect": false, "blankIndex": 14 },
+            { "text": "D. presumption", "isCorrect": true, "blankIndex": 14 },
+            { "text": "E. constitution", "isCorrect": false, "blankIndex": 14 }
+          ],
+          [
+            { "text": "A. correlation", "isCorrect": true, "blankIndex": 15 },
+            { "text": "B. distinction", "isCorrect": false, "blankIndex": 15 },
+            { "text": "C. scheme", "isCorrect": false, "blankIndex": 15 },
+            { "text": "D. consensus", "isCorrect": false, "blankIndex": 15 },
+            { "text": "E. motive", "isCorrect": false, "blankIndex": 15 }
+          ],
+          [
+            { "text": "A. hinder", "isCorrect": false, "blankIndex": 16 },
+            { "text": "B. confront", "isCorrect": false, "blankIndex": 16 },
+            { "text": "C. facilitate", "isCorrect": true, "blankIndex": 16 },
+            { "text": "D. minimize", "isCorrect": false, "blankIndex": 16 },
+            { "text": "E. emerge", "isCorrect": false, "blankIndex": 16 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the sentences. Fill in each space in this way.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "Most of the behavior parents call naughty or ______ is just a normal part of development. (OBEDIENT)",
+        "correctAnswer": "DISOBEDIENT",
+        "options": []
+      },
+      {
+        "questionText": "A neurological examination 48 hours later showed that he was conscious and able to ______ commands but still profoundly weak. (OBEDIENT)",
+        "correctAnswer": "OBEY",
+        "options": []
+      },
+      {
+        "questionText": "With young children, teaching ______ to rules requires that they understand what they are supposed to do. (OBEDIENT)",
+        "correctAnswer": "OBEDIENCE",
+        "options": []
+      },
+      {
+        "questionText": "Let's just say, ______ speaking, that 20 percent of the emails you sent never made it to their intended recipient. Would such a thing be possible? (HYPOTHETICAL)",
+        "correctAnswer": "HYPOTHETICALLY",
+        "options": []
+      },
+      {
+        "questionText": "This NY Times article describes Dr. Amar J. S. Klar's ______ that there is a specific dominant gene that causes right-handedness. (HYPOTHETICAL)",
+        "correctAnswer": "HYPOTHESIS",
+        "options": []
+      },
+      {
+        "questionText": "For the time being, we ______ with her parents in their small but practical house in the southern suburbs of Berlin. (RESIDENCE)",
+        "correctAnswer": "RESIDE",
+        "options": []
+      },
+      {
+        "questionText": "Opponents of the new coal power plant claim that the construction site is too close to ______ areas. (RESIDENCE)",
+        "correctAnswer": "RESIDENTIAL",
+        "options": []
+      },
+      {
+        "questionText": "______ of Glacier Bay are complaining about the pollution caused by cruise ships. (RESIDENCE)",
+        "correctAnswer": "RESIDENTS",
+        "options": []
+      },
+      {
+        "questionText": "Many scientists ______ that the new damage to the forests is the result of higher levels of pollution. (PRESUMABLY)",
+        "correctAnswer": "PRESUME",
+        "options": []
+      },
+      {
+        "questionText": "The decision is based on the ______ that all information must be freely available. (PRESUMABLY)",
+        "correctAnswer": "PRESUMPTION",
+        "options": []
+      },
+      {
+        "questionText": "The company is beginning to attract investors, most ______ big Japanese banks. (NOTABLE)",
+        "correctAnswer": "NOTABLY",
+        "options": []
+      },
+      {
+        "questionText": "Please ______ that the bill must be paid within ten days. (NOTABLE)",
+        "correctAnswer": "NOTE",
+        "options": []
+      },
+      {
+        "questionText": "The book's value stems from its ______ of multiple viewpoints. (INCLUSIVE)",
+        "correctAnswer": "INCLUSION",
+        "options": []
+      },
+      {
+        "questionText": "Everyone, the chairperson ______, eats in the staff restaurant. (INCLUSIVE)",
+        "correctAnswer": "INCLUDED",
+        "options": []
+      },
+      {
+        "questionText": "Would you ______ a mobile phone on your list of essentials? (INCLUSIVE)",
+        "correctAnswer": "INCLUDE",
+        "options": []
+      },
+      {
+        "questionText": "He said he was immensely ______ to have been elected prime minister. (PRIDE)",
+        "correctAnswer": "PROUD",
+        "options": []
+      },
+      {
+        "questionText": "The photographs she ______ displayed on the mantelpiece belonged to her children. (PRIDE)",
+        "correctAnswer": "PROUDLY",
+        "options": []
+      },
+      {
+        "questionText": "It may be hard to ______ how much this gift means for my country. (COMPREHENSION)",
+        "correctAnswer": "COMPREHEND",
+        "options": []
+      },
+      {
+        "questionText": "Very fast speech probably places extra demands on the listener and may therefore be less ______ for listeners. (COMPREHENSION)",
+        "correctAnswer": "COMPREHENSIBLE",
+        "options": []
+      },
+      {
+        "questionText": "One of the main roles that teachers should fulfill is to facilitate learning. In other words, our task is to make the process of learning easier. Therefore, we, teachers, are not only controllers of classroom activities, we are also now (A) ______ of student learning. (FACILITATE)",
+        "correctAnswer": "FACILITATORS",
+        "options": []
+      },
+      {
+        "questionText": "We are creators of a productive classroom environment. A number of methods can help us move away from standard lesson delivery towards the (B) ______ of a true learning experience. (FACILITATE)",
+        "correctAnswer": "FACILITATION",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the blanks with the most appropriate words from the box. Use each word ONCE only. There are MORE words than you need. Do NOT change the forms.",
+    "type": "word-bank",
+    "items": [
+      {
+        "questionText": "The leader and the principal party members were denaturalized and deported after the ______ fell following UN intervention.",
+        "correctAnswer": "Regime",
+        "options": []
+      },
+      {
+        "questionText": "He was fined £300,000 and ______ from trading for four months. He needs to make many changes to the current system before he goes back to trading.",
+        "correctAnswer": "Suspended",
+        "options": []
+      },
+      {
+        "questionText": "He was ______ to have an accident eventually. He always drives recklessly, and we were always scared that he would have an accident – and he did.",
+        "correctAnswer": "Bound",
+        "options": []
+      },
+      {
+        "questionText": "There were two ______ attacks by the rebels. One group attacked from the south while another group attacked from the north.",
+        "correctAnswer": "Simultaneous",
+        "options": []
+      },
+      {
+        "questionText": "There are serious problems in our country. ______, we feel this is a good time to return. Most of our friends strictly suggest that we should not return because of the problems but we do not agree with them.",
+        "correctAnswer": "Nonetheless",
+        "options": []
+      },
+      {
+        "questionText": "Please ______ from talking in class so that you will not distract the other students.",
+        "correctAnswer": "Refrain",
+        "options": []
+      },
+      {
+        "questionText": "The project, Ecoforest 2000, has been abandoned because of controversy over its social and environmental ______. This project is not believed to be effective.",
+        "correctAnswer": "Implications",
+        "options": []
+      },
+      {
+        "questionText": "You will need to show more than just a/an ______ understanding of the text. You need to use your imagination a bit in order to make sense of what the text actually means.",
+        "correctAnswer": "Literal",
+        "options": []
+      },
+      {
+        "questionText": "The organization has employers with ______ in both medical and counselling services. You can depend on their knowledge and experience because they have been trained by professionals.",
+        "correctAnswer": "Expertise",
+        "options": []
+      },
+      {
+        "questionText": "There is a strict ______ of conduct for doctors. They need to strictly follow the rules of their profession in order to protect the patients’ interests and sustain professional integrity.",
+        "correctAnswer": "Code",
+        "options": []
+      },
+      {
+        "questionText": "Women's lives used to follow a predictable ______: school, then marriage and children. Today, women have many more options to live as they please.",
+        "correctAnswer": "Pattern",
+        "options": []
+      },
+      {
+        "questionText": "My parents ______ themselves on being good listeners, but when it comes to their children, I do not see any evidence of that.",
+        "correctAnswer": "Pride",
+        "options": []
+      },
+      {
+        "questionText": "The mechanic explained that the loud noise coming from the car was due to a problem with the ______ system, which needed to be repaired to ensure the vehicle ran smoothly.",
+        "correctAnswer": "Exhaust",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the table with an appropriate word from the box: [breed, substance, candidate, log, mode, deed, deficit, boundary, solid, shortage, greasy, constraints, textured]. Match each category of collocating words to its correct noun/adjective.",
+    "type": "matching",
+    "items": [
+      {
+        "questionText": "addictive / hazardous / banned/prohibited/forbidden / pure / organic/inorganic / sticky / chemical",
+        "correctAnswer": "substance"
+      },
+      {
+        "questionText": "web / captain’s / ship’s / detailed / keep a",
+        "correctAnswer": "log"
+      },
+      {
+        "questionText": "potential / prospective / ideal / suitable / presidential / likely",
+        "correctAnswer": "candidate"
+      },
+      {
+        "questionText": "common / state / northern / within the / beyond the / cross / extend",
+        "correctAnswer": "boundary"
+      },
+      {
+        "questionText": "good / heroic / brave / evil / do / perform",
+        "correctAnswer": "deed"
+      },
+      {
+        "questionText": "eco-friendly / efficient / a relaxed / be in work/holiday / of transportation / of life",
+        "correctAnswer": "mode"
+      },
+      {
+        "questionText": "budget / financial / trade / eliminate / reduce / tackle / go into / face / have",
+        "correctAnswer": "deficit"
+      },
+      {
+        "questionText": "serious / severe / increasing / growing / labour / food / water / energy",
+        "correctAnswer": "shortage"
+      },
+      {
+        "questionText": "budget / financial / time / major / severe / tight / remove / impose / place",
+        "correctAnswer": "constraints"
+      },
+      {
+        "questionText": "pure / rare / new",
+        "correctAnswer": "breed"
+      },
+      {
+        "questionText": "food / dishes / skin",
+        "correctAnswer": "greasy"
+      },
+      {
+        "questionText": "ground / objective / structure",
+        "correctAnswer": "solid"
+      },
+      {
+        "questionText": "surface / fabric / wallpaper",
+        "correctAnswer": "textured"
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the gaps with the correct collocation of the words in the previous exercise (part 4).",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "You should ______ a log of your business travel to ensure you have proof of your expenses.",
+        "correctAnswer": "keep",
+        "options": []
+      },
+      {
+        "questionText": "The wicked characters are imprisoned, and Wilkin is made a captain for his ______ deed in battle.",
+        "correctAnswer": "heroic",
+        "options": []
+      },
+      {
+        "questionText": "Rail transport offers a/an ______ mode of transportation that is fuel efficient and cost-effective.",
+        "correctAnswer": "ecofriendly / efficient",
+        "options": []
+      },
+      {
+        "questionText": "When athletes are caught using ______ substances, they are suspended from sports.",
+        "correctAnswer": "banned / prohibited",
+        "options": []
+      },
+      {
+        "questionText": "If you want to develop your creative abilities, you need to push yourself ______ the boundaries of comfort and conventional thinking.",
+        "correctAnswer": "beyond",
+        "options": []
+      },
+      {
+        "questionText": "The growing use of instant pudding, instant drinks, snack foods, and canned soups could be attributed to growing ______ constraints. Many businesses demand that employees work almost 24/7 these days, which is ridiculous.",
+        "correctAnswer": "time",
+        "options": []
+      },
+      {
+        "questionText": "The ______ deficit is the difference between the government's income, such as tax revenues, and its level of spending.",
+        "correctAnswer": "budget / financial",
+        "options": []
+      },
+      {
+        "questionText": "A/an ______ shortage can be caused by a turn in economic conditions where there is a shortage of skilled workers for a given industry or overall job market.",
+        "correctAnswer": "labour",
+        "options": []
+      },
+      {
+        "questionText": "In modern agriculture, a/an ______ breed is a breed of birds or farm animals that has a very small breeding population, usually from a few hundred to a few thousand.",
+        "correctAnswer": "rare",
+        "options": []
+      },
+      {
+        "questionText": "After the boat was saved securely from the storm, we finally felt on ______ ground and were able to relax on the beach.",
+        "correctAnswer": "solid",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the gaps below with an appropriate word from the box: [sarcasm, hostility, indifference, humiliating].",
+    "type": "word-bank",
+    "items": [
+      {
+        "questionText": "Below you can see two examples of ______.\n\n“Were I to have a dollar for every smart thing you say, I’d be poor.”\n\n“You look good when your eyes are closed, but you look the best when my eyes are closed.”",
+        "correctAnswer": "sarcasm",
+        "options": []
+      },
+      {
+        "questionText": "Recently, social networks have blown up with the news that in the center of Kiev a child died of starvation. The mother locked up two children without food and water for 9 days. Investigation is under way, the police are looking for the perpetrators and witnesses, but this will not return the child's life. The main culprit in this tragedy, in our opinion, was the ______ of the surrounding people, starting with neighbors and ending with various law enforcement authorities.",
+        "correctAnswer": "indifference",
+        "options": []
+      },
+      {
+        "questionText": "An example of ______ is a high school bully locking a classmate in their locker or a bomb exploding in a crowded marketplace.",
+        "correctAnswer": "hostility",
+        "options": []
+      },
+      {
+        "questionText": "Some examples of ______ behavior could be criticizing a person in front of others, making jokes at another person’s expense, or rolling one’s eyes after someone’s comments.",
+        "correctAnswer": "humiliating",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the gaps with the correct word by choosing the appropriate option.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "The ______ number of students we need to run the course is fifteen.",
+        "options": [
+          { "text": "minimum", "isCorrect": true },
+          { "text": "minimal", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "This is a practical course with only a ______ amount of theory.",
+        "options": [
+          { "text": "minimal", "isCorrect": true },
+          { "text": "minimum", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "There is a ______ guide to hotels and restaurants in Istanbul. You might want to have a look at it before visiting the city.",
+        "options": [
+          { "text": "comprehensive", "isCorrect": true },
+          { "text": "comprehensible", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Visual aids can make lessons much more interesting and ______.",
+        "options": [
+          { "text": "comprehensible", "isCorrect": true },
+          { "text": "comprehensive", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "A diet ______ in vitamin D may cause illnesses.",
+        "options": [
+          { "text": "deficient", "isCorrect": true },
+          { "text": "deficit", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Last year the country had its largest trade ______ in recent history.",
+        "options": [
+          { "text": "deficit", "isCorrect": true },
+          { "text": "deficient", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The speeches will be broadcast live with ______ translation (immediate translation as the person is speaking) into English.",
+        "options": [
+          { "text": "simultaneous", "isCorrect": true },
+          { "text": "spontaneous", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The group of friends decided to take a ______ trip to the sea when they found out that classes were canceled that Friday.",
+        "options": [
+          { "text": "spontaneous", "isCorrect": true },
+          { "text": "simultaneous", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The ______ phrase “raining cats and dogs” describes a huge downpour and not an actual cascade of animals.",
+        "options": [
+          { "text": "figurative", "isCorrect": true },
+          { "text": "literal", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "You need to demonstrate to the examiners that you have more than a ______ understanding of the text. Thus, you should work on reading between the lines.",
+        "options": [
+          { "text": "literal", "isCorrect": true },
+          { "text": "figurative", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,919 @@
+{
+  "sets": [
+    {
+      "id": "intermediate-set-1",
+      "level": "intermediate",
+      "title": "UNLOCK 3 UNIT 1 L&S Vocabulary Revision",
+      "flashcards": [
+        {
+          "id": "level: intermediate",
+          "word": "LEVEL: INTERMEDIATE",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-1",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "intermediate-set-2",
+      "level": "intermediate",
+      "title": "UNLOCK 3 UNIT 1 R&W Vocabulary Revision",
+      "flashcards": [
+        {
+          "id": "level: intermediate",
+          "word": "LEVEL: INTERMEDIATE",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "measured",
+          "word": "measured",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "measurement",
+          "word": "measurement",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "critical",
+          "word": "critical",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "attach",
+          "word": "attach",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "chance",
+          "word": "chance",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "diagram",
+          "word": "diagram",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "humanity",
+          "word": "humanity",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "giant",
+          "word": "giant",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "a. ability",
+          "word": "a. ability",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "attached",
+          "word": "attached",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "measured",
+          "word": "measured",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "measurement",
+          "word": "measurement",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "critical",
+          "word": "critical",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "attach",
+          "word": "attach",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "chance",
+          "word": "chance",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "diagram",
+          "word": "diagram",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "humanity",
+          "word": "humanity",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "giant",
+          "word": "giant",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "a. ability",
+          "word": "a. ability",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "attached",
+          "word": "attached",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-2",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "intermediate-set-3",
+      "level": "intermediate",
+      "title": "UNLOCK 3 UNIT 2 L&S Vocabulary revision",
+      "flashcards": [
+        {
+          "id": "level: intermediate",
+          "word": "LEVEL: INTERMEDIATE",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-3",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "intermediate-set-4",
+      "level": "intermediate",
+      "title": "Unlock 3 UNIT 2 R&W Vocabulary Revision",
+      "flashcards": [
+        {
+          "id": "melt",
+          "word": "melt",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "audience",
+          "word": "audience",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "destroy",
+          "word": "destroy",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "reasonable",
+          "word": "reasonable",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-4",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "intermediate-set-5",
+      "level": "intermediate",
+      "title": "UNLOCK 3 UNIT 3 L&S Vocabulary Revision",
+      "flashcards": [
+        {
+          "id": "1.deduct _____",
+          "word": "1.deduct _____",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "2.interval _____",
+          "word": "2.interval _____",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "3.deaf _____",
+          "word": "3.deaf _____",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "4.era _____",
+          "word": "4.era _____",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "5.curriculum _____",
+          "word": "5.curriculum _____",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-5",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "intermediate-set-6",
+      "level": "intermediate",
+      "title": "Unlock 3 UNIT 3 R&W Vocabulary Revision",
+      "flashcards": [
+        {
+          "id": "level: intermediate",
+          "word": "LEVEL: INTERMEDIATE",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "emergency",
+          "word": "emergency",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "increase",
+          "word": "increase",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-6",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "intermediate-set-7",
+      "level": "intermediate",
+      "title": "UNLOCK 3 UNIT 4 L&S Vocabulary Revision",
+      "flashcards": [
+        {
+          "id": "level: intermediate",
+          "word": "LEVEL: INTERMEDIATE",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "word",
+          "word": "Word",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "____ 1. situated",
+          "word": "____ 1. situated",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "____ 2. root",
+          "word": "____ 2. root",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "____ 3. sense",
+          "word": "____ 3. sense",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "____ 4. attitude",
+          "word": "____ 4. attitude",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "____ 5. convince",
+          "word": "____ 5. convince",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "____ 6. interact",
+          "word": "____ 6. interact",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "____ 7. treat",
+          "word": "____ 7. treat",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "____ 8. honest",
+          "word": "____ 8. honest",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "____ 9. respect",
+          "word": "____ 9. respect",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "____ 10. shape",
+          "word": "____ 10. shape",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-7",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "intermediate-set-8",
+      "level": "intermediate",
+      "title": "UNLOCK 3 UNIT 5 L&S Vocabulary Revision by N.K.",
+      "flashcards": [
+        {
+          "id": "level: intermediate",
+          "word": "LEVEL: INTERMEDIATE",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-8",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "intermediate-set-9",
+      "level": "intermediate",
+      "title": "UNLOCK 3 UNIT 5 R&W Vocabulary Revision",
+      "flashcards": [
+        {
+          "id": "level: intermediate",
+          "word": "LEVEL: INTERMEDIATE",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "words",
+          "word": "Words",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "involve (v)",
+          "word": "involve (v)",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "manage (v)",
+          "word": "manage (v)",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "predict (v)",
+          "word": "predict (v)",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "remove (v)",
+          "word": "remove (v)",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "pressure (n)",
+          "word": "pressure (n)",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "poison (n)",
+          "word": "poison (n)",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "vandal (n)",
+          "word": "vandal (n)",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "crop (n)",
+          "word": "crop (n)",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "explode (v)",
+          "word": "explode (v)",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "flavor (n)",
+          "word": "flavor (n)",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-9",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "intermediate-set-10",
+      "level": "intermediate",
+      "title": "UNLOCK 3 Unit 6 L&S Vocabulary Revision-updated",
+      "flashcards": [
+        {
+          "id": "critical",
+          "word": "critical",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "appropriate",
+          "word": "appropriate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "prove",
+          "word": "prove",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "announce",
+          "word": "announce",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "deliver",
+          "word": "deliver",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "expect",
+          "word": "expect",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "interrupt",
+          "word": "interrupt",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "predict",
+          "word": "predict",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "accuse",
+          "word": "accuse",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "reduce",
+          "word": "reduce",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "spread",
+          "word": "spread",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "suggest",
+          "word": "suggest",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-10",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "intermediate-set-11",
+      "level": "intermediate",
+      "title": "UNLOCK 3 UNIT 6 R&W Vocabulary Revision",
+      "flashcards": [
+        {
+          "id": "medical",
+          "word": "medical",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "assess",
+          "word": "assess",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "pump",
+          "word": "pump",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "theme",
+          "word": "theme",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "tablet",
+          "word": "tablet",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "float",
+          "word": "float",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-11",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "intermediate-set-12",
+      "level": "intermediate",
+      "title": "UNLOCK 3 UNIT 7 R&W Vocabulary Revision ",
+      "flashcards": [
+        {
+          "id": "benefit",
+          "word": "benefit",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "mention",
+          "word": "mention",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "favour",
+          "word": "favour",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "represent",
+          "word": "represent",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "comment",
+          "word": "comment",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-12",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "intermediate-set-13",
+      "level": "intermediate",
+      "title": "UNLOCK 3 UNIT 8 L&S Vocabulary Revision",
+      "flashcards": [
+        {
+          "id": "level: intermediate",
+          "word": "LEVEL: INTERMEDIATE",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-13",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "intermediate-set-14",
+      "level": "intermediate",
+      "title": "UNLOCK 3 UNIT 8 R&W Vocabulary Revision",
+      "flashcards": [
+        {
+          "id": "level: intermediate",
+          "word": "LEVEL: INTERMEDIATE",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "prize",
+          "word": "prize",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "stock",
+          "word": "stock",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-14",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "intermediate-set-15",
+      "level": "intermediate",
+      "title": "Unlock 3 Wordlist Flashcards (updated July 2023)",
+      "flashcards": [
+        {
+          "id": "unit 1",
+          "word": "UNIT 1",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 2",
+          "word": "UNIT 2",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 3",
+          "word": "UNIT 3",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 4",
+          "word": "UNIT 4",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 5",
+          "word": "UNIT 5",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 6",
+          "word": "UNIT 6",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 7",
+          "word": "UNIT 7",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 8",
+          "word": "UNIT 8",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-15",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "intermediate-set-16",
+      "level": "intermediate",
+      "title": "Unlock 3 Wordlist with Extra Words (updated June 2024)",
+      "flashcards": [
+        {
+          "id": "unit 1 r&w",
+          "word": "UNIT 1 R&W",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 1 l&s",
+          "word": "UNIT 1 L&S",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 2 r&w",
+          "word": "UNIT 2 R&W",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 2 l&s",
+          "word": "UNIT 2 L&S",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 3 r&w",
+          "word": "UNIT 3 R&W",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 3 l&s",
+          "word": "UNIT 3 L&S",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 4 r&w",
+          "word": "UNIT 4 R&W",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 4 l&s",
+          "word": "UNIT 4 L&S",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 5 r&w",
+          "word": "UNIT 5 R&W",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 5 l&s",
+          "word": "UNIT 5 L&S",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 6 r&w",
+          "word": "UNIT 6 R&W",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 6 l&s",
+          "word": "UNIT 6 L&S",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 7 r&w",
+          "word": "UNIT 7 R&W",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 7 l&s",
+          "word": "UNIT 7 L&S",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 8 r&w",
+          "word": "UNIT 8 R&W",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 8 l&s",
+          "word": "UNIT 8 L&S",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verb",
+          "word": "VERB",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-16",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    }
+  ]
+}

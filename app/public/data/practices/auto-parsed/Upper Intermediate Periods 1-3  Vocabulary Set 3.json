@@ -1,0 +1,91 @@
+[
+  {
+    "instruction": "Study the vocabulary words for Monday.",
+    "type": "open-ended",
+    "items": [
+      { "questionText": "Cautious" },
+      { "questionText": "Release (v, n)" },
+      { "questionText": "Approach (v, n)" },
+      { "questionText": "Investigation" },
+      { "questionText": "Insecure" },
+      { "questionText": "Remains" },
+      { "questionText": "Recovery" },
+      { "questionText": "Inherit" },
+      { "questionText": "Enquire" },
+      { "questionText": "Express" },
+      { "questionText": "Dissatisfaction" },
+      { "questionText": "Cooperate" }
+    ]
+  },
+  {
+    "instruction": "Study the vocabulary words for Tuesday.",
+    "type": "open-ended",
+    "items": [
+      { "questionText": "Assist" },
+      { "questionText": "Detect" },
+      { "questionText": "Fulfill" },
+      { "questionText": "Incline" },
+      { "questionText": "Revenge (v, n)" },
+      { "questionText": "Adopt" },
+      { "questionText": "Acquire" },
+      { "questionText": "Unpredictable" },
+      { "questionText": "Currency" },
+      { "questionText": "Circumstance" },
+      { "questionText": "Interior (adj, n)" },
+      { "questionText": "Controversy" }
+    ]
+  },
+  {
+    "instruction": "Study the vocabulary words for Wednesday.",
+    "type": "open-ended",
+    "items": [
+      { "questionText": "Gradually" },
+      { "questionText": "Absorb" },
+      { "questionText": "Intelligence" },
+      { "questionText": "Qualify" },
+      { "questionText": "Differ" },
+      { "questionText": "Fertility" },
+      { "questionText": "Prohibit" },
+      { "questionText": "Expose" },
+      { "questionText": "Delay (n, v)" },
+      { "questionText": "Genuinely" },
+      { "questionText": "Companionship" }
+    ]
+  },
+  {
+    "instruction": "Study the vocabulary words for Thursday.",
+    "type": "open-ended",
+    "items": [
+      { "questionText": "Incident" },
+      { "questionText": "Unwilling" },
+      { "questionText": "Internal/External" },
+      { "questionText": "Regret (v, n)" },
+      { "questionText": "Forthcoming" },
+      { "questionText": "Anticipate" },
+      { "questionText": "Invisible" },
+      { "questionText": "Astonish" },
+      { "questionText": "Inquire" },
+      { "questionText": "Founder" },
+      { "questionText": "Available" },
+      { "questionText": "Crucial" }
+    ]
+  },
+  {
+    "instruction": "Study the vocabulary words for Friday.",
+    "type": "open-ended",
+    "items": [
+      { "questionText": "Inspection" },
+      { "questionText": "Govern" },
+      { "questionText": "Restore" },
+      { "questionText": "Formulate" },
+      { "questionText": "Export (v, n) Import (v, n)" },
+      { "questionText": "Invest" },
+      { "questionText": "Comment (n, v)" },
+      { "questionText": "Allocate" },
+      { "questionText": "Adapt" },
+      { "questionText": "Biased" },
+      { "questionText": "Instinct" },
+      { "questionText": "Consistent" }
+    ]
+  }
+]

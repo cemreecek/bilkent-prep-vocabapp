@@ -1,0 +1,512 @@
+[
+  {
+    "word": "Pile",
+    "day": 1,
+    "definition": "A large group of things placed one on top of another.",
+    "example": "There was a pile of books on her desk."
+  },
+  {
+    "word": "Hypothetical",
+    "day": 1,
+    "definition": "Based on an idea or situation that is imagined rather than real, for the purpose of discussion or argument.",
+    "example": "Let's consider a working hypothetical situation to understand the possible outcomes."
+  },
+  {
+    "word": "Prohibit",
+    "day": 1,
+    "definition": "To formally forbid someone from doing something.",
+    "example": "The school rules prohibit students from using mobile phones during class."
+  },
+  {
+    "word": "Shortage",
+    "day": 1,
+    "definition": "A situation where there is not enough of something that is needed.",
+    "example": "Many regions are facing a severe water shortage due to the lack of rain."
+  },
+  {
+    "word": "Obedience",
+    "day": 1,
+    "definition": "The act of obeying someone or something, or the state of being obedient.",
+    "example": "Soldiers are expected to show complete obedience to their commanding officers."
+  },
+  {
+    "word": "Outwards",
+    "day": 1,
+    "definition": "Towards the outside or away from the center.",
+    "example": "The new building has large windows looking outwards towards the park."
+  },
+  {
+    "word": "Holy",
+    "day": 1,
+    "definition": "Connected with God or a religion, or considered to be sacred.",
+    "example": "Jerusalem is considered a holy city by several religions."
+  },
+  {
+    "word": "Expertise",
+    "day": 1,
+    "definition": "A high level of knowledge or skill in a particular subject or activity.",
+    "example": "The project will require expertise in both engineering and design."
+  },
+  {
+    "word": "Minimal",
+    "day": 1,
+    "definition": "Very small in amount or degree; the least possible.",
+    "example": "The car accident caused only minimal damage to the vehicle."
+  },
+  {
+    "word": "Bundle",
+    "day": 1,
+    "definition": "A collection of things wrapped or tied together.",
+    "example": "She carried a bundle of clothes to the laundry room."
+  },
+  {
+    "word": "Residence",
+    "day": 1,
+    "definition": "A person's home, especially a large or formal one.",
+    "example": "The old building was converted into a modern residence, and the residents of a place like this enjoy the central location."
+  },
+  {
+    "word": "Premises",
+    "day": 1,
+    "definition": "The building and land owned or used by a business or organization.",
+    "example": "Smoking is not allowed on the premises of the university."
+  },
+  {
+    "word": "Correlation",
+    "day": 1,
+    "definition": "A relationship or connection between two or more things.",
+    "example": "Studies show a strong correlation between exercise and good health."
+  },
+  {
+    "word": "Funeral",
+    "day": 1,
+    "definition": "A ceremony held for a dead person, usually before burial or cremation.",
+    "example": "Many friends and family attended the funeral service."
+  },
+  {
+    "word": "Remark",
+    "day": 1,
+    "definition": "To say something, especially something that expresses an opinion or observation.",
+    "example": "She couldn't help but make a remark about his new haircut."
+  },
+  {
+    "word": "Comprehensive",
+    "day": 1,
+    "definition": "Including or dealing with all or nearly all aspects of something.",
+    "example": "The report provides a quite comprehensive overview of the current economic situation."
+  },
+  {
+    "word": "Exhaust",
+    "day": 1,
+    "definition": "To make someone extremely tired.",
+    "example": "After working all day, I often feel physically exhausted."
+  },
+  {
+    "word": "Restless",
+    "day": 2,
+    "definition": "Unable to rest or relax, especially because of worry or boredom.",
+    "example": "The children became restless during the long car journey."
+  },
+  {
+    "word": "Invade",
+    "day": 2,
+    "definition": "To enter a country or area with an army to take control of it.",
+    "example": "Historically, many conflicts have started with a military invasion of a neighboring territory."
+  },
+  {
+    "word": "Memorial",
+    "day": 2,
+    "definition": "An object or event that is a reminder of a person or event.",
+    "example": "A memorial service was held for the victims of the accident."
+  },
+  {
+    "word": "Foresee",
+    "day": 2,
+    "definition": "To know or expect that something will happen in the future.",
+    "example": "It's important to foresee consequences before making major decisions."
+  },
+  {
+    "word": "Initiate",
+    "day": 2,
+    "definition": "To cause something to begin; to start.",
+    "example": "She decided to take the initiative and organize the charity event herself."
+  },
+  {
+    "word": "Idle",
+    "day": 2,
+    "definition": "Not working or being used.",
+    "example": "The factory machines would remain idle during the holiday period."
+  },
+  {
+    "word": "Regime",
+    "day": 2,
+    "definition": "A system of government, especially an authoritarian one.",
+    "example": "The citizens hoped for changes under the current regime."
+  },
+  {
+    "word": "Pitch",
+    "day": 2,
+    "definition": "An area of ground specially prepared for playing a game such as football or rugby.",
+    "example": "The boys spent hours playing football on the local football pitch."
+  },
+  {
+    "word": "Deed",
+    "day": 2,
+    "definition": "An action or an act.",
+    "example": "He was rewarded for his good deed."
+  },
+  {
+    "word": "Scarce",
+    "day": 2,
+    "definition": "If something is scarce, there is not enough of it and it is difficult to obtain.",
+    "example": "Water is a scarce resource in many desert regions."
+  },
+  {
+    "word": "Breed",
+    "day": 2,
+    "definition": "A particular type of animal, especially a domestic animal, that has been developed by humans.",
+    "example": "This particular dog is a rare breed and very expensive."
+  },
+  {
+    "word": "Motive",
+    "day": 2,
+    "definition": "A reason for doing something.",
+    "example": "The police investigated the motive behind the crime."
+  },
+  {
+    "word": "Boundary",
+    "day": 2,
+    "definition": "A line that marks the edge of a space or an area.",
+    "example": "The river forms the state boundary between the two countries."
+  },
+  {
+    "word": "Ease",
+    "day": 2,
+    "definition": "The absence of difficulty or effort.",
+    "example": "She completed the difficult task with great ease in a short amount of time."
+  },
+  {
+    "word": "Substance",
+    "day": 2,
+    "definition": "A particular type of solid, liquid, or gas.",
+    "example": "The scientists discovered a new chemical substance, and analyzing it required a substantial amount of effort."
+  },
+  {
+    "word": "Whisper",
+    "day": 2,
+    "definition": "To speak very softly, using only the breath, so that no one else can hear.",
+    "example": "He leaned in to whisper something to her during the meeting."
+  },
+  {
+    "word": "Parameter",
+    "day": 2,
+    "definition": "A limit or boundary that defines the scope of a particular process or activity.",
+    "example": "We need to set parameters for the project before we begin working on it."
+  },
+  {
+    "word": "Presumably",
+    "day": 3,
+    "definition": "Used to say that you think something is true because it is very likely.",
+    "example": "The package arrived late, presumably due to bad weather; we could rightly presume the delivery service did its best."
+  },
+  {
+    "word": "Mode",
+    "day": 3,
+    "definition": "A way or manner in which something occurs or is experienced, expressed, or done.",
+    "example": "Please ensure your phone is in normal mode during the flight."
+  },
+  {
+    "word": "Vast",
+    "day": 3,
+    "definition": "Of very great extent or quantity; immense.",
+    "example": "The vast majority of students passed the exam."
+  },
+  {
+    "word": "Candidate",
+    "day": 3,
+    "definition": "A person who is applying for a job or is nominated for election.",
+    "example": "There were several strong candidates for the position."
+  },
+  {
+    "word": "Facilitate",
+    "day": 3,
+    "definition": "To make an action or a process easier or more likely to happen.",
+    "example": "Technology can further facilitate communication between people across different countries."
+  },
+  {
+    "word": "Surround",
+    "day": 3,
+    "definition": "To be all around someone or something.",
+    "example": "A beautiful garden surrounds the old house."
+  },
+  {
+    "word": "Compromise",
+    "day": 3,
+    "definition": "An agreement or a settlement of a dispute that is reached by each side making concessions.",
+    "example": "After a long discussion, both parties were able to reach a compromise."
+  },
+  {
+    "word": "Melt",
+    "day": 3,
+    "definition": "To turn from a solid into a liquid due to heat.",
+    "example": "The snow began to melt away as the sun came out."
+  },
+  {
+    "word": "Pride",
+    "day": 3,
+    "definition": "A feeling of deep pleasure or satisfaction derived from one's own achievements or qualities.",
+    "example": "She worked hard and had pride in her accomplishments."
+  },
+  {
+    "word": "Schedule Scheme",
+    "day": 3,
+    "definition": "A planned system or program for organizing events or tasks over a period of time.",
+    "example": "The new schedule scheme aims to improve efficiency in project management."
+  },
+  {
+    "word": "Hierarchy",
+    "day": 3,
+    "definition": "A system in which people or things are arranged in a series of levels with different importance or status.",
+    "example": "The company has a clear hierarchical structure, with managers at various levels."
+  },
+  {
+    "word": "Deficit",
+    "day": 3,
+    "definition": "The amount by which something, especially an amount of money, is too small.",
+    "example": "The government reported a significant budget deficit this quarter."
+  },
+  {
+    "word": "Simultaneous",
+    "day": 3,
+    "definition": "Happening or existing at the same time.",
+    "example": "The two events were simultaneous, making it impossible to attend both."
+  },
+  {
+    "word": "Log",
+    "day": 3,
+    "definition": "A record of events or observations, especially one kept daily or regularly.",
+    "example": "It's important to keep a log of all your expenses during the trip."
+  },
+  {
+    "word": "Solid",
+    "day": 3,
+    "definition": "Firm or hard, not liquid or gas.",
+    "example": "The table is made of solid wood."
+  },
+  {
+    "word": "Literal",
+    "day": 3,
+    "definition": "Taking words in their usual or most basic sense without metaphor or exaggeration.",
+    "example": "You shouldn't take his comments with a literal meaning; he was just joking."
+  },
+  {
+    "word": "Notify",
+    "day": 3,
+    "definition": "To formally inform someone about something.",
+    "example": "Please notify us of any changes to your contact details."
+  },
+  {
+    "word": "Devote",
+    "day": 4,
+    "definition": "To give all or most of one's time or resources to a particular activity or cause.",
+    "example": "She decided to devote herself to studying for the medical exams."
+  },
+  {
+    "word": "Beast",
+    "day": 4,
+    "definition": "A large or dangerous animal.",
+    "example": "The hunter tracked the wild beast through the jungle."
+  },
+  {
+    "word": "Compatible",
+    "day": 4,
+    "definition": "Able to exist or occur together without conflict.",
+    "example": "This new software is not compatible with older operating systems."
+  },
+  {
+    "word": "Nonetheless",
+    "day": 4,
+    "definition": "In spite of that; nevertheless.",
+    "example": "The weather was terrible; nonetheless, we had a great time."
+  },
+  {
+    "word": "Appendix",
+    "day": 4,
+    "definition": "A section at the end of a book or document that gives additional information.",
+    "example": "You can find more detailed information in the appendix of the report."
+  },
+  {
+    "word": "Seize",
+    "day": 4,
+    "definition": "To take hold of suddenly and forcibly.",
+    "example": "The police managed to seize the illegal documents from him."
+  },
+  {
+    "word": "Strike",
+    "day": 4,
+    "definition": "To hit something forcefully.",
+    "example": "He used a hammer to strike the bell with a loud clang."
+  },
+  {
+    "word": "Inclusive",
+    "day": 4,
+    "definition": "Including all the services, facilities, or items normally expected or required.",
+    "example": "The conference aims to be inclusive of all backgrounds, considering the possible inclusion of diverse speakers."
+  },
+  {
+    "word": "Master",
+    "day": 4,
+    "definition": "A person who has control over others, or a person with great skill.",
+    "example": "In the past, the relationship between master and servant was often complex."
+  },
+  {
+    "word": "Shoot",
+    "day": 4,
+    "definition": "To fire a gun or other weapon.",
+    "example": "The hunter accidentally shot himself in the arm while cleaning his rifle."
+  },
+  {
+    "word": "Suspend",
+    "day": 4,
+    "definition": "To temporarily prevent someone from continuing in a job, school, or activity.",
+    "example": "The player received a temporary suspension from the team after breaking the rules."
+  },
+  {
+    "word": "Drugstore",
+    "day": 4,
+    "definition": "A shop where you can buy medicines, beauty products, and other household items.",
+    "example": "She went to the drugstore to buy some painkillers."
+  },
+  {
+    "word": "Gravity",
+    "day": 4,
+    "definition": "The force that attracts a body toward the center of the earth, or toward any other physical body having mass.",
+    "example": "The force of gravity keeps us on the ground and prevents us from floating away."
+  },
+  {
+    "word": "Fierce",
+    "day": 4,
+    "definition": "Having or displaying an intense or aggressive ferocity.",
+    "example": "The new law faced fierce opposition from several community groups."
+  },
+  {
+    "word": "Notable",
+    "day": 4,
+    "definition": "Worthy of attention or notice; striking.",
+    "example": "It's a notable achievement, and the team introduced a new notion of success in the industry."
+  },
+  {
+    "word": "Generalize",
+    "day": 4,
+    "definition": "To make a general statement or conclusion about something based on limited evidence.",
+    "example": "It's difficult to generalize these findings to the entire population."
+  },
+  {
+    "word": "Texture",
+    "day": 4,
+    "definition": "The feel, appearance, or consistency of a surface or a substance.",
+    "example": "The wall had a rough, textured surface."
+  },
+  {
+    "word": "Grease",
+    "day": 5,
+    "definition": "Thick, oily, or fatty material, often produced from cooking.",
+    "example": "After fixing the car, his hands were covered in grease."
+  },
+  {
+    "word": "Raw",
+    "day": 5,
+    "definition": "Not cooked.",
+    "example": "Some people prefer to eat raw food for health reasons."
+  },
+  {
+    "word": "Implication",
+    "day": 5,
+    "definition": "The conclusion that can be drawn from something although it is not explicitly stated.",
+    "example": "The new policy has several serious implications for the economy, and several board members might be implicated in its development process."
+  },
+  {
+    "word": "Blade",
+    "day": 5,
+    "definition": "The flat, sharp part of a knife or other cutting tool.",
+    "example": "Be careful, the knife has a very sharp blade."
+  },
+  {
+    "word": "Bound",
+    "day": 5,
+    "definition": "Restricted to a particular area or situation.",
+    "example": "The children were told not to go out of bounds during the school trip."
+  },
+  {
+    "word": "Pattern",
+    "day": 5,
+    "definition": "A repeated decorative design, or a regular and intelligible form or sequence.",
+    "example": "Researchers observed a clear pattern of behavior in the animals."
+  },
+  {
+    "word": "Element",
+    "day": 5,
+    "definition": "A necessary or characteristic part of something.",
+    "example": "Trust is an essential element in any strong relationship."
+  },
+  {
+    "word": "Tackle",
+    "day": 5,
+    "definition": "To deal with a problem or a difficult situation.",
+    "example": "I need to tackle him about his late payments."
+  },
+  {
+    "word": "Indifferent",
+    "day": 5,
+    "definition": "Having no particular interest or sympathy; unconcerned.",
+    "example": "He seemed to show indifference to the outcome of the competition."
+  },
+  {
+    "word": "Code",
+    "day": 5,
+    "definition": "A system of words, letters, figures, or symbols used to represent others, especially for the purposes of secrecy.",
+    "example": "The secret message was written in code."
+  },
+  {
+    "word": "Detect",
+    "day": 5,
+    "definition": "To discover or identify the presence or existence of something.",
+    "example": "The new equipment can detect very small changes in temperature."
+  },
+  {
+    "word": "Constrain",
+    "day": 5,
+    "definition": "To severely restrict the scope, extent, or activity of something.",
+    "example": "Budget limitations constrain our choices, placing a significant constraint on the project's scope."
+  },
+  {
+    "word": "Atmosphere",
+    "day": 5,
+    "definition": "The envelope of gases surrounding the earth or another planet. Also, the pervading tone or mood of a place.",
+    "example": "The restaurant had a warm and friendly atmosphere."
+  },
+  {
+    "word": "Supplement",
+    "day": 5,
+    "definition": "To add an extra amount or element to something.",
+    "example": "The report will include supplementary information in a separate document."
+  },
+  {
+    "word": "Flood",
+    "day": 5,
+    "definition": "An overflow of a large amount of water beyond its normal limits, especially over what is normally dry land.",
+    "example": "Heavy rains caused the river to flood the nearby villages."
+  },
+  {
+    "word": "Hunger",
+    "day": 5,
+    "definition": "A feeling of discomfort or weakness caused by lack of food.",
+    "example": "Millions of people in the world suffer from extreme hunger."
+  },
+  {
+    "word": "Profound",
+    "day": 5,
+    "definition": "Very great or intense.",
+    "example": "The war had a profound effect on the country's economy."
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "instruction": "Study and define the following vocabulary words for Monday:",
+    "type": "open-ended",
+    "items": [
+      { "questionText": "Tube" },
+      { "questionText": "Boost" },
+      { "questionText": "Treat" },
+      { "questionText": "Bind" },
+      { "questionText": "Incentive" },
+      { "questionText": "Frozen" },
+      { "questionText": "Abortion" },
+      { "questionText": "Prior" },
+      { "questionText": "Terror" },
+      { "questionText": "Longevity" },
+      { "questionText": "Energetic" },
+      { "questionText": "Enforce" },
+      { "questionText": "Chief" },
+      { "questionText": "Minimum" },
+      { "questionText": "Wreck" },
+      { "questionText": "Reform" },
+      { "questionText": "Intense" },
+      { "questionText": "Furious" },
+      { "questionText": "Automate" }
+    ]
+  },
+  {
+    "instruction": "Study and define the following vocabulary words for Tuesday:",
+    "type": "open-ended",
+    "items": [
+      { "questionText": "Hire" },
+      { "questionText": "Merchant" },
+      { "questionText": "Rumor" },
+      { "questionText": "Guarantee" },
+      { "questionText": "Chamber" },
+      { "questionText": "Burden" },
+      { "questionText": "Shade" },
+      { "questionText": "Restrain" },
+      { "questionText": "Rejoice" },
+      { "questionText": "Accumulate" },
+      { "questionText": "Correspond" },
+      { "questionText": "Meanwhile" },
+      { "questionText": "Noble" },
+      { "questionText": "Joint" },
+      { "questionText": "Reproduce" },
+      { "questionText": "Dictate" }
+    ]
+  },
+  {
+    "instruction": "Study and define the following vocabulary words for Wednesday:",
+    "type": "open-ended",
+    "items": [
+      { "questionText": "Outdated" },
+      { "questionText": "Negotiate" },
+      { "questionText": "Route" },
+      { "questionText": "Haste" },
+      { "questionText": "Fellow" },
+      { "questionText": "Operate" },
+      { "questionText": "Careless" },
+      { "questionText": "Confront" },
+      { "questionText": "Flesh" },
+      { "questionText": "Hostile" },
+      { "questionText": "Procedure" },
+      { "questionText": "Resist" },
+      { "questionText": "Mutual" },
+      { "questionText": "Conclude" },
+      { "questionText": "Swing" },
+      { "questionText": "Evaporate" },
+      { "questionText": "Flaw" },
+      { "questionText": "Unify" }
+    ]
+  },
+  {
+    "instruction": "Study and define the following vocabulary words for Thursday:",
+    "type": "open-ended",
+    "items": [
+      { "questionText": "Finite/Infinite" },
+      { "questionText": "Indefinite /definite" },
+      { "questionText": "Administer" },
+      { "questionText": "Declare" },
+      { "questionText": "Automatic" },
+      { "questionText": "Replicate" },
+      { "questionText": "Apologize" },
+      { "questionText": "Confirm" },
+      { "questionText": "Jewel" },
+      { "questionText": "Proceed" },
+      { "questionText": "Dispose" },
+      { "questionText": "Session" },
+      { "questionText": "Civil" },
+      { "questionText": "Smart" },
+      { "questionText": "Compose" },
+      { "questionText": "Hack" },
+      { "questionText": "Inferior" }
+    ]
+  },
+  {
+    "instruction": "Study and define the following vocabulary words for Friday:",
+    "type": "open-ended",
+    "items": [
+      { "questionText": "Properly" },
+      { "questionText": "Stove" },
+      { "questionText": "Vehicle" },
+      { "questionText": "Prospective" },
+      { "questionText": "Preliminary" },
+      { "questionText": "Upward" },
+      { "questionText": "Attorney" },
+      { "questionText": "Domain" },
+      { "questionText": "Ahead" },
+      { "questionText": "Undertake" },
+      { "questionText": "Attain" },
+      { "questionText": "Cite" },
+      { "questionText": "Applaud" },
+      { "questionText": "Blind" },
+      { "questionText": "Ignorant" },
+      { "questionText": "Tension" },
+      { "questionText": "Betray" },
+      { "questionText": "Considerate" }
+    ]
+  }
+]

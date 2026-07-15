@@ -1,0 +1,560 @@
+[
+  {
+    "word": "Heel",
+    "day": 1,
+    "definition": "The back part of the foot, below the ankle, or the part of a shoe that supports this.",
+    "example": "She chose to wear elegant high-heels to the formal event."
+  },
+  {
+    "word": "Bend",
+    "day": 1,
+    "definition": "To move your body or a part of your body so that it is not straight.",
+    "example": "You need to bend down to pick up the dropped pen."
+  },
+  {
+    "word": "Lord",
+    "day": 1,
+    "definition": "A term used to express surprise or shock, often in religious contexts.",
+    "example": "Good Lord! I can't believe how much that car costs."
+  },
+  {
+    "word": "Approach",
+    "day": 1,
+    "definition": "To come near to someone or something in distance or time, or to speak to someone about something.",
+    "example": "The student decided to approach the professor for advice on her research project."
+  },
+  {
+    "word": "Curse",
+    "day": 1,
+    "definition": "To use offensive words, or to wish bad things to happen to someone or something.",
+    "example": "He muttered a curse for hitting his thumb with the hammer."
+  },
+  {
+    "word": "Blink",
+    "day": 1,
+    "definition": "To close and open your eyes quickly, or for a light to flash on and off.",
+    "example": "A red light blinks on the security camera to show it is recording."
+  },
+  {
+    "word": "Exploit",
+    "day": 1,
+    "definition": "A brave or exciting act, or to use something in a way that helps you.",
+    "example": "The history books recounted the general's famous military exploit."
+  },
+  {
+    "word": "Ideological",
+    "day": 1,
+    "definition": "Based on a system of ideas and ideals, especially concerning economic or political theory and policy.",
+    "example": "The nation's new laws reflected a shift towards a capitalist ideology."
+  },
+  {
+    "word": "Agenda",
+    "day": 1,
+    "definition": "A list of items to be discussed at a meeting, or a set of aims or plans.",
+    "example": "The political agenda for the next year focuses on economic growth."
+  },
+  {
+    "word": "Potential",
+    "day": 1,
+    "definition": "The possibility of something happening or of someone achieving something in the future.",
+    "example": "With enough practice, she can realize her full potential as a musician."
+  },
+  {
+    "word": "Outbreak",
+    "day": 1,
+    "definition": "A sudden start of something unwelcome, such as a disease or war.",
+    "example": "The government worked quickly to control the outbreak of disease in the region."
+  },
+  {
+    "word": "Harvest",
+    "day": 1,
+    "definition": "The process of gathering crops, or the amount of crops gathered.",
+    "example": "Farmers were pleased with the good harvest this season."
+  },
+  {
+    "word": "Prevalent",
+    "day": 1,
+    "definition": "Common in a particular area or at a particular time.",
+    "example": "Measles used to be one of the most prevalent diseases among children."
+  },
+  {
+    "word": "Underestimate",
+    "day": 1,
+    "definition": "To think that someone or something is less important, powerful, or capable than they really are.",
+    "example": "It's a mistake to underestimate the challenges involved in learning a new language."
+  },
+  {
+    "word": "Liable",
+    "day": 1,
+    "definition": "Responsible by law, or likely to do something.",
+    "example": "The driver was found liable for the accident that occurred."
+  },
+  {
+    "word": "assemble",
+    "day": 1,
+    "definition": "To come together as a group, or to put parts together to form a whole.",
+    "example": "The crowd assembled in the town square to protest the new law."
+  },
+  {
+    "word": "Coincide",
+    "day": 1,
+    "definition": "To happen at the same time, or for two or more ideas to be the same.",
+    "example": "Our schedules coincide perfectly, so we can meet for lunch."
+  },
+  {
+    "word": "Inborn",
+    "day": 1,
+    "definition": "A quality or talent that you are born with.",
+    "example": "She has an inborn ability to play musical instruments beautifully."
+  },
+  {
+    "word": "Equivalent",
+    "day": 1,
+    "definition": "Equal in value, amount, meaning, or importance.",
+    "example": "Paying £20 for this meal is equivalent to about $25."
+  },
+  {
+    "word": "Absolute",
+    "day": 2,
+    "definition": "Complete; total; not limited.",
+    "example": "I have absolute confidence in her ability to manage the project successfully."
+  },
+  {
+    "word": "Timely",
+    "day": 2,
+    "definition": "Done or happening at the most suitable or opportune moment.",
+    "example": "The company addressed the customer's complaint in a timely manner."
+  },
+  {
+    "word": "Shift",
+    "day": 2,
+    "definition": "To move or cause something to move from one place or position to another.",
+    "example": "There has been a significant shift in public opinion on climate change."
+  },
+  {
+    "word": "Neglect",
+    "day": 2,
+    "definition": "The failure to take proper care of something or someone.",
+    "example": "The construction company was found guilty of negligence after the bridge collapsed."
+  },
+  {
+    "word": "Exception",
+    "day": 2,
+    "definition": "A person or thing that is excluded from a general statement or rule.",
+    "example": "Everyone must wear a uniform; there is no exception."
+  },
+  {
+    "word": "Drive",
+    "day": 2,
+    "definition": "To cause or influence someone or something to act in a particular way.",
+    "example": "His passion for innovation was driven by a desire to improve people's lives."
+  },
+  {
+    "word": "Plot",
+    "day": 2,
+    "definition": "The sequence of events in a story, play, or film.",
+    "example": "The plot of the film was so engaging that I couldn't stop watching."
+  },
+  {
+    "word": "Compile",
+    "day": 2,
+    "definition": "To produce a list or book by assembling information gathered from other sources.",
+    "example": "She had to compile a list of all participants from various registration forms."
+  },
+  {
+    "word": "Accustomed",
+    "day": 2,
+    "definition": "Familiar with something so that it seems normal or usual.",
+    "example": "After living there for a year, he became accustomed to the cold winters."
+  },
+  {
+    "word": "Sole",
+    "day": 2,
+    "definition": "Being the only one; not shared with anyone else.",
+    "example": "As the project manager, she was solely responsible for its outcome."
+  },
+  {
+    "word": "Radical",
+    "day": 2,
+    "definition": "Relating to or affecting the fundamental nature of something; far-reaching or thorough.",
+    "example": "The new government proposed radical changes to the healthcare system."
+  },
+  {
+    "word": "Contaminate",
+    "day": 2,
+    "definition": "To make something impure or unsuitable by touching or mixing with an unclean or harmful substance.",
+    "example": "The drinking water became contaminated by industrial waste."
+  },
+  {
+    "word": "Inevitable",
+    "day": 2,
+    "definition": "Certain to happen; unavoidable.",
+    "example": "The rising sea levels are an inevitable consequence of climate change."
+  },
+  {
+    "word": "Accountable",
+    "day": 2,
+    "definition": "Expected to explain your actions and take responsibility for them.",
+    "example": "The meeting was cancelled on account of the heavy snowfall."
+  },
+  {
+    "word": "Rubber",
+    "day": 2,
+    "definition": "A strong, elastic substance made from the sap of certain trees or artificially, used for tires, boots, etc.",
+    "example": "Always wear rubber gloves when cleaning with harsh chemicals."
+  },
+  {
+    "word": "Deteriorate",
+    "day": 2,
+    "definition": "To become progressively worse.",
+    "example": "The patient's health began to deteriorate after a long illness."
+  },
+  {
+    "word": "Demolish",
+    "day": 2,
+    "definition": "To completely destroy a building, or to thoroughly defeat an argument.",
+    "example": "The city council decided to demolish the old building to create a new park."
+  },
+  {
+    "word": "Thread",
+    "day": 2,
+    "definition": "A long, thin strand of cotton, nylon, or other fibers used in sewing or weaving.",
+    "example": "It can be quite tricky to thread a needle, especially with small eyes."
+  },
+  {
+    "word": "Nuclear",
+    "day": 3,
+    "definition": "Relating to the nucleus of an atom, especially in the context of energy or weapons.",
+    "example": "Many countries are exploring nuclear power as a clean energy source."
+  },
+  {
+    "word": "Sharp",
+    "day": 3,
+    "definition": "Having a thin cutting edge or a fine point; able to cut or pierce things.",
+    "example": "Be careful when handling the knife, it has a very sharp edge."
+  },
+  {
+    "word": "Gifted",
+    "day": 3,
+    "definition": "Having exceptional natural ability or talent.",
+    "example": "She is gifted in languages and can speak five different ones fluently."
+  },
+  {
+    "word": "Rebel",
+    "day": 3,
+    "definition": "To resist authority, control, or tradition.",
+    "example": "Some teenagers tend to rebel against their parents' strict rules."
+  },
+  {
+    "word": "Beneficiary",
+    "day": 3,
+    "definition": "A person or group who receives money or property from a will or insurance policy, or who benefits from something.",
+    "example": "He was named the main beneficiary of his grandmother's estate."
+  },
+  {
+    "word": "Disrespect",
+    "day": 3,
+    "definition": "A lack of respect; rudeness.",
+    "example": "It is important not to show disrespect towards elders."
+  },
+  {
+    "word": "Subconscious",
+    "day": 3,
+    "definition": "Relating to the part of the mind of which one is not fully aware but which influences one's actions and feelings.",
+    "example": "Our dreams are often reflections of thoughts in the subconscious mind."
+  },
+  {
+    "word": "Dig",
+    "day": 3,
+    "definition": "To break up and move earth, or to search for something.",
+    "example": "The archeologists are planning to dig for ancient artifacts next month."
+  },
+  {
+    "word": "Conscience",
+    "day": 3,
+    "definition": "An inner feeling or voice viewed as acting as a guide to the rightness or wrongness of one's behavior.",
+    "example": "His conscience told him that cheating on the exam was wrong."
+  },
+  {
+    "word": "Coal",
+    "day": 3,
+    "definition": "A black or dark brown mineral, consisting mainly of carbon, formed from ancient plant remains and used as a fuel.",
+    "example": "Coal is still a major source of energy in some parts of the world."
+  },
+  {
+    "word": "Incorporate",
+    "day": 3,
+    "definition": "To include something as part of something else.",
+    "example": "The new design will incorporate elements of traditional architecture into the modern building."
+  },
+  {
+    "word": "Cater",
+    "day": 3,
+    "definition": "To provide food and drink for a social event, or to provide what is needed or wanted.",
+    "example": "The restaurant tries to cater for the needs of all its vegetarian customers."
+  },
+  {
+    "word": "Liberal",
+    "day": 3,
+    "definition": "Open to new behavior or opinions and willing to discard traditional values.",
+    "example": "The liberal party gained popularity by advocating for progressive social reforms."
+  },
+  {
+    "word": "Conservative",
+    "day": 3,
+    "definition": "Holding to traditional attitudes and values and cautious about change or innovation.",
+    "example": "His conservative views often clashed with the more modern ideas of his colleagues."
+  },
+  {
+    "word": "Capable",
+    "day": 3,
+    "definition": "Having the ability or quality necessary to do something.",
+    "example": "Despite his intelligence, he was incapable of performing well under pressure."
+  },
+  {
+    "word": "desert",
+    "day": 3,
+    "definition": "A dry, barren area of land, or a place lacking something desirable.",
+    "example": "Critics argued that the city, despite its size, was an intellectual desert."
+  },
+  {
+    "word": "Instance",
+    "day": 3,
+    "definition": "An example or single occurrence of something.",
+    "example": "There have been several instances of discrimination reported in the workplace."
+  },
+  {
+    "word": "Advocate",
+    "day": 3,
+    "definition": "A person who publicly supports or recommends a particular cause or policy.",
+    "example": "Environmental organizations continue to advocate for stronger laws against pollution."
+  },
+  {
+    "word": "Alert",
+    "day": 3,
+    "definition": "Watchful and aware of potential danger or problems.",
+    "example": "The guards were always on the alert for any suspicious activity near the border."
+  },
+  {
+    "word": "Backbone",
+    "day": 4,
+    "definition": "The series of bones extending from the skull to the pelvis, forming the main support of the body.",
+    "example": "The backbone provides essential support and flexibility for our bodies."
+  },
+  {
+    "word": "Cease",
+    "day": 4,
+    "definition": "To stop happening or existing; to bring to an end.",
+    "example": "The warring parties agreed to negotiate a ceasefire to discuss peace terms."
+  },
+  {
+    "word": "Copyright",
+    "day": 4,
+    "definition": "The exclusive legal right to print, publish, perform, film, or record literary, artistic, or musical material.",
+    "example": "The publisher holds the copyright on all of the author's novels."
+  },
+  {
+    "word": "Beneath",
+    "day": 4,
+    "definition": "In or to a lower position than; under.",
+    "example": "The cat enjoyed sleeping beneath the warm blanket on the sofa."
+  },
+  {
+    "word": "Humid",
+    "day": 4,
+    "definition": "Marked by a high level of water vapor in the atmosphere.",
+    "example": "People often find it uncomfortable to work in a very humid climate."
+  },
+  {
+    "word": "Sword",
+    "day": 4,
+    "definition": "A weapon with a long metal blade and a hilt.",
+    "example": "Ancient warriors often carried a sword as their primary weapon."
+  },
+  {
+    "word": "Modify",
+    "day": 4,
+    "definition": "To make partial or minor changes to something.",
+    "example": "There are ongoing debates about the safety of genetically-modified food."
+  },
+  {
+    "word": "Additive",
+    "day": 4,
+    "definition": "A substance added to something in small quantities to improve or preserve it.",
+    "example": "Many processed foods contain artificial food additives."
+  },
+  {
+    "word": "Periodical",
+    "day": 4,
+    "definition": "A magazine or journal published at regular intervals.",
+    "example": "She regularly reads scientific periodicals to stay updated on new research."
+  },
+  {
+    "word": "Manipulate",
+    "day": 4,
+    "definition": "To handle or control (a tool, mechanism, etc.) typically in a skillful manner, or to control a person or situation cleverly and unfairly.",
+    "example": "He tried to deliberately manipulate the data to support his argument."
+  },
+  {
+    "word": "Numerous",
+    "day": 4,
+    "definition": "Great in number; many.",
+    "example": "I've visited that museum on numerous occasions."
+  },
+  {
+    "word": "Dam",
+    "day": 4,
+    "definition": "A barrier constructed to hold back water and raise its level, forming a reservoir.",
+    "example": "Engineers proposed to build a dam to provide water for irrigation."
+  },
+  {
+    "word": "Coordinate",
+    "day": 4,
+    "definition": "To bring the different elements of a complex activity or organization into a harmonious or efficient relationship.",
+    "example": "We need to coordinate with the marketing team to launch the new product effectively."
+  },
+  {
+    "word": "Diagnose",
+    "day": 4,
+    "definition": "To identify the nature of a disease or problem by examining the symptoms.",
+    "example": "The doctor worked hard to correctly diagnose the rare condition."
+  },
+  {
+    "word": "Peculiar",
+    "day": 4,
+    "definition": "Strange or unusual; odd.",
+    "example": "His behavior had become peculiar since he started working long hours."
+  },
+  {
+    "word": "Lawsuit",
+    "day": 4,
+    "definition": "A claim or dispute brought to a court of law for adjudication.",
+    "example": "They decided to file a lawsuit against the company for breach of contract."
+  },
+  {
+    "word": "Vulnerable",
+    "day": 4,
+    "definition": "Exposed to the possibility of being attacked or harmed, either physically or emotionally.",
+    "example": "Elderly people are often vulnerable to cold weather during winter months."
+  },
+  {
+    "word": "Devastate",
+    "day": 4,
+    "definition": "To destroy or ruin something completely, or to cause someone extreme shock or grief.",
+    "example": "The small town was completely devastated by the powerful earthquake."
+  },
+  {
+    "word": "Confidential",
+    "day": 4,
+    "definition": "Intended to be kept secret.",
+    "example": "It is a legal requirement to keep patient records confidential."
+  },
+  {
+    "word": "Emit",
+    "day": 5,
+    "definition": "To produce and send out (light, sound, heat, gas, etc.).",
+    "example": "Governments are setting new targets to reduce carbon dioxide emissions."
+  },
+  {
+    "word": "Preservation",
+    "day": 5,
+    "definition": "The act of keeping something in its original state or in good condition.",
+    "example": "Environmental preservation is vital for protecting our planet's biodiversity."
+  },
+  {
+    "word": "Rush",
+    "day": 5,
+    "definition": "To move or act with urgent haste.",
+    "example": "She finished her presentation in a rush and made a few errors."
+  },
+  {
+    "word": "Compensate",
+    "day": 5,
+    "definition": "To give someone something, typically money, in recognition of loss, suffering, or injury.",
+    "example": "The company offered to compensate its employees for the overtime work."
+  },
+  {
+    "word": "Commentary",
+    "day": 5,
+    "definition": "An expression of opinions or an explanation about an event or situation, usually as it happens.",
+    "example": "I prefer watching football with a good sports commentary."
+  },
+  {
+    "word": "Lid",
+    "day": 5,
+    "definition": "A cover for the top of a container.",
+    "example": "The government tried to put a lid on the growing scandal."
+  },
+  {
+    "word": "Deter",
+    "day": 5,
+    "definition": "To discourage someone from doing something by instilling doubt or fear.",
+    "example": "The strict new laws aim to deter people from committing crimes."
+  },
+  {
+    "word": "Nuisance",
+    "day": 5,
+    "definition": "A person or thing causing inconvenience or annoyance.",
+    "example": "The constant barking from the neighbor's dog was a terrible nuisance."
+  },
+  {
+    "word": "Humiliate",
+    "day": 5,
+    "definition": "To make someone feel ashamed and foolish by injuring their dignity and self-respect.",
+    "example": "The opposing team inflicted a humiliating defeat on their rivals."
+  },
+  {
+    "word": "Commodity",
+    "day": 5,
+    "definition": "A raw material or primary agricultural product that can be bought and sold, such as copper or coffee.",
+    "example": "Water is becoming an increasingly valuable commodity in many parts of the world."
+  },
+  {
+    "word": "Recruit",
+    "day": 5,
+    "definition": "To enlist someone in the armed forces, or to find new people to join a company or organization.",
+    "example": "The human resources department is looking to recruit staff for several open positions."
+  },
+  {
+    "word": "Logic",
+    "day": 5,
+    "definition": "Reasoning conducted or assessed according to strict principles of validity.",
+    "example": "His argument lacked basic logic and was easy to disprove."
+  },
+  {
+    "word": "Border",
+    "day": 5,
+    "definition": "A line separating two countries or political units.",
+    "example": "Many tourists enjoy crossing the border between Canada and the United States."
+  },
+  {
+    "word": "Labour",
+    "day": 5,
+    "definition": "Work, especially hard physical work.",
+    "example": "The construction project required a lot of manual labour."
+  },
+  {
+    "word": "Threat",
+    "day": 5,
+    "definition": "A statement of an intention to inflict pain, injury, damage, or other hostile action on someone.",
+    "example": "The dark clouds gathered, threatening to unleash a severe storm."
+  },
+  {
+    "word": "Vanish",
+    "day": 5,
+    "definition": "To disappear suddenly and completely.",
+    "example": "The magician made the coin vanish into thin air right before our eyes."
+  },
+  {
+    "word": "Worthwhile",
+    "day": 5,
+    "definition": "Worth the time, money, or effort spent; useful or important.",
+    "example": "Volunteering for a charity is a truly worthwhile use of your time."
+  },
+  {
+    "word": "Disrupt",
+    "day": 5,
+    "definition": "To interrupt an event, activity, or process by causing a problem.",
+    "example": "The unexpected power outage caused major disruption to the city's services."
+  }
+]

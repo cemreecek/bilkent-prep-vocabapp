@@ -1,0 +1,30 @@
+[
+  {
+    "id": "elementary-level-wordlist-elementary-level-wordlist",
+    "level": "Elementary",
+    "unit": "Elementary Level Wordlist",
+    "wordCount": 826,
+    "file": "practice/elementary-level-wordlist-elementary-level-wordlist.json"
+  },
+  {
+    "id": "intermediate-level-wordlist-intermediate-level-wordlist-sheet1",
+    "level": "Intermediate",
+    "unit": "Intermediate Level Wordlist Sheet1",
+    "wordCount": 726,
+    "file": "practice/intermediate-level-wordlist-intermediate-level-wordlist-sheet1.json"
+  },
+  {
+    "id": "prefac-level-wordlist-prep-faculty-level-wordlist-sheet1",
+    "level": "Pre-faculty",
+    "unit": "Prep Faculty Level Wordlist Sheet1",
+    "wordCount": 693,
+    "file": "practice/prefac-level-wordlist-prep-faculty-level-wordlist-sheet1.json"
+  },
+  {
+    "id": "upper-intermediate-wordlist-upper-intermediate-level-wordlist",
+    "level": "Upper Intermediate",
+    "unit": "Upper Intermediate Level Wordlist",
+    "wordCount": 643,
+    "file": "practice/upper-intermediate-wordlist-upper-intermediate-level-wordlist.json"
+  }
+]

@@ -1,0 +1,519 @@
+[
+  {
+    "instruction": "PART 1: Match the following words with their definitions.",
+    "type": "matching",
+    "items": [
+      {
+        "questionText": "Cautious",
+        "correctAnswer": "careful about avoiding danger or risk"
+      },
+      {
+        "questionText": "Release",
+        "correctAnswer": "to stop holding someone or something, to let go of"
+      },
+      {
+        "questionText": "Approach",
+        "correctAnswer": "to move closer to or become nearer to something or someone"
+      },
+      {
+        "questionText": "Investigate",
+        "correctAnswer": "to try to find out the facts about something (such as a crime or an accident) in order to learn how it happened, who did it, etc."
+      },
+      {
+        "questionText": "Insecure",
+        "correctAnswer": "not confident about yourself or your ability to do things well, nervous and uncomfortable"
+      },
+      {
+        "questionText": "Remains",
+        "correctAnswer": "the parts of something that are left over when the other parts are gone or used up"
+      },
+      {
+        "questionText": "Recovery",
+        "correctAnswer": "the act or process of returning to a normal state after a period of difficulty"
+      },
+      {
+        "questionText": "Dissatisfaction",
+        "correctAnswer": "a feeling of unhappiness or disapproval"
+      },
+      {
+        "questionText": "Inherit",
+        "correctAnswer": "to receive something from someone who had it previously, especially an older family member"
+      },
+      {
+        "questionText": "Enquire",
+        "correctAnswer": "to ask for information"
+      },
+      {
+        "questionText": "Express",
+        "correctAnswer": "to make your thoughts and feelings known"
+      }
+    ]
+  },
+  {
+    "instruction": "PART 2: Fill in the blanks by choosing A, B, C, D, or E.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Choosing a pet isn't easy. Dogs are popular because they're loyal and good for security. When compared to dogs, cats are more independent and clean, but they can be {1}, that is, their mood is likely to change suddenly. Fish are relaxing to watch, but don't expect much interaction! Some people prefer birds because they can learn to talk, while others choose to {2} unusual pets like snakes or spiders as they are inexpensive to feed compared to other animals. In the end, it's important to adopt a pet that suits your lifestyle and gives you the {3} you want.",
+        "options": [
+          [
+            { "text": "cautious", "isCorrect": false, "blankIndex": 1 },
+            { "text": "unwilling", "isCorrect": false, "blankIndex": 1 },
+            { "text": "insecure", "isCorrect": false, "blankIndex": 1 },
+            { "text": "unpredictable", "isCorrect": true, "blankIndex": 1 },
+            { "text": "consistent", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "recover", "isCorrect": false, "blankIndex": 2 },
+            { "text": "acquire", "isCorrect": true, "blankIndex": 2 },
+            { "text": "allocate", "isCorrect": false, "blankIndex": 2 },
+            { "text": "release", "isCorrect": false, "blankIndex": 2 },
+            { "text": "examine", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "dissatisfaction", "isCorrect": false, "blankIndex": 3 },
+            { "text": "investment", "isCorrect": false, "blankIndex": 3 },
+            { "text": "companionship", "isCorrect": true, "blankIndex": 3 },
+            { "text": "exposure", "isCorrect": false, "blankIndex": 3 },
+            { "text": "impression", "isCorrect": false, "blankIndex": 3 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Dogs are often used in crime investigation. They can be adopted and trained to {4} drugs, weapons and even dead bodies. The police also use dogs to help them catch criminals, however, some people think that using dogs in this way is cruel because it can put the dogs in danger. Not all types of dogs can be used in crime investigation as the law {5} some types of dogs from being used by the police, for example, pit bull terriers. Moreover, some people have concerns about the usage of dogs to solve crime. For example, if a criminal is nervous, will a dog always react in the same way? And what happens when the dog does not cooperate? Will it {6} the investigation? Despite these concerns, many experts agree that dogs can {7} help to fight crime. As long as they are used as part of a wider range of techniques, they will be really useful.",
+        "options": [
+          [
+            { "text": "enclose", "isCorrect": false, "blankIndex": 4 },
+            { "text": "detect", "isCorrect": true, "blankIndex": 4 },
+            { "text": "fulfill", "isCorrect": false, "blankIndex": 4 },
+            { "text": "assist", "isCorrect": false, "blankIndex": 4 },
+            { "text": "predict", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "qualifies", "isCorrect": false, "blankIndex": 5 },
+            { "text": "objects", "isCorrect": false, "blankIndex": 5 },
+            { "text": "prohibits", "isCorrect": true, "blankIndex": 5 },
+            { "text": "selects", "isCorrect": false, "blankIndex": 5 },
+            { "text": "differs", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "delay", "isCorrect": true, "blankIndex": 6 },
+            { "text": "enhance", "isCorrect": false, "blankIndex": 6 },
+            { "text": "abandon", "isCorrect": false, "blankIndex": 6 },
+            { "text": "recover", "isCorrect": false, "blankIndex": 6 },
+            { "text": "cooperate", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "unwillingly", "isCorrect": false, "blankIndex": 7 },
+            { "text": "desperately", "isCorrect": false, "blankIndex": 7 },
+            { "text": "insecurely", "isCorrect": false, "blankIndex": 7 },
+            { "text": "gradually", "isCorrect": false, "blankIndex": 7 },
+            { "text": "genuinely", "isCorrect": true, "blankIndex": 7 }
+          ]
+        ]
+      },
+      {
+        "questionText": "The world is full of wild animals. It's interesting to learn about the different types of animals and their behavior in the wild. Elephants are the largest land animals in the world. They are social creatures that live in groups called herds and are particularly known for their memory and intelligence. In addition, they're also very {8} and can have babies into their 50s. Snakes are reptiles without legs. There are more than 3,000 species of snakes in the world, some of which are venomous. When snakes feel threatened, they {9} themselves by hissing or striking. If you ever come across a snake in the wild, it's best not to touch it, as that could lead to an unfortunate {10}, which may put you in the hospital. Therefore, although learning about wild animals can help us {11} our behavior to their nature and how they behave in different circumstances, it's important to respect wildlife and remember that they are not pets, but rather creatures that act on their {12} and deserve our understanding.",
+        "options": [
+          [
+            { "text": "generous", "isCorrect": false, "blankIndex": 8 },
+            { "text": "approachable", "isCorrect": false, "blankIndex": 8 },
+            { "text": "fertile", "isCorrect": true, "blankIndex": 8 },
+            { "text": "astonishing", "isCorrect": false, "blankIndex": 8 },
+            { "text": "rare", "isCorrect": false, "blankIndex": 8 }
+          ],
+          [
+            { "text": "activate", "isCorrect": false, "blankIndex": 9 },
+            { "text": "harm", "isCorrect": false, "blankIndex": 9 },
+            { "text": "offend", "isCorrect": false, "blankIndex": 9 },
+            { "text": "express", "isCorrect": true, "blankIndex": 9 },
+            { "text": "demonstrate", "isCorrect": false, "blankIndex": 9 }
+          ],
+          [
+            { "text": "incident", "isCorrect": true, "blankIndex": 10 },
+            { "text": "obstacle", "isCorrect": false, "blankIndex": 10 },
+            { "text": "revenge", "isCorrect": false, "blankIndex": 10 },
+            { "text": "phase", "isCorrect": false, "blankIndex": 10 },
+            { "text": "input", "isCorrect": false, "blankIndex": 10 }
+          ],
+          [
+            { "text": "adopt", "isCorrect": false, "blankIndex": 11 },
+            { "text": "approach", "isCorrect": false, "blankIndex": 11 },
+            { "text": "adapt", "isCorrect": true, "blankIndex": 11 },
+            { "text": "obtain", "isCorrect": false, "blankIndex": 11 },
+            { "text": "appeal", "isCorrect": false, "blankIndex": 11 }
+          ],
+          [
+            { "text": "pure", "isCorrect": false, "blankIndex": 12 },
+            { "text": "reliable", "isCorrect": false, "blankIndex": 12 },
+            { "text": "instincts", "isCorrect": true, "blankIndex": 12 },
+            { "text": "crucial", "isCorrect": false, "blankIndex": 12 },
+            { "text": "tender", "isCorrect": false, "blankIndex": 12 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 3: Use the word in parentheses at the end of each sentence to form a word that fits in the blanks.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "The population ______ increased. (GRADUAL)",
+        "correctAnswer": "gradually",
+        "options": []
+      },
+      {
+        "questionText": "Parents are worried about their children's ______ to violence on television. (EXPOSE)",
+        "correctAnswer": "exposure",
+        "options": []
+      },
+      {
+        "questionText": "Based on current ______ rates, the world's population is expected to pass 9 billion by the year 2050. (FERTILE)",
+        "correctAnswer": "fertility",
+        "options": []
+      },
+      {
+        "questionText": "The ______ against smoking indoors did not lead many people to quit. (PROHIBIT)",
+        "correctAnswer": "prohibition",
+        "options": []
+      },
+      {
+        "questionText": "It is widely acknowledged that ______ tests are inaccurate and unreliable. (INTELLIGENT)",
+        "correctAnswer": "intelligence",
+        "options": []
+      },
+      {
+        "questionText": "He has the necessary ______ for the job. (QUALIFY)",
+        "correctAnswer": "qualifications",
+        "options": []
+      },
+      {
+        "questionText": "The CEO’s ______ answered the phone and took a message while he was at lunch. (ASSIST)",
+        "correctAnswer": "assistant",
+        "options": []
+      },
+      {
+        "questionText": "Turkish towels have a reputation for being highly ______. (ABSORB)",
+        "correctAnswer": "absorbent",
+        "options": []
+      },
+      {
+        "questionText": "When she got to class she was ______ upset and said she’d been in a car accident. (VISIBLE)",
+        "correctAnswer": "visibly",
+        "options": []
+      },
+      {
+        "questionText": "For a five-year-old he’s an ______ good piano player. (ASTONISH)",
+        "correctAnswer": "astonishingly",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "PART 4 – A: Match the verbs with their correct noun collocations.",
+    "type": "matching",
+    "items": [
+      {
+        "questionText": "Adopt",
+        "correctAnswer": "a policy / a method / an attitude"
+      },
+      {
+        "questionText": "Anticipate",
+        "correctAnswer": "difficulties / changes / problems"
+      },
+      {
+        "questionText": "Fulfill",
+        "correctAnswer": "duties / responsibilities / dreams / hopes"
+      },
+      {
+        "questionText": "Detect",
+        "correctAnswer": "a difference / a change / a problem"
+      },
+      {
+        "questionText": "Express",
+        "correctAnswer": "views/opinions /fear/ anger"
+      },
+      {
+        "questionText": "Take",
+        "correctAnswer": "revenge"
+      },
+      {
+        "questionText": "Acquire",
+        "correctAnswer": "a new skill / knowledge"
+      },
+      {
+        "questionText": "Release",
+        "correctAnswer": "a prisoner / a book/ an article / gases"
+      },
+      {
+        "questionText": "Allocate",
+        "correctAnswer": "resources / money / time"
+      },
+      {
+        "questionText": "Restore",
+        "correctAnswer": "peace / confidence / order"
+      }
+    ]
+  },
+  {
+    "instruction": "PART 4 – B: Use the appropriate collocations above to fill in the gaps. You might need to make some changes.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "She decided to ______ of gratitude towards life's challenges. She believes that this will help her deal with hardships more easily.",
+        "correctAnswer": "adopt an attitude",
+        "options": []
+      },
+      {
+        "questionText": "After years of planning, he finally found the perfect opportunity to ______ on his former business partner. He wants to punish him for the harm he caused for his career.",
+        "correctAnswer": "take revenge",
+        "options": []
+      },
+      {
+        "questionText": "The leaders worked tirelessly to ______ in the war-torn region. They want to end the conflicts and bring harmony to the region.",
+        "correctAnswer": "restore peace",
+        "options": []
+      },
+      {
+        "questionText": "She wanted to ______, so she dedicated hours each day to practicing painting, learning color theory, and trying new materials.",
+        "correctAnswer": "acquire a new skill",
+        "options": []
+      },
+      {
+        "questionText": "With her keen eye for detail, she was able to ______ in the company's financial statements.",
+        "correctAnswer": "detect a problem",
+        "options": []
+      },
+      {
+        "questionText": "The governor decided to ______ early due to good behavior.",
+        "correctAnswer": "release a prisoner",
+        "options": []
+      },
+      {
+        "questionText": "Make sure to ______ for each task on your to-do list. Otherwise, you might not be able to meet the deadline.",
+        "correctAnswer": "allocate time",
+        "options": []
+      },
+      {
+        "questionText": "It's important to ______ clearly during the debate to communicate your thoughts effectively.",
+        "correctAnswer": "express views/opinions",
+        "options": []
+      },
+      {
+        "questionText": "We need to ______ before starting the project to be prepared, so let’s talk to a group that has already done something similar.",
+        "correctAnswer": "anticipate problems / difficulties",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "PART 5: Fill in each blank with the best word. Read the sentences carefully because the words in each set have very similar meanings.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "When the police ______ asked them a lot of questions after the robbery. (inspector / investigator / detective)",
+        "correctAnswer": "detective",
+        "options": []
+      },
+      {
+        "questionText": "The airplane ______ checked all the mechanical parts before certifying that it was safe to fly. (inspector / investigator / detective)",
+        "correctAnswer": "inspector",
+        "options": []
+      },
+      {
+        "questionText": "The corporation hired a/an ______ to find out who was leaking their information. (inspector / investigator / detective)",
+        "correctAnswer": "investigator",
+        "options": []
+      },
+      {
+        "questionText": "The castle’s ______ was dark, dusty, and full of stray cats. (interior / internal)",
+        "correctAnswer": "interior",
+        "options": []
+      },
+      {
+        "questionText": "The company did an ______ investigation before alerting the police. (interior / internal)",
+        "correctAnswer": "internal",
+        "options": []
+      },
+      {
+        "questionText": "She ______ opened the unmarked bottle, knowing it might contain poison. (regretfully / unwillingly / cautiously)",
+        "correctAnswer": "cautiously",
+        "options": []
+      },
+      {
+        "questionText": "They ______ replied that they could not attend the wedding due to a prior commitment. (regretfully / unwillingly / cautiously)",
+        "correctAnswer": "regretfully",
+        "options": []
+      },
+      {
+        "questionText": "He answered the questions ______, because he knew that his answers would be used against him later. (regretfully / unwillingly / cautiously)",
+        "correctAnswer": "unwillingly",
+        "options": []
+      },
+      {
+        "questionText": "The ______ in which the student found himself was not beneficial for his studies. (circumstance / incident)",
+        "correctAnswer": "circumstance",
+        "options": []
+      },
+      {
+        "questionText": "That ______ made me wonder if he was really the right man for the job. (circumstance / incident)",
+        "correctAnswer": "incident",
+        "options": []
+      },
+      {
+        "questionText": "After an extensive, worldwide search, they were able to ______ the stolen painting and return it to the museum. (restore / recover)",
+        "correctAnswer": "recover",
+        "options": []
+      },
+      {
+        "questionText": "The art historian was able to ______ the painting to its original beauty by using special chemicals and techniques. (restore / recover)",
+        "correctAnswer": "restore",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "PART 6: Fill in the blanks with the appropriate word from the bank. There are two extra words.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "The {1} were so profitable that they became a {2} aspect of the economy.",
+        "options": [
+          [
+            { "text": "exports", "isCorrect": true, "blankIndex": 1 },
+            { "text": "currencies", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "crucial", "isCorrect": true, "blankIndex": 2 },
+            { "text": "available", "isCorrect": false, "blankIndex": 2 }
+          ]
+        ]
+      },
+      {
+        "questionText": "The right to {1} is {2} on the trust between those in power and the citizens.",
+        "options": [
+          [
+            { "text": "govern", "isCorrect": true, "blankIndex": 1 },
+            { "text": "inquire", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "founded", "isCorrect": true, "blankIndex": 2 },
+            { "text": "exposed", "isCorrect": false, "blankIndex": 2 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Her {1} on the situation were very {2}. She said exactly what she thought.",
+        "options": [
+          [
+            { "text": "comments", "isCorrect": true, "blankIndex": 1 },
+            { "text": "exports", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "forthcoming", "isCorrect": true, "blankIndex": 2 },
+            { "text": "unbiased", "isCorrect": false, "blankIndex": 2 }
+          ]
+        ]
+      },
+      {
+        "questionText": "After hearing about their new policy, I was not {1} to {2} in the company.",
+        "options": [
+          [
+            { "text": "inclined", "isCorrect": true, "blankIndex": 1 },
+            { "text": "incline", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "invest", "isCorrect": true, "blankIndex": 2 },
+            { "text": "fulfill", "isCorrect": false, "blankIndex": 2 }
+          ]
+        ]
+      },
+      {
+        "questionText": "We need to {1} a strategy for managing all the different {2} that we buy and trade.",
+        "options": [
+          [
+            { "text": "formulate", "isCorrect": true, "blankIndex": 1 },
+            { "text": "govern", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "currencies", "isCorrect": true, "blankIndex": 2 },
+            { "text": "exports", "isCorrect": false, "blankIndex": 2 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Hello, I’m calling to {1} as to whether there are any {2} appointments this week.",
+        "options": [
+          [
+            { "text": "inquire", "isCorrect": true, "blankIndex": 1 },
+            { "text": "formulate", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "available", "isCorrect": true, "blankIndex": 2 },
+            { "text": "forthcoming", "isCorrect": false, "blankIndex": 2 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Despite being {1}, their opinions on the matter still {2}.",
+        "options": [
+          [
+            { "text": "unbiased", "isCorrect": true, "blankIndex": 1 },
+            { "text": "exposed", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "differed", "isCorrect": true, "blankIndex": 2 },
+            { "text": "inclined", "isCorrect": false, "blankIndex": 2 }
+          ]
+        ]
+      },
+      {
+        "questionText": "I drove faster as I {1} the {2} to make sure that I had enough speed to make it up the hill.",
+        "options": [
+          [
+            { "text": "approached", "isCorrect": true, "blankIndex": 1 },
+            { "text": "founded", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "incline", "isCorrect": true, "blankIndex": 2 },
+            { "text": "crucial", "isCorrect": false, "blankIndex": 2 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 7: Discuss these questions in pairs or in groups or answer the question in writing using at least a complete sentence.",
+    "type": "open-ended",
+    "items": [
+      {
+        "questionText": "How does your academic life at Bilkent differ from your academic life in high school in terms of challenges and rewards?"
+      },
+      {
+        "questionText": "Have you ever felt insecure about your abilities or appearance? How did you overcome it?"
+      },
+      {
+        "questionText": "Why is it crucial to expose children to different cultures and perspectives at a young age?"
+      },
+      {
+        "questionText": "Can you comment on the struggle for human rights in today's society?"
+      },
+      {
+        "questionText": "What circumstances can lead to dissatisfaction in one's personal or professional life?"
+      },
+      {
+        "questionText": "How important is it for individuals to inherit values and traditions from their family?"
+      },
+      {
+        "questionText": "Have you ever experienced a delay in achieving a goal, and how did you handle the situation?"
+      },
+      {
+        "questionText": "What strategies do you use for recovery after experiencing a health problem or injury?"
+      },
+      {
+        "questionText": "Can you discuss a recent controversy in the media and explain your perspective on it?"
+      }
+    ]
+  }
+]

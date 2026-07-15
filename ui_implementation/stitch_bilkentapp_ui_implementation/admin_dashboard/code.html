@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bilkent Prep - Admin Dashboard</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Geist:wght@400;500;600;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        body { font-family: 'Inter', sans-serif; -webkit-user-select: none; user-select: none; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .protected-content { border-left: 3px solid #001e40; pointer-events: none; }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-high": "#e8e8ed",
+                        "inverse-primary": "#a7c8ff",
+                        "on-secondary-fixed-variant": "#653e00",
+                        "on-tertiary-fixed": "#341100",
+                        "on-surface-variant": "#43474f",
+                        "surface-tint": "#3a5f94",
+                        "outline": "#737780",
+                        "on-secondary": "#ffffff",
+                        "on-primary-fixed": "#001b3c",
+                        "error": "#ba1a1a",
+                        "secondary-fixed": "#ffddb8",
+                        "inverse-on-surface": "#f1f0f5",
+                        "error-container": "#ffdad6",
+                        "on-primary-container": "#799dd6",
+                        "on-tertiary": "#ffffff",
+                        "outline-variant": "#c3c6d1",
+                        "tertiary-fixed": "#ffdbca",
+                        "tertiary-fixed-dim": "#ffb690",
+                        "primary-container": "#003366",
+                        "on-secondary-container": "#684000",
+                        "on-primary-fixed-variant": "#1f477b",
+                        "primary-fixed-dim": "#a7c8ff",
+                        "surface-bright": "#f9f9fe",
+                        "inverse-surface": "#2f3034",
+                        "on-secondary-fixed": "#2a1700",
+                        "tertiary": "#381300",
+                        "secondary": "#855300",
+                        "surface-variant": "#e2e2e7",
+                        "surface-container-highest": "#e2e2e7",
+                        "surface": "#f9f9fe",
+                        "on-error": "#ffffff",
+                        "on-background": "#1a1c1f",
+                        "surface-dim": "#dad9de",
+                        "on-surface": "#1a1c1f",
+                        "on-error-container": "#93000a",
+                        "secondary-fixed-dim": "#ffb95f",
+                        "on-tertiary-container": "#d8885c",
+                        "background": "#f9f9fe",
+                        "secondary-container": "#fea619",
+                        "primary": "#001e40",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-fixed": "#d5e3ff",
+                        "on-primary": "#ffffff",
+                        "tertiary-container": "#592300",
+                        "surface-container": "#eeedf2",
+                        "on-tertiary-fixed-variant": "#723610",
+                        "surface-container-low": "#f4f3f8"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "base": "8px",
+                        "container-padding-mobile": "1rem",
+                        "container-padding-desktop": "2.5rem",
+                        "gutter": "1rem",
+                        "section-gap": "2rem"
+                    },
+                    "fontFamily": {
+                        "title-md": ["Geist"],
+                        "body-lg": ["Inter"],
+                        "label-sm": ["Geist"],
+                        "headline-lg": ["Geist"],
+                        "headline-lg-mobile": ["Geist"],
+                        "body-md": ["Inter"],
+                        "display-lg": ["Geist"]
+                    },
+                    "fontSize": {
+                        "title-md": ["20px", {"lineHeight": "1.4", "fontWeight": "600"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "label-sm": ["13px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                        "headline-lg-mobile": ["24px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                        "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen">
+<!-- NavigationDrawer (Shared Component) -->
+<aside class="hidden md:flex flex-col h-full w-72 fixed left-0 top-0 bg-surface-container-low border-r border-outline-variant py-base z-40">
+<div class="px-6 py-8 flex flex-col items-start">
+<div class="flex items-center gap-3 mb-6">
+<img alt="Bilkent Logo" class="w-10 h-10 rounded-full" data-alt="A professional university crest icon for Bilkent Prep, rendered in a crisp vector style with deep navy and gold accents. The logo is displayed on a clean white background, reflecting a prestigious academic institution's identity within a high-end digital dashboard environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFGv73Y2XTtTVpuPM6aQP5_Pqy_14Gmkq5ZzfPdOfTSV7G5TxxstsTP2tt1PWuoCphjovmWbZeczlYi8xOlX2g55DqYycVGgC59VVbEuuxKbn4OUWGkj43Vc8w2cprilKadqNmEDpsp0EXIzFa1bY-vFaQmfvnTLDBkK_TOpeWKuXeBDxHQ6bMdgladyEXxF8A9_0px1ISeQ4s9AjdG6bdGr1mC9oY3syFnpqtcKBQk3RSyY1UkrZrUFpTo0A_7iHuPUicfrfOZGoJ"/>
+<div>
+<h1 class="font-headline-lg text-headline-lg text-primary">Instructor Portal</h1>
+<p class="font-body-md text-label-sm text-on-surface-variant">Bilkent Prep School</p>
+</div>
+</div>
+<div class="w-full bg-surface-container-high rounded-xl p-4 flex items-center gap-3 mb-8">
+<div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container font-bold">AD</div>
+<div>
+<p class="font-label-sm text-primary font-bold">Admin Access</p>
+<p class="text-xs text-on-surface-variant">System Overseer</p>
+</div>
+</div>
+</div>
+<nav class="flex-1 px-2">
+<div class="flex items-center text-on-surface-variant pl-5 py-3 hover:bg-surface-container-high transition-all cursor-pointer group">
+<span class="material-symbols-outlined mr-3" data-icon="grid_view">grid_view</span>
+<span class="font-body-md text-body-md">Overview</span>
+</div>
+<div class="flex items-center text-on-surface-variant pl-5 py-3 hover:bg-surface-container-high transition-all cursor-pointer group">
+<span class="material-symbols-outlined mr-3" data-icon="school">school</span>
+<span class="font-body-md text-body-md">Curriculum</span>
+</div>
+<div class="flex items-center text-primary font-bold border-l-4 border-primary pl-4 py-3 cursor-pointer">
+<span class="material-symbols-outlined mr-3" data-icon="trending_up">trending_up</span>
+<span class="font-body-md text-body-md">Student Progress</span>
+</div>
+<div class="flex items-center text-on-surface-variant pl-5 py-3 hover:bg-surface-container-high transition-all cursor-pointer group">
+<span class="material-symbols-outlined mr-3" data-icon="settings">settings</span>
+<span class="font-body-md text-body-md">Settings</span>
+</div>
+</nav>
+</aside>
+<!-- TopAppBar (Shared Component) -->
+<header class="w-full top-0 sticky bg-surface shadow-sm flex justify-between items-center px-container-padding-mobile md:pl-[19rem] md:px-container-padding-desktop h-16 w-full z-30">
+<div class="flex items-center gap-4">
+<span class="md:hidden material-symbols-outlined text-primary cursor-pointer" data-icon="menu">menu</span>
+<span class="font-title-md text-title-md font-bold text-primary">Bilkent Prep</span>
+</div>
+<div class="flex items-center gap-6">
+<div class="hidden md:flex items-center gap-2 bg-secondary-container/10 px-3 py-1 rounded-full">
+<span class="material-symbols-outlined text-secondary" data-icon="flame" style="font-variation-settings: 'FILL' 1;">flare</span>
+<span class="font-label-sm text-secondary font-bold">1,240 Total Active</span>
+</div>
+<div class="w-8 h-8 rounded-full bg-surface-container-highest border border-outline-variant flex items-center justify-center">
+<span class="material-symbols-outlined text-on-surface-variant text-sm" data-icon="person">person</span>
+</div>
+</div>
+</header>
+<!-- Main Canvas -->
+<main class="md:ml-72 p-container-padding-mobile md:p-container-padding-desktop pb-32">
+<!-- Dashboard Header & Stats Bento -->
+<section class="mb-section-gap">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+<div>
+<h2 class="font-display-lg text-display-lg text-primary tracking-tight">God View</h2>
+<p class="font-body-md text-on-surface-variant max-w-xl">Comprehensive management of institutional sections, faculty assignments, and real-time student distribution.</p>
+</div>
+<div class="flex gap-3">
+<button class="bg-primary text-on-primary px-6 py-3 rounded-xl font-label-sm flex items-center gap-2 active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-sm" data-icon="add">add</span>
+                        Create New Classroom
+                    </button>
+</div>
+</div>
+<!-- Bento Stats -->
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter">
+<div class="bg-surface-container-lowest border border-outline-variant p-6 rounded-xl">
+<p class="text-on-surface-variant font-label-sm mb-2">Total Classrooms</p>
+<p class="text-headline-lg font-headline-lg text-primary">42</p>
+<div class="mt-4 flex items-center gap-1 text-on-secondary-container bg-secondary-fixed/30 px-2 py-0.5 rounded w-fit">
+<span class="material-symbols-outlined text-xs" data-icon="arrow_upward">arrow_upward</span>
+<span class="text-xs font-bold">4 this month</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant p-6 rounded-xl">
+<p class="text-on-surface-variant font-label-sm mb-2">Assigned Teachers</p>
+<p class="text-headline-lg font-headline-lg text-primary">38</p>
+<div class="mt-4 flex items-center gap-1 text-on-surface-variant">
+<span class="text-xs font-medium">92% Utilization</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant p-6 rounded-xl col-span-1 md:col-span-2 relative overflow-hidden group">
+<div class="relative z-10">
+<p class="text-on-surface-variant font-label-sm mb-2">Academic Error Debt</p>
+<p class="text-headline-lg font-headline-lg text-error">14,208</p>
+<p class="text-xs text-on-surface-variant mt-2">Unresolved mistakes across all prep sections</p>
+</div>
+<div class="absolute right-0 top-0 h-full w-1/3 bg-error/5 flex items-center justify-center">
+<span class="material-symbols-outlined text-error text-5xl opacity-20" data-icon="warning">warning</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Classroom Management Table -->
+<section class="bg-surface-container-lowest border border-outline-variant rounded-xl overflow-hidden shadow-sm">
+<div class="px-6 py-5 border-b border-outline-variant flex flex-col md:flex-row md:items-center justify-between gap-4">
+<h3 class="font-title-md text-title-md text-primary">Active Classrooms</h3>
+<div class="flex items-center gap-2">
+<div class="relative">
+<input class="pl-10 pr-4 py-2 border border-outline-variant rounded-full text-sm focus:border-primary focus:ring-0 w-64 bg-surface" placeholder="Search sections..." type="text"/>
+<span class="material-symbols-outlined absolute left-3 top-2.5 text-on-surface-variant text-sm" data-icon="search">search</span>
+</div>
+<button class="p-2 border border-outline-variant rounded-full text-on-surface-variant hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined" data-icon="filter_list">filter_list</span>
+</button>
+</div>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead class="bg-surface-container-low">
+<tr>
+<th class="px-6 py-4 font-label-sm text-on-surface-variant">Section</th>
+<th class="px-6 py-4 font-label-sm text-on-surface-variant">Assigned Teacher</th>
+<th class="px-6 py-4 font-label-sm text-on-surface-variant">Student Count</th>
+<th class="px-6 py-4 font-label-sm text-on-surface-variant">Avg. Performance</th>
+<th class="px-6 py-4 font-label-sm text-on-surface-variant text-right">Quick Actions</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-outline-variant">
+<!-- Section Row 1 -->
+<tr class="hover:bg-surface-container transition-colors group">
+<td class="px-6 py-4">
+<div class="flex items-center gap-3">
+<div class="w-2 h-8 bg-primary rounded-full"></div>
+<span class="font-body-md font-bold text-primary">Section 101</span>
+</div>
+</td>
+<td class="px-6 py-4">
+<div class="flex items-center gap-2">
+<img alt="Teacher" class="w-8 h-8 rounded-full" data-alt="A professional headshot of a middle-aged academic instructor with a friendly, authoritative expression. The background is a blurred office or library setting with soft, natural lighting, maintaining a serious yet approachable educational atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9x1BqMBXhCRUQjzxvmosCILMAQLsUEpGTE1f178eBW7t5llAl9kf7WJ8YtevsxV859Rzq1WByKSb0IU5hwy-dCXADVi2uo1tDsR8hqIFsfok-EPgR7YroJuX7xvE34bL6UsOHs-CfhCNXOEYCmCfdqdFGajtsZ2PIulRBEVEYtRTMDmesD-dDYMtj-mfYHDd0Q_OO1PIRyzuNqu1NIIHYNgA_mNho-e41SXieBHcu2s2KsyWaxxuvG0lMtvUJ4Qqc5hc3FINUnniX"/>
+<div>
+<p class="font-label-sm text-primary">Dr. Aras Demir</p>
+<p class="text-[11px] text-on-surface-variant uppercase tracking-wider">Level A1 Core</p>
+</div>
+</div>
+</td>
+<td class="px-6 py-4">
+<div class="flex items-center gap-2">
+<span class="text-body-md text-on-surface">24</span>
+<span class="text-xs text-on-surface-variant">/ 25</span>
+</div>
+</td>
+<td class="px-6 py-4">
+<div class="w-32 h-1.5 bg-surface-container-high rounded-full overflow-hidden">
+<div class="bg-primary-container h-full w-[82%]"></div>
+</div>
+</td>
+<td class="px-6 py-4 text-right">
+<div class="flex justify-end gap-2">
+<button class="p-2 text-on-surface-variant hover:text-primary transition-colors border border-outline-variant rounded-lg" title="Manage Students">
+<span class="material-symbols-outlined text-sm" data-icon="group">group</span>
+</button>
+<button class="p-2 text-on-surface-variant hover:text-primary transition-colors border border-outline-variant rounded-lg" title="Assign Teacher">
+<span class="material-symbols-outlined text-sm" data-icon="person_add">person_add</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Section Row 2 -->
+<tr class="hover:bg-surface-container transition-colors group">
+<td class="px-6 py-4">
+<div class="flex items-center gap-3">
+<div class="w-2 h-8 bg-secondary-container rounded-full"></div>
+<span class="font-body-md font-bold text-primary">Section 102</span>
+</div>
+</td>
+<td class="px-6 py-4">
+<div class="flex items-center gap-2">
+<img alt="Teacher" class="w-8 h-8 rounded-full" data-alt="A professional portrait of a female university teacher, appearing focused and intelligent. She is wearing professional attire against a minimalist academic backdrop with soft, high-key lighting that emphasizes a clean and modern educational environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3GW17IvyktyJI35xknFQu1dM-gitVlRBkrft8NppDeY5NPVqtmBkGSjJnVXE0hZ6c3ezifTXOat0lBDgHCOkZXvQ-k-9wWg4uiabJIc1vZfHBqSK_A9E-QO7JvnGoEB2iGiY5l20gH1UkPG4rLxNkoCQfvnmkNqWaaNki1gVtGw8CW3slSn5IIHKEU4TeSOzmHUrbwj3KRQFNpNbEPNNPAkMgSjSyAPD4K-H2SIhw6SrkjpyI2BVjiyoAnjbG6ggCiwGMjfveXq0z"/>
+<div>
+<p class="font-label-sm text-primary">Prof. Selin Yılmaz</p>
+<p class="text-[11px] text-on-surface-variant uppercase tracking-wider">Level B2 Reading</p>
+</div>
+</div>
+</td>
+<td class="px-6 py-4">
+<div class="flex items-center gap-2">
+<span class="text-body-md text-on-surface">18</span>
+<span class="text-xs text-on-surface-variant">/ 25</span>
+</div>
+</td>
+<td class="px-6 py-4">
+<div class="w-32 h-1.5 bg-surface-container-high rounded-full overflow-hidden">
+<div class="bg-primary-container h-full w-[65%]"></div>
+</div>
+</td>
+<td class="px-6 py-4 text-right">
+<div class="flex justify-end gap-2">
+<button class="p-2 text-on-surface-variant hover:text-primary transition-colors border border-outline-variant rounded-lg" title="Manage Students">
+<span class="material-symbols-outlined text-sm" data-icon="group">group</span>
+</button>
+<button class="p-2 text-on-surface-variant hover:text-primary transition-colors border border-outline-variant rounded-lg" title="Assign Teacher">
+<span class="material-symbols-outlined text-sm" data-icon="person_add">person_add</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Section Row 3 -->
+<tr class="hover:bg-surface-container transition-colors group">
+<td class="px-6 py-4">
+<div class="flex items-center gap-3">
+<div class="w-2 h-8 bg-error/40 rounded-full"></div>
+<span class="font-body-md font-bold text-primary">Section 204</span>
+</div>
+</td>
+<td class="px-6 py-4">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center border border-dashed border-outline text-on-surface-variant">
+<span class="material-symbols-outlined text-xs" data-icon="priority_high">priority_high</span>
+</div>
+<div>
+<p class="font-label-sm text-error">Unassigned</p>
+<p class="text-[11px] text-on-surface-variant uppercase tracking-wider">IELTS Prep</p>
+</div>
+</div>
+</td>
+<td class="px-6 py-4">
+<div class="flex items-center gap-2">
+<span class="text-body-md text-on-surface">22</span>
+<span class="text-xs text-on-surface-variant">/ 25</span>
+</div>
+</td>
+<td class="px-6 py-4">
+<div class="w-32 h-1.5 bg-surface-container-high rounded-full overflow-hidden">
+<div class="bg-error h-full w-[40%]"></div>
+</div>
+</td>
+<td class="px-6 py-4 text-right">
+<div class="flex justify-end gap-2">
+<button class="p-2 text-on-surface-variant hover:text-primary transition-colors border border-outline-variant rounded-lg" title="Manage Students">
+<span class="material-symbols-outlined text-sm" data-icon="group">group</span>
+</button>
+<button class="p-2 bg-primary text-on-primary hover:bg-primary/90 transition-colors rounded-lg" title="Assign Teacher">
+<span class="material-symbols-outlined text-sm" data-icon="person_add">person_add</span>
+</button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="px-6 py-4 bg-surface border-t border-outline-variant flex items-center justify-between">
+<span class="font-label-sm text-on-surface-variant">Showing 1-12 of 42 sections</span>
+<div class="flex gap-1">
+<button class="p-2 border border-outline-variant rounded-lg text-on-surface-variant disabled:opacity-30" disabled=""><span class="material-symbols-outlined text-sm" data-icon="chevron_left">chevron_left</span></button>
+<button class="px-3 py-1 bg-primary text-on-primary rounded-lg text-sm font-bold">1</button>
+<button class="px-3 py-1 border border-outline-variant rounded-lg text-on-surface-variant text-sm hover:bg-surface-container-high">2</button>
+<button class="px-3 py-1 border border-outline-variant rounded-lg text-on-surface-variant text-sm hover:bg-surface-container-high">3</button>
+<button class="p-2 border border-outline-variant rounded-lg text-on-surface-variant"><span class="material-symbols-outlined text-sm" data-icon="chevron_right">chevron_right</span></button>
+</div>
+</div>
+</section>
+<!-- System Overview Cards -->
+<section class="mt-section-gap grid grid-cols-1 lg:grid-cols-3 gap-gutter">
+<!-- Faculty Insights -->
+<div class="bg-surface-container-lowest border border-outline-variant p-6 rounded-xl flex flex-col">
+<div class="flex items-center justify-between mb-6">
+<h4 class="font-title-md text-primary">Faculty Load</h4>
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="monitoring">monitoring</span>
+</div>
+<div class="space-y-4 flex-1">
+<div class="flex justify-between items-center text-sm">
+<span class="text-on-surface-variant">Optimal Loading</span>
+<span class="font-bold text-primary">28 Teachers</span>
+</div>
+<div class="w-full h-2 bg-surface-container-high rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[70%]"></div>
+</div>
+<div class="flex justify-between items-center text-sm">
+<span class="text-on-surface-variant">High Loading</span>
+<span class="font-bold text-secondary">8 Teachers</span>
+</div>
+<div class="w-full h-2 bg-surface-container-high rounded-full overflow-hidden">
+<div class="bg-secondary-container h-full w-[20%]"></div>
+</div>
+<div class="flex justify-between items-center text-sm">
+<span class="text-on-surface-variant">Over Capacity</span>
+<span class="font-bold text-error">2 Teachers</span>
+</div>
+<div class="w-full h-2 bg-surface-container-high rounded-full overflow-hidden">
+<div class="bg-error h-full w-[5%]"></div>
+</div>
+</div>
+<button class="mt-6 w-full py-2 text-primary font-label-sm border border-primary rounded-lg hover:bg-primary/5 transition-colors">Balance Load</button>
+</div>
+<!-- Global Activity Feed -->
+<div class="bg-surface-container-lowest border border-outline-variant p-6 rounded-xl col-span-1 lg:col-span-2">
+<div class="flex items-center justify-between mb-6">
+<h4 class="font-title-md text-primary">Recent System Events</h4>
+<button class="text-primary font-label-sm">View Log</button>
+</div>
+<div class="space-y-4">
+<div class="flex items-start gap-4 p-3 hover:bg-surface transition-colors rounded-lg">
+<div class="w-8 h-8 rounded-full bg-primary-container/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-sm" data-icon="edit">edit</span>
+</div>
+<div class="flex-1">
+<p class="text-sm text-on-surface">Curriculum update pushed to <strong>Section 101, 102</strong></p>
+<p class="text-xs text-on-surface-variant">12 minutes ago • System Admin</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-3 hover:bg-surface transition-colors rounded-lg">
+<div class="w-8 h-8 rounded-full bg-secondary-container/20 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-sm" data-icon="person_add">person_add</span>
+</div>
+<div class="flex-1">
+<p class="text-sm text-on-surface"><strong>Prof. Selin Yılmaz</strong> assigned to Section 102</p>
+<p class="text-xs text-on-surface-variant">2 hours ago • HR Module</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-3 hover:bg-surface transition-colors rounded-lg">
+<div class="w-8 h-8 rounded-full bg-error/10 flex items-center justify-center text-error">
+<span class="material-symbols-outlined text-sm" data-icon="warning">warning</span>
+</div>
+<div class="flex-1">
+<p class="text-sm text-on-surface">Critical Drop-off detected in <strong>Section 204</strong> participation</p>
+<p class="text-xs text-on-surface-variant">5 hours ago • Analytics Bot</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar (Shared Component for Mobile) -->
+<nav class="md:hidden fixed bottom-0 w-full z-50 bg-surface border-t border-outline-variant flex justify-around items-center h-20 px-4 pb-2">
+<div class="flex flex-col items-center justify-center bg-primary-container text-on-primary-container rounded-full px-5 py-1 transition-all duration-200 active:scale-90">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span class="font-label-sm text-label-sm">Dashboard</span>
+</div>
+<div class="flex flex-col items-center justify-center text-on-surface-variant px-5 py-1 hover:text-primary transition-all duration-200 active:scale-90">
+<span class="material-symbols-outlined" data-icon="menu_book">menu_book</span>
+<span class="font-label-sm text-label-sm">Practice</span>
+</div>
+<div class="flex flex-col items-center justify-center text-on-surface-variant px-5 py-1 hover:text-primary transition-all duration-200 active:scale-90">
+<span class="material-symbols-outlined" data-icon="analytics">analytics</span>
+<span class="font-label-sm text-label-sm">Analytics</span>
+</div>
+</nav>
+</body></html>

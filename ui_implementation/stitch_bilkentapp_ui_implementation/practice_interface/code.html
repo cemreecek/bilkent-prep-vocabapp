@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Geist:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-container-high": "#e8e8ed",
+                    "inverse-primary": "#a7c8ff",
+                    "on-secondary-fixed-variant": "#653e00",
+                    "on-tertiary-fixed": "#341100",
+                    "on-surface-variant": "#43474f",
+                    "surface-tint": "#3a5f94",
+                    "outline": "#737780",
+                    "on-secondary": "#ffffff",
+                    "on-primary-fixed": "#001b3c",
+                    "error": "#ba1a1a",
+                    "secondary-fixed": "#ffddb8",
+                    "inverse-on-surface": "#f1f0f5",
+                    "error-container": "#ffdad6",
+                    "on-primary-container": "#799dd6",
+                    "on-tertiary": "#ffffff",
+                    "outline-variant": "#c3c6d1",
+                    "tertiary-fixed": "#ffdbca",
+                    "tertiary-fixed-dim": "#ffb690",
+                    "primary-container": "#003366",
+                    "on-secondary-container": "#684000",
+                    "on-primary-fixed-variant": "#1f477b",
+                    "primary-fixed-dim": "#a7c8ff",
+                    "surface-bright": "#f9f9fe",
+                    "inverse-surface": "#2f3034",
+                    "on-secondary-fixed": "#2a1700",
+                    "tertiary": "#381300",
+                    "secondary": "#855300",
+                    "surface-variant": "#e2e2e7",
+                    "surface-container-highest": "#e2e2e7",
+                    "surface": "#f9f9fe",
+                    "on-error": "#ffffff",
+                    "on-background": "#1a1c1f",
+                    "surface-dim": "#dad9de",
+                    "on-surface": "#1a1c1f",
+                    "on-error-container": "#93000a",
+                    "secondary-fixed-dim": "#ffb95f",
+                    "on-tertiary-container": "#d8885c",
+                    "background": "#f9f9fe",
+                    "secondary-container": "#fea619",
+                    "primary": "#001e40",
+                    "surface-container-lowest": "#ffffff",
+                    "primary-fixed": "#d5e3ff",
+                    "on-primary": "#ffffff",
+                    "tertiary-container": "#592300",
+                    "surface-container": "#eeedf2",
+                    "on-tertiary-fixed-variant": "#723610",
+                    "surface-container-low": "#f4f3f8"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "base": "8px",
+                    "container-padding-mobile": "1rem",
+                    "container-padding-desktop": "2.5rem",
+                    "gutter": "1rem",
+                    "section-gap": "2rem"
+            },
+            "fontFamily": {
+                    "title-md": ["Geist"],
+                    "body-lg": ["Inter"],
+                    "label-sm": ["Geist"],
+                    "headline-lg": ["Geist"],
+                    "headline-lg-mobile": ["Geist"],
+                    "body-md": ["Inter"],
+                    "display-lg": ["Geist"]
+            },
+            "fontSize": {
+                    "title-md": ["20px", {"lineHeight": "1.4", "fontWeight": "600"}],
+                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "label-sm": ["13px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                    "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                    "headline-lg-mobile": ["24px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                    "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        /* Anti-cheating style override */
+        .protected-content {
+            user-select: none !important;
+            -webkit-user-select: none !important;
+            pointer-events: none !important;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background font-body-md min-h-screen flex flex-col">
+<!-- TopAppBar (From JSON - Simplified for Focus) -->
+<header class="w-full top-0 sticky bg-surface dark:bg-surface-dim shadow-sm flex justify-between items-center px-container-padding-mobile md:px-container-padding-desktop h-16 w-full z-50">
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-on-surface-variant cursor-pointer active:scale-95 transition-transform" data-icon="close">close</button>
+<h1 class="text-title-md font-title-md font-bold text-primary">Intermediate Vocab</h1>
+</div>
+<div class="flex items-center gap-base px-4 py-1.5 rounded-full bg-surface-container-high border border-outline-variant">
+<span class="material-symbols-outlined text-secondary scale-90" data-icon="timer">timer</span>
+<span class="font-label-sm text-label-sm text-on-surface tabular-nums">04:20</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary" data-icon="flame" style="font-variation-settings: 'FILL' 1;">flare</span>
+<span class="font-title-md text-title-md font-bold text-primary">12</span>
+</div>
+</header>
+<main class="flex-1 flex flex-col items-center justify-center p-container-padding-mobile md:p-container-padding-desktop max-w-2xl mx-auto w-full">
+<!-- Progress Indicator -->
+<div class="w-full mb-section-gap">
+<div class="flex justify-between items-end mb-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Question 14 of 25</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">56%</span>
+</div>
+<div class="h-2 w-full bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-primary-container w-[56%] rounded-full transition-all duration-500"></div>
+</div>
+</div>
+<!-- Practice Card (Flashcard/Quiz Container) -->
+<div class="w-full bg-surface-container-lowest border border-outline-variant rounded-xl p-8 md:p-12 shadow-sm relative overflow-hidden group">
+<!-- Strict Mode Context -->
+<div class="absolute top-4 right-4 flex items-center gap-1 opacity-40">
+<span class="material-symbols-outlined text-[16px]" data-icon="lock">lock</span>
+<span class="font-label-sm text-[10px] tracking-widest uppercase">Strict Mode</span>
+</div>
+<div class="flex flex-col items-center text-center space-y-6">
+<!-- Instruction -->
+<p class="font-label-sm text-label-sm text-outline uppercase tracking-[0.1em]">Select the most appropriate synonym</p>
+<!-- The Question (Anti-Cheating Protected) -->
+<div class="protected-content py-4 border-l-4 border-primary px-6 bg-surface-container-low/50">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary leading-tight">
+                        The professor's <span class="underline decoration-secondary decoration-4 underline-offset-4">meticulous</span> approach to research ensured that no detail was overlooked.
+                    </h2>
+</div>
+<!-- Interaction Zone: Multiple Choice -->
+<div class="w-full grid grid-cols-1 gap-base mt-8">
+<!-- Correct State Example (Green Ring) -->
+<button class="w-full p-5 rounded-lg border-2 border-primary bg-surface-container-lowest hover:bg-surface-container-low transition-all text-left flex items-center justify-between group/opt ring-4 ring-primary-container/20">
+<span class="font-body-md text-body-md text-on-surface font-semibold">A) Scrupulous</span>
+<span class="material-symbols-outlined text-primary-container" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</button>
+<!-- Default State -->
+<button class="w-full p-5 rounded-lg border border-outline-variant bg-surface-container-lowest hover:border-primary hover:bg-surface-container-low transition-all text-left flex items-center justify-between group/opt">
+<span class="font-body-md text-body-md text-on-surface">B) Haphazard</span>
+<div class="w-6 h-6 rounded-full border-2 border-outline-variant group-hover/opt:border-primary transition-colors"></div>
+</button>
+<!-- Error State Example (Red Pulse / Border) -->
+<button class="w-full p-5 rounded-lg border-2 border-error bg-error-container/10 transition-all text-left flex items-center justify-between group/opt">
+<span class="font-body-md text-body-md text-error font-semibold">C) Superficially</span>
+<span class="material-symbols-outlined text-error" data-icon="cancel" style="font-variation-settings: 'FILL' 1;">cancel</span>
+</button>
+<!-- Default State -->
+<button class="w-full p-5 rounded-lg border border-outline-variant bg-surface-container-lowest hover:border-primary hover:bg-surface-container-low transition-all text-left flex items-center justify-between group/opt">
+<span class="font-body-md text-body-md text-on-surface">D) Negligent</span>
+<div class="w-6 h-6 rounded-full border-2 border-outline-variant group-hover/opt:border-primary transition-colors"></div>
+</button>
+</div>
+</div>
+</div>
+<!-- Bottom Feedback Area (Fast Visual Cue) -->
+<div class="w-full mt-gutter flex items-center justify-between">
+<button class="flex items-center gap-2 text-on-surface-variant font-label-sm text-label-sm hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="flag">flag</span>
+                Report Issue
+            </button>
+<div class="flex gap-base">
+<button class="px-8 py-3 bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm rounded-full active:scale-95 transition-all">
+                    Skip
+                </button>
+<button class="px-10 py-3 bg-primary text-on-primary font-label-sm text-label-sm rounded-full shadow-md active:scale-95 transition-all">
+                    Next Question
+                </button>
+</div>
+</div>
+</main>
+<!-- Error Score Widget (From Style Guidance) -->
+<div class="fixed bottom-24 right-4 md:right-10 z-40 max-w-[200px]">
+<div class="bg-error-container border border-error/20 p-4 rounded-xl shadow-lg flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-[11px] text-on-error-container font-bold uppercase">Error Debt</span>
+<span class="material-symbols-outlined text-error text-lg" data-icon="trending_up">trending_up</span>
+</div>
+<div class="text-display-lg text-error leading-none font-bold">14</div>
+<p class="font-label-sm text-[10px] text-on-error-container/70 leading-tight">Clear these in review mode to maintain your GPA.</p>
+</div>
+</div>
+<!-- BottomNavBar (Only shown if applicable, but suppressed here for "Task-Focused" screen as per Mandate) -->
+<!-- Navigation suppressed to prioritize focus on practice content -->
+<!-- Decorative Image Component (Background or Secondary) -->
+<div class="fixed inset-0 -z-10 opacity-[0.03] pointer-events-none">
+<img class="w-full h-full object-cover" data-alt="Minimalist architectural blueprint of a modern university library with clean geometric lines and structured shadows. The aesthetic is highly professional and academic, using a monochromatic palette of deep navy and crisp whites. Soft, diffuse lighting emphasizes the orderly grid system and vast minimalist open space. The mood is intellectual, focused, and calm." src="https://lh3.googleusercontent.com/aida-public/AB6AXuApaeE6hj1dzc6IXyZfS1FAKwopjQm52lvBx5siI_861gQfHps_ep19ndY1DAeeJwL7zIHGhw5MbfBpV1akJ4N3mHhWgWQickkd293NSQJKQwyjeKlP9IRTks0NZ3LJ_ZOYMFFrfHT2sAFCjJMVQYYZ_jlXJc11zsyc2izsq47YVq-bD9xWJooZtT4pbzdWHbsrXoLfMa99VU0NkRpEDKdW8LMIrV5oNxNirpip21xRuSlE8DjZAHy-8RKTCXZIc5coDYASbMwgUu90"/>
+</div>
+</body></html>

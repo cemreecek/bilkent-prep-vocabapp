@@ -1,0 +1,328 @@
+[
+  {
+    "instruction": "EXERCISE 1: Choose the word that matches the given dictionary definition by choosing A, B, C, D or E:",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "To show or prove something clearly by giving evidence or examples",
+        "options": [
+          { "text": "select", "isCorrect": false },
+          { "text": "implement", "isCorrect": false },
+          { "text": "demonstrate", "isCorrect": true },
+          { "text": "track", "isCorrect": false },
+          { "text": "grant", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The effect or influence that something has on a person, thing, or situation",
+        "options": [
+          { "text": "sacrifice", "isCorrect": false },
+          { "text": "comment", "isCorrect": false },
+          { "text": "input", "isCorrect": false },
+          { "text": "impact", "isCorrect": true },
+          { "text": "obstacle", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "To increase a period of time or to make something longer",
+        "options": [
+          { "text": "influence", "isCorrect": false },
+          { "text": "associate", "isCorrect": false },
+          { "text": "deny", "isCorrect": false },
+          { "text": "spoil", "isCorrect": false },
+          { "text": "extend", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Knowledge or understanding of a particular subject or situation",
+        "options": [
+          { "text": "awareness", "isCorrect": true },
+          { "text": "relevance", "isCorrect": false },
+          { "text": "embarrassment", "isCorrect": false },
+          { "text": "artefact", "isCorrect": false },
+          { "text": "gesture", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "A connection, link, or relationship between two or more people or things; an organized group of people come together for a joint purpose",
+        "options": [
+          { "text": "composition", "isCorrect": false },
+          { "text": "simplification", "isCorrect": false },
+          { "text": "impression", "isCorrect": false },
+          { "text": "association", "isCorrect": true },
+          { "text": "demonstration", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The moral principles or beliefs that govern a person's behavior or choices",
+        "options": [
+          { "text": "ethics", "isCorrect": true },
+          { "text": "literal", "isCorrect": false },
+          { "text": "impressed", "isCorrect": false },
+          { "text": "anxious", "isCorrect": false },
+          { "text": "valid", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Difficulties or barriers that hinder progress or prevent achievement",
+        "options": [
+          { "text": "consequences", "isCorrect": false },
+          { "text": "refugees", "isCorrect": false },
+          { "text": "obstacles", "isCorrect": true },
+          { "text": "aspects", "isCorrect": false },
+          { "text": "components", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Being aware of and responding to one’s surrounding; having knowledge of a subject",
+        "options": [
+          { "text": "adverse", "isCorrect": false },
+          { "text": "sacred", "isCorrect": false },
+          { "text": "offensive", "isCorrect": false },
+          { "text": "intensive", "isCorrect": false },
+          { "text": "conscious", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Unusual and special; the only one of its kind",
+        "options": [
+          { "text": "stain", "isCorrect": false },
+          { "text": "unique", "isCorrect": true },
+          { "text": "terminal", "isCorrect": false },
+          { "text": "diverse", "isCorrect": false },
+          { "text": "flexible", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "EXERCISE 2: Read the following passage about shopping responsibly and choose the most appropriate word from the box below to complete each sentence. Each word should only be used once. There are TWO extra words.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Shopping responsibly means being mindful about the {1} of our consumer choices on the world around us. By having an {2} of moral considerations, we ensure we invest in products and brands that match with our values. One important aspect to consider is the manufacturing process. Understanding the supply chain and ensuring its reliability is crucial in making {3} purchasing decisions. We can understand this by actively researching and checking the sourcing practices, labor conditions, and environmental impact of the products we buy.\n\nWhen it comes to shopping, there may be {4} in finding unique and trustworthy products because of a lack of information about them and also finding unreliable and low-quality versions. However, there are {5} and foundations that promote moral practices and help overcome these challenges. Some items may be manufactured overseas, so it's essential to examine their production methods and ensure they meet {6} standards which refer to a set of principles or guidelines that define morally acceptable behavior or practices.\n\nCustomers have the power to vote with their wallets. By supporting reliable brands, we can {7} our willingness to make a difference. Conducting surveys to gather information about brands and their practices can guide our choices. We should also {8} and review products to share our experiences and encourage responsible shopping.",
+        "options": [
+          [
+            { "text": "rate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "demonstrate", "isCorrect": false, "blankIndex": 1 },
+            { "text": "associations", "isCorrect": false, "blankIndex": 1 },
+            { "text": "obstacles", "isCorrect": false, "blankIndex": 1 },
+            { "text": "impact", "isCorrect": true, "blankIndex": 1 },
+            { "text": "awareness", "isCorrect": false, "blankIndex": 1 },
+            { "text": "adverse", "isCorrect": false, "blankIndex": 1 },
+            { "text": "conscious", "isCorrect": false, "blankIndex": 1 },
+            { "text": "ethical", "isCorrect": false, "blankIndex": 1 },
+            { "text": "progress", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "rate", "isCorrect": false, "blankIndex": 2 },
+            { "text": "demonstrate", "isCorrect": false, "blankIndex": 2 },
+            { "text": "associations", "isCorrect": false, "blankIndex": 2 },
+            { "text": "obstacles", "isCorrect": false, "blankIndex": 2 },
+            { "text": "impact", "isCorrect": false, "blankIndex": 2 },
+            { "text": "awareness", "isCorrect": true, "blankIndex": 2 },
+            { "text": "adverse", "isCorrect": false, "blankIndex": 2 },
+            { "text": "conscious", "isCorrect": false, "blankIndex": 2 },
+            { "text": "ethical", "isCorrect": false, "blankIndex": 2 },
+            { "text": "progress", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "rate", "isCorrect": false, "blankIndex": 3 },
+            { "text": "demonstrate", "isCorrect": false, "blankIndex": 3 },
+            { "text": "associations", "isCorrect": false, "blankIndex": 3 },
+            { "text": "obstacles", "isCorrect": false, "blankIndex": 3 },
+            { "text": "impact", "isCorrect": false, "blankIndex": 3 },
+            { "text": "awareness", "isCorrect": false, "blankIndex": 3 },
+            { "text": "adverse", "isCorrect": false, "blankIndex": 3 },
+            { "text": "conscious", "isCorrect": true, "blankIndex": 3 },
+            { "text": "ethical", "isCorrect": false, "blankIndex": 3 },
+            { "text": "progress", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "rate", "isCorrect": false, "blankIndex": 4 },
+            { "text": "demonstrate", "isCorrect": false, "blankIndex": 4 },
+            { "text": "associations", "isCorrect": false, "blankIndex": 4 },
+            { "text": "obstacles", "isCorrect": true, "blankIndex": 4 },
+            { "text": "impact", "isCorrect": false, "blankIndex": 4 },
+            { "text": "awareness", "isCorrect": false, "blankIndex": 4 },
+            { "text": "adverse", "isCorrect": false, "blankIndex": 4 },
+            { "text": "conscious", "isCorrect": false, "blankIndex": 4 },
+            { "text": "ethical", "isCorrect": false, "blankIndex": 4 },
+            { "text": "progress", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "rate", "isCorrect": false, "blankIndex": 5 },
+            { "text": "demonstrate", "isCorrect": false, "blankIndex": 5 },
+            { "text": "associations", "isCorrect": true, "blankIndex": 5 },
+            { "text": "obstacles", "isCorrect": false, "blankIndex": 5 },
+            { "text": "impact", "isCorrect": false, "blankIndex": 5 },
+            { "text": "awareness", "isCorrect": false, "blankIndex": 5 },
+            { "text": "adverse", "isCorrect": false, "blankIndex": 5 },
+            { "text": "conscious", "isCorrect": false, "blankIndex": 5 },
+            { "text": "ethical", "isCorrect": false, "blankIndex": 5 },
+            { "text": "progress", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "rate", "isCorrect": false, "blankIndex": 6 },
+            { "text": "demonstrate", "isCorrect": false, "blankIndex": 6 },
+            { "text": "associations", "isCorrect": false, "blankIndex": 6 },
+            { "text": "obstacles", "isCorrect": false, "blankIndex": 6 },
+            { "text": "impact", "isCorrect": false, "blankIndex": 6 },
+            { "text": "awareness", "isCorrect": false, "blankIndex": 6 },
+            { "text": "adverse", "isCorrect": false, "blankIndex": 6 },
+            { "text": "conscious", "isCorrect": false, "blankIndex": 6 },
+            { "text": "ethical", "isCorrect": true, "blankIndex": 6 },
+            { "text": "progress", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "rate", "isCorrect": false, "blankIndex": 7 },
+            { "text": "demonstrate", "isCorrect": true, "blankIndex": 7 },
+            { "text": "associations", "isCorrect": false, "blankIndex": 7 },
+            { "text": "obstacles", "isCorrect": false, "blankIndex": 7 },
+            { "text": "impact", "isCorrect": false, "blankIndex": 7 },
+            { "text": "awareness", "isCorrect": false, "blankIndex": 7 },
+            { "text": "adverse", "isCorrect": false, "blankIndex": 7 },
+            { "text": "conscious", "isCorrect": false, "blankIndex": 7 },
+            { "text": "ethical", "isCorrect": false, "blankIndex": 7 },
+            { "text": "progress", "isCorrect": false, "blankIndex": 7 }
+          ],
+          [
+            { "text": "rate", "isCorrect": true, "blankIndex": 8 },
+            { "text": "demonstrate", "isCorrect": false, "blankIndex": 8 },
+            { "text": "associations", "isCorrect": false, "blankIndex": 8 },
+            { "text": "obstacles", "isCorrect": false, "blankIndex": 8 },
+            { "text": "impact", "isCorrect": false, "blankIndex": 8 },
+            { "text": "awareness", "isCorrect": false, "blankIndex": 8 },
+            { "text": "adverse", "isCorrect": false, "blankIndex": 8 },
+            { "text": "conscious", "isCorrect": false, "blankIndex": 8 },
+            { "text": "ethical", "isCorrect": false, "blankIndex": 8 },
+            { "text": "progress", "isCorrect": false, "blankIndex": 8 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "EXERCISE 3: Fill in the blanks in the text(s) by choosing A, B, C, D or E.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Many people today are becoming more aware of their shopping habits. They understand that their choices have a significant {1} on the environment, society, and economy. As a result, some people have started to shop online.\n\nOne reason for this change is the {2} of products available online. You can find almost anything you need on the internet. This variety {3} consumers because they have more choices than ever before and they can even find {4} items online which are unusual and special. Additionally, the high customer satisfaction {5} of online stores reflects consumers’ happiness with the variety and quality of products. Another important factor is the increased {6} about the benefits of online shopping. People now understand that online shopping has helped them overcome {7} like limited store hours and they know that they can save time and effort by shopping online. They also know that many online stores are reliable and safe to use. This trust has grown because companies have {8} that they protect customers’ data. Furthermore, new AI technology which {9} customer needs has improved people’s online shopping experiences. Online stores use this technology to recommend products based on previous purchases, making shopping more personalized. This makes customers feel valued and understood.\n\nIn conclusion, online shopping has become popular because it offers a wide {10} of products, and personalized experiences. The benefits of online shopping have made it a preferred way to shop for many people. As a result, more and more consumers are {11} to online shopping to meet their needs and enjoy the convenience it provides.",
+        "options": [
+          [
+            { "text": "progress", "isCorrect": false, "blankIndex": 1 },
+            { "text": "impression", "isCorrect": false, "blankIndex": 1 },
+            { "text": "appeal", "isCorrect": false, "blankIndex": 1 },
+            { "text": "awareness", "isCorrect": false, "blankIndex": 1 },
+            { "text": "impact", "isCorrect": true, "blankIndex": 1 }
+          ],
+          [
+            { "text": "relevance", "isCorrect": false, "blankIndex": 2 },
+            { "text": "diversity", "isCorrect": true, "blankIndex": 2 },
+            { "text": "flexibility", "isCorrect": false, "blankIndex": 2 },
+            { "text": "temper", "isCorrect": false, "blankIndex": 2 },
+            { "text": "intention", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "delights", "isCorrect": true, "blankIndex": 3 },
+            { "text": "demonstrates", "isCorrect": false, "blankIndex": 3 },
+            { "text": "implements", "isCorrect": false, "blankIndex": 3 },
+            { "text": "consists", "isCorrect": false, "blankIndex": 3 },
+            { "text": "tracks", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "target", "isCorrect": false, "blankIndex": 4 },
+            { "text": "artefact", "isCorrect": false, "blankIndex": 4 },
+            { "text": "offensive", "isCorrect": false, "blankIndex": 4 },
+            { "text": "unique", "isCorrect": true, "blankIndex": 4 },
+            { "text": "previous", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "input", "isCorrect": false, "blankIndex": 5 },
+            { "text": "component", "isCorrect": false, "blankIndex": 5 },
+            { "text": "rate", "isCorrect": true, "blankIndex": 5 },
+            { "text": "state", "isCorrect": false, "blankIndex": 5 },
+            { "text": "humor", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "awareness", "isCorrect": true, "blankIndex": 6 },
+            { "text": "resemblance", "isCorrect": false, "blankIndex": 6 },
+            { "text": "intention", "isCorrect": false, "blankIndex": 6 },
+            { "text": "stain", "isCorrect": false, "blankIndex": 6 },
+            { "text": "quarrel", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "objects", "isCorrect": false, "blankIndex": 7 },
+            { "text": "figures", "isCorrect": false, "blankIndex": 7 },
+            { "text": "phases", "isCorrect": false, "blankIndex": 7 },
+            { "text": "applicants", "isCorrect": false, "blankIndex": 7 },
+            { "text": "obstacles", "isCorrect": true, "blankIndex": 7 }
+          ],
+          [
+            { "text": "enclosed", "isCorrect": false, "blankIndex": 8 },
+            { "text": "implemented", "isCorrect": false, "blankIndex": 8 },
+            { "text": "demonstrated", "isCorrect": true, "blankIndex": 8 },
+            { "text": "abandoned", "isCorrect": false, "blankIndex": 8 },
+            { "text": "interfered", "isCorrect": false, "blankIndex": 8 }
+          ],
+          [
+            { "text": "spoils", "isCorrect": false, "blankIndex": 9 },
+            { "text": "anticipates", "isCorrect": true, "blankIndex": 9 },
+            { "text": "relies", "isCorrect": false, "blankIndex": 9 },
+            { "text": "overcomes", "isCorrect": false, "blankIndex": 9 },
+            { "text": "tends", "isCorrect": false, "blankIndex": 9 }
+          ],
+          [
+            { "text": "range", "isCorrect": true, "blankIndex": 10 },
+            { "text": "hint", "isCorrect": false, "blankIndex": 10 },
+            { "text": "rate", "isCorrect": false, "blankIndex": 10 },
+            { "text": "extension", "isCorrect": false, "blankIndex": 10 },
+            { "text": "aspect", "isCorrect": false, "blankIndex": 10 }
+          ],
+          [
+            { "text": "evaluating", "isCorrect": false, "blankIndex": 11 },
+            { "text": "voting", "isCorrect": false, "blankIndex": 11 },
+            { "text": "perceiving", "isCorrect": false, "blankIndex": 11 },
+            { "text": "switching", "isCorrect": true, "blankIndex": 11 },
+            { "text": "enhancing", "isCorrect": false, "blankIndex": 11 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Write a text of 250 words at CEFR B1+ level. The text should be about ethical shopping habits. Please use the vocabulary words from the previous exercises in your text. Don't use the given words in the same sentence.",
+    "type": "open-ended",
+    "items": [
+      {
+        "questionText": "Write an essay or paragraph of approximately 250 words about ethical shopping habits."
+      }
+    ]
+  },
+  {
+    "instruction": "EXERCISE 4: Fill in the blanks with the correct form of the words in parentheses.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "The speaker gave a clear ______ of ethical shopping practices, showing how to choose products that are environmentally friendly and fairly traded. (DEMONSTRATE)",
+        "correctAnswer": "Demonstration",
+        "options": []
+      },
+      {
+        "questionText": "Her growing ______ of environmental issues led her to adopt more ethical shopping habits. (CONSCIOUS)",
+        "correctAnswer": "Consciousness",
+        "options": []
+      },
+      {
+        "questionText": "She stopped buying from that brand after learning about their ______ labor practices. (ETHICAL)",
+        "correctAnswer": "Unethical",
+        "options": []
+      },
+      {
+        "questionText": "He joined a(n) ______ dedicated to promoting ethical shopping and sustainable living practices. (ASSOCIATE)",
+        "correctAnswer": "Association",
+        "options": []
+      }
+    ]
+  }
+]

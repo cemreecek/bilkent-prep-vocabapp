@@ -1,0 +1,458 @@
+[
+  {
+    "instruction": "PART 1: Fill in the blanks in the texts below by choosing A, B, C, D, or E.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "The agricultural cycle is the annual cycle of activities related to {1} the land to prepare for crops, planting and harvesting them. Agricultural production is {2} by natural resources—soil, water, and energy from the sun. If these resources are {3} wisely, it is possible to produce more crops more effectively.",
+        "options": [
+          [
+            { "text": "A terminating", "isCorrect": false, "blankIndex": 1 },
+            { "text": "B cultivating", "isCorrect": true, "blankIndex": 1 },
+            { "text": "C exceeding", "isCorrect": false, "blankIndex": 1 },
+            { "text": "D invading", "isCorrect": false, "blankIndex": 1 },
+            { "text": "E emerging", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "A boosted", "isCorrect": true, "blankIndex": 2 },
+            { "text": "B monitored", "isCorrect": false, "blankIndex": 2 },
+            { "text": "C dominated", "isCorrect": false, "blankIndex": 2 },
+            { "text": "D instructed", "isCorrect": false, "blankIndex": 2 },
+            { "text": "E seized", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "A stretched", "isCorrect": false, "blankIndex": 3 },
+            { "text": "B recalled", "isCorrect": false, "blankIndex": 3 },
+            { "text": "C suspended", "isCorrect": false, "blankIndex": 3 },
+            { "text": "D utilized", "isCorrect": true, "blankIndex": 3 },
+            { "text": "E dismissed", "isCorrect": false, "blankIndex": 3 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Serena Williams became a professional tennis player at the age of 14. She has had a {4} career in tennis, winning 23 Grand Slam titles. What makes her so good at tennis is the fact that for more than two decades she has {5} trained. She has maintained a strict training schedule and followed a healthy diet to help her win these awards.",
+        "options": [
+          [
+            { "text": "A motionless", "isCorrect": false, "blankIndex": 4 },
+            { "text": "B idle", "isCorrect": false, "blankIndex": 4 },
+            { "text": "C splendid", "isCorrect": true, "blankIndex": 4 },
+            { "text": "D scarce", "isCorrect": false, "blankIndex": 4 },
+            { "text": "E modest", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "A consistently", "isCorrect": true, "blankIndex": 5 },
+            { "text": "B primarily", "isCorrect": false, "blankIndex": 5 },
+            { "text": "C roughly", "isCorrect": false, "blankIndex": 5 },
+            { "text": "D briefly", "isCorrect": false, "blankIndex": 5 },
+            { "text": "E presumably", "isCorrect": false, "blankIndex": 5 }
+          ]
+        ]
+      },
+      {
+        "questionText": "Students studying for high stake exams may {6} symptoms of mental illness due to extreme exam anxiety. The anxiety they suffer from prevents them from {7} in fun activities which, in fact, could provide them with some {8} from this unpleasant condition.",
+        "options": [
+          [
+            { "text": "A persist", "isCorrect": false, "blankIndex": 6 },
+            { "text": "B exhibit", "isCorrect": true, "blankIndex": 6 },
+            { "text": "C pretend", "isCorrect": false, "blankIndex": 6 },
+            { "text": "D appear", "isCorrect": false, "blankIndex": 6 },
+            { "text": "E exceed", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "A including", "isCorrect": false, "blankIndex": 7 },
+            { "text": "B facilitating", "isCorrect": false, "blankIndex": 7 },
+            { "text": "C engaging", "isCorrect": true, "blankIndex": 7 },
+            { "text": "D undertaking", "isCorrect": false, "blankIndex": 7 },
+            { "text": "E staring", "isCorrect": false, "blankIndex": 7 }
+          ],
+          [
+            { "text": "A relief", "isCorrect": true, "blankIndex": 8 },
+            { "text": "B limitation", "isCorrect": false, "blankIndex": 8 },
+            { "text": "C shelter", "isCorrect": false, "blankIndex": 8 },
+            { "text": "D virtue", "isCorrect": false, "blankIndex": 8 },
+            { "text": "E hindrance", "isCorrect": false, "blankIndex": 8 }
+          ]
+        ]
+      },
+      {
+        "questionText": "I just started studying in the department of Economics. I have always wanted to major in Economics because I {9} great pleasure from dealing with financial matters. The course I am taking now is {10} of ten lectures and five seminars on the theory of economics. I believe the lectures and seminars will give us a solid {11} in the basics of economics from which the theories have been developed.",
+        "options": [
+          [
+            { "text": "A transmit", "isCorrect": false, "blankIndex": 9 },
+            { "text": "B dispose", "isCorrect": false, "blankIndex": 9 },
+            { "text": "C derive", "isCorrect": true, "blankIndex": 9 },
+            { "text": "D tolerate", "isCorrect": false, "blankIndex": 9 },
+            { "text": "E base", "isCorrect": false, "blankIndex": 9 }
+          ],
+          [
+            { "text": "A consisted", "isCorrect": false, "blankIndex": 10 },
+            { "text": "B contained", "isCorrect": false, "blankIndex": 10 },
+            { "text": "C inspected", "isCorrect": false, "blankIndex": 10 },
+            { "text": "D devoted", "isCorrect": false, "blankIndex": 10 },
+            { "text": "E comprised", "isCorrect": true, "blankIndex": 10 }
+          ],
+          [
+            { "text": "A nerve", "isCorrect": false, "blankIndex": 11 },
+            { "text": "B expense", "isCorrect": false, "blankIndex": 11 },
+            { "text": "C foundation", "isCorrect": true, "blankIndex": 11 },
+            { "text": "D projection", "isCorrect": false, "blankIndex": 11 },
+            { "text": "E incident", "isCorrect": false, "blankIndex": 11 }
+          ]
+        ]
+      },
+      {
+        "questionText": "We use words to categorize children but usually we do this unfairly. The long-term consequences of {12} a child smart or slow, for example, are profound. In a study, Robert Rosenthal and Lenore Jacobson told teachers at an elementary school that some of their students had scored in the top 20% of a test designed to {13} the students who were expected to enter a period of intense intellectual development over the following year from the others. The students were selected {14}, and they performed no differently from their unselected peers on an academic test.\n\nA year after convincing the teachers that some of their students were destined to excel, Rosenthal and Jacobson returned to the school and {15} the same test. The results were astonishing among the younger children: the \"bloomers,\" who were no different from their peers a year ago, were now vastly {16} to their unselected peers by 10-15 IQ points. The teachers {17} the intellectual development of those students identified as the ‘bloomers,’ {18} creating a system in which the students who were expected to bloom actually outperformed their peers, simply because they were expected to do so.",
+        "options": [
+          [
+            { "text": "A deceiving", "isCorrect": false, "blankIndex": 12 },
+            { "text": "B labeling", "isCorrect": true, "blankIndex": 12 },
+            { "text": "C bearing", "isCorrect": false, "blankIndex": 12 },
+            { "text": "D rescuing", "isCorrect": false, "blankIndex": 12 },
+            { "text": "E bribing", "isCorrect": false, "blankIndex": 12 }
+          ],
+          [
+            { "text": "A differentiate", "isCorrect": true, "blankIndex": 13 },
+            { "text": "B measure", "isCorrect": false, "blankIndex": 13 },
+            { "text": "C furnish", "isCorrect": false, "blankIndex": 13 },
+            { "text": "D reassure", "isCorrect": false, "blankIndex": 13 },
+            { "text": "E differ", "isCorrect": false, "blankIndex": 13 }
+          ],
+          [
+            { "text": "A slightly", "isCorrect": false, "blankIndex": 14 },
+            { "text": "B purely", "isCorrect": false, "blankIndex": 14 },
+            { "text": "C loyally", "isCorrect": false, "blankIndex": 14 },
+            { "text": "D virtually", "isCorrect": false, "blankIndex": 14 },
+            { "text": "E randomly", "isCorrect": true, "blankIndex": 14 }
+          ],
+          [
+            { "text": "A maximized", "isCorrect": false, "blankIndex": 15 },
+            { "text": "B recalled", "isCorrect": false, "blankIndex": 15 },
+            { "text": "C administered", "isCorrect": true, "blankIndex": 15 },
+            { "text": "D addressed", "isCorrect": false, "blankIndex": 15 },
+            { "text": "E entitled", "isCorrect": false, "blankIndex": 15 }
+          ],
+          [
+            { "text": "A superior", "isCorrect": true, "blankIndex": 16 },
+            { "text": "B sincere", "isCorrect": false, "blankIndex": 16 },
+            { "text": "C enemy", "isCorrect": false, "blankIndex": 16 },
+            { "text": "D fundamental", "isCorrect": false, "blankIndex": 16 },
+            { "text": "E precious", "isCorrect": false, "blankIndex": 16 }
+          ],
+          [
+            { "text": "A exceeded", "isCorrect": false, "blankIndex": 17 },
+            { "text": "B dared", "isCorrect": false, "blankIndex": 17 },
+            { "text": "C scared", "isCorrect": false, "blankIndex": 17 },
+            { "text": "D fostered", "isCorrect": true, "blankIndex": 17 },
+            { "text": "E laid", "isCorrect": false, "blankIndex": 17 }
+          ],
+          [
+            { "text": "A therefore", "isCorrect": false, "blankIndex": 18 },
+            { "text": "B presumably", "isCorrect": false, "blankIndex": 18 },
+            { "text": "C thereby", "isCorrect": true, "blankIndex": 18 },
+            { "text": "D hence", "isCorrect": false, "blankIndex": 18 },
+            { "text": "E namely", "isCorrect": false, "blankIndex": 18 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 2: Fill in the blanks with the most appropriate words from the box. There are MORE words than you need. Do NOT change the forms.\nWord Bank: projections, terminate, vague, cultivate, norm, abstract, bear, revolve, derived, expense, scope, rough, executive, foundation",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "1. The word ‘politics’ is ____________ from a Greek word meaning ‘city’.",
+        "correctAnswer": "Derived",
+        "options": []
+      },
+      {
+        "questionText": "2. An employer is entitled to ____________ an employee’s contract when the employee has committed a serious breach of the agreement.",
+        "correctAnswer": "Terminate",
+        "options": []
+      },
+      {
+        "questionText": "3. In order to ____________ a professional image for yourself, be a positive communicator. What you say and how you say it are important factors in image building. Remember to be a good listener.",
+        "correctAnswer": "Cultivate",
+        "options": []
+      },
+      {
+        "questionText": "4. The ____________ funded a dozen new career centers in high schools, where students could come for career guidance and counseling.",
+        "correctAnswer": "foundation",
+        "options": []
+      },
+      {
+        "questionText": "5. I am having the windows, doors and frames painted next month, so that is a/an ____________ that was unexpected.",
+        "correctAnswer": "expense",
+        "options": []
+      },
+      {
+        "questionText": "6. Julia was ____________ about where she had been and what she had been doing. Obviously, she didn’t want anybody to know her whereabouts at the time of the incident.",
+        "correctAnswer": "vague",
+        "options": []
+      },
+      {
+        "questionText": "7. Very few projects are ever completed in line with original plans. Due to unforeseen changes such as the goals, deadlines, tasks, etc., project managers may have to expand or narrow the ____________ of their projects.",
+        "correctAnswer": "scope",
+        "options": []
+      },
+      {
+        "questionText": "8. He did not want to devote more time to his business at the ____________ of his family, so he closed it down. He wanted to spend more time with his wife and kids.",
+        "correctAnswer": "expense",
+        "options": []
+      },
+      {
+        "questionText": "9. Please ____________ with me while I find my notes. It shouldn’t take long. In the meantime, if you want, you can go over the handouts I have just given.",
+        "correctAnswer": "bear",
+        "options": []
+      },
+      {
+        "questionText": "10. The demographic ____________ outlined earlier indicate that a large proportion of future homeowners will consist of single middle-aged and older people.",
+        "correctAnswer": "projections",
+        "options": []
+      },
+      {
+        "questionText": "11. Some of these theories are so ____________ that they don’t seem to relate to our everyday work. They don’t provide actual, practical solutions to everyday issues at all.",
+        "correctAnswer": "abstract",
+        "options": []
+      },
+      {
+        "questionText": "12. Based on the initial data, we can provide a ____________ estimate of the project's cost, but a more detailed analysis will be needed for accuracy.",
+        "correctAnswer": "rough",
+        "options": []
+      },
+      {
+        "questionText": "13. Her studies ____________ around the question of whether genetically modified foods are safe.",
+        "correctAnswer": "revolve",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "PART 3: Fill in the gaps with the correct word. BE CAREFUL about verb forms (Ving, V1, etc.).",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "[persist / insist] 1. She is 85 now, but she ____________on doing all her own housework.",
+        "correctAnswer": "insists",
+        "options": []
+      },
+      {
+        "questionText": "[persist / insist] 2. If the pain ____________, consult a doctor.",
+        "correctAnswer": "persists",
+        "options": []
+      },
+      {
+        "questionText": "[persist / insist] 3. They ____________ that all swear words be deleted from the article.",
+        "correctAnswer": "insisted/insist",
+        "options": []
+      },
+      {
+        "questionText": "[persist / insist] 4. If he ____________ in asking awkward questions, then send him to the boss.",
+        "correctAnswer": "persists",
+        "options": []
+      },
+      {
+        "questionText": "[rate / ratio] 5. Over the last year, the ____________ of inflation has gone up to almost 7 percent.",
+        "correctAnswer": "rate",
+        "options": []
+      },
+      {
+        "questionText": "[rate / ratio] 6. The school is trying to improve its pupil-teacher ____________ (= the number of teachers compared with the number of students).",
+        "correctAnswer": "ratio",
+        "options": []
+      },
+      {
+        "questionText": "[rate / ratio] 7. The ____________ of applications to available places currently stands at 100:1.",
+        "correctAnswer": "ratio",
+        "options": []
+      },
+      {
+        "questionText": "[rate / ratio] 8. The city's most shocking statistic is its high infant mortality ____________.",
+        "correctAnswer": "rate",
+        "options": []
+      },
+      {
+        "questionText": "[differentiate / different / difference / differ] 9. His accent is ____________ now from before he went to Australia.",
+        "correctAnswer": "different",
+        "options": []
+      },
+      {
+        "questionText": "[differentiate / different / difference / differ] 10. There is a big ____________ between knowing that something is true and being able to prove it.",
+        "correctAnswer": "difference",
+        "options": []
+      },
+      {
+        "questionText": "[differentiate / different / difference / differ] 11. If a mother’s decision to allow her kids to stay up past their bedtimes _______________ from her husband’s decision, this will send mixed messages to the kids.",
+        "correctAnswer": "differs",
+        "options": []
+      },
+      {
+        "questionText": "[differentiate / different / difference / differ] 12. Customers may wonder what ____________ one type of beer from another.",
+        "correctAnswer": "differentiates",
+        "options": []
+      },
+      {
+        "questionText": "[differentiate / different / difference / differ] 13. His views ____________ considerably from those of his parents.",
+        "correctAnswer": "differ",
+        "options": []
+      },
+      {
+        "questionText": "[differentiate / different / difference / differ] 14. Emily is entirely ____________ from her sister.",
+        "correctAnswer": "different",
+        "options": []
+      },
+      {
+        "questionText": "[compose / consist / comprise / constitute] 15. The course is ____________ of a class book, a practice book, and a CD.",
+        "correctAnswer": "comprised/composed",
+        "options": []
+      },
+      {
+        "questionText": "[compose / consist / comprise / constitute] 16. Her responsibilities ____________ of answering the phone and greeting visitors.",
+        "correctAnswer": "consist",
+        "options": []
+      },
+      {
+        "questionText": "[compose / consist / comprise / constitute] 17. Those under 18-years-old _____________ nearly 25 percent of the town's population.",
+        "correctAnswer": "comprise/constitute",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "PART 4: Choose the correct word form by circling A, B, C, or D.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "1. Kevin and Tina found out that they had been ruled out as possible donors for their daughter. This made the strain of her illness almost _________________ for them.",
+        "options": [
+          { "text": "A bearable", "isCorrect": false },
+          { "text": "B unbearable", "isCorrect": true },
+          { "text": "C bear", "isCorrect": false },
+          { "text": "D unbearably", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "2. She studies the overt and subtle ways in which males attempt to maintain _________________ in the workplace.",
+        "options": [
+          { "text": "A dominate", "isCorrect": false },
+          { "text": "B dominance", "isCorrect": true },
+          { "text": "C dominantly", "isCorrect": false },
+          { "text": "D dominant", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "3. Banks should _________________ interest-rate decisions on detailed financial analyses.",
+        "options": [
+          { "text": "A basis", "isCorrect": false },
+          { "text": "B basically", "isCorrect": false },
+          { "text": "C base", "isCorrect": true },
+          { "text": "D basic", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "4. Half an hour's _________________ from an experienced horse-rider is much better than anything you can learn from a book.",
+        "options": [
+          { "text": "A instructor", "isCorrect": false },
+          { "text": "B instruct", "isCorrect": false },
+          { "text": "C instructional", "isCorrect": false },
+          { "text": "D instruction", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "5. Some fathers _________________ try to become equal partners, sharing the home workload and parental responsibilities with their spouse.",
+        "options": [
+          { "text": "A sincerely", "isCorrect": true },
+          { "text": "B insincere", "isCorrect": false },
+          { "text": "C sincere", "isCorrect": false },
+          { "text": "D sincerity", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "6. The team's _________________ on defense has lost them three games.",
+        "options": [
+          { "text": "A consistency", "isCorrect": false },
+          { "text": "B consistently", "isCorrect": false },
+          { "text": "C inconsistency", "isCorrect": true },
+          { "text": "D inconsistent", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "7. The sea here is very _________________– it looks calm but is in fact very dangerous.",
+        "options": [
+          { "text": "A deception", "isCorrect": false },
+          { "text": "B deceptive", "isCorrect": true },
+          { "text": "C deceive", "isCorrect": false },
+          { "text": "D deceit", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "8. The restaurant allows greedy guests to consume a _________________ amount of food from the all-you-can-eat buffet.",
+        "options": [
+          { "text": "A limitation", "isCorrect": false },
+          { "text": "B limiting", "isCorrect": false },
+          { "text": "C limitless", "isCorrect": true },
+          { "text": "D limit", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "9. They decided to close the museum _________________ because it cost too much to run.",
+        "options": [
+          { "text": "A pure", "isCorrect": false },
+          { "text": "B impure", "isCorrect": false },
+          { "text": "C purity", "isCorrect": false },
+          { "text": "D purely", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "10. He has a _________________ style of writing, using four very difficult words where one simple one would do.",
+        "options": [
+          { "text": "A pretentious", "isCorrect": true },
+          { "text": "B pretend", "isCorrect": false },
+          { "text": "C pretentiously", "isCorrect": false },
+          { "text": "D pretention", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 5: Fill in the gaps below with the correct linking word.\nWord Bank: namely, nonetheless, thereby, meanwhile, meantime, otherwise, hence",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "1. The school will have to be rebuilt. In the ____________, teachers are using temporary classrooms.",
+        "correctAnswer": "meantime",
+        "options": []
+      },
+      {
+        "questionText": "2. Diets that are high in saturated fat block our arteries, ____________ reducing the blood flow to our hearts and brains.",
+        "correctAnswer": "thereby",
+        "options": []
+      },
+      {
+        "questionText": "3. Trina closed her eyes and counted to twenty; ____________, the other children ran to hide.",
+        "correctAnswer": "meanwhile",
+        "options": []
+      },
+      {
+        "questionText": "4. We are a one-income family now. ____________, we will not be taking two vacation trips this year.",
+        "correctAnswer": "hence",
+        "options": []
+      },
+      {
+        "questionText": "5. He was jailed for 30 months for possession of class A drugs, ____________ heroin and cocaine.",
+        "correctAnswer": "namely",
+        "options": []
+      },
+      {
+        "questionText": "6. I am glad you told me about the show being cancelled. ____________, I would have travelled all the way to Glasgow for nothing.",
+        "correctAnswer": "otherwise",
+        "options": []
+      },
+      {
+        "questionText": "7. It was pouring outside; ____________, he still went for his evening run.",
+        "correctAnswer": "nonetheless",
+        "options": []
+      }
+    ]
+  }
+]

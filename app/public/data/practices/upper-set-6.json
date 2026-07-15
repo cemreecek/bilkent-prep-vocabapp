@@ -1,0 +1,439 @@
+[
+  {
+    "instruction": "Fill in the blanks with the correct word from the box below. Each word is used once. Word bank: Fund, Extremely, Fatigue, Inadequate, Balanced, Occurrence, Revolution, Evidence, Wound, Guilt, Construction, Approximately, Drought, Remedy, Dilemma, Congratulations.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "After the marathon, the runners experienced extreme ________________ due to the long distance they had to cover.",
+        "correctAnswer": "fatigue",
+        "options": []
+      },
+      {
+        "questionText": "The __________________ of the building took over a year to complete.",
+        "correctAnswer": "construction",
+        "options": []
+      },
+      {
+        "questionText": "Farmers are worried about the ___________________ affecting their crops this season.",
+        "correctAnswer": "drought",
+        "options": []
+      },
+      {
+        "questionText": "A_________________ diet is important for maintaining good health, involving the right proportions of different food groups.",
+        "correctAnswer": "balanced",
+        "options": []
+      },
+      {
+        "questionText": "The sudden ___________________ of the accident left everyone in shock.",
+        "correctAnswer": "occurrence",
+        "options": []
+      },
+      {
+        "questionText": "___________________ to you on your promotion! You've worked really hard for it.",
+        "correctAnswer": "congratulations",
+        "options": []
+      },
+      {
+        "questionText": "The ancient artifact provided __________________ of the civilization’s existence.",
+        "correctAnswer": "evidence",
+        "options": []
+      },
+      {
+        "questionText": "The doctor treated the soldier's _________________ promptly to prevent infection.",
+        "correctAnswer": "wound",
+        "options": []
+      },
+      {
+        "questionText": "His ________________ led him to confess his mistake to the manager.",
+        "correctAnswer": "guilt",
+        "options": []
+      },
+      {
+        "questionText": "They had an ethical ___________________ about whether to use the new technology.",
+        "correctAnswer": "dilemma",
+        "options": []
+      },
+      {
+        "questionText": "Drinking a/an _________________ amount of water can lead to dehydration and other health issues.",
+        "correctAnswer": "inadequate",
+        "options": []
+      },
+      {
+        "questionText": "The government allocated a special __________________ to support small businesses.",
+        "correctAnswer": "fund",
+        "options": []
+      },
+      {
+        "questionText": "He was ________________ busy with the new project and couldn't attend the meeting.",
+        "correctAnswer": "extremely",
+        "options": []
+      },
+      {
+        "questionText": "It took her __________________ an hour to reach the destination.",
+        "correctAnswer": "approximately",
+        "options": []
+      },
+      {
+        "questionText": "Some say that the best home ________________ for a cold is lemon tea with ginger and honey.",
+        "correctAnswer": "remedy",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Choose the best answer for the following questions:",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "1. What part of speech is the word \"unsteady\"?",
+        "options": [
+          { "text": "a) adjective", "isCorrect": true },
+          { "text": "b) verb", "isCorrect": false },
+          { "text": "c) noun", "isCorrect": false },
+          { "text": "d) adverb", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "2. Which word means \"to treat or regard someone/something with contempt or disrespect\"?",
+        "options": [
+          { "text": "a) degrade", "isCorrect": true },
+          { "text": "b) faith", "isCorrect": false },
+          { "text": "c) judge", "isCorrect": false },
+          { "text": "d) insure", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "3. What does the word \"faith\" primarily refer to?",
+        "options": [
+          { "text": "a) A type of government", "isCorrect": false },
+          { "text": "b) Complete trust or confidence", "isCorrect": true },
+          { "text": "c) An act of celebration", "isCorrect": false },
+          { "text": "d) A legal term", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "4. Which word means \"a system of government by the whole population, typically through elected representatives\"?",
+        "options": [
+          { "text": "a) judge", "isCorrect": false },
+          { "text": "b) democracy", "isCorrect": true },
+          { "text": "c) insure", "isCorrect": false },
+          { "text": "d) rough", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "5. What is the antonym of \"rough\"?",
+        "options": [
+          { "text": "a) smooth", "isCorrect": true },
+          { "text": "b) unsteady", "isCorrect": false },
+          { "text": "c) celebrate", "isCorrect": false },
+          { "text": "d) degrade", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "6. Which word means \"to protect against loss or damage\"?",
+        "options": [
+          { "text": "a) insure", "isCorrect": true },
+          { "text": "b) client", "isCorrect": false },
+          { "text": "c) confess", "isCorrect": false },
+          { "text": "d) judge", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "7. What does the word \"furthermore\" indicate?",
+        "options": [
+          { "text": "a) addition of information", "isCorrect": true },
+          { "text": "b) conclusion of an argument", "isCorrect": false },
+          { "text": "c) exception to a rule", "isCorrect": false },
+          { "text": "d) contradiction of a statement", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "8. Which word means \"to admit or state that one has committed a crime or done something wrong\"?",
+        "options": [
+          { "text": "a) insure", "isCorrect": false },
+          { "text": "b) confess", "isCorrect": true },
+          { "text": "c) celebrate", "isCorrect": false },
+          { "text": "d) democracy", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "9. What does the word \"revolution\" primarily refer to?",
+        "options": [
+          { "text": "a) A gradual decline", "isCorrect": false },
+          { "text": "b) A fundamental or drastic change", "isCorrect": true },
+          { "text": "c) A structured argument", "isCorrect": false },
+          { "text": "d) A subjective viewpoint", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "10. What is the synonym of \"decay\"?",
+        "options": [
+          { "text": "a) growth", "isCorrect": false },
+          { "text": "b) improvement", "isCorrect": false },
+          { "text": "c) deterioration", "isCorrect": true },
+          { "text": "d) stability", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "11. Which word means \"a series of planned activities intended to achieve a particular social, commercial, or political aim\"?",
+        "options": [
+          { "text": "a) campaign", "isCorrect": true },
+          { "text": "b) debate", "isCorrect": false },
+          { "text": "c) revolution", "isCorrect": false },
+          { "text": "d) subjective", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "12. What is the opposite of \"subjective\"?",
+        "options": [
+          { "text": "a) objective", "isCorrect": true },
+          { "text": "b) biased", "isCorrect": false },
+          { "text": "c) emotional", "isCorrect": false },
+          { "text": "d) personal", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "13. The manager decided to ___________ the employee for his excellent performance.",
+        "options": [
+          { "text": "a) allocate", "isCorrect": false },
+          { "text": "b) attain", "isCorrect": false },
+          { "text": "c) respond", "isCorrect": false },
+          { "text": "d) promote", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "14. She studied very hard for the exam. ___________, she got the highest score in her class.",
+        "options": [
+          { "text": "a) In addition", "isCorrect": false },
+          { "text": "b) As a result", "isCorrect": true },
+          { "text": "c) On the contrary", "isCorrect": false },
+          { "text": "d) However", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "15. The heavy rain ___________ flooding in the downtown area.",
+        "options": [
+          { "text": "a) results from", "isCorrect": false },
+          { "text": "b) decreased", "isCorrect": false },
+          { "text": "c) promoted", "isCorrect": false },
+          { "text": "d) resulted in", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the sentences. Spelling mistakes will be penalized.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "This important discovery has _______________ our understanding of the universe. (REVOLUTION)",
+        "correctAnswer": "revolutionized",
+        "options": []
+      },
+      {
+        "questionText": "His wages were pitifully _______________ for the needs of his growing family. (ADEQUATE)",
+        "correctAnswer": "inadequate",
+        "options": []
+      },
+      {
+        "questionText": "You may feel a little_______________ for a few days after the operation. (COMFORT)",
+        "correctAnswer": "discomfort",
+        "options": []
+      },
+      {
+        "questionText": "I would have no _______________ in recommending Philip for the position. (HESITATE)",
+        "correctAnswer": "hesitation",
+        "options": []
+      },
+      {
+        "questionText": "For a few moments he was pale and _______________ but his colour gradually returned. (STEADY)",
+        "correctAnswer": "unsteady",
+        "options": []
+      },
+      {
+        "questionText": "He _______________ to sleeping through most of the movie. (CONFESSION)",
+        "correctAnswer": "confessed",
+        "options": []
+      },
+      {
+        "questionText": "Work out the exact design before you start _______________. (CONSTRUCT)",
+        "correctAnswer": "construction",
+        "options": []
+      },
+      {
+        "questionText": "_______________ growth was fastest in Japan. (ECONOMY)",
+        "correctAnswer": "Economic",
+        "options": []
+      },
+      {
+        "questionText": "Burnett has campaigned against _______________ to animals for more than 20 years. (CRUEL)",
+        "correctAnswer": "cruelty",
+        "options": []
+      },
+      {
+        "questionText": "As with all new ideas it was met with _______________. (RESISTANT)",
+        "correctAnswer": "resistance",
+        "options": []
+      },
+      {
+        "questionText": "When's the food coming? I'm _______________! (STARVATION)",
+        "correctAnswer": "starving",
+        "options": []
+      },
+      {
+        "questionText": "We only see each other very _______________. (OCCASIONAL)",
+        "correctAnswer": "occasionally",
+        "options": []
+      },
+      {
+        "questionText": "Indeed, the Prime Minister sent a message of _______________ to President Christiani when the peace agreement was reached. (CONGRATULATE)",
+        "correctAnswer": "congratulation",
+        "options": []
+      },
+      {
+        "questionText": "Official _______________ has been granted for more building near the river. (PERMIT)",
+        "correctAnswer": "permission",
+        "options": []
+      },
+      {
+        "questionText": "There have been major changes in the constitution, but the system remains _______________. (DEMOCRACY)",
+        "correctAnswer": "democratic",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Check the collocations. Identify the missing headword for each set of collocations.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "Collocations: \nchase somebody, chase something\nchase after somebody, chase after something\nlong, short, high-speed, car chase",
+        "correctAnswer": "CHASE",
+        "options": []
+      },
+      {
+        "questionText": "Collocations: \npurpose/aim/objective, reason, concern, source, responsibility, focus",
+        "correctAnswer": "PRIMARY",
+        "options": []
+      },
+      {
+        "questionText": "Collocations: \neffective, good, ancient, home, herbal, natural remedy\nprescribe (sb) a remedy, prepare a remedy\nuse a remedy, need a remedy, try a remedy, give sb a remedy, find a remedy\nremedy for",
+        "correctAnswer": "REMEDY",
+        "options": []
+      },
+      {
+        "questionText": "Collocations: \nconfess freely, confess openly\nconfess to something, make a confession, sign a confession, extract/get/obtain a confession\na, an, the, detailed, full, honest, false, signed, written confession",
+        "correctAnswer": "CONFESS / CONFESSION",
+        "options": []
+      },
+      {
+        "questionText": "Collocations: \nbig, difficult, serious, terrible, ethical, moral dilemma\nsolve a dilemma, confront/face/have a dilemma, create/pose a dilemma, be caught in a dilemma, be faced with a dilemma\ndilemma arise, dilemma occur\ndilemma in, dilemma about, dilemma over something",
+        "correctAnswer": "DILEMMA",
+        "options": []
+      },
+      {
+        "questionText": "Collocations: \nhave/possess wealth, accumulate/acquire wealth, inherit wealth, lose wealth\nconsiderable/enormous wealth, growing/increasing wealth, economic wealth, financial wealth, natural wealth",
+        "correctAnswer": "WEALTH",
+        "options": []
+      },
+      {
+        "questionText": "Collocations: \nhave/hold a debate, participate in a debate, speak in a debate, take part in a debate\na brief debate, a long debate, a fierce debate, a heated debate\ndebate about something, debate on something, debate over something\ndebate fiercely, debate hotly",
+        "correctAnswer": "DEBATE",
+        "options": []
+      },
+      {
+        "questionText": "Collocations: \na remarkable feat, a remarkable achievement/accomplishment, a remarkable coincidence, a remarkable power, a remarkable career, a remarkable man/woman",
+        "correctAnswer": "REMARKABLE",
+        "options": []
+      },
+      {
+        "questionText": "Collocations: \nultimate goal/aim/objective/target, ultimate outcome/decision, ultimate responsibility",
+        "correctAnswer": "ULTIMATE",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Please fill in the gaps in the following text about ‘social change’ with the appropriate vocabulary from the box below. There are more words than you need. Word bank: Resistance, Starve, Withdraw, Decay, Grateful, Discomfort, Gear, Faith, Campaign, Ultimate, Hesitation, Evolution.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "In the early stages of any major social change, there is often a great deal of {1} from those who are comfortable with the status quo. People may feel a sense of hesitation about the new direction, fearing the {2} that comes with leaving behind the familiar. This feeling is not without reason; change can be unsettling and bring about a sense of uneasiness. However, for a society to progress, it must embrace the {3} of new ideas and practices. Those who {4} from participating in this change may find themselves feeling left behind as the world moves forward.  Successful change requires a well-organized and thoughtful {5}, where everyone is working together towards the {6} goal. Without this collective effort, the movement may fall apart. Thus, it's important to put the right scaffolding in place to support and sustain the change.",
+        "options": [
+          [ { "text": "Resistance", "isCorrect": true, "blankIndex": 1 } ],
+          [ { "text": "Discomfort", "isCorrect": true, "blankIndex": 2 } ],
+          [ { "text": "Evolution", "isCorrect": true, "blankIndex": 3 } ],
+          [ { "text": "Withdraw", "isCorrect": true, "blankIndex": 4 } ],
+          [ { "text": "Campaign", "isCorrect": true, "blankIndex": 5 } ],
+          [ { "text": "Ultimate", "isCorrect": true, "blankIndex": 6 } ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Please ask and answer the following questions in pairs or in small groups.",
+    "type": "open-ended",
+    "items": [
+      {
+        "questionText": "Where do you think the concept of democracy originated?"
+      },
+      {
+        "questionText": "What do you consider to be the primary goal of education?"
+      },
+      {
+        "questionText": "Can you share a remarkable experience you’ve had recently?"
+      },
+      {
+        "questionText": "Should governments permit free speech on all platforms, including social media?"
+      },
+      {
+        "questionText": "Do you think there is ever a justification for breaking the law?"
+      },
+      {
+        "questionText": "Why do you think there is resistance to change in many organizations?"
+      },
+      {
+        "questionText": "What are some reasons people might have hesitation when making important decisions?"
+      },
+      {
+        "questionText": "How has the evolution of technology impacted our daily lives?"
+      },
+      {
+        "questionText": "How do you usually deal with discomfort in challenging situations?"
+      },
+      {
+        "questionText": "What measures can be taken to ensure no one in the world has to starve?"
+      },
+      {
+        "questionText": "What are the possible effects on a person who decides to withdraw from social interactions?"
+      },
+      {
+        "questionText": "What are some ways to become more resistant to stress?"
+      },
+      {
+        "questionText": "What is your ultimate goal in life and how do you plan to achieve it?"
+      },
+      {
+        "questionText": "What can we do to prevent the decay of historic monuments?"
+      },
+      {
+        "questionText": "What are you most grateful for in your life?"
+      },
+      {
+        "questionText": "What skills are essential for participating in a debate?"
+      },
+      {
+        "questionText": "Do you think wealthy individuals have a responsibility to help those less fortunate?"
+      },
+      {
+        "questionText": "How can a country improve its position economically on the global stage?"
+      },
+      {
+        "questionText": "What techniques do you use to stay organized?"
+      },
+      {
+        "questionText": "Why do some people behave in a cruel manner towards others?"
+      }
+    ]
+  }
+]

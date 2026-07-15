@@ -1,0 +1,396 @@
+[
+  {
+    "instruction": "PART 1 – FIND THE DEFINITION. Match the words underlined with their definitions.",
+    "type": "matching",
+    "items": [
+      {
+        "questionText": "mild",
+        "correctAnswer": "fairly warm"
+      },
+      {
+        "questionText": "in advance",
+        "correctAnswer": "before something happens or is expected to happen"
+      },
+      {
+        "questionText": "inhibited",
+        "correctAnswer": "to prevent someone from doing something by making them feel nervous or embarrassed"
+      },
+      {
+        "questionText": "prompt",
+        "correctAnswer": "done quickly, immediately, or at the right time"
+      },
+      {
+        "questionText": "allowance",
+        "correctAnswer": "money that you are given regularly, especially to pay for a particular thing"
+      },
+      {
+        "questionText": "endurance",
+        "correctAnswer": "the ability to keep doing something difficult, unpleasant, or painful for a long time"
+      },
+      {
+        "questionText": "ancestry",
+        "correctAnswer": "the members of your family who lived a long time ago"
+      },
+      {
+        "questionText": "humiliate",
+        "correctAnswer": "to make smb feel ashamed or stupid, especially when other people are present, embarrass"
+      },
+      {
+        "questionText": "moderate",
+        "correctAnswer": "not very large or very small, very hot or very cold, very fast or very slow etc"
+      },
+      {
+        "questionText": "subtle",
+        "correctAnswer": "not loud, bright, noticeable, or obvious in any way"
+      },
+      {
+        "questionText": "recruiting",
+        "correctAnswer": "to find new people to work in a company, join an organization, do a job etc"
+      },
+      {
+        "questionText": "fine ... for",
+        "correctAnswer": "to impose a financial penalty on someone as a punishment for violating a rule, law, or regulation."
+      }
+    ]
+  },
+  {
+    "instruction": "PART 2 – MAKE A COLLOCATION. Choose the words that make a collocation.",
+    "type": "matching",
+    "items": [
+      {
+        "questionText": "______ an operation",
+        "correctAnswer": "undergo"
+      },
+      {
+        "questionText": "______ (one’s) horizons / the scope",
+        "correctAnswer": "broaden"
+      },
+      {
+        "questionText": "Make a/an ______",
+        "correctAnswer": "appointment"
+      },
+      {
+        "questionText": "______ crime / finance",
+        "correctAnswer": "corporate"
+      },
+      {
+        "questionText": "______ from / out of smt.",
+        "correctAnswer": "arise"
+      },
+      {
+        "questionText": "A/an ______ disease",
+        "correctAnswer": "contagious"
+      },
+      {
+        "questionText": "To be / feel ______ to do smt.",
+        "correctAnswer": "obliged"
+      },
+      {
+        "questionText": "Heavy / work / full ______",
+        "correctAnswer": "load"
+      },
+      {
+        "questionText": "______ smb. to do smt.",
+        "correctAnswer": "authorize"
+      },
+      {
+        "questionText": "______ (with) smb. about smt.",
+        "correctAnswer": "consult"
+      },
+      {
+        "questionText": "Place / put / lay ______ on smt",
+        "correctAnswer": "emphasis"
+      },
+      {
+        "questionText": "______ an envelope",
+        "correctAnswer": "seal"
+      }
+    ]
+  },
+  {
+    "instruction": "PART 2 B. Fill in the blanks with the appropriate collocations.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "1. Some learning difficulties {1} {2} the way children are taught at school.",
+        "options": [
+          [
+            { "text": "arise", "isCorrect": true, "blankIndex": 1 }
+          ],
+          [
+            { "text": "from", "isCorrect": true, "blankIndex": 2 }
+          ]
+        ]
+      },
+      {
+        "questionText": "2. She will {1} {2} on a tumor in her left lung next week.",
+        "options": [
+          [
+            { "text": "undergo", "isCorrect": true, "blankIndex": 1 }
+          ],
+          [
+            { "text": "an operation", "isCorrect": true, "blankIndex": 2 }
+          ]
+        ]
+      },
+      {
+        "questionText": "3. New technologies can {1} {2} and provide new opportunities, but we do need to make sure that it is all in moderation.",
+        "options": [
+          [
+            { "text": "broaden", "isCorrect": true, "blankIndex": 1 }
+          ],
+          [
+            { "text": "horizons", "isCorrect": true, "blankIndex": 2 }
+          ]
+        ]
+      },
+      {
+        "questionText": "4. Anybody driving a car is {1} {2} have insurance by law.",
+        "options": [
+          [
+            { "text": "obliged", "isCorrect": true, "blankIndex": 1 }
+          ],
+          [
+            { "text": "to", "isCorrect": true, "blankIndex": 2 }
+          ]
+        ]
+      },
+      {
+        "questionText": "5. It was when we started living together that we found we just weren't {1} {2} each other.",
+        "options": [
+          [
+            { "text": "compatible", "isCorrect": true, "blankIndex": 1 }
+          ],
+          [
+            { "text": "with", "isCorrect": true, "blankIndex": 2 }
+          ]
+        ]
+      },
+      {
+        "questionText": "6. Our teacher {1} a lot of {2} on written work and grammar. She thinks this will help us improve our language.",
+        "options": [
+          [
+            { "text": "puts", "isCorrect": true, "blankIndex": 1 }
+          ],
+          [
+            { "text": "emphasis", "isCorrect": true, "blankIndex": 2 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "PART 3 – FILL IN THE GAPS. Fill in the blanks with the most appropriate words from the box. There are 2 extra words in the box.",
+    "type": "word-bank",
+    "items": [
+      {
+        "questionText": "1. Virtually all countries in the world have {1}, linguistic and religious minorities within their populations. The Indigenous Peoples and Minorities Unit is the entity within the Office of the High Commissioner for Human Rights specifically tasked with furthering the rights of people belonging to minorities and fighting with them in their struggle against {2}.",
+        "options": [
+          [
+            { "text": "ethnic", "isCorrect": true, "blankIndex": 1 }
+          ],
+          [
+            { "text": "discrimination", "isCorrect": true, "blankIndex": 2 }
+          ]
+        ]
+      },
+      {
+        "questionText": "2. They spent a(n) ______ amount of time getting the engine into perfect condition.",
+        "correctAnswer": "immense",
+        "options": []
+      },
+      {
+        "questionText": "3. He told us to ______ everything we'd learned so far and start again.",
+        "correctAnswer": "disregard",
+        "options": []
+      },
+      {
+        "questionText": "4. A free and open society requires, likewise, free and open media which permit the expression of a ______ of opinion.",
+        "correctAnswer": "diversity",
+        "options": []
+      },
+      {
+        "questionText": "5. When his parents entered the class, his mood suddenly ______ and he seemed a little worried. He did not know why they had come to the school.",
+        "correctAnswer": "altered",
+        "options": []
+      },
+      {
+        "questionText": "6. “Because what we have done is successful, in the midst of that success people should ______ that China's peaceful foreign policy has played a key role,\" the politician said.",
+        "correctAnswer": "acknowledge",
+        "options": []
+      },
+      {
+        "questionText": "7. Development initiatives without a clear commitment to non-discrimination and addressing the needs of vulnerable communities are wrong because they ______ human rights. They also drive poverty and conflict and are ultimately unsustainable.",
+        "correctAnswer": "violate",
+        "options": []
+      },
+      {
+        "questionText": "8. After working as a sales assistant for a long time, she's just been promoted to ______ sales representative. She will be in charge of ten assistants.",
+        "correctAnswer": "senior",
+        "options": []
+      },
+      {
+        "questionText": "9. High-level negotiations could eventually ______ the crisis, which made both countries happy and relieved.",
+        "correctAnswer": "resolve",
+        "options": []
+      },
+      {
+        "questionText": "10. During the First World War, Türkiye was a/an ______ of Germany. They agreed to support one another during the war.",
+        "correctAnswer": "ally",
+        "options": []
+      },
+      {
+        "questionText": "11. Although the arrival of coffee in Britain ______ the arrival of tea, it is the second most popular drink there today.",
+        "correctAnswer": "preceded",
+        "options": []
+      },
+      {
+        "questionText": "12. Since the accident she has had to ______ three painful operations on her leg.",
+        "correctAnswer": "endure",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "PART 4 - WORD FORMATION. The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the sentences. Fill in each space in this way. Spelling mistakes will be penalized.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "1. Sugar and salt ______ easily in water. (SOLVE)",
+        "correctAnswer": "dissolve",
+        "options": []
+      },
+      {
+        "questionText": "2. Since consumers are always demanding new products, companies which can be ______ are more likely to succeed. (INNOVATE)",
+        "correctAnswer": "innovative",
+        "options": []
+      },
+      {
+        "questionText": "3. They incorporated the work of anthropologists and ______ into their own research. (HISTORY)",
+        "correctAnswer": "historians",
+        "options": []
+      },
+      {
+        "questionText": "4. Competitiveness is the key to job ______ and the key to competitiveness is the control of inflation. (CREATE)",
+        "correctAnswer": "creation",
+        "options": []
+      },
+      {
+        "questionText": "5. Our priority is to tackle ______ and global inequality. (POOR)",
+        "correctAnswer": "poverty",
+        "options": []
+      },
+      {
+        "questionText": "6. One reason commercial diet companies are having problems is that they received a lot of bad ______ in the early nineties. (PUBLIC)",
+        "correctAnswer": "publicity",
+        "options": []
+      },
+      {
+        "questionText": "7. Extreme religious groups living in ______ communes have been responsible for a number of violent crimes. (ISOLATION)",
+        "correctAnswer": "isolated",
+        "options": []
+      },
+      {
+        "questionText": "8. Adjectives (big, green), verbs (come, go), conjunctions (and, but) and prepositions (to, in, for) are all ______ of words. (CATEGORIZE)",
+        "correctAnswer": "categories",
+        "options": []
+      },
+      {
+        "questionText": "9. By ______ speed limits and passing red lights, we somehow got to the airport in time. (REGARD)",
+        "correctAnswer": "disregarding",
+        "options": []
+      },
+      {
+        "questionText": "10. The factory's waste was disposed of in a nearby river, creating an ______ situation for the local community since it caused pollution which could harm the environment and the health of the people. (DESIRE)",
+        "correctAnswer": "undesirable",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "PART 5 - CHOOSE THE SYNONYMS. Choose the synonyms of the word that is underlined.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "1. He lost a great deal of political support because his speeches were so full of uncertainty and anomalies.",
+        "options": [
+          { "text": "a. subtle", "isCorrect": false },
+          { "text": "b. ambiguity", "isCorrect": true },
+          { "text": "c. doubtful", "isCorrect": false },
+          { "text": "d. definiteness", "isCorrect": false },
+          { "text": "e. concern", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "2. The lack of extra student accommodation restricted the expansion in student numbers which the university was planning.",
+        "options": [
+          { "text": "a. ceased", "isCorrect": false },
+          { "text": "b. declined", "isCorrect": false },
+          { "text": "c. limited", "isCorrect": true },
+          { "text": "d. halted", "isCorrect": false },
+          { "text": "e. convened", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "3. Three terrorists managed to escape but all of them were captured within 24 hours and returned to prison.",
+        "options": [
+          { "text": "a. trapped", "isCorrect": false },
+          { "text": "b. snared", "isCorrect": false },
+          { "text": "c. recorded", "isCorrect": false },
+          { "text": "d. forced", "isCorrect": false },
+          { "text": "e. caught", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "4. In Egypt, water from the River Nile has been used for thousands of years to irrigate the dry desert land so that crops may be grown.",
+        "options": [
+          { "text": "a. water", "isCorrect": true },
+          { "text": "b. moisten", "isCorrect": false },
+          { "text": "c. cultivate", "isCorrect": false },
+          { "text": "d. gather", "isCorrect": false },
+          { "text": "e. refresh", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "5. It is now a common organizational policy for a company to have a mission statement explaining the aim of the organization.",
+        "options": [
+          { "text": "a. practical", "isCorrect": false },
+          { "text": "b. peculiar", "isCorrect": false },
+          { "text": "c. hierarchical", "isCorrect": false },
+          { "text": "d. mutual", "isCorrect": false },
+          { "text": "e. corporate", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "6. As trade union membership has declined, the number of disputes has also decreased.",
+        "options": [
+          { "text": "a. doubts", "isCorrect": false },
+          { "text": "b. attempts", "isCorrect": false },
+          { "text": "c. arguments", "isCorrect": true },
+          { "text": "d. investigations", "isCorrect": false },
+          { "text": "e. strikes", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "7. If a company does not observe health and safety laws, it may be fined very heavily if any of its workers are injured.",
+        "options": [
+          { "text": "a. obey", "isCorrect": true },
+          { "text": "b. notice", "isCorrect": false },
+          { "text": "c. spot", "isCorrect": false },
+          { "text": "d. urge", "isCorrect": false },
+          { "text": "e. disrespect", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "8. Most economists believe that high taxes inhibit growth in the economy.",
+        "options": [
+          { "text": "a. ease", "isCorrect": false },
+          { "text": "b. fluctuate", "isCorrect": false },
+          { "text": "c. display", "isCorrect": false },
+          { "text": "d. prevent", "isCorrect": true },
+          { "text": "e. retain", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+]

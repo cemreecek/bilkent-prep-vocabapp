@@ -1,0 +1,804 @@
+[
+  {
+    "instruction": "Match the following nouns with their definitions.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "expertise",
+        "options": [
+          { "text": "an area painted with lines for playing particular sports, especially football", "label": "A", "isCorrect": false },
+          { "text": "the total amount by which money spent is more than money received", "label": "B", "isCorrect": false },
+          { "text": "a person who is competing to get a job or elected position", "label": "C", "isCorrect": false },
+          { "text": "special skills or knowledge in a particular subject, that you learn by experience or training", "label": "D", "isCorrect": true },
+          { "text": "a religious ceremony for burying the body of a dead person", "label": "E", "isCorrect": false },
+          { "text": "the flat part on a knife or similar tool or weapon, with a very thin edge used for cutting", "label": "F", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "funeral",
+        "options": [
+          { "text": "an area painted with lines for playing particular sports, especially football", "label": "A", "isCorrect": false },
+          { "text": "the total amount by which money spent is more than money received", "label": "B", "isCorrect": false },
+          { "text": "a person who is competing to get a job or elected position", "label": "C", "isCorrect": false },
+          { "text": "special skills or knowledge in a particular subject, that you learn by experience or training", "label": "D", "isCorrect": false },
+          { "text": "a religious ceremony for burying the body of a dead person", "label": "E", "isCorrect": true },
+          { "text": "the flat part on a knife or similar tool or weapon, with a very thin edge used for cutting", "label": "F", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "pitch",
+        "options": [
+          { "text": "an area painted with lines for playing particular sports, especially football", "label": "A", "isCorrect": true },
+          { "text": "the total amount by which money spent is more than money received", "label": "B", "isCorrect": false },
+          { "text": "a person who is competing to get a job or elected position", "label": "C", "isCorrect": false },
+          { "text": "special skills or knowledge in a particular subject, that you learn by experience or training", "label": "D", "isCorrect": false },
+          { "text": "a religious ceremony for burying the body of a dead person", "label": "E", "isCorrect": false },
+          { "text": "the flat part on a knife or similar tool or weapon, with a very thin edge used for cutting", "label": "F", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "blade",
+        "options": [
+          { "text": "an area painted with lines for playing particular sports, especially football", "label": "A", "isCorrect": false },
+          { "text": "the total amount by which money spent is more than money received", "label": "B", "isCorrect": false },
+          { "text": "a person who is competing to get a job or elected position", "label": "C", "isCorrect": false },
+          { "text": "special skills or knowledge in a particular subject, that you learn by experience or training", "label": "D", "isCorrect": false },
+          { "text": "a religious ceremony for burying the body of a dead person", "label": "E", "isCorrect": false },
+          { "text": "the flat part on a knife or similar tool or weapon, with a very thin edge used for cutting", "label": "F", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "candidate",
+        "options": [
+          { "text": "an area painted with lines for playing particular sports, especially football", "label": "A", "isCorrect": false },
+          { "text": "the total amount by which money spent is more than money received", "label": "B", "isCorrect": false },
+          { "text": "a person who is competing to get a job or elected position", "label": "C", "isCorrect": true },
+          { "text": "special skills or knowledge in a particular subject, that you learn by experience or training", "label": "D", "isCorrect": false },
+          { "text": "a religious ceremony for burying the body of a dead person", "label": "E", "isCorrect": false },
+          { "text": "the flat part on a knife or similar tool or weapon, with a very thin edge used for cutting", "label": "F", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "deficit",
+        "options": [
+          { "text": "an area painted with lines for playing particular sports, especially football", "label": "A", "isCorrect": false },
+          { "text": "the total amount by which money spent is more than money received", "label": "B", "isCorrect": true },
+          { "text": "a person who is competing to get a job or elected position", "label": "C", "isCorrect": false },
+          { "text": "special skills or knowledge in a particular subject, that you learn by experience or training", "label": "D", "isCorrect": false },
+          { "text": "a religious ceremony for burying the body of a dead person", "label": "E", "isCorrect": false },
+          { "text": "the flat part on a knife or similar tool or weapon, with a very thin edge used for cutting", "label": "F", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "log",
+        "options": [
+          { "text": "an animal, especially a large or wild one", "label": "A", "isCorrect": false },
+          { "text": "an agreement in an argument", "label": "B", "isCorrect": false },
+          { "text": "a full written record of a journey, a period of time, or an event", "label": "C", "isCorrect": true },
+          { "text": "a reason for doing something", "label": "D", "isCorrect": false },
+          { "text": "a set of facts or a fixed limit that establishes or limits how something can or must happen or be done", "label": "E", "isCorrect": false },
+          { "text": "a number of things that have been fastened or are held together", "label": "F", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "beast",
+        "options": [
+          { "text": "an animal, especially a large or wild one", "label": "A", "isCorrect": true },
+          { "text": "an agreement in an argument", "label": "B", "isCorrect": false },
+          { "text": "a full written record of a journey, a period of time, or an event", "label": "C", "isCorrect": false },
+          { "text": "a reason for doing something", "label": "D", "isCorrect": false },
+          { "text": "a set of facts or a fixed limit that establishes or limits how something can or must happen or be done", "label": "E", "isCorrect": false },
+          { "text": "a number of things that have been fastened or are held together", "label": "F", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "bundle",
+        "options": [
+          { "text": "an animal, especially a large or wild one", "label": "A", "isCorrect": false },
+          { "text": "an agreement in an argument", "label": "B", "isCorrect": false },
+          { "text": "a full written record of a journey, a period of time, or an event", "label": "C", "isCorrect": false },
+          { "text": "a reason for doing something", "label": "D", "isCorrect": false },
+          { "text": "a set of facts or a fixed limit that establishes or limits how something can or must happen or be done", "label": "E", "isCorrect": false },
+          { "text": "a number of things that have been fastened or are held together", "label": "F", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "compromise",
+        "options": [
+          { "text": "an animal, especially a large or wild one", "label": "A", "isCorrect": false },
+          { "text": "an agreement in an argument", "label": "B", "isCorrect": true },
+          { "text": "a full written record of a journey, a period of time, or an event", "label": "C", "isCorrect": false },
+          { "text": "a reason for doing something", "label": "D", "isCorrect": false },
+          { "text": "a set of facts or a fixed limit that establishes or limits how something can or must happen or be done", "label": "E", "isCorrect": false },
+          { "text": "a number of things that have been fastened or are held together", "label": "F", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "motive",
+        "options": [
+          { "text": "an animal, especially a large or wild one", "label": "A", "isCorrect": false },
+          { "text": "an agreement in an argument", "label": "B", "isCorrect": false },
+          { "text": "a full written record of a journey, a period of time, or an event", "label": "C", "isCorrect": false },
+          { "text": "a reason for doing something", "label": "D", "isCorrect": true },
+          { "text": "a set of facts or a fixed limit that establishes or limits how something can or must happen or be done", "label": "E", "isCorrect": false },
+          { "text": "a number of things that have been fastened or are held together", "label": "F", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "parameter",
+        "options": [
+          { "text": "an animal, especially a large or wild one", "label": "A", "isCorrect": false },
+          { "text": "an agreement in an argument", "label": "B", "isCorrect": false },
+          { "text": "a full written record of a journey, a period of time, or an event", "label": "C", "isCorrect": false },
+          { "text": "a reason for doing something", "label": "D", "isCorrect": false },
+          { "text": "a set of facts or a fixed limit that establishes or limits how something can or must happen or be done", "label": "E", "isCorrect": true },
+          { "text": "a number of things that have been fastened or are held together", "label": "F", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "holy",
+        "options": [
+          { "text": "not thinking about or interested in someone or something", "label": "A", "isCorrect": false },
+          { "text": "able to exist, live, or work successfully with something or someone else", "label": "B", "isCorrect": false },
+          { "text": "hard or firm, keeping a clear shape", "label": "C", "isCorrect": false },
+          { "text": "not working or being used; without work", "label": "D", "isCorrect": false },
+          { "text": "related to a religion or a god", "label": "E", "isCorrect": true },
+          { "text": "in a natural state, without having been through any chemical or industrial process; not cooked", "label": "F", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "solid",
+        "options": [
+          { "text": "not thinking about or interested in someone or something", "label": "A", "isCorrect": false },
+          { "text": "able to exist, live, or work successfully with something or someone else", "label": "B", "isCorrect": false },
+          { "text": "hard or firm, keeping a clear shape", "label": "C", "isCorrect": true },
+          { "text": "not working or being used; without work", "label": "D", "isCorrect": false },
+          { "text": "related to a religion or a god", "label": "E", "isCorrect": false },
+          { "text": "in a natural state, without having been through any chemical or industrial process; not cooked", "label": "F", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "indifferent",
+        "options": [
+          { "text": "not thinking about or interested in someone or something", "label": "A", "isCorrect": true },
+          { "text": "able to exist, live, or work successfully with something or someone else", "label": "B", "isCorrect": false },
+          { "text": "hard or firm, keeping a clear shape", "label": "C", "isCorrect": false },
+          { "text": "not working or being used; without work", "label": "D", "isCorrect": false },
+          { "text": "related to a religion or a god", "label": "E", "isCorrect": false },
+          { "text": "in a natural state, without having been through any chemical or industrial process; not cooked", "label": "F", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "raw",
+        "options": [
+          { "text": "not thinking about or interested in someone or something", "label": "A", "isCorrect": false },
+          { "text": "able to exist, live, or work successfully with something or someone else", "label": "B", "isCorrect": false },
+          { "text": "hard or firm, keeping a clear shape", "label": "C", "isCorrect": false },
+          { "text": "not working or being used; without work", "label": "D", "isCorrect": false },
+          { "text": "related to a religion or a god", "label": "E", "isCorrect": false },
+          { "text": "in a natural state, without having been through any chemical or industrial process; not cooked", "label": "F", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "compatible",
+        "options": [
+          { "text": "not thinking about or interested in someone or something", "label": "A", "isCorrect": false },
+          { "text": "able to exist, live, or work successfully with something or someone else", "label": "B", "isCorrect": true },
+          { "text": "hard or firm, keeping a clear shape", "label": "C", "isCorrect": false },
+          { "text": "not working or being used; without work", "label": "D", "isCorrect": false },
+          { "text": "related to a religion or a god", "label": "E", "isCorrect": false },
+          { "text": "in a natural state, without having been through any chemical or industrial process; not cooked", "label": "F", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "idle",
+        "options": [
+          { "text": "not thinking about or interested in someone or something", "label": "A", "isCorrect": false },
+          { "text": "able to exist, live, or work successfully with something or someone else", "label": "B", "isCorrect": false },
+          { "text": "hard or firm, keeping a clear shape", "label": "C", "isCorrect": false },
+          { "text": "not working or being used; without work", "label": "D", "isCorrect": true },
+          { "text": "related to a religion or a god", "label": "E", "isCorrect": false },
+          { "text": "in a natural state, without having been through any chemical or industrial process; not cooked", "label": "F", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Find the best definition for the underlined words in the following sentences by choosing A, B, C, D or E.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "1. Since I have a short attention span, I tend to read shorter stories instead of the comprehensive narratives on which they are based.",
+        "options": [
+          { "text": "proving that you have done something morally wrong or embarrassing, or making it seem as if you have done so", "isCorrect": false },
+          { "text": "done or made in order to remind people of someone who has died", "isCorrect": false },
+          { "text": "including all the necessary facts, details, or problems that need to be dealt with", "isCorrect": true },
+          { "text": "important, interesting, excellent, or unusual enough to be noticed or mentioned", "isCorrect": false },
+          { "text": "two or more facts, ideas etc. that are closely related or dependent on each other", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "2. A fierce quarrel arose regarding whether or not the teenager should be grounded for rude behavior and breaking curfew rules.",
+        "options": [
+          { "text": "done with a lot of energy and strong feelings, and sometimes violence", "isCorrect": true },
+          { "text": "able to exist or be used together without causing problems", "isCorrect": false },
+          { "text": "not at all interested in someone or something", "isCorrect": false },
+          { "text": "including a wide variety of people, things etc.", "isCorrect": false },
+          { "text": "used to emphasize that something continues for a long time without any pauses", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "3. Farmers are able to get every substance their body needs by obtaining the vitamins and minerals from the foods that they grow.",
+        "options": [
+          { "text": "something someone does, especially something that is very good or very bad", "isCorrect": false },
+          { "text": "the regular way in which something happens, develops, or is done", "isCorrect": false },
+          { "text": "a small piece of thick, rough material which covers part of a floor", "isCorrect": false },
+          { "text": "a particular type of solid, liquid, gas, or material", "isCorrect": true },
+          { "text": "a lack of something that is necessary", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "4. While few could foresee his initial win, even fewer could predict what this highly unusual president would do in office.",
+        "options": [
+          { "text": "to think that something is true, although you are not certain", "isCorrect": false },
+          { "text": "to make it easier for a process or activity to happen", "isCorrect": false },
+          { "text": "to behave in a dishonest way in order to win or to get an advantage", "isCorrect": false },
+          { "text": "to be all around someone or something on every side", "isCorrect": false },
+          { "text": "to think or know that something is going to happen in the future", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "5. Parents want their children to succeed in this world, but if they are held back by their peers and a shortage of teachers in the public school system, they won't be able to compete.",
+        "options": [
+          { "text": "when someone does what they are told to do, or what a law, rule etc. says they must do", "isCorrect": false },
+          { "text": "a situation in which there is not enough of something that people need", "isCorrect": true },
+          { "text": "a large amount of something arranged in a shape that looks like a small hill", "isCorrect": false },
+          { "text": "a government, especially one that was not elected fairly or that you disapprove of for some other reason", "isCorrect": false },
+          { "text": "something that you add to something else to improve it or make it complete", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "6. A flower-covered memorial was placed near the attack site to honor the victims who were gunned down last Sunday.",
+        "options": [
+          { "text": "something, especially a stone with writing on it, that reminds people of someone who has died", "isCorrect": true },
+          { "text": "a religious ceremony for burying or cremating (=burning) someone who has died", "isCorrect": false },
+          { "text": "the strong love that you show when you pay a lot of attention to someone or something", "isCorrect": false },
+          { "text": "the reason that makes someone do something, especially when this reason is kept hidden", "isCorrect": false },
+          { "text": "something that you say when you express an opinion or say what you have noticed", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Choose the correct answer.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "To ___________ learning, each class should be no larger than 30 students. In this way, teachers can better focus on the weaknesses of the students.",
+        "options": [
+          { "text": "prohibit", "isCorrect": false },
+          { "text": "facilitate", "isCorrect": true },
+          { "text": "breed", "isCorrect": false },
+          { "text": "devote", "isCorrect": false },
+          { "text": "tackle", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Why don't you vote - how can you be so ___________ to what is going on in the world?",
+        "options": [
+          { "text": "indifferent", "isCorrect": true },
+          { "text": "comprehensive", "isCorrect": false },
+          { "text": "compatible", "isCorrect": false },
+          { "text": "obedient", "isCorrect": false },
+          { "text": "idle", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The city's bus drivers have been on _________ for three weeks. That’s why I am driving to work these days, although I don’t like driving much.",
+        "options": [
+          { "text": "pile", "isCorrect": false },
+          { "text": "deed", "isCorrect": false },
+          { "text": "gravity", "isCorrect": false },
+          { "text": "grease", "isCorrect": false },
+          { "text": "strike", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "There is no smoking allowed anywhere on school ______________.",
+        "options": [
+          { "text": "shortage", "isCorrect": false },
+          { "text": "memorial", "isCorrect": false },
+          { "text": "expertise", "isCorrect": false },
+          { "text": "premises", "isCorrect": true },
+          { "text": "supplement", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Northam made the ______________ at an afternoon news briefing on the coronavirus pandemic.",
+        "options": [
+          { "text": "remarks", "isCorrect": true },
+          { "text": "hypothesis", "isCorrect": false },
+          { "text": "motive", "isCorrect": false },
+          { "text": "appendix", "isCorrect": false },
+          { "text": "sarcasm", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Some months, like January in the depth of winter, are relatively quiet times, with no urgent problems to _____________. Then, I have some time to read a little bit.",
+        "options": [
+          { "text": "tackle", "isCorrect": true },
+          { "text": "constrain", "isCorrect": false },
+          { "text": "exhaust", "isCorrect": false },
+          { "text": "seize", "isCorrect": false },
+          { "text": "reside", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "It's difficult to _____________, but most babies can say a few words by the age of 12 months.",
+        "options": [
+          { "text": "master", "isCorrect": false },
+          { "text": "invade", "isCorrect": false },
+          { "text": "generalize", "isCorrect": true },
+          { "text": "whisper", "isCorrect": false },
+          { "text": "ease", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the blanks with the most appropriate words from the box. There are TWO extra words. Do NOT change the forms.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "If you look at the map carefully, you can see that the Andes form a natural ___________ between Argentina and Chile.",
+        "options": [
+          { "text": "restless", "isCorrect": false },
+          { "text": "scarce", "isCorrect": false },
+          { "text": "surroundings", "isCorrect": false },
+          { "text": "raw", "isCorrect": false },
+          { "text": "flooded", "isCorrect": false },
+          { "text": "vast", "isCorrect": false },
+          { "text": "textured", "isCorrect": false },
+          { "text": "profound", "isCorrect": false },
+          { "text": "nonetheless", "isCorrect": false },
+          { "text": "foresee", "isCorrect": false },
+          { "text": "detect", "isCorrect": false },
+          { "text": "surrounded", "isCorrect": false },
+          { "text": "literal", "isCorrect": false },
+          { "text": "boundary", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Parents have to be very careful with what they say or how they react when they tackle an undesirable issue since their behaviour has a _____________ effect on their children.",
+        "options": [
+          { "text": "restless", "isCorrect": false },
+          { "text": "scarce", "isCorrect": false },
+          { "text": "surroundings", "isCorrect": false },
+          { "text": "raw", "isCorrect": false },
+          { "text": "flooded", "isCorrect": false },
+          { "text": "vast", "isCorrect": false },
+          { "text": "textured", "isCorrect": false },
+          { "text": "profound", "isCorrect": true },
+          { "text": "nonetheless", "isCorrect": false },
+          { "text": "foresee", "isCorrect": false },
+          { "text": "detect", "isCorrect": false },
+          { "text": "surrounded", "isCorrect": false },
+          { "text": "literal", "isCorrect": false },
+          { "text": "boundary", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Most teenagers dream about living on their own but they fail to ___________ the difficulties they might encounter when living away from their parents.",
+        "options": [
+          { "text": "restless", "isCorrect": false },
+          { "text": "scarce", "isCorrect": false },
+          { "text": "surroundings", "isCorrect": false },
+          { "text": "raw", "isCorrect": false },
+          { "text": "flooded", "isCorrect": false },
+          { "text": "vast", "isCorrect": false },
+          { "text": "textured", "isCorrect": false },
+          { "text": "profound", "isCorrect": false },
+          { "text": "nonetheless", "isCorrect": false },
+          { "text": "foresee", "isCorrect": true },
+          { "text": "detect", "isCorrect": false },
+          { "text": "surrounded", "isCorrect": false },
+          { "text": "literal", "isCorrect": false },
+          { "text": "boundary", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The day before the university entrance exam she spent a ____________ night, tossing and turning in bed.",
+        "options": [
+          { "text": "restless", "isCorrect": true },
+          { "text": "scarce", "isCorrect": false },
+          { "text": "surroundings", "isCorrect": false },
+          { "text": "raw", "isCorrect": false },
+          { "text": "flooded", "isCorrect": false },
+          { "text": "vast", "isCorrect": false },
+          { "text": "textured", "isCorrect": false },
+          { "text": "profound", "isCorrect": false },
+          { "text": "nonetheless", "isCorrect": false },
+          { "text": "foresee", "isCorrect": false },
+          { "text": "detect", "isCorrect": false },
+          { "text": "surrounded", "isCorrect": false },
+          { "text": "literal", "isCorrect": false },
+          { "text": "boundary", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "At higher levels it is not enough to learn the ____________ meanings of the words in the wordlist. In order to better comprehend long texts, you are expected to know their figurative meanings as well.",
+        "options": [
+          { "text": "restless", "isCorrect": false },
+          { "text": "scarce", "isCorrect": false },
+          { "text": "surroundings", "isCorrect": false },
+          { "text": "raw", "isCorrect": false },
+          { "text": "flooded", "isCorrect": false },
+          { "text": "vast", "isCorrect": false },
+          { "text": "textured", "isCorrect": false },
+          { "text": "profound", "isCorrect": false },
+          { "text": "nonetheless", "isCorrect": false },
+          { "text": "foresee", "isCorrect": false },
+          { "text": "detect", "isCorrect": false },
+          { "text": "surrounded", "isCorrect": false },
+          { "text": "literal", "isCorrect": true },
+          { "text": "boundary", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Cheap and clean hotel rooms are generally ______________ in popular cities, especially in summers so if you want to visit such places, you should make a reservation in advance.",
+        "options": [
+          { "text": "restless", "isCorrect": false },
+          { "text": "scarce", "isCorrect": true },
+          { "text": "surroundings", "isCorrect": false },
+          { "text": "raw", "isCorrect": false },
+          { "text": "flooded", "isCorrect": false },
+          { "text": "vast", "isCorrect": false },
+          { "text": "textured", "isCorrect": false },
+          { "text": "profound", "isCorrect": false },
+          { "text": "nonetheless", "isCorrect": false },
+          { "text": "foresee", "isCorrect": false },
+          { "text": "detect", "isCorrect": false },
+          { "text": "surrounded", "isCorrect": false },
+          { "text": "literal", "isCorrect": false },
+          { "text": "boundary", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "It is scientifically proven that as people grow older, they cannot ______________ some sounds.",
+        "options": [
+          { "text": "restless", "isCorrect": false },
+          { "text": "scarce", "isCorrect": false },
+          { "text": "surroundings", "isCorrect": false },
+          { "text": "raw", "isCorrect": false },
+          { "text": "flooded", "isCorrect": false },
+          { "text": "vast", "isCorrect": false },
+          { "text": "textured", "isCorrect": false },
+          { "text": "profound", "isCorrect": false },
+          { "text": "nonetheless", "isCorrect": false },
+          { "text": "foresee", "isCorrect": false },
+          { "text": "detect", "isCorrect": true },
+          { "text": "surrounded", "isCorrect": false },
+          { "text": "literal", "isCorrect": false },
+          { "text": "boundary", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Security at the football matches has been tightened since last year. ______________, it has been reported that about 1,000 people have managed to get in without ticket in the last three months.",
+        "options": [
+          { "text": "restless", "isCorrect": false },
+          { "text": "scarce", "isCorrect": false },
+          { "text": "surroundings", "isCorrect": false },
+          { "text": "raw", "isCorrect": false },
+          { "text": "flooded", "isCorrect": false },
+          { "text": "vast", "isCorrect": false },
+          { "text": "textured", "isCorrect": false },
+          { "text": "profound", "isCorrect": false },
+          { "text": "nonetheless", "isCorrect": true },
+          { "text": "foresee", "isCorrect": false },
+          { "text": "detect", "isCorrect": false },
+          { "text": "surrounded", "isCorrect": false },
+          { "text": "literal", "isCorrect": false },
+          { "text": "boundary", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Although the education system is quite challenging, the _____________ majority of our students – nearly 90 percent – graduate within four years.",
+        "options": [
+          { "text": "restless", "isCorrect": false },
+          { "text": "scarce", "isCorrect": false },
+          { "text": "surroundings", "isCorrect": false },
+          { "text": "raw", "isCorrect": false },
+          { "text": "flooded", "isCorrect": false },
+          { "text": "vast", "isCorrect": true },
+          { "text": "textured", "isCorrect": false },
+          { "text": "profound", "isCorrect": false },
+          { "text": "nonetheless", "isCorrect": false },
+          { "text": "foresee", "isCorrect": false },
+          { "text": "detect", "isCorrect": false },
+          { "text": "surrounded", "isCorrect": false },
+          { "text": "literal", "isCorrect": false },
+          { "text": "boundary", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "After two days of continuous rain, towns, and cities all over the country have been _____________ severely.",
+        "options": [
+          { "text": "restless", "isCorrect": false },
+          { "text": "scarce", "isCorrect": false },
+          { "text": "surroundings", "isCorrect": false },
+          { "text": "raw", "isCorrect": false },
+          { "text": "flooded", "isCorrect": true },
+          { "text": "vast", "isCorrect": false },
+          { "text": "textured", "isCorrect": false },
+          { "text": "profound", "isCorrect": false },
+          { "text": "nonetheless", "isCorrect": false },
+          { "text": "foresee", "isCorrect": false },
+          { "text": "detect", "isCorrect": false },
+          { "text": "surrounded", "isCorrect": false },
+          { "text": "literal", "isCorrect": false },
+          { "text": "boundary", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The living room felt cozy and warm, thanks to the _____________ wallpaper that added depth and character to the walls.",
+        "options": [
+          { "text": "restless", "isCorrect": false },
+          { "text": "scarce", "isCorrect": false },
+          { "text": "surroundings", "isCorrect": false },
+          { "text": "raw", "isCorrect": false },
+          { "text": "flooded", "isCorrect": false },
+          { "text": "vast", "isCorrect": false },
+          { "text": "textured", "isCorrect": true },
+          { "text": "profound", "isCorrect": false },
+          { "text": "nonetheless", "isCorrect": false },
+          { "text": "foresee", "isCorrect": false },
+          { "text": "detect", "isCorrect": false },
+          { "text": "surrounded", "isCorrect": false },
+          { "text": "literal", "isCorrect": false },
+          { "text": "boundary", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The camouflage outfit helped him blend with his _____________, making it difficult for anyone to spot him in the forest.",
+        "options": [
+          { "text": "restless", "isCorrect": false },
+          { "text": "scarce", "isCorrect": false },
+          { "text": "surroundings", "isCorrect": true },
+          { "text": "raw", "isCorrect": false },
+          { "text": "flooded", "isCorrect": false },
+          { "text": "vast", "isCorrect": false },
+          { "text": "textured", "isCorrect": false },
+          { "text": "profound", "isCorrect": false },
+          { "text": "nonetheless", "isCorrect": false },
+          { "text": "foresee", "isCorrect": false },
+          { "text": "detect", "isCorrect": false },
+          { "text": "surrounded", "isCorrect": false },
+          { "text": "literal", "isCorrect": false },
+          { "text": "boundary", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the sentences. Fill in each space in this way. Spelling mistakes will be penalized.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "Many scientists _________________ that the new damage to the forests is the result of higher levels of pollution. New measures need to be taken immediately. (Base word: PRESUMABLY)",
+        "correctAnswer": "presume",
+        "options": []
+      },
+      {
+        "questionText": "Since I bought a software package that is ____________ with my laptop’s operating system, I will have to return it and buy a suitable one for my laptop. (Base word: COMPATIBLE)",
+        "correctAnswer": "incompatible",
+        "options": []
+      },
+      {
+        "questionText": "The school has a strong culture of ________________ of students with special needs. They want every student to take part in the same activities and enjoy themselves. (Base word: INCLUDE)",
+        "correctAnswer": "inclusion",
+        "options": []
+      },
+      {
+        "questionText": "Barcelona won’t have Arturo Vidal or Sergio Busquets due to ______________, and I think Ousmane Dembélé may still be recovering from injury. (Base word: SUSPEND)",
+        "correctAnswer": "suspension",
+        "options": []
+      },
+      {
+        "questionText": "The hotel is situated in a peaceful ______________ neighbourhood. (Base word: RESIDENCE)",
+        "correctAnswer": "residential",
+        "options": []
+      },
+      {
+        "questionText": "At university, you must be prepared to take ___________. You may not always find somebody to tell you what to do. (Base word: INITIATE)",
+        "correctAnswer": "initiative",
+        "options": []
+      },
+      {
+        "questionText": "If the hairstylist and makeup artist work ____________, they will have the bride ready on time despite her late arrival to the venue. (Base word: SIMULTANEOUS)",
+        "correctAnswer": "simultaneously",
+        "options": []
+      },
+      {
+        "questionText": "As poverty and poor housing ___________ with shorter life expectancy, the government needs to increase the life standards of its citizens living in poor suburbs. (Base word: CORRELATION)",
+        "correctAnswer": "correlate",
+        "options": []
+      },
+      {
+        "questionText": "What level in the ___________ structure do you want to be at? At the top or somewhere in the middle? (Base word: HIERARCHY)",
+        "correctAnswer": "hierarchical",
+        "options": []
+      },
+      {
+        "questionText": "In the singing competition there are several talented performers, most ____________ the purple-haired woman with the angelic voice. (Base word: NOTABLE)",
+        "correctAnswer": "notably",
+        "options": []
+      },
+      {
+        "questionText": "When you are dealing with so many patients, mistakes are ____________ to happen. Don’t feel bad! (Base word: BIND)",
+        "correctAnswer": "bound",
+        "options": []
+      },
+      {
+        "questionText": "Try to satisfy your ___________ with raw veggies and fruit rather than croissants. (Base word: HUNGRY)",
+        "correctAnswer": "hunger",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the table with an appropriate word from the box to make a collocation.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "What word collocates with 'consider', 'discuss', 'examine' to form a common phrase? (e.g., consider ______)",
+        "options": [
+          { "text": "tackle", "isCorrect": false },
+          { "text": "implication", "isCorrect": true },
+          { "text": "compromise", "isCorrect": false },
+          { "text": "profound", "isCorrect": false },
+          { "text": "parameters", "isCorrect": false },
+          { "text": "bounds", "isCorrect": false },
+          { "text": "obedience", "isCorrect": false },
+          { "text": "seize", "isCorrect": false },
+          { "text": "expertise", "isCorrect": false },
+          { "text": "sarcasm", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "What word collocates with 'have', 'require', 'lack'? (e.g., have ______)",
+        "options": [
+          { "text": "tackle", "isCorrect": false },
+          { "text": "implication", "isCorrect": false },
+          { "text": "compromise", "isCorrect": false },
+          { "text": "profound", "isCorrect": false },
+          { "text": "parameters", "isCorrect": false },
+          { "text": "bounds", "isCorrect": false },
+          { "text": "obedience", "isCorrect": false },
+          { "text": "seize", "isCorrect": false },
+          { "text": "expertise", "isCorrect": true },
+          { "text": "sarcasm", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "What word collocates with 'hint of', 'a trace of', 'touch of'? (e.g., hint of ______)",
+        "options": [
+          { "text": "tackle", "isCorrect": false },
+          { "text": "implication", "isCorrect": false },
+          { "text": "compromise", "isCorrect": false },
+          { "text": "profound", "isCorrect": false },
+          { "text": "parameters", "isCorrect": false },
+          { "text": "bounds", "isCorrect": false },
+          { "text": "obedience", "isCorrect": false },
+          { "text": "seize", "isCorrect": false },
+          { "text": "expertise", "isCorrect": false },
+          { "text": "sarcasm", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "What word collocates with 'swear', 'demand' (e.g., demand ______); and is described by 'blind', 'unquestioning', 'absolute/complete'? (e.g., blind ______)",
+        "options": [
+          { "text": "tackle", "isCorrect": false },
+          { "text": "implication", "isCorrect": false },
+          { "text": "compromise", "isCorrect": false },
+          { "text": "profound", "isCorrect": false },
+          { "text": "parameters", "isCorrect": false },
+          { "text": "bounds", "isCorrect": false },
+          { "text": "obedience", "isCorrect": true },
+          { "text": "seize", "isCorrect": false },
+          { "text": "expertise", "isCorrect": false },
+          { "text": "sarcasm", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "What verb collocates with 'a problem/issue', 'a job/challenge', 'crime', 'poverty', 'unemployment'? (e.g., ______ a problem)",
+        "options": [
+          { "text": "tackle", "isCorrect": true },
+          { "text": "implication", "isCorrect": false },
+          { "text": "compromise", "isCorrect": false },
+          { "text": "profound", "isCorrect": false },
+          { "text": "parameters", "isCorrect": false },
+          { "text": "bounds", "isCorrect": false },
+          { "text": "obedience", "isCorrect": false },
+          { "text": "seize", "isCorrect": false },
+          { "text": "expertise", "isCorrect": false },
+          { "text": "sarcasm", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "What verb collocates with 'power', 'control', 'a chance', 'an opportunity', 'the initiative'? (e.g., ______ power)",
+        "options": [
+          { "text": "tackle", "isCorrect": false },
+          { "text": "implication", "isCorrect": false },
+          { "text": "compromise", "isCorrect": false },
+          { "text": "profound", "isCorrect": false },
+          { "text": "parameters", "isCorrect": false },
+          { "text": "bounds", "isCorrect": false },
+          { "text": "obedience", "isCorrect": false },
+          { "text": "seize", "isCorrect": true },
+          { "text": "expertise", "isCorrect": false },
+          { "text": "sarcasm", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "What adjective collocates with 'impact', 'effect', 'changes'? (e.g., ______ impact)",
+        "options": [
+          { "text": "tackle", "isCorrect": false },
+          { "text": "implication", "isCorrect": false },
+          { "text": "compromise", "isCorrect": false },
+          { "text": "profound", "isCorrect": true },
+          { "text": "parameters", "isCorrect": false },
+          { "text": "bounds", "isCorrect": false },
+          { "text": "obedience", "isCorrect": false },
+          { "text": "seize", "isCorrect": false },
+          { "text": "expertise", "isCorrect": false },
+          { "text": "sarcasm", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "What word collocates with 'set', 'define', 'establish', 'consider'? (e.g., set ______)",
+        "options": [
+          { "text": "tackle", "isCorrect": false },
+          { "text": "implication", "isCorrect": false },
+          { "text": "compromise", "isCorrect": false },
+          { "text": "profound", "isCorrect": false },
+          { "text": "parameters", "isCorrect": true },
+          { "text": "bounds", "isCorrect": false },
+          { "text": "obedience", "isCorrect": false },
+          { "text": "seize", "isCorrect": false },
+          { "text": "expertise", "isCorrect": false },
+          { "text": "sarcasm", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "What word completes the phrases 'Within the …' and 'Out of …'? (e.g., within the ______)",
+        "options": [
+          { "text": "tackle", "isCorrect": false },
+          { "text": "implication", "isCorrect": false },
+          { "text": "compromise", "isCorrect": false },
+          { "text": "profound", "isCorrect": false },
+          { "text": "parameters", "isCorrect": false },
+          { "text": "bounds", "isCorrect": true },
+          { "text": "obedience", "isCorrect": false },
+          { "text": "seize", "isCorrect": false },
+          { "text": "expertise", "isCorrect": false },
+          { "text": "sarcasm", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "What word collocates with 'reach', 'come to', 'arrive at'? (e.g., reach a ______)",
+        "options": [
+          { "text": "tackle", "isCorrect": false },
+          { "text": "implication", "isCorrect": false },
+          { "text": "compromise", "isCorrect": true },
+          { "text": "profound", "isCorrect": false },
+          { "text": "parameters", "isCorrect": false },
+          { "text": "bounds", "isCorrect": false },
+          { "text": "obedience", "isCorrect": false },
+          { "text": "seize", "isCorrect": false },
+          { "text": "expertise", "isCorrect": false },
+          { "text": "sarcasm", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+]

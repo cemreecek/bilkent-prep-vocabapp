@@ -1,0 +1,4522 @@
+{
+  "sets": [
+    {
+      "id": "prefac-set-1",
+      "level": "prefac",
+      "title": "PFC Spring Semester Set 1",
+      "flashcards": [
+        {
+          "id": "tube",
+          "day": "Monday",
+          "word": "Tube",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "boost",
+          "day": "Monday",
+          "word": "Boost",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "treat",
+          "day": "Monday",
+          "word": "Treat",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "bind",
+          "day": "Monday",
+          "word": "Bind",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "incentive",
+          "day": "Monday",
+          "word": "Incentive",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "frozen",
+          "day": "Monday",
+          "word": "Frozen",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "abortion",
+          "day": "Monday",
+          "word": "Abortion",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "prior",
+          "day": "Monday",
+          "word": "Prior",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "terror",
+          "day": "Monday",
+          "word": "Terror",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "longevity",
+          "day": "Monday",
+          "word": "Longevity",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "energetic",
+          "day": "Monday",
+          "word": "Energetic",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "enforce",
+          "day": "Monday",
+          "word": "Enforce",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "chief",
+          "day": "Monday",
+          "word": "Chief",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "minimum",
+          "day": "Monday",
+          "word": "Minimum",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "wreck",
+          "day": "Monday",
+          "word": "Wreck",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "reform",
+          "day": "Monday",
+          "word": "Reform",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "intense",
+          "day": "Monday",
+          "word": "Intense",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "furious",
+          "day": "Monday",
+          "word": "Furious",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "automate",
+          "day": "Monday",
+          "word": "Automate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "hire",
+          "day": "Tuesday",
+          "word": "Hire",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "merchant",
+          "day": "Tuesday",
+          "word": "Merchant",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "rumor",
+          "day": "Tuesday",
+          "word": "Rumor",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "guarantee",
+          "day": "Tuesday",
+          "word": "Guarantee",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "chamber",
+          "day": "Tuesday",
+          "word": "Chamber",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "burden",
+          "day": "Tuesday",
+          "word": "Burden",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "shade",
+          "day": "Tuesday",
+          "word": "Shade",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "restrain",
+          "day": "Tuesday",
+          "word": "Restrain",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "rejoice",
+          "day": "Tuesday",
+          "word": "Rejoice",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "accumulate",
+          "day": "Tuesday",
+          "word": "Accumulate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "correspond",
+          "day": "Tuesday",
+          "word": "Correspond",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "meanwhile",
+          "day": "Tuesday",
+          "word": "Meanwhile",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noble",
+          "day": "Tuesday",
+          "word": "Noble",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "joint",
+          "day": "Tuesday",
+          "word": "Joint",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "reproduce",
+          "day": "Tuesday",
+          "word": "Reproduce",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "dictate",
+          "day": "Tuesday",
+          "word": "Dictate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "outdated",
+          "day": "Wednesday",
+          "word": "Outdated",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "negotiate",
+          "day": "Wednesday",
+          "word": "Negotiate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "route",
+          "day": "Wednesday",
+          "word": "Route",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "haste",
+          "day": "Wednesday",
+          "word": "Haste",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "fellow",
+          "day": "Wednesday",
+          "word": "Fellow",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "operate",
+          "day": "Wednesday",
+          "word": "Operate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "careless",
+          "day": "Wednesday",
+          "word": "Careless",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "confront",
+          "day": "Wednesday",
+          "word": "Confront",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "flesh",
+          "day": "Wednesday",
+          "word": "Flesh",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "hostile",
+          "day": "Wednesday",
+          "word": "Hostile",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "procedure",
+          "day": "Wednesday",
+          "word": "Procedure",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "resist",
+          "day": "Wednesday",
+          "word": "Resist",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "mutual",
+          "day": "Wednesday",
+          "word": "Mutual",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "conclude",
+          "day": "Wednesday",
+          "word": "Conclude",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "swing",
+          "day": "Wednesday",
+          "word": "Swing",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "evaporate",
+          "day": "Wednesday",
+          "word": "Evaporate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "flaw",
+          "day": "Wednesday",
+          "word": "Flaw",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unify",
+          "day": "Wednesday",
+          "word": "Unify",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "finite_infinite",
+          "day": "Thursday",
+          "word": "Finite/Infinite",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "indefinite _definite",
+          "day": "Thursday",
+          "word": "Indefinite /definite",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "administer",
+          "day": "Thursday",
+          "word": "Administer",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "declare",
+          "day": "Thursday",
+          "word": "Declare",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "automatic",
+          "day": "Thursday",
+          "word": "Automatic",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "replicate",
+          "day": "Thursday",
+          "word": "Replicate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "apologize",
+          "day": "Thursday",
+          "word": "Apologize",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "confirm",
+          "day": "Thursday",
+          "word": "Confirm",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "jewel",
+          "day": "Thursday",
+          "word": "Jewel",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "proceed",
+          "day": "Thursday",
+          "word": "Proceed",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "dispose",
+          "day": "Thursday",
+          "word": "Dispose",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "session",
+          "day": "Thursday",
+          "word": "Session",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "civil",
+          "day": "Thursday",
+          "word": "Civil",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "smart",
+          "day": "Thursday",
+          "word": "Smart",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "compose",
+          "day": "Thursday",
+          "word": "Compose",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "hack",
+          "day": "Thursday",
+          "word": "Hack",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "inferior",
+          "day": "Thursday",
+          "word": "Inferior",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "properly",
+          "day": "Friday",
+          "word": "Properly",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "stove",
+          "day": "Friday",
+          "word": "Stove",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "vehicle",
+          "day": "Friday",
+          "word": "Vehicle",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "prospective",
+          "day": "Friday",
+          "word": "Prospective",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "preliminary",
+          "day": "Friday",
+          "word": "Preliminary",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "upward",
+          "day": "Friday",
+          "word": "Upward",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "attorney",
+          "day": "Friday",
+          "word": "Attorney",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "domain",
+          "day": "Friday",
+          "word": "Domain",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "ahead",
+          "day": "Friday",
+          "word": "Ahead",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "undertake",
+          "day": "Friday",
+          "word": "Undertake",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "attain",
+          "day": "Friday",
+          "word": "Attain",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "cite",
+          "day": "Friday",
+          "word": "Cite",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "applaud",
+          "day": "Friday",
+          "word": "Applaud",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "blind",
+          "day": "Friday",
+          "word": "Blind",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "ignorant",
+          "day": "Friday",
+          "word": "Ignorant",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "tension",
+          "day": "Friday",
+          "word": "Tension",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "betray",
+          "day": "Friday",
+          "word": "Betray",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "considerate",
+          "day": "Friday",
+          "word": "Considerate",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-match",
+          "type": "matching",
+          "title": "PART 1- Match the following words with their definitions.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-match",
+          "type": "matching",
+          "title": "PART 2- Choose the word that matches the given dictionary definition.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 3- The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the sentences. Fill in each space in this way. Spelling mistakes will be penalized.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 4- Fill in the blanks with the most appropriate words from the box. There are 2 extra words.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-match",
+          "type": "matching",
+          "title": "PART 1- Match the following words with their definitions.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-match",
+          "type": "matching",
+          "title": "PART 2- Choose the word that matches the given dictionary definition.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 3- The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the sentences. Fill in each space in this way. Spelling mistakes will be penalized.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 4- Fill in the blanks with the most appropriate words from the box.",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "prefac-set-2",
+      "level": "prefac",
+      "title": "PFC Spring Semester Set 2",
+      "flashcards": [
+        {
+          "id": "heel",
+          "day": "Monday",
+          "word": "Heel",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "bend",
+          "day": "Monday",
+          "word": "Bend",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "lord",
+          "day": "Monday",
+          "word": "Lord",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "approach",
+          "day": "Monday",
+          "word": "Approach",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "curse",
+          "day": "Monday",
+          "word": "Curse",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "blink",
+          "day": "Monday",
+          "word": "Blink",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "exploit",
+          "day": "Monday",
+          "word": "Exploit",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "ideological",
+          "day": "Monday",
+          "word": "Ideological",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "agenda",
+          "day": "Monday",
+          "word": "Agenda",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "potential",
+          "day": "Monday",
+          "word": "Potential",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "outbreak",
+          "day": "Monday",
+          "word": "Outbreak",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "harvest",
+          "day": "Monday",
+          "word": "Harvest",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "prevalent",
+          "day": "Monday",
+          "word": "Prevalent",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "underestimate",
+          "day": "Monday",
+          "word": "Underestimate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "liable",
+          "day": "Monday",
+          "word": "Liable",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "assemble",
+          "day": "Monday",
+          "word": "assemble",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "coincide",
+          "day": "Monday",
+          "word": "Coincide",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "inborn",
+          "day": "Monday",
+          "word": "Inborn",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "equivalent",
+          "day": "Monday",
+          "word": "Equivalent",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "absolute",
+          "day": "Tuesday",
+          "word": "Absolute",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "timely",
+          "day": "Tuesday",
+          "word": "Timely",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "shift",
+          "day": "Tuesday",
+          "word": "Shift",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "neglect",
+          "day": "Tuesday",
+          "word": "Neglect",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "exception",
+          "day": "Tuesday",
+          "word": "Exception",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "drive",
+          "day": "Tuesday",
+          "word": "Drive",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "plot",
+          "day": "Tuesday",
+          "word": "Plot",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "compile",
+          "day": "Tuesday",
+          "word": "Compile",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "accustomed",
+          "day": "Tuesday",
+          "word": "Accustomed",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "sole",
+          "day": "Tuesday",
+          "word": "Sole",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "radical",
+          "day": "Tuesday",
+          "word": "Radical",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "contaminate",
+          "day": "Tuesday",
+          "word": "Contaminate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "inevitable",
+          "day": "Tuesday",
+          "word": "Inevitable",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "accountable",
+          "day": "Tuesday",
+          "word": "Accountable",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "rubber",
+          "day": "Tuesday",
+          "word": "Rubber",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "deteriorate",
+          "day": "Tuesday",
+          "word": "Deteriorate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "demolish",
+          "day": "Tuesday",
+          "word": "Demolish",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "thread",
+          "day": "Tuesday",
+          "word": "thread",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "nuclear",
+          "day": "Wednesday",
+          "word": "Nuclear",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "sharp",
+          "day": "Wednesday",
+          "word": "Sharp",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "gifted",
+          "day": "Wednesday",
+          "word": "Gifted",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "rebel",
+          "day": "Wednesday",
+          "word": "Rebel",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "beneficiary",
+          "day": "Wednesday",
+          "word": "Beneficiary",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "disrespect",
+          "day": "Wednesday",
+          "word": "Disrespect",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "subconscious",
+          "day": "Wednesday",
+          "word": "Subconscious",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "dig",
+          "day": "Wednesday",
+          "word": "Dig",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "conscience",
+          "day": "Wednesday",
+          "word": "Conscience",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "coal",
+          "day": "Wednesday",
+          "word": "Coal",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "incorporate",
+          "day": "Wednesday",
+          "word": "Incorporate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "cater",
+          "day": "Wednesday",
+          "word": "Cater",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "liberal",
+          "day": "Wednesday",
+          "word": "Liberal",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "conservative",
+          "day": "Wednesday",
+          "word": "Conservative",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "capable _incapable (of)",
+          "day": "Wednesday",
+          "word": "Capable /Incapable (of)",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "desert",
+          "day": "Wednesday",
+          "word": "desert",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "instance",
+          "day": "Wednesday",
+          "word": "Instance",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "advocate",
+          "day": "Wednesday",
+          "word": "Advocate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "alert",
+          "day": "Wednesday",
+          "word": "Alert",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "backbone",
+          "day": "Thursday",
+          "word": "Backbone",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "cease",
+          "day": "Thursday",
+          "word": "Cease",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "copyright",
+          "day": "Thursday",
+          "word": "Copyright",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "beneath",
+          "day": "Thursday",
+          "word": "Beneath",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "humid",
+          "day": "Thursday",
+          "word": "Humid",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "sword",
+          "day": "Thursday",
+          "word": "Sword",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "modify",
+          "day": "Thursday",
+          "word": "Modify",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "additive",
+          "day": "Thursday",
+          "word": "Additive",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "periodical",
+          "day": "Thursday",
+          "word": "Periodical",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "manipulate",
+          "day": "Thursday",
+          "word": "Manipulate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "numerous",
+          "day": "Thursday",
+          "word": "Numerous",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "dam",
+          "day": "Thursday",
+          "word": "Dam",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "coordinate",
+          "day": "Thursday",
+          "word": "Coordinate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "diagnose",
+          "day": "Thursday",
+          "word": "Diagnose",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "peculiar",
+          "day": "Thursday",
+          "word": "Peculiar",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "lawsuit",
+          "day": "Thursday",
+          "word": "lawsuit",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "vulnerable",
+          "day": "Thursday",
+          "word": "Vulnerable",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "devastate",
+          "day": "Thursday",
+          "word": "Devastate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "confidential",
+          "day": "Thursday",
+          "word": "Confidential",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "emit",
+          "day": "Friday",
+          "word": "Emit",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "preservation",
+          "day": "Friday",
+          "word": "Preservation",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "rush",
+          "day": "Friday",
+          "word": "Rush",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "compensate",
+          "day": "Friday",
+          "word": "Compensate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "commentary",
+          "day": "Friday",
+          "word": "Commentary",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "lid",
+          "day": "Friday",
+          "word": "Lid",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "deter",
+          "day": "Friday",
+          "word": "Deter",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "nuisance",
+          "day": "Friday",
+          "word": "Nuisance",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "humiliate",
+          "day": "Friday",
+          "word": "Humiliate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "commodity",
+          "day": "Friday",
+          "word": "Commodity",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "recruit",
+          "day": "Friday",
+          "word": "Recruit",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "logic",
+          "day": "Friday",
+          "word": "Logic",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "border",
+          "day": "Friday",
+          "word": "Border",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "labour",
+          "day": "Friday",
+          "word": "Labour",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "threat",
+          "day": "Friday",
+          "word": "Threat",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "vanish",
+          "day": "Friday",
+          "word": "vanish",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "worthwhile",
+          "day": "Friday",
+          "word": "Worthwhile",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "disrupt",
+          "day": "Friday",
+          "word": "Disrupt",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "compulsory",
+          "day": "Friday",
+          "word": "Compulsory",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-match",
+          "type": "matching",
+          "title": "PART 1: Find the word that matches the given dictionary definition by choosing A, B, C, D, or E",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 4: The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the sentences. Fill in each space in this way. Spelling mistakes will be penalized.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 5: PART 5: Fill in the blanks with the most appropriate words from the box. Do NOT change the forms.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-mc",
+          "type": "multiple-choice",
+          "title": "PART 6: Fill in the blanks with the correct word. Choose between \u2018conscience\u2019 and \u2018conscious\u2019.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-match",
+          "type": "matching",
+          "title": "PART 1: Find the word that matches the given dictionary definition by choosing A, B, C, D, or E",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 4: The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the sentences. Fill in each space in this way. Spelling mistakes will be penalized.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 5: Fill in the blanks with the most appropriate words from the box. Do NOT change the forms.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-mc",
+          "type": "multiple-choice",
+          "title": "PART 6: Fill in the blanks with the correct word. Choose between \u2018conscience\u2019 and \u2018conscious\u2019.",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "prefac-set-3",
+      "level": "prefac",
+      "title": "PFC Spring Semester Set 3",
+      "flashcards": [
+        {
+          "id": "tight _loose",
+          "day": "Monday",
+          "word": "Tight /Loose",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "pipe",
+          "day": "Monday",
+          "word": "Pipe",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "inner",
+          "day": "Monday",
+          "word": "Inner",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "hinder",
+          "day": "Monday",
+          "word": "Hinder",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "feasible",
+          "day": "Monday",
+          "word": "feasible",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "vain",
+          "day": "Monday",
+          "word": "Vain",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "famine",
+          "day": "Monday",
+          "word": "Famine",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "inhabit",
+          "day": "Monday",
+          "word": "Inhabit",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "trouble",
+          "day": "Monday",
+          "word": "Trouble",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "hang",
+          "day": "Monday",
+          "word": "Hang",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "mentality",
+          "day": "Monday",
+          "word": "Mentality",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "multiple",
+          "day": "Monday",
+          "word": "Multiple",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "proportion",
+          "day": "Monday",
+          "word": "Proportion",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "tremble",
+          "day": "Monday",
+          "word": "Tremble",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "assure",
+          "day": "Monday",
+          "word": "Assure",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "incurable_curable",
+          "day": "Monday",
+          "word": "Incurable/curable",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "distinct",
+          "day": "Monday",
+          "word": "Distinct",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "so-called",
+          "day": "Monday",
+          "word": "So-called",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "competence",
+          "day": "Monday",
+          "word": "Competence",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "illegal _legal",
+          "day": "Tuesday",
+          "word": "Illegal /Legal",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "strict",
+          "day": "Tuesday",
+          "word": "Strict",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "uneasy",
+          "day": "Tuesday",
+          "word": "Uneasy",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "lodging",
+          "day": "Tuesday",
+          "word": "Lodging",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "possess",
+          "day": "Tuesday",
+          "word": "Possess",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "consensus",
+          "day": "Tuesday",
+          "word": "Consensus",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "lean",
+          "day": "Tuesday",
+          "word": "Lean",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "improbable_probable",
+          "day": "Tuesday",
+          "word": "Improbable/probable",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "constitute",
+          "day": "Tuesday",
+          "word": "Constitute",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "sequence",
+          "day": "Tuesday",
+          "word": "Sequence",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "defend",
+          "day": "Tuesday",
+          "word": "Defend",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "attribute",
+          "day": "Tuesday",
+          "word": "Attribute",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "proposal",
+          "day": "Tuesday",
+          "word": "Proposal",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "insist",
+          "day": "Tuesday",
+          "word": "Insist",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "mate",
+          "day": "Tuesday",
+          "word": "Mate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "end up",
+          "day": "Tuesday",
+          "word": "End up",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "massive",
+          "day": "Wednesday",
+          "word": "Massive",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "dimension",
+          "day": "Wednesday",
+          "word": "Dimension",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "indirect",
+          "day": "Wednesday",
+          "word": "Indirect",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "virtual",
+          "day": "Wednesday",
+          "word": "Virtual",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "genius",
+          "day": "Wednesday",
+          "word": "Genius",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "company",
+          "day": "Wednesday",
+          "word": "Company",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "suburb",
+          "day": "Wednesday",
+          "word": "Suburb",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "shore",
+          "day": "Wednesday",
+          "word": "Shore",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "dismiss",
+          "day": "Wednesday",
+          "word": "Dismiss",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "sting",
+          "day": "Wednesday",
+          "word": "Sting",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "trait",
+          "day": "Wednesday",
+          "word": "Trait",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "resign",
+          "day": "Wednesday",
+          "word": "Resign",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "coverage",
+          "day": "Wednesday",
+          "word": "Coverage",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "fluctuate",
+          "day": "Wednesday",
+          "word": "Fluctuate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "deficiency",
+          "day": "Wednesday",
+          "word": "Deficiency",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "rest",
+          "day": "Wednesday",
+          "word": "Rest",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "conform",
+          "day": "Thursday",
+          "word": "Conform",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "stable",
+          "day": "Thursday",
+          "word": "Stable",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "motivate",
+          "day": "Thursday",
+          "word": "Motivate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "spite",
+          "day": "Thursday",
+          "word": "Spite",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "regard",
+          "day": "Thursday",
+          "word": "Regard",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "specialist",
+          "day": "Thursday",
+          "word": "Specialist",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "namely",
+          "day": "Thursday",
+          "word": "Namely",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "wing",
+          "day": "Thursday",
+          "word": "Wing",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "league",
+          "day": "Thursday",
+          "word": "League",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "spontaneous",
+          "day": "Thursday",
+          "word": "Spontaneous",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "trivial",
+          "day": "Thursday",
+          "word": "Trivial",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "dine",
+          "day": "Thursday",
+          "word": "Dine",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "lifelong",
+          "day": "Thursday",
+          "word": "Lifelong",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "deprive",
+          "day": "Thursday",
+          "word": "Deprive",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "harmony",
+          "day": "Thursday",
+          "word": "Harmony",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "point out",
+          "day": "Thursday",
+          "word": "Point out",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "urge",
+          "day": "Friday",
+          "word": "Urge",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "direct",
+          "day": "Friday",
+          "word": "Direct",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "otherwise",
+          "day": "Friday",
+          "word": "Otherwise",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "sector",
+          "day": "Friday",
+          "word": "Sector",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "essence",
+          "day": "Friday",
+          "word": "Essence",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "reckon",
+          "day": "Friday",
+          "word": "Reckon",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "maximum",
+          "day": "Friday",
+          "word": "Maximum",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "proof",
+          "day": "Friday",
+          "word": "Proof",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "grand",
+          "day": "Friday",
+          "word": "Grand",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "adjust",
+          "day": "Friday",
+          "word": "Adjust",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "clap",
+          "day": "Friday",
+          "word": "Clap",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "transmit disease",
+          "day": "Friday",
+          "word": "Transmit disease",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "prize",
+          "day": "Friday",
+          "word": "Prize",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "angle",
+          "day": "Friday",
+          "word": "Angle",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "vision",
+          "day": "Friday",
+          "word": "Vision",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "meantime",
+          "day": "Friday",
+          "word": "Meantime",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "convene",
+          "day": "Friday",
+          "word": "Convene",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "empathy",
+          "day": "Friday",
+          "word": "Empathy",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "drop",
+          "day": "Friday",
+          "word": "Drop",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 1: Fill in the blanks in the texts below by choosing A, B, C, D, or E.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-mc",
+          "type": "multiple-choice",
+          "title": "PART 3: Read the following sentences and choose A, B, C, D, or E.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 4: The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the sentences. Fill in each space in this way. Spelling mistakes will be penalized.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 5: Fill in the blanks with the most appropriate words from the box. There is one extra word. Do NOT change the forms.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-match",
+          "type": "matching",
+          "title": "PART 7: Find the word that matches the given dictionary definition. Choose A, B, C, D, or E.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 8: Fill in the table with an appropriate word from the box. There is ONE extra word.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 9: Fill in the gaps with the correct word.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 10: Fill in the following gaps with the correct word from the box. Use each word TWICE.",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "prefac-set-4",
+      "level": "prefac",
+      "title": "PFC Spring Semester Set 4",
+      "flashcards": [
+        {
+          "id": "pile",
+          "day": "Monday",
+          "word": "Pile",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "hypothetical",
+          "day": "Monday",
+          "word": "Hypothetical",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "prohibit",
+          "day": "Monday",
+          "word": "Prohibit",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "shortage",
+          "day": "Monday",
+          "word": "Shortage",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "obedience",
+          "day": "Monday",
+          "word": "Obedience",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "outwards",
+          "day": "Monday",
+          "word": "Outwards",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "holy",
+          "day": "Monday",
+          "word": "Holy",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "expertise",
+          "day": "Monday",
+          "word": "Expertise",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "minimal",
+          "day": "Monday",
+          "word": "Minimal",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "bundle",
+          "day": "Monday",
+          "word": "Bundle",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "residence",
+          "day": "Monday",
+          "word": "Residence",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "premises",
+          "day": "Monday",
+          "word": "Premises",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "correlation",
+          "day": "Monday",
+          "word": "Correlation",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "funeral",
+          "day": "Monday",
+          "word": "Funeral",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "remark",
+          "day": "Monday",
+          "word": "Remark",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "comprehensive",
+          "day": "Monday",
+          "word": "Comprehensive",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "exhaust",
+          "day": "Monday",
+          "word": "Exhaust",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "restless",
+          "day": "Tuesday",
+          "word": "Restless",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "invade",
+          "day": "Tuesday",
+          "word": "Invade",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "memorial",
+          "day": "Tuesday",
+          "word": "Memorial",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "foresee",
+          "day": "Tuesday",
+          "word": "Foresee",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "initiate",
+          "day": "Tuesday",
+          "word": "Initiate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "idle",
+          "day": "Tuesday",
+          "word": "Idle",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "regime",
+          "day": "Tuesday",
+          "word": "Regime",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "pitch",
+          "day": "Tuesday",
+          "word": "Pitch",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "deed",
+          "day": "Tuesday",
+          "word": "Deed",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "scarce",
+          "day": "Tuesday",
+          "word": "Scarce",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "breed",
+          "day": "Tuesday",
+          "word": "Breed",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "motive",
+          "day": "Tuesday",
+          "word": "Motive",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "boundary",
+          "day": "Tuesday",
+          "word": "Boundary",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "ease",
+          "day": "Tuesday",
+          "word": "Ease",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "substance",
+          "day": "Tuesday",
+          "word": "Substance",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "whisper",
+          "day": "Tuesday",
+          "word": "Whisper",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "parameter",
+          "day": "Tuesday",
+          "word": "Parameter",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "refrain",
+          "day": "Tuesday",
+          "word": "Refrain",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "presumably",
+          "day": "Wednesday",
+          "word": "Presumably",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "mode",
+          "day": "Wednesday",
+          "word": "Mode",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "vast",
+          "day": "Wednesday",
+          "word": "Vast",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "candidate",
+          "day": "Wednesday",
+          "word": "Candidate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "facilitate",
+          "day": "Wednesday",
+          "word": "Facilitate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "surround",
+          "day": "Wednesday",
+          "word": "Surround",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "compromise",
+          "day": "Wednesday",
+          "word": "Compromise",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "melt",
+          "day": "Wednesday",
+          "word": "Melt",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "pride",
+          "day": "Wednesday",
+          "word": "Pride",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "schedule _scheme",
+          "day": "Wednesday",
+          "word": "Schedule /Scheme",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "hierarchy",
+          "day": "Wednesday",
+          "word": "Hierarchy",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "deficit",
+          "day": "Wednesday",
+          "word": "Deficit",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "simultaneous",
+          "day": "Wednesday",
+          "word": "Simultaneous",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "log",
+          "day": "Wednesday",
+          "word": "Log",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "solid",
+          "day": "Wednesday",
+          "word": "Solid",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "literal",
+          "day": "Wednesday",
+          "word": "Literal",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "notify",
+          "day": "Wednesday",
+          "word": "Notify",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "devote",
+          "day": "Thursday",
+          "word": "Devote",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "beast",
+          "day": "Thursday",
+          "word": "Beast",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "compatible",
+          "day": "Thursday",
+          "word": "Compatible",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "nonetheless",
+          "day": "Thursday",
+          "word": "Nonetheless",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "appendix",
+          "day": "Thursday",
+          "word": "Appendix",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "seize",
+          "day": "Thursday",
+          "word": "Seize",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "strike",
+          "day": "Thursday",
+          "word": "Strike",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "inclusive",
+          "day": "Thursday",
+          "word": "Inclusive",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "master",
+          "day": "Thursday",
+          "word": "Master",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "shoot",
+          "day": "Thursday",
+          "word": "Shoot",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "suspend",
+          "day": "Thursday",
+          "word": "Suspend",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "drugstore",
+          "day": "Thursday",
+          "word": "Drugstore",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "gravity",
+          "day": "Thursday",
+          "word": "Gravity",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "fierce",
+          "day": "Thursday",
+          "word": "Fierce",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "notable",
+          "day": "Thursday",
+          "word": "Notable",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "generalize",
+          "day": "Thursday",
+          "word": "Generalize",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "texture",
+          "day": "Thursday",
+          "word": "Texture",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "grease",
+          "day": "Friday",
+          "word": "Grease",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "raw",
+          "day": "Friday",
+          "word": "Raw",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "implication",
+          "day": "Friday",
+          "word": "Implication",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "blade",
+          "day": "Friday",
+          "word": "Blade",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "bound",
+          "day": "Friday",
+          "word": "Bound",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "pattern",
+          "day": "Friday",
+          "word": "Pattern",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "element",
+          "day": "Friday",
+          "word": "Element",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "tackle",
+          "day": "Friday",
+          "word": "Tackle",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "indifferent",
+          "day": "Friday",
+          "word": "Indifferent",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "code",
+          "day": "Friday",
+          "word": "Code",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "detect",
+          "day": "Friday",
+          "word": "Detect",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "constrain",
+          "day": "Friday",
+          "word": "Constrain",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "atmosphere",
+          "day": "Friday",
+          "word": "Atmosphere",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "supplement",
+          "day": "Friday",
+          "word": "Supplement",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "flood",
+          "day": "Friday",
+          "word": "Flood",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "hunger",
+          "day": "Friday",
+          "word": "Hunger",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "profound",
+          "day": "Friday",
+          "word": "Profound",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 1: Fill in the blanks in the texts below by choosing A, B, C, D, or E.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 2: The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the sentences. Fill in each space in this way. Spelling mistakes will be penalized.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 3: Fill in the blanks with the most appropriate words from the box. Use each word ONCE only. There are MORE words than you need. Do NOT change the forms.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 4: Fill in the table with an appropriate word from the box.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 5: Fill in the gaps with the correct collocation of the words in the previous exercise (part 4). Sometimes there could be MORE than one correct answer.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 6: Fill in the gaps below with an appropriate word from the box.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 7: Fill in the gaps with the correct word.",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "prefac-set-5",
+      "level": "prefac",
+      "title": "PFC Spring Semester Set 5",
+      "flashcards": [
+        {
+          "id": "mechanism",
+          "day": "Monday",
+          "word": "Mechanism",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "outlook",
+          "day": "Monday",
+          "word": "Outlook",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "transit",
+          "day": "Monday",
+          "word": "Transit",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "overlook",
+          "day": "Monday",
+          "word": "Overlook",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "hopeless _hopeful",
+          "day": "Monday",
+          "word": "Hopeless /Hopeful",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "file",
+          "day": "Monday",
+          "word": "File",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "trace",
+          "day": "Monday",
+          "word": "Trace",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "lay",
+          "day": "Monday",
+          "word": "Lay",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "campaign",
+          "day": "Monday",
+          "word": "Campaign",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "hook",
+          "day": "Monday",
+          "word": "Hook",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "despair",
+          "day": "Monday",
+          "word": "Despair",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "hence",
+          "day": "Monday",
+          "word": "Hence",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "multiply",
+          "day": "Monday",
+          "word": "Multiply",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "settle",
+          "day": "Monday",
+          "word": "Settle",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "spot",
+          "day": "Monday",
+          "word": "Spot",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "guideline",
+          "day": "Monday",
+          "word": "Guideline",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "erupt",
+          "day": "Monday",
+          "word": "Erupt",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "draw (to attract attention)",
+          "day": "Monday",
+          "word": "Draw (to attract attention)",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "evoke",
+          "day": "Monday",
+          "word": "Evoke",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "heritage",
+          "day": "Monday",
+          "word": "Heritage",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "constant",
+          "day": "Tuesday",
+          "word": "Constant",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "hip",
+          "day": "Tuesday",
+          "word": "Hip",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "wonder",
+          "day": "Tuesday",
+          "word": "Wonder",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "treat",
+          "day": "Tuesday",
+          "word": "Treat",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "modest",
+          "day": "Tuesday",
+          "word": "Modest",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "foster",
+          "day": "Tuesday",
+          "word": "Foster",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "messenger",
+          "day": "Tuesday",
+          "word": "Messenger",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "incident",
+          "day": "Tuesday",
+          "word": "Incident",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "in charge",
+          "day": "Tuesday",
+          "word": "In charge",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "bias",
+          "day": "Tuesday",
+          "word": "Bias",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "grain",
+          "day": "Tuesday",
+          "word": "Grain",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "hero",
+          "day": "Tuesday",
+          "word": "Hero",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "brief",
+          "day": "Tuesday",
+          "word": "Brief",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "grab",
+          "day": "Wednesday",
+          "word": "Grab",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "tempt",
+          "day": "Wednesday",
+          "word": "Tempt",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "limb",
+          "day": "Wednesday",
+          "word": "Limb",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "rival",
+          "day": "Wednesday",
+          "word": "Rival",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "mining",
+          "day": "Wednesday",
+          "word": "Mining",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "address",
+          "day": "Wednesday",
+          "word": "Address",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "inspect",
+          "day": "Wednesday",
+          "word": "Inspect",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "split",
+          "day": "Wednesday",
+          "word": "Split",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "carriage",
+          "day": "Wednesday",
+          "word": "Carriage",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "crown",
+          "day": "Wednesday",
+          "word": "Crown",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "scare",
+          "day": "Wednesday",
+          "word": "Scare",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "fond",
+          "day": "Wednesday",
+          "word": "Fond",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "bother_ bothersome",
+          "day": "Wednesday",
+          "word": "Bother/ bothersome",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "reassure",
+          "day": "Wednesday",
+          "word": "Reassure",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "shelter",
+          "day": "Wednesday",
+          "word": "Shelter",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "crack",
+          "day": "Wednesday",
+          "word": "Crack",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "depress",
+          "day": "Wednesday",
+          "word": "Depress",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "reasoning",
+          "day": "Wednesday",
+          "word": "Reasoning",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "parallel",
+          "day": "Thursday",
+          "word": "Parallel",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "engage",
+          "day": "Thursday",
+          "word": "Engage",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "reluctant",
+          "day": "Thursday",
+          "word": "Reluctant",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "internal _external",
+          "day": "Thursday",
+          "word": "Internal /External",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "hunt",
+          "day": "Thursday",
+          "word": "Hunt",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "excess",
+          "day": "Thursday",
+          "word": "Excess",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "jail",
+          "day": "Thursday",
+          "word": "Jail",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "timeless",
+          "day": "Thursday",
+          "word": "Timeless",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "scenario",
+          "day": "Thursday",
+          "word": "Scenario",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "humble",
+          "day": "Thursday",
+          "word": "Humble",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "scale",
+          "day": "Thursday",
+          "word": "Scale",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "evolution",
+          "day": "Thursday",
+          "word": "Evolution",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "tolerate",
+          "day": "Thursday",
+          "word": "Tolerate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "practical",
+          "day": "Thursday",
+          "word": "Practical",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "rigid",
+          "day": "Thursday",
+          "word": "Rigid",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "grind",
+          "day": "Thursday",
+          "word": "Grind",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "flame",
+          "day": "Thursday",
+          "word": "Flame",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "powder",
+          "day": "Friday",
+          "word": "Powder",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "policy",
+          "day": "Friday",
+          "word": "Policy",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "virtue",
+          "day": "Friday",
+          "word": "Virtue",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "entitle",
+          "day": "Friday",
+          "word": "Entitle",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "imprison",
+          "day": "Friday",
+          "word": "Imprison",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "shield",
+          "day": "Friday",
+          "word": "Shield",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "dare",
+          "day": "Friday",
+          "word": "Dare",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "military",
+          "day": "Friday",
+          "word": "Military",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "exceed",
+          "day": "Friday",
+          "word": "Exceed",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "life expectancy",
+          "day": "Friday",
+          "word": "Life expectancy",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "penalty",
+          "day": "Friday",
+          "word": "Penalty",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "plug",
+          "day": "Friday",
+          "word": "Plug",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "glue",
+          "day": "Friday",
+          "word": "Glue",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "sentence",
+          "day": "Friday",
+          "word": "Sentence",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "extrinsic",
+          "day": "Friday",
+          "word": "Extrinsic",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "intrinsic",
+          "day": "Friday",
+          "word": "Intrinsic",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "opt",
+          "day": "Friday",
+          "word": "Opt",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-mc",
+          "type": "multiple-choice",
+          "title": "PART 1: Read the following text and choose the best option.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-match",
+          "type": "matching",
+          "title": "PART 2: Match the words with their right collocation and then fill in the blanks with them.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-mc",
+          "type": "multiple-choice",
+          "title": "PART 4: Choose the synonym of the word that is underlined in the following sentences and write it in the blank at the end of them. There are more words in the box than you need.",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "prefac-set-6",
+      "level": "prefac",
+      "title": "PFC Spring Semester Set 6",
+      "flashcards": [
+        {
+          "id": "hollow",
+          "day": "Monday",
+          "word": "Hollow",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "stare (at)",
+          "day": "Monday",
+          "word": "Stare (at)",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "persist",
+          "day": "Monday",
+          "word": "Persist",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "gentle",
+          "day": "Monday",
+          "word": "Gentle",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "hardship",
+          "day": "Monday",
+          "word": "Hardship",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "dominate",
+          "day": "Monday",
+          "word": "Dominate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "bribe",
+          "day": "Monday",
+          "word": "Bribe",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "illuminate",
+          "day": "Monday",
+          "word": "Illuminate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "basis",
+          "day": "Monday",
+          "word": "Basis",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "horizontal_vertical",
+          "day": "Monday",
+          "word": "Horizontal/Vertical",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "relief",
+          "day": "Monday",
+          "word": "Relief",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "stiff",
+          "day": "Monday",
+          "word": "Stiff",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "party ( a third party)",
+          "day": "Monday",
+          "word": "Party ( a third party)",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "downward",
+          "day": "Monday",
+          "word": "Downward",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "cultivate",
+          "day": "Monday",
+          "word": "Cultivate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "dialect",
+          "day": "Monday",
+          "word": "Dialect",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "flourish",
+          "day": "Monday",
+          "word": "Flourish",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "loyal",
+          "day": "Monday",
+          "word": "Loyal",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "institution",
+          "day": "Tuesday",
+          "word": "Institution",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "fitness",
+          "day": "Tuesday",
+          "word": "Fitness",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "improper_proper",
+          "day": "Tuesday",
+          "word": "Improper/Proper",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "splendid",
+          "day": "Tuesday",
+          "word": "Splendid",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "projection",
+          "day": "Tuesday",
+          "word": "Projection",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "random",
+          "day": "Tuesday",
+          "word": "Random",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "scope",
+          "day": "Tuesday",
+          "word": "Scope",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "fundamental",
+          "day": "Tuesday",
+          "word": "Fundamental",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "precious",
+          "day": "Tuesday",
+          "word": "Precious",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "facility",
+          "day": "Tuesday",
+          "word": "Facility",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "neat",
+          "day": "Tuesday",
+          "word": "Neat",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "label",
+          "day": "Tuesday",
+          "word": "Label",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "instruct",
+          "day": "Tuesday",
+          "word": "Instruct",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "spill",
+          "day": "Tuesday",
+          "word": "Spill",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "sincere",
+          "day": "Tuesday",
+          "word": "Sincere",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "edge",
+          "day": "Tuesday",
+          "word": "Edge",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "sue",
+          "day": "Tuesday",
+          "word": "Sue",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "revolve",
+          "day": "Tuesday",
+          "word": "Revolve",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "foundation",
+          "day": "Wednesday",
+          "word": "Foundation",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "expense",
+          "day": "Wednesday",
+          "word": "Expense",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "abstract",
+          "day": "Wednesday",
+          "word": "Abstract",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "fur",
+          "day": "Wednesday",
+          "word": "Fur",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "mixed",
+          "day": "Wednesday",
+          "word": "Mixed",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "stir",
+          "day": "Wednesday",
+          "word": "Stir",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "utilize",
+          "day": "Wednesday",
+          "word": "Utilize",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "terminate",
+          "day": "Wednesday",
+          "word": "Terminate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "plough",
+          "day": "Wednesday",
+          "word": "Plough",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "rough",
+          "day": "Wednesday",
+          "word": "Rough",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "pinch",
+          "day": "Wednesday",
+          "word": "Pinch",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "furnish",
+          "day": "Wednesday",
+          "word": "Furnish",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "bear",
+          "day": "Wednesday",
+          "word": "Bear",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "slight",
+          "day": "Wednesday",
+          "word": "Slight",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "exhibit",
+          "day": "Wednesday",
+          "word": "Exhibit",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "primarily",
+          "day": "Thursday",
+          "word": "Primarily",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "pearl",
+          "day": "Thursday",
+          "word": "Pearl",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "rescue",
+          "day": "Thursday",
+          "word": "Rescue",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "ratio",
+          "day": "Thursday",
+          "word": "Ratio",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "sheet (of paper)",
+          "day": "Thursday",
+          "word": "Sheet (of paper)",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "superior",
+          "day": "Thursday",
+          "word": "Superior",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "executive",
+          "day": "Thursday",
+          "word": "Executive",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "deceive",
+          "day": "Thursday",
+          "word": "Deceive",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "limitation",
+          "day": "Thursday",
+          "word": "Limitation",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "bid",
+          "day": "Thursday",
+          "word": "Bid",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "recall",
+          "day": "Thursday",
+          "word": "Recall",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "enemy",
+          "day": "Thursday",
+          "word": "Enemy",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "motionless",
+          "day": "Thursday",
+          "word": "Motionless",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "monitor",
+          "day": "Thursday",
+          "word": "Monitor",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "ditch",
+          "day": "Thursday",
+          "word": "Ditch",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "vague",
+          "day": "Thursday",
+          "word": "Vague",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "prosperous",
+          "day": "Thursday",
+          "word": "Prosperous",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "derive",
+          "day": "Friday",
+          "word": "Derive",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "comprise",
+          "day": "Friday",
+          "word": "Comprise",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "thereby",
+          "day": "Friday",
+          "word": "Thereby",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "reactor",
+          "day": "Friday",
+          "word": "Reactor",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "impure_pure",
+          "day": "Friday",
+          "word": "Impure/Pure",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "gain",
+          "day": "Friday",
+          "word": "Gain",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "enable",
+          "day": "Friday",
+          "word": "Enable",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "stretch",
+          "day": "Friday",
+          "word": "Stretch",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "maximize",
+          "day": "Friday",
+          "word": "Maximize",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "nerve",
+          "day": "Friday",
+          "word": "Nerve",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "norm",
+          "day": "Friday",
+          "word": "Norm",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "feast",
+          "day": "Friday",
+          "word": "Feast",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "pretend",
+          "day": "Friday",
+          "word": "Pretend",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "differentiate",
+          "day": "Friday",
+          "word": "Differentiate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "midst",
+          "day": "Friday",
+          "word": "Midst",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "spit",
+          "day": "Friday",
+          "word": "Spit",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "underlie",
+          "day": "Friday",
+          "word": "Underlie",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "illusion",
+          "day": "Friday",
+          "word": "Illusion",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 1: Fill in the blanks in the texts below by choosing A, B, C, D, or E.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 2: Fill in the blanks with the most appropriate words from the box. There are MORE words than you need. Do NOT change the forms.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 3: Fill in the gaps with the correct word.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-mc",
+          "type": "multiple-choice",
+          "title": "PART 4: Choose the correct word form by circling A, B, C, or D.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 5: Fill in the gaps below with the correct linking word.",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "prefac-set-7",
+      "level": "prefac",
+      "title": "PFC Spring Semester Set 7",
+      "flashcards": [
+        {
+          "id": "alter",
+          "day": "Monday",
+          "word": "Alter",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "corporate",
+          "day": "Monday",
+          "word": "Corporate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "category",
+          "day": "Monday",
+          "word": "Category",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "ally",
+          "day": "Monday",
+          "word": "Ally",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "violate",
+          "day": "Monday",
+          "word": "Violate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "rank",
+          "day": "Monday",
+          "word": "Rank",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "resolve",
+          "day": "Monday",
+          "word": "Resolve",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "omit",
+          "day": "Monday",
+          "word": "Omit",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "disregard",
+          "day": "Monday",
+          "word": "Disregard",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "fine",
+          "day": "Monday",
+          "word": "Fine",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "united",
+          "day": "Monday",
+          "word": "United",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "zone",
+          "day": "Monday",
+          "word": "Zone",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "authority",
+          "day": "Monday",
+          "word": "Authority",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "sophisticated",
+          "day": "Monday",
+          "word": "Sophisticated",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "ancestor",
+          "day": "Monday",
+          "word": "Ancestor",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "moderate",
+          "day": "Monday",
+          "word": "Moderate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "legislation",
+          "day": "Monday",
+          "word": "Legislation",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "irrigate",
+          "day": "Monday",
+          "word": "Irrigate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "bet",
+          "day": "Tuesday",
+          "word": "Bet",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "visual",
+          "day": "Tuesday",
+          "word": "Visual",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "identical",
+          "day": "Tuesday",
+          "word": "Identical",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "creature",
+          "day": "Tuesday",
+          "word": "Creature",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "advance",
+          "day": "Tuesday",
+          "word": "Advance",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "craft",
+          "day": "Tuesday",
+          "word": "Craft",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "prompt",
+          "day": "Tuesday",
+          "word": "Prompt",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "ethnic",
+          "day": "Tuesday",
+          "word": "Ethnic",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "straw",
+          "day": "Tuesday",
+          "word": "Straw",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "sow",
+          "day": "Tuesday",
+          "word": "Sow",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "major",
+          "day": "Tuesday",
+          "word": "Major",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "capture",
+          "day": "Tuesday",
+          "word": "Capture",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "infrastructure",
+          "day": "Tuesday",
+          "word": "Infrastructure",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "data",
+          "day": "Tuesday",
+          "word": "Data",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "sin",
+          "day": "Tuesday",
+          "word": "Sin",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "poverty",
+          "day": "Wednesday",
+          "word": "Poverty",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "concerning (as a preposition)",
+          "day": "Wednesday",
+          "word": "Concerning (as a preposition)",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "senior",
+          "day": "Wednesday",
+          "word": "Senior",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "multiple",
+          "day": "Wednesday",
+          "word": "Multiple",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "reverse",
+          "day": "Wednesday",
+          "word": "Reverse",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "precede",
+          "day": "Wednesday",
+          "word": "Precede",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "desire",
+          "day": "Wednesday",
+          "word": "Desire",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "endurance",
+          "day": "Wednesday",
+          "word": "Endurance",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "acknowledge",
+          "day": "Wednesday",
+          "word": "Acknowledge",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "inordinate",
+          "day": "Wednesday",
+          "word": "Inordinate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "paste",
+          "day": "Wednesday",
+          "word": "Paste",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "load",
+          "day": "Wednesday",
+          "word": "Load",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "innovate",
+          "day": "Wednesday",
+          "word": "Innovate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "mild",
+          "day": "Wednesday",
+          "word": "Mild",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "contagious",
+          "day": "Wednesday",
+          "word": "Contagious",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "request",
+          "day": "Thursday",
+          "word": "Request",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "drag",
+          "day": "Thursday",
+          "word": "Drag",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "lately",
+          "day": "Thursday",
+          "word": "Lately",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "dissimilar",
+          "day": "Thursday",
+          "word": "Dissimilar",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "isolate",
+          "day": "Thursday",
+          "word": "Isolate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "privilege",
+          "day": "Thursday",
+          "word": "Privilege",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "temple",
+          "day": "Thursday",
+          "word": "Temple",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "obliged",
+          "day": "Thursday",
+          "word": "Obliged",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "dissolve",
+          "day": "Thursday",
+          "word": "Dissolve",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "arise",
+          "day": "Thursday",
+          "word": "Arise",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "broad",
+          "day": "Thursday",
+          "word": "Broad",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "veil",
+          "day": "Thursday",
+          "word": "Veil",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "stocking",
+          "day": "Thursday",
+          "word": "Stocking",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "restrict",
+          "day": "Thursday",
+          "word": "Restrict",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "allowance",
+          "day": "Thursday",
+          "word": "Allowance",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "refresh",
+          "day": "Thursday",
+          "word": "Refresh",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "subtle",
+          "day": "Thursday",
+          "word": "Subtle",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "seal",
+          "day": "Thursday",
+          "word": "Seal",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "inhibit",
+          "day": "Friday",
+          "word": "Inhibit",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "immense",
+          "day": "Friday",
+          "word": "Immense",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "consult",
+          "day": "Friday",
+          "word": "Consult",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "soil",
+          "day": "Friday",
+          "word": "Soil",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "publicity",
+          "day": "Friday",
+          "word": "Publicity",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "dispute",
+          "day": "Friday",
+          "word": "Dispute",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "sew",
+          "day": "Friday",
+          "word": "Sew",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "diversity",
+          "day": "Friday",
+          "word": "Diversity",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "undergo operation",
+          "day": "Friday",
+          "word": "Undergo operation",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "revenue",
+          "day": "Friday",
+          "word": "Revenue",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "ambiguity",
+          "day": "Friday",
+          "word": "Ambiguity",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "historian",
+          "day": "Friday",
+          "word": "Historian",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "creation",
+          "day": "Friday",
+          "word": "Creation",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "appoint",
+          "day": "Friday",
+          "word": "Appoint",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "suck",
+          "day": "Friday",
+          "word": "Suck",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "subsequent",
+          "day": "Friday",
+          "word": "Subsequent",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "landfill",
+          "day": "Friday",
+          "word": "Landfill",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "undermine",
+          "day": "Friday",
+          "word": "Undermine",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-gapfill",
+          "type": "gap-fill",
+          "title": "PART 3 \u2013 FILL IN THE GAPS",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-mc",
+          "type": "multiple-choice",
+          "title": "PART 5 - CHOOSE THE SYNONYMS",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "prefac-set-8",
+      "level": "prefac",
+      "title": "PFC Spring Semester Set 8",
+      "flashcards": [
+        {
+          "id": "contest",
+          "day": "Monday",
+          "word": "Contest",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "relate",
+          "day": "Monday",
+          "word": "Relate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "client",
+          "day": "Monday",
+          "word": "Client",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "reinforce",
+          "day": "Monday",
+          "word": "Reinforce",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "rural _urban",
+          "day": "Monday",
+          "word": "Rural /urban",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "sphere",
+          "day": "Monday",
+          "word": "Sphere",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "respiration",
+          "day": "Monday",
+          "word": "Respiration",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "exit",
+          "day": "Monday",
+          "word": "Exit",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "deviate",
+          "day": "Monday",
+          "word": "Deviate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "cotton",
+          "day": "Monday",
+          "word": "Cotton",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "contradict",
+          "day": "Monday",
+          "word": "Contradict",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "likewise",
+          "day": "Monday",
+          "word": "Likewise",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "stimulate",
+          "day": "Monday",
+          "word": "Stimulate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "terrify",
+          "day": "Monday",
+          "word": "Terrify",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "fade",
+          "day": "Monday",
+          "word": "Fade",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "discriminate",
+          "day": "Monday",
+          "word": "Discriminate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "lessen",
+          "day": "Monday",
+          "word": "Lessen",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "supposedly",
+          "day": "Monday",
+          "word": "Supposedly",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "nut",
+          "day": "Tuesday",
+          "word": "Nut",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "shift",
+          "day": "Tuesday",
+          "word": "Shift",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "refuse",
+          "day": "Tuesday",
+          "word": "Refuse",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "cliff",
+          "day": "Tuesday",
+          "word": "Cliff",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "waist",
+          "day": "Tuesday",
+          "word": "Waist",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "insight",
+          "day": "Tuesday",
+          "word": "Insight",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "inaccessible_accessible",
+          "day": "Tuesday",
+          "word": "Inaccessible/Accessible",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "bulk",
+          "day": "Tuesday",
+          "word": "Bulk",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "sustain",
+          "day": "Tuesday",
+          "word": "Sustain",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "collaborate",
+          "day": "Tuesday",
+          "word": "Collaborate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "vital",
+          "day": "Tuesday",
+          "word": "Vital",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "retain",
+          "day": "Tuesday",
+          "word": "Retain",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "patriotic",
+          "day": "Tuesday",
+          "word": "Patriotic",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "ongoing",
+          "day": "Tuesday",
+          "word": "Ongoing",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "distort",
+          "day": "Tuesday",
+          "word": "Distort",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "pose",
+          "day": "Tuesday",
+          "word": "Pose",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "prescribe",
+          "day": "Tuesday",
+          "word": "Prescribe",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "intervene",
+          "day": "Wednesday",
+          "word": "Intervene",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "distract",
+          "day": "Wednesday",
+          "word": "Distract",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "estimate",
+          "day": "Wednesday",
+          "word": "Estimate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "regulate",
+          "day": "Wednesday",
+          "word": "Regulate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "layer",
+          "day": "Wednesday",
+          "word": "Layer",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "mere",
+          "day": "Wednesday",
+          "word": "Mere",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "anonymous",
+          "day": "Wednesday",
+          "word": "Anonymous",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "worm",
+          "day": "Wednesday",
+          "word": "Worm",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "commerce",
+          "day": "Wednesday",
+          "word": "Commerce",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "sticky",
+          "day": "Wednesday",
+          "word": "Sticky",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "breadth",
+          "day": "Wednesday",
+          "word": "Breadth",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "evidence",
+          "day": "Wednesday",
+          "word": "Evidence",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "defeat",
+          "day": "Wednesday",
+          "word": "Defeat",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "colonize",
+          "day": "Wednesday",
+          "word": "Colonize",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "collapse",
+          "day": "Wednesday",
+          "word": "Collapse",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "worship",
+          "day": "Wednesday",
+          "word": "Worship",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "refute",
+          "day": "Wednesday",
+          "word": "Refute",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "shot",
+          "day": "Thursday",
+          "word": "Shot",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "delicate",
+          "day": "Thursday",
+          "word": "Delicate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "assert",
+          "day": "Thursday",
+          "word": "Assert",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "mankind",
+          "day": "Thursday",
+          "word": "Mankind",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "sacrifice",
+          "day": "Thursday",
+          "word": "Sacrifice",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "disobey",
+          "day": "Thursday",
+          "word": "Disobey",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "inherent",
+          "day": "Thursday",
+          "word": "Inherent",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "seek",
+          "day": "Thursday",
+          "word": "Seek",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "concrete",
+          "day": "Thursday",
+          "word": "Concrete",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "integral",
+          "day": "Thursday",
+          "word": "Integral",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "stem",
+          "day": "Thursday",
+          "word": "Stem",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "debate",
+          "day": "Thursday",
+          "word": "Debate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "accompany",
+          "day": "Thursday",
+          "word": "Accompany",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "analyst",
+          "day": "Thursday",
+          "word": "Analyst",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "vessel",
+          "day": "Thursday",
+          "word": "Vessel",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "speculate",
+          "day": "Thursday",
+          "word": "Speculate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "disguise",
+          "day": "Thursday",
+          "word": "Disguise",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "rigour",
+          "day": "Thursday",
+          "word": "Rigour",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "display",
+          "day": "Friday",
+          "word": "Display",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "comfort",
+          "day": "Friday",
+          "word": "Comfort",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "diminish",
+          "day": "Friday",
+          "word": "Diminish",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "spin",
+          "day": "Friday",
+          "word": "Spin",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "protection",
+          "day": "Friday",
+          "word": "Protection",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "prejudice",
+          "day": "Friday",
+          "word": "Prejudice",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "horizon",
+          "day": "Friday",
+          "word": "Horizon",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "trap",
+          "day": "Friday",
+          "word": "Trap",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "domestic",
+          "day": "Friday",
+          "word": "Domestic",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "cynical",
+          "day": "Friday",
+          "word": "Cynical",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "independence",
+          "day": "Friday",
+          "word": "Independence",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "trigger",
+          "day": "Friday",
+          "word": "Trigger",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "invaluable",
+          "day": "Friday",
+          "word": "Invaluable",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "tip (of an iceberg)",
+          "day": "Friday",
+          "word": "Tip (of an iceberg)",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "overlap",
+          "day": "Friday",
+          "word": "Overlap",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "irrespective",
+          "day": "Friday",
+          "word": "Irrespective",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "sum up",
+          "day": "Friday",
+          "word": "Sum up",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "verify",
+          "day": "Friday",
+          "word": "Verify",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-mc",
+          "type": "multiple-choice",
+          "title": "PART 2 \u2013 Choose the right word",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-mc",
+          "type": "multiple-choice",
+          "title": "PART 3 - Choose the INCORRECT one.",
+          "content": "Manual extraction needed"
+        },
+        {
+          "id": "practice-mc",
+          "type": "multiple-choice",
+          "title": "PART 4 \u2013 Choose the right word.",
+          "content": "Manual extraction needed"
+        }
+      ]
+    }
+  ]
+}

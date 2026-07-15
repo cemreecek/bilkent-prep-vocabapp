@@ -1,0 +1,368 @@
+[
+  {
+    "instruction": "Fill in the blanks with the most appropriate words from the box. There are more words than you need. Do not change the forms.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "If your cat has a medical condition or a disease, you should first ______ your vet before buying cat food.",
+        "correctAnswer": "consult",
+        "options": []
+      },
+      {
+        "questionText": "Among her many ______, Queen Elizabeth does not need a passport to travel internationally. She also does not need a license to drive.",
+        "correctAnswer": "privileges",
+        "options": []
+      },
+      {
+        "questionText": "The Amazon rainforest has a wide ______ of flora and fauna as it is home to almost 5 million species of animals, plants, and insects.",
+        "correctAnswer": "diversity",
+        "options": []
+      },
+      {
+        "questionText": "If you download free movies, you could even find yourself in prison if you ______ copyright laws.",
+        "correctAnswer": "violate",
+        "options": []
+      },
+      {
+        "questionText": "Marathons are a test of ______ because one has to be strong enough both physically and mentally to run 42 km without a break.",
+        "correctAnswer": "endurance",
+        "options": []
+      },
+      {
+        "questionText": "Some people claim that it is too late to save the planet as we have done ______ damage to the environment.",
+        "correctAnswer": "irreversible",
+        "options": []
+      },
+      {
+        "questionText": "During all this time little was done to ______ the living conditions of the Indigenous people. They lived and died in terrible conditions.",
+        "correctAnswer": "alter",
+        "options": []
+      },
+      {
+        "questionText": "Migrating birds cover ______ distances every winter. Some birds can travel as far as 25,000 km.",
+        "correctAnswer": "immense",
+        "options": []
+      },
+      {
+        "questionText": "After long negotiations, they were able to ______ the conflict and signed an agreement.",
+        "correctAnswer": "resolve",
+        "options": []
+      },
+      {
+        "questionText": "My father cannot quit smoking, but he has decided to ______ himself to three cigarettes a day.",
+        "correctAnswer": "restrict",
+        "options": []
+      },
+      {
+        "questionText": "The airline company is accused of placing more ______ on profit than on safety.",
+        "correctAnswer": "emphasis",
+        "options": []
+      },
+      {
+        "questionText": "The constant criticism was beginning to ______ her confidence.",
+        "correctAnswer": "undermine",
+        "options": []
+      },
+      {
+        "questionText": "The documents were ______ in an envelope to ensure their confidentiality during transit.",
+        "correctAnswer": "sealed",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Choose the word that matches the given dictionary definition.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "well-educated and having experience of the world or knowledge of culture",
+        "options": [
+          { "text": "senior", "isCorrect": false },
+          { "text": "authority", "isCorrect": false },
+          { "text": "sophisticated", "isCorrect": true },
+          { "text": "ancestor", "isCorrect": false },
+          { "text": "superior", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "to choose someone for a job or position",
+        "options": [
+          { "text": "rank", "isCorrect": false },
+          { "text": "arise", "isCorrect": false },
+          { "text": "drag", "isCorrect": false },
+          { "text": "executive", "isCorrect": false },
+          { "text": "appoint", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "done quickly, immediately, or at the right time",
+        "options": [
+          { "text": "prompt", "isCorrect": true },
+          { "text": "rough", "isCorrect": false },
+          { "text": "mild", "isCorrect": false },
+          { "text": "improper", "isCorrect": false },
+          { "text": "craft", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "an amount of money that you are given regularly or for a special purpose",
+        "options": [
+          { "text": "stocking", "isCorrect": false },
+          { "text": "load", "isCorrect": false },
+          { "text": "revenue", "isCorrect": false },
+          { "text": "allowance", "isCorrect": true },
+          { "text": "bet", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "the state of being unclear, confusing, or not certain, or things that produce this effect",
+        "options": [
+          { "text": "inordinate", "isCorrect": false },
+          { "text": "ambiguity", "isCorrect": true },
+          { "text": "subtle", "isCorrect": false },
+          { "text": "inconsistent", "isCorrect": false },
+          { "text": "dissimilar", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "to admit or accept that something is true or that a situation exists",
+        "options": [
+          { "text": "omit", "isCorrect": false },
+          { "text": "promote", "isCorrect": false },
+          { "text": "acknowledge", "isCorrect": true },
+          { "text": "persist", "isCorrect": false },
+          { "text": "dispute", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "to make someone pay money as a punishment",
+        "options": [
+          { "text": "capture", "isCorrect": false },
+          { "text": "request", "isCorrect": false },
+          { "text": "fine", "isCorrect": true },
+          { "text": "obliged", "isCorrect": false },
+          { "text": "dissolve", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "to happen or exist before something or someone, or to come before something else in a series",
+        "options": [
+          { "text": "undergo", "isCorrect": false },
+          { "text": "advance", "isCorrect": false },
+          { "text": "sow", "isCorrect": false },
+          { "text": "foresee", "isCorrect": false },
+          { "text": "precede", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Read the following sentences and choose the best option.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "He totally ______ my advice and took many risks. Now, he cannot blame me.",
+        "options": [
+          { "text": "utilized", "isCorrect": false },
+          { "text": "disregarded", "isCorrect": true },
+          { "text": "exhibited", "isCorrect": false },
+          { "text": "underwent", "isCorrect": false },
+          { "text": "bore", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "She spends a/n ______ amount of time on her appearance. Sometimes she spends four hours only doing make-up.",
+        "options": [
+          { "text": "moderate", "isCorrect": false },
+          { "text": "slight", "isCorrect": false },
+          { "text": "advanced", "isCorrect": false },
+          { "text": "inordinate", "isCorrect": true },
+          { "text": "corporate", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "For ______ learners, it is important to make use of pictures, graphs, and flashcards as they recall information best by seeing.",
+        "options": [
+          { "text": "identical", "isCorrect": false },
+          { "text": "modest", "isCorrect": false },
+          { "text": "abstract", "isCorrect": false },
+          { "text": "splendid", "isCorrect": false },
+          { "text": "visual", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Violence against women has received a lot of ______ over the last few years, which may result in stricter laws and harsher punishments.",
+        "options": [
+          { "text": "publicity", "isCorrect": true },
+          { "text": "infrastructure", "isCorrect": false },
+          { "text": "ally", "isCorrect": false },
+          { "text": "foundation", "isCorrect": false },
+          { "text": "data", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "After all that hard work and years of training, she ______ to win the competition.",
+        "options": [
+          { "text": "enables", "isCorrect": false },
+          { "text": "innovates", "isCorrect": false },
+          { "text": "deserves", "isCorrect": true },
+          { "text": "monitors", "isCorrect": false },
+          { "text": "unites", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "She was ______ to stay in bed for three years because she was suffering from a spinal injury after the accident.",
+        "options": [
+          { "text": "devoted", "isCorrect": false },
+          { "text": "pretended", "isCorrect": false },
+          { "text": "entitled", "isCorrect": false },
+          { "text": "tempted", "isCorrect": false },
+          { "text": "obliged", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Choose the synonyms of the word that is underlined. There are more words than you need.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "Problems emerge if the parents’ approach to discipline is inconsistent. ______",
+        "correctAnswer": "arise",
+        "options": []
+      },
+      {
+        "questionText": "Smoking is one of the main causes of cancer. ______",
+        "correctAnswer": "major",
+        "options": []
+      },
+      {
+        "questionText": "The government needs to do more to encourage recycling. ______",
+        "correctAnswer": "promote",
+        "options": []
+      },
+      {
+        "questionText": "The pictures are similar, but there are slight differences between them. ______",
+        "correctAnswer": "subtle",
+        "options": []
+      },
+      {
+        "questionText": "He was separated from all the other prisoners. ______",
+        "correctAnswer": "isolated",
+        "options": []
+      },
+      {
+        "questionText": "Three of the gang's members were caught and sent to prison. ______",
+        "correctAnswer": "captured",
+        "options": []
+      },
+      {
+        "questionText": "Recording the meeting may prevent people from expressing their real views. ______",
+        "correctAnswer": "inhibit",
+        "options": []
+      },
+      {
+        "questionText": "The theory was developed subsequent to the earthquake of 1906. ______",
+        "correctAnswer": "following",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Choose the words that make a collocation. There are more words than you need. Do not change the forms.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "People are individuals, and you cannot really put them into ______.",
+        "correctAnswer": "categories",
+        "options": []
+      },
+      {
+        "questionText": "İstanbul and Tokyo are both located in earthquake ______.",
+        "correctAnswer": "zones",
+        "options": []
+      },
+      {
+        "questionText": "Many people feel shocked by the speed of technological ______. A new device is invented almost every day.",
+        "correctAnswer": "innovation",
+        "options": []
+      },
+      {
+        "questionText": "Some people think drinking in ______ can prevent heart disease, but if it is too much, it can cause liver damage.",
+        "correctAnswer": "moderation",
+        "options": []
+      },
+      {
+        "questionText": "This century has witnessed environmental destruction on a/n ______ scale. More than half of the forests have been destroyed and up to 500 species have gone extinct in the last 100 years.",
+        "correctAnswer": "unprecedented",
+        "options": []
+      },
+      {
+        "questionText": "Immigration has increased sharply, and we need to do something to ______ this trend if we do not want to be affected negatively.",
+        "correctAnswer": "reverse",
+        "options": []
+      },
+      {
+        "questionText": "To prevent a major disaster authorities must take ______ action. Otherwise, it will be too late.",
+        "correctAnswer": "prompt",
+        "options": []
+      },
+      {
+        "questionText": "My mother had to ______ an emergency operation yesterday after having a car accident.",
+        "correctAnswer": "undergo",
+        "options": []
+      },
+      {
+        "questionText": "He was in ______ with his last company so they terminated his contract.",
+        "correctAnswer": "dispute",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the sentences. Fill in each space in this way. Spelling mistakes will be penalized.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "We need to help kids from a/an ______ family background so that they can have the same opportunities as the ones from affluent families. (PRIVILEGE)",
+        "correctAnswer": "underprivileged",
+        "options": []
+      },
+      {
+        "questionText": "It is a/an ______ fact that smoking cigarettes can increase the risk of lung cancer. (DISPUTE)",
+        "correctAnswer": "indisputable",
+        "options": []
+      },
+      {
+        "questionText": "The law requires equal treatment for all, ______ of age, race, and gender. (DISREGARD)",
+        "correctAnswer": "regardless",
+        "options": []
+      },
+      {
+        "questionText": "Although ______ patients have complained over the years about the doctor’s rude manners, no actions have been taken. (MULTIPLY)",
+        "correctAnswer": "multiple",
+        "options": []
+      },
+      {
+        "questionText": "The minister made a clear and ______ statement on what economic measures were taken. (AMBIGUITY)",
+        "correctAnswer": "unambiguous",
+        "options": []
+      },
+      {
+        "questionText": "By the third month of the expedition they had ______ many hardships, but worse was to follow. (ENDURANCE)",
+        "correctAnswer": "endured",
+        "options": []
+      },
+      {
+        "questionText": "Before the millionaire died, he made ______ in his will including leaving his estate to charity and not to his children. (ALTER)",
+        "correctAnswer": "alterations",
+        "options": []
+      },
+      {
+        "questionText": "______ prevents the import and export of certain types of drugs. (LEGISLATE)",
+        "correctAnswer": "legislation",
+        "options": []
+      }
+    ]
+  }
+]

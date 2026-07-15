@@ -1,0 +1,120 @@
+[
+  {
+    "instruction": "SET 8 MONDAY Vocabulary List",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Contest", "options": [] },
+      { "questionText": "Relate", "options": [] },
+      { "questionText": "Client", "options": [] },
+      { "questionText": "Reinforce", "options": [] },
+      { "questionText": "Rural /urban", "options": [] },
+      { "questionText": "Sphere", "options": [] },
+      { "questionText": "Respiration", "options": [] },
+      { "questionText": "Exit", "options": [] },
+      { "questionText": "Deviate", "options": [] },
+      { "questionText": "Cotton", "options": [] },
+      { "questionText": "Contradict", "options": [] },
+      { "questionText": "Likewise", "options": [] },
+      { "questionText": "Stimulate", "options": [] },
+      { "questionText": "Terrify", "options": [] },
+      { "questionText": "Fade", "options": [] },
+      { "questionText": "Discriminate", "options": [] },
+      { "questionText": "Lessen", "options": [] },
+      { "questionText": "Supposedly", "options": [] }
+    ]
+  },
+  {
+    "instruction": "SET 8 TUESDAY Vocabulary List",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Nut", "options": [] },
+      { "questionText": "Shift", "options": [] },
+      { "questionText": "Refuse", "options": [] },
+      { "questionText": "Cliff", "options": [] },
+      { "questionText": "Waist", "options": [] },
+      { "questionText": "Insight", "options": [] },
+      { "questionText": "Inaccessible/Accessible", "options": [] },
+      { "questionText": "Bulk", "options": [] },
+      { "questionText": "Sustain", "options": [] },
+      { "questionText": "Collaborate", "options": [] },
+      { "questionText": "Vital", "options": [] },
+      { "questionText": "Retain", "options": [] },
+      { "questionText": "Patriotic", "options": [] },
+      { "questionText": "Ongoing", "options": [] },
+      { "questionText": "Distort", "options": [] },
+      { "questionText": "Pose", "options": [] },
+      { "questionText": "Prescribe", "options": [] }
+    ]
+  },
+  {
+    "instruction": "SET 8 WEDNESDAY Vocabulary List",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Intervene", "options": [] },
+      { "questionText": "Distract", "options": [] },
+      { "questionText": "Estimate", "options": [] },
+      { "questionText": "Regulate", "options": [] },
+      { "questionText": "Layer", "options": [] },
+      { "questionText": "Mere", "options": [] },
+      { "questionText": "Anonymous", "options": [] },
+      { "questionText": "Worm", "options": [] },
+      { "questionText": "Commerce", "options": [] },
+      { "questionText": "Sticky", "options": [] },
+      { "questionText": "Breadth", "options": [] },
+      { "questionText": "Evidence", "options": [] },
+      { "questionText": "Defeat", "options": [] },
+      { "questionText": "Colonize", "options": [] },
+      { "questionText": "Collapse", "options": [] },
+      { "questionText": "Worship", "options": [] },
+      { "questionText": "Refute", "options": [] }
+    ]
+  },
+  {
+    "instruction": "SET 8 THURSDAY Vocabulary List",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Shot", "options": [] },
+      { "questionText": "Delicate", "options": [] },
+      { "questionText": "Assert", "options": [] },
+      { "questionText": "Mankind", "options": [] },
+      { "questionText": "Sacrifice", "options": [] },
+      { "questionText": "Disobey", "options": [] },
+      { "questionText": "Inherent", "options": [] },
+      { "questionText": "Seek", "options": [] },
+      { "questionText": "Concrete", "options": [] },
+      { "questionText": "Integral", "options": [] },
+      { "questionText": "Stem", "options": [] },
+      { "questionText": "Debate", "options": [] },
+      { "questionText": "Accompany", "options": [] },
+      { "questionText": "Analyst", "options": [] },
+      { "questionText": "Vessel", "options": [] },
+      { "questionText": "Speculate", "options": [] },
+      { "questionText": "Disguise", "options": [] },
+      { "questionText": "Rigour", "options": [] }
+    ]
+  },
+  {
+    "instruction": "SET 8 FRIDAY Vocabulary List",
+    "type": "word-bank",
+    "items": [
+      { "questionText": "Display", "options": [] },
+      { "questionText": "Comfort", "options": [] },
+      { "questionText": "Diminish", "options": [] },
+      { "questionText": "Spin", "options": [] },
+      { "questionText": "Protection", "options": [] },
+      { "questionText": "Prejudice", "options": [] },
+      { "questionText": "Horizon", "options": [] },
+      { "questionText": "Trap", "options": [] },
+      { "questionText": "Domestic", "options": [] },
+      { "questionText": "Cynical", "options": [] },
+      { "questionText": "Independence", "options": [] },
+      { "questionText": "Trigger", "options": [] },
+      { "questionText": "Invaluable", "options": [] },
+      { "questionText": "Tip (of an iceberg)", "options": [] },
+      { "questionText": "Overlap", "options": [] },
+      { "questionText": "Irrespective", "options": [] },
+      { "questionText": "Sum up", "options": [] },
+      { "questionText": "Verify", "options": [] }
+    ]
+  }
+]

@@ -1,0 +1,791 @@
+[
+  {
+    "instruction": "Choose the word that matches the given dictionary definition by choosing A, B, C, D or E.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "existing in one since birth, inborn, unlearned",
+        "options": [
+          { "text": "Sensitive", "isCorrect": false },
+          { "text": "Initial", "isCorrect": false },
+          { "text": "Skeptical", "isCorrect": false },
+          { "text": "Innate", "isCorrect": true },
+          { "text": "Intellectual", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "to get control of a country by fighting",
+        "options": [
+          { "text": "Export", "isCorrect": false },
+          { "text": "Struggle", "isCorrect": false },
+          { "text": "Command", "isCorrect": false },
+          { "text": "Conquer", "isCorrect": true },
+          { "text": "Decline", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "available or belonging only to particular people, and not shared",
+        "options": [
+          { "text": "Exclusive", "isCorrect": true },
+          { "text": "Intellectual", "isCorrect": false },
+          { "text": "Desirable", "isCorrect": false },
+          { "text": "Logical", "isCorrect": false },
+          { "text": "Specific", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "not expressed or organized clearly, and therefore difficult or impossible to understand",
+        "options": [
+          { "text": "Rough", "isCorrect": false },
+          { "text": "Honorable", "isCorrect": false },
+          { "text": "Initial", "isCorrect": false },
+          { "text": "Incoherent", "isCorrect": true },
+          { "text": "Innocent", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "to completely get rid of something that is unnecessary or unwanted",
+        "options": [
+          { "text": "Estimate", "isCorrect": false },
+          { "text": "Cooperate", "isCorrect": false },
+          { "text": "Eliminate", "isCorrect": true },
+          { "text": "Astonish", "isCorrect": false },
+          { "text": "Expose", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "to talk too proudly about your abilities, achievements, or possessions",
+        "options": [
+          { "text": "Hint", "isCorrect": false },
+          { "text": "Remain", "isCorrect": false },
+          { "text": "Inquire", "isCorrect": false },
+          { "text": "Donate", "isCorrect": false },
+          { "text": "Boast", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "after a long time, or after a lot of things have happened",
+        "options": [
+          { "text": "Genuinely", "isCorrect": false },
+          { "text": "Gradually", "isCorrect": false },
+          { "text": "Eventually", "isCorrect": true },
+          { "text": "Crucially", "isCorrect": false },
+          { "text": "Unlikely", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "feeling or showing that you enjoy something or are pleased about it",
+        "options": [
+          { "text": "Regretful", "isCorrect": false },
+          { "text": "Innocent", "isCorrect": false },
+          { "text": "Willing", "isCorrect": false },
+          { "text": "Appreciative", "isCorrect": true },
+          { "text": "Conscious", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "difficult to convince, having doubts, disbelieving",
+        "options": [
+          { "text": "Illogical", "isCorrect": false },
+          { "text": "Skeptical", "isCorrect": true },
+          { "text": "Incoherent", "isCorrect": false },
+          { "text": "Sensitive", "isCorrect": false },
+          { "text": "Accomplished", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "to force people to accept a rule, punishment or tax",
+        "options": [
+          { "text": "Impose", "isCorrect": true },
+          { "text": "Honor", "isCorrect": false },
+          { "text": "Classify", "isCorrect": false },
+          { "text": "Censor", "isCorrect": false },
+          { "text": "Allocate", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Complete the chart with the appropriate word forms.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "Verb form of 'conquest' (1): ______",
+        "correctAnswer": "CONQUER",
+        "options": []
+      },
+      {
+        "questionText": "Noun (person) form of 'conquest' (2): ______",
+        "correctAnswer": "CONQUEROR",
+        "options": []
+      },
+      {
+        "questionText": "Noun form of 'classify' (3): ______",
+        "correctAnswer": "CLASSIFICATION",
+        "options": []
+      },
+      {
+        "questionText": "Adjective form of 'classify' (4): ______",
+        "correctAnswer": "CLASSIFIED",
+        "options": []
+      },
+      {
+        "questionText": "Verb form of 'honor' (5): ______",
+        "correctAnswer": "HONOR",
+        "options": []
+      },
+      {
+        "questionText": "Adjective form 1 of 'honor' (6): ______",
+        "correctAnswer": "HONORABLE",
+        "options": []
+      },
+      {
+        "questionText": "Adjective form 2 of 'honor' (7): ______",
+        "correctAnswer": "HONORED",
+        "options": []
+      },
+      {
+        "questionText": "Noun form of 'innocent' (8): ______",
+        "correctAnswer": "INNOCENCE",
+        "options": []
+      },
+      {
+        "questionText": "Adverb form of 'innocent' (9): ______",
+        "correctAnswer": "INNOCENTLY",
+        "options": []
+      },
+      {
+        "questionText": "Noun form of 'coherence' denoting lack of clarity (10): ______",
+        "correctAnswer": "INCOHERENCE",
+        "options": []
+      },
+      {
+        "questionText": "Adjective form 1 of 'coherence' (11): ______",
+        "correctAnswer": "COHERENT",
+        "options": []
+      },
+      {
+        "questionText": "Adjective form 2 of 'coherence' denoting lack of clarity (12): ______",
+        "correctAnswer": "INCOHERENT",
+        "options": []
+      },
+      {
+        "questionText": "Verb form of 'unemployment' (13): ______",
+        "correctAnswer": "EMPLOY",
+        "options": []
+      },
+      {
+        "questionText": "Noun form 1 of 'employ' (14): ______",
+        "correctAnswer": "EMPLOYMENT",
+        "options": []
+      },
+      {
+        "questionText": "Noun form 2 of 'employ' (15): ______",
+        "correctAnswer": "EMPLOYEE",
+        "options": []
+      },
+      {
+        "questionText": "Noun form 3 of 'employ' (16): ______",
+        "correctAnswer": "EMPLOYER",
+        "options": []
+      },
+      {
+        "questionText": "Adjective form 1 of 'employ' (17): ______",
+        "correctAnswer": "EMPLOYED",
+        "options": []
+      },
+      {
+        "questionText": "Adjective form 2 of 'employ' denoting lack of work (18): ______",
+        "correctAnswer": "UNEMPLOYED",
+        "options": []
+      },
+      {
+        "questionText": "Noun form of 'illogical' (19): ______",
+        "correctAnswer": "LOGIC",
+        "options": []
+      },
+      {
+        "questionText": "Adjective form 2 of 'illogical' (positive) (20): ______",
+        "correctAnswer": "LOGICAL",
+        "options": []
+      },
+      {
+        "questionText": "Adverb form 1 of 'logical' (21): ______",
+        "correctAnswer": "LOGICALLY",
+        "options": []
+      },
+      {
+        "questionText": "Adverb form 2 of 'illogical' (22): ______",
+        "correctAnswer": "ILLOGICALLY",
+        "options": []
+      },
+      {
+        "questionText": "Noun form of 'lively' (23): ______",
+        "correctAnswer": "LIVELINESS",
+        "options": []
+      },
+      {
+        "questionText": "Adjective form (base) of 'lively' (24): ______",
+        "correctAnswer": "LIVE",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the blanks in the text below by choosing A, B, C, D or E.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "Reading is an activity that everyone should be encouraged to do. It is not just a way to pass the time, but it also makes one more {1} of understanding complex ideas. When you read, you are exposed to new ideas and {2} that you might not have heard before. This enhances your ability to think critically and improves your {3} for learning new things and interpretation.\n\nReading may help you become more {4} to the needs of the world around you thus giving you more tolerance and awareness. Additionally, reading magazines and newspapers can specifically address issues that are {5} and need immediate attention such as climate change or human rights. It can also offer insights into solutions that may seem {6} at first, but which would actually have a significant impact.\n\n{7}, reading books and periodicals was the main source of knowledge for many people. While technology has changed how we access information, the fundamentals of reading remain essential. It is through reading that you can develop a deeper understanding of life in order to {8} your goals. You can also {9} the intellectual strength of great minds who have shared their knowledge through books.\n\nIn conclusion, reading is an activity that has stood the test of time and has a {10} effect on personal growth and development. Therefore, it should be nurtured.",
+        "options": [
+          [
+            { "text": "skeptical", "isCorrect": false, "blankIndex": 1 },
+            { "text": "capable", "isCorrect": true, "blankIndex": 1 },
+            { "text": "exclusive", "isCorrect": false, "blankIndex": 1 },
+            { "text": "biased", "isCorrect": false, "blankIndex": 1 },
+            { "text": "aware", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "counter-arguments", "isCorrect": true, "blankIndex": 2 },
+            { "text": "moralities", "isCorrect": false, "blankIndex": 2 },
+            { "text": "rejections", "isCorrect": false, "blankIndex": 2 },
+            { "text": "commands", "isCorrect": false, "blankIndex": 2 },
+            { "text": "loyalties", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "logic", "isCorrect": false, "blankIndex": 3 },
+            { "text": "wisdom", "isCorrect": false, "blankIndex": 3 },
+            { "text": "progress", "isCorrect": false, "blankIndex": 3 },
+            { "text": "capacity", "isCorrect": true, "blankIndex": 3 },
+            { "text": "struggle", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "sensitive", "isCorrect": true, "blankIndex": 4 },
+            { "text": "moral", "isCorrect": false, "blankIndex": 4 },
+            { "text": "typical", "isCorrect": false, "blankIndex": 4 },
+            { "text": "valid", "isCorrect": false, "blankIndex": 4 },
+            { "text": "intensive", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "lively", "isCorrect": false, "blankIndex": 5 },
+            { "text": "rare", "isCorrect": false, "blankIndex": 5 },
+            { "text": "urgent", "isCorrect": true, "blankIndex": 5 },
+            { "text": "extraordinary", "isCorrect": false, "blankIndex": 5 },
+            { "text": "rapid", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "mental", "isCorrect": false, "blankIndex": 6 },
+            { "text": "logical", "isCorrect": false, "blankIndex": 6 },
+            { "text": "permanent", "isCorrect": false, "blankIndex": 6 },
+            { "text": "unlikely", "isCorrect": true, "blankIndex": 6 },
+            { "text": "honorable", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "Eventually", "isCorrect": false, "blankIndex": 7 },
+            { "text": "Roughly", "isCorrect": false, "blankIndex": 7 },
+            { "text": "Globally", "isCorrect": false, "blankIndex": 7 },
+            { "text": "Partially", "isCorrect": false, "blankIndex": 7 },
+            { "text": "Formerly", "isCorrect": true, "blankIndex": 7 }
+          ],
+          [
+            { "text": "attend", "isCorrect": false, "blankIndex": 8 },
+            { "text": "occupy", "isCorrect": false, "blankIndex": 8 },
+            { "text": "reject", "isCorrect": false, "blankIndex": 8 },
+            { "text": "accomplish", "isCorrect": true, "blankIndex": 8 },
+            { "text": "apply", "isCorrect": false, "blankIndex": 8 }
+          ],
+          [
+            { "text": "desire", "isCorrect": false, "blankIndex": 9 },
+            { "text": "appreciate", "isCorrect": true, "blankIndex": 9 },
+            { "text": "exclude", "isCorrect": false, "blankIndex": 9 },
+            { "text": "employ", "isCorrect": false, "blankIndex": 9 },
+            { "text": "impose", "isCorrect": false, "blankIndex": 9 }
+          ],
+          [
+            { "text": "complete", "isCorrect": false, "blankIndex": 10 },
+            { "text": "global", "isCorrect": false, "blankIndex": 10 },
+            { "text": "diverse", "isCorrect": false, "blankIndex": 10 },
+            { "text": "unsuitable", "isCorrect": false, "blankIndex": 10 },
+            { "text": "tremendous", "isCorrect": true, "blankIndex": 10 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Below you will find different dictionary definitions of the bolded word. Circle the one that best matches the sentence.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "She made a **rough** calculation of the likely cost.",
+        "options": [
+          { "text": "not exact or detailed", "isCorrect": true },
+          { "text": "not even or smooth", "isCorrect": false },
+          { "text": "used to describe an alcoholic drink that tastes cheap and often strong", "isCorrect": false },
+          { "text": "not made in a careful or expensive way", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Football **occupies** most of my leisure time.",
+        "options": [
+          { "text": "to live or stay in a place", "isCorrect": false },
+          { "text": "to have an official position or job", "isCorrect": false },
+          { "text": "to keep you busy doing something", "isCorrect": true },
+          { "text": "to enter a place in a large group and keep control of it, especially by military force", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Negotiations for the **deal** took more than 14 months.",
+        "options": [
+          { "text": "to give cards to each player in a game of cards", "isCorrect": false },
+          { "text": "an agreement or arrangement, especially in business or politics, that helps both sides involved", "isCorrect": true },
+          { "text": "a large amount", "isCorrect": false },
+          { "text": "the pale, soft wood of a pine or fir tree", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "These students are part of an **exclusive** group of high achievers.",
+        "options": [
+          { "text": "concerned with only one thing", "isCorrect": false },
+          { "text": "expensive and only for people who are rich or of a high social class", "isCorrect": false },
+          { "text": "a story that is published in one magazine, website, etc., and no others", "isCorrect": false },
+          { "text": "limited to only one person or a small group of people", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "We couldn’t understand the local shopkeepers, so we had to ask our guide to **interpret** for us.",
+        "options": [
+          { "text": "to decide what the intended meaning of something is", "isCorrect": false },
+          { "text": "to express your own ideas about the intended meaning of a play or a piece of music when performing it", "isCorrect": false },
+          { "text": "to change what someone is saying into another language", "isCorrect": true },
+          { "text": "to describe the meaning of something; examine in order to explain", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The offer only **applies** to flights from London and Manchester.",
+        "options": [
+          { "text": "to make a formal request for something such as a job or a place at a university", "isCorrect": false },
+          { "text": "to use something such as a method or an idea in a process", "isCorrect": false },
+          { "text": "to put or spread something such as paint, liquid, or medicine onto a surface", "isCorrect": false },
+          { "text": "have an effect on or to concern a particular person, group, or situation", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "The strategies she **employed** were unconventional.",
+        "options": [
+          { "text": "to make use of", "isCorrect": true },
+          { "text": "to create something", "isCorrect": false },
+          { "text": "to give paid work to someone", "isCorrect": false },
+          { "text": "to provide labor for a company", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "After examining all the evidence, the detective **concluded** that the incident was an accident.",
+        "options": [
+          { "text": "to make an announcement", "isCorrect": false },
+          { "text": "to reach an opinion or judgement based on reasoning", "isCorrect": true },
+          { "text": "to finish", "isCorrect": false },
+          { "text": "to bring a speech, essay, or presentation to an end", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "This restaurant used to be our favorite, but it has **declined** since the new owners took over.",
+        "options": [
+          { "text": "a gradual and continuous loss of strength, amount, or value", "isCorrect": false },
+          { "text": "to state the forms of nouns, pronouns, or adjectives in the grammar of certain languages", "isCorrect": false },
+          { "text": "to politely refuse an invitation or offer", "isCorrect": false },
+          { "text": "for something to become regarded as worse or of lesser quality", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "My **initial** reaction was negative, but as I learned more about the product I grew to appreciate it.",
+        "options": [
+          { "text": "the first letter of a name", "isCorrect": false },
+          { "text": "to mark or sign something with only the first letter of your name and surname", "isCorrect": false },
+          { "text": "early, first, or occurring at the beginning", "isCorrect": true },
+          { "text": "occurring before a particular event", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "This land has **appreciated** since we bought it ten years ago.",
+        "options": [
+          { "text": "to gain in knowledge or comprehension", "isCorrect": false },
+          { "text": "to fully understand a situation, or the implications of something", "isCorrect": false },
+          { "text": "to rise in value or price", "isCorrect": true },
+          { "text": "to recognize the full worth of something", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Last year I got scammed and lost a lot of money. The **moral** is: don’t trust emails from strangers.",
+        "options": [
+          { "text": "the lesson that can be learned from a story or experience", "isCorrect": true },
+          { "text": "holding or displaying high principles for proper behavior", "isCorrect": false },
+          { "text": "standards of behavior, principles of right and wrong", "isCorrect": false },
+          { "text": "teaching what is right and wrong to children", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the gaps in the paragraph using the correct word form of the capitalized cues provided.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "While it's certainly ______ (1. DESIRE) to be able to stay connected with friends and family, there are also certain challenges.",
+        "correctAnswer": "DESIRABLE",
+        "options": []
+      },
+      {
+        "questionText": "One major issue is the ______ (2. CENSOR) that can occur on these platforms...",
+        "correctAnswer": "CENSORSHIP",
+        "options": []
+      },
+      {
+        "questionText": "...which often leads to the ______ (3. REJECT) of content that may be considered inappropriate.",
+        "correctAnswer": "REJECTION",
+        "options": []
+      },
+      {
+        "questionText": "Some people feel that it is highly ______ (4. LIKELIHOOD) that false information will spread rapidly...",
+        "correctAnswer": "LIKELY",
+        "options": []
+      },
+      {
+        "questionText": "In terms of personal impact, the ______ (5. CLASSIFY) of individuals based on their online personas sometimes results in unfair judgements...",
+        "correctAnswer": "CLASSIFICATION",
+        "options": []
+      },
+      {
+        "questionText": "...social media has facilitated many positive actions, such as raising ______ (6. DONATE) for important causes.",
+        "correctAnswer": "DONATIONS",
+        "options": []
+      },
+      {
+        "questionText": "The logical ______ (7. CONCLUDE) here is that while social media has its flaws...",
+        "correctAnswer": "CONCLUSION",
+        "options": []
+      },
+      {
+        "questionText": "...users must approach it with caution and a strong sense of ______ (8. MORAL) to make the most of its benefits.",
+        "correctAnswer": "MORALITY",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the missing letters of the collocation items.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "a tremendous e_ f_ _t",
+        "correctAnswer": "effort",
+        "options": []
+      },
+      {
+        "questionText": "a tremendous s _ p p _ _ t",
+        "correctAnswer": "support",
+        "options": []
+      },
+      {
+        "questionText": "a tremendous a_ h_ _ ve _ _nt",
+        "correctAnswer": "achievement",
+        "options": []
+      },
+      {
+        "questionText": "a tremendous a _ _ _ nt of money/work",
+        "correctAnswer": "amount",
+        "options": []
+      },
+      {
+        "questionText": "in pursuit of w _ _ lth",
+        "correctAnswer": "wealth",
+        "options": []
+      },
+      {
+        "questionText": "in pursuit of w _ _ k",
+        "correctAnswer": "work",
+        "options": []
+      },
+      {
+        "questionText": "in pursuit of your dr _ _ ms",
+        "correctAnswer": "dreams",
+        "options": []
+      },
+      {
+        "questionText": "to pursue a c _ r _ _ r",
+        "correctAnswer": "career",
+        "options": []
+      },
+      {
+        "questionText": "to pursue h _ _ p _ _ _ss",
+        "correctAnswer": "happiness",
+        "options": []
+      },
+      {
+        "questionText": "to pursue your dr _ _ m_",
+        "correctAnswer": "dreams",
+        "options": []
+      },
+      {
+        "questionText": "to pursue an i _ _ _ r _ st",
+        "correctAnswer": "interest",
+        "options": []
+      },
+      {
+        "questionText": "to pursue goals/aims/obj _ _ _ _ves",
+        "correctAnswer": "objectives",
+        "options": []
+      },
+      {
+        "questionText": "to pursue st _ dies",
+        "correctAnswer": "studies",
+        "options": []
+      },
+      {
+        "questionText": "the pursuit of h _ _ p _ _ _ss",
+        "correctAnswer": "happiness",
+        "options": []
+      },
+      {
+        "questionText": "the pursuit of li _ _ rty",
+        "correctAnswer": "liberty",
+        "options": []
+      },
+      {
+        "questionText": "the pursuit of truth and j _ st _ ce",
+        "correctAnswer": "justice",
+        "options": []
+      },
+      {
+        "questionText": "the pursuit of k _ _ w _ _ dge",
+        "correctAnswer": "knowledge",
+        "options": []
+      },
+      {
+        "questionText": "the pursuit of p _ _ f _ t",
+        "correctAnswer": "profit",
+        "options": []
+      },
+      {
+        "questionText": "rapid g _ _ _th",
+        "correctAnswer": "growth",
+        "options": []
+      },
+      {
+        "questionText": "rapid e x _ _ns_ _n",
+        "correctAnswer": "expansion",
+        "options": []
+      },
+      {
+        "questionText": "rapid d _ _ _ lop _ _ nt",
+        "correctAnswer": "development",
+        "options": []
+      },
+      {
+        "questionText": "rapid pro _ _ _ ss",
+        "correctAnswer": "progress",
+        "options": []
+      },
+      {
+        "questionText": "rapid in _ r _ _ se",
+        "correctAnswer": "increase",
+        "options": []
+      },
+      {
+        "questionText": "rapid r _ _ e",
+        "correctAnswer": "rise",
+        "options": []
+      },
+      {
+        "questionText": "rapid dec _ _ _e",
+        "correctAnswer": "decline",
+        "options": []
+      },
+      {
+        "questionText": "rapid ch _ _ g _",
+        "correctAnswer": "change",
+        "options": []
+      },
+      {
+        "questionText": "to in _ r _ _se rapidly",
+        "correctAnswer": "increase",
+        "options": []
+      },
+      {
+        "questionText": "to spr _ _ d rapidly",
+        "correctAnswer": "spread",
+        "options": []
+      },
+      {
+        "questionText": "to e_ _ _ nd rapidly",
+        "correctAnswer": "expand",
+        "options": []
+      },
+      {
+        "questionText": "to ch _ _ g _ rapidly",
+        "correctAnswer": "change",
+        "options": []
+      },
+      {
+        "questionText": "to d _ _ _lop rapidly",
+        "correctAnswer": "develop",
+        "options": []
+      },
+      {
+        "questionText": "to ev _ _ ve rapidly",
+        "correctAnswer": "evolve",
+        "options": []
+      },
+      {
+        "questionText": "to r_ _ e rapidly",
+        "correctAnswer": "rise",
+        "options": []
+      },
+      {
+        "questionText": "rapidly g _ _w_ _g",
+        "correctAnswer": "growing",
+        "options": []
+      },
+      {
+        "questionText": "rapidly ch _ _ g _ _ g",
+        "correctAnswer": "changing",
+        "options": []
+      },
+      {
+        "questionText": "rapidly ex _ _ nd _ _ _",
+        "correctAnswer": "expanding",
+        "options": []
+      },
+      {
+        "questionText": "mental i_ _ n _ _ ses",
+        "correctAnswer": "illnesses",
+        "options": []
+      },
+      {
+        "questionText": "mental d _ s o r _ _ r s",
+        "correctAnswer": "disorders",
+        "options": []
+      },
+      {
+        "questionText": "mental b r _ _ k _ _ wn",
+        "correctAnswer": "breakdown",
+        "options": []
+      },
+      {
+        "questionText": "to decline an of _ _ r",
+        "correctAnswer": "offer",
+        "options": []
+      },
+      {
+        "questionText": "to decline an in _ _ t a _ _ o n",
+        "correctAnswer": "invitation",
+        "options": []
+      },
+      {
+        "questionText": "g _ _ d _ a _ decline",
+        "correctAnswer": "gradual",
+        "options": []
+      },
+      {
+        "questionText": "r _ _ i _ decline",
+        "correctAnswer": "rapid",
+        "options": []
+      },
+      {
+        "questionText": "e _ o _ _ m _ c decline",
+        "correctAnswer": "economic",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the sentence with the best word from the word bank.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "______ to what most people think, not all gifts need to be ______ at a store.",
+        "correctAnswer": "contrary, purchased",
+        "options": []
+      },
+      {
+        "questionText": "There was a ______ debate in class about whether teachers should give homework or not.",
+        "correctAnswer": "lively",
+        "options": []
+      },
+      {
+        "questionText": "The US has been ______ to find ______ solutions to the housing crisis for decades.",
+        "correctAnswer": "struggling, permanent",
+        "options": []
+      },
+      {
+        "questionText": "It is impossible to ______ the meaning from such incoherent writing.",
+        "correctAnswer": "extract",
+        "options": []
+      },
+      {
+        "questionText": "There were ______ of a problem from the beginning, so I wasn’t surprised when they broke up.",
+        "correctAnswer": "hints",
+        "options": []
+      },
+      {
+        "questionText": "They taught the puppy to understand both ______ commands and physical gestures.",
+        "correctAnswer": "verbal",
+        "options": []
+      },
+      {
+        "questionText": "______ she was awake after the accident, but she fell ______ on the way to the hospital.",
+        "correctAnswer": "Initially, unconscious",
+        "options": []
+      },
+      {
+        "questionText": "I cannot ______ with people who think they are more ______ than everyone else.",
+        "correctAnswer": "cope, intelligent",
+        "options": []
+      },
+      {
+        "questionText": "She ______ the job offer because the salary was not high enough.",
+        "correctAnswer": "rejected",
+        "options": []
+      },
+      {
+        "questionText": "The ______ city of Laodika is an ______ example of historical sites in Türkiye.",
+        "correctAnswer": "ancient, extraordinary",
+        "options": []
+      },
+      {
+        "questionText": "She was a ______ fan and ______ every one of the team’s matches.",
+        "correctAnswer": "loyal, attended",
+        "options": []
+      },
+      {
+        "questionText": "The general ______ the troops in battle.",
+        "correctAnswer": "commanded",
+        "options": []
+      },
+      {
+        "questionText": "Can you tell me what the ______ problem is?",
+        "correctAnswer": "specific",
+        "options": []
+      },
+      {
+        "questionText": "The couple decided to have ______ music at their wedding, even though it would be ______ the same price as a DJ.",
+        "correctAnswer": "live, roughly",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Speaking and Writing Activities",
+    "type": "open-ended",
+    "items": [
+      {
+        "questionText": "SPEAKING: Prepare three discussion questions to ask your partner using the collocations above.",
+        "options": []
+      },
+      {
+        "questionText": "WRITING: Write an essay prompt using the vocabulary words on any academic topic (environment, climate change, education…etc) you want. Then, share your prompt with your partner and ask him/her to write a thesis sentence for your prompt.",
+        "options": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,818 @@
+[
+  {
+    "instruction": "Match the following words with their definitions. There are 2 extra definitions.",
+    "type": "matching",
+    "items": [
+      {
+        "questionText": "trace",
+        "options": [
+          { "text": "To doubt or question", "isCorrect": false },
+          { "text": "To provide a place where someone can hide or be protected from sth.", "isCorrect": false },
+          { "text": "To find the origins of when something began or where it came from", "isCorrect": true },
+          { "text": "A particular good quality in someone’s character", "isCorrect": false },
+          { "text": "An event, especially one that is unusual, important, or violent", "isCorrect": false },
+          { "text": "Not very great, big, or expensive", "isCorrect": false },
+          { "text": "Strict, not flexible", "isCorrect": false },
+          { "text": "For this reason", "isCorrect": false },
+          { "text": "Crops such as corn, wheat, and rice", "isCorrect": false },
+          { "text": "To break or make sth break", "isCorrect": false },
+          { "text": "Extremely large in amount", "isCorrect": false },
+          { "text": "Because of someone or something.", "isCorrect": false },
+          { "text": "Being part of the nature or character of someone or something", "isCorrect": false },
+          { "text": "Coming from outside or not directly relating to something", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "modest",
+        "options": [
+          { "text": "To doubt or question", "isCorrect": false },
+          { "text": "To provide a place where someone can hide or be protected from sth.", "isCorrect": false },
+          { "text": "To find the origins of when something began or where it came from", "isCorrect": false },
+          { "text": "A particular good quality in someone’s character", "isCorrect": false },
+          { "text": "An event, especially one that is unusual, important, or violent", "isCorrect": false },
+          { "text": "Not very great, big, or expensive", "isCorrect": true },
+          { "text": "Strict, not flexible", "isCorrect": false },
+          { "text": "For this reason", "isCorrect": false },
+          { "text": "Crops such as corn, wheat, and rice", "isCorrect": false },
+          { "text": "To break or make sth break", "isCorrect": false },
+          { "text": "Extremely large in amount", "isCorrect": false },
+          { "text": "Because of someone or something.", "isCorrect": false },
+          { "text": "Being part of the nature or character of someone or something", "isCorrect": false },
+          { "text": "Coming from outside or not directly relating to something", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "hence",
+        "options": [
+          { "text": "To doubt or question", "isCorrect": false },
+          { "text": "To provide a place where someone can hide or be protected from sth.", "isCorrect": false },
+          { "text": "To find the origins of when something began or where it came from", "isCorrect": false },
+          { "text": "A particular good quality in someone’s character", "isCorrect": false },
+          { "text": "An event, especially one that is unusual, important, or violent", "isCorrect": false },
+          { "text": "Not very great, big, or expensive", "isCorrect": false },
+          { "text": "Strict, not flexible", "isCorrect": false },
+          { "text": "For this reason", "isCorrect": true },
+          { "text": "Crops such as corn, wheat, and rice", "isCorrect": false },
+          { "text": "To break or make sth break", "isCorrect": false },
+          { "text": "Extremely large in amount", "isCorrect": false },
+          { "text": "Because of someone or something.", "isCorrect": false },
+          { "text": "Being part of the nature or character of someone or something", "isCorrect": false },
+          { "text": "Coming from outside or not directly relating to something", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "to wonder",
+        "options": [
+          { "text": "To doubt or question", "isCorrect": true },
+          { "text": "To provide a place where someone can hide or be protected from sth.", "isCorrect": false },
+          { "text": "To find the origins of when something began or where it came from", "isCorrect": false },
+          { "text": "A particular good quality in someone’s character", "isCorrect": false },
+          { "text": "An event, especially one that is unusual, important, or violent", "isCorrect": false },
+          { "text": "Not very great, big, or expensive", "isCorrect": false },
+          { "text": "Strict, not flexible", "isCorrect": false },
+          { "text": "For this reason", "isCorrect": false },
+          { "text": "Crops such as corn, wheat, and rice", "isCorrect": false },
+          { "text": "To break or make sth break", "isCorrect": false },
+          { "text": "Extremely large in amount", "isCorrect": false },
+          { "text": "Because of someone or something.", "isCorrect": false },
+          { "text": "Being part of the nature or character of someone or something", "isCorrect": false },
+          { "text": "Coming from outside or not directly relating to something", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "incident",
+        "options": [
+          { "text": "To doubt or question", "isCorrect": false },
+          { "text": "To provide a place where someone can hide or be protected from sth.", "isCorrect": false },
+          { "text": "To find the origins of when something began or where it came from", "isCorrect": false },
+          { "text": "A particular good quality in someone’s character", "isCorrect": false },
+          { "text": "An event, especially one that is unusual, important, or violent", "isCorrect": true },
+          { "text": "Not very great, big, or expensive", "isCorrect": false },
+          { "text": "Strict, not flexible", "isCorrect": false },
+          { "text": "For this reason", "isCorrect": false },
+          { "text": "Crops such as corn, wheat, and rice", "isCorrect": false },
+          { "text": "To break or make sth break", "isCorrect": false },
+          { "text": "Extremely large in amount", "isCorrect": false },
+          { "text": "Because of someone or something.", "isCorrect": false },
+          { "text": "Being part of the nature or character of someone or something", "isCorrect": false },
+          { "text": "Coming from outside or not directly relating to something", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "grain",
+        "options": [
+          { "text": "To doubt or question", "isCorrect": false },
+          { "text": "To provide a place where someone can hide or be protected from sth.", "isCorrect": false },
+          { "text": "To find the origins of when something began or where it came from", "isCorrect": false },
+          { "text": "A particular good quality in someone’s character", "isCorrect": false },
+          { "text": "An event, especially one that is unusual, important, or violent", "isCorrect": false },
+          { "text": "Not very great, big, or expensive", "isCorrect": false },
+          { "text": "Strict, not flexible", "isCorrect": false },
+          { "text": "For this reason", "isCorrect": false },
+          { "text": "Crops such as corn, wheat, and rice", "isCorrect": true },
+          { "text": "To break or make sth break", "isCorrect": false },
+          { "text": "Extremely large in amount", "isCorrect": false },
+          { "text": "Because of someone or something.", "isCorrect": false },
+          { "text": "Being part of the nature or character of someone or something", "isCorrect": false },
+          { "text": "Coming from outside or not directly relating to something", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "crack",
+        "options": [
+          { "text": "To doubt or question", "isCorrect": false },
+          { "text": "To provide a place where someone can hide or be protected from sth.", "isCorrect": false },
+          { "text": "To find the origins of when something began or where it came from", "isCorrect": false },
+          { "text": "A particular good quality in someone’s character", "isCorrect": false },
+          { "text": "An event, especially one that is unusual, important, or violent", "isCorrect": false },
+          { "text": "Not very great, big, or expensive", "isCorrect": false },
+          { "text": "Strict, not flexible", "isCorrect": false },
+          { "text": "For this reason", "isCorrect": false },
+          { "text": "Crops such as corn, wheat, and rice", "isCorrect": false },
+          { "text": "To break or make sth break", "isCorrect": true },
+          { "text": "Extremely large in amount", "isCorrect": false },
+          { "text": "Because of someone or something.", "isCorrect": false },
+          { "text": "Being part of the nature or character of someone or something", "isCorrect": false },
+          { "text": "Coming from outside or not directly relating to something", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "rigid",
+        "options": [
+          { "text": "To doubt or question", "isCorrect": false },
+          { "text": "To provide a place where someone can hide or be protected from sth.", "isCorrect": false },
+          { "text": "To find the origins of when something began or where it came from", "isCorrect": false },
+          { "text": "A particular good quality in someone’s character", "isCorrect": false },
+          { "text": "An event, especially one that is unusual, important, or violent", "isCorrect": false },
+          { "text": "Not very great, big, or expensive", "isCorrect": false },
+          { "text": "Strict, not flexible", "isCorrect": true },
+          { "text": "For this reason", "isCorrect": false },
+          { "text": "Crops such as corn, wheat, and rice", "isCorrect": false },
+          { "text": "To break or make sth break", "isCorrect": false },
+          { "text": "Extremely large in amount", "isCorrect": false },
+          { "text": "Because of someone or something.", "isCorrect": false },
+          { "text": "Being part of the nature or character of someone or something", "isCorrect": false },
+          { "text": "Coming from outside or not directly relating to something", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "virtues",
+        "options": [
+          { "text": "To doubt or question", "isCorrect": false },
+          { "text": "To provide a place where someone can hide or be protected from sth.", "isCorrect": false },
+          { "text": "To find the origins of when something began or where it came from", "isCorrect": false },
+          { "text": "A particular good quality in someone’s character", "isCorrect": true },
+          { "text": "An event, especially one that is unusual, important, or violent", "isCorrect": false },
+          { "text": "Not very great, big, or expensive", "isCorrect": false },
+          { "text": "Strict, not flexible", "isCorrect": false },
+          { "text": "For this reason", "isCorrect": false },
+          { "text": "Crops such as corn, wheat, and rice", "isCorrect": false },
+          { "text": "To break or make sth break", "isCorrect": false },
+          { "text": "Extremely large in amount", "isCorrect": false },
+          { "text": "Because of someone or something.", "isCorrect": false },
+          { "text": "Being part of the nature or character of someone or something", "isCorrect": false },
+          { "text": "Coming from outside or not directly relating to something", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "sheltering",
+        "options": [
+          { "text": "To doubt or question", "isCorrect": false },
+          { "text": "To provide a place where someone can hide or be protected from sth.", "isCorrect": true },
+          { "text": "To find the origins of when something began or where it came from", "isCorrect": false },
+          { "text": "A particular good quality in someone’s character", "isCorrect": false },
+          { "text": "An event, especially one that is unusual, important, or violent", "isCorrect": false },
+          { "text": "Not very great, big, or expensive", "isCorrect": false },
+          { "text": "Strict, not flexible", "isCorrect": false },
+          { "text": "For this reason", "isCorrect": false },
+          { "text": "Crops such as corn, wheat, and rice", "isCorrect": false },
+          { "text": "To break or make sth break", "isCorrect": false },
+          { "text": "Extremely large in amount", "isCorrect": false },
+          { "text": "Because of someone or something.", "isCorrect": false },
+          { "text": "Being part of the nature or character of someone or something", "isCorrect": false },
+          { "text": "Coming from outside or not directly relating to something", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "extrinsic",
+        "options": [
+          { "text": "To doubt or question", "isCorrect": false },
+          { "text": "To provide a place where someone can hide or be protected from sth.", "isCorrect": false },
+          { "text": "To find the origins of when something began or where it came from", "isCorrect": false },
+          { "text": "A particular good quality in someone’s character", "isCorrect": false },
+          { "text": "An event, especially one that is unusual, important, or violent", "isCorrect": false },
+          { "text": "Not very great, big, or expensive", "isCorrect": false },
+          { "text": "Strict, not flexible", "isCorrect": false },
+          { "text": "For this reason", "isCorrect": false },
+          { "text": "Crops such as corn, wheat, and rice", "isCorrect": false },
+          { "text": "To break or make sth break", "isCorrect": false },
+          { "text": "Extremely large in amount", "isCorrect": false },
+          { "text": "Because of someone or something.", "isCorrect": false },
+          { "text": "Being part of the nature or character of someone or something", "isCorrect": false },
+          { "text": "Coming from outside or not directly relating to something", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "intrinsic",
+        "options": [
+          { "text": "To doubt or question", "isCorrect": false },
+          { "text": "To provide a place where someone can hide or be protected from sth.", "isCorrect": false },
+          { "text": "To find the origins of when something began or where it came from", "isCorrect": false },
+          { "text": "A particular good quality in someone’s character", "isCorrect": false },
+          { "text": "An event, especially one that is unusual, important, or violent", "isCorrect": false },
+          { "text": "Not very great, big, or expensive", "isCorrect": false },
+          { "text": "Strict, not flexible", "isCorrect": false },
+          { "text": "For this reason", "isCorrect": false },
+          { "text": "Crops such as corn, wheat, and rice", "isCorrect": false },
+          { "text": "To break or make sth break", "isCorrect": false },
+          { "text": "Extremely large in amount", "isCorrect": false },
+          { "text": "Because of someone or something.", "isCorrect": false },
+          { "text": "Being part of the nature or character of someone or something", "isCorrect": true },
+          { "text": "Coming from outside or not directly relating to something", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Match the words with the collocations. There are 3 extra words.",
+    "type": "matching",
+    "items": [
+      {
+        "questionText": "To __________ the difference",
+        "options": [
+          { "text": "Mechanism", "isCorrect": false },
+          { "text": "Bothersome", "isCorrect": false },
+          { "text": "Despair", "isCorrect": false },
+          { "text": "Guidelines", "isCorrect": false },
+          { "text": "Charge", "isCorrect": false },
+          { "text": "Trace", "isCorrect": false },
+          { "text": "Settle", "isCorrect": false },
+          { "text": "Spot", "isCorrect": true },
+          { "text": "Address", "isCorrect": false },
+          { "text": "Brief", "isCorrect": false },
+          { "text": "Scenario", "isCorrect": false },
+          { "text": "Humble", "isCorrect": false },
+          { "text": "Lifetime", "isCorrect": false },
+          { "text": "Memories", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The worst case __________",
+        "options": [
+          { "text": "Mechanism", "isCorrect": false },
+          { "text": "Bothersome", "isCorrect": false },
+          { "text": "Despair", "isCorrect": false },
+          { "text": "Guidelines", "isCorrect": false },
+          { "text": "Charge", "isCorrect": false },
+          { "text": "Trace", "isCorrect": false },
+          { "text": "Settle", "isCorrect": false },
+          { "text": "Spot", "isCorrect": false },
+          { "text": "Address", "isCorrect": false },
+          { "text": "Brief", "isCorrect": false },
+          { "text": "Scenario", "isCorrect": true },
+          { "text": "Humble", "isCorrect": false },
+          { "text": "Lifetime", "isCorrect": false },
+          { "text": "Memories", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Stick to / draw up ___________",
+        "options": [
+          { "text": "Mechanism", "isCorrect": false },
+          { "text": "Bothersome", "isCorrect": false },
+          { "text": "Despair", "isCorrect": false },
+          { "text": "Guidelines", "isCorrect": true },
+          { "text": "Charge", "isCorrect": false },
+          { "text": "Trace", "isCorrect": false },
+          { "text": "Settle", "isCorrect": false },
+          { "text": "Spot", "isCorrect": false },
+          { "text": "Address", "isCorrect": false },
+          { "text": "Brief", "isCorrect": false },
+          { "text": "Scenario", "isCorrect": false },
+          { "text": "Humble", "isCorrect": false },
+          { "text": "Lifetime", "isCorrect": false },
+          { "text": "Memories", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "__________ a dispute / conflict",
+        "options": [
+          { "text": "Mechanism", "isCorrect": false },
+          { "text": "Bothersome", "isCorrect": false },
+          { "text": "Despair", "isCorrect": false },
+          { "text": "Guidelines", "isCorrect": false },
+          { "text": "Charge", "isCorrect": false },
+          { "text": "Trace", "isCorrect": false },
+          { "text": "Settle", "isCorrect": true },
+          { "text": "Spot", "isCorrect": false },
+          { "text": "Address", "isCorrect": false },
+          { "text": "Brief", "isCorrect": false },
+          { "text": "Scenario", "isCorrect": false },
+          { "text": "Humble", "isCorrect": false },
+          { "text": "Lifetime", "isCorrect": false },
+          { "text": "Memories", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "In my ___________ opinion, ....",
+        "options": [
+          { "text": "Mechanism", "isCorrect": false },
+          { "text": "Bothersome", "isCorrect": false },
+          { "text": "Despair", "isCorrect": false },
+          { "text": "Guidelines", "isCorrect": false },
+          { "text": "Charge", "isCorrect": false },
+          { "text": "Trace", "isCorrect": false },
+          { "text": "Settle", "isCorrect": false },
+          { "text": "Spot", "isCorrect": false },
+          { "text": "Address", "isCorrect": false },
+          { "text": "Brief", "isCorrect": false },
+          { "text": "Scenario", "isCorrect": false },
+          { "text": "Humble", "isCorrect": true },
+          { "text": "Lifetime", "isCorrect": false },
+          { "text": "Memories", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "____________ a problem/ need/ question",
+        "options": [
+          { "text": "Mechanism", "isCorrect": false },
+          { "text": "Bothersome", "isCorrect": false },
+          { "text": "Despair", "isCorrect": false },
+          { "text": "Guidelines", "isCorrect": false },
+          { "text": "Charge", "isCorrect": false },
+          { "text": "Trace", "isCorrect": false },
+          { "text": "Settle", "isCorrect": false },
+          { "text": "Spot", "isCorrect": false },
+          { "text": "Address", "isCorrect": true },
+          { "text": "Brief", "isCorrect": false },
+          { "text": "Scenario", "isCorrect": false },
+          { "text": "Humble", "isCorrect": false },
+          { "text": "Lifetime", "isCorrect": false },
+          { "text": "Memories", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Control/ defense __________",
+        "options": [
+          { "text": "Mechanism", "isCorrect": true },
+          { "text": "Bothersome", "isCorrect": false },
+          { "text": "Despair", "isCorrect": false },
+          { "text": "Guidelines", "isCorrect": false },
+          { "text": "Charge", "isCorrect": false },
+          { "text": "Trace", "isCorrect": false },
+          { "text": "Settle", "isCorrect": false },
+          { "text": "Spot", "isCorrect": false },
+          { "text": "Address", "isCorrect": false },
+          { "text": "Brief", "isCorrect": false },
+          { "text": "Scenario", "isCorrect": false },
+          { "text": "Humble", "isCorrect": false },
+          { "text": "Lifetime", "isCorrect": false },
+          { "text": "Memories", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "To be in _________ of a team",
+        "options": [
+          { "text": "Mechanism", "isCorrect": false },
+          { "text": "Bothersome", "isCorrect": false },
+          { "text": "Despair", "isCorrect": false },
+          { "text": "Guidelines", "isCorrect": false },
+          { "text": "Charge", "isCorrect": true },
+          { "text": "Trace", "isCorrect": false },
+          { "text": "Settle", "isCorrect": false },
+          { "text": "Spot", "isCorrect": false },
+          { "text": "Address", "isCorrect": false },
+          { "text": "Brief", "isCorrect": false },
+          { "text": "Scenario", "isCorrect": false },
+          { "text": "Humble", "isCorrect": false },
+          { "text": "Lifetime", "isCorrect": false },
+          { "text": "Memories", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "A ____________ experience / friend",
+        "options": [
+          { "text": "Mechanism", "isCorrect": false },
+          { "text": "Bothersome", "isCorrect": false },
+          { "text": "Despair", "isCorrect": false },
+          { "text": "Guidelines", "isCorrect": false },
+          { "text": "Charge", "isCorrect": false },
+          { "text": "Trace", "isCorrect": false },
+          { "text": "Settle", "isCorrect": false },
+          { "text": "Spot", "isCorrect": false },
+          { "text": "Address", "isCorrect": false },
+          { "text": "Brief", "isCorrect": false },
+          { "text": "Scenario", "isCorrect": false },
+          { "text": "Humble", "isCorrect": false },
+          { "text": "Lifetime", "isCorrect": true },
+          { "text": "Memories", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "To be/ To do something in __________. ",
+        "options": [
+          { "text": "Mechanism", "isCorrect": false },
+          { "text": "Bothersome", "isCorrect": false },
+          { "text": "Despair", "isCorrect": true },
+          { "text": "Guidelines", "isCorrect": false },
+          { "text": "Charge", "isCorrect": false },
+          { "text": "Trace", "isCorrect": false },
+          { "text": "Settle", "isCorrect": false },
+          { "text": "Spot", "isCorrect": false },
+          { "text": "Address", "isCorrect": false },
+          { "text": "Brief", "isCorrect": false },
+          { "text": "Scenario", "isCorrect": false },
+          { "text": "Humble", "isCorrect": false },
+          { "text": "Lifetime", "isCorrect": false },
+          { "text": "Memories", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Evoke _____________",
+        "options": [
+          { "text": "Mechanism", "isCorrect": false },
+          { "text": "Bothersome", "isCorrect": false },
+          { "text": "Despair", "isCorrect": false },
+          { "text": "Guidelines", "isCorrect": false },
+          { "text": "Charge", "isCorrect": false },
+          { "text": "Trace", "isCorrect": false },
+          { "text": "Settle", "isCorrect": false },
+          { "text": "Spot", "isCorrect": false },
+          { "text": "Address", "isCorrect": false },
+          { "text": "Brief", "isCorrect": false },
+          { "text": "Scenario", "isCorrect": false },
+          { "text": "Humble", "isCorrect": false },
+          { "text": "Lifetime", "isCorrect": false },
+          { "text": "Memories", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Fill in the blanks with the most appropriate words from the box. There are 3 extra words.",
+    "type": "paragraph-cloze",
+    "items": [
+      {
+        "questionText": "During the early twentieth century, Carl Panzram was an American serial killer who committed various types of crime in {1} countries. Among thousands of other crimes from theft to rape committed in many different countries, he is claimed to have killed 21 people. He was also {2} in one of the most extraordinary prison friendships on record. He became a close friend with the guard in the prison. A new book by John Borowski, Panzram at Leavenworth, provides a collection of impressive archival documents about Panzram. Carl Panzram’s life of {3}, pain, and torture is an important lesson in how corporal punishment can create a hate-filled human being. \n\nAdapted from https://www.psychologytoday.com/us/blog/shadow-boxing/202007/the-meanest-man-who-ever-lived\n\nDREAM BIG!\n\nThe size of your dreams must always {4} your current capacity to achieve them. If you start off with a small dream, you may not have much left when it is fulfilled. Your dreams might \n{5} you, but this should not discourage you from turning them into action. Instead of being afraid of a big step, {6} it into smaller actionable steps, which are important signs of progress.\n\nIf you want to grow as a person at a personal and professional level, it is time to embrace the art of testing your limits. The real change occurs when we {7} to dream of more. You should be brave and take risks. The more you say, “I can’t do that,” the more you’ll believe this. Therefore, when you’re thinking of a new crazy idea, change your reaction towards it. Leave aside the negativity and mental limitations that keep you back and be {8} to try it. Of course, not everything will work out, but it is still important to have an optimistic {9} on life that will make you more open to new ideas.\n\nAdapted from https://medium.com/swlh/how-to-explore-your-real-potential-by-testing-your-limits-ce56af6bfcf9\n\nSIBLING RELATIONSHIP\n\nWhile many kids are lucky enough to become best friends with their siblings, it is common for brothers and sisters to fight. Often, sibling {10} starts even before the second child is born and continues as the kids grow and compete for everything from toys to attention. As kids reach different stages of development, their needs {11}.It's natural for kids' changing needs, anxieties, and identities to affect how they relate to one another. For example, toddlers are naturally protective of their toys and belongings. If a baby brother or sister picks up the toddler's toy, the older child may react aggressively. School-age kids often have a strong concept of fairness, so they might not understand why siblings of other ages are {12} differently by adults. \n\nWhile it may be common for brothers and sisters to fight, it is certainly not pleasant for anyone in the house. A family can only {13} a certain amount of conflict, so when there is a conflict between the siblings, they want to eliminate it. However, they should step in only if there is a danger of physical harm. Otherwise, they risk creating other problems.\n\nAdapted from  https://kidshealth.org/en/parents/sibling-rivalry.html",
+        "options": [
+          [
+            { "text": "TREATED", "isCorrect": false, "blankIndex": 1 },
+            { "text": "MULTIPLE", "isCorrect": true, "blankIndex": 1 },
+            { "text": "RIVALRY", "isCorrect": false, "blankIndex": 1 },
+            { "text": "ENGAGED", "isCorrect": false, "blankIndex": 1 },
+            { "text": "DARE", "isCorrect": false, "blankIndex": 1 },
+            { "text": "OUTLOOK", "isCorrect": false, "blankIndex": 1 },
+            { "text": "IMPRISONMENT", "isCorrect": false, "blankIndex": 1 },
+            { "text": "TOLERATE", "isCorrect": false, "blankIndex": 1 },
+            { "text": "SPLIT", "isCorrect": false, "blankIndex": 1 },
+            { "text": "EVOLVE", "isCorrect": false, "blankIndex": 1 },
+            { "text": "INCIDENCE", "isCorrect": false, "blankIndex": 1 },
+            { "text": "EXCEED", "isCorrect": false, "blankIndex": 1 },
+            { "text": "SCARE", "isCorrect": false, "blankIndex": 1 },
+            { "text": "EAGER", "isCorrect": false, "blankIndex": 1 },
+            { "text": "REASSURED", "isCorrect": false, "blankIndex": 1 },
+            { "text": "RELUCTANT", "isCorrect": false, "blankIndex": 1 }
+          ],
+          [
+            { "text": "TREATED", "isCorrect": false, "blankIndex": 2 },
+            { "text": "MULTIPLE", "isCorrect": false, "blankIndex": 2 },
+            { "text": "RIVALRY", "isCorrect": false, "blankIndex": 2 },
+            { "text": "ENGAGED", "isCorrect": true, "blankIndex": 2 },
+            { "text": "DARE", "isCorrect": false, "blankIndex": 2 },
+            { "text": "OUTLOOK", "isCorrect": false, "blankIndex": 2 },
+            { "text": "IMPRISONMENT", "isCorrect": false, "blankIndex": 2 },
+            { "text": "TOLERATE", "isCorrect": false, "blankIndex": 2 },
+            { "text": "SPLIT", "isCorrect": false, "blankIndex": 2 },
+            { "text": "EVOLVE", "isCorrect": false, "blankIndex": 2 },
+            { "text": "INCIDENCE", "isCorrect": false, "blankIndex": 2 },
+            { "text": "EXCEED", "isCorrect": false, "blankIndex": 2 },
+            { "text": "SCARE", "isCorrect": false, "blankIndex": 2 },
+            { "text": "EAGER", "isCorrect": false, "blankIndex": 2 },
+            { "text": "REASSURED", "isCorrect": false, "blankIndex": 2 },
+            { "text": "RELUCTANT", "isCorrect": false, "blankIndex": 2 }
+          ],
+          [
+            { "text": "TREATED", "isCorrect": false, "blankIndex": 3 },
+            { "text": "MULTIPLE", "isCorrect": false, "blankIndex": 3 },
+            { "text": "RIVALRY", "isCorrect": false, "blankIndex": 3 },
+            { "text": "ENGAGED", "isCorrect": false, "blankIndex": 3 },
+            { "text": "DARE", "isCorrect": false, "blankIndex": 3 },
+            { "text": "OUTLOOK", "isCorrect": false, "blankIndex": 3 },
+            { "text": "IMPRISONMENT", "isCorrect": true, "blankIndex": 3 },
+            { "text": "TOLERATE", "isCorrect": false, "blankIndex": 3 },
+            { "text": "SPLIT", "isCorrect": false, "blankIndex": 3 },
+            { "text": "EVOLVE", "isCorrect": false, "blankIndex": 3 },
+            { "text": "INCIDENCE", "isCorrect": false, "blankIndex": 3 },
+            { "text": "EXCEED", "isCorrect": false, "blankIndex": 3 },
+            { "text": "SCARE", "isCorrect": false, "blankIndex": 3 },
+            { "text": "EAGER", "isCorrect": false, "blankIndex": 3 },
+            { "text": "REASSURED", "isCorrect": false, "blankIndex": 3 },
+            { "text": "RELUCTANT", "isCorrect": false, "blankIndex": 3 }
+          ],
+          [
+            { "text": "TREATED", "isCorrect": false, "blankIndex": 4 },
+            { "text": "MULTIPLE", "isCorrect": false, "blankIndex": 4 },
+            { "text": "RIVALRY", "isCorrect": false, "blankIndex": 4 },
+            { "text": "ENGAGED", "isCorrect": false, "blankIndex": 4 },
+            { "text": "DARE", "isCorrect": false, "blankIndex": 4 },
+            { "text": "OUTLOOK", "isCorrect": false, "blankIndex": 4 },
+            { "text": "IMPRISONMENT", "isCorrect": false, "blankIndex": 4 },
+            { "text": "TOLERATE", "isCorrect": false, "blankIndex": 4 },
+            { "text": "SPLIT", "isCorrect": false, "blankIndex": 4 },
+            { "text": "EVOLVE", "isCorrect": false, "blankIndex": 4 },
+            { "text": "INCIDENCE", "isCorrect": false, "blankIndex": 4 },
+            { "text": "EXCEED", "isCorrect": true, "blankIndex": 4 },
+            { "text": "SCARE", "isCorrect": false, "blankIndex": 4 },
+            { "text": "EAGER", "isCorrect": false, "blankIndex": 4 },
+            { "text": "REASSURED", "isCorrect": false, "blankIndex": 4 },
+            { "text": "RELUCTANT", "isCorrect": false, "blankIndex": 4 }
+          ],
+          [
+            { "text": "TREATED", "isCorrect": false, "blankIndex": 5 },
+            { "text": "MULTIPLE", "isCorrect": false, "blankIndex": 5 },
+            { "text": "RIVALRY", "isCorrect": false, "blankIndex": 5 },
+            { "text": "ENGAGED", "isCorrect": false, "blankIndex": 5 },
+            { "text": "DARE", "isCorrect": false, "blankIndex": 5 },
+            { "text": "OUTLOOK", "isCorrect": false, "blankIndex": 5 },
+            { "text": "IMPRISONMENT", "isCorrect": false, "blankIndex": 5 },
+            { "text": "TOLERATE", "isCorrect": false, "blankIndex": 5 },
+            { "text": "SPLIT", "isCorrect": false, "blankIndex": 5 },
+            { "text": "EVOLVE", "isCorrect": false, "blankIndex": 5 },
+            { "text": "INCIDENCE", "isCorrect": false, "blankIndex": 5 },
+            { "text": "EXCEED", "isCorrect": false, "blankIndex": 5 },
+            { "text": "SCARE", "isCorrect": true, "blankIndex": 5 },
+            { "text": "EAGER", "isCorrect": false, "blankIndex": 5 },
+            { "text": "REASSURED", "isCorrect": false, "blankIndex": 5 },
+            { "text": "RELUCTANT", "isCorrect": false, "blankIndex": 5 }
+          ],
+          [
+            { "text": "TREATED", "isCorrect": false, "blankIndex": 6 },
+            { "text": "MULTIPLE", "isCorrect": false, "blankIndex": 6 },
+            { "text": "RIVALRY", "isCorrect": false, "blankIndex": 6 },
+            { "text": "ENGAGED", "isCorrect": false, "blankIndex": 6 },
+            { "text": "DARE", "isCorrect": false, "blankIndex": 6 },
+            { "text": "OUTLOOK", "isCorrect": false, "blankIndex": 6 },
+            { "text": "IMPRISONMENT", "isCorrect": false, "blankIndex": 6 },
+            { "text": "TOLERATE", "isCorrect": false, "blankIndex": 6 },
+            { "text": "SPLIT", "isCorrect": true, "blankIndex": 6 },
+            { "text": "EVOLVE", "isCorrect": false, "blankIndex": 6 },
+            { "text": "INCIDENCE", "isCorrect": false, "blankIndex": 6 },
+            { "text": "EXCEED", "isCorrect": false, "blankIndex": 6 },
+            { "text": "SCARE", "isCorrect": false, "blankIndex": 6 },
+            { "text": "EAGER", "isCorrect": false, "blankIndex": 6 },
+            { "text": "REASSURED", "isCorrect": false, "blankIndex": 6 },
+            { "text": "RELUCTANT", "isCorrect": false, "blankIndex": 6 }
+          ],
+          [
+            { "text": "TREATED", "isCorrect": false, "blankIndex": 7 },
+            { "text": "MULTIPLE", "isCorrect": false, "blankIndex": 7 },
+            { "text": "RIVALRY", "isCorrect": false, "blankIndex": 7 },
+            { "text": "ENGAGED", "isCorrect": false, "blankIndex": 7 },
+            { "text": "DARE", "isCorrect": true, "blankIndex": 7 },
+            { "text": "OUTLOOK", "isCorrect": false, "blankIndex": 7 },
+            { "text": "IMPRISONMENT", "isCorrect": false, "blankIndex": 7 },
+            { "text": "TOLERATE", "isCorrect": false, "blankIndex": 7 },
+            { "text": "SPLIT", "isCorrect": false, "blankIndex": 7 },
+            { "text": "EVOLVE", "isCorrect": false, "blankIndex": 7 },
+            { "text": "INCIDENCE", "isCorrect": false, "blankIndex": 7 },
+            { "text": "EXCEED", "isCorrect": false, "blankIndex": 7 },
+            { "text": "SCARE", "isCorrect": false, "blankIndex": 7 },
+            { "text": "EAGER", "isCorrect": false, "blankIndex": 7 },
+            { "text": "REASSURED", "isCorrect": false, "blankIndex": 7 },
+            { "text": "RELUCTANT", "isCorrect": false, "blankIndex": 7 }
+          ],
+          [
+            { "text": "TREATED", "isCorrect": false, "blankIndex": 8 },
+            { "text": "MULTIPLE", "isCorrect": false, "blankIndex": 8 },
+            { "text": "RIVALRY", "isCorrect": false, "blankIndex": 8 },
+            { "text": "ENGAGED", "isCorrect": false, "blankIndex": 8 },
+            { "text": "DARE", "isCorrect": false, "blankIndex": 8 },
+            { "text": "OUTLOOK", "isCorrect": false, "blankIndex": 8 },
+            { "text": "IMPRISONMENT", "isCorrect": false, "blankIndex": 8 },
+            { "text": "TOLERATE", "isCorrect": false, "blankIndex": 8 },
+            { "text": "SPLIT", "isCorrect": false, "blankIndex": 8 },
+            { "text": "EVOLVE", "isCorrect": false, "blankIndex": 8 },
+            { "text": "INCIDENCE", "isCorrect": false, "blankIndex": 8 },
+            { "text": "EXCEED", "isCorrect": false, "blankIndex": 8 },
+            { "text": "SCARE", "isCorrect": false, "blankIndex": 8 },
+            { "text": "EAGER", "isCorrect": true, "blankIndex": 8 },
+            { "text": "REASSURED", "isCorrect": false, "blankIndex": 8 },
+            { "text": "RELUCTANT", "isCorrect": false, "blankIndex": 8 }
+          ],
+          [
+            { "text": "TREATED", "isCorrect": false, "blankIndex": 9 },
+            { "text": "MULTIPLE", "isCorrect": false, "blankIndex": 9 },
+            { "text": "RIVALRY", "isCorrect": false, "blankIndex": 9 },
+            { "text": "ENGAGED", "isCorrect": false, "blankIndex": 9 },
+            { "text": "DARE", "isCorrect": false, "blankIndex": 9 },
+            { "text": "OUTLOOK", "isCorrect": true, "blankIndex": 9 },
+            { "text": "IMPRISONMENT", "isCorrect": false, "blankIndex": 9 },
+            { "text": "TOLERATE", "isCorrect": false, "blankIndex": 9 },
+            { "text": "SPLIT", "isCorrect": false, "blankIndex": 9 },
+            { "text": "EVOLVE", "isCorrect": false, "blankIndex": 9 },
+            { "text": "INCIDENCE", "isCorrect": false, "blankIndex": 9 },
+            { "text": "EXCEED", "isCorrect": false, "blankIndex": 9 },
+            { "text": "SCARE", "isCorrect": false, "blankIndex": 9 },
+            { "text": "EAGER", "isCorrect": false, "blankIndex": 9 },
+            { "text": "REASSURED", "isCorrect": false, "blankIndex": 9 },
+            { "text": "RELUCTANT", "isCorrect": false, "blankIndex": 9 }
+          ],
+          [
+            { "text": "TREATED", "isCorrect": false, "blankIndex": 10 },
+            { "text": "MULTIPLE", "isCorrect": false, "blankIndex": 10 },
+            { "text": "RIVALRY", "isCorrect": true, "blankIndex": 10 },
+            { "text": "ENGAGED", "isCorrect": false, "blankIndex": 10 },
+            { "text": "DARE", "isCorrect": false, "blankIndex": 10 },
+            { "text": "OUTLOOK", "isCorrect": false, "blankIndex": 10 },
+            { "text": "IMPRISONMENT", "isCorrect": false, "blankIndex": 10 },
+            { "text": "TOLERATE", "isCorrect": false, "blankIndex": 10 },
+            { "text": "SPLIT", "isCorrect": false, "blankIndex": 10 },
+            { "text": "EVOLVE", "isCorrect": false, "blankIndex": 10 },
+            { "text": "INCIDENCE", "isCorrect": false, "blankIndex": 10 },
+            { "text": "EXCEED", "isCorrect": false, "blankIndex": 10 },
+            { "text": "SCARE", "isCorrect": false, "blankIndex": 10 },
+            { "text": "EAGER", "isCorrect": false, "blankIndex": 10 },
+            { "text": "REASSURED", "isCorrect": false, "blankIndex": 10 },
+            { "text": "RELUCTANT", "isCorrect": false, "blankIndex": 10 }
+          ],
+          [
+            { "text": "TREATED", "isCorrect": false, "blankIndex": 11 },
+            { "text": "MULTIPLE", "isCorrect": false, "blankIndex": 11 },
+            { "text": "RIVALRY", "isCorrect": false, "blankIndex": 11 },
+            { "text": "ENGAGED", "isCorrect": false, "blankIndex": 11 },
+            { "text": "DARE", "isCorrect": false, "blankIndex": 11 },
+            { "text": "OUTLOOK", "isCorrect": false, "blankIndex": 11 },
+            { "text": "IMPRISONMENT", "isCorrect": false, "blankIndex": 11 },
+            { "text": "TOLERATE", "isCorrect": false, "blankIndex": 11 },
+            { "text": "SPLIT", "isCorrect": false, "blankIndex": 11 },
+            { "text": "EVOLVE", "isCorrect": true, "blankIndex": 11 },
+            { "text": "INCIDENCE", "isCorrect": false, "blankIndex": 11 },
+            { "text": "EXCEED", "isCorrect": false, "blankIndex": 11 },
+            { "text": "SCARE", "isCorrect": false, "blankIndex": 11 },
+            { "text": "EAGER", "isCorrect": false, "blankIndex": 11 },
+            { "text": "REASSURED", "isCorrect": false, "blankIndex": 11 },
+            { "text": "RELUCTANT", "isCorrect": false, "blankIndex": 11 }
+          ],
+          [
+            { "text": "TREATED", "isCorrect": true, "blankIndex": 12 },
+            { "text": "MULTIPLE", "isCorrect": false, "blankIndex": 12 },
+            { "text": "RIVALRY", "isCorrect": false, "blankIndex": 12 },
+            { "text": "ENGAGED", "isCorrect": false, "blankIndex": 12 },
+            { "text": "DARE", "isCorrect": false, "blankIndex": 12 },
+            { "text": "OUTLOOK", "isCorrect": false, "blankIndex": 12 },
+            { "text": "IMPRISONMENT", "isCorrect": false, "blankIndex": 12 },
+            { "text": "TOLERATE", "isCorrect": false, "blankIndex": 12 },
+            { "text": "SPLIT", "isCorrect": false, "blankIndex": 12 },
+            { "text": "EVOLVE", "isCorrect": false, "blankIndex": 12 },
+            { "text": "INCIDENCE", "isCorrect": false, "blankIndex": 12 },
+            { "text": "EXCEED", "isCorrect": false, "blankIndex": 12 },
+            { "text": "SCARE", "isCorrect": false, "blankIndex": 12 },
+            { "text": "EAGER", "isCorrect": false, "blankIndex": 12 },
+            { "text": "REASSURED", "isCorrect": false, "blankIndex": 12 },
+            { "text": "RELUCTANT", "isCorrect": false, "blankIndex": 12 }
+          ],
+          [
+            { "text": "TREATED", "isCorrect": false, "blankIndex": 13 },
+            { "text": "MULTIPLE", "isCorrect": false, "blankIndex": 13 },
+            { "text": "RIVALRY", "isCorrect": false, "blankIndex": 13 },
+            { "text": "ENGAGED", "isCorrect": false, "blankIndex": 13 },
+            { "text": "DARE", "isCorrect": false, "blankIndex": 13 },
+            { "text": "OUTLOOK", "isCorrect": false, "blankIndex": 13 },
+            { "text": "IMPRISONMENT", "isCorrect": false, "blankIndex": 13 },
+            { "text": "TOLERATE", "isCorrect": true, "blankIndex": 13 },
+            { "text": "SPLIT", "isCorrect": false, "blankIndex": 13 },
+            { "text": "EVOLVE", "isCorrect": false, "blankIndex": 13 },
+            { "text": "INCIDENCE", "isCorrect": false, "blankIndex": 13 },
+            { "text": "EXCEED", "isCorrect": false, "blankIndex": 13 },
+            { "text": "SCARE", "isCorrect": false, "blankIndex": 13 },
+            { "text": "EAGER", "isCorrect": false, "blankIndex": 13 },
+            { "text": "REASSURED", "isCorrect": false, "blankIndex": 13 },
+            { "text": "RELUCTANT", "isCorrect": false, "blankIndex": 13 }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "The word in capitals at the end of each of the following lines can be used to form a word that fits in the blank space in the sentences. Fill in each space in this way. Spelling mistakes will be penalized.",
+    "type": "gap-fill",
+    "items": [
+      {
+        "questionText": "She had no money, so she resorted to stealing food out of _________. DESPAIR",
+        "correctAnswer": "DESPERATION",
+        "options": []
+      },
+      {
+        "questionText": "I have received a _________ job offer. I am planning to quit my current job. TEMPT",
+        "correctAnswer": "TEMPTING",
+        "options": []
+      },
+      {
+        "questionText": "Shakespeare's plays have a __________ appeal to all audiences. TIME",
+        "correctAnswer": "TIMELESS",
+        "options": []
+      },
+      {
+        "questionText": "The factory has regular _________ by the Health and Safety Executive. INSPECT",
+        "correctAnswer": "INSPECTIONS",
+        "options": []
+      },
+      {
+        "questionText": "The workers are ___________ to 21 days of paid holiday. ENTITLE",
+        "correctAnswer": "ENTITLED",
+        "options": []
+      },
+      {
+        "questionText": "He ____________ agreed to decrease the price of the car. RELUCTANCE",
+        "correctAnswer": "RELUCTANTLY",
+        "options": []
+      }
+    ]
+  },
+  {
+    "instruction": "Find the synonyms of the words that are underlined by choosing A, B, C, D or E.",
+    "type": "multiple-choice",
+    "items": [
+      {
+        "questionText": "Fuel taxes were reduced to shield the industry from the effects of the rise in oil prices.",
+        "options": [
+          { "text": "A. Foster", "isCorrect": false },
+          { "text": "B. Advance", "isCorrect": false },
+          { "text": "C. Protect", "isCorrect": true },
+          { "text": "D. Support", "isCorrect": false },
+          { "text": "E. Defend", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "One penalty of being famous is the loss of privacy.",
+        "options": [
+          { "text": "A. Cost", "isCorrect": true },
+          { "text": "B. Reward", "isCorrect": false },
+          { "text": "C. Criticism", "isCorrect": false },
+          { "text": "D. Virtue", "isCorrect": false },
+          { "text": "E. Cause", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Unemployment is likely to remain constant for the next two years. The rate has not changed for some time and the experts do not foresee any decrease.",
+        "options": [
+          { "text": "A. Rigid", "isCorrect": false },
+          { "text": "B. Imbalanced", "isCorrect": false },
+          { "text": "C. Steady", "isCorrect": true },
+          { "text": "D. Excessive", "isCorrect": false },
+          { "text": "E. Inconsistent", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "A good leader should not be arrogant but be modest enough to get advice from experts.",
+        "options": [
+          { "text": "A. Brave", "isCorrect": false },
+          { "text": "B. Proud", "isCorrect": false },
+          { "text": "C. Eager", "isCorrect": false },
+          { "text": "D. Hesitant", "isCorrect": false },
+          { "text": "E. Humble", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Sixty-year-old men who still smoke have a life expectancy of less than 12 years.",
+        "options": [
+          { "text": "A. Mortality", "isCorrect": false },
+          { "text": "B. Longevity", "isCorrect": true },
+          { "text": "C. Proportion", "isCorrect": false },
+          { "text": "D. Existence", "isCorrect": false },
+          { "text": "E. Ambition", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Let's keep the meeting as brief as possible.",
+        "options": [
+          { "text": "A. Comprehensive", "isCorrect": false },
+          { "text": "B. Lengthy", "isCorrect": false },
+          { "text": "C. Short", "isCorrect": true },
+          { "text": "D. Useful", "isCorrect": false },
+          { "text": "E. Limited", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "I think you should grab your chance to travel while you’re young.",
+        "options": [
+          { "text": "A. Miss", "isCorrect": false },
+          { "text": "B. Receive", "isCorrect": false },
+          { "text": "C. Seize", "isCorrect": true },
+          { "text": "D. Release", "isCorrect": false },
+          { "text": "E. Give", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "The luxurious villa has a balcony that overlooks the sea, offering breathtaking views of the ocean horizon.",
+        "options": [
+          { "text": "A. disregard", "isCorrect": false },
+          { "text": "B. Ignore", "isCorrect": false },
+          { "text": "C. oversee", "isCorrect": false },
+          { "text": "D. Look out over", "isCorrect": true },
+          { "text": "E. neglect", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,959 @@
+{
+  "sets": [
+    {
+      "id": "pin-set-1",
+      "level": "pin",
+      "title": "Q Skills for Success 1 (3rd Ed.) Unit 7 Vocabulary Exercises",
+      "flashcards": [
+        {
+          "id": "word",
+          "word": "Word",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-1",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "pin-set-2",
+      "level": "pin",
+      "title": "Q Skills In-Class Vocabulary Unit 2",
+      "flashcards": [
+        {
+          "id": "word",
+          "word": "Word",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 1. amazement",
+          "word": "___ 1. amazement",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 2. guess",
+          "word": "___ 2. guess",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 3. book",
+          "word": "___ 3. book",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 4. annoy",
+          "word": "___ 4. annoy",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 5. intelligent",
+          "word": "___ 5. intelligent",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 6. pleased",
+          "word": "___ 6. pleased",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 7. nearly",
+          "word": "___ 7. nearly",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 8. definitely",
+          "word": "___ 8. definitely",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 9. truth",
+          "word": "___ 9. truth",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 10. pick",
+          "word": "___ 10. pick",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "completely",
+          "word": "completely",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "annoying",
+          "word": "annoying",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-2",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "pin-set-3",
+      "level": "pin",
+      "title": "Q Skills In-Class Vocabulary Unit 4 (revised)",
+      "flashcards": [
+        {
+          "id": "nervous",
+          "word": "nervous",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "calm",
+          "word": "calm",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "meaningful",
+          "word": "meaningful",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "scared",
+          "word": "scared",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "strange",
+          "word": "strange",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "huge",
+          "word": "huge",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-3",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "pin-set-4",
+      "level": "pin",
+      "title": "Q Skills In-Class Vocabulary Unit 5",
+      "flashcards": [
+        {
+          "id": "unit 5- vocabulary",
+          "word": "UNIT 5- VOCABULARY",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-4",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "pin-set-5",
+      "level": "pin",
+      "title": "Q Skills In-Class Vocabulary Unit 8 (revised)",
+      "flashcards": [
+        {
+          "id": "crash",
+          "word": "crash",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "disappoint",
+          "word": "disappoint",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "horror",
+          "word": "horror",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "symbolize",
+          "word": "symbolize",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "author",
+          "word": "author",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "mess",
+          "word": "mess",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-5",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "pin-set-6",
+      "level": "pin",
+      "title": "Q Skills Unit 1-3 VOCABULARY REVISION",
+      "flashcards": [
+        {
+          "id": "word",
+          "word": "Word",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 1. advise",
+          "word": "___ 1. Advise",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 2. advice",
+          "word": "___ 2. Advice",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 3. trouble",
+          "word": "___ 3. Trouble",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 4. behave",
+          "word": "___ 4. Behave",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 5. crowded",
+          "word": "___ 5. Crowded",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 7. complaint",
+          "word": "___ 7. Complaint",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 8. bravery",
+          "word": "___ 8. Bravery",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 9. grocery",
+          "word": "___ 9. Grocery",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 10. foreign",
+          "word": "___ 10. Foreign",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 11. problematic",
+          "word": "___ 11. Problematic",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 12. decade",
+          "word": "___ 12. Decade",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 13. creative",
+          "word": "___ 13. Creative",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 14. unnecessary",
+          "word": "___ 14. Unnecessary",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 15. suddenly",
+          "word": "___ 15. Suddenly",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 16. careless",
+          "word": "___ 16. Careless",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 17. describe",
+          "word": "___ 17. Describe",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 18. apply",
+          "word": "___ 18. Apply",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 19. glad",
+          "word": "___ 19. Glad",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 20. afford",
+          "word": "___ 20. Afford",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 21. ambition",
+          "word": "___ 21. Ambition",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 22. attention",
+          "word": "___ 22. Attention",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 23. meaningless",
+          "word": "___ 23. Meaningless",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 24. annoying",
+          "word": "___ 24. Annoying",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 25. express",
+          "word": "___ 25. Express",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 26. truth",
+          "word": "___ 26. Truth",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "problematic",
+          "word": "Problematic",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "grocery",
+          "word": "Grocery",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "careless",
+          "word": "Careless",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "behave",
+          "word": "Behave",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "crowded",
+          "word": "Crowded",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "excercise a",
+          "word": "EXCERCISE A",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-6",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "pin-set-7",
+      "level": "pin",
+      "title": "Q Skills Unit 7-8 VOCABULARY REVISION",
+      "flashcards": [
+        {
+          "id": "word",
+          "word": "Word",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 1. arrest",
+          "word": "___ 1. Arrest",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 2. case",
+          "word": "___ 2. Case",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 3. event",
+          "word": "___ 3. Event",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 4. reply",
+          "word": "___ 4. Reply",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 5. ship",
+          "word": "___ 5. Ship",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 7.  enter",
+          "word": "___ 7.  Enter",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 8. imagine",
+          "word": "___ 8. Imagine",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 9. roast",
+          "word": "___ 9. Roast",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 10. bake",
+          "word": "___ 10. Bake",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 11. audio",
+          "word": "___ 11. Audio",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 12. sunset",
+          "word": "___ 12. Sunset",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 13. clerk",
+          "word": "___ 13. Clerk",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 14. waitress",
+          "word": "___ 14. Waitress",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 15. guard",
+          "word": "___ 15. Guard",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 16. consonant",
+          "word": "___ 16. Consonant",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 17. mountain",
+          "word": "___ 17. Mountain",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 18. bunch",
+          "word": "___ 18. Bunch",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 19. crash",
+          "word": "___ 19. Crash",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 20. curtain",
+          "word": "___ 20. Curtain",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 21. leader",
+          "word": "___ 21. Leader",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 22. disappoint",
+          "word": "___ 22. Disappoint",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 24. shout",
+          "word": "___ 24. Shout",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 25. thick",
+          "word": "___ 25. Thick",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 26. tower",
+          "word": "___ 26. Tower",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "look forward to",
+          "word": "Look forward to",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "curtain",
+          "word": "Curtain",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "bunch",
+          "word": "Bunch",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "event",
+          "word": "Event",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "contact",
+          "word": "Contact",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "excercise a",
+          "word": "EXCERCISE A",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-7",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "pin-set-8",
+      "level": "pin",
+      "title": "Q Skills Vocabulary Unit 1 (revised)",
+      "flashcards": [
+        {
+          "id": "word",
+          "word": "Word",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 1. careless",
+          "word": "___ 1. Careless",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 2. interest",
+          "word": "___ 2. Interest",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 3. fashion",
+          "word": "___ 3. Fashion",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 4. describe",
+          "word": "___ 4. Describe",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 5. calm",
+          "word": "___ 5. Calm",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 6. enormous",
+          "word": "___ 6. Enormous",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 7. educate",
+          "word": "___ 7. Educate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 8. decorate",
+          "word": "___ 8. Decorate",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 9. collect",
+          "word": "___ 9. Collect",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 10. official",
+          "word": "___ 10. Official",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "exercise a",
+          "word": "Exercise A",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-8",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "pin-set-9",
+      "level": "pin",
+      "title": "Q Skills Vocabulary Unit 6 (revised)",
+      "flashcards": [
+        {
+          "id": "word",
+          "word": "Word",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 1. disadvantage",
+          "word": "___ 1. Disadvantage",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 2. formal",
+          "word": "___ 2. Formal",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 3. personality",
+          "word": "___ 3. Personality",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 4. surgeon",
+          "word": "___ 4. Surgeon",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 5. advertisement",
+          "word": "___ 5. Advertisement",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 6. miserable",
+          "word": "___ 6. Miserable",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 7. pupil",
+          "word": "___ 7. Pupil",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 8. content",
+          "word": "___ 8. Content",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 9. delighted",
+          "word": "___ 9. Delighted",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 10. mend",
+          "word": "___ 10. Mend",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "___ 11. quite",
+          "word": "___ 11. Quite",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "excercise a",
+          "word": "EXCERCISE A",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-9",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "pin-set-10",
+      "level": "pin",
+      "title": "PIN- Q SKILLS 1 LISTENING & SPEAKING WORDLIST (Period 2- Period 4) Updated- 7 July 2023",
+      "flashcards": [
+        {
+          "id": "unit 1- business",
+          "word": "UNIT 1- BUSINESS",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 3- sociology",
+          "word": "UNIT 3- SOCIOLOGY",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 4- physiology",
+          "word": "UNIT 4- PHYSIOLOGY",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 5- psychology",
+          "word": "UNIT 5- PSYCHOLOGY",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 6- marketing",
+          "word": "UNIT 6- MARKETING",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 8- pscyhology",
+          "word": "UNIT 8- PSCYHOLOGY",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-10",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    },
+    {
+      "id": "pin-set-11",
+      "level": "pin",
+      "title": "PIN- Q SKILLS 1 READING & WRITING WORDLIST  (Period 2- Period 4)- Updated- 06 July 2023",
+      "flashcards": [
+        {
+          "id": "unit 1- business",
+          "word": "UNIT 1- BUSINESS",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 3- sociology",
+          "word": "UNIT 3- SOCIOLOGY",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 4- physiology",
+          "word": "UNIT 4- PHYSIOLOGY",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 6- communication",
+          "word": "UNIT 6- COMMUNICATION",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "unit 8- pscyhology",
+          "word": "UNIT 8- PSCYHOLOGY",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        },
+        {
+          "id": "noun",
+          "word": "NOUN",
+          "definition": "Manual touch-up needed"
+        }
+      ],
+      "practices": [
+        {
+          "id": "practice-11",
+          "type": "manual",
+          "title": "Auto-extracted practices need manual mapping",
+          "content": "Manual extraction needed"
+        }
+      ]
+    }
+  ]
+}
