@@ -4,7 +4,8 @@ import { authOptions } from "@/lib/auth"
 import { prisma } from "@/lib/prisma"
 
 interface PracticeAnswer {
-  wordId: string
+  wordId?: string
+  questionId: string
   answer: string
   correct: boolean
 }
@@ -41,7 +42,8 @@ export async function POST(request: Request) {
     .filter((item: PracticeAnswer) => !item.correct)
     .map((item: PracticeAnswer) => ({
       sessionId: "",
-      wordId: item.wordId,
+      wordId: item.wordId || null,
+      questionId: item.questionId,
       userId: user.id,
     }))
 

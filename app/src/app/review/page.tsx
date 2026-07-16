@@ -10,6 +10,7 @@ import AntiCheatWrapper from '@/components/practice/AntiCheatWrapper'
 interface PracticeItem {
   id: string
   wordId: string | null
+  questionId: string
   question: string
   options: { id: string, text: string, isCorrect: boolean }[]
   instruction: string
@@ -34,7 +35,7 @@ export default function ReviewPage() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [score, setScore] = useState(0)
   const [isComplete, setIsComplete] = useState(false)
-  const [answers, setAnswers] = useState<{ wordId: string, answer: string, correct: boolean, timeSpent: number }[]>([])
+  const [answers, setAnswers] = useState<{ wordId?: string, questionId: string, answer: string, correct: boolean, timeSpent: number }[]>([])
   const [result, setResult] = useState<ReviewResponse | null>(null)
   const [error, setError] = useState('')
 
@@ -59,20 +60,30 @@ export default function ReviewPage() {
     if (isCorrect) setScore(s => s + 1)
     
     const currentItem = items[currentIndex]
-    let newAnswers = answers
-    if (currentItem.wordId) {
-      newAnswers = [...answers, { 
-        wordId: currentItem.wordId!, 
-        answer: currentItem.correctAnswer || '', 
-        correct: isCorrect, 
-        timeSpent 
-      }]
-      setAnswers(newAnswers)
-    }
+    const newAnswers = [...answers, { 
+      wordId: currentItem.wordId || undefined, 
+      questionId: currentItem.questionId || currentItem.id,
+      answer: currentItem.correctAnswer || '', 
+      correct: isCorrect, 
+      timeSpent 
+    }]
+    setAnswers(newAnswers)
+    
     await advance(newAnswers)
   }
 
-  const handleSkip = async () => await advance(answers)
+  const handleSkip = async () => {
+    const currentItem = items[currentIndex]
+    const newAnswers = [...answers, { 
+      wordId: currentItem.wordId || undefined, 
+      questionId: currentItem.questionId || currentItem.id,
+      answer: '', 
+      correct: false, 
+      timeSpent: 0 
+    }]
+    setAnswers(newAnswers)
+    await advance(newAnswers)
+  }
 
   const handleCheatAttempt = (type: string) => {
     console.log(`Cheat attempt logged: ${type}`)
@@ -136,7 +147,7 @@ export default function ReviewPage() {
               <span className="material-symbols-outlined text-6xl text-primary mb-6" style={{fontVariationSettings: "'FILL' 1"}}>verified</span>
               <h2 className="font-headline-md text-headline-md font-bold text-on-surface mb-2">You're all caught up!</h2>
               <p className="font-body-lg text-on-surface-variant mb-8">No missed questions to review. Keep up the great work in your daily practice.</p>
-              <button onClick={() => router.push('/dashboard')} className="px-8 py-3 bg-primary text-on-primary font-label-sm rounded-full hover:brightness-110 active:scale-95 transition-all">
+              <button onClick={() => { router.refresh(); router.push('/dashboard'); }} className="px-8 py-3 bg-primary text-on-primary font-label-sm rounded-full hover:brightness-110 active:scale-95 transition-all">
                 Back to Dashboard
               </button>
             </div>
@@ -186,7 +197,7 @@ export default function ReviewPage() {
               <span className="text-3xl font-bold text-primary">+{result.pointsEarned}</span>
             </div>
 
-            <button onClick={() => router.push('/dashboard')} className="w-full py-4 bg-primary text-on-primary font-title-md rounded-xl hover:brightness-110 active:scale-95 transition-all">
+            <button onClick={() => { router.refresh(); router.push('/dashboard'); }} className="w-full py-4 bg-primary text-on-primary font-title-md rounded-xl hover:brightness-110 active:scale-95 transition-all">
               Return to Dashboard
             </button>
           </div>

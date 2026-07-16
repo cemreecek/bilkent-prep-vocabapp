@@ -10,6 +10,7 @@ interface RosterStudent {
   initials: string
   streak: number
   debt: number
+  points: number
   lastLogin: Date | string
   timeSpentHours: string
 }
@@ -63,6 +64,7 @@ export default function TeacherRoster({ roster: initialRoster }: TeacherRosterPr
               <th className="px-6 py-4 font-bold">Time Spent</th>
               <th className="px-6 py-4 font-bold">Streak</th>
               <th className="px-6 py-4 font-bold">Debt Status</th>
+              <th className="px-6 py-4 font-bold">Weekly Points</th>
               <th className="px-6 py-4 font-bold text-right">Actions</th>
             </tr>
           </thead>
@@ -100,6 +102,9 @@ export default function TeacherRoster({ roster: initialRoster }: TeacherRosterPr
                         Clear
                       </span>
                     )}
+                  </td>
+                  <td className="px-6 py-4">
+                    <span className="text-sm font-bold text-[color:var(--color-primary)]">{student.points} pts</span>
                   </td>
                   <td className="px-6 py-4 text-right">
                     <button 

@@ -76,6 +76,7 @@ model PracticeQuestion {
   correctAnswer String?
   options       PracticeOption[]
   list          VocabList        @relation(fields: [listId], references: [id], onDelete: Cascade)
+  errorLogs     ErrorLog[]
 
   @@index([listId])
 }
@@ -104,17 +105,20 @@ model Session {
 }
 
 model ErrorLog {
-  id        String    @id @default(cuid())
-  sessionId String
-  wordId    String
-  userId    String
-  timestamp DateTime  @default(now())
-  session   Session   @relation(fields: [sessionId], references: [id], onDelete: Cascade)
-  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
-  word      VocabWord @relation(fields: [wordId], references: [id])
+  id          String    @id @default(cuid())
+  sessionId   String
+  wordId      String?
+  questionId  String?
+  userId      String
+  timestamp   DateTime  @default(now())
+  session     Session   @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  word        VocabWord? @relation(fields: [wordId], references: [id])
+  question    PracticeQuestion? @relation(fields: [questionId], references: [id])
 
   @@index([userId])
   @@index([wordId])
+  @@index([questionId])
   @@index([timestamp])
 }
 

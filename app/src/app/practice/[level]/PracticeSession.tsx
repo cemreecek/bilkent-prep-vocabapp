@@ -36,7 +36,7 @@ export default function PracticeSession({ level, availableWeeks, isAdmin }: Prac
   const [score, setScore] = useState(0)
   const [isComplete, setIsComplete] = useState(false)
   const [errorDebt, setErrorDebt] = useState(0)
-  const [answers, setAnswers] = useState<{ wordId: string, answer: string, correct: boolean, timeSpent: number }[]>([])
+  const [answers, setAnswers] = useState<{ wordId?: string, questionId: string, answer: string, correct: boolean, timeSpent: number }[]>([])
   
   const [editingQuestion, setEditingQuestion] = useState<any>(null)
 
@@ -91,20 +91,30 @@ export default function PracticeSession({ level, availableWeeks, isAdmin }: Prac
     else setErrorDebt(e => e + 1)
     
     const currentItem = items[currentIndex]
-    let newAnswers = answers
-    if (currentItem.wordId) {
-      newAnswers = [...answers, { 
-        wordId: currentItem.wordId!, 
-        answer: currentItem.correctAnswer || '', 
-        correct: isCorrect, 
-        timeSpent 
-      }]
-      setAnswers(newAnswers)
-    }
+    const newAnswers = [...answers, { 
+      wordId: currentItem.wordId || undefined, 
+      questionId: currentItem.id,
+      answer: currentItem.correctAnswer || '', 
+      correct: isCorrect, 
+      timeSpent 
+    }]
+    setAnswers(newAnswers)
+    
     await advance(newAnswers)
   }
 
-  const handleSkip = async () => await advance(answers)
+  const handleSkip = async () => {
+    const currentItem = items[currentIndex]
+    const newAnswers = [...answers, { 
+      wordId: currentItem.wordId || undefined, 
+      questionId: currentItem.id,
+      answer: '', 
+      correct: false, 
+      timeSpent: 0 
+    }]
+    setAnswers(newAnswers)
+    await advance(newAnswers)
+  }
   
   const handleCheatAttempt = (type: string) => {
     console.log(`Cheat attempt logged: ${type}`)
@@ -128,6 +138,7 @@ export default function PracticeSession({ level, availableWeeks, isAdmin }: Prac
       }).catch(console.error)
       setLoading(false)
       setIsComplete(true)
+      router.refresh()
     }
   }
 
@@ -365,8 +376,11 @@ export default function PracticeSession({ level, availableWeeks, isAdmin }: Prac
             )}
   
             <div className="flex gap-4 justify-center">
-              <button onClick={() => setActiveView('overview')} className="px-8 py-3 bg-surface-container-high text-on-surface font-label-sm rounded-full hover:bg-surface-variant transition-colors">
+              <button onClick={() => { setActiveView('overview'); router.refresh(); }} className="px-8 py-3 bg-surface-container-high text-on-surface font-label-sm rounded-full hover:bg-surface-variant transition-colors">
                 Back to Set
+              </button>
+              <button onClick={() => { router.refresh(); router.push('/dashboard'); }} className="px-8 py-3 bg-primary text-on-primary font-label-sm rounded-full hover:brightness-110 transition-colors">
+                Dashboard
               </button>
             </div>
           </div>
