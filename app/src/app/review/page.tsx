@@ -47,12 +47,13 @@ export default function ReviewPage() {
     }
 
     fetch('/api/review-missed')
-      .then((res) => {
-        if (!res.ok) throw new Error('Unable to fetch review questions.')
-        return res.json()
+      .then(async (res) => {
+        const data = await res.json()
+        if (!res.ok) throw new Error(data.error || 'Unable to fetch review questions.')
+        return data
       })
       .then((data) => setItems(data))
-      .catch(() => setError('Unable to load missed questions.'))
+      .catch((e) => setError(e.message || 'Unable to load missed questions.'))
       .finally(() => setLoading(false))
   }, [session, status, router])
 

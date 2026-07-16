@@ -4,19 +4,20 @@ import { authOptions } from "@/lib/auth"
 import { prisma } from "@/lib/prisma"
 
 export async function GET() {
-  const session = await getServerSession(authOptions)
+  try {
+    const session = await getServerSession(authOptions)
 
-  if (!session?.user?.email) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
-  }
+    if (!session?.user?.email) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
+    }
 
-  const user = await prisma.user.findUnique({
-    where: { email: session.user.email },
-  })
+    const user = await prisma.user.findUnique({
+      where: { email: session.user.email },
+    })
 
-  if (!user) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
-  }
+    if (!user) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
+    }
 
   // Get recent error logs
   const mistakes = await prisma.errorLog.findMany({
@@ -102,6 +103,10 @@ export async function GET() {
     }
   }
 
-  formattedQuestions.sort(() => Math.random() - 0.5)
-  return NextResponse.json(formattedQuestions)
+    formattedQuestions.sort(() => Math.random() - 0.5)
+    return NextResponse.json(formattedQuestions)
+  } catch (error: any) {
+    console.error("Error in review-missed API:", error);
+    return NextResponse.json({ error: error.message || "Unknown server error", stack: error.stack }, { status: 500 })
+  }
 }
