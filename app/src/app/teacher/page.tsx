@@ -100,6 +100,7 @@ export default async function TeacherDashboard({ searchParams }: { searchParams:
         });
         
         for (const e of errorCounts) {
+           if (!e.wordId) continue;
            const w = await prisma.vocabWord.findUnique({where: {id: e.wordId}});
            if (w) {
              topErrors.push({ word: w.word, count: e._count.wordId });

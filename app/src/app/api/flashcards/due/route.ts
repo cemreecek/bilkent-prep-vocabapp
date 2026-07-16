@@ -64,7 +64,9 @@ export async function GET() {
       take: 20 - dueCards.length
     })
 
-    const errorWordIds = errorLogs.map(log => log.wordId)
+    const errorWordIds = errorLogs
+      .map(log => log.wordId)
+      .filter((id): id is string => id !== null)
     
     let errorWordsMap = new Map()
     if (errorWordIds.length > 0) {
