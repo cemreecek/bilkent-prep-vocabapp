@@ -6,13 +6,14 @@ import { adminCreateUserAction, adminUpdateUserAction } from "@/app/actions/user
 export default function UserManagementModal({
   user,
 }: {
-  user?: { id: string; name: string | null; email: string; role: string };
+  user?: { id: string; name: string | null; email: string; role: string; level?: string | null };
 }) {
   const isEditing = !!user;
   const [isOpen, setIsOpen] = useState(false);
   const [name, setName] = useState(user?.name || "");
   const [email, setEmail] = useState(user?.email || "");
   const [role, setRole] = useState(user?.role || "STUDENT");
+  const [level, setLevel] = useState(user?.level || "");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -24,7 +25,7 @@ export default function UserManagementModal({
 
     if (isEditing) {
       const res = await adminUpdateUserAction(user.id, {
-        name, email, role, password: password || undefined
+        name, email, role, level: level || undefined, password: password || undefined
       });
       if (res.success) {
         setIsOpen(false);
@@ -33,7 +34,7 @@ export default function UserManagementModal({
         setError(res.error || "Failed to update user");
       }
     } else {
-      const res = await adminCreateUserAction({ name, email, role, password });
+      const res = await adminCreateUserAction({ name, email, role, level: level || undefined, password });
       if (res.success) {
         setIsOpen(false);
         window.location.reload();
@@ -121,6 +122,25 @@ export default function UserManagementModal({
                   <option value="ADMIN">Admin</option>
                 </select>
               </div>
+
+              {role === "STUDENT" && (
+                <div>
+                  <label className="block text-sm font-[family-name:var(--font-label-sm)] text-[color:var(--color-on-surface-variant)] mb-1">
+                    Level (Optional)
+                  </label>
+                  <select
+                    value={level}
+                    onChange={(e) => setLevel(e.target.value)}
+                    className="w-full border border-[color:var(--color-outline-variant)] rounded-xl px-4 py-3 bg-[color:var(--color-surface)] text-[color:var(--color-on-surface)] focus:ring-0 focus:border-[color:var(--color-primary)] outline-none"
+                  >
+                    <option value="">None</option>
+                    <option value="Elementary">Elementary</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Upper">Upper</option>
+                    <option value="PreFac">PreFac</option>
+                  </select>
+                </div>
+              )}
 
               <div>
                 <label className="block text-sm font-[family-name:var(--font-label-sm)] text-[color:var(--color-on-surface-variant)] mb-1">

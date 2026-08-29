@@ -5,7 +5,7 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import bcrypt from "bcryptjs";
 
-export async function adminCreateUserAction(data: { name: string; email: string; role: string; password?: string }) {
+export async function adminCreateUserAction(data: { name: string; email: string; role: string; password?: string; level?: string }) {
   try {
     const session = await getServerSession(authOptions);
     if (session?.user?.role !== "ADMIN") return { success: false, error: "Not authorized" };
@@ -24,6 +24,7 @@ export async function adminCreateUserAction(data: { name: string; email: string;
         email: data.email,
         password: hash,
         role: data.role as any,
+        level: data.level,
       }
     });
     return { success: true };
@@ -33,7 +34,7 @@ export async function adminCreateUserAction(data: { name: string; email: string;
   }
 }
 
-export async function adminUpdateUserAction(id: string, data: { name?: string; email?: string; role?: string; password?: string }) {
+export async function adminUpdateUserAction(id: string, data: { name?: string; email?: string; role?: string; password?: string; level?: string }) {
   try {
     const session = await getServerSession(authOptions);
     if (session?.user?.role !== "ADMIN") return { success: false, error: "Not authorized" };
@@ -43,6 +44,7 @@ export async function adminUpdateUserAction(id: string, data: { name?: string; e
     if (data.email) updateData.email = data.email;
     if (data.role) updateData.role = data.role as any;
     if (data.password) updateData.password = await bcrypt.hash(data.password, 10);
+    if (data.level !== undefined) updateData.level = data.level;
 
     await prisma.user.update({
       where: { id },

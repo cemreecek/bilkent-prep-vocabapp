@@ -94,7 +94,7 @@ export default async function StudentDashboard() {
         {/* Bento Grid Highlights */}
         <section className="grid grid-cols-1 md:grid-cols-12 gap-[var(--spacing-gutter)]">
           {/* Daily Streak Card */}
-          <div className="md:col-span-7 bg-[color:var(--color-surface-container-lowest)] border border-[color:var(--color-outline-variant)] rounded-xl p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
+          <div className={`${(dbUser?.errorScore || 0) > 0 ? 'md:col-span-7' : 'md:col-span-12'} bg-[color:var(--color-surface-container-lowest)] border border-[color:var(--color-outline-variant)] rounded-xl p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow`}>
             <div className="flex justify-between items-start">
               <div className="space-y-1">
                 <span className="text-[color:var(--color-secondary)] font-[family-name:var(--font-label-sm)] uppercase tracking-wider">
@@ -121,31 +121,33 @@ export default async function StudentDashboard() {
           </div>
 
           {/* Error Score Widget */}
-          <div className="md:col-span-5 bg-[color:var(--color-error-container)] border border-[color:var(--color-error)]/20 rounded-xl p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
-            <div>
-              <div className="flex items-center gap-2 text-[color:var(--color-error)] mb-2">
-                <span className="material-symbols-outlined">warning</span>
-                <span className="font-[family-name:var(--font-label-sm)] font-bold uppercase tracking-wider">
-                  Action Required
-                </span>
+          {(dbUser?.errorScore || 0) > 0 && (
+            <div className="md:col-span-5 bg-[color:var(--color-error-container)] border border-[color:var(--color-error)]/20 rounded-xl p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
+              <div>
+                <div className="flex items-center gap-2 text-[color:var(--color-error)] mb-2">
+                  <span className="material-symbols-outlined">warning</span>
+                  <span className="font-[family-name:var(--font-label-sm)] font-bold uppercase tracking-wider">
+                    Action Required
+                  </span>
+                </div>
+                <div className="text-[length:var(--text-display-lg)] font-[family-name:var(--font-display-lg)] text-[color:var(--color-on-error-container)]">
+                  {dbUser?.errorScore || 0}
+                </div>
+                <p className="font-[family-name:var(--font-title-md)] text-[length:var(--text-title-md)] text-[color:var(--color-on-error-container)] font-semibold mt-1">
+                  Error Points
+                </p>
               </div>
-              <div className="text-[length:var(--text-display-lg)] font-[family-name:var(--font-display-lg)] text-[color:var(--color-on-error-container)]">
-                {dbUser?.errorScore || 0}
+              <div className="mt-4">
+                <p className="text-[color:var(--color-on-error-container)] font-[family-name:var(--font-body-md)] opacity-80 mb-4">
+                  Clearing your error debt is the fastest way to improve your placement score.
+                </p>
+                <Link href="/review" className="w-full bg-[color:var(--color-error)] text-[color:var(--color-on-error)] font-[family-name:var(--font-title-md)] text-[length:var(--text-title-md)] py-3 rounded-lg hover:brightness-110 active:scale-[0.98] transition-all flex items-center justify-center gap-2">
+                  <span className="material-symbols-outlined">auto_fix_high</span>
+                  Revise Errors
+                </Link>
               </div>
-              <p className="font-[family-name:var(--font-title-md)] text-[length:var(--text-title-md)] text-[color:var(--color-on-error-container)] font-semibold mt-1">
-                Error Points
-              </p>
             </div>
-            <div className="mt-4">
-              <p className="text-[color:var(--color-on-error-container)] font-[family-name:var(--font-body-md)] opacity-80 mb-4">
-                Clearing your error debt is the fastest way to improve your placement score.
-              </p>
-              <Link href="/review" className="w-full bg-[color:var(--color-error)] text-[color:var(--color-on-error)] font-[family-name:var(--font-title-md)] text-[length:var(--text-title-md)] py-3 rounded-lg hover:brightness-110 active:scale-[0.98] transition-all flex items-center justify-center gap-2">
-                <span className="material-symbols-outlined">auto_fix_high</span>
-                Revise Errors
-              </Link>
-            </div>
-          </div>
+          )}
         </section>
 
         {hasClassroom && (

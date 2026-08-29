@@ -22,7 +22,8 @@ export default function AdminStudentAssignerModal({
 
   const filteredStudents = unassignedStudents.filter(s => 
     (s.name?.toLowerCase() || '').includes(searchQuery.toLowerCase()) || 
-    s.email.toLowerCase().includes(searchQuery.toLowerCase())
+    s.email.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    s.id.toLowerCase().includes(searchQuery.toLowerCase())
   )
 
   const handleAssignExisting = async () => {
@@ -106,7 +107,7 @@ export default function AdminStudentAssignerModal({
                     <label className="block text-xs font-bold text-[color:var(--color-on-surface-variant)] mb-1">Select Unassigned Student</label>
                     <input 
                       type="text" 
-                      placeholder="Search by name or email..." 
+                      placeholder="Search by name, email or ID..." 
                       className="w-full p-2 border border-[color:var(--color-outline-variant)] rounded-lg bg-[color:var(--color-surface)] text-sm mb-2"
                       value={searchQuery}
                       onChange={e => setSearchQuery(e.target.value)}

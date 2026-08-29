@@ -5,20 +5,20 @@ import React, { useEffect, useState } from 'react'
 export default function RealTimeSystemEvents({ initialEvents }: { initialEvents: any[] }) {
   const [events, setEvents] = useState(initialEvents)
 
-  useEffect(() => {
-    // Poll for events every 10 seconds
-    const interval = setInterval(async () => {
-      try {
-        const res = await fetch('/api/admin/events')
-        if (res.ok) {
-          const data = await res.json()
-          setEvents(data)
-        }
-      } catch (e) {
-        console.error('Failed to fetch real-time events', e)
+  const fetchEvents = async () => {
+    try {
+      const res = await fetch('/api/admin/events')
+      if (res.ok) {
+        const data = await res.json()
+        setEvents(data)
       }
-    }, 10000)
+    } catch (e) {
+      console.error('Failed to fetch real-time events', e)
+    }
+  }
 
+  useEffect(() => {
+    const interval = setInterval(fetchEvents, 10000)
     return () => clearInterval(interval)
   }, [])
 
@@ -26,6 +26,15 @@ export default function RealTimeSystemEvents({ initialEvents }: { initialEvents:
 
   return (
     <div className="space-y-4">
+      <div className="flex justify-end">
+        <button
+          onClick={fetchEvents}
+          className="flex items-center gap-1 text-sm text-[color:var(--color-primary)] hover:underline"
+        >
+          <span className="material-symbols-outlined text-sm">refresh</span>
+          Refresh
+        </button>
+      </div>
       {hasLiveEvents ? (
         events.map(event => (
           <div key={event.id} className="flex items-start gap-4 p-3 hover:bg-[color:var(--color-surface)] transition-colors rounded-lg">

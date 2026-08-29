@@ -21,16 +21,21 @@ export default function ClassroomSelector({
   }
 
   return (
-    <select
-      value={selectedId}
-      onChange={(e) => router.push(`?classroomId=${e.target.value}`)}
-      className="bg-transparent border-none text-[color:var(--color-primary)] font-bold focus:ring-0 outline-none cursor-pointer hover:underline text-xs m-0 p-0"
-    >
-      {classrooms.map((c) => (
-        <option key={c.id} value={c.id} className="text-black dark:text-white">
-          {c.name}
-        </option>
-      ))}
-    </select>
+    <div className="relative inline-flex items-center">
+      <select
+        value={selectedId}
+        onChange={(e) => router.push(`?classroomId=${e.target.value}`)}
+        className="appearance-none bg-[color:var(--color-primary-container)] border border-[color:var(--color-outline-variant)] text-[color:var(--color-on-primary-container)] font-bold focus:ring-2 focus:ring-[color:var(--color-primary)] outline-none cursor-pointer text-xs rounded-md pl-3 pr-8 py-1 transition-colors"
+      >
+        {classrooms.map((c) => (
+          <option key={c.id} value={c.id} className="text-black dark:text-white bg-white dark:bg-gray-800">
+            {c.name}
+          </option>
+        ))}
+      </select>
+      <span className="material-symbols-outlined absolute right-2 text-[16px] text-[color:var(--color-on-primary-container)] pointer-events-none">
+        arrow_drop_down
+      </span>
+    </div>
   );
 }

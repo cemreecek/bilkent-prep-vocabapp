@@ -10,6 +10,7 @@ import AdminTeacherAssigner from "@/components/AdminTeacherAssigner";
 import CreateClassroomModal from "@/components/CreateClassroomModal";
 import AdminMobileDrawer from "@/components/admin/AdminMobileDrawer";
 import RealTimeSystemEvents from "@/components/admin/RealTimeSystemEvents";
+import DeleteClassroomButton from "@/components/admin/DeleteClassroomButton";
 import AdminStudentAssignerModal from "@/components/admin/AdminStudentAssignerModal";
 import AdminTeacherAssignerAction from "@/components/admin/AdminTeacherAssignerAction";
 
@@ -300,6 +301,7 @@ export default async function AdminDashboard() {
                           <td className="px-6 py-4 text-right">
                             <div className="flex justify-end gap-2">
                               <AdminStudentAssignerModal classroomId={cls.id} unassignedStudents={unassignedStudents} />
+                              <DeleteClassroomButton classroomId={cls.id} />
                             </div>
                           </td>
                         </tr>
