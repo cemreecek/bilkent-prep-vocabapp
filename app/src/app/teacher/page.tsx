@@ -124,7 +124,7 @@ export default async function TeacherDashboard({ searchParams }: { searchParams:
             Instructor Portal
           </h1>
           <p className="font-[family-name:var(--font-body-md)] text-[color:var(--color-on-surface-variant)]">
-            Bilkent Prep School
+            Campus Vocab
           </p>
         </div>
         <nav className="flex-grow">
@@ -160,7 +160,7 @@ export default async function TeacherDashboard({ searchParams }: { searchParams:
               <span className="text-[color:var(--color-primary)] font-bold">Dashboard</span>
             </nav>
             <span className="md:hidden font-[family-name:var(--font-title-md)] text-[length:var(--text-title-md)] font-bold text-[color:var(--color-primary)]">
-              Bilkent Prep
+              Campus Vocab
             </span>
           </div>
           <div className="flex items-center space-x-4">

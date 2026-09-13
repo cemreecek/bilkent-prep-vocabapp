@@ -41,7 +41,7 @@ export default async function StudentDashboard() {
         <div className="flex items-center gap-4">
           <div className="w-10 h-10 rounded-full bg-[color:var(--color-surface-container-highest)] border border-[color:var(--color-outline-variant)]"></div>
           <div className="text-[length:var(--text-title-md)] font-[family-name:var(--font-title-md)] font-bold text-[color:var(--color-primary)] dark:text-[color:var(--color-primary-fixed-dim)]">
-            Bilkent Prep
+            Campus Vocab
           </div>
         </div>
         <div className="flex items-center gap-4">

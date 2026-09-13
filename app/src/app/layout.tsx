@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Bilkent Vocabulary App",
-  description: "Secure language learning platform for Bilkent University students",
+  title: "Campus Vocab",
+  description: "Secure language learning platform for university students",
 }
 
 export default function RootLayout({

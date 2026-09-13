@@ -37,7 +37,7 @@ export default function SignUp() {
             Create an Account
           </h2>
           <p className="mt-2 text-center text-sm text-gray-600">
-            Join Bilkent Vocabulary App
+            Join Campus Vocab
           </p>
         </div>
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
