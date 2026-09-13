@@ -24,7 +24,7 @@ export async function adminCreateUserAction(data: { name: string; email: string;
         email: data.email,
         password: hash,
         role: data.role as any,
-        level: data.level,
+        level: data.level as any,
       }
     });
     return { success: true };
