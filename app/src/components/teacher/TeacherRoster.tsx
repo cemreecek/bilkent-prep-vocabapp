@@ -11,7 +11,7 @@ interface RosterStudent {
   initials: string
   streak: number
   debt: number
-  points: number
+  points: number | string
   lastLogin: Date | string
   timeSpentHours: string
 }
@@ -105,7 +105,7 @@ export default function TeacherRoster({ roster: initialRoster }: TeacherRosterPr
                     )}
                   </td>
                   <td className="px-6 py-4">
-                    <span className="text-sm font-bold text-[color:var(--color-primary)]">{student.points} pts</span>
+                    <span className="text-sm font-bold text-[color:var(--color-primary)]">{student.points} / 5.0</span>
                   </td>
                   <td className="px-6 py-4 text-right">
                     <div className="flex justify-end items-center gap-2">

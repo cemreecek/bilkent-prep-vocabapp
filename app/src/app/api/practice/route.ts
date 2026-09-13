@@ -125,6 +125,31 @@ export async function POST(request: Request) {
     })
   }
 
+  // Clear error logs for correct answers so they don't get stuck in a review loop
+  const correctAnswers = answers.filter((item: PracticeAnswer) => item.correct)
+  if (correctAnswers.length > 0) {
+    const correctQuestionIds = correctAnswers.map((item: PracticeAnswer) => item.questionId).filter(Boolean) as string[]
+    const correctWordIds = correctAnswers.map((item: PracticeAnswer) => item.wordId).filter(Boolean) as string[]
+    
+    if (correctQuestionIds.length > 0) {
+      await prisma.errorLog.deleteMany({
+        where: {
+          userId: user.id,
+          questionId: { in: correctQuestionIds }
+        }
+      })
+    }
+    
+    if (correctWordIds.length > 0) {
+      await prisma.errorLog.deleteMany({
+        where: {
+          userId: user.id,
+          wordId: { in: correctWordIds }
+        }
+      })
+    }
+  }
+
   return NextResponse.json({
     sessionId: sessionRecord.id,
     correctCount,

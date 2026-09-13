@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import React from "react";
 import Link from "next/link";
 import { getServerSession } from "next-auth";
@@ -9,6 +10,9 @@ import ClassroomSelector from "@/components/ClassroomSelector";
 import TeacherRoster from "@/components/teacher/TeacherRoster";
 import AnalyticsTrigger from "@/components/teacher/AnalyticsTrigger";
 import ExportCSVButton from "@/components/teacher/ExportCSVButton";
+
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 export default async function TeacherDashboard({ searchParams }: { searchParams: Promise<{ classroomId?: string }> }) {
   const resolvedSearchParams = await searchParams;
@@ -72,9 +76,10 @@ export default async function TeacherDashboard({ searchParams }: { searchParams:
           const debt = s.errorScore || 0
           
           const streakPoints = Math.min(5, streak)
-          const debtPenalty = Math.min(5, Math.floor(debt / 5))
-          const debtPoints = Math.max(0, 5 - debtPenalty)
-          const weeklyPoints = streakPoints + debtPoints
+          // 0 debt = 5.0 points. Penalty: e.g. 30 debt -> 2.0 penalty -> 3.0/5.0
+          const debtPenalty = debt / 15
+          let weeklyPoints = (5.0 - debtPenalty).toFixed(1)
+          if (parseFloat(weeklyPoints) < 0) weeklyPoints = "0.0"
 
           return {
             id: s.id,

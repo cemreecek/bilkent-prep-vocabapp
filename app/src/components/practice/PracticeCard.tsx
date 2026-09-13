@@ -334,7 +334,7 @@ export default function PracticeCard({
 
       <div className="flex flex-col items-center text-center space-y-6">
         {/* Instruction */}
-        <p className="font-label-sm text-label-sm text-outline uppercase tracking-[0.1em]">
+        <p className="font-label-sm text-label-sm text-outline uppercase tracking-[0.1em] px-8 sm:px-0 mt-4 sm:mt-0">
           {(mode === 'gap-fill' || mode === 'rewriting' || mode === 'word-form' || (mode === 'cloze' && options.length === 0)) && instruction.toLowerCase().includes('choose') 
             ? "Type the correct word" 
             : instruction}
