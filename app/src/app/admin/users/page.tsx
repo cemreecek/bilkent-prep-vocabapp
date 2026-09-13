@@ -23,7 +23,7 @@ export default async function AdminUsersPage() {
             <img
               alt="Campus Vocab Logo"
               className="w-10 h-10 rounded-full"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFGv73Y2XTtTVpuPM6aQP5_Pqy_14Gmkq5ZzfPdOfTSV7G5TxxstsTP2tt1PWuoCphjovmWbZeczlYi8xOlX2g55DqYycVGgC59VVbEuuxKbn4OUWGkj43Vc8w2cprilKadqNmEDpsp0EXIzFa1bY-vFaQmfvnTLDBkK_TOpeWKuXeBDxHQ6bMdgladyEXxF8A9_0px1ISeQ4s9AjdG6bdGr1mC9oY3syFnpqtcKBQk3RSyY1UkrZrUFpTo0A_7iHuPUicfrfOZGoJ"
+              src="/logo.jpg"
             />
             <div>
               <h1 className="font-[family-name:var(--font-headline-lg)] text-[length:var(--text-headline-lg)] text-[color:var(--color-primary)]">
