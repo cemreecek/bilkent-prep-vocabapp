@@ -87,3 +87,24 @@ export async function publicRegisterUserAction(data: { name: string; email: stri
     return { success: false, error: "Registration failed" };
   }
 }
+
+export async function resetPasswordAction(userId: string, newPassword: string) {
+  try {
+    const session = await getServerSession(authOptions);
+    if (!session?.user) return { success: false, error: "Not authorized" };
+    
+    if (session.user.role !== "ADMIN" && session.user.role !== "TEACHER") {
+      return { success: false, error: "Not authorized" };
+    }
+
+    const hash = await bcrypt.hash(newPassword, 10);
+    await prisma.user.update({
+      where: { id: userId },
+      data: { password: hash },
+    });
+    return { success: true };
+  } catch (e) {
+    console.error("Reset password error", e);
+    return { success: false, error: "Failed to reset password" };
+  }
+}

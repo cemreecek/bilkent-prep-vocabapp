@@ -9,6 +9,7 @@ export default function SignIn() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
+  const [showForgotMessage, setShowForgotMessage] = useState(false)
   const router = useRouter()
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -115,10 +116,26 @@ export default function SignIn() {
           </div>
         </form>
 
-        <div className="text-center mt-4">
-          <Link href="/auth/signup" className="font-medium text-indigo-600 hover:text-indigo-500 text-sm">
-            Don&apos;t have an account? Sign up
-          </Link>
+        <div className="text-center mt-4 space-y-2">
+          <div>
+            <button
+              type="button"
+              onClick={() => setShowForgotMessage(!showForgotMessage)}
+              className="text-sm font-medium text-indigo-600 hover:text-indigo-500"
+            >
+              Forgot your password?
+            </button>
+          </div>
+          {showForgotMessage && (
+            <div className="text-sm text-gray-600 bg-gray-100 p-2 rounded-md">
+              Please contact your instructor to have your password reset.
+            </div>
+          )}
+          <div>
+            <Link href="/auth/signup" className="font-medium text-indigo-600 hover:text-indigo-500 text-sm">
+              Don&apos;t have an account? Sign up
+            </Link>
+          </div>
         </div>
       </div>
     </div>

@@ -6,6 +6,7 @@ import { prisma } from "@/lib/prisma";
 import LogoutButton from "@/components/LogoutButton";
 import UserManagementModal from "@/components/UserManagementModal";
 import AdminMobileDrawer from "@/components/admin/AdminMobileDrawer";
+import ResetPasswordButton from "@/components/ResetPasswordButton";
 
 export default async function AdminUsersPage() {
   const session = await getServerSession(authOptions);
@@ -134,7 +135,10 @@ export default async function AdminUsersPage() {
                       </td>
                       <td className="px-6 py-4 text-[color:var(--color-on-surface-variant)]">{u.errorScore}</td>
                       <td className="px-6 py-4 text-right">
-                        <UserManagementModal user={{ id: u.id, name: u.name, email: u.email, role: u.role }} />
+                        <div className="flex justify-end items-center gap-2">
+                          <ResetPasswordButton userId={u.id} />
+                          <UserManagementModal user={{ id: u.id, name: u.name, email: u.email, role: u.role }} />
+                        </div>
                       </td>
                     </tr>
                   ))}

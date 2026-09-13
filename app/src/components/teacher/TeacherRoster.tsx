@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react'
 import EditStudentModal from './EditStudentModal'
+import ResetPasswordButton from '../ResetPasswordButton'
 
 interface RosterStudent {
   id: string
@@ -107,13 +108,16 @@ export default function TeacherRoster({ roster: initialRoster }: TeacherRosterPr
                     <span className="text-sm font-bold text-[color:var(--color-primary)]">{student.points} pts</span>
                   </td>
                   <td className="px-6 py-4 text-right">
-                    <button 
-                      onClick={() => setEditingStudent(student)}
-                      className="p-2 text-[color:var(--color-on-surface-variant)] hover:text-[color:var(--color-primary)] hover:bg-[color:var(--color-primary)]/10 rounded-full transition-colors"
-                      title="Edit Student"
-                    >
-                      <span className="material-symbols-outlined text-[20px]">edit</span>
-                    </button>
+                    <div className="flex justify-end items-center gap-2">
+                      <ResetPasswordButton userId={student.id} />
+                      <button 
+                        onClick={() => setEditingStudent(student)}
+                        className="p-2 text-[color:var(--color-on-surface-variant)] hover:text-[color:var(--color-primary)] hover:bg-[color:var(--color-primary)]/10 rounded-full transition-colors"
+                        title="Edit Student"
+                      >
+                        <span className="material-symbols-outlined text-[20px]">edit</span>
+                      </button>
+                    </div>
                   </td>
                 </tr>
               ))
