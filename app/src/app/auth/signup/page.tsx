@@ -33,7 +33,13 @@ export default function SignUp() {
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
       <div className="max-w-md w-full space-y-8 p-8 bg-white rounded-xl shadow-sm border border-gray-100">
         <div className="flex flex-col items-center">
-          <img src="/logo.jpg" alt="Campus Vocab Logo" className="w-32 h-auto mb-4" />
+          <img src="/logo.jpg" alt="Campus Vocab Logo" className="w-24 h-auto mb-2 rounded-2xl shadow-sm border border-gray-100" />
+          <h2 className="mt-4 text-center text-3xl font-extrabold text-gray-900">
+            Create your account
+          </h2>
+          <p className="mt-2 text-center text-sm text-gray-600 font-medium">
+            Campus Vocab
+          </p>
         </div>
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
           <div className="rounded-md shadow-sm space-y-4">
