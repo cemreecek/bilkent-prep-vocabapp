@@ -8,6 +8,9 @@ import RoleSwitcher from "@/components/RoleSwitcher";
 import JoinClassroom from "@/components/JoinClassroom";
 import { prisma } from "@/lib/prisma";
 
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 export default async function StudentDashboard() {
   const session = await getServerSession(authOptions);
   const userName = session?.user?.name?.split(' ')[0] || "Student";

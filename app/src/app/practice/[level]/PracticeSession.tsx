@@ -379,7 +379,7 @@ export default function PracticeSession({ level, availableWeeks, isAdmin }: Prac
               <button onClick={() => { setActiveView('overview'); router.refresh(); }} className="px-8 py-3 bg-surface-container-high text-on-surface font-label-sm rounded-full hover:bg-surface-variant transition-colors">
                 Back to Set
               </button>
-              <button onClick={() => { router.refresh(); router.push('/dashboard'); }} className="px-8 py-3 bg-primary text-on-primary font-label-sm rounded-full hover:brightness-110 transition-colors">
+              <button onClick={() => { window.location.href = '/dashboard'; }} className="px-8 py-3 bg-primary text-on-primary font-label-sm rounded-full hover:brightness-110 transition-colors">
                 Dashboard
               </button>
             </div>
