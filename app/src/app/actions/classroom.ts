@@ -111,6 +111,29 @@ export async function assignStudentToClassroomAction(classroomId: string, studen
   }
 }
 
+export async function removeStudentFromClassroomAction(studentId: string) {
+  try {
+    const session = await getServerSession(authOptions);
+    if (session?.user?.role !== 'ADMIN') {
+      return { success: false, error: "Not authorized" };
+    }
+    
+    if (!studentId) {
+      return { success: false, error: "Student ID cannot be empty" };
+    }
+
+    await prisma.user.update({
+      where: { id: studentId },
+      data: { classroomId: null }
+    });
+
+    return { success: true };
+  } catch (e) {
+    console.error("Remove student error:", e);
+    return { success: false, error: "Failed to remove student" };
+  }
+}
+
 export async function createClassroomAction(name: string, teacherId?: string, level: string = "Elementary") {
   try {
     const session = await getServerSession(authOptions);

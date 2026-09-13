@@ -24,7 +24,10 @@ export default function ClassroomSelector({
     <div className="relative inline-flex items-center">
       <select
         value={selectedId}
-        onChange={(e) => router.push(`?classroomId=${e.target.value}`)}
+        onChange={(e) => {
+          router.push(`?classroomId=${e.target.value}`);
+          router.refresh();
+        }}
         className="appearance-none bg-[color:var(--color-primary-container)] border border-[color:var(--color-outline-variant)] text-[color:var(--color-on-primary-container)] font-bold focus:ring-2 focus:ring-[color:var(--color-primary)] outline-none cursor-pointer text-xs rounded-md pl-3 pr-8 py-1 transition-colors"
       >
         {classrooms.map((c) => (

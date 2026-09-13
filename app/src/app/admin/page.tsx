@@ -50,6 +50,7 @@ export default async function AdminDashboard() {
     const liveClassrooms = await prisma.classroom.findMany({
       include: {
         teacher: true,
+        students: { select: { id: true, name: true, email: true } },
         _count: { select: { students: true } }
       },
       take: 12
@@ -62,6 +63,7 @@ export default async function AdminDashboard() {
         teacherId: c.teacherId,
         teacherName: c.teacher?.name || "Unassigned",
         studentCount: c._count.students,
+        students: c.students,
         maxStudents: 25,
         joinCode: c.joinCode,
         level: c.level
@@ -300,7 +302,7 @@ export default async function AdminDashboard() {
                           </td>
                           <td className="px-6 py-4 text-right">
                             <div className="flex justify-end gap-2">
-                              <AdminStudentAssignerModal classroomId={cls.id} unassignedStudents={unassignedStudents} />
+                              <AdminStudentAssignerModal classroomId={cls.id} unassignedStudents={unassignedStudents} enrolledStudents={cls.students} />
                               <DeleteClassroomButton classroomId={cls.id} />
                             </div>
                           </td>

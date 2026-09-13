@@ -1,17 +1,19 @@
 'use client'
 
 import React, { useState } from 'react'
-import { assignStudentToClassroomAction } from '@/app/actions/classroom'
+import { assignStudentToClassroomAction, removeStudentFromClassroomAction } from '@/app/actions/classroom'
 
 export default function AdminStudentAssignerModal({ 
   classroomId, 
-  unassignedStudents 
+  unassignedStudents,
+  enrolledStudents = []
 }: { 
   classroomId: string;
   unassignedStudents: { id: string; name: string | null; email: string }[];
+  enrolledStudents?: { id: string; name: string | null; email: string }[];
 }) {
   const [isOpen, setIsOpen] = useState(false)
-  const [tab, setTab] = useState<'existing' | 'new'>('existing')
+  const [tab, setTab] = useState<'existing' | 'new' | 'enrolled'>('existing')
   const [loading, setLoading] = useState(false)
 
   const [selectedId, setSelectedId] = useState('')
@@ -30,6 +32,18 @@ export default function AdminStudentAssignerModal({
     if (!selectedId) return
     setLoading(true)
     const res = await assignStudentToClassroomAction(classroomId, selectedId)
+    setLoading(false)
+    if (res.success) {
+      window.location.reload()
+    } else {
+      alert(res.error)
+    }
+  }
+
+  const handleRemove = async (studentId: string) => {
+    if (!confirm("Are you sure you want to remove this student?")) return;
+    setLoading(true)
+    const res = await removeStudentFromClassroomAction(studentId)
     setLoading(false)
     if (res.success) {
       window.location.reload()
@@ -99,6 +113,12 @@ export default function AdminStudentAssignerModal({
                 >
                   Create New
                 </button>
+                <button 
+                  className={`flex-1 py-2 font-bold text-sm ${tab === 'enrolled' ? 'text-[color:var(--color-primary)] border-b-2 border-[color:var(--color-primary)]' : 'text-[color:var(--color-on-surface-variant)]'}`}
+                  onClick={() => setTab('enrolled')}
+                >
+                  Enrolled
+                </button>
               </div>
 
               {tab === 'existing' ? (
@@ -131,7 +151,7 @@ export default function AdminStudentAssignerModal({
                     {loading ? 'Assigning...' : 'Assign to Class'}
                   </button>
                 </div>
-              ) : (
+              ) : tab === 'new' ? (
                 <div className="space-y-4">
                   <div>
                     <label className="block text-xs font-bold text-[color:var(--color-on-surface-variant)] mb-1">Full Name</label>
@@ -170,6 +190,28 @@ export default function AdminStudentAssignerModal({
                   >
                     {loading ? 'Creating...' : 'Create & Assign'}
                   </button>
+                </div>
+              ) : (
+                <div className="space-y-4 max-h-64 overflow-y-auto">
+                  {enrolledStudents.length === 0 ? (
+                    <p className="text-sm text-center text-[color:var(--color-on-surface-variant)] py-4">No students enrolled in this section.</p>
+                  ) : (
+                    enrolledStudents.map(s => (
+                      <div key={s.id} className="flex items-center justify-between p-2 border-b border-[color:var(--color-outline-variant)]">
+                        <div>
+                          <p className="font-bold text-sm text-[color:var(--color-on-surface)]">{s.name || 'Unnamed'}</p>
+                          <p className="text-xs text-[color:var(--color-on-surface-variant)]">{s.email}</p>
+                        </div>
+                        <button 
+                          onClick={() => handleRemove(s.id)}
+                          disabled={loading}
+                          className="text-xs bg-[color:var(--color-error)] text-white px-2 py-1 rounded hover:opacity-90 disabled:opacity-50 font-bold"
+                        >
+                          Remove
+                        </button>
+                      </div>
+                    ))
+                  )}
                 </div>
               )}
             </div>
