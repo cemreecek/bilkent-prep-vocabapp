@@ -141,7 +141,13 @@ export default function PracticeCard({
          const idx = parseInt(idxStr)
          const selectedOrTyped = clozeAnswers[idx] || ''
          
-         if (optionsByBlank[idx].length === 1) {
+         if (mode === 'word-bank') {
+           const selectedOpt = options.find(o => o.id === selectedOrTyped)
+           const correctOpt = optionsByBlank[idx][0]
+           if (!selectedOpt || selectedOpt.text.toLowerCase() !== correctOpt.text.toLowerCase()) {
+             allCorrect = false
+           }
+         } else if (optionsByBlank[idx].length === 1) {
            const correctText = optionsByBlank[idx][0].text
            if (selectedOrTyped.trim().toLowerCase() !== correctText.toLowerCase()) {
               allCorrect = false
