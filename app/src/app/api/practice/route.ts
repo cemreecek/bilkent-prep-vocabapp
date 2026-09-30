@@ -68,7 +68,6 @@ export async function POST(request: Request) {
   }
 
   let totalPoints = correctCount * 10
-  let resetStreak = missedLogs.length > 2 // Allow up to 2 misses
   let errorIncrement = missedLogs.length * 5
 
   // Speed penalty calculation
@@ -85,10 +84,28 @@ export async function POST(request: Request) {
   }
 
   if (type === "review") {
-    // For review, award bonus points and don't reset streak
+    // For review, award bonus points
     totalPoints = correctCount * 15 // bonus
-    resetStreak = false
     errorIncrement = (missedLogs.length * 5) + (speedViolations * 5) // ensure misses add to debt!
+  }
+
+  // Fetch existing streak
+  const existingStreak = await prisma.streak.findUnique({
+    where: { userId: user.id },
+  })
+
+  let newCurrentStreak = 1
+  if (existingStreak && existingStreak.lastLogin) {
+    const today = Math.floor(now.getTime() / 86400000)
+    const lastLoginDay = Math.floor(existingStreak.lastLogin.getTime() / 86400000)
+    
+    if (today === lastLoginDay) {
+      newCurrentStreak = existingStreak.currentStreak
+    } else if (today === lastLoginDay + 1) {
+      newCurrentStreak = existingStreak.currentStreak + 1
+    } else {
+      newCurrentStreak = 1
+    }
   }
 
   await prisma.streak.upsert({
@@ -96,7 +113,7 @@ export async function POST(request: Request) {
       userId: user.id,
     },
     update: {
-      currentStreak: resetStreak ? 0 : { increment: 1 },
+      currentStreak: newCurrentStreak,
       totalPoints: {
         increment: totalPoints,
       },
@@ -104,16 +121,13 @@ export async function POST(request: Request) {
     },
     create: {
       userId: user.id,
-      currentStreak: resetStreak ? 0 : 1,
+      currentStreak: newCurrentStreak,
       totalPoints,
       lastLogin: now,
     },
   })
 
-  let newErrorScore = user.errorScore + errorIncrement;
-  if (type === "review") {
-    newErrorScore = user.errorScore + errorIncrement - (correctCount * 5);
-  }
+  let newErrorScore = user.errorScore + errorIncrement - (correctCount * 5);
   newErrorScore = Math.max(0, newErrorScore);
 
   if (newErrorScore !== user.errorScore) {
