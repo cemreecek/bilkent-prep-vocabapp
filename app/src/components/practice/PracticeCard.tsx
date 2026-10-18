@@ -207,7 +207,6 @@ export default function PracticeCard({
   const bankWords = mode === 'word-bank'
     ? Array.from(new Map(options.map(o => [norm(o.text), o.text.trim()])).values())
         .filter(Boolean)
-        .sort((a, b) => a.localeCompare(b))
     : []
   const usedWords = new Set(Object.values(clozeAnswers).map(norm))
   const wbAnswerText = (b: number) => {
