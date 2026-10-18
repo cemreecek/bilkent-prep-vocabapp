@@ -1,96 +1,98 @@
 'use client'
 
-import React, { useEffect, useState } from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 
-export default function RealTimeSystemEvents({ initialEvents }: { initialEvents: any[] }) {
-  const [events, setEvents] = useState(initialEvents)
+type FeedEvent = {
+  id: string
+  title: string
+  description?: string | null
+  type: string
+  icon?: string
+  createdAt?: string
+  timeAgo: string
+}
 
-  const fetchEvents = async () => {
+const REFRESH_MS = 15000
+
+export default function RealTimeSystemEvents({ initialEvents }: { initialEvents: FeedEvent[] }) {
+  const [events, setEvents] = useState<FeedEvent[]>(initialEvents)
+  const [loading, setLoading] = useState(false)
+  const [updatedAt, setUpdatedAt] = useState<Date>(new Date())
+  const [failed, setFailed] = useState(false)
+
+  const fetchEvents = useCallback(async () => {
+    setLoading(true)
     try {
-      const res = await fetch('/api/admin/events')
-      if (res.ok) {
-        const data = await res.json()
-        setEvents(data)
-      }
+      const res = await fetch('/api/admin/events', { cache: 'no-store' })
+      if (!res.ok) throw new Error(String(res.status))
+      setEvents(await res.json())
+      setUpdatedAt(new Date())
+      setFailed(false)
     } catch (e) {
       console.error('Failed to fetch real-time events', e)
+      setFailed(true)
+    } finally {
+      setLoading(false)
     }
-  }
-
-  useEffect(() => {
-    const interval = setInterval(fetchEvents, 10000)
-    return () => clearInterval(interval)
   }, [])
 
-  const hasLiveEvents = events.length > 0
+  useEffect(() => {
+    fetchEvents()
+    const interval = setInterval(() => {
+      if (document.visibilityState === 'visible') fetchEvents()
+    }, REFRESH_MS)
+    const onFocus = () => fetchEvents()
+    window.addEventListener('focus', onFocus)
+    return () => {
+      clearInterval(interval)
+      window.removeEventListener('focus', onFocus)
+    }
+  }, [fetchEvents])
+
+  const tone = (type: string) =>
+    type === 'WARNING' || type === 'ERROR'
+      ? 'bg-[color:var(--color-error)]/10 text-[color:var(--color-error)]'
+      : type === 'SUCCESS'
+        ? 'bg-[color:var(--color-secondary-container)]/20 text-[color:var(--color-secondary)]'
+        : 'bg-[color:var(--color-primary-container)]/20 text-[color:var(--color-primary)]'
+
+  const iconFor = (e: FeedEvent) =>
+    e.icon || (e.type === 'WARNING' || e.type === 'ERROR' ? 'warning' : e.type === 'SUCCESS' ? 'check_circle' : 'info')
 
   return (
-    <div className="space-y-4">
-      <div className="flex justify-end">
+    <div className="space-y-3">
+      <div className="flex items-center justify-between text-xs text-[color:var(--color-on-surface-variant)]">
+        <span className="flex items-center gap-1.5" suppressHydrationWarning>
+          <span className={`inline-block w-2 h-2 rounded-full ${failed ? 'bg-red-500' : 'bg-green-500 animate-pulse'}`} />
+          {failed ? 'Connection lost, retrying' : 'Live'} · updated {updatedAt.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', second: '2-digit' })}
+        </span>
         <button
           onClick={fetchEvents}
-          className="flex items-center gap-1 text-sm text-[color:var(--color-primary)] hover:underline"
+          disabled={loading}
+          className="flex items-center gap-1 text-sm text-[color:var(--color-primary)] hover:underline disabled:opacity-50"
         >
-          <span className="material-symbols-outlined text-sm">refresh</span>
+          <span className={`material-symbols-outlined text-sm ${loading ? 'animate-spin' : ''}`}>refresh</span>
           Refresh
         </button>
       </div>
-      {hasLiveEvents ? (
+
+      {events.length > 0 ? (
         events.map(event => (
           <div key={event.id} className="flex items-start gap-4 p-3 hover:bg-[color:var(--color-surface)] transition-colors rounded-lg">
-            <div className={`w-8 h-8 rounded-full flex items-center justify-center ${
-              event.type === 'WARNING' || event.type === 'ERROR' ? 'bg-[color:var(--color-error)]/10 text-[color:var(--color-error)]' : 
-              event.type === 'SUCCESS' ? 'bg-[color:var(--color-secondary-container)]/20 text-[color:var(--color-secondary)]' : 
-              'bg-[color:var(--color-primary-container)]/20 text-[color:var(--color-primary)]'
-            }`}>
-              <span className="material-symbols-outlined text-sm">
-                {event.type === 'WARNING' || event.type === 'ERROR' ? 'warning' :
-                 event.type === 'SUCCESS' ? 'check_circle' : 'info'}
-              </span>
+            <div className={`w-8 h-8 shrink-0 rounded-full flex items-center justify-center ${tone(event.type)}`}>
+              <span className="material-symbols-outlined text-sm">{iconFor(event)}</span>
             </div>
-            <div className="flex-1">
-              <p className="text-sm text-[color:var(--color-on-surface)]" dangerouslySetInnerHTML={{ __html: event.title }}></p>
+            <div className="flex-1 min-w-0">
+              <p className="text-sm text-[color:var(--color-on-surface)]" dangerouslySetInnerHTML={{ __html: event.title }} />
               {event.description && <p className="text-xs text-[color:var(--color-on-surface-variant)] mt-1">{event.description}</p>}
-              <p className="text-xs text-[color:var(--color-on-surface-variant)] mt-1">{event.timeAgo} • System</p>
+              <p className="text-xs text-[color:var(--color-on-surface-variant)] mt-1" title={event.createdAt ? new Date(event.createdAt).toLocaleString('en-GB', { timeZone: 'Europe/Istanbul' }) : undefined}>
+                {event.timeAgo}
+              </p>
             </div>
           </div>
         ))
       ) : (
-        <>
-          <div className="flex items-start gap-4 p-3 hover:bg-[color:var(--color-surface)] transition-colors rounded-lg">
-            <div className="w-8 h-8 rounded-full bg-[color:var(--color-primary-container)]/20 flex items-center justify-center text-[color:var(--color-primary)]">
-              <span className="material-symbols-outlined text-sm">edit</span>
-            </div>
-            <div className="flex-1">
-              <p className="text-sm text-[color:var(--color-on-surface)]">
-                Curriculum update pushed to <strong>Section 101, 102</strong>
-              </p>
-              <p className="text-xs text-[color:var(--color-on-surface-variant)]">12 minutes ago • System Admin</p>
-            </div>
-          </div>
-          <div className="flex items-start gap-4 p-3 hover:bg-[color:var(--color-surface)] transition-colors rounded-lg">
-            <div className="w-8 h-8 rounded-full bg-[color:var(--color-secondary-container)]/20 flex items-center justify-center text-[color:var(--color-secondary)]">
-              <span className="material-symbols-outlined text-sm">person_add</span>
-            </div>
-            <div className="flex-1">
-              <p className="text-sm text-[color:var(--color-on-surface)]">
-                <strong>Prof. Selin Yılmaz</strong> assigned to Section 102
-              </p>
-              <p className="text-xs text-[color:var(--color-on-surface-variant)]">2 hours ago • HR Module</p>
-            </div>
-          </div>
-          <div className="flex items-start gap-4 p-3 hover:bg-[color:var(--color-surface)] transition-colors rounded-lg">
-            <div className="w-8 h-8 rounded-full bg-[color:var(--color-error)]/10 flex items-center justify-center text-[color:var(--color-error)]">
-              <span className="material-symbols-outlined text-sm">warning</span>
-            </div>
-            <div className="flex-1">
-              <p className="text-sm text-[color:var(--color-on-surface)]">
-                Critical Drop-off detected in <strong>Section 204</strong> participation
-              </p>
-              <p className="text-xs text-[color:var(--color-on-surface-variant)]">5 hours ago • Analytics Bot</p>
-            </div>
-          </div>
-        </>
+        <p className="text-sm text-center py-6 text-[color:var(--color-on-surface-variant)]">No activity yet.</p>
       )}
     </div>
   )

@@ -17,6 +17,12 @@ function findIssues(q: { type: string; correctAnswer: string | null; options: { 
     const k = q.type === "paragraph-cloze" || q.options.some((x) => (x.blankIndex ?? 1) !== 1) ? (o.blankIndex ?? 1) : 1;
     groups.set(k, (groups.get(k) ?? 0) + (o.isCorrect ? 1 : 0));
   }
+  if (q.type === "word-bank") {
+    // Extra words with no correct flag are distractors; only flag if nothing is marked correct at all.
+    const total = [...groups.values()].reduce((a, b) => a + b, 0);
+    if (total === 0 && q.options.length > 1) issues.push("No correct option marked");
+    return issues;
+  }
   for (const [k, n] of groups) {
     if (n === 0) issues.push(groups.size > 1 ? `Blank ${k}: no correct option` : "No correct option marked");
     if (n > 1 && q.type !== "matching") issues.push(groups.size > 1 ? `Blank ${k}: ${n} options marked correct` : `${n} options marked correct`);

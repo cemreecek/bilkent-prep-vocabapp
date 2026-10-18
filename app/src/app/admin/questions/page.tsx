@@ -26,8 +26,12 @@ export default function QuestionEditorPage() {
   const [questions, setQuestions] = useState<Q[]>([]);
   const [savingId, setSavingId] = useState<string | null>(null);
   const [savedId, setSavedId] = useState<string | null>(null);
+  const [dirty, setDirty] = useState<Set<string>>(new Set());
+  const [savingAll, setSavingAll] = useState(false);
+  const [notice, setNotice] = useState<string | null>(null);
 
-  const load = async () => {
+  const load = async (force = false) => {
+    if (!force && dirty.size > 0 && !confirm(`You have ${dirty.size} unsaved question(s). Discard changes and reload?`)) return;
     setLoading(true);
     setError(null);
     try {
@@ -40,6 +44,7 @@ export default function QuestionEditorPage() {
       const json = await res.json();
       if (!res.ok) throw new Error(json.error || "Failed to load questions");
       setQuestions(json.data);
+      setDirty(new Set());
     } catch (e: any) {
       setError(e.message);
     } finally {
@@ -47,8 +52,10 @@ export default function QuestionEditorPage() {
     }
   };
 
-  const patch = (id: string, changes: Partial<Q>) =>
+  const patch = (id: string, changes: Partial<Q>) => {
     setQuestions((qs) => qs.map((q) => (q.id === id ? { ...q, ...changes } : q)));
+    setDirty((d) => new Set(d).add(id));
+  };
 
   const setOption = (q: Q, idx: number, changes: Partial<Opt>) =>
     patch(q.id, { options: q.options.map((o, i) => (i === idx ? { ...o, ...changes } : o)) });
@@ -62,32 +69,57 @@ export default function QuestionEditorPage() {
   const hasBlanks = (q: Q) => q.type === "paragraph-cloze" || q.options.some((o) => (o.blankIndex ?? 1) !== 1);
   const nextBlank = (q: Q) => Math.max(0, ...q.options.map((o) => o.blankIndex ?? 1)) + 1;
 
+  const putQuestion = async (q: Q) => {
+    const res = await fetch("/api/admin/edit-question", {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        id: q.id,
+        questionText: q.questionText,
+        instruction: q.instruction,
+        type: q.type,
+        correctAnswer: q.correctAnswer,
+        options: q.options.map(({ text, isCorrect, blankIndex }) => ({ text, isCorrect, blankIndex })),
+      }),
+    });
+    const json = await res.json().catch(() => ({}));
+    if (!res.ok) throw new Error(json.error || "Failed to save");
+  };
+
   const save = async (q: Q) => {
     setSavingId(q.id);
     setError(null);
     try {
-      const res = await fetch("/api/admin/edit-question", {
-        method: "PATCH",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          id: q.id,
-          questionText: q.questionText,
-          instruction: q.instruction,
-          type: q.type,
-          correctAnswer: q.correctAnswer,
-          options: q.options.map(({ text, isCorrect, blankIndex }) => ({ text, isCorrect, blankIndex })),
-        }),
-      });
-      const json = await res.json();
-      if (!res.ok) throw new Error(json.error || "Failed to save");
+      await putQuestion(q);
+      setDirty((d) => { const n = new Set(d); n.delete(q.id); return n; });
       setSavedId(q.id);
       setTimeout(() => setSavedId((s) => (s === q.id ? null : s)), 2500);
-      await load();
     } catch (e: any) {
       setError(e.message);
     } finally {
       setSavingId(null);
     }
+  };
+
+  const saveAll = async () => {
+    const pending = questions.filter((q) => dirty.has(q.id));
+    if (pending.length === 0) return;
+    setSavingAll(true);
+    setError(null);
+    setNotice(null);
+    const failed: string[] = [];
+    for (const q of pending) {
+      try {
+        await putQuestion(q);
+        setDirty((d) => { const n = new Set(d); n.delete(q.id); return n; });
+      } catch (e: any) {
+        failed.push(`${q.list.unit} wk ${q.week}: ${e.message}`);
+      }
+    }
+    setSavingAll(false);
+    if (failed.length) setError(`${failed.length} question(s) failed to save:\n${failed.join("\n")}`);
+    else setNotice(`Saved ${pending.length} question(s).`);
+    if (!failed.length) await load(true);
   };
 
   const remove = async (q: Q) => {
@@ -136,12 +168,29 @@ export default function QuestionEditorPage() {
           <input type="checkbox" checked={onlyIssues} onChange={(e) => setOnlyIssues(e.target.checked)} />
           Only suspicious answer keys
         </label>
-        <button onClick={load} disabled={loading} className="bg-blue-600 text-white rounded-lg py-2 font-semibold hover:bg-blue-700 disabled:opacity-50">
+        <button onClick={() => load()} disabled={loading} className="bg-blue-600 text-white rounded-lg py-2 font-semibold hover:bg-blue-700 disabled:opacity-50">
           {loading ? "Loading..." : "Load questions"}
         </button>
       </div>
 
-      {error && <div className="mb-4 bg-red-50 border-l-4 border-red-500 p-3 text-sm text-red-700 rounded">{error}</div>}
+      {error && <div className="mb-4 bg-red-50 border-l-4 border-red-500 p-3 text-sm text-red-700 rounded whitespace-pre-line">{error}</div>}
+      {notice && <div className="mb-4 bg-green-50 border-l-4 border-green-500 p-3 text-sm text-green-700 rounded">{notice}</div>}
+
+      {questions.length > 0 && (
+        <div className="sticky top-0 z-20 mb-4 flex flex-wrap items-center justify-between gap-3 bg-white/95 backdrop-blur border border-gray-200 rounded-xl px-4 py-3 shadow-sm">
+          <span className="text-sm text-gray-700">
+            {questions.length} question(s) loaded ·{" "}
+            <strong className={dirty.size ? "text-amber-700" : "text-gray-500"}>{dirty.size} unsaved</strong>
+          </span>
+          <button
+            onClick={saveAll}
+            disabled={savingAll || dirty.size === 0}
+            className="bg-green-600 text-white px-5 py-2 rounded-lg text-sm font-bold hover:bg-green-700 disabled:opacity-50"
+          >
+            {savingAll ? "Saving all..." : `Save all changes${dirty.size ? ` (${dirty.size})` : ""}`}
+          </button>
+        </div>
+      )}
 
       <div className="space-y-4">
         {questions.map((q) => (
@@ -149,6 +198,7 @@ export default function QuestionEditorPage() {
             <div className="flex flex-wrap items-center gap-2 mb-3 text-xs">
               <span className="bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full font-medium">{q.type}</span>
               <span className="text-gray-500">{q.list.level} · {q.list.unit} · Week {q.week}</span>
+              {dirty.has(q.id) && <span className="bg-amber-50 text-amber-700 border border-amber-300 px-2 py-0.5 rounded-full font-semibold">Unsaved</span>}
               {q.issues.map((i) => (
                 <span key={i} className="bg-amber-100 text-amber-800 px-2 py-0.5 rounded-full font-semibold">⚠ {i}</span>
               ))}

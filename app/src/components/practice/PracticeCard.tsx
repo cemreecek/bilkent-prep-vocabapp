@@ -1,6 +1,6 @@
 'use client'
 
-import { matchesAnyAnswer } from '@/lib/answers'
+import { matchesAnyAnswer, gradeWordBank, blanksInText } from '@/lib/answers'
 import { useState } from 'react'
 
 export interface PracticeOption {
@@ -35,7 +35,10 @@ export default function PracticeCard({
 
   const [inputValue, setInputValue] = useState('')
   const [clozeAnswers, setClozeAnswers] = useState<Record<number, string>>({})
-  const [activeBlank, setActiveBlank] = useState<number | null>(1)
+  const [activeBlank, setActiveBlank] = useState<number | null>(() => {
+    if (mode !== 'word-bank') return 1
+    return gradeWordBank(options, question, {}).required[0] ?? 1
+  })
 
   // Matching game state
   const [shuffledItems] = useState(() => {
@@ -140,6 +143,19 @@ export default function PracticeCard({
   const handleSubmitParagraphCloze = () => {
     if (hasAnswered) return
     setHasAnswered(true)
+
+    if (mode === 'word-bank') {
+      // Only blanks that have a correct answer count; extra distractor words are ignored.
+      const { allCorrect } = gradeWordBank(options, question, clozeAnswers)
+      const timeSpent = Math.floor((Date.now() - startTime) / 1000)
+      setTimeout(() => {
+        onAnswer(allCorrect, timeSpent)
+        setClozeAnswers({})
+        setActiveBlank(gradeWordBank(options, question, {}).required[0] ?? 1)
+        setHasAnswered(false)
+      }, 3000)
+      return
+    }
     
     // Check if all selected options are correct
     let allCorrect = true
@@ -159,13 +175,7 @@ export default function PracticeCard({
          const idx = parseInt(idxStr)
          const selectedOrTyped = clozeAnswers[idx] || ''
          
-         if (mode === 'word-bank') {
-           const selectedOpt = options.find(o => o.id === selectedOrTyped)
-           const correctOpt = optionsByBlank[idx][0]
-           if (!selectedOpt || selectedOpt.text.toLowerCase() !== correctOpt.text.toLowerCase()) {
-             allCorrect = false
-           }
-         } else if (optionsByBlank[idx].length === 1) {
+         if (optionsByBlank[idx].length === 1) {
            const correctText = optionsByBlank[idx][0].text
            if (!matchesAnyAnswer(selectedOrTyped, correctText)) {
               allCorrect = false
@@ -184,6 +194,47 @@ export default function PracticeCard({
       setClozeAnswers({})
       setHasAnswered(false)
     }, 3000)
+  }
+
+  // ---------- Word bank helpers ----------
+  const wb = mode === 'word-bank' ? gradeWordBank(options, question, clozeAnswers) : null
+  const wbOrder = (() => {
+    if (!wb) return [] as number[]
+    const inText = blanksInText(question).filter(b => wb.required.includes(b))
+    return inText.length ? Array.from(new Set(inText)) : wb.required
+  })()
+  const wbFilled = wb ? wb.required.filter(b => (clozeAnswers[b] || '').trim()).length : 0
+  const bankWords = mode === 'word-bank'
+    ? Array.from(new Map(options.map(o => [norm(o.text), o.text.trim()])).values())
+        .filter(Boolean)
+        .sort((a, b) => a.localeCompare(b))
+    : []
+  const usedWords = new Set(Object.values(clozeAnswers).map(norm))
+  const wbAnswerText = (b: number) => {
+    const group = options.filter(o => (o.blankIndex || 1) === b)
+    const correct = group.filter(o => o.isCorrect)
+    const opt = correct[0] || (group.length === 1 ? group[0] : undefined)
+    return opt ? opt.text.split(/[|;]/)[0].trim() : ''
+  }
+  const pickWord = (word: string) => {
+    if (hasAnswered) return
+    const target = activeBlank ?? wbOrder.find(b => !clozeAnswers[b]) ?? null
+    if (target === null) return
+    const next = { ...clozeAnswers, [target]: word }
+    setClozeAnswers(next)
+    const start = wbOrder.indexOf(target)
+    let nextEmpty: number | null = null
+    for (let j = 1; j <= wbOrder.length; j++) {
+      const b = wbOrder[(start + j) % wbOrder.length]
+      if (!next[b]) { nextEmpty = b; break }
+    }
+    setActiveBlank(nextEmpty)
+  }
+  const clearBlank = (b: number) => {
+    const next = { ...clozeAnswers }
+    delete next[b]
+    setClozeAnswers(next)
+    setActiveBlank(b)
   }
 
   const hasInlineBlank = !!question.match(/_{3,}/)
@@ -246,33 +297,48 @@ export default function PracticeCard({
         const blankOptions = optionsByBlank[blankIndex] || []
         
         if (mode === 'word-bank') {
-          const selectedId = clozeAnswers[blankIndex]
-          const selectedText = options.find(o => o.id === selectedId)?.text || ''
-          
-          let btnClass = "mx-2 px-4 py-1 min-w-[100px] rounded-lg border-b-2 font-body-md inline-flex items-center justify-center min-h-[36px] transition-all"
+          const chosen = clozeAnswers[blankIndex] || ''
+          const isActive = activeBlank === blankIndex && !hasAnswered
+          const result = hasAnswered ? wb?.perBlank[blankIndex] : undefined
+          const correctWord = result === false ? wbAnswerText(blankIndex) : ''
+
+          let cls = "mx-1 my-1 inline-flex items-center justify-center gap-1.5 align-middle rounded-full border-2 px-3 py-1 min-h-[40px] min-w-[96px] text-base font-semibold transition-all"
           if (hasAnswered) {
-             const isCorrect = blankOptions.find(o => o.id === selectedId)?.isCorrect
-             if (isCorrect) {
-                btnClass += " border-primary text-primary font-bold bg-primary-container/10"
-             } else {
-                btnClass += " border-error text-error bg-error-container/10"
-             }
+            cls += result === true ? " border-green-600 bg-green-50 text-green-800"
+              : result === false ? " border-red-500 bg-red-50 text-red-700"
+              : " border-outline-variant text-outline"
+          } else if (isActive) {
+            cls += " border-primary bg-primary/10 text-primary ring-4 ring-primary/20"
+          } else if (chosen) {
+            cls += " border-primary/60 bg-surface text-on-surface hover:border-primary"
           } else {
-             if (activeBlank === blankIndex) {
-               btnClass += " border-primary bg-primary-container/20 ring-2 ring-primary/30 text-primary font-bold"
-             } else {
-               btnClass += " border-outline-variant hover:border-primary bg-surface cursor-pointer text-on-surface"
-             }
+            cls += " border-dashed border-outline-variant text-outline hover:border-primary"
           }
 
           return (
-            <button
-               key={i}
-               onClick={() => !hasAnswered && setActiveBlank(blankIndex)}
-               className={btnClass}
-            >
-               {selectedText ? selectedText : <span className="opacity-30">...</span>}
-            </button>
+            <span key={i} className="inline-flex flex-col items-center align-middle">
+              <button
+                type="button"
+                aria-label={`Blank ${blankIndex}`}
+                onClick={() => !hasAnswered && setActiveBlank(blankIndex)}
+                className={cls}
+              >
+                <span className="text-[10px] font-bold opacity-60">{blankIndex}</span>
+                <span>{chosen || '\u00A0\u00A0\u00A0\u00A0\u00A0'}</span>
+                {chosen && !hasAnswered && (
+                  <span
+                    role="button"
+                    aria-label="Clear"
+                    onClick={(e) => { e.stopPropagation(); clearBlank(blankIndex) }}
+                    className="material-symbols-outlined text-[16px] opacity-50 hover:opacity-100"
+                  >close</span>
+                )}
+                {result !== undefined && (
+                  <span className="material-symbols-outlined text-[16px]">{result ? 'check_circle' : 'cancel'}</span>
+                )}
+              </button>
+              {correctWord && <span className="text-[11px] font-bold text-green-700 leading-tight">{correctWord}</span>}
+            </span>
           )
         } else {
           if (blankOptions.length === 1) {
@@ -365,35 +431,60 @@ export default function PracticeCard({
         </p>
 
         {/* Word Bank Display */}
-        {mode === 'word-bank' && (
-          <div className="w-full flex flex-wrap gap-3 justify-center mb-2 p-6 bg-primary-container/10 border border-primary/20 rounded-xl">
-            {Array.from(new Set(options.map(o => o.text))).map((word, idx) => (
-               <button 
-                 key={idx} 
-                 onClick={() => {
-                   if (activeBlank === null || hasAnswered) return
-                   const matchedOption = options.find(o => o.text === word)
-                   if (matchedOption) {
-                     setClozeAnswers({ ...clozeAnswers, [activeBlank]: matchedOption.id })
-                     
-                     const allBlankIndices = Array.from(new Set(options.map(o => o.blankIndex || 1))).sort((a,b)=>a-b)
-                     const currentIndex = allBlankIndices.indexOf(activeBlank)
-                     let nextEmpty = null
-                     for (let j = 1; j <= allBlankIndices.length; j++) {
-                       const checkIdx = allBlankIndices[(currentIndex + j) % allBlankIndices.length]
-                       if (!clozeAnswers[checkIdx] && checkIdx !== activeBlank) {
-                          nextEmpty = checkIdx
-                          break
-                       }
-                     }
-                     if (nextEmpty) setActiveBlank(nextEmpty)
-                   }
-                 }}
-                 className="px-4 py-2 bg-surface rounded-md shadow-sm border border-outline-variant font-body-md font-medium text-on-surface hover:border-primary hover:text-primary active:scale-95 transition-all"
-               >
-                 {word}
-               </button>
-            ))}
+        {mode === 'word-bank' && wb && (
+          <div className="w-full sticky top-2 z-10 rounded-2xl border border-primary/20 bg-surface/95 backdrop-blur p-4 shadow-sm text-left">
+            <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
+              <span className="flex items-center gap-1 text-xs font-bold uppercase tracking-wider text-primary">
+                <span className="material-symbols-outlined text-[16px]">dictionary</span>
+                Word bank
+              </span>
+              <span className="text-xs font-semibold text-outline">
+                {hasAnswered
+                  ? 'Answers checked'
+                  : activeBlank !== null
+                    ? `Choose a word for blank ${activeBlank}`
+                    : 'Tap a blank to change it'}
+                {' · '}{wbFilled}/{wb.required.length} filled
+              </span>
+            </div>
+            <div className="w-full h-1.5 rounded-full bg-surface-container-high mb-4 overflow-hidden">
+              <div
+                className="h-full bg-primary transition-all"
+                style={{ width: `${wb.required.length ? (wbFilled / wb.required.length) * 100 : 0}%` }}
+              />
+            </div>
+            <div className="flex flex-wrap gap-2 justify-center">
+              {bankWords.map(word => {
+                const used = usedWords.has(norm(word))
+                return (
+                  <button
+                    key={word}
+                    type="button"
+                    disabled={hasAnswered}
+                    onClick={() => pickWord(word)}
+                    className={`inline-flex items-center gap-1 px-4 min-h-[44px] rounded-xl border-2 text-base font-semibold transition-all active:scale-95 disabled:cursor-default ${
+                      used
+                        ? 'border-transparent bg-surface-container-high text-outline'
+                        : 'border-outline-variant bg-surface text-on-surface shadow-sm hover:border-primary hover:text-primary'
+                    }`}
+                  >
+                    {used && <span className="material-symbols-outlined text-[16px]">check</span>}
+                    {word}
+                  </button>
+                )
+              })}
+            </div>
+            {!hasAnswered && wbFilled > 0 && (
+              <div className="mt-3 text-center">
+                <button
+                  type="button"
+                  onClick={() => { setClozeAnswers({}); setActiveBlank(wbOrder[0] ?? 1) }}
+                  className="text-xs font-semibold text-outline hover:text-error"
+                >
+                  Clear all
+                </button>
+              </div>
+            )}
           </div>
         )}
 
@@ -443,10 +534,12 @@ export default function PracticeCard({
           <div className="w-full mt-8 flex justify-center">
              <button 
                onClick={handleSubmitParagraphCloze}
-               disabled={hasAnswered}
+               disabled={hasAnswered || (mode === 'word-bank' && !!wb && wbFilled < wb.required.length)}
                className="px-8 py-3 bg-primary text-on-primary rounded-full font-label-sm disabled:opacity-50 transition-opacity"
              >
-               {mode === 'word-bank' ? 'Submit Word Bank' : 'Submit Paragraph'}
+               {mode === 'word-bank'
+                 ? (wb && wbFilled < wb.required.length ? `Fill all blanks (${wbFilled}/${wb.required.length})` : 'Check answers')
+                 : 'Submit Paragraph'}
              </button>
           </div>
         ) : mode === 'matching' ? (

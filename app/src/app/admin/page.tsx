@@ -1,3 +1,4 @@
+import { getRecentEvents } from "@/lib/systemEvents";
 import React from "react";
 import Link from "next/link";
 import { getServerSession } from "next-auth";
@@ -70,21 +71,7 @@ export default async function AdminDashboard() {
       }));
     }
 
-    // @ts-ignore - SystemEvent type may not be available yet due to hot-reload timing
-    const liveEvents = await prisma.systemEvent.findMany({
-      orderBy: { createdAt: 'desc' },
-      take: 5
-    });
-
-    if (liveEvents.length > 0) {
-      systemEvents = liveEvents.map((e: any) => ({
-        id: e.id,
-        title: e.title,
-        description: e.description,
-        type: e.type,
-        timeAgo: new Date(e.createdAt).toLocaleDateString()
-      }));
-    }
+    systemEvents = await getRecentEvents(12);
   } catch (e) {
     console.error("Failed to fetch admin data", e);
   }

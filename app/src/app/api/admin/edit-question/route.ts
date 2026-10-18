@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { PrismaClient } from "@prisma/client";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
+import { logSystemEvent, escapeHtml } from "@/lib/systemEvents";
 
 const prisma = new PrismaClient();
 
@@ -54,6 +55,7 @@ export async function PATCH(req: NextRequest) {
       return q;
     });
 
+    await logSystemEvent(`Question updated by <strong>${escapeHtml(session.user.name || session.user.email)}</strong>`, "INFO", (questionText || "").slice(0, 80));
     return NextResponse.json({ success: true, data: updatedQuestion });
   } catch (error: any) {
     console.error("Error updating question:", error);
@@ -80,6 +82,7 @@ export async function DELETE(req: NextRequest) {
       where: { id }
     });
 
+    await logSystemEvent(`Question deleted by <strong>${escapeHtml(session.user.name || session.user.email)}</strong>`, "WARNING");
     return NextResponse.json({ success: true, message: "Question deleted successfully" });
   } catch (error: any) {
     console.error("Error deleting question:", error);
