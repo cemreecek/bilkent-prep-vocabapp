@@ -1,3 +1,4 @@
+import { effectiveStreak } from "@/lib/streak"
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -52,7 +53,7 @@ export default async function StudentDashboard() {
             <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>
               local_fire_department
             </span>
-            <span className="text-[length:var(--text-label-sm)] font-[family-name:var(--font-label-sm)]">{dbUser?.streaks?.currentStreak || 0}</span>
+            <span className="text-[length:var(--text-label-sm)] font-[family-name:var(--font-label-sm)]">{effectiveStreak(dbUser?.streaks)}</span>
           </div>
           <div className="h-6 w-px bg-[color:var(--color-outline-variant)] hidden sm:block"></div>
           {session?.user?.role !== 'STUDENT' && (
@@ -104,7 +105,7 @@ export default async function StudentDashboard() {
                   Engagement Level
                 </span>
                 <h2 className="font-[family-name:var(--font-title-md)] text-[length:var(--text-title-md)] text-[color:var(--color-on-surface)]">
-                  {dbUser?.streaks?.currentStreak || 0} Day Streak!
+                  {effectiveStreak(dbUser?.streaks)} Day Streak!
                 </h2>
               </div>
               <div className="p-3 bg-[color:var(--color-secondary-fixed)] rounded-full text-[color:var(--color-on-secondary-container)]">

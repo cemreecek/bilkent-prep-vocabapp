@@ -10,6 +10,7 @@ interface RosterStudent {
   email?: string
   initials: string
   streak: number
+  practicedToday?: boolean
   debt: number
   points: number | string
   lastLogin: Date | string
@@ -61,7 +62,7 @@ export default function TeacherRoster({ roster: initialRoster }: TeacherRosterPr
           <thead>
             <tr className="bg-[color:var(--color-surface-container-low)] text-[color:var(--color-on-surface-variant)] font-[family-name:var(--font-label-sm)] uppercase text-[11px] tracking-widest border-b border-[color:var(--color-outline-variant)]">
               <th className="px-6 py-4 font-bold">Name</th>
-              <th className="px-6 py-4 font-bold">Last Login</th>
+              <th className="px-6 py-4 font-bold">Last Practice</th>
               <th className="px-6 py-4 font-bold">Time Spent</th>
               <th className="px-6 py-4 font-bold">Streak</th>
               <th className="px-6 py-4 font-bold">Debt Status</th>
@@ -93,6 +94,7 @@ export default function TeacherRoster({ roster: initialRoster }: TeacherRosterPr
                       </span>
                       {student.streak} Days
                     </span>
+                    <div className="text-[11px] font-bold mt-1" style={{ color: student.practicedToday ? "#15803d" : "#9ca3af" }}>{student.practicedToday ? "Practiced today" : "Not yet today"}</div>
                   </td>
                   <td className="px-6 py-4">
                     {student.debt > 0 ? (

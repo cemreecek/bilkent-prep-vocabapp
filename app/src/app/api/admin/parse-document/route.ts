@@ -34,6 +34,42 @@ Schema:
   }
 ]
 `;
+const SYSTEM_PROMPT = `You convert exam documents into strict JSON. Accuracy of the answer key is more important than anything else.
+
+RULES
+1. Output ONLY a raw JSON array that matches the schema. No prose, no markdown, no comments.
+2. The ANSWER KEY in the document is the ONLY source of truth. Never infer, guess, or "improve" an answer. If the key gives a letter (e.g. "3. B"), map it to the option that carries that letter in the document, not to the option's position in your output.
+3. Keep option text exactly as written in the document (same spelling, no added letters like "A)" in "text").
+4. multiple-choice / word-bank / matching: exactly ONE option per question has "isCorrect": true.
+5. paragraph-cloze: for EACH blank, exactly ONE option has "isCorrect": true, and every option carries the correct "blankIndex".
+6. gap-fill: "correctAnswer" must be the key's answer verbatim (no numbering, no trailing punctuation unless part of the answer).
+7. If the key is missing or ambiguous for a question, set "needsReview": true on that item instead of guessing.
+
+INTERNAL VERIFICATION (do silently, never print it)
+Before emitting the JSON, for every question: (a) find its entry in the ANSWER KEY, (b) locate the exact option/word it points to, (c) re-read the question and confirm that option fits, (d) confirm the JSON marks that same option and no other. If any check fails, fix the JSON or set "needsReview": true. Only then output.`;
+
+function validateSections(sections: any): string[] {
+  const problems: string[] = [];
+  if (!Array.isArray(sections)) return ["Top-level value is not an array."];
+  const correctCount = (opts: any) => (Array.isArray(opts) ? opts.filter((o: any) => o?.isCorrect === true).length : 0);
+  sections.forEach((s: any, si: number) => {
+    (s?.items ?? []).forEach((item: any, ii: number) => {
+      if (item?.needsReview) return;
+      const where = `Section ${si + 1}, item ${ii + 1}`;
+      const opts = item?.options ?? [];
+      if (s.type === "paragraph-cloze") {
+        opts.forEach((group: any, gi: number) => {
+          if (correctCount(group) !== 1) problems.push(`${where}, blank ${gi + 1}: needs exactly one correct option.`);
+        });
+      } else if (opts.length > 0) {
+        if (correctCount(opts) !== 1) problems.push(`${where}: needs exactly one correct option (found ${correctCount(opts)}).`);
+      } else if (s.type === "gap-fill" && !String(item?.correctAnswer ?? "").trim()) {
+        problems.push(`${where}: missing correctAnswer.`);
+      }
+    });
+  });
+  return problems;
+}
 
 export async function POST(req: NextRequest) {
   try {
@@ -67,22 +103,36 @@ export async function POST(req: NextRequest) {
     }
 
     const genAI = new GoogleGenerativeAI(apiKey);
-    const model = genAI.getGenerativeModel({ model: "gemini-flash-latest" });
+    const model = genAI.getGenerativeModel({
+      model: "gemini-flash-latest",
+      systemInstruction: SYSTEM_PROMPT,
+      generationConfig: { temperature: 0, responseMimeType: "application/json" },
+    });
 
-    const prompt = "You are an expert OCR parser. Your job is to convert the following messy Word-to-Markdown document into a perfectly structured JSON array. Follow the schema rules exactly. If a section is speaking questions, you can use type=\"open-ended\". If it's matching, use type=\"matching\". Make sure to extract the correct answers from the ANSWER KEY at the bottom of the document and map them to the questions by setting \"isCorrect\": true or \"correctAnswer\".\n\n" + SCHEMA + "\n\nDOCUMENT:\n" + extractedText;
+    const basePrompt = SCHEMA + "\n\nDOCUMENT:\n" + extractedText;
+    let parsedJson: any = null;
+    let problems: string[] = [];
 
-    const result = await model.generateContent(prompt);
-    let text = result.response.text().trim();
-    
-    if (text.startsWith('\`\`\`json')) {
-      text = text.substring(7);
+    for (let attempt = 0; attempt < 2; attempt++) {
+      const prompt = attempt === 0
+        ? basePrompt
+        : basePrompt + "\n\nYOUR PREVIOUS OUTPUT FAILED VALIDATION:\n- " + problems.join("\n- ") + "\nRe-read the ANSWER KEY and return a corrected JSON array.";
+      const result = await model.generateContent(prompt);
+      let text = result.response.text().trim().replace(/^```(?:json)?/i, "").replace(/```$/, "").trim();
+      try {
+        parsedJson = JSON.parse(text);
+        problems = validateSections(parsedJson);
+      } catch (e: any) {
+        parsedJson = null;
+        problems = ["Output was not valid JSON: " + e.message];
+      }
+      if (problems.length === 0) break;
     }
-    if (text.endsWith('\`\`\`')) {
-      text = text.substring(0, text.length - 3);
-    }
-    text = text.trim();
 
-    const parsedJson = JSON.parse(text);
+    if (problems.length > 0) {
+      // Never silently save a bad answer key: surface it so the teacher can review.
+      return NextResponse.json({ success: true, data: parsedJson, warnings: problems });
+    }
 
     return NextResponse.json({ success: true, data: parsedJson });
   } catch (error: any) {

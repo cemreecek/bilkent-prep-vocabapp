@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server'
 import { PrismaClient } from '@prisma/client'
 import { getServerSession } from 'next-auth'
 import { authOptions } from '@/lib/auth'
+import { nextStreak, dayIndex } from '@/lib/streak'
 
 const prisma = new PrismaClient()
 
@@ -43,13 +44,9 @@ export async function POST(request: Request) {
       })
     }
 
-    const today = new Date()
-    today.setHours(0, 0, 0, 0)
-    
-    let lastLoginDate = streak.lastLogin ? new Date(streak.lastLogin) : null
-    if (lastLoginDate) lastLoginDate.setHours(0, 0, 0, 0)
-
-    let newStreak = streak.currentStreak
+    const now = new Date()
+    const newStreak = nextStreak(streak, now)
+    const isNewDay = !streak.lastLogin || dayIndex(now) > dayIndex(streak.lastLogin)
     let pointsToAdd = 0
 
     // Gamification Rules
@@ -57,31 +54,14 @@ export async function POST(request: Request) {
       pointsToAdd = 10 // Daily flashcard study points
     } else if (type.startsWith('practice_')) {
       pointsToAdd = 20 // Base points for completing practice
-      
-      // Bonus: if score > 80%
-      if (score !== undefined && maxScore !== undefined) {
-        if (score / maxScore >= 0.8) {
-          pointsToAdd += 30
-        }
+      if (score !== undefined && maxScore !== undefined && score / maxScore >= 0.8) {
+        pointsToAdd += 30
       }
-
-      // Check if they studied all flashcards this week?
-      // For now, give a flat bonus for completing practice.
       pointsToAdd += 10
     }
 
-    if (!lastLoginDate || lastLoginDate.getTime() < today.getTime()) {
-      // It's a new day
-      const yesterday = new Date(today)
-      yesterday.setDate(yesterday.getDate() - 1)
-      
-      if (lastLoginDate && lastLoginDate.getTime() === yesterday.getTime()) {
-        newStreak += 1
-      } else {
-        newStreak = 1 // reset
-      }
-      
-      // Bonus points for maintaining streak
+    // Bonus points for maintaining streak (once per day)
+    if (isNewDay) {
       if (newStreak > 3) pointsToAdd += 5
       if (newStreak > 7) pointsToAdd += 10
     }
@@ -90,7 +70,7 @@ export async function POST(request: Request) {
       where: { userId: user.id },
       data: {
         currentStreak: newStreak,
-        lastLogin: new Date(),
+        lastLogin: now,
         totalPoints: streak.totalPoints + pointsToAdd
       }
     })

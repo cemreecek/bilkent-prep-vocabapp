@@ -15,6 +15,7 @@ export default function ContentManagerPage() {
   const [success, setSuccess] = useState<string | null>(null);
   
   const [sections, setSections] = useState<any[]>([]);
+  const [warnings, setWarnings] = useState<string[]>([]);
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files.length > 0) {
@@ -32,6 +33,7 @@ export default function ContentManagerPage() {
     setError(null);
     setSuccess(null);
     setSections([]);
+    setWarnings([]);
 
     try {
       const formData = new FormData();
@@ -49,6 +51,7 @@ export default function ContentManagerPage() {
       }
 
       setSections(json.data);
+      setWarnings(json.warnings || []);
       setSuccess(`Successfully parsed ${json.data.length} sections!`);
     } catch (err: any) {
       setError(err.message);
@@ -109,6 +112,7 @@ export default function ContentManagerPage() {
       <div className="mb-8">
         <h1 className="text-3xl font-extrabold text-gray-900 tracking-tight">AI Content Manager</h1>
         <p className="mt-2 text-gray-600">Upload Word documents, let Gemini parse them into structure, review visually, and instantly inject them into your database.</p>
+        <a href="/admin/questions" className="inline-block mt-3 text-sm font-semibold text-blue-600 hover:underline">Edit already-saved questions →</a>
       </div>
 
       {error && (
@@ -138,6 +142,15 @@ export default function ContentManagerPage() {
               <p className="text-sm text-green-700 font-medium">{success}</p>
             </div>
           </div>
+        </div>
+      )}
+
+      {warnings.length > 0 && (
+        <div className="mb-6 bg-amber-50 border-l-4 border-amber-500 p-4 rounded shadow-sm">
+          <p className="text-sm font-bold text-amber-800 mb-2">The AI answer key needs your review ({warnings.length} issue{warnings.length > 1 ? "s" : ""}):</p>
+          <ul className="list-disc ml-5 text-sm text-amber-800 space-y-1">
+            {warnings.map((w, i) => <li key={i}>{w}</li>)}
+          </ul>
         </div>
       )}
 

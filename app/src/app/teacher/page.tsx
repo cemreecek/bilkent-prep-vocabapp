@@ -1,3 +1,4 @@
+import { effectiveStreak, dayIndex } from "@/lib/streak"
 import { Metadata } from "next";
 import React from "react";
 import Link from "next/link";
@@ -61,7 +62,7 @@ export default async function TeacherDashboard({ searchParams }: { searchParams:
         if (liveClassroom.students.length > 0) {
           totalStudents = liveClassroom.students.length;
         
-        const totalStreak = liveClassroom.students.reduce((sum, s) => sum + (s.streaks?.currentStreak || 0), 0);
+        const totalStreak = liveClassroom.students.reduce((sum, s) => sum + effectiveStreak(s.streaks), 0);
         avgDailyStreak = Number((totalStreak / totalStudents).toFixed(1));
 
         const totalDuration = liveClassroom.students.reduce((sum, s) => {
@@ -72,7 +73,7 @@ export default async function TeacherDashboard({ searchParams }: { searchParams:
         practiceTimeAvg = Math.round((totalDuration / 3600) / totalStudents);
 
         roster = liveClassroom.students.map(s => {
-          const streak = s.streaks?.currentStreak || 0
+          const streak = effectiveStreak(s.streaks)
           const debt = s.errorScore || 0
           
           const streakPoints = Math.min(5, streak)
@@ -87,6 +88,7 @@ export default async function TeacherDashboard({ searchParams }: { searchParams:
             email: s.email,
             initials: (s.name || "S").substring(0, 2).toUpperCase(),
             streak,
+            practicedToday: !!s.streaks?.lastLogin && dayIndex(new Date(s.streaks.lastLogin)) === dayIndex(new Date()),
             debt,
             points: weeklyPoints,
           lastLogin: s.streaks?.lastLogin || s.createdAt,
