@@ -1,4 +1,4 @@
-import { effectiveStreak } from "@/lib/streak"
+import { effectiveStreak, studyDaySet, studyDaysThisMonth, daysInCurrentMonth } from "@/lib/streak"
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -25,7 +25,7 @@ export default async function StudentDashboard() {
   if (userId) {
     dbUser = await prisma.user.findUnique({ 
       where: { id: userId }, 
-      include: { classroom: true, streaks: true } 
+      include: { classroom: true, streaks: true, sessions: { where: { startTime: { gte: new Date(Date.now() - 40 * 86400000) } }, select: { startTime: true } } } 
     });
     hasClassroom = !!dbUser?.classroomId;
     if (hasClassroom && dbUser?.classroom) {
@@ -35,6 +35,9 @@ export default async function StudentDashboard() {
       classroomLevel = dbUser.classroom.level || "Elementary";
     }
   }
+
+  const monthDays = studyDaysThisMonth(studyDaySet(dbUser?.sessions))
+  const monthLength = daysInCurrentMonth()
 
   console.log("DASHBOARD RENDER:", { userId, userName, hasClassroom });
 
@@ -107,6 +110,7 @@ export default async function StudentDashboard() {
                 <h2 className="font-[family-name:var(--font-title-md)] text-[length:var(--text-title-md)] text-[color:var(--color-on-surface)]">
                   {effectiveStreak(dbUser?.streaks)} Day Streak!
                 </h2>
+                <p className="text-sm font-bold text-[color:var(--color-secondary)]">Streak: {monthDays} days this month <span className="font-normal opacity-70">(of {monthLength}, resets monthly)</span></p>
               </div>
               <div className="p-3 bg-[color:var(--color-secondary-fixed)] rounded-full text-[color:var(--color-on-secondary-container)]">
                 <span className="material-symbols-outlined text-4xl" style={{ fontVariationSettings: "'FILL' 1" }}>

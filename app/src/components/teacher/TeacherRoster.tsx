@@ -11,6 +11,9 @@ interface RosterStudent {
   initials: string
   streak: number
   practicedToday?: boolean
+  weekDays?: boolean[]
+  weekCount?: number
+  monthCount?: number
   debt: number
   points: number | string
   lastLogin: Date | string
@@ -58,13 +61,14 @@ export default function TeacherRoster({ roster: initialRoster }: TeacherRosterPr
         </div>
       </div>
       <div className="overflow-x-auto">
-        <table className="w-full text-left border-collapse min-w-[600px]">
+        <table className="w-full text-left border-collapse min-w-[900px]">
           <thead>
             <tr className="bg-[color:var(--color-surface-container-low)] text-[color:var(--color-on-surface-variant)] font-[family-name:var(--font-label-sm)] uppercase text-[11px] tracking-widest border-b border-[color:var(--color-outline-variant)]">
               <th className="px-6 py-4 font-bold">Name</th>
               <th className="px-6 py-4 font-bold">Last Practice</th>
               <th className="px-6 py-4 font-bold">Time Spent</th>
               <th className="px-6 py-4 font-bold">Streak</th>
+              <th className="px-6 py-4 font-bold">This Week</th>
               <th className="px-6 py-4 font-bold">Debt Status</th>
               <th className="px-6 py-4 font-bold">Weekly Points</th>
               <th className="px-6 py-4 font-bold text-right">Actions</th>
@@ -95,6 +99,23 @@ export default function TeacherRoster({ roster: initialRoster }: TeacherRosterPr
                       {student.streak} Days
                     </span>
                     <div className="text-[11px] font-bold mt-1" style={{ color: student.practicedToday ? "#15803d" : "#9ca3af" }}>{student.practicedToday ? "Practiced today" : "Not yet today"}</div>
+                  </td>
+                  <td className="px-6 py-4">
+                    <div className="flex items-center gap-1">
+                      {(student.weekDays ?? []).map((on, i) => (
+                        <span
+                          key={i}
+                          title={["Mon","Tue","Wed","Thu","Fri","Sat","Sun"][i]}
+                          className="w-6 h-6 rounded-full text-[10px] font-bold flex items-center justify-center"
+                          style={{ background: on ? "#16a34a" : "#e5e7eb", color: on ? "#fff" : "#6b7280" }}
+                        >
+                          {["M","T","W","T","F","S","S"][i]}
+                        </span>
+                      ))}
+                    </div>
+                    <div className="text-[11px] font-bold mt-1 text-[color:var(--color-on-surface-variant)]">
+                      {student.weekCount ?? 0}/7 days this week · {student.monthCount ?? 0} this month
+                    </div>
                   </td>
                   <td className="px-6 py-4">
                     {student.debt > 0 ? (

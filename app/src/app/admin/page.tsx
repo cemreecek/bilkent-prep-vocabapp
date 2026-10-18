@@ -196,6 +196,10 @@ export default async function AdminDashboard() {
                   <span className="material-symbols-outlined">auto_awesome</span>
                   AI Content Parser
                 </Link>
+                <Link href="/admin/questions" className="bg-[color:var(--color-surface-container-high)] text-[color:var(--color-on-surface)] px-4 py-2 rounded-xl font-bold flex items-center gap-2 hover:opacity-90 transition-opacity">
+                  <span className="material-symbols-outlined">edit_note</span>
+                  Question Editor
+                </Link>
                 <CreateClassroomModal teachers={allTeachers} />
               </div>
             </div>

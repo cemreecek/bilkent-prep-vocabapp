@@ -1,4 +1,4 @@
-import { effectiveStreak, dayIndex } from "@/lib/streak"
+import { effectiveStreak, dayIndex, studyDaySet, studyWeek, studyDaysThisMonth } from "@/lib/streak"
 import { Metadata } from "next";
 import React from "react";
 import Link from "next/link";
@@ -82,12 +82,18 @@ export default async function TeacherDashboard({ searchParams }: { searchParams:
           let weeklyPoints = (5.0 - debtPenalty).toFixed(1)
           if (parseFloat(weeklyPoints) < 0) weeklyPoints = "0.0"
 
+          const studyDays = studyDaySet(s.sessions)
+          const weekDays = studyWeek(studyDays)
+
           return {
             id: s.id,
             name: s.name || "Student",
             email: s.email,
             initials: (s.name || "S").substring(0, 2).toUpperCase(),
             streak,
+            weekDays,
+            weekCount: weekDays.filter(Boolean).length,
+            monthCount: studyDaysThisMonth(studyDays),
             practicedToday: !!s.streaks?.lastLogin && dayIndex(new Date(s.streaks.lastLogin)) === dayIndex(new Date()),
             debt,
             points: weeklyPoints,

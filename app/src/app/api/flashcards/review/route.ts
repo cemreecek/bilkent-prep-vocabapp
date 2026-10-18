@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server'
 import { getServerSession } from 'next-auth'
 import { authOptions } from '@/lib/auth'
 import { PrismaClient } from '@prisma/client'
+import { recordStudyActivity } from '@/lib/studyActivity'
 
 const prisma = new PrismaClient()
 
@@ -43,6 +44,9 @@ export async function POST(request: Request) {
   if (!user) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
+
+  // Any flashcard review counts today as a studied day (streak + weekly/monthly counters)
+  await recordStudyActivity(user.id, 'flashcard')
 
   const { wordId, quality, timeSpent } = await request.json()
   
