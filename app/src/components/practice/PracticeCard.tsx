@@ -1,5 +1,6 @@
 'use client'
 
+import { matchesAnyAnswer } from '@/lib/answers'
 import { useState } from 'react'
 
 export interface PracticeOption {
@@ -126,7 +127,7 @@ export default function PracticeCard({
     if (hasAnswered || !inputValue.trim() || !correctAnswer) return
     
     setHasAnswered(true)
-    const isCorrect = inputValue.trim().toLowerCase() === correctAnswer.toLowerCase()
+    const isCorrect = matchesAnyAnswer(inputValue, correctAnswer)
     const timeSpent = Math.floor((Date.now() - startTime) / 1000)
     
     setTimeout(() => {
@@ -166,7 +167,7 @@ export default function PracticeCard({
            }
          } else if (optionsByBlank[idx].length === 1) {
            const correctText = optionsByBlank[idx][0].text
-           if (selectedOrTyped.trim().toLowerCase() !== correctText.toLowerCase()) {
+           if (!matchesAnyAnswer(selectedOrTyped, correctText)) {
               allCorrect = false
            }
          } else {

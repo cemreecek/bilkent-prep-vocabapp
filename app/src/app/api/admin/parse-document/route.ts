@@ -42,7 +42,7 @@ RULES
 3. Keep option text exactly as written in the document (same spelling, no added letters like "A)" in "text").
 4. multiple-choice / word-bank / matching: exactly ONE option per question has "isCorrect": true.
 5. paragraph-cloze: for EACH blank, exactly ONE option has "isCorrect": true, and every option carries the correct "blankIndex".
-6. gap-fill: "correctAnswer" must be the key's answer verbatim (no numbering, no trailing punctuation unless part of the answer).
+6. gap-fill: "correctAnswer" must be the key's answer verbatim (no numbering, no trailing punctuation unless part of the answer). If the key lists several acceptable answers (e.g. "color/colour"), join them with " | ".
 7. If the key is missing or ambiguous for a question, set "needsReview": true on that item instead of guessing.
 
 INTERNAL VERIFICATION (do silently, never print it)

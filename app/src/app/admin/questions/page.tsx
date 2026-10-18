@@ -161,7 +161,7 @@ export default function QuestionEditorPage() {
             <textarea className={`${input} mb-3`} rows={3} value={q.questionText} onChange={(e) => patch(q.id, { questionText: e.target.value })} />
 
             <label className="block text-xs font-semibold text-gray-600 mb-1">
-              Correct answer text (used by gap-fill questions)
+              Correct answer text (gap-fill). Separate accepted alternatives with | e.g. color | colour
             </label>
             <input className={`${input} mb-3`} value={q.correctAnswer ?? ""} onChange={(e) => patch(q.id, { correctAnswer: e.target.value })} />
 
