@@ -39,20 +39,23 @@ export default function PracticeSession({ level, availableWeeks, isAdmin }: Prac
   const [answers, setAnswers] = useState<{ wordId?: string, questionId: string, answer: string, correct: boolean, timeSpent: number }[]>([])
   
   const [editingQuestion, setEditingQuestion] = useState<any>(null)
+  const [flashcardStartTime, setFlashcardStartTime] = useState<number>(Date.now())
 
   // --- FLASHCARDS LOGIC ---
   const startFlashcards = (day: number) => {
     setSelectedDay(day)
+    setFlashcardStartTime(Date.now())
     setActiveView('flashcards')
   }
 
   const handleFlashcardComplete = async () => {
+    const duration = Math.max(1, Math.floor((Date.now() - flashcardStartTime) / 1000))
     try {
-      // Log flashcard session to get streak points
+      // Log flashcard session with real duration and streak update
       await fetch('/api/study/log', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ type: `flashcard_W${selectedWeek}_D${selectedDay}` })
+        body: JSON.stringify({ type: `flashcard_W${selectedWeek}_D${selectedDay}`, duration })
       })
     } catch(e) {
       console.error(e)

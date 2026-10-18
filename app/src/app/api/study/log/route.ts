@@ -22,13 +22,18 @@ export async function POST(request: Request) {
 
   try {
     const body = await request.json()
-    const { type, score, maxScore } = body
+    const { type, score, maxScore, duration } = body
+    const durationSec = typeof duration === 'number' && Number.isFinite(duration) && duration > 0
+      ? Math.round(duration)
+      : 0
 
-    // 1. Log the session
+    // 1. Log the session with real duration
     await prisma.session.create({
       data: {
         userId: user.id,
         startTime: new Date(),
+        endTime: new Date(),
+        duration: durationSec,
         type: type, // e.g. "flashcard_W1_D1" or "practice_W1"
       }
     })

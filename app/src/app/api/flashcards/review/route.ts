@@ -53,19 +53,18 @@ export async function POST(request: Request) {
   // quality is 0-5 (0=Again, 3=Hard, 4=Good, 5=Easy)
   const numericQuality = parseInt(quality)
 
-  // Speed penalty logic
-  if (timeSpent !== undefined && timeSpent < 2) {
-    // Increment error debt by 5 for fast answers
-    await prisma.user.update({
-      where: { id: user.id },
-      data: { errorScore: { increment: 5 } }
+  // If the student masters a word that had an open ErrorLog, resolve it and sync errorScore
+  if (numericQuality >= 4 && wordId) {
+    const deleted = await prisma.errorLog.deleteMany({
+      where: { userId: user.id, wordId, questionId: null }
     })
-  } else if (numericQuality >= 4 && (user.errorScore ?? 0) > 0) {
-    // Revise error debt down if answered well
-    await prisma.user.update({
-      where: { id: user.id },
-      data: { errorScore: { decrement: 1 } }
-    })
+    if (deleted.count > 0) {
+      const openLogs = await prisma.errorLog.count({ where: { userId: user.id } })
+      await prisma.user.update({
+        where: { id: user.id },
+        data: { errorScore: openLogs * 5 }
+      })
+    }
   }
 
   // Find existing progress
