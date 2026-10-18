@@ -1,5 +1,5 @@
 import { effectiveStreak, dayIndex, studyDaySet, studyWeek, studyDaysThisMonth } from "@/lib/streak"
-import { Metadata } from "next";
+import { getClassroomAnalytics, type ActionItem, type TopErrorItem } from "@/lib/teacherAnalytics"
 import React from "react";
 import Link from "next/link";
 import { getServerSession } from "next-auth";
@@ -10,6 +10,7 @@ import RoleSwitcher from "@/components/RoleSwitcher";
 import ClassroomSelector from "@/components/ClassroomSelector";
 import TeacherRoster from "@/components/teacher/TeacherRoster";
 import AnalyticsTrigger from "@/components/teacher/AnalyticsTrigger";
+import ErrorAnalyticsPanel from "@/components/teacher/ErrorAnalyticsPanel";
 import ExportCSVButton from "@/components/teacher/ExportCSVButton";
 
 export const dynamic = 'force-dynamic';
@@ -18,17 +19,16 @@ export const revalidate = 0;
 export default async function TeacherDashboard({ searchParams }: { searchParams: Promise<{ classroomId?: string }> }) {
   const resolvedSearchParams = await searchParams;
   const session = await getServerSession(authOptions);
-  const teacherName = session?.user?.name || "Teacher";
   const teacherId = session?.user?.id;
 
-  // Live Data Fetching
-  let classroomName = "Academic Excellence - Section B"; // fallback
-  let totalStudents = 25; // fallback
-  let avgDailyStreak = 4.2; // fallback
-  let practiceTimeAvg = 12; // fallback
+  let classroomName = "No Classroom Selected";
+  let totalStudents = 0;
+  let avgDailyStreak = 0;
+  let practiceTimeAvg = 0;
   let joinCode = "";
   let roster: any[] = [];
-  let topErrors: { word: string, count: number }[] = [];
+  let topErrors: TopErrorItem[] = [];
+  let actionItems: ActionItem[] = [];
 
   let allClassrooms: { id: string; name: string }[] = [];
   let selectedClassroomId = resolvedSearchParams.classroomId || "";
@@ -59,67 +59,52 @@ export default async function TeacherDashboard({ searchParams }: { searchParams:
       if (liveClassroom) {
         joinCode = liveClassroom.joinCode || "";
         classroomName = liveClassroom.name;
+        totalStudents = liveClassroom.students.length;
+
         if (liveClassroom.students.length > 0) {
-          totalStudents = liveClassroom.students.length;
-        
-        const totalStreak = liveClassroom.students.reduce((sum, s) => sum + effectiveStreak(s.streaks), 0);
-        avgDailyStreak = Number((totalStreak / totalStudents).toFixed(1));
+          const totalStreak = liveClassroom.students.reduce((sum, s) => sum + effectiveStreak(s.streaks), 0);
+          avgDailyStreak = Number((totalStreak / totalStudents).toFixed(1));
 
-        const totalDuration = liveClassroom.students.reduce((sum, s) => {
-          const studentTotal = s.sessions?.reduce((sSum, sess) => sSum + (sess.duration || 0), 0) || 0;
-          return sum + studentTotal;
-        }, 0);
-        
-        practiceTimeAvg = Math.round((totalDuration / 3600) / totalStudents);
+          const totalDuration = liveClassroom.students.reduce((sum, s) => {
+            const studentTotal = s.sessions?.reduce((sSum, sess) => sSum + (sess.duration || 0), 0) || 0;
+            return sum + studentTotal;
+          }, 0);
 
-        roster = liveClassroom.students.map(s => {
-          const streak = effectiveStreak(s.streaks)
-          const debt = s.errorScore || 0
-          
-          const streakPoints = Math.min(5, streak)
-          // 0 debt = 5.0 points. Penalty: e.g. 30 debt -> 2.0 penalty -> 3.0/5.0
-          const debtPenalty = debt / 15
-          let weeklyPoints = (5.0 - debtPenalty).toFixed(1)
-          if (parseFloat(weeklyPoints) < 0) weeklyPoints = "0.0"
+          practiceTimeAvg = Math.round((totalDuration / 3600) / totalStudents);
 
-          const studyDays = studyDaySet(s.sessions)
-          const weekDays = studyWeek(studyDays)
+          roster = liveClassroom.students.map(s => {
+            const streak = effectiveStreak(s.streaks)
+            const debt = s.errorScore || 0
 
-          return {
-            id: s.id,
-            name: s.name || "Student",
-            email: s.email,
-            initials: (s.name || "S").substring(0, 2).toUpperCase(),
-            streak,
-            weekDays,
-            weekCount: weekDays.filter(Boolean).length,
-            monthCount: studyDaysThisMonth(studyDays),
-            practicedToday: !!s.streaks?.lastLogin && dayIndex(new Date(s.streaks.lastLogin)) === dayIndex(new Date()),
-            debt,
-            points: weeklyPoints,
-          lastLogin: s.streaks?.lastLogin || s.createdAt,
-          timeSpentHours: ((s.sessions?.reduce((sSum, sess) => sSum + (sess.duration || 0), 0) || 0) / 3600).toFixed(1)
-          }
-        });
+            // 0 debt = 5.0 points. Penalty: e.g. 30 debt -> 2.0 penalty -> 3.0/5.0
+            const debtPenalty = debt / 15
+            let weeklyPoints = (5.0 - debtPenalty).toFixed(1)
+            if (parseFloat(weeklyPoints) < 0) weeklyPoints = "0.0"
 
-        const errorCounts = await prisma.errorLog.groupBy({
-          by: ['wordId'],
-          where: {
-            user: { classroomId: liveClassroom.id }
-          },
-          _count: { wordId: true },
-          orderBy: { _count: { wordId: 'desc' } },
-          take: 3
-        });
-        
-        for (const e of errorCounts) {
-           if (!e.wordId) continue;
-           const w = await prisma.vocabWord.findUnique({where: {id: e.wordId}});
-           if (w) {
-             topErrors.push({ word: w.word, count: e._count.wordId });
-           }
+            const studyDays = studyDaySet(s.sessions)
+            const weekDays = studyWeek(studyDays)
+
+            return {
+              id: s.id,
+              name: s.name || "Student",
+              email: s.email,
+              initials: (s.name || "S").substring(0, 2).toUpperCase(),
+              streak,
+              weekDays,
+              weekCount: weekDays.filter(Boolean).length,
+              monthCount: studyDaysThisMonth(studyDays),
+              practicedToday: !!s.streaks?.lastLogin && dayIndex(new Date(s.streaks.lastLogin)) === dayIndex(new Date()),
+              debt,
+              points: weeklyPoints,
+              lastLogin: s.streaks?.lastLogin || s.createdAt,
+              timeSpentHours: ((s.sessions?.reduce((sSum, sess) => sSum + (sess.duration || 0), 0) || 0) / 3600).toFixed(1)
+            }
+          });
         }
-        }
+
+        const analytics = await getClassroomAnalytics(liveClassroom.id);
+        topErrors = analytics.topErrors;
+        actionItems = analytics.actionItems;
       }
     } catch (e) {
       console.error("Failed to fetch teacher data", e);
@@ -214,102 +199,60 @@ export default async function TeacherDashboard({ searchParams }: { searchParams:
             <ExportCSVButton roster={roster} />
           </div>
 
-          {/* Stats Overview Bento Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-[var(--spacing-gutter)]">
-            <div className="bg-[color:var(--color-surface-container-lowest)] p-6 rounded-xl border border-[color:var(--color-outline-variant)] hover:shadow-sm transition-shadow">
-              <div className="flex items-center justify-between mb-2">
-                <p className="text-[color:var(--color-on-surface-variant)] font-[family-name:var(--font-label-sm)] uppercase tracking-wider">
-                  Total Students
+          {/* Top Section: General Stats + Live Error Analytics side-by-side */}
+          <div className="grid grid-cols-1 xl:grid-cols-12 gap-[var(--spacing-gutter)] items-stretch">
+            {/* General Stats (Total Students, Class Performance, Practice Time) */}
+            <div className="xl:col-span-6 grid grid-cols-1 sm:grid-cols-3 gap-[var(--spacing-gutter)]">
+              <div className="bg-[color:var(--color-surface-container-lowest)] p-6 rounded-xl border border-[color:var(--color-outline-variant)] hover:shadow-sm transition-shadow flex flex-col justify-between">
+                <div className="flex items-center justify-between mb-2">
+                  <p className="text-[color:var(--color-on-surface-variant)] font-[family-name:var(--font-label-sm)] uppercase tracking-wider">
+                    Total Students
+                  </p>
+                  <span className="material-symbols-outlined text-[color:var(--color-primary)]">
+                    group
+                  </span>
+                </div>
+                <p className="text-[length:var(--text-display-lg)] font-[family-name:var(--font-display-lg)] text-[color:var(--color-primary)]">
+                  {totalStudents}
                 </p>
-                <span className="material-symbols-outlined text-[color:var(--color-primary)]">
-                  group
-                </span>
+                <div className="mt-2 flex items-center text-[color:var(--color-secondary)] font-medium">
+                  <span className="material-symbols-outlined text-sm mr-1">trending_up</span>
+                  <span className="text-xs">{hasLiveRoster ? 'Active this week' : 'Enrolled students'}</span>
+                </div>
               </div>
-              <p className="text-[length:var(--text-display-lg)] font-[family-name:var(--font-display-lg)] text-[color:var(--color-primary)]">
-                {totalStudents}
-              </p>
-              <div className="mt-2 flex items-center text-[color:var(--color-secondary)] font-medium">
-                <span className="material-symbols-outlined text-sm mr-1">trending_up</span>
-                <span className="text-xs">{hasLiveRoster ? 'Active this week' : '+2 enrolled this week'}</span>
+
+              <AnalyticsTrigger roster={roster} topErrors={topErrors} />
+
+              <div className="bg-[color:var(--color-surface-container-lowest)] p-6 rounded-xl border border-[color:var(--color-outline-variant)] hover:shadow-sm transition-shadow flex flex-col justify-between">
+                <div className="flex items-center justify-between mb-2">
+                  <p className="text-[color:var(--color-on-surface-variant)] font-[family-name:var(--font-label-sm)] uppercase tracking-wider">
+                    Practice Time
+                  </p>
+                  <span className="material-symbols-outlined text-[color:var(--color-on-tertiary-container)]">
+                    schedule
+                  </span>
+                </div>
+                <p className="text-[length:var(--text-display-lg)] font-[family-name:var(--font-display-lg)] text-[color:var(--color-on-tertiary-container)]">
+                  {practiceTimeAvg}h<span className="text-[length:var(--text-title-md)]">/avg</span>
+                </p>
+                <p className="text-xs text-[color:var(--color-on-surface-variant)] mt-2 font-medium">
+                  Weekly engagement target: 15h
+                </p>
               </div>
             </div>
-            <AnalyticsTrigger roster={roster} topErrors={topErrors} />
-            <div className="bg-[color:var(--color-surface-container-lowest)] p-6 rounded-xl border border-[color:var(--color-outline-variant)] hover:shadow-sm transition-shadow">
-              <div className="flex items-center justify-between mb-2">
-                <p className="text-[color:var(--color-on-surface-variant)] font-[family-name:var(--font-label-sm)] uppercase tracking-wider">
-                  Practice Time
-                </p>
-                <span className="material-symbols-outlined text-[color:var(--color-on-tertiary-container)]">
-                  schedule
-                </span>
-              </div>
-              <p className="text-[length:var(--text-display-lg)] font-[family-name:var(--font-display-lg)] text-[color:var(--color-on-tertiary-container)]">
-                {practiceTimeAvg}h<span className="text-[length:var(--text-title-md)]">/avg</span>
-              </p>
-              <p className="text-xs text-[color:var(--color-on-surface-variant)] mt-2 font-medium">
-                Weekly engagement target: 15h
-              </p>
+
+            {/* Live Error Analytics + Real-Time Action Items */}
+            <div className="xl:col-span-6">
+              <ErrorAnalyticsPanel
+                classroomId={selectedClassroomId}
+                initialTopErrors={topErrors}
+                initialActionItems={actionItems}
+              />
             </div>
           </div>
 
-          {/* Error Analytics & Roster Section */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-[var(--spacing-gutter)]">
-            {/* Class Error Analytics */}
-            <section className="lg:col-span-4 bg-[color:var(--color-surface-container-lowest)] rounded-xl border border-[color:var(--color-outline-variant)] overflow-hidden">
-              <div className="p-6 border-b border-[color:var(--color-outline-variant)] bg-[color:var(--color-surface-container-low)]">
-                <h3 className="font-[family-name:var(--font-title-md)] text-[length:var(--text-title-md)] text-[color:var(--color-primary)] flex items-center">
-                  <span className="material-symbols-outlined mr-2 text-[color:var(--color-error)]">
-                    analytics
-                  </span>
-                  Error Analytics
-                </h3>
-              </div>
-              <div className="p-6 space-y-6">
-                <div>
-                  <p className="font-[family-name:var(--font-label-sm)] text-[color:var(--color-on-surface-variant)] mb-4">
-                    MOST MISSED CONCEPTS
-                  </p>
-                  <div className="space-y-4">
-                    {topErrors.length > 0 ? (
-                      topErrors.map((err, index) => {
-                        const maxCount = topErrors[0].count;
-                        const percentage = Math.max(10, (err.count / maxCount) * 100);
-                        const colors = [
-                          { bg: "bg-[color:var(--color-error)]", text: "text-[color:var(--color-error)]" },
-                          { bg: "bg-[color:var(--color-error-container)]", text: "text-[color:var(--color-error-container)]" },
-                          { bg: "bg-[color:var(--color-secondary)]", text: "text-[color:var(--color-secondary)]" }
-                        ];
-                        const c = colors[index % colors.length];
-                        return (
-                          <div key={err.word} className="space-y-2">
-                            <div className="flex justify-between items-center text-sm">
-                              <span className="font-bold text-[color:var(--color-on-surface)]">"{err.word}"</span>
-                              <span className={`${c.text} font-bold`}>{err.count} Mistakes</span>
-                            </div>
-                            <div className="w-full bg-[color:var(--color-surface-container)] h-2 rounded-full overflow-hidden">
-                              <div className={`${c.bg} h-full`} style={{ width: `${percentage}%` }}></div>
-                            </div>
-                          </div>
-                        )
-                      })
-                    ) : (
-                      <p className="text-sm text-[color:var(--color-on-surface-variant)] italic">No student errors recorded yet.</p>
-                    )}
-                  </div>
-                </div>
-                <div className="p-4 bg-[color:var(--color-error-container)] rounded-xl">
-                  <p className="text-[color:var(--color-on-error-container)] font-[family-name:var(--font-label-sm)] flex items-center">
-                    <span className="material-symbols-outlined mr-2 text-sm">lightbulb</span>
-                    Action Item
-                  </p>
-                  <p className="text-xs text-[color:var(--color-on-error-container)] mt-1">
-                    Schedule a review session for 'Ambiguous' vocabulary contexts during next Friday's lecture.
-                  </p>
-                </div>
-              </div>
-            </section>
-
-            {/* Student Roster Table */}
+          {/* Middle Section: Full-Width Student Roster Table */}
+          <div className="w-full">
             <TeacherRoster roster={roster} />
           </div>
         </div>

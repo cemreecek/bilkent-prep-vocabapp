@@ -21,7 +21,7 @@ export default function AnalyticsModal({ isOpen, onClose, students, topErrors }:
   const [activeTab, setActiveTab] = useState<'performance' | 'errors'>('performance')
   
   const sortedByPoints = useMemo(() => {
-    return [...students].sort((a, b) => b.points - a.points)
+    return [...students].sort((a, b) => (parseFloat(String(b.points)) || 0) - (parseFloat(String(a.points)) || 0))
   }, [students])
 
   const sortedByDebt = useMemo(() => {
@@ -78,8 +78,8 @@ export default function AnalyticsModal({ isOpen, onClose, students, topErrors }:
               <div className="bg-[color:var(--color-primary-container)] p-4 rounded-xl flex items-center gap-4">
                 <span className="material-symbols-outlined text-3xl text-[color:var(--color-on-primary-container)]">info</span>
                 <p className="text-sm text-[color:var(--color-on-primary-container)]">
-                  <strong>How points are calculated:</strong> Students can earn up to <strong>10 points per week</strong>. 
-                  They get up to 5 points for maintaining daily streaks, and up to 5 points for keeping their Error Debt low. Fast, "non-human" answers increase error debt.
+                  <strong>How points are calculated:</strong> Students can earn up to <strong>5.0 points per week</strong>. 
+                  Full 5.0 points require 0 unresolved Error Debt (every 15 debt points reduces the score by 1.0). Fast (&lt;5s), &ldquo;non-human&rdquo; answers also add error debt until revised.
                 </p>
               </div>
 
@@ -100,7 +100,7 @@ export default function AnalyticsModal({ isOpen, onClose, students, topErrors }:
                       </div>
                     </div>
                     <div className="flex flex-col items-end">
-                      <div className="text-2xl font-bold text-[color:var(--color-primary)]">{student.points}<span className="text-sm text-[color:var(--color-on-surface-variant)]">/10</span></div>
+                      <div className="text-2xl font-bold text-[color:var(--color-primary)]">{student.points}<span className="text-sm text-[color:var(--color-on-surface-variant)]">/5.0</span></div>
                     </div>
                   </div>
                 ))}
