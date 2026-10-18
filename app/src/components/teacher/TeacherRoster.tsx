@@ -17,6 +17,7 @@ interface RosterStudent {
   debt: number
   openMistakes?: number
   points: number | string
+  hasPracticedMaterial?: boolean
   lastLogin: Date | string | null
   timeSpentHours: string
   timeSpentMinutes?: number
@@ -294,7 +295,24 @@ export default function TeacherRoster({ roster: initialRoster }: TeacherRosterPr
                     )}
                   </td>
                   <td className="px-6 py-4">
-                    <span className="text-sm font-bold text-[color:var(--color-primary)]">{student.points} / 5.0</span>
+                    <span
+                      className={`text-sm font-bold ${
+                        Number(student.points) > 0
+                          ? 'text-[color:var(--color-primary)]'
+                          : 'text-[color:var(--color-on-surface-variant)] opacity-75'
+                      }`}
+                    >
+                      {student.points} / 5.0
+                    </span>
+                    {(student.weekCount ?? 0) === 0 ? (
+                      <div className="text-[11px] text-[color:var(--color-on-surface-variant)] mt-0.5">
+                        No study this week
+                      </div>
+                    ) : student.hasPracticedMaterial === false ? (
+                      <div className="text-[11px] text-[color:var(--color-on-surface-variant)] mt-0.5">
+                        No practice completed
+                      </div>
+                    ) : null}
                   </td>
                   <td className="px-6 py-4 text-right">
                     <div className="flex justify-end items-center gap-2">

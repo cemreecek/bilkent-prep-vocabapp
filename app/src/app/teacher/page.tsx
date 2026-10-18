@@ -94,10 +94,18 @@ export default async function TeacherDashboard({ searchParams }: { searchParams:
             ).size;
             const debt = uniqErrorCount > 0 ? uniqErrorCount * 5 : (s.errorScore || 0);
 
+            const weekCount = weekDays.filter(Boolean).length;
+            const hasPracticedMaterial = (s.sessions || []).some(
+              sess => sess.type?.startsWith('practice') || sess.type === 'review'
+            );
+
+            // Only award weekly points out of 5.0 if the student studied this week AND did the practice material.
             // 0 debt = 5.0 points. Penalty: 1.0 point per 15 debt points (0.333 per 5-pt mistake)
-            const debtPenalty = debt / 15;
-            let weeklyPoints = (5.0 - debtPenalty).toFixed(1);
-            if (parseFloat(weeklyPoints) < 0) weeklyPoints = "0.0";
+            let weeklyPoints = "0.0";
+            if (weekCount > 0 && hasPracticedMaterial) {
+              const debtPenalty = debt / 15;
+              weeklyPoints = Math.max(0, 5.0 - debtPenalty).toFixed(1);
+            }
 
             const studentSec = s.sessions?.reduce((sSum, sess) => sSum + (sess.duration || 0), 0) || 0;
             classDurationSecSum += studentSec;
@@ -109,12 +117,13 @@ export default async function TeacherDashboard({ searchParams }: { searchParams:
               initials: ((s.name || "S").trim()).substring(0, 2).toUpperCase(),
               streak,
               weekDays,
-              weekCount: weekDays.filter(Boolean).length,
+              weekCount,
               monthCount: studyDaysThisMonth(studyDays, now),
               practicedToday: studyDays.has(todayIdx),
               debt,
               openMistakes: uniqErrorCount,
               points: weeklyPoints,
+              hasPracticedMaterial,
               lastLogin: latestActivity ? latestActivity.toISOString() : null,
               timeSpentHours: (studentSec / 3600).toFixed(1),
               timeSpentMinutes: Math.round(studentSec / 60),
