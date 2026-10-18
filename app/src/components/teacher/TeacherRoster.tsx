@@ -15,9 +15,12 @@ interface RosterStudent {
   weekCount?: number
   monthCount?: number
   debt: number
+  openMistakes?: number
   points: number | string
-  lastLogin: Date | string
+  lastLogin: Date | string | null
   timeSpentHours: string
+  timeSpentMinutes?: number
+  sessionCount?: number
 }
 
 interface TeacherRosterProps {
@@ -99,6 +102,12 @@ export default function TeacherRoster({ roster: initialRoster }: TeacherRosterPr
         {sortDir === 'desc' ? 'arrow_downward' : 'arrow_upward'}
       </span>
     )
+  }
+
+  const formatTimeSpent = (s: RosterStudent) => {
+    const mins = s.timeSpentMinutes ?? Math.round((parseFloat(s.timeSpentHours) || 0) * 60)
+    if (mins >= 60) return `${s.timeSpentHours}h`
+    return `${mins}m`
   }
 
   return (
@@ -227,15 +236,22 @@ export default function TeacherRoster({ roster: initialRoster }: TeacherRosterPr
                     </div>
                   </td>
                   <td className="px-6 py-4 text-sm text-[color:var(--color-on-surface-variant)]" suppressHydrationWarning>
-                    {new Date(student.lastLogin).toLocaleDateString()}
+                    {student.lastLogin
+                      ? new Date(student.lastLogin).toLocaleDateString('en-GB', { timeZone: 'Europe/Istanbul' })
+                      : <span className="italic opacity-60">Never</span>}
                   </td>
-                  <td className="px-6 py-4 text-sm font-medium text-[color:var(--color-on-surface)]">{student.timeSpentHours}h</td>
+                  <td className="px-6 py-4">
+                    <div className="text-sm font-bold text-[color:var(--color-on-surface)]">{formatTimeSpent(student)}</div>
+                    <div className="text-[11px] text-[color:var(--color-on-surface-variant)]">
+                      {student.sessionCount ?? 0} session{(student.sessionCount ?? 0) === 1 ? '' : 's'}
+                    </div>
+                  </td>
                   <td className="px-6 py-4">
                     <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold bg-[color:var(--color-secondary-fixed)] text-[color:var(--color-on-secondary-fixed-variant)]">
                       <span className="material-symbols-outlined text-[14px] mr-1" style={{ fontVariationSettings: "'FILL' 1" }}>
                         local_fire_department
                       </span>
-                      {student.streak} Days
+                      {student.streak} {student.streak === 1 ? 'Day' : 'Days'}
                     </span>
                     <div className="text-[11px] font-bold mt-1" style={{ color: student.practicedToday ? '#15803d' : '#9ca3af' }}>
                       {student.practicedToday ? 'Practiced today' : 'Not yet today'}
@@ -260,9 +276,16 @@ export default function TeacherRoster({ roster: initialRoster }: TeacherRosterPr
                   </td>
                   <td className="px-6 py-4">
                     {student.debt > 0 ? (
-                      <span className="text-xs font-bold text-[color:var(--color-error)] px-2 py-1 bg-[color:var(--color-error-container)] rounded-lg">
-                        {student.debt} pts debt
-                      </span>
+                      <div>
+                        <span className="text-xs font-bold text-[color:var(--color-error)] px-2 py-1 bg-[color:var(--color-error-container)] rounded-lg inline-block">
+                          {student.debt} pts debt
+                        </span>
+                        {student.openMistakes !== undefined && (
+                          <div className="text-[11px] text-[color:var(--color-on-surface-variant)] mt-1">
+                            {student.openMistakes} open question{student.openMistakes === 1 ? '' : 's'}
+                          </div>
+                        )}
+                      </div>
                     ) : (
                       <span className="text-xs font-bold text-green-700 px-2 py-1 bg-green-100 rounded-lg flex items-center w-fit">
                         <span className="material-symbols-outlined text-[14px] mr-1">check_circle</span>

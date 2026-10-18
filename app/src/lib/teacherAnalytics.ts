@@ -1,5 +1,5 @@
 import { prisma } from "@/lib/prisma"
-import { dayIndex, effectiveStreak, studyDaySet, studyWeek } from "@/lib/streak"
+import { dayIndex, effectiveStreak, streakFromStudyDays, studyDaySet, studyWeek } from "@/lib/streak"
 
 export interface TopErrorItem {
   word: string
@@ -69,6 +69,14 @@ export async function getClassroomAnalytics(classroomId: string): Promise<Classr
           where: { startTime: { gte: new Date(Date.now() - 14 * 86_400_000) } },
           select: { startTime: true },
         },
+        journalEntries: {
+          where: { createdAt: { gte: new Date(Date.now() - 14 * 86_400_000) } },
+          select: { createdAt: true },
+        },
+        flashcardProgress: {
+          where: { lastReviewAt: { gte: new Date(Date.now() - 14 * 86_400_000) } },
+          select: { lastReviewAt: true },
+        },
       },
     }),
     prisma.errorLog.findMany({
@@ -89,11 +97,16 @@ export async function getClassroomAnalytics(classroomId: string): Promise<Classr
     }),
   ])
 
-  // Aggregate missed concepts by word first, or by question concept when wordId is null
+  // Aggregate unique open errors per student + question/word
+  const seenPerStudent = new Set<string>()
   const buckets = new Map<string, { word: string; count: number; users: Set<string>; category?: string }>()
   const typeCounts = new Map<string, number>()
 
   for (const log of errorLogs) {
+    const dedupKey = `${log.userId}:${log.questionId ? `q:${log.questionId}` : `w:${log.wordId}`}`
+    if (seenPerStudent.has(dedupKey)) continue
+    seenPerStudent.add(dedupKey)
+
     if (log.word?.word) {
       const key = `w:${log.word.id}`
       const cur = buckets.get(key) ?? { word: log.word.word, count: 0, users: new Set<string>(), category: "vocab" }
@@ -122,7 +135,6 @@ export async function getClassroomAnalytics(classroomId: string): Promise<Classr
       category: b.category,
     }))
 
-  // Build real-time Action Items from live student & error data
   const actionItems: ActionItem[] = []
   const now = new Date()
   const todayIdx = dayIndex(now)
@@ -135,11 +147,11 @@ export async function getClassroomAnalytics(classroomId: string): Promise<Classr
       id: "top-concept",
       tone: "error",
       icon: "menu_book",
-      title: `Focus concept: "${top.word}" (${top.count} mistake${top.count > 1 ? "s" : ""})`,
+      title: `Focus concept: "${top.word}" (${top.count} student${top.count > 1 ? "s" : ""})`,
       detail:
         topType && topType[0] !== "vocabulary"
-          ? `Missed by ${top.studentCount} student${top.studentCount > 1 ? "s" : ""}. Most errors in this class are on ${topType[0]} exercises (${topType[1]} open log${topType[1] > 1 ? "s" : ""}).`
-          : `Missed by ${top.studentCount} student${top.studentCount > 1 ? "s" : ""}. Review "${top.word}" in context during your next class.`,
+          ? `Currently unresolved for ${top.studentCount} student${top.studentCount > 1 ? "s" : ""}. Most open errors in this class are on ${topType[0]} questions (${topType[1]} open item${topType[1] > 1 ? "s" : ""}).`
+          : `Currently unresolved for ${top.studentCount} student${top.studentCount > 1 ? "s" : ""}. Review "${top.word}" in context during your next class.`,
     })
   }
 
@@ -152,7 +164,7 @@ export async function getClassroomAnalytics(classroomId: string): Promise<Classr
     const totalDebt = withDebt.reduce((sum, s) => sum + (s.errorScore || 0), 0)
     const names = withDebt
       .slice(0, 3)
-      .map((s) => `${s.name || s.email.split("@")[0]} (${s.errorScore} pts)`)
+      .map((s) => `${(s.name || s.email.split("@")[0]).trim()} (${s.errorScore} pts)`)
       .join(", ")
     actionItems.push({
       id: "error-debt",
@@ -165,18 +177,25 @@ export async function getClassroomAnalytics(classroomId: string): Promise<Classr
 
   // 3. Weekly frequency & today's participation
   if (students.length > 0) {
-    const practicedTodayCount = students.filter(
-      (s) => !!s.streaks?.lastLogin && dayIndex(new Date(s.streaks.lastLogin)) === todayIdx
-    ).length
-    const zeroThisWeek = students.filter((s) => {
-      const days = studyDaySet(s.sessions)
-      return studyWeek(days, now).filter(Boolean).length === 0
+    const studentDaysList = students.map((s) => {
+      const dates = [
+        ...s.sessions.map((x) => x.startTime),
+        ...s.journalEntries.map((x) => x.createdAt),
+        ...s.flashcardProgress.filter((x) => x.lastReviewAt != null).map((x) => x.lastReviewAt!),
+        ...(s.streaks?.lastLogin ? [s.streaks.lastLogin] : []),
+      ]
+      return { s, days: studyDaySet(dates.map((d) => ({ startTime: d }))) }
     })
+
+    const practicedTodayCount = studentDaysList.filter(({ days }) => days.has(todayIdx)).length
+    const zeroThisWeek = studentDaysList
+      .filter(({ days }) => studyWeek(days, now).filter(Boolean).length === 0)
+      .map(({ s }) => s)
 
     if (zeroThisWeek.length > 0) {
       const inactiveNames = zeroThisWeek
         .slice(0, 3)
-        .map((s) => s.name || s.email.split("@")[0])
+        .map((s) => (s.name || s.email.split("@")[0]).trim())
         .join(", ")
       actionItems.push({
         id: "weekly-inactive",
@@ -186,7 +205,9 @@ export async function getClassroomAnalytics(classroomId: string): Promise<Classr
         detail: `No activity since Monday: ${inactiveNames}${zeroThisWeek.length > 3 ? ` +${zeroThisWeek.length - 3} more` : ""}. Today's class participation: ${practicedTodayCount}/${students.length}.`,
       })
     } else {
-      const activeStreaks = students.filter((s) => effectiveStreak(s.streaks, now) > 0).length
+      const activeStreaks = studentDaysList.filter(
+        ({ s, days }) => Math.max(effectiveStreak(s.streaks, now), streakFromStudyDays(days, now)) > 0
+      ).length
       actionItems.push({
         id: "weekly-active",
         tone: "success",

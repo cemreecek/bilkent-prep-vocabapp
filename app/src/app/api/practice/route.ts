@@ -75,6 +75,12 @@ export async function POST(request: Request) {
   const now = new Date()
   const isTooFast = (a: PracticeAnswer) => a.timeSpent !== undefined && a.timeSpent < MIN_HUMAN_SECONDS
 
+  // Sum real time spent across all answered items (capped at 10m per question against idle tabs)
+  const sessionDuration = answers.reduce(
+    (sum, a) => sum + Math.max(0, Math.min(600, Math.round(a.timeSpent || 0))),
+    0
+  )
+
   // Correct AND human-paced -> earns points and clears the error log.
   const clean = answers.filter((a) => a.correct && !isTooFast(a))
   // Wrong answers, plus correct answers given in under 5 seconds, stay/enter the error log.
@@ -83,11 +89,16 @@ export async function POST(request: Request) {
   const tooFastCount = answers.filter((a) => a.correct && isTooFast(a)).length
 
   const result = await prisma.$transaction(async (tx) => {
-    // Re-read inside the transaction so concurrent submits don't overwrite each other.
     const freshUser = await tx.user.findUniqueOrThrow({ where: { id: user.id } })
 
     const sessionRecord = await tx.session.create({
-      data: { userId: user.id, startTime: now, endTime: now, duration: 0, type },
+      data: {
+        userId: user.id,
+        startTime: new Date(now.getTime() - sessionDuration * 1000),
+        endTime: now,
+        duration: sessionDuration,
+        type,
+      },
     })
 
     // Match error logs by question when we have one, by word only as a fallback.
@@ -97,14 +108,11 @@ export async function POST(request: Request) {
         : { userId: user.id, questionId: null, wordId: a.wordId! }
 
     // 1) Clean correct answers clear the matching open error logs (and ONLY those).
-    let clearedLogs = 0
     for (const a of clean) {
-      const { count } = await tx.errorLog.deleteMany({ where: logWhere(a) })
-      clearedLogs += count
+      await tx.errorLog.deleteMany({ where: logWhere(a) })
     }
 
     // 2) Mistakes and too-fast answers keep a single open log per question.
-    let newLogs = 0
     for (const a of penalised) {
       const exists = await tx.errorLog.findFirst({ where: logWhere(a), select: { id: true } })
       if (exists) continue
@@ -116,15 +124,11 @@ export async function POST(request: Request) {
           wordId: a.wordId ?? null,
         },
       })
-      newLogs++
     }
 
-    // 3) Error points = +5 per NEW unresolved log, -5 per log actually revised.
-    //    Speed penalties are logs too, so they are only removed by re-answering
-    //    the question correctly at a human pace.
-    let errorScore = Math.max(0, freshUser.errorScore + (newLogs - clearedLogs) * ERROR_POINTS)
+    // 3) Error points strictly match the user's open unresolved ErrorLog count (* 5).
     const openLogs = await tx.errorLog.count({ where: { userId: user.id } })
-    if (openLogs === 0) errorScore = 0
+    const errorScore = openLogs * ERROR_POINTS
 
     if (errorScore !== freshUser.errorScore) {
       await tx.user.update({ where: { id: user.id }, data: { errorScore } })

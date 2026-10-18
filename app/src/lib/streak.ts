@@ -33,6 +33,22 @@ export function effectiveStreak(
   return gap <= 1 ? streak.currentStreak : 0
 }
 
+/**
+ * Computes the active consecutive-day streak directly from the set of calendar days
+ * the student actually studied (alive if they studied today or yesterday).
+ */
+export function streakFromStudyDays(days: Set<number>, now: Date = new Date()): number {
+  const today = dayIndex(now)
+  let cur = days.has(today) ? today : days.has(today - 1) ? today - 1 : -1
+  if (cur === -1) return 0
+  let count = 0
+  while (days.has(cur)) {
+    count++
+    cur--
+  }
+  return count
+}
+
 /* ---------- Study-day counters (weekly / monthly) ---------- */
 
 /** Set of calendar days (Turkey time) on which the user has any study session. */

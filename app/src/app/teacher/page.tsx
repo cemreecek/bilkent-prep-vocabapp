@@ -1,4 +1,4 @@
-import { effectiveStreak, dayIndex, studyDaySet, studyWeek, studyDaysThisMonth } from "@/lib/streak"
+import { effectiveStreak, dayIndex, studyDaySet, studyWeek, studyDaysThisMonth, streakFromStudyDays } from "@/lib/streak"
 import { getClassroomAnalytics, type ActionItem, type TopErrorItem } from "@/lib/teacherAnalytics"
 import React from "react";
 import Link from "next/link";
@@ -24,7 +24,7 @@ export default async function TeacherDashboard({ searchParams }: { searchParams:
   let classroomName = "No Classroom Selected";
   let totalStudents = 0;
   let avgDailyStreak = 0;
-  let practiceTimeAvg = 0;
+  let practiceTimeAvg = "0.0";
   let joinCode = "";
   let roster: any[] = [];
   let topErrors: TopErrorItem[] = [];
@@ -51,6 +51,9 @@ export default async function TeacherDashboard({ searchParams }: { searchParams:
             include: {
               streaks: true,
               sessions: true,
+              journalEntries: { select: { createdAt: true } },
+              flashcardProgress: { select: { lastReviewAt: true } },
+              errorLogs: { select: { id: true, questionId: true, wordId: true } },
             }
           }
         }
@@ -62,44 +65,65 @@ export default async function TeacherDashboard({ searchParams }: { searchParams:
         totalStudents = liveClassroom.students.length;
 
         if (liveClassroom.students.length > 0) {
-          const totalStreak = liveClassroom.students.reduce((sum, s) => sum + effectiveStreak(s.streaks), 0);
-          avgDailyStreak = Number((totalStreak / totalStudents).toFixed(1));
+          const now = new Date();
+          const todayIdx = dayIndex(now);
 
-          const totalDuration = liveClassroom.students.reduce((sum, s) => {
-            const studentTotal = s.sessions?.reduce((sSum, sess) => sSum + (sess.duration || 0), 0) || 0;
-            return sum + studentTotal;
-          }, 0);
-
-          practiceTimeAvg = Math.round((totalDuration / 3600) / totalStudents);
+          let classStreakSum = 0;
+          let classDurationSecSum = 0;
 
           roster = liveClassroom.students.map(s => {
-            const streak = effectiveStreak(s.streaks)
-            const debt = s.errorScore || 0
+            const allActivityDates: Date[] = [
+              ...(s.sessions?.map(x => new Date(x.startTime)) || []),
+              ...(s.journalEntries?.map(x => new Date(x.createdAt)) || []),
+              ...(s.flashcardProgress?.filter(x => x.lastReviewAt != null).map(x => new Date(x.lastReviewAt!)) || []),
+              ...(s.streaks?.lastLogin ? [new Date(s.streaks.lastLogin)] : []),
+            ];
 
-            // 0 debt = 5.0 points. Penalty: e.g. 30 debt -> 2.0 penalty -> 3.0/5.0
-            const debtPenalty = debt / 15
-            let weeklyPoints = (5.0 - debtPenalty).toFixed(1)
-            if (parseFloat(weeklyPoints) < 0) weeklyPoints = "0.0"
+            const latestActivity = allActivityDates.length > 0
+              ? allActivityDates.sort((a, b) => b.getTime() - a.getTime())[0]
+              : null;
 
-            const studyDays = studyDaySet(s.sessions)
-            const weekDays = studyWeek(studyDays)
+            const studyDays = studyDaySet(allActivityDates.map(d => ({ startTime: d })));
+            const weekDays = studyWeek(studyDays, now);
+            const streak = Math.max(effectiveStreak(s.streaks, now), streakFromStudyDays(studyDays, now));
+            classStreakSum += streak;
+
+            // Real open error debt derived from unique unresolved error logs (5 pts each)
+            const uniqErrorCount = new Set(
+              (s.errorLogs || []).map(e => e.questionId ? `q:${e.questionId}` : e.wordId ? `w:${e.wordId}` : e.id)
+            ).size;
+            const debt = uniqErrorCount > 0 ? uniqErrorCount * 5 : (s.errorScore || 0);
+
+            // 0 debt = 5.0 points. Penalty: 1.0 point per 15 debt points (0.333 per 5-pt mistake)
+            const debtPenalty = debt / 15;
+            let weeklyPoints = (5.0 - debtPenalty).toFixed(1);
+            if (parseFloat(weeklyPoints) < 0) weeklyPoints = "0.0";
+
+            const studentSec = s.sessions?.reduce((sSum, sess) => sSum + (sess.duration || 0), 0) || 0;
+            classDurationSecSum += studentSec;
 
             return {
               id: s.id,
-              name: s.name || "Student",
+              name: (s.name || "Student").trim(),
               email: s.email,
-              initials: (s.name || "S").substring(0, 2).toUpperCase(),
+              initials: ((s.name || "S").trim()).substring(0, 2).toUpperCase(),
               streak,
               weekDays,
               weekCount: weekDays.filter(Boolean).length,
-              monthCount: studyDaysThisMonth(studyDays),
-              practicedToday: !!s.streaks?.lastLogin && dayIndex(new Date(s.streaks.lastLogin)) === dayIndex(new Date()),
+              monthCount: studyDaysThisMonth(studyDays, now),
+              practicedToday: studyDays.has(todayIdx),
               debt,
+              openMistakes: uniqErrorCount,
               points: weeklyPoints,
-              lastLogin: s.streaks?.lastLogin || s.createdAt,
-              timeSpentHours: ((s.sessions?.reduce((sSum, sess) => sSum + (sess.duration || 0), 0) || 0) / 3600).toFixed(1)
-            }
+              lastLogin: latestActivity ? latestActivity.toISOString() : null,
+              timeSpentHours: (studentSec / 3600).toFixed(1),
+              timeSpentMinutes: Math.round(studentSec / 60),
+              sessionCount: s.sessions?.length || 0,
+            };
           });
+
+          avgDailyStreak = Number((classStreakSum / totalStudents).toFixed(1));
+          practiceTimeAvg = ((classDurationSecSum / 3600) / totalStudents).toFixed(1);
         }
 
         const analytics = await getClassroomAnalytics(liveClassroom.id);
@@ -112,6 +136,7 @@ export default async function TeacherDashboard({ searchParams }: { searchParams:
   }
 
   const hasLiveRoster = roster.length > 0;
+  const activeThisWeekCount = roster.filter(s => (s.weekCount || 0) > 0).length;
 
   return (
     <div className="flex bg-[color:var(--color-surface)] min-h-screen">
@@ -200,10 +225,10 @@ export default async function TeacherDashboard({ searchParams }: { searchParams:
           </div>
 
           {/* Top Section: General Stats + Live Error Analytics side-by-side */}
-          <div className="grid grid-cols-1 xl:grid-cols-12 gap-[var(--spacing-gutter)] items-stretch">
+          <div className="grid grid-cols-1 xl:grid-cols-12 gap-[var(--spacing-gutter)] items-start">
             {/* General Stats (Total Students, Class Performance, Practice Time) */}
             <div className="xl:col-span-6 grid grid-cols-1 sm:grid-cols-3 gap-[var(--spacing-gutter)]">
-              <div className="bg-[color:var(--color-surface-container-lowest)] p-6 rounded-xl border border-[color:var(--color-outline-variant)] hover:shadow-sm transition-shadow flex flex-col justify-between">
+              <div className="bg-[color:var(--color-surface-container-lowest)] p-6 rounded-xl border border-[color:var(--color-outline-variant)] hover:shadow-sm transition-shadow">
                 <div className="flex items-center justify-between mb-2">
                   <p className="text-[color:var(--color-on-surface-variant)] font-[family-name:var(--font-label-sm)] uppercase tracking-wider">
                     Total Students
@@ -217,13 +242,13 @@ export default async function TeacherDashboard({ searchParams }: { searchParams:
                 </p>
                 <div className="mt-2 flex items-center text-[color:var(--color-secondary)] font-medium">
                   <span className="material-symbols-outlined text-sm mr-1">trending_up</span>
-                  <span className="text-xs">{hasLiveRoster ? 'Active this week' : 'Enrolled students'}</span>
+                  <span className="text-xs">{activeThisWeekCount} of {totalStudents} active this week</span>
                 </div>
               </div>
 
               <AnalyticsTrigger roster={roster} topErrors={topErrors} />
 
-              <div className="bg-[color:var(--color-surface-container-lowest)] p-6 rounded-xl border border-[color:var(--color-outline-variant)] hover:shadow-sm transition-shadow flex flex-col justify-between">
+              <div className="bg-[color:var(--color-surface-container-lowest)] p-6 rounded-xl border border-[color:var(--color-outline-variant)] hover:shadow-sm transition-shadow">
                 <div className="flex items-center justify-between mb-2">
                   <p className="text-[color:var(--color-on-surface-variant)] font-[family-name:var(--font-label-sm)] uppercase tracking-wider">
                     Practice Time
@@ -236,7 +261,7 @@ export default async function TeacherDashboard({ searchParams }: { searchParams:
                   {practiceTimeAvg}h<span className="text-[length:var(--text-title-md)]">/avg</span>
                 </p>
                 <p className="text-xs text-[color:var(--color-on-surface-variant)] mt-2 font-medium">
-                  Weekly engagement target: 15h
+                  Total sessions: {roster.reduce((sum, s) => sum + (s.sessionCount || 0), 0)}
                 </p>
               </div>
             </div>

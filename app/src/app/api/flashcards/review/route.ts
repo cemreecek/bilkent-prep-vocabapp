@@ -45,10 +45,10 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 
-  // Any flashcard review counts today as a studied day (streak + weekly/monthly counters)
-  await recordStudyActivity(user.id, 'flashcard')
-
   const { wordId, quality, timeSpent } = await request.json()
+
+  // Any flashcard review counts today as a studied day and records real timeSpent
+  await recordStudyActivity(user.id, 'flashcard', typeof timeSpent === 'number' ? timeSpent : 0)
   
   // quality is 0-5 (0=Again, 3=Hard, 4=Good, 5=Easy)
   const numericQuality = parseInt(quality)
