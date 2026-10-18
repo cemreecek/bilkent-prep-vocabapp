@@ -54,8 +54,21 @@ export default function PracticeCard({
   const [matchingError, setMatchingError] = useState(false)
   const [hasFailedMatch, setHasFailedMatch] = useState(false)
 
+  const norm = (t: string) => (t || '').trim().toLowerCase().replace(/\s+/g, ' ')
+
+  // Two different items may share the same word or the same definition.
+  // A pair is correct if it is the original pair OR the texts are identical,
+  // so duplicate answers are interchangeable.
+  const isValidMatch = (wId: string, dId: string) => {
+    if (wId === dId) return true
+    const w = shuffledItems.words.find(x => x.id === wId)
+    const d = shuffledItems.defs.find(x => x.id === dId)
+    if (!w || !d) return false
+    return norm(w.word) === norm(d.word) || (norm(w.def) !== '' && norm(w.def) === norm(d.def))
+  }
+
   const checkMatch = (wId: string, dId: string) => {
-    if (wId === dId) {
+    if (isValidMatch(wId, dId)) {
       const newPairs = [...matchingPairs, { wordId: wId, defId: dId }];
       setMatchingPairs(newPairs);
       setSelectedWordId(null);
@@ -97,8 +110,12 @@ export default function PracticeCard({
     const timeSpent = Math.floor((Date.now() - startTime) / 1000)
     
     // Auto-advance after 1.5s
+    // An option is also correct if it has the same text as a correct option.
+    const isCorrect = option.isCorrect ||
+      options.some(o => o.isCorrect && (o.blankIndex || 1) === (option.blankIndex || 1) && norm(o.text) === norm(option.text))
+
     setTimeout(() => {
-      onAnswer(option.isCorrect, timeSpent)
+      onAnswer(isCorrect, timeSpent)
       setSelectedOptionId(null)
       setHasAnswered(false)
     }, 1500)

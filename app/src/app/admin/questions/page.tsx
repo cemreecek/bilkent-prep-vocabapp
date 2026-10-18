@@ -53,15 +53,14 @@ export default function QuestionEditorPage() {
   const setOption = (q: Q, idx: number, changes: Partial<Opt>) =>
     patch(q.id, { options: q.options.map((o, i) => (i === idx ? { ...o, ...changes } : o)) });
 
-  // Mark one option as the single correct one within its blank group.
-  const markCorrect = (q: Q, idx: number) => {
-    const group = q.options[idx].blankIndex ?? 1;
-    patch(q.id, {
-      options: q.options.map((o, i) =>
-        (o.blankIndex ?? 1) === group ? { ...o, isCorrect: i === idx } : o
-      ),
-    });
-  };
+  const addOption = (q: Q, blankIndex: number | null) =>
+    patch(q.id, { options: [...q.options, { text: "", isCorrect: false, blankIndex }] });
+
+  const removeOption = (q: Q, idx: number) =>
+    patch(q.id, { options: q.options.filter((_, i) => i !== idx) });
+
+  const hasBlanks = (q: Q) => q.type === "paragraph-cloze" || q.options.some((o) => (o.blankIndex ?? 1) !== 1);
+  const nextBlank = (q: Q) => Math.max(0, ...q.options.map((o) => o.blankIndex ?? 1)) + 1;
 
   const save = async (q: Q) => {
     setSavingId(q.id);
@@ -107,9 +106,10 @@ export default function QuestionEditorPage() {
           <h1 className="text-3xl font-extrabold text-gray-900">Question Editor</h1>
           <p className="mt-1 text-gray-600">Find and fix saved questions. Wrong answer keys are flagged automatically.</p>
         </div>
-        <Link href="/admin/content-manager" className="text-sm font-semibold text-blue-600 hover:underline">
-          ← Content Manager
-        </Link>
+        <div className="flex flex-col items-end gap-1">
+          <Link href="/admin" className="text-sm font-semibold text-blue-600 hover:underline">← Admin Dashboard</Link>
+          <Link href="/admin/content-manager" className="text-sm font-semibold text-blue-600 hover:underline">Content Manager</Link>
+        </div>
       </div>
 
       <div className="bg-white p-4 rounded-2xl border border-gray-200 mb-6 grid grid-cols-1 md:grid-cols-5 gap-3 items-end">
@@ -160,25 +160,57 @@ export default function QuestionEditorPage() {
             <label className="block text-xs font-semibold text-gray-600 mb-1">Question</label>
             <textarea className={`${input} mb-3`} rows={3} value={q.questionText} onChange={(e) => patch(q.id, { questionText: e.target.value })} />
 
-            {q.options.length === 0 ? (
-              <>
-                <label className="block text-xs font-semibold text-gray-600 mb-1">Correct answer</label>
-                <input className={`${input} mb-3`} value={q.correctAnswer ?? ""} onChange={(e) => patch(q.id, { correctAnswer: e.target.value })} />
-              </>
-            ) : (
-              <div className="mb-3 space-y-2">
-                <label className="block text-xs font-semibold text-gray-600">Options (select the correct one)</label>
+            <label className="block text-xs font-semibold text-gray-600 mb-1">
+              Correct answer text (used by gap-fill questions)
+            </label>
+            <input className={`${input} mb-3`} value={q.correctAnswer ?? ""} onChange={(e) => patch(q.id, { correctAnswer: e.target.value })} />
+
+            <div className="mb-3">
+              <div className="flex items-center justify-between mb-1">
+                <label className="block text-xs font-semibold text-gray-600">
+                  Options {hasBlanks(q) ? "(blank number + correct tick)" : "(tick every option that is correct)"}
+                </label>
+              </div>
+              {q.options.length > 0 && (
+                <div className="hidden md:flex gap-2 text-[11px] font-semibold text-gray-500 px-1 mb-1">
+                  <span className="w-16">Blank #</span>
+                  <span className="w-16">Correct?</span>
+                  <span className="flex-1">Text</span>
+                  <span className="w-8" />
+                </div>
+              )}
+              <div className="space-y-2">
                 {q.options.map((o, idx) => (
-                  <div key={o.id ?? idx} className="flex items-center gap-2">
-                    {q.options.some((x) => (x.blankIndex ?? 1) !== 1) && (
-                      <span className="text-xs text-gray-500 w-14">Blank {o.blankIndex ?? 1}</span>
-                    )}
-                    <input type="radio" checked={o.isCorrect} onChange={() => markCorrect(q, idx)} className="accent-green-600" />
+                  <div key={idx} className="flex items-center gap-2">
+                    <input
+                      type="number"
+                      min={1}
+                      title="Blank number"
+                      className="w-16 border border-gray-300 rounded-lg p-2 text-sm"
+                      value={o.blankIndex ?? 1}
+                      onChange={(e) => setOption(q, idx, { blankIndex: Math.max(1, parseInt(e.target.value) || 1) })}
+                    />
+                    <label className="w-16 flex items-center gap-1 text-sm">
+                      <input
+                        type="checkbox"
+                        className="w-5 h-5 accent-green-600"
+                        checked={o.isCorrect}
+                        onChange={(e) => setOption(q, idx, { isCorrect: e.target.checked })}
+                      />
+                      <span className={o.isCorrect ? "text-green-700 font-semibold" : "text-gray-400"}>{o.isCorrect ? "Yes" : "No"}</span>
+                    </label>
                     <input className={input} value={o.text} onChange={(e) => setOption(q, idx, { text: e.target.value })} />
+                    <button onClick={() => removeOption(q, idx)} title="Remove option" className="w-8 text-red-500 hover:text-red-700 font-bold">✕</button>
                   </div>
                 ))}
               </div>
-            )}
+              <div className="flex gap-3 mt-2">
+                <button onClick={() => addOption(q, hasBlanks(q) ? Math.max(1, nextBlank(q) - 1) : 1)} className="text-sm text-blue-600 font-semibold hover:underline">+ Add option</button>
+                {q.type === "paragraph-cloze" && (
+                  <button onClick={() => addOption(q, nextBlank(q))} className="text-sm text-blue-600 font-semibold hover:underline">+ Add new blank</button>
+                )}
+              </div>
+            </div>
 
             <div className="flex items-center justify-end gap-3">
               {savedId === q.id && <span className="text-sm text-green-600 font-semibold">Saved ✓</span>}

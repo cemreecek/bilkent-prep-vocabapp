@@ -109,6 +109,7 @@ export default function ContentManagerPage() {
 
   return (
     <div className="max-w-5xl mx-auto py-8 px-4">
+      <a href="/admin" className="inline-flex items-center gap-1 mb-4 text-sm font-semibold text-blue-600 hover:underline">← Back to Admin Dashboard</a>
       <div className="mb-8">
         <h1 className="text-3xl font-extrabold text-gray-900 tracking-tight">AI Content Manager</h1>
         <p className="mt-2 text-gray-600">Upload Word documents, let Gemini parse them into structure, review visually, and instantly inject them into your database.</p>
